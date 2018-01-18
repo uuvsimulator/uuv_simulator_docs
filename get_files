@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+ROOT_LOCAL=./source/files
+
+mkdir -p $ROOT_LOCAL/tutorials/thruster_manager
+cp $(rospack find uuv_thruster_manager)/config/rexrov/thruster_manager.yaml $ROOT_LOCAL/tutorials/thruster_manager
+
+mkdir -p $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/models/tutorial_seabed/model.config $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/models/tutorial_seabed/model.sdf $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/CMakeLists.txt $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/package.xml $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/worlds/example_underwater.world $ROOT_LOCAL/tutorials/seabed_world
+cp $(rospack find uuv_tutorial_seabed_world)/launch/tutorial_seabed_world.launch $ROOT_LOCAL/tutorials/seabed_world
+
+mkdir -p $ROOT_LOCAL/tutorials/dp_controller
+cp $(rospack find uuv_tutorial_dp_controller)/launch/start_tutorial_dp_controller_demo.launch $ROOT_LOCAL/tutorials/dp_controller
+cp $(rospack find uuv_tutorial_dp_controller)/CMakeLists.txt $ROOT_LOCAL/tutorials/dp_controller

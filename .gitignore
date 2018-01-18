@@ -1,0 +1,13 @@
+*~
+*.pyc
+*.swp
+
+# IDEs
+.vscode
+.idea
+.ropeproject
+.imdone
+
+# Documentation
+build
+source/files
