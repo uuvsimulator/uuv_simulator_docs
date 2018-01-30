@@ -3,7 +3,7 @@
 Starting a plume simulation
 ===========================
 
-Tracking and/or mapping of chemical plumes is one of the often use-cases addressed when regarding guidances strategies for AUVs.
+Tracking and/or mapping of chemical plumes is one of the use-cases often addressed when regarding guidances strategies for AUVs.
 It presents also a challenge when setting up a simulation in order to design the desired algorithm since the setup of the real experiment can present various types of challenges and can hardly be repeated under the same conditions.
 
 For this objective, the algorithm presented in :cite:`Tian_2010` for both the dynamics of plume particles and the particle concentration sensor have been implemented in the `uuv_plume_simulation <https://github.com/uuvsimulator/uuv_plume_simulator>`_.
