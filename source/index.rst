@@ -15,6 +15,11 @@ To send questions and/or issues, please refer to the `repository's issues page <
 Click `here <https://github.com/uuvsimulator/uuv_simulator>`_ to access the
 GitHub repository.
 
+**Status of the master branch**
+
+.. image:: https://travis-ci.org/uuvsimulator/uuv_simulator.svg?branch=master
+    :target: https://travis-ci.org/uuvsimulator/uuv_simulator
+
 Contents
 --------
 

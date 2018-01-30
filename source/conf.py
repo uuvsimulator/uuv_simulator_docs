@@ -42,6 +42,9 @@ extensions = [
     'matplotlib.sphinxext.plot_directive'
 ]
 
+feed_base_url = 'https://uuvsimulator.github.io/'
+feed_author = 'UUV Simulator Authors'
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
