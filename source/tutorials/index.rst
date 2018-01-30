@@ -11,3 +11,4 @@ Tutorials
   creating_new_dp_controller
   seabed_world
   disturbances
+  plume_simulation

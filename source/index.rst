@@ -73,6 +73,17 @@ file for details.
 For a list of other open source components included in UUV Simulator, see the
 file `3rd-party-licenses.txt <https://github.com/uuvsimulator/uuv_simulator/blob/master/3rd-party-licenses.txt>`_.
 
+Repositories
+------------
+
+* `uuv_simulator <https://github.com/uuvsimulator/uuv_simulator>`_
+* `uuv_plume_simulator <https://github.com/uuvsimulator/uuv_plume_simulator>`_
+* `netcdf_ros <https://github.com/uuvsimulator/netcdf_ros>`_
+* `desistek_saga <https://github.com/uuvsimulator/desistek_saga>`_
+* `eca_a9 <https://github.com/uuvsimulator/eca_a9>`_
+* `rexrov2 <https://github.com/uuvsimulator/rexrov2>`_
+* `uuv_simulation_evaluation <https://github.com/uuvsimulator/uuv_simulation_evaluation>`_
+
 Indices and tables
 ==================
 
