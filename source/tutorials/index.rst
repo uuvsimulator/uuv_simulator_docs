@@ -12,3 +12,4 @@ Tutorials
   seabed_world
   disturbances
   plume_simulation
+  simulation_wrapper

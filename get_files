@@ -15,3 +15,10 @@ cp $(rospack find uuv_tutorial_seabed_world)/launch/tutorial_seabed_world.launch
 mkdir -p $ROOT_LOCAL/tutorials/dp_controller
 cp $(rospack find uuv_tutorial_dp_controller)/launch/start_tutorial_dp_controller_demo.launch $ROOT_LOCAL/tutorials/dp_controller
 cp $(rospack find uuv_tutorial_dp_controller)/CMakeLists.txt $ROOT_LOCAL/tutorials/dp_controller
+
+mkdir -p $ROOT_LOCAL/tutorials/simulation_wrapper
+cp $(rospack find uuv_simulation_wrapper)/launch/set_simulation_timer.launch $ROOT_LOCAL/tutorials/simulation_wrapper
+cp $(rospack find uuv_simulation_wrapper)/launch/unpause_simulation.launch $ROOT_LOCAL/tutorials/simulation_wrapper
+cp $(rospack find uuv_simulation_runner_example)/scripts/run_grid_search $ROOT_LOCAL/tutorials/simulation_wrapper
+cp $(rospack find uuv_simulation_runner_example)/launch/start_simulation.launch $ROOT_LOCAL/tutorials/simulation_wrapper
+cp $(rospack find uuv_simulation_runner_example)/config/task.yml $ROOT_LOCAL/tutorials/simulation_wrapper
