@@ -262,3 +262,8 @@ The results folder in this case will have one folder for each simulation run con
 To run the example, use the following command ::
 
   rosrun uuv_simulation_runner_example run_grid_search --n_points <N_POINTS>
+
+.. note::
+
+  The Python simulation wrapper assigns a random port to the ROS master and Gazebo for each time a new simulation run is done and locks the ports for the duration of the simulation.
+  That allows several instances of the simulation to be started at the same time using this wrapper.
