@@ -15,6 +15,9 @@ To send questions and/or issues, please refer to the `repository's issues page <
 Click `here <https://github.com/uuvsimulator/uuv_simulator>`_ to access the
 GitHub repository.
 
+.. image:: https://img.shields.io/gitter/room/nwjs/nw.js.svg   
+    :target: https://gitter.im/uuvsimulator
+
 **Status of the master branch**
 
 .. image:: https://travis-ci.org/uuvsimulator/uuv_simulator.svg?branch=master
