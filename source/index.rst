@@ -34,6 +34,7 @@ Contents
   quick_start
   tutorials/index
   vehicles
+  sim_scenarios
   faq
   license
 
