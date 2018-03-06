@@ -15,6 +15,39 @@
 import sys
 import os
 
+import rospkg
+from rospkg import RosPack
+ROSPACK_INST = RosPack()
+
+pkgs = ['uuv_assistants',         
+        'uuv_control_cascaded_pid',
+        'uuv_control_msgs',
+        'uuv_control_utils',
+        'uuv_thruster_manager',
+        'uuv_trajectory_control',
+        'uuv_descriptions',
+        'uuv_gazebo_plugins',
+        'uuv_gazebo_ros_plugins',
+        'uuv_gazebo_ros_plugins_msgs',
+        'uuv_sensor_ros_plugins',
+        'uuv_sensor_plugins_ros_msgs',
+        'uuv_teleop',
+        'uuv_world_plugins',
+        'uuv_world_ros_plugins',
+        'uuv_world_ros_plugins_msgs',
+        'uuv_plume_msgs',
+        'uuv_plume_simulator']
+
+for pkg in pkgs:    
+    if 'scripts' in os.listdir(ROSPACK_INST.get_path(pkg)):
+        sys.path.insert(0, os.path.join(ROSPACK_INST.get_path(pkg), 'scripts'))
+        print 'ADD path: ', os.path.join(ROSPACK_INST.get_path(pkg), 'scripts')
+    if 'src' in os.listdir(ROSPACK_INST.get_path(pkg)):
+        for d in os.listdir(os.path.join(ROSPACK_INST.get_path(pkg), 'src')):
+            if os.path.isdir(os.path.join(ROSPACK_INST.get_path(pkg), 'src', d)):
+                sys.path.insert(0, os.path.join(ROSPACK_INST.get_path(pkg), 'src', d))
+                print 'ADD path: ', os.path.join(ROSPACK_INST.get_path(pkg), 'src', d)
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.

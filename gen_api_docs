@@ -1,0 +1,137 @@
+#!/usr/bin/env bash
+
+rm -rf source/api/*
+
+touch source/api/index.rst
+
+echo ".. _api:" >> source/api/index.rst
+echo "" >> source/api/index.rst
+echo "API Documentation" >> source/api/index.rst
+echo "=================" >> source/api/index.rst
+echo "" >> source/api/index.rst
+
+echo ".. toctree::" >> source/api/index.rst
+echo "   :maxdepth: 4" >> source/api/index.rst
+echo "" >> source/api/index.rst
+
+########################################
+# UUV Simulator
+########################################
+ROOT_PATH=source/api/uuv_simulator
+mkdir -p $ROOT_PATH
+touch $ROOT_PATH/index.rst
+
+echo ".. _api_uuv_simulator:" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+echo "UUV Simulator - API Documentation" >> $ROOT_PATH/index.rst
+echo "=================================" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+
+echo ".. toctree::" >> $ROOT_PATH/index.rst
+echo "   :maxdepth: 3" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+echo "   uuv_simulator/index" >> source/api/index.rst
+
+LIST_PKGS="uuv_assistants 
+           uuv_control_cascaded_pid
+           uuv_control_utils
+           uuv_thruster_manager
+           uuv_trajectory_control
+           uuv_teleop"
+
+for i in $LIST_PKGS
+    do 
+        echo "Processing $i"
+        mkdir -p "$ROOT_PATH/$i"
+
+        PKG_INDEX="$ROOT_PATH/$i/index.rst"
+
+        echo "   $i/index" >> "$ROOT_PATH/index.rst"
+
+        echo ".. _api_$i:" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+        echo "$i" >> "$PKG_INDEX"
+
+        LEN=${#i}  
+        HEADER_LIM='='
+        printf '%*s' "$LEN" | tr ' ' "$HEADER_LIM" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+
+        echo ".. toctree::" >> "$PKG_INDEX"
+        echo "   :maxdepth: 3" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+        
+        CMD="$(rospack find $i)" 
+        DIR="${CMD}"
+        echo "Find package: $DIR/scripts"        
+        if [ -d "$DIR/scripts" ]; then
+            echo "$i - SCRIPTS folder found"
+            sphinx-apidoc -o $ROOT_PATH/$i/scripts -H "$i - SCRIPTS" $DIR/scripts 
+            echo "   scripts/modules" >> "$PKG_INDEX"
+        fi
+
+        if [ -d "$DIR/src" ]; then
+            echo "$i - SRC folder found"
+            sphinx-apidoc -o $ROOT_PATH/$i/src -H "$i - SRC" $DIR/src 
+            echo "   src/modules" >> "$PKG_INDEX"
+        fi
+    done
+
+########################################
+# UUV Plume Simulator
+########################################
+ROOT_PATH=source/api/uuv_plume_simulator
+mkdir -p $ROOT_PATH
+touch $ROOT_PATH/index.rst
+
+echo ".. _api_uuv_plume_simulator:" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+echo "UUV Plume Simulator - API Documentation" >> $ROOT_PATH/index.rst
+echo "=======================================" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+
+echo ".. toctree::" >> $ROOT_PATH/index.rst
+echo "   :maxdepth: 3" >> $ROOT_PATH/index.rst
+echo "" >> $ROOT_PATH/index.rst
+echo "   uuv_plume_simulator/index" >> source/api/index.rst
+
+LIST_PKGS="uuv_plume_simulator"
+
+for i in $LIST_PKGS
+    do 
+        echo "Processing $i"
+        mkdir -p "$ROOT_PATH/$i"
+
+        PKG_INDEX="$ROOT_PATH/$i/index.rst"
+
+        echo "   $i/index" >> "$ROOT_PATH/index.rst"
+
+        echo ".. _api_$i:" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+        echo "$i" >> "$PKG_INDEX"
+
+        LEN=${#i}  
+        HEADER_LIM='='
+        printf '%*s' "$LEN" | tr ' ' "$HEADER_LIM" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+
+        echo ".. toctree::" >> "$PKG_INDEX"
+        echo "   :maxdepth: 3" >> "$PKG_INDEX"
+        echo "" >> "$PKG_INDEX"
+        
+        CMD="$(rospack find $i)" 
+        DIR="${CMD}"
+        echo "Find package: $DIR/scripts"        
+        if [ -d "$DIR/scripts" ]; then
+            echo "$i - SCRIPTS folder found"
+            sphinx-apidoc -o $ROOT_PATH/$i/scripts -H "$i - SCRIPTS" $DIR/scripts 
+            echo "   scripts/modules" >> "$PKG_INDEX"
+        fi
+
+        if [ -d "$DIR/src" ]; then
+            echo "$i - SRC folder found"
+            sphinx-apidoc -o $ROOT_PATH/$i/src -H "$i - SRC" $DIR/src 
+            echo "   src/modules" >> "$PKG_INDEX"
+        fi
+    done
+

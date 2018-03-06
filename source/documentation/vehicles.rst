@@ -8,7 +8,7 @@ Vehicles available
 RexROV
 ------
 
-.. image:: images/vehicles/rexrov.png
+.. image:: ../images/vehicles/rexrov.png
 
 This is the test vehicle available in the UUV simulator package. The RexROV is
 a fully thruster actuated remotely operated vehicle for which the dimensions
@@ -28,7 +28,7 @@ vehicle. To run a demo, use the following ::
 RexROV 2
 --------
 
-.. image:: images/vehicles/rexrov2.png
+.. image:: ../images/vehicles/rexrov2.png
 
 This vehicle is modeled with equal parameters, dimensions and thruster
 configuration as presented in :cite:`Berg_2012`. To run a demo of this vehicle,
@@ -51,7 +51,7 @@ controller.
 Desistek SAGA ROV
 -----------------
 
-.. image:: images/vehicles/desistek_saga.png
+.. image:: ../images/vehicles/desistek_saga.png
 
 To run a demo of this vehicle, clone the repository in your catkin workspace and
 then run a Gazebo UUV simulator world ::
@@ -72,7 +72,7 @@ controller.
 ECA A9 AUV
 ----------
 
-.. image:: images/vehicles/eca_a9.png
+.. image:: ../images/vehicles/eca_a9.png
 
 To run a demo of this vehicle, clone the repository in your catkin workspace and
 then run a Gazebo UUV simulator world ::

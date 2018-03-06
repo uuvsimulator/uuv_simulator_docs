@@ -10,9 +10,9 @@ An ocean box with a underwater heightmap and animated waves. To run it, use the 
 
     roslaunch uuv_descriptions ocean_waves.launch
 
-.. image:: images/scenarios/ocean_waves_gazebo.png
+.. image:: ../images/scenarios/ocean_waves_gazebo.png
 
-.. image:: images/scenarios/ocean_waves_heightmap_gazebo.png
+.. image:: ../images/scenarios/ocean_waves_heightmap_gazebo.png
 
 Empty underwater world
 ----------------------
@@ -21,7 +21,7 @@ An ocean box with fog simulation. To run it, use the following launch file ::
 
     roslaunch uuv_descriptions empty_underwater_world.launch
 
-.. image:: images/scenarios/empty_underwater_world_gazebo.png
+.. image:: ../images/scenarios/empty_underwater_world_gazebo.png
 
 Simple lake
 -----------
@@ -30,7 +30,7 @@ A simple lake made with Blender. To run it, use the following launch file ::
 
     roslaunch uuv_descriptions lake.launch
 
-.. image:: images/scenarios/lake_gazebo.png
+.. image:: ../images/scenarios/lake_gazebo.png
 
 Mangalia coast, Romania
 -----------------------
@@ -39,11 +39,11 @@ The location of the second SWARMs project demonstration was modeled in Gazebo wi
 
     roslaunch uuv_descriptions mangalia.launch
 
-.. image:: images/scenarios/mangalia_gazebo.png
+.. image:: ../images/scenarios/mangalia_gazebo.png
 
 .. note::
 
-    The Gazebo model was made based on images from the local maps and is a rough approximation of the real topography of the region. 
+    The Gazebo model was made based on ../images from the local maps and is a rough approximation of the real topography of the region. 
     Do not use the model as the exact reference for any algorithms.
 
 Location
@@ -73,11 +73,11 @@ The Gazebo world includes an ocean box with fog simulation and can be started as
 
     roslaunch uuv_descriptions herkules_ship_wreck.launch
 
-.. image:: images/scenarios/herkules_gazebo.png
+.. image:: ../images/scenarios/herkules_gazebo.png
 
 .. note::
 
-    This Gazebo model is an 3D approximation made based on images and videos generated in :cite:`Nornes_2015`.
+    This Gazebo model is an 3D approximation made based on ../images and videos generated in :cite:`Nornes_2015`.
     Do not use this model as an exact reference to any algorithms.
 
 Sources
@@ -113,13 +113,13 @@ The Munkholmen fortress is located in the Trondheim fjord, in Norway. The Gazebo
 
     roslaunch uuv_descriptions munkholmen.launch
 
-.. image:: images/scenarios/munkholmen_gazebo.png
+.. image:: ../images/scenarios/munkholmen_gazebo.png
 
-.. image:: images/scenarios/munkholmen_herkules_gazebo.png
+.. image:: ../images/scenarios/munkholmen_herkules_gazebo.png
 
 .. note::
 
-    The Gazebo model was made based on images from the local maps and is a rough approximation of the real topography of the region. 
+    The Gazebo model was made based on ../images from the local maps and is a rough approximation of the real topography of the region. 
     Do not use the model as the exact reference for any algorithms.
 
 Location

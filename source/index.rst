@@ -33,8 +33,8 @@ Contents
   installation
   quick_start
   tutorials/index
-  vehicles
-  sim_scenarios
+  documentation/index
+  api/index
   faq
   license
 
