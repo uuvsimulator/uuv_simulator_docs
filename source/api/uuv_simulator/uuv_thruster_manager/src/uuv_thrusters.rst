@@ -11,8 +11,8 @@ Subpackages
 Submodules
 ----------
 
-uuv\_thrusters\.thruster\_manager module
-----------------------------------------
+uuv\_thrusters.thruster\_manager module
+---------------------------------------
 
 .. automodule:: uuv_thrusters.thruster_manager
     :members:

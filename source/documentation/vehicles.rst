@@ -88,3 +88,10 @@ controller.
 
 
 - `ECA A9 AUV GitHub repository <https://github.com/uuvsimulator/eca_a9>`_
+
+LAUV
+----
+
+.. image:: ../images/vehicles/lauv.png
+
+- `LAUV GitHub repository <https://github.com/uuvsimulator/lauv_gazebo>`_

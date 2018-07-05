@@ -15,7 +15,7 @@ To send questions and/or issues, please refer to the `repository's issues page <
 Click `here <https://github.com/uuvsimulator/uuv_simulator>`_ to access the
 GitHub repository.
 
-.. image:: https://img.shields.io/gitter/room/nwjs/nw.js.svg   
+.. image:: https://img.shields.io/gitter/room/nwjs/nw.js.svg
     :target: https://gitter.im/uuvsimulator
 
 **Status of the master branch**
@@ -54,6 +54,18 @@ If you wish to use the UUV Simulator in a research project, please cite our pape
   	booktitle = {{OCEANS} 2016 {MTS}/{IEEE} Monterey}
   }
 
+You can also check the presentation made for the `Maritime RobotX Forum 2018 <http://www.robotx.org/>`_
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/eoq-Ro2Hnao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+To see the recording of the complete panel, check the video below
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/CXZtw-LeQsY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 Purpose of the project
 ----------------------
 
@@ -87,6 +99,7 @@ Repositories
 * `eca_a9 <https://github.com/uuvsimulator/eca_a9>`_
 * `rexrov2 <https://github.com/uuvsimulator/rexrov2>`_
 * `uuv_simulation_evaluation <https://github.com/uuvsimulator/uuv_simulation_evaluation>`_
+* `lauv_gazebo <https://github.com/uuvsimulator/lauv_gazebo>`_
 
 Indices and tables
 ==================

@@ -4,8 +4,8 @@ PID package
 Submodules
 ----------
 
-PID\.PIDRegulator module
-------------------------
+PID.PIDRegulator module
+-----------------------
 
 .. automodule:: PID.PIDRegulator
     :members:
