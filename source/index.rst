@@ -54,17 +54,45 @@ If you wish to use the UUV Simulator in a research project, please cite our pape
   	booktitle = {{OCEANS} 2016 {MTS}/{IEEE} Monterey}
   }
 
+Other sources
+^^^^^^^^^^^^^
+
+SWARMs Project
+""""""""""""""
+
+* **17-05-2018** - Semi-autonomous manipulation demonstration with UUV Simulator
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/vKMR8-7WRF4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+* **17-10-2016** - Preliminary results
+
+.. raw:: html
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6V_TR9i0k1Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+Maritime Robot X Forum 2018
+"""""""""""""""""""""""""""
+
 You can also check the presentation made for the `Maritime RobotX Forum 2018 <http://www.robotx.org/>`_
 
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/eoq-Ro2Hnao" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+
+
 To see the recording of the complete panel, check the video below
 
 .. raw:: html
 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/CXZtw-LeQsY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
 
 Purpose of the project
 ----------------------
