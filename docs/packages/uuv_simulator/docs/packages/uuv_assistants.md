@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+Tools and utilities to monitor and analyze the simulation
+
 # Launch files
 
 ## [`publish_footprints.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_assistants/launch/publish_footprints.launch)

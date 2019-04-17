@@ -2,6 +2,10 @@
 
 > Link to the `lauv_gazebo` repository [here](https://github.com/uuvsimulator/lauv_gazebo)
 
+# Description
+
+Sample launch files to start a simulated LAUV in Gazebo.
+
 # Launch files
 
 ## [`start_demo_nmb_sm.launch`](https://github.com/uuvsimulator/lauv_gazebo/tree/master/lauv_gazebo/launch/start_demo_nmb_sm.launch)

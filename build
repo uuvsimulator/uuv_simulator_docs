@@ -37,12 +37,37 @@ run_doxygen() {
 
 }
 
+create_readme() {
+    TITLE=$1
+    REPO_NAME=$2
+    OUTPUT_DIR=$3
+    IMAGES=$4
+    
+    echo "# $TITLE" > $OUTPUT_DIR/README.md
+    echo "" >> $OUTPUT_DIR/README.md
+    cat docs/packages/$REPO_NAME/intro.md >> $OUTPUT_DIR/README.md
+    echo "Repository $REPO_NAME README.md update, output_dir=$OUTPUT_DIR"
+
+    if [ -d $OUTPUT_DIR/images ]; then
+        rm -rf $OUTPUT_DIR/images
+    fi
+
+    mkdir $OUTPUT_DIR/images
+    for IMAGE in $IMAGES;
+    do
+        cp docs/packages/$REPO_NAME/images/$IMAGE $OUTPUT_DIR/images
+    done
+}
+
 # Run Doxygen on uuv_simulator modules with C++ plugins
 run_doxygen "uuv_simulator" "uuv_gazebo_plugins uuv_gazebo_ros_plugins uuv_sensor_ros_plugins uuv_world_plugins uuv_world_ros_plugins"
 run_doxygen "uuv_plume_simulator" "uuv_cpc_sensor"
 
 # Build the rest of the documentation
 ./gen_catkin_pkg_docs --config_file config.yaml
+
+# Copy the intro.md files from each package to the README.md of the repository
+create_readme "RexROV 2" rexrov2 $HOME/catkin_ws/src/rexrov2 "rexrov2.png"
 
 # Build the site
 mkdocs build

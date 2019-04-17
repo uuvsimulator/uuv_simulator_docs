@@ -2,6 +2,10 @@
 
 > Link to the `desistek_saga` repository [here](https://github.com/uuvsimulator/desistek_saga)
 
+# Description
+
+Package with launch files for demonstrations with the Desistek SAGA ROV underwater vehicle
+
 # Launch files
 
 ## [`start_demo_nmb_sm_controller.launch`](https://github.com/uuvsimulator/desistek_saga/tree/master/desistek_saga_gazebo/launch/start_demo_nmb_sm_controller.launch)

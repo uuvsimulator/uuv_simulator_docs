@@ -2,6 +2,10 @@
 
 > Link to the `lauv_gazebo` repository [here](https://github.com/uuvsimulator/lauv_gazebo)
 
+# Description
+
+Collection of configuration and launch files to start controllers for the LAUV.
+
 # Launch files
 
 ## [`start_control_allocator.launch`](https://github.com/uuvsimulator/lauv_gazebo/tree/master/lauv_control/launch/start_control_allocator.launch)

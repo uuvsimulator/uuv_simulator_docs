@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The uuv_descriptions package
+
 # Launch files
 
 ## [`upload_rexrov_oberon_arms.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_descriptions/launch/upload_rexrov_oberon_arms.launch)

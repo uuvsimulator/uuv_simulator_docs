@@ -2,6 +2,10 @@
 
 > Link to the `uuv_plume_simulator` repository [here](https://github.com/uuvsimulator/uuv_plume_simulator)
 
+# Description
+
+Plume simulator messages and services package.
+
 # ROS Services
 
 ## `SetCurrentDirection`

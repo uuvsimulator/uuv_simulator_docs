@@ -2,6 +2,10 @@
 
 > Link to the `eca_a9` repository [here](https://github.com/uuvsimulator/eca_a9)
 
+# Description
+
+Configuration and launch files to control the ECA A9 AUV
+
 # Launch files
 
 ## [`start_control_allocator.launch`](https://github.com/uuvsimulator/eca_a9/tree/master/eca_a9_control/launch/start_control_allocator.launch)

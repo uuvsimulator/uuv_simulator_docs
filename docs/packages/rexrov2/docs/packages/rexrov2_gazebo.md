@@ -2,6 +2,10 @@
 
 > Link to the `rexrov2` repository [here](https://github.com/uuvsimulator/rexrov2)
 
+# Description
+
+Package with launch files for demonstrations with the RexROV 2 vehicle with different positioning controllers.
+
 # Launch files
 
 ## [`start_demo_pd_grav_compensation_controller.launch`](https://github.com/uuvsimulator/rexrov2/tree/master/rexrov2_gazebo/launch/start_demo_pd_grav_compensation_controller.launch)

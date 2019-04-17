@@ -2,6 +2,10 @@
 
 > Link to the `eca_a9` repository [here](https://github.com/uuvsimulator/eca_a9)
 
+# Description
+
+Robot description for the ECA A9 AUV
+
 # Launch files
 
 ## [`upload_eca_a9.launch`](https://github.com/uuvsimulator/eca_a9/tree/master/eca_a9_description/launch/upload_eca_a9.launch)

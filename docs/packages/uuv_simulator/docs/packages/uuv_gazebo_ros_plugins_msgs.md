@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The uuv_gazebo_ros_plugins_msgs package
+
 # ROS Services
 
 ## `GetFloat`

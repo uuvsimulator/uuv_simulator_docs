@@ -2,6 +2,10 @@
 
 > Link to the `uuv_plume_simulator` repository [here](https://github.com/uuvsimulator/uuv_plume_simulator)
 
+# Description
+
+The uuv_cpc_sensor package
+
 # Launch files
 
 ## [`start_cpc_sensor.launch`](https://github.com/uuvsimulator/uuv_plume_simulator/tree/master/uuv_cpc_sensor/launch/start_cpc_sensor.launch)

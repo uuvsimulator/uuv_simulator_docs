@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The uuv_control_utils package
+
 # Launch files
 
 ## [`send_waypoints_file.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_control_utils/launch/send_waypoints_file.launch)

@@ -2,6 +2,10 @@
 
 > Link to the `lauv_gazebo` repository [here](https://github.com/uuvsimulator/lauv_gazebo)
 
+# Description
+
+Robot description files for the LAUV.
+
 # Launch files
 
 ## [`upload.launch`](https://github.com/uuvsimulator/lauv_gazebo/tree/master/lauv_description/launch/upload.launch)

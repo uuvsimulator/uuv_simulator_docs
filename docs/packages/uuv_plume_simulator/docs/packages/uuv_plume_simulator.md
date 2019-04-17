@@ -2,6 +2,10 @@
 
 > Link to the `uuv_plume_simulator` repository [here](https://github.com/uuvsimulator/uuv_plume_simulator)
 
+# Description
+
+Plume simulator package
+
 # Launch files
 
 ## [`start_demo_turbulent_plume.launch`](https://github.com/uuvsimulator/uuv_plume_simulator/tree/master/uuv_plume_simulator/launch/start_demo_turbulent_plume.launch)

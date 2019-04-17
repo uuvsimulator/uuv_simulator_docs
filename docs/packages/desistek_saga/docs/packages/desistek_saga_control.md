@@ -2,6 +2,10 @@
 
 > Link to the `desistek_saga` repository [here](https://github.com/uuvsimulator/desistek_saga)
 
+# Description
+
+Configuration and launch files to control the Desistek SAGA ROV
+
 # Launch files
 
 ## [`start_pdc_control.launch`](https://github.com/uuvsimulator/desistek_saga/tree/master/desistek_saga_control/launch/start_pdc_control.launch)

@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The thruster manager package
+
 # Launch files
 
 ## [`thruster_manager.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_thruster_manager/launch/thruster_manager.launch)

@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+A cascade of PID controllers for acceleration, velocity, and position control.
+
 # Launch files
 
 ## [`joy_velocity.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_control_cascaded_pid/launch/joy_velocity.launch)

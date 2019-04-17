@@ -2,5 +2,9 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The uuv_gazebo package
+
 # Launch files
 

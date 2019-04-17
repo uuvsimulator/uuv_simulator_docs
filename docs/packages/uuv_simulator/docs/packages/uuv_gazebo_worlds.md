@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+The uuv_gazebo_worlds package
+
 # Launch files
 
 ## [`lake.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_gazebo_worlds/launch/lake.launch)

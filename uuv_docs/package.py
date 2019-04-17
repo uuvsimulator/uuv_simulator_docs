@@ -36,7 +36,8 @@ class PackageConfigLoader:
         with open(os.path.join(self._catkin_pkg_path, 'package.xml'), 'r') as package_file:
             pkg_config = xmltodict.parse(package_file.read())
             version = pkg_config['package']['version']
-        return dict(version=version)
+            description = pkg_config['package']['description']
+        return dict(version=version, description=description)
 
     def get_markdown(self):
         output = self.update_data()
@@ -44,4 +45,7 @@ class PackageConfigLoader:
         output_str = '![Version](https://img.shields.io/badge/version-{}-brightgreen.svg)\n\n'.format(output['version'])
         output_str += '> Link to the `{}` repository [here]({})\n\n'.format(
             self._repository, self._git_root_url + '/' + self._repository)
+
+        output_str += '# Description\n\n'
+        output_str += output['description'] + '\n\n'
         return output_str

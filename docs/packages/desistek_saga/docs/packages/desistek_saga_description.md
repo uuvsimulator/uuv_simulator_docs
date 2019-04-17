@@ -2,6 +2,10 @@
 
 > Link to the `desistek_saga` repository [here](https://github.com/uuvsimulator/desistek_saga)
 
+# Description
+
+The robot description files for the Desistek SAGA ROV underwater vehicle
+
 # Launch files
 
 ## [`upload_desistek_saga.launch`](https://github.com/uuvsimulator/desistek_saga/tree/master/desistek_saga_description/launch/upload_desistek_saga.launch)

@@ -2,6 +2,10 @@
 
 > Link to the `eca_a9` repository [here](https://github.com/uuvsimulator/eca_a9)
 
+# Description
+
+Package with launch files for demonstrations with the ECA A9 AUV
+
 # Launch files
 
 ## [`start_demo_nmb_sm.launch`](https://github.com/uuvsimulator/eca_a9/tree/master/eca_a9_gazebo/launch/start_demo_nmb_sm.launch)

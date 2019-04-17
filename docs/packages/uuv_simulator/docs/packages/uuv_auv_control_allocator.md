@@ -2,6 +2,10 @@
 
 > Link to the `uuv_simulator` repository [here](https://github.com/uuvsimulator/uuv_simulator)
 
+# Description
+
+Optimal allocation of forces and torques to thruster and fins of AUVs
+
 # Launch files
 
 ## [`start_control_allocator.launch`](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_auv_control_allocator/launch/start_control_allocator.launch)
