@@ -1,6 +1,7 @@
 # Papers and reports 
 
 - [Berg, V. (2012). Development and Commissioning of a DP system for ROV SF 30k (Master's thesis, Institutt for marin teknikk).](https://brage.bibsys.no/xmlui/handle/11250/238170?locale-attribute=no)
+- [Cerqueira, Rômulo, et al. "A novel GPU-based sonar simulator for real-time applications." Computers & Graphics 68 (2017): 66-76.](https://www.sciencedirect.com/science/article/pii/S0097849317301371)
 - [Hall, Raewyn, and Stuart Anstee. Trim Calculation Methods for a Dynamical Model of the REMUS 100 Autonomous Underwater Vehicle.](http://dspace.dsto.defence.gov.au/dspace/handle/1947/10167})
 - [Yoerger, Dana R., John G. Cooke, and J-JE Slotine. "The influence of thruster dynamics on underwater vehicle behavior and their incorporation into control system design." IEEE Journal of Oceanic Engineering 15.3 (1990): 167-178.](http://dx.doi.org/10.1109/48.107145)
 - [Bessa, Wallace Moreira, Max Suell Dutra, and Edwin Kreuzer. "Thruster dynamics compensation for the positioning of underwater robotic vehicles through a fuzzy sliding mode based approach." ABCM Symposium Series in Mechatronics. Vol. 2. 2006.](http://www.abcm.org.br/symposium-series/SSM_Vol2/Section_IX_Submarine_Robotics/SSM2_IX_01.pdf)
@@ -18,6 +19,18 @@
 
 - [Dick K P Yue, 2005 - Lecture Notes: Marine Hydrodynamics, MIT](https://ocw.mit.edu/courses/mechanical-engineering/2-20-marine-hydrodynamics-13-021-spring-2005)
 - [Thor I Fossen, 2011 - Lecture Notes: TTK4190 Guidance and Control of Vehicles, Norwegian University of Science and Technology](http://www.fossen.biz/wiley/)
+
+# 3D models
+
+- [Maritime Archaeology Trust](https://sketchfab.com/maritimearchaeologytrust)
+- [Blueye Robotics](https://sketchfab.com/blueyerobotics)
+- [Tywoky - Wreck scanner](https://sketchfab.com/tywoky)
+
+# Other maritime robotics projects
+
+- [UWSim - The UnderWater Simulator](http://www.irs.uji.es/uwsim/)
+- [Virtual RobotX (VRX)](https://bitbucket.org/osrf/vrx)
+- [Imaging sonar simulator](https://github.com/romulogcerqueira/sonar_simulation-buildconf/)
 
 # Miscelaneous
 
