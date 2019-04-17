@@ -30,7 +30,13 @@ sudo pip3 install virtualenv
 
 ```
 virtualenv -p python3 venv
-pip install -r requirements.txt --user
+pip install -r requirements.txt
+```
+
+### Clone uuv_simulator.github.io into the output folder
+
+```
+git clone https://github.com/uuvsimulator/uuvsimulator.github.io.git site
 ```
 
 ### Install `moxygen`
