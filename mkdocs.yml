@@ -122,7 +122,7 @@ nav:
     - Creating a new world with a custom seabed: tutorials/seabed_world.md
     - Using the simulation wrapper: tutorials/simulation_wrapper.md 
   - FAQ: faq.md
-  - Useful Bibliography: bibliography.md
+  - Useful bibliography and other sources: bibliography.md
   - About:
     - License: about/license.md
 
