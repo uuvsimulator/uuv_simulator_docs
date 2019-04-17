@@ -52,8 +52,8 @@ The **Unmanned Underwater Vehicle Simulator** is a set of packages that include 
 This packages has been released for the following ROS distributions
 
 - `kinetic` (See [installation instructions for ROS Kinetic](https://wiki.ros.org/kinetic/Installation/Ubuntu))
-- `lunar` (See [installation instructions for ROS Kinetic](https://wiki.ros.org/lunar/Installation/Ubuntu))
-- `melodic` (See [installation instructions for ROS Kinetic](https://wiki.ros.org/melodic/Installation/Ubuntu))
+- `lunar` (See [installation instructions for ROS Lunar](https://wiki.ros.org/lunar/Installation/Ubuntu))
+- `melodic` (See [installation instructions for ROS Melodic](https://wiki.ros.org/melodic/Installation/Ubuntu))
 
 Once the `ros-<distro>-desktop-full` package for the desired distribution is installed, the uuv_simulator can be installed as
 
