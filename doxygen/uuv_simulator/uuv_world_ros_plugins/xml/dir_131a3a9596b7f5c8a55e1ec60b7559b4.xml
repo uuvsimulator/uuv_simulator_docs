@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_131a3a9596b7f5c8a55e1ec60b7559b4" kind="dir">
+    <compoundname>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include</compoundname>
+    <innerdir refid="dir_bf1c112562269da7fc50fa558674c295">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/"/>
+  </compounddef>
+</doxygen>

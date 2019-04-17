@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgazebo_1_1_c_p_c_r_o_s_plugin" kind="class"><name>gazebo::CPCROSPlugin</name>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1ae3fc2556d76aff734f95ecd211603dae" kind="variable"><name>particlesSub</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1aa583d13a2ea37a2551e4aec472a41242" kind="variable"><name>salinityPub</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1ac796aa57d93c2e9d389631b1734b8732" kind="variable"><name>updatingCloud</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a36f263fa3d261cee3f0521bb5aa2aadb" kind="variable"><name>gamma</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1afb382bc909b25221287384e58b5016ad" kind="variable"><name>gain</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1ab6ef0ff9f9bf89717618d2a6714de9a7" kind="variable"><name>smoothingLength</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a1fbc82365f09bd32d5122daf77a5252d" kind="variable"><name>lastUpdateTimestamp</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a5728f434aa04158487bb9b7028cb6c3e" kind="variable"><name>outputMsg</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a1b752dffdf6538176fbdded30afe972e" kind="variable"><name>salinityMsg</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1af826cad9b0845aa89b389ab9d05a8b44" kind="variable"><name>waterSalinityValue</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a503041ce7db678b30bf7da4fa4c2a02a" kind="variable"><name>plumeSalinityValue</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1abf89ec7c696e6b8e951d4de445ac48b0" kind="function"><name>CPCROSPlugin</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a7343db5b061ebc15862d08845df1f5fd" kind="function"><name>~CPCROSPlugin</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a03283b375faba8649fa76a1a91b3540c" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a40020feac24af0035cc376c00fb9d755" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a4df41586ec6bca66f1b9cc6b1f80af73" kind="function"><name>OnPlumeParticlesUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_d_v_l_r_o_s_plugin" kind="class"><name>gazebo::DVLROSPlugin</name>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a7b6d84d3d3ffcc2e54cf865ed6710cb1" kind="variable"><name>beamTransformsInitialized</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1af131a2d137189651208e48467bdbad39" kind="variable"><name>altitude</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a81fb6aaf15da16ca61e98ef9794a0835" kind="variable"><name>dvlROSMsg</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a481fb7aadbe65df012fa2d19166a7d85" kind="variable"><name>dvlBeamMsgs</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ac2f169c3c79a3514cfdf497ce6a74e2d" kind="variable"><name>twistPub</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1afaaaa0dcc7b097b488f60b7098ff8ec5" kind="variable"><name>twistROSMsg</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ad08e09dd6d967aa9a2696065213c3493" kind="variable"><name>beamsLinkNames</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a4f5c496dc3d8efa87aadfa2f7d7b4c97" kind="variable"><name>beamTopics</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ad8ac639cddfd52b709b8e77712c72762" kind="variable"><name>beamPoses</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a2d14489a3859fa9174b3c5ec1476d3ed" kind="variable"><name>syncBeamMessages</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1adf8fa77ac7f82dcd6171fdf8025983b7" kind="variable"><name>beamSub0</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ac8deb87d1aa20d511770855840e985a4" kind="variable"><name>beamSub1</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a9065bb4c8131a3df384cab8d986c8741" kind="variable"><name>beamSub2</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a4dbd1c10241a9508b74ac95ba68a5b08" kind="variable"><name>beamSub3</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1adabd0c5f1f49b0aa1f893e5cda8a25c5" kind="variable"><name>transformListener</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1aad4cc11ec091d06a2be743656c7bbcce" kind="function"><name>DVLROSPlugin</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a5941c8fe25d52a179799bb526dfd96de" kind="function"><name>~DVLROSPlugin</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ad64840822bab803a6f89d589fe6c0a9f" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a2ce9099e6bd976d4d845bc9c16741125" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a6196f3792d05d27c197321fa760b6e0f" kind="function"><name>OnBeamCallback</name></member>
+    <member refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1aafc0126ca7732b8f01ca383dc3ace22f" kind="function"><name>UpdateBeamTransforms</name></member>
+  </compound>
+  <compound refid="class_first_order_filter" kind="class"><name>FirstOrderFilter</name>
+    <member refid="class_first_order_filter_1abf96f40acfd447b1f6eedbfa8bd9ad00" kind="variable"><name>timeConstantUp_</name></member>
+    <member refid="class_first_order_filter_1a8b6fdd458ba76b911e527945eb10e394" kind="variable"><name>timeConstantDown_</name></member>
+    <member refid="class_first_order_filter_1aeac705e33da04871e0f222d24ef8ece6" kind="variable"><name>previousState_</name></member>
+    <member refid="class_first_order_filter_1a69ca7302a06941315d5e315a6ed726b7" kind="function"><name>FirstOrderFilter</name></member>
+    <member refid="class_first_order_filter_1a2f2fa033f6d23d6fe789c0455ebc49c4" kind="function"><name>updateFilter</name></member>
+    <member refid="class_first_order_filter_1a8e8a8a7fc06a34578f5c18d44af7300b" kind="function"><name>~FirstOrderFilter</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_gazebo_ros_image_sonar" kind="class"><name>gazebo::GazeboRosImageSonar</name>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac5ccf9238c4c7661b874777e7eddce32" kind="variable"><name>point_cloud_connect_count_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a6a4aa89f4432a2a9f809eda31fdad6e8" kind="variable"><name>depth_image_connect_count_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a26e6978fed2501c5e0ae8f8d183dcf39" kind="variable"><name>last_depth_image_camera_info_update_time_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a00f3151bcb2f5eb4ae173a3973eff0de" kind="variable"><name>point_cloud_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac11469cffc5dfcacebfa7863cd01d230" kind="variable"><name>depth_image_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a3193e939760814250b2bba00e02cdb02" kind="variable"><name>normal_image_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a387ea3a6228165cc4e656d602c6afc01" kind="variable"><name>multibeam_image_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a57f575ee7719cc9593a4f25ae538d098" kind="variable"><name>sonar_image_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac06001a6a9ae852ccc8d086179347619" kind="variable"><name>raw_sonar_image_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ab34e1c409fe27d641c7f086ed203a1b0" kind="variable"><name>point_cloud_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a70d3275177d9533089d3cd029153d926" kind="variable"><name>depth_image_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a66de1c2ef02e0c1f82742b3038d7e8d2" kind="variable"><name>normal_image_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1aa88d0f0e6d5a62b7ba9ebec9fbf7354c" kind="variable"><name>multibeam_image_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac54a31968e71e94e7ea71148805b34c7" kind="variable"><name>sonar_image_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a32d65ef3e89c4b60c9f9433cf31eeaea" kind="variable"><name>raw_sonar_image_msg_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a695ce335874bf297f5d7dd8586aa7fed" kind="variable"><name>point_cloud_cutoff_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a585483736ad4496112336901a75d1e7b" kind="variable"><name>point_cloud_topic_name_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a669d6ebbac3aaa7eaad4c12fdd5e1e8d" kind="variable"><name>generator</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ad6ba816f1ba91235e655c98d0c79eceb" kind="variable"><name>depth_image_topic_name_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af830aa5160a314b4bc54ef81f7901377" kind="variable"><name>depth_image_camera_info_topic_name_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac79590252dfc31d7d7b915fcb6bb1287" kind="variable"><name>depth_info_connect_count_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a099a1724097f80b1d44c79a1a294d30a" kind="variable"><name>depth_sensor_update_time_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a0087207658d0dd6866b0ecf10221be13" kind="variable"><name>load_connection_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a83f2e0fbbe32f6441c74abad610ac8e0" kind="variable"><name>newDepthFrameConnection</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a2f8c7f6b2d9d8a72511b88abbeef1e94" kind="variable"><name>newRGBPointCloudConnection</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a1a331171b8ec8d07a7508eab5745b573" kind="variable"><name>newImageFrameConnection</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af5163cef4707acb546dc9975defc98dc" kind="variable"><name>depth_image_camera_info_pub_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a88da9dd6b15bc621dd949c18649db749" kind="variable"><name>width</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1aecb1e1936f2ede4f10b7739a2eda7079" kind="variable"><name>height</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a52b86e01dad173d75096c226b732858e" kind="variable"><name>depth</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a6a18cb1b4864f357afab29e25509a48a" kind="variable"><name>format</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a7597c8b023cef37ed021f8a2a18cd1c3" kind="variable"><name>dist_matrix_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af1bd49503473a5d08cd3291782afef60" kind="variable"><name>angle_range_indices_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a3d5dc5e58d03bf4ac127b0596deff327" kind="variable"><name>angle_nbr_indices_</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a1b65cb9b2e8a150a94a643052ddfe9e6" kind="variable"><name>parentSensor</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a12b3ba852307631c5697dddd40d9d79b" kind="variable"><name>depthCamera</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a9fb946272527f8dff40658553986b0e4" kind="function"><name>GazeboRosImageSonar</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a4db6c96c5b7844bbdc65cf50cf233be6" kind="function"><name>~GazeboRosImageSonar</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a572dcea1d62a05f9f2ba2f278c7eb369" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ab4d294c942ec9805d38b5ab651d79611" kind="function"><name>Advertise</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a8d42e68da5678b0a5cb85291790e5ddf" kind="function"><name>OnNewDepthFrame</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a38389595a6606d68a9c9d0c0203d4c7f" kind="function"><name>OnNewRGBPointCloud</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a9dab1f74d823f6df56c384e6af18da22" kind="function"><name>OnNewImageFrame</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ae0b9b5f9320d9430c41ba208605b7c7e" kind="function"><name>PublishCameraInfo</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a978c35e5eb125bf6c8236cc63f143d24" kind="function"><name>FillPointdCloud</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ad8d67eb606083d9ed162145e88ab1d3c" kind="function"><name>FillDepthImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1afefd00dce67d7c9318dae253099dc292" kind="function"><name>ComputeSonarImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1abfa242821997a9d81b0ba1d609ceda19" kind="function"><name>ComputeNormalImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1abf743b8f49490b42c3bd93b11b03524c" kind="function"><name>ConstructSonarImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1abefb3affcaa34e62037af51b68ddd593" kind="function"><name>ConstructScanImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a387e374880a8ba3bbc295af8cda048db" kind="function"><name>ApplySpeckleNoise</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a7a4d9fd6e9ded89aae0984ba83b788df" kind="function"><name>ApplySmoothing</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a811d930fc3f61bbbb2393ddce92ff2d6" kind="function"><name>ApplyMedianFilter</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ac5e1cead353ec142160118b8a5a74a5f" kind="function"><name>ConstructVisualScanImage</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af571be00051036b6d19f61a7ae14625e" kind="function"><name>PointCloudConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a4c81159908dd03c5579163fd6da53310" kind="function"><name>PointCloudDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a51ee5f200686ea6cf4b64a3ccbb964d5" kind="function"><name>DepthImageConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a96278ec8bdfd1e60c2ad05faa7d39748" kind="function"><name>DepthImageDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af5736720a82e4c557f163bf7f0435d3e" kind="function"><name>NormalImageConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1aef244a64c187af7f78a6bacd99056b48" kind="function"><name>NormalImageDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af9b7a9454497bec014ecd6c5c6a1281e" kind="function"><name>MultibeamImageConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a0c06a279f7ce02eacd4ec9d1aefc430a" kind="function"><name>MultibeamImageDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a2d4a0cb57161c8f927897c4b7f8a8c33" kind="function"><name>SonarImageConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a01bb663ee8f25e98a5a0e2d4df1e5d26" kind="function"><name>SonarImageDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a78d567e57e0cc676a26efaa368583281" kind="function"><name>RawSonarImageConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a5c7c46cf071e870d97e2664d6d187eee" kind="function"><name>RawSonarImageDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a0aad97db6a6047d8bac269aeef75aeda" kind="function"><name>FillPointCloudHelper</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a470f256e5378d5c41c64839399d4e187" kind="function"><name>FillDepthImageHelper</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1ad1e2914707cadc01230335a0af9ce507" kind="function"><name>InfoConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1abc77e0d191b68c953c01e5a685f11e81" kind="function"><name>InfoDisconnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1af276fba713066ce7344192d50e0fe066" kind="function"><name>DepthInfoConnect</name></member>
+    <member refid="classgazebo_1_1_gazebo_ros_image_sonar_1a200e67e6dfe962a28916f86221fbb60f" kind="function"><name>DepthInfoDisconnect</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_g_p_s_r_o_s_plugin" kind="class"><name>gazebo::GPSROSPlugin</name>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1aaa97f3a5236f6c5d9914d042848f97d6" kind="variable"><name>gazeboGPSSensor</name></member>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1aa365281835351f7720482bd36611733d" kind="variable"><name>gpsMessage</name></member>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1ab969180b479e77d98f8cb29e8c94b269" kind="function"><name>GPSROSPlugin</name></member>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1ae4a602032a43f1a3cc904fa4ff938fc3" kind="function"><name>~GPSROSPlugin</name></member>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1ac59efd08373c7f691308609836a2a03d" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_g_p_s_r_o_s_plugin_1a255822b5790c6202d5ab5f3bca0eca8b" kind="function"><name>OnUpdateGPS</name></member>
+  </compound>
+  <compound refid="structgazebo_1_1_i_m_u_parameters" kind="struct"><name>gazebo::IMUParameters</name>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1a25f7a443bbabe24709fef7902f253686" kind="variable"><name>gyroscopeNoiseDensity</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1ae252c3f9cc0692111ce5d34603db2c1b" kind="variable"><name>gyroscopeRandomWalk</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1ab9fa9588c7a67ae9c38e71910a510661" kind="variable"><name>gyroscopeBiasCorrelationTime</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1aa90e85c829fb5a8a7079c670feaa1513" kind="variable"><name>gyroscopeTurnOnBiasSigma</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1a2b4bca730c38f081af8c9b73f4b6bad4" kind="variable"><name>accelerometerNoiseDensity</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1a2d6b2fd03ddb35a1e61653745bbfb8fb" kind="variable"><name>accelerometerRandomWalk</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1ae3ee5ba06f1f4c1982bfd85d50edf07d" kind="variable"><name>accelerometerBiasCorrelationTime</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1ad9ed56456fb2bfbe95d4caeb73631613" kind="variable"><name>accelerometerTurnOnBiasSigma</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1a6c283963ffe5ce1e1552238d3bd00541" kind="variable"><name>orientationNoise</name></member>
+    <member refid="structgazebo_1_1_i_m_u_parameters_1a458153650853d5e46e0c8ebfbcc3982f" kind="function"><name>IMUParameters</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_i_m_u_r_o_s_plugin" kind="class"><name>gazebo::IMUROSPlugin</name>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1ae376a7d63023a8fe4246251a59fe3636" kind="variable"><name>measLinearAcc</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1aa8b6ebdfdd7c36570214121a479185ae" kind="variable"><name>measAngularVel</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a237f775ebb67751d4c0a3dd5b806b1b5" kind="variable"><name>measOrientation</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1ac5c80e66a5029f008a776dd3ca5c7585" kind="variable"><name>gravityWorld</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a78de6a1ae264ea41a4297b6789120cc9" kind="variable"><name>gyroscopeBias</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1aedcd0a802dc7598c88347bdad2e952e4" kind="variable"><name>accelerometerBias</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a5f49ef5082c887fe00818b1153ad8d43" kind="variable"><name>gyroscopeTurnOnBias</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a21b7f5a23e79eeb076bc89182890e5a3" kind="variable"><name>accelerometerTurnOnBias</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a9c4660a48d5365bd6c1465e8e2e33f57" kind="variable"><name>imuParameters</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a9270c9a643245555dffac3768f380fc4" kind="variable"><name>imuROSMessage</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a5c7035a09686f2688c235b17a3d8a7db" kind="function"><name>IMUROSPlugin</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1ab19c7cfef17c9a660f495841e494edd6" kind="function"><name>~IMUROSPlugin</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a91f9dd3cb212d8b2207e4b51bd06bc79" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1aa15397b1f75e506ddb42841966306392" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1af354ab1547a4509481807e08c959655f" kind="function"><name>AddNoise</name></member>
+  </compound>
+  <compound refid="structgazebo_1_1_magnetometer_parameters" kind="struct"><name>gazebo::MagnetometerParameters</name>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1a491c6f8673f7fcfcee9dabee3075c0a8" kind="variable"><name>intensity</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1aff42219e1267659647462ac09569da35" kind="variable"><name>heading</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1ad52b97932b1b5b9d16d70448c4993fb2" kind="variable"><name>declination</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1a9b30e81a8cbe572c5ca121912857a2a5" kind="variable"><name>inclination</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1aa450d4be7a8de28821c651eb7407d063" kind="variable"><name>noiseXY</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1a46c2fbe7d7d4a5b2c82fcb2ef14dfb7b" kind="variable"><name>noiseZ</name></member>
+    <member refid="structgazebo_1_1_magnetometer_parameters_1a13009930015f1ca248500227b224319b" kind="variable"><name>turnOnBias</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_magnetometer_r_o_s_plugin" kind="class"><name>gazebo::MagnetometerROSPlugin</name>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a417aaca91431fb47e949ae947a3c595a" kind="variable"><name>parameters</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a79e45d104255fac396dba8e868ae79df" kind="variable"><name>magneticFieldWorld</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1ab4723d042e1d2b382e73cc0e2219e4e9" kind="variable"><name>turnOnBias</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a7ead881188c3d53928ba95569672cba6" kind="variable"><name>measMagneticField</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1ad2c2f64e76ecc2f24afa4c6c6810821c" kind="variable"><name>rosMsg</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a6eaa4d0461db8bc1dd03a6efb2046049" kind="function"><name>MagnetometerROSPlugin</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a5c394ca9a12d4da9d15d91337194a282" kind="function"><name>~MagnetometerROSPlugin</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1aa8d9083af5fae036731f513b94a029a1" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a1834c8718fa80c4e1b26c62a2e9a407f" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_pose_g_t_r_o_s_plugin" kind="class"><name>gazebo::PoseGTROSPlugin</name>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1aa55d65fca015d905281a5b69628c495f" kind="variable"><name>nedOdomPub</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1ad4c38844932e1e6a64007d3748cff494" kind="variable"><name>offset</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a7f84ad70de3354b002b6327e7a0ecf7e" kind="variable"><name>nedFrameID</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a594808116873fcad831599977614bd3f" kind="variable"><name>nedTransform</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a0e2710fa47f04bc4b9d25d1627e3bbef" kind="variable"><name>nedTransformIsInit</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1ad3c7c125394996b330019c99a63d7cd6" kind="variable"><name>publishNEDOdom</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1add9cef7d74fe3ff0ed10da1b57788c64" kind="variable"><name>tfBuffer</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a3dc3aec17e8738157998914e32bc1acb" kind="variable"><name>tfListener</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a2ea18a63dfbff05817e762429c924e2d" kind="variable"><name>lastLinVel</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a77c7789e7eff6c351b68155fae3c72f7" kind="variable"><name>lastAngVel</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1aea054e850fd2c5fd602b7f50497e6f1f" kind="variable"><name>linAcc</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a9e08e99ad4ba46d70c5e6f93815304f2" kind="variable"><name>angAcc</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1ad148ae9dd9d04f5e5ee1408e7d790d76" kind="variable"><name>lastRefLinVel</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a734eee58528e7db340a35f8dd1bc2b11" kind="variable"><name>lastRefAngVel</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a003e8c587b2daacdc3fa77ba7591f07f" kind="variable"><name>refLinAcc</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a117b4dd179871a23bb91c2f3e6d61753" kind="variable"><name>refAngAcc</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a7abaecb1897e10ef38f5c5263950a730" kind="function"><name>PoseGTROSPlugin</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a448aa8217a27d318a9a79a7e7a917e5e" kind="function"><name>~PoseGTROSPlugin</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a4c7e55e320c5619ea3d0b09d9760e2e1" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a9b34da677b1f4b34d07fd02c4c44a8d2" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a637b2ff059028539ec9f9c314482bd0f" kind="function"><name>PublishNEDOdomMessage</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1af9985dc3356397d382584c21bde650a6" kind="function"><name>PublishOdomMessage</name></member>
+    <member refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1af83bca7f0f2aee70389d6e88c7c597f6" kind="function"><name>UpdateNEDTransform</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_r_o_s_base_model_plugin" kind="class"><name>gazebo::ROSBaseModelPlugin</name>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1af03370cfa624905d6098556d815828b3" kind="variable"><name>model</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ac405387fd2fcf90b48b368104031367d" kind="variable"><name>link</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3ebccbacd16defded57b77d970bcb95c" kind="variable"><name>enableLocalNEDFrame</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ab2ee1727cd20681c8a5f3a33462cc694" kind="variable"><name>tfBroadcaster</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1abc302dfd65e4b45c3e11721afedb21d7" kind="variable"><name>localNEDFrame</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3648c84096f1fff1390c53557a782fd1" kind="variable"><name>tfLocalNEDFrame</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ab63bd687291a8642150cb00a94900014" kind="function"><name>ROSBaseModelPlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3e34768f99ceff93e43a6befc5ca1c03" kind="function"><name>~ROSBaseModelPlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a9201b96ddee1a64ce43e59f3cf1ff2e9" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a51b6e630508d410ddfe1a76573ef75fb" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a11c3832798f58c446a5d0d69343ad181" kind="function"><name>SendLocalNEDTransform</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_r_o_s_base_plugin" kind="class"><name>gazebo::ROSBasePlugin</name>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a9a9e059aec0a41dd012223d3ea3c9fe9" kind="variable"><name>robotNamespace</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a818f107bc9e165a3cc8016fd6859f86a" kind="variable"><name>sensorOutputTopic</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a24f910550057c819c246f5c3f74dae5a" kind="variable"><name>world</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a1d7b676bec7c29b2bd021b47ecd32bb5" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1ac3798d56f9ea70175d99ab80106b4319" kind="variable"><name>lastMeasurementTime</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1adbcb691eba2efdd0156d5422bd1cf03f" kind="variable"><name>updateRate</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1aef76766a171b7b9c0c236ff5987800f9" kind="variable"><name>noiseSigma</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6a7695e4dc91f9504a3ee88d5da94102" kind="variable"><name>noiseAmp</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a03fadaa69a0c77dc81153d5059c2cfb4" kind="variable"><name>gazeboMsgEnabled</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1ac9f7d735298e4c0017e34ff652295fd3" kind="variable"><name>rndGen</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1aec1fe60d8e12867115754d7f89689da2" kind="variable"><name>noiseModels</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a217d66ec1fe4002468300e0c409bfb32" kind="variable"><name>isOn</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6b907bcd7669d3907f3c78e654fcca88" kind="variable"><name>rosNode</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6444bffce26cd7c1d31ab1b3abd990c7" kind="variable"><name>gazeboNode</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1aff7eafda5f899aa2304a870d1418a300" kind="variable"><name>rosSensorOutputPub</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a00461d61554c0a38b03892488a43eefb" kind="variable"><name>gazeboSensorOutputPub</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a4a9b8a250d6c0c4e8148fa96c8dcc395" kind="variable"><name>changeSensorSrv</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0a405302b38096d97a25c18879de03ee" kind="variable"><name>pluginStatePub</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1aa788862de11b763facdf51ac105c535d" kind="variable"><name>referenceFrame</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0d5b3d85ee84ddd0e722a4e1dbd83d83" kind="variable"><name>tfStaticSub</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a02ca6231d0a2961fe6a63002de9a5ad4" kind="variable"><name>referenceFrameID</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a9004a71899294df66fe56bd6adcc187c" kind="variable"><name>isReferenceInit</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a34ff72f4617839866a593d0c1a00f375" kind="variable"><name>referenceLink</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0435db27811265bd28476844b1aebb7d" kind="function"><name>ROSBasePlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a085d18e1e808fae36b6bf3dce476c7e5" kind="function"><name>~ROSBasePlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a74ff905293eb8caa7becbc5404a97fc6" kind="function"><name>InitBasePlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a02aa79b255cb8f0847998f774cb03b32" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1abd97192b9712ae6a05d41d158c05f57a" kind="function"><name>AddNoiseModel</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a8c02e25afa29c264aa3a262b277a3723" kind="function"><name>IsOn</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0185c958f2ce8b30a1c5dc078bbd7b0e" kind="function"><name>PublishState</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a47e246ab8e3e9fe1b7f032ee7bd8af16" kind="function"><name>ChangeSensorState</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a465f66f7ecad8aa9e0f9e7d5fd0159d9" kind="function"><name>GetTFMessage</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1ae1fd5e5059943e83865efa837e52e3a7" kind="function"><name>GetGaussianNoise</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a69d2da0f2848ba0153756afbb331e447" kind="function"><name>GetGaussianNoise</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1af12a92a0ddf7c3c07163d32d6d95c655" kind="function"><name>EnableMeasurement</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_plugin_1a768035af5fb258d9c07c4d7fd5049700" kind="function"><name>UpdateReferenceFramePose</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_r_o_s_base_sensor_plugin" kind="class"><name>gazebo::ROSBaseSensorPlugin</name>
+    <member refid="classgazebo_1_1_r_o_s_base_sensor_plugin_1a34cac9a5589143a2f8ab2623d47c8ac4" kind="variable"><name>parentSensor</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_sensor_plugin_1a5f5f2144542f249de769ec638cfdfee5" kind="function"><name>ROSBaseSensorPlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_sensor_plugin_1a3c7adf8a507fbae48749f761f5d43b53" kind="function"><name>~ROSBaseSensorPlugin</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_sensor_plugin_1a2ad16341faa4fadef2e3347ce2c8907a" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_r_o_s_base_sensor_plugin_1a299ecabab8d2cbb768618dd509279e11" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_r_p_t_r_o_s_plugin" kind="class"><name>gazebo::RPTROSPlugin</name>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a8fd907c796413bfd0985520d2527c56b" kind="variable"><name>position</name></member>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1ac866e78fbe92ce2cda59b1d0d2a067c4" kind="variable"><name>rosMessage</name></member>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a657fc78325cb07243a81e215f5138eca" kind="function"><name>RPTROSPlugin</name></member>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a9d2ac490915bf9e382483acfda626973" kind="function"><name>~RPTROSPlugin</name></member>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a69902969c25c0cc413899848e9b77296" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a1a354ec7d3a72bf8313d84bb044f8fce" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin" kind="class"><name>gazebo::SubseaPressureROSPlugin</name>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1aacf4f877eb2e21f3e6e1362985c77198" kind="variable"><name>saturation</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a2b8e32c2bda5fb24d426be8d9a6ef934" kind="variable"><name>estimateDepth</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a523d3a012251a4c06dd3496535f1ddc5" kind="variable"><name>standardPressure</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a955abbff8454905f89687886ba27cae4" kind="variable"><name>kPaPerM</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a47f980a1ea644753d5142dc1e57e781e" kind="function"><name>SubseaPressureROSPlugin</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1ad0f101bb1409a2b8954036eb9e25b734" kind="function"><name>~SubseaPressureROSPlugin</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a217c4fafaaba64b533dacbe906a01cf1" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a17a9977c098924d6f7511ff6dd2d3cc4" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_underwater_camera_r_o_s_plugin" kind="class"><name>gazebo::UnderwaterCameraROSPlugin</name>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a33c316acb34194733ada8a58f781eebf" kind="variable"><name>lastDepth</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a00df8cda79b648f2253aa762c68ca0c3" kind="variable"><name>lastImage</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a2bae4ac2590d3e2e790d9ea21245980d" kind="variable"><name>depth2rangeLUT</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a371ed93a4a2ddda2cbb7d13ee65a4523" kind="variable"><name>attenuation</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a5d8510b4c8fb17a57158411b65afecff" kind="variable"><name>background</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a30ef76059ce0c418f49fb1614131d2c6" kind="function"><name>UnderwaterCameraROSPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a828fa0975b3cba41b68a62f8358ba385" kind="function"><name>~UnderwaterCameraROSPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a0869c206ca23b9d3fac7050b781ea1d9" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1ae4d4b78964a4d9f96c94eeee0024db7a" kind="function"><name>OnNewDepthFrame</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a305692fde5e85e1c67979e5dda0e8d92" kind="function"><name>OnNewRGBPointCloud</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1a63e82d6b0e757494e16136e802c1a31e" kind="function"><name>OnNewImageFrame</name></member>
+    <member refid="classgazebo_1_1_underwater_camera_r_o_s_plugin_1ace5d8a3a6b4ddc5049d573197c1c98dc" kind="function"><name>SimulateUnderwater</name></member>
+  </compound>
+  <compound refid="namespacegazebo" kind="namespace"><name>gazebo</name>
+    <member refid="_common_8hh_1acd5769609414bbc3be35ee1457d0d417" kind="function"><name>GetSDFParam</name></member>
+  </compound>
+  <compound refid="_common_8hh" kind="file"><name>Common.hh</name>
+    <member refid="_common_8hh_1a71fe791806a83ca08ee04df42b3f0877" kind="function"><name>QuaternionFromSmallAngle</name></member>
+    <member refid="_common_8hh_1ab10d5299ba2c3b8af6a761116be8f0e6" kind="function"><name>copyPosition</name></member>
+  </compound>
+  <compound refid="_c_p_c_r_o_s_plugin_8hh" kind="file"><name>CPCROSPlugin.hh</name>
+  </compound>
+  <compound refid="_d_v_l_r_o_s_plugin_8hh" kind="file"><name>DVLROSPlugin.hh</name>
+    <member refid="_d_v_l_r_o_s_plugin_8hh_1a7ba6a2c25409854dc60bacee715dfe3d" kind="define"><name>ALTITUDE_OUT_OF_RANGE</name></member>
+  </compound>
+  <compound refid="gazebo__ros__image__sonar_8hh" kind="file"><name>gazebo_ros_image_sonar.hh</name>
+  </compound>
+  <compound refid="_g_p_s_r_o_s_plugin_8hh" kind="file"><name>GPSROSPlugin.hh</name>
+  </compound>
+  <compound refid="_i_m_u_r_o_s_plugin_8hh" kind="file"><name>IMUROSPlugin.hh</name>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1a3c949b9d49c6a076d09288841adea72a" kind="define"><name>K_DEFAULT_ADIS_GYROSCOPE_NOISE_DENSITY</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1a938991fd337e814584217ae896496574" kind="define"><name>K_DEFAULT_ADIS_GYROSCOPE_RANDOM_WALK</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1ab01963819269b0b79465a62da7ea0a61" kind="define"><name>K_DEFAULT_ADIS_GYROSCOPE_BIAS_CORRELATION_TIME</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1a07ae5e53a527308f85bd3c70bb217427" kind="define"><name>K_DEFAULT_ADIS_GYROSCOPE_TURN_ON_BIAS_SIGMA</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1a6b8e21b08a3595c1e691fa676be50832" kind="define"><name>K_DEFAULT_ADIS_ACCELEROMETER_NOISE_DENSITY</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1aac7a277d71202eaced39a1b6f18f4990" kind="define"><name>K_DEFAULT_ADIS_ACCELEROMETER_RANDOM_WALK</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1a7c3e41ddf12c1cb6e2e2bd0e0530968c" kind="define"><name>K_DEFAULT_ADIS_ACCELEROMETER_BIAS_CORRELATION_TIME</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1aecdf9d8f4acf311a207d9f23c04f23bf" kind="define"><name>K_DEFAULT_ADIS_ACCELEROMETER_TURN_ON_BIAS_SIGMA</name></member>
+    <member refid="_i_m_u_r_o_s_plugin_8hh_1ad3a7033b39608db7ebe5d5cd0a35d36c" kind="define"><name>K_DEFAULT_ORIENTATION_NOISE</name></member>
+  </compound>
+  <compound refid="_magnetometer_r_o_s_plugin_8hh" kind="file"><name>MagnetometerROSPlugin.hh</name>
+  </compound>
+  <compound refid="_pose_g_t_r_o_s_plugin_8hh" kind="file"><name>PoseGTROSPlugin.hh</name>
+  </compound>
+  <compound refid="_r_o_s_base_model_plugin_8hh" kind="file"><name>ROSBaseModelPlugin.hh</name>
+  </compound>
+  <compound refid="_r_o_s_base_plugin_8hh" kind="file"><name>ROSBasePlugin.hh</name>
+  </compound>
+  <compound refid="_r_o_s_base_sensor_plugin_8hh" kind="file"><name>ROSBaseSensorPlugin.hh</name>
+  </compound>
+  <compound refid="_r_p_t_r_o_s_plugin_8hh" kind="file"><name>RPTROSPlugin.hh</name>
+  </compound>
+  <compound refid="_subsea_pressure_r_o_s_plugin_8hh" kind="file"><name>SubseaPressureROSPlugin.hh</name>
+  </compound>
+  <compound refid="_underwater_camera_r_o_s_plugin_8hh" kind="file"><name>UnderwaterCameraROSPlugin.hh</name>
+  </compound>
+  <compound refid="_c_p_c_r_o_s_plugin_8cc" kind="file"><name>CPCROSPlugin.cc</name>
+  </compound>
+  <compound refid="_d_v_l_r_o_s_plugin_8cc" kind="file"><name>DVLROSPlugin.cc</name>
+  </compound>
+  <compound refid="gazebo__ros__image__sonar_8cpp" kind="file"><name>gazebo_ros_image_sonar.cpp</name>
+  </compound>
+  <compound refid="_g_p_s_r_o_s_plugin_8cc" kind="file"><name>GPSROSPlugin.cc</name>
+  </compound>
+  <compound refid="_i_m_u_r_o_s_plugin_8cc" kind="file"><name>IMUROSPlugin.cc</name>
+  </compound>
+  <compound refid="_magnetometer_r_o_s_plugin_8cc" kind="file"><name>MagnetometerROSPlugin.cc</name>
+  </compound>
+  <compound refid="_pose_g_t_r_o_s_plugin_8cc" kind="file"><name>PoseGTROSPlugin.cc</name>
+  </compound>
+  <compound refid="_r_o_s_base_model_plugin_8cc" kind="file"><name>ROSBaseModelPlugin.cc</name>
+  </compound>
+  <compound refid="_r_o_s_base_plugin_8cc" kind="file"><name>ROSBasePlugin.cc</name>
+  </compound>
+  <compound refid="_r_o_s_base_sensor_plugin_8cc" kind="file"><name>ROSBaseSensorPlugin.cc</name>
+  </compound>
+  <compound refid="_r_p_t_r_o_s_plugin_8cc" kind="file"><name>RPTROSPlugin.cc</name>
+  </compound>
+  <compound refid="_subsea_pressure_r_o_s_plugin_8cc" kind="file"><name>SubseaPressureROSPlugin.cc</name>
+  </compound>
+  <compound refid="_underwater_camera_r_o_s_plugin_8cc" kind="file"><name>UnderwaterCameraROSPlugin.cc</name>
+  </compound>
+  <compound refid="dir_5c9b1b03f6e45e6a48c8e8f7b0f905ad" kind="dir"><name>/home/musamorena/catkin_ws</name>
+  </compound>
+  <compound refid="dir_7b6351f41a0ed6d9543228cac41c0aab" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include</name>
+  </compound>
+  <compound refid="dir_7c859f3878cb32062c29919224ce2290" kind="dir"><name>/home/musamorena/catkin_ws/src</name>
+  </compound>
+  <compound refid="dir_b59c317cfb3dd34c8afc8591b4a2651d" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src</name>
+  </compound>
+  <compound refid="dir_145d4c069ec1cb3e1002c98adda228ba" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins</name>
+  </compound>
+  <compound refid="dir_39c25efd05a6653d352f3ba0a0b21b4d" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins</name>
+  </compound>
+  <compound refid="dir_8b7d5eff03e39327c3667528387054db" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins</name>
+  </compound>
+  <compound refid="dir_947f9076ebd7f86e6acc2c3743d06dac" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_lift_drag_quadratic" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::LiftDragQuadratic</compoundname>
+    <basecompoundref refid="classgazebo_1_1_lift_drag" prot="public" virt="non-virtual">gazebo::LiftDrag</basecompoundref>
+    <includes refid="_lift_drag_model_8hh" local="no">LiftDragModel.hh</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_quadratic_1a23ae540d852d416b71f4776059ee2a3f" prot="private" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gazebo::LiftDragQuadratic::IDENTIFIER</definition>
+        <argsstring></argsstring>
+        <name>IDENTIFIER</name>
+        <initializer>= &quot;Quadratic&quot;</initializer>
+        <briefdescription>
+<para>Unique identifier for this dynamical model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="121" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_quadratic_1abbe2a7518c24690bee23fe9bde91092e" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::LiftDragQuadratic::liftConstant</definition>
+        <argsstring></argsstring>
+        <name>liftConstant</name>
+        <briefdescription>
+<para>Lift constant. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="124" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_quadratic_1a78a7b21bef504b05c84da40ed47699ad" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::LiftDragQuadratic::dragConstant</definition>
+        <argsstring></argsstring>
+        <name>dragConstant</name>
+        <briefdescription>
+<para>Drag constant. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="127" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1a668607ebeb1636d049a7178d96761abf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> *</type>
+        <definition>static LiftDrag* gazebo::LiftDragQuadratic::create</definition>
+        <argsstring>(sdf::ElementPtr _sdf)</argsstring>
+        <name>create</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Create thruster model of this type with parameter values from sdf. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="103" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1a1e9fd0549b24b7148e12011a0f294eb5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string gazebo::LiftDragQuadratic::GetType</definition>
+        <argsstring>()</argsstring>
+        <name>GetType</name>
+        <reimplements refid="classgazebo_1_1_lift_drag_1ad8a25e574ba7f75b30e8813b315010b3">GetType</reimplements>
+        <briefdescription>
+<para>Return (derived) type of dynamic system. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="106" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1ae187246d00eb5202a72faa5828ab2f00" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>ignition::math::Vector3d</type>
+        <definition>ignition::math::Vector3d gazebo::LiftDragQuadratic::compute</definition>
+        <argsstring>(const ignition::math::Vector3d &amp;velL)</argsstring>
+        <name>compute</name>
+        <reimplements refid="classgazebo_1_1_lift_drag_1ac20f4dbd4ea08d8d9d0852f8e2b128b0">compute</reimplements>
+        <param>
+          <type>const ignition::math::Vector3d &amp;</type>
+          <declname>velL</declname>
+        </param>
+        <briefdescription>
+<para>Compute the lift and drag force. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="109" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="110" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1add46239f7abd7ed73c700c6cfb0dc63a" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gazebo::LiftDragQuadratic::GetParam</definition>
+        <argsstring>(std::string _tag, double &amp;_output)</argsstring>
+        <name>GetParam</name>
+        <reimplements refid="classgazebo_1_1_lift_drag_1a4e2d58afb4af2ba7c0f169cd8fcebb3b">GetParam</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>_tag</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>_output</declname>
+        </param>
+        <briefdescription>
+<para>Return paramater in scalar form for the given tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="115" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="142" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1abeb288db759bcc85f8e6414e4c07e326" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::map&lt; std::string, double &gt;</type>
+        <definition>std::map&lt; std::string, double &gt; gazebo::LiftDragQuadratic::GetListParams</definition>
+        <argsstring>()</argsstring>
+        <name>GetListParams</name>
+        <reimplements refid="classgazebo_1_1_lift_drag_1a7d35e963ce57451f5939ccff9a956285">GetListParams</reimplements>
+        <briefdescription>
+<para>Return list of all parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="118" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="158" bodyend="164"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1ab215ec40855cf8e0eb8e9f92a071d656" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::LiftDragQuadratic::REGISTER_LIFTDRAG</definition>
+        <argsstring>(LiftDragQuadratic)</argsstring>
+        <name>REGISTER_LIFTDRAG</name>
+        <param>
+          <type><ref refid="classgazebo_1_1_lift_drag_quadratic" kindref="compound">LiftDragQuadratic</ref></type>
+        </param>
+        <briefdescription>
+<para>Register this model with the factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_quadratic_1a6921b10c10dd8b58cff882c2121929da" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::LiftDragQuadratic::LiftDragQuadratic</definition>
+        <argsstring>(double _liftConstant, double _dragConstant)</argsstring>
+        <name>LiftDragQuadratic</name>
+        <param>
+          <type>double</type>
+          <declname>_liftConstant</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_dragConstant</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="130" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="130" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Basic quadratic (Hugin) lift&amp;drag model, page 18 from [1]. [1] Engelhardtsen, Øystein. &quot;3D AUV Collision Avoidance.&quot; (2007). </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="106">
+        <label>gazebo::LiftDragQuadratic</label>
+        <link refid="classgazebo_1_1_lift_drag_quadratic"/>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="107">
+        <label>gazebo::LiftDrag</label>
+        <link refid="classgazebo_1_1_lift_drag"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="108">
+        <label>gazebo::LiftDragQuadratic</label>
+        <link refid="classgazebo_1_1_lift_drag_quadratic"/>
+        <childnode refid="109" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>gazebo::LiftDrag</label>
+        <link refid="classgazebo_1_1_lift_drag"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="101" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="100" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_lift_drag_1a1985b8f41a6ab17525f50b39396a8a60" prot="public" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>CheckForElement</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1ae187246d00eb5202a72faa5828ab2f00" prot="public" virt="virtual"><scope>gazebo::LiftDragQuadratic</scope><name>compute</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1a668607ebeb1636d049a7178d96761abf" prot="public" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>create</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1a78a7b21bef504b05c84da40ed47699ad" prot="protected" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>dragConstant</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1abeb288db759bcc85f8e6414e4c07e326" prot="public" virt="virtual"><scope>gazebo::LiftDragQuadratic</scope><name>GetListParams</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1add46239f7abd7ed73c700c6cfb0dc63a" prot="public" virt="virtual"><scope>gazebo::LiftDragQuadratic</scope><name>GetParam</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1a1e9fd0549b24b7148e12011a0f294eb5" prot="public" virt="virtual"><scope>gazebo::LiftDragQuadratic</scope><name>GetType</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1a23ae540d852d416b71f4776059ee2a3f" prot="private" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>IDENTIFIER</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1abbe2a7518c24690bee23fe9bde91092e" prot="protected" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>liftConstant</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1aa9f53de408dfca89a517be7dbcd673c6" prot="protected" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>LiftDrag</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1a6921b10c10dd8b58cff882c2121929da" prot="private" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>LiftDragQuadratic</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1aa062dc13d3a5c4b9d6de277cc578eee7" prot="protected" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>prevTime</name></member>
+      <member refid="classgazebo_1_1_lift_drag_quadratic_1ab215ec40855cf8e0eb8e9f92a071d656" prot="private" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>REGISTER_LIFTDRAG</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a73cd43d69e94ce2a392abe437c732cb0" prot="protected" virt="non-virtual"><scope>gazebo::LiftDragQuadratic</scope><name>state</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a7025e5299778dfb25ee8e1eaed4ecb83" prot="public" virt="virtual"><scope>gazebo::LiftDragQuadratic</scope><name>~LiftDrag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_thruster_plugin_8hh" kind="file" language="C++">
+    <compoundname>ThrusterPlugin.hh</compoundname>
+    <includes local="no">boost/scoped_ptr.hpp</includes>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includes local="no">memory</includes>
+    <includes local="no">gazebo/gazebo.hh</includes>
+    <includes local="no">gazebo/transport/TransportTypes.hh</includes>
+    <includes local="no">sdf/sdf.hh</includes>
+    <includes refid="_thruster_conversion_fcn_8hh" local="no">uuv_gazebo_plugins/ThrusterConversionFcn.hh</includes>
+    <includes refid="_dynamics_8hh" local="no">uuv_gazebo_plugins/Dynamics.hh</includes>
+    <includes local="yes">Double.pb.h</includes>
+    <includedby refid="_thruster_plugin_8cc" local="no">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterPlugin.cc</includedby>
+    <incdepgraph>
+      <node id="70">
+        <label>string</label>
+      </node>
+      <node id="69">
+        <label>map</label>
+      </node>
+      <node id="72">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="75">
+        <label>uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
+        <link refid="_thruster_conversion_fcn_8hh"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>sdf/sdf.hh</label>
+      </node>
+      <node id="76">
+        <label>vector</label>
+      </node>
+      <node id="77">
+        <label>uuv_gazebo_plugins/Dynamics.hh</label>
+        <link refid="_dynamics_8hh"/>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Double.pb.h</label>
+      </node>
+      <node id="67">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.hh</label>
+        <link refid="_thruster_plugin_8hh"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>gazebo/transport/TransportTypes.hh</label>
+      </node>
+      <node id="68">
+        <label>boost/scoped_ptr.hpp</label>
+      </node>
+      <node id="71">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgazebo_1_1_thruster_plugin" prot="public">gazebo::ThrusterPlugin</innerclass>
+    <innernamespace refid="namespacegazebo">gazebo</innernamespace>
+    <briefdescription>
+<para>Model plugin for description of the thruster dynamics. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__UUV_GAZEBO_PLUGINS_THRUSTER_PLUGIN_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__UUV_GAZEBO_PLUGINS_THRUSTER_PLUGIN_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/scoped_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/gazebo.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/transport/TransportTypes.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sdf/sdf.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_thruster_conversion_fcn_8hh" kindref="compound">uuv_gazebo_plugins/ThrusterConversionFcn.hh</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_dynamics_8hh" kindref="compound">uuv_gazebo_plugins/Dynamics.hh</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Double.pb.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegazebo" kindref="compound">gazebo</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::shared_ptr&lt;const<sp/>uuv_gazebo_plugins_msgs::msgs::Double&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><ref refid="_fin_plugin_8hh_1adec3148dfa71d908caf33660a62187d4" kindref="member">ConstDoublePtr</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="classgazebo_1_1_thruster_plugin" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_thruster_plugin" kindref="compound">ThrusterPlugin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>ModelPlugin</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a6b5841ff33686cc450313e03cf294d9c" kindref="member">ThrusterPlugin</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a06d1a5a37d484a2ce88329fd2fed8f59" kindref="member">~ThrusterPlugin</ref>();</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Documentation<sp/>inherited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Load(physics::ModelPtr<sp/>_model,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Documentation<sp/>inherited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Init();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a3a445ef9af6ff415eb3d2e319c232841" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a4cd1505e012721530e09cc346500ff12" kindref="member">Update</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>common::UpdateInfo<sp/>&amp;_info);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a8ede5b7013c52fd890a429f55a0d0c74" kindref="member">UpdateInput</ref>(ConstDoublePtr<sp/>&amp;_msg);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classgazebo_1_1_thruster_plugin_1a2a5bdae0148178c1688362257e59dbfa" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>std::shared_ptr&lt;Dynamics&gt;<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a2a5bdae0148178c1688362257e59dbfa" kindref="member">thrusterDynamics</ref>;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="classgazebo_1_1_thruster_plugin_1aab369c9f214021b0e3372dd61907c257" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>std::shared_ptr&lt;ConversionFunction&gt;<sp/><ref refid="classgazebo_1_1_thruster_plugin_1aab369c9f214021b0e3372dd61907c257" kindref="member">conversionFunction</ref>;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classgazebo_1_1_thruster_plugin_1a23c4d67fd108db7dabc2727244934a30" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>event::ConnectionPtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a23c4d67fd108db7dabc2727244934a30" kindref="member">updateConnection</ref>;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="classgazebo_1_1_thruster_plugin_1a141de7a7aedb56861b9046ee7897399f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>physics::LinkPtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a141de7a7aedb56861b9046ee7897399f" kindref="member">thrusterLink</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="classgazebo_1_1_thruster_plugin_1afedb1c79f0a9c060cd4bc6c1ef541b68" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>transport::NodePtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1afedb1c79f0a9c060cd4bc6c1ef541b68" kindref="member">node</ref>;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="classgazebo_1_1_thruster_plugin_1ae4054a7444082b7f0195b3cf72bfad6f" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>transport::SubscriberPtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1ae4054a7444082b7f0195b3cf72bfad6f" kindref="member">commandSubscriber</ref>;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="classgazebo_1_1_thruster_plugin_1a8ad82769e76b0844a87763446f03a267" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>transport::PublisherPtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a8ad82769e76b0844a87763446f03a267" kindref="member">thrustTopicPublisher</ref>;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="classgazebo_1_1_thruster_plugin_1a617d0e909a0d82397d95954c8c103035" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a617d0e909a0d82397d95954c8c103035" kindref="member">inputCommand</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="classgazebo_1_1_thruster_plugin_1a3dd6123930d825ae14ca56b253b9c8a2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a3dd6123930d825ae14ca56b253b9c8a2" kindref="member">thrustForce</ref>;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="classgazebo_1_1_thruster_plugin_1afc2f42b3a4d4dfe1d59bdb06a15bf8e7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>common::Time<sp/><ref refid="classgazebo_1_1_thruster_plugin_1afc2f42b3a4d4dfe1d59bdb06a15bf8e7" kindref="member">thrustForceStamp</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="classgazebo_1_1_thruster_plugin_1a5df1a3ae7ee6363498bf3221d7c70f93" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>physics::JointPtr<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a5df1a3ae7ee6363498bf3221d7c70f93" kindref="member">joint</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="classgazebo_1_1_thruster_plugin_1ab2e98f8b4a89488d0455d7d57b84ec52" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1ab2e98f8b4a89488d0455d7d57b84ec52" kindref="member">clampMin</ref>;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="classgazebo_1_1_thruster_plugin_1a58ee9e27895d9921cc40cd0c64aa086d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a58ee9e27895d9921cc40cd0c64aa086d" kindref="member">clampMax</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="classgazebo_1_1_thruster_plugin_1aad3011318655f542756926e0633de05e" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1aad3011318655f542756926e0633de05e" kindref="member">thrustMin</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="classgazebo_1_1_thruster_plugin_1a7730c8c0b69432591ab15e42f4deef35" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a7730c8c0b69432591ab15e42f4deef35" kindref="member">thrustMax</ref>;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="classgazebo_1_1_thruster_plugin_1a2e6fb5eaaa297788fabb51bd8dc578e3" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a2e6fb5eaaa297788fabb51bd8dc578e3" kindref="member">thrusterID</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="classgazebo_1_1_thruster_plugin_1acde9d0318e86dfbc9e6e2af723ea9c3b" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>std::string<sp/><ref refid="classgazebo_1_1_thruster_plugin_1acde9d0318e86dfbc9e6e2af723ea9c3b" kindref="member">topicPrefix</ref>;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="classgazebo_1_1_thruster_plugin_1a76067d3ea096103f7d6f3f43106e0e23" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a76067d3ea096103f7d6f3f43106e0e23" kindref="member">gain</ref>;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="classgazebo_1_1_thruster_plugin_1a86031b28be7600d3eedaecf3d11a9ea5" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a86031b28be7600d3eedaecf3d11a9ea5" kindref="member">isOn</ref>;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="classgazebo_1_1_thruster_plugin_1a36d3369e6481b21d8450c012b21ea7a7" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a36d3369e6481b21d8450c012b21ea7a7" kindref="member">thrustEfficiency</ref>;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="classgazebo_1_1_thruster_plugin_1a0e8f044924d12715aba76aa95555641d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_thruster_plugin_1a0e8f044924d12715aba76aa95555641d" kindref="member">propellerEfficiency</ref>;</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="classgazebo_1_1_thruster_plugin_1a961eff0b01402bf7a56117a35e064b06" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/>ignition::math::Vector3d<sp/><ref refid="classgazebo_1_1_thruster_plugin_1a961eff0b01402bf7a56117a35e064b06" kindref="member">thrusterAxis</ref>;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__UUV_GAZEBO_PLUGINS_THRUSTER_PLUGIN_HH__</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.hh"/>
+  </compounddef>
+</doxygen>

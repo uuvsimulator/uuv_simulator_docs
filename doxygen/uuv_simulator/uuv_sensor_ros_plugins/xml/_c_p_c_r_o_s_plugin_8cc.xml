@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_c_p_c_r_o_s_plugin_8cc" kind="file" language="C++">
+    <compoundname>CPCROSPlugin.cc</compoundname>
+    <includes refid="_c_p_c_r_o_s_plugin_8hh" local="no">uuv_sensor_ros_plugins/CPCROSPlugin.hh</includes>
+    <incdepgraph>
+      <node id="388">
+        <label>gazebo/common/Plugin.hh</label>
+      </node>
+      <node id="391">
+        <label>gazebo/common/common.hh</label>
+      </node>
+      <node id="406">
+        <label>functional</label>
+      </node>
+      <node id="399">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="387">
+        <label>uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh</label>
+        <link refid="_r_o_s_base_model_plugin_8hh_source"/>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="406" relation="include">
+        </childnode>
+        <childnode refid="407" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="408" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="409" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="410" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/CPCROSPlugin.cc</label>
+        <link refid="_c_p_c_r_o_s_plugin_8cc"/>
+        <childnode refid="384" relation="include">
+        </childnode>
+      </node>
+      <node id="409">
+        <label>tf/transform_listener.h</label>
+      </node>
+      <node id="410">
+        <label>tf/transform_broadcaster.h</label>
+      </node>
+      <node id="395">
+        <label>std_msgs/Bool.h</label>
+      </node>
+      <node id="413">
+        <label>sensor_msgs/PointCloud.h</label>
+      </node>
+      <node id="412">
+        <label>uuv_sensor_ros_plugins_msgs/Salinity.h</label>
+      </node>
+      <node id="393">
+        <label>string</label>
+      </node>
+      <node id="392">
+        <label>uuv_sensor_ros_plugins/Common.hh</label>
+        <link refid="_common_8hh_source"/>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+      </node>
+      <node id="405">
+        <label>map</label>
+      </node>
+      <node id="402">
+        <label>tf/tf.h</label>
+      </node>
+      <node id="384">
+        <label>uuv_sensor_ros_plugins/CPCROSPlugin.hh</label>
+        <link refid="_c_p_c_r_o_s_plugin_8hh_source"/>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="411" relation="include">
+        </childnode>
+        <childnode refid="412" relation="include">
+        </childnode>
+        <childnode refid="413" relation="include">
+        </childnode>
+      </node>
+      <node id="385">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="404">
+        <label>random</label>
+      </node>
+      <node id="394">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="397">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
+      <node id="408">
+        <label>tf/transform_datatypes.h</label>
+      </node>
+      <node id="398">
+        <label>gazebo/sensors/Noise.hh</label>
+      </node>
+      <node id="396">
+        <label>uuv_sensor_ros_plugins_msgs/ChangeSensorState.h</label>
+      </node>
+      <node id="386">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="411">
+        <label>uuv_sensor_ros_plugins_msgs/ChemicalParticleConcentration.h</label>
+      </node>
+      <node id="400">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="403">
+        <label>chrono</label>
+      </node>
+      <node id="389">
+        <label>gazebo/physics/physics.hh</label>
+      </node>
+      <node id="401">
+        <label>tf/tfMessage.h</label>
+      </node>
+      <node id="390">
+        <label>uuv_sensor_ros_plugins/ROSBasePlugin.hh</label>
+        <link refid="_r_o_s_base_plugin_8hh_source"/>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+        <childnode refid="398" relation="include">
+        </childnode>
+        <childnode refid="399" relation="include">
+        </childnode>
+        <childnode refid="400" relation="include">
+        </childnode>
+        <childnode refid="401" relation="include">
+        </childnode>
+        <childnode refid="402" relation="include">
+        </childnode>
+        <childnode refid="403" relation="include">
+        </childnode>
+        <childnode refid="404" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="405" relation="include">
+        </childnode>
+      </node>
+      <node id="407">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegazebo">gazebo</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_sensor_ros_plugins/CPCROSPlugin.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegazebo" kindref="compound">gazebo</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1abf89ec7c696e6b8e951d4de445ac48b0" kindref="member">CPCROSPlugin::CPCROSPlugin</ref>()<sp/>:<sp/>ROSBaseModelPlugin()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{<sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a7343db5b061ebc15862d08845df1f5fd" kindref="member">CPCROSPlugin::~CPCROSPlugin</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">{<sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a03283b375faba8649fa76a1a91b3540c" kindref="member">CPCROSPlugin::Load</ref>(physics::ModelPtr<sp/>_model,<sp/>sdf::ElementPtr<sp/>_sdf)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><ref refid="classgazebo_1_1_r_o_s_base_model_plugin_1a9201b96ddee1a64ce43e59f3cf1ff2e9" kindref="member">ROSBaseModelPlugin::Load</ref>(_model,<sp/>_sdf);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>std::string<sp/>inputTopic;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;std::string&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;plume_topic&quot;</highlight><highlight class="normal">,<sp/>inputTopic,<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/>GZ_ASSERT(!inputTopic.empty(),<sp/></highlight><highlight class="stringliteral">&quot;Plume<sp/>topic<sp/>for<sp/>the<sp/>point<sp/>cloud<sp/>is<sp/>empty!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gamma&quot;</highlight><highlight class="normal">,<sp/>this-&gt;gamma,<sp/>0.001);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;gamma<sp/>&gt;<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;Gamma<sp/>value<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gain&quot;</highlight><highlight class="normal">,<sp/>this-&gt;gain,<sp/>1.0);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;gamma<sp/>&gt;<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;Gain<sp/>value<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;radius&quot;</highlight><highlight class="normal">,<sp/>this-&gt;smoothingLength,<sp/>3.0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;smoothingLength<sp/>&gt;<sp/>0,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Radius<sp/>of<sp/>the<sp/>sensor<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>the<sp/>name<sp/>of<sp/>the<sp/>output<sp/>salinity<sp/>topic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>std::string<sp/>salinityTopic;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;std::string&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;salinity_output_topic&quot;</highlight><highlight class="normal">,<sp/>salinityTopic,<sp/></highlight><highlight class="stringliteral">&quot;salinity&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/>GZ_ASSERT(!salinityTopic.empty(),<sp/></highlight><highlight class="stringliteral">&quot;Salinity<sp/>topic<sp/>name<sp/>is<sp/>empty!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>the<sp/>salinity<sp/>unit<sp/>to<sp/>be<sp/>used,<sp/>options<sp/>are</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>-<sp/>PPT<sp/>(parts<sp/>per<sp/>thousand)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>-<sp/>PPM<sp/>(parts<sp/>per<sp/>million)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>-<sp/>PSU<sp/>(practical<sp/>salinity<sp/>unit)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/>std::string<sp/>salinityUnit;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;std::string&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;salinity_unit&quot;</highlight><highlight class="normal">,<sp/>salinityUnit,<sp/></highlight><highlight class="stringliteral">&quot;ppt&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>GZ_ASSERT(salinityUnit.compare(</highlight><highlight class="stringliteral">&quot;ppt&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0<sp/>||</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>salinityUnit.compare(</highlight><highlight class="stringliteral">&quot;ppm&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0<sp/>||</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>salinityUnit.compare(</highlight><highlight class="stringliteral">&quot;psu&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Invalid<sp/>salinity<sp/>unit,<sp/>it<sp/>can<sp/>be<sp/>ppt,<sp/>ppm<sp/>or<sp/>psu&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.unit<sp/>=<sp/>salinityUnit;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_sdf-&gt;HasElement(</highlight><highlight class="stringliteral">&quot;water_salinity_value&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;water_salinity_value&quot;</highlight><highlight class="normal">,<sp/>this-&gt;waterSalinityValue,<sp/>0.0);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>GZ_ASSERT(this-&gt;waterSalinityValue<sp/>&gt;<sp/>0,<sp/></highlight><highlight class="stringliteral">&quot;Water<sp/>salinity<sp/>reference<sp/>must<sp/>be<sp/>a<sp/>positive<sp/>value&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(salinityUnit.compare(uuv_sensor_ros_plugins_msgs::Salinity::PPT)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;waterSalinityValue<sp/>=<sp/>35.0;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(salinityUnit.compare(uuv_sensor_ros_plugins_msgs::Salinity::PPM)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;waterSalinityValue<sp/>=<sp/>35000.0;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;waterSalinityValue<sp/>=<sp/>35.0;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;plume_salinity_value&quot;</highlight><highlight class="normal">,<sp/>this-&gt;plumeSalinityValue,<sp/>0.0);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;plumeSalinityValue<sp/>&gt;=<sp/>0.0,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Plume<sp/>salinity<sp/>value<sp/>must<sp/>be<sp/>greater<sp/>or<sp/>equal<sp/>to<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;plumeSalinityValue<sp/>&lt;<sp/>this-&gt;waterSalinityValue,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Plume<sp/>salinity<sp/>value<sp/>must<sp/>be<sp/>lower<sp/>than<sp/>the<sp/>water<sp/>salinity<sp/>value&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>this-&gt;particlesSub<sp/>=<sp/>this-&gt;rosNode-&gt;subscribe&lt;sensor_msgs::PointCloud&gt;(</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>inputTopic,<sp/>1,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>boost::bind(&amp;<ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a4df41586ec6bca66f1b9cc6b1f80af73" kindref="member">CPCROSPlugin::OnPlumeParticlesUpdate</ref>,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>_1));</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>initial<sp/>particle<sp/>concentration<sp/>value<sp/>to<sp/>zero</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.concentration<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>the<sp/>is_measuring<sp/>flag<sp/>initially<sp/>to<sp/>false</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.is_measuring<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.variance<sp/>=<sp/>this-&gt;noiseSigma<sp/>*<sp/>this-&gt;noiseSigma;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>this-&gt;rosSensorOutputPub<sp/>=<sp/>this-&gt;rosNode-&gt;advertise&lt;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>uuv_sensor_ros_plugins_msgs::ChemicalParticleConcentration&gt;(</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;sensorOutputTopic,<sp/>1);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>this-&gt;salinityPub<sp/>=<sp/>this-&gt;rosNode-&gt;advertise&lt;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>uuv_sensor_ros_plugins_msgs::Salinity&gt;(salinityTopic,<sp/>1);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>this-&gt;lastUpdateTimestamp<sp/>=<sp/>ros::Time::now();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>gzmsg<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;CPCROSPlugin[&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;link-&gt;GetName()</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]<sp/>initialized!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\t-<sp/>Input<sp/>topic=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>inputTopic<sp/>&lt;&lt;<sp/>std::endl</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\t-<sp/>Output<sp/>topic=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>this-&gt;sensorOutputTopic<sp/>&lt;&lt;<sp/>std::endl</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\t-<sp/>Salinity<sp/>output<sp/>topic=<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>salinityTopic<sp/>&lt;&lt;<sp/>std::endl;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a40020feac24af0035cc376c00fb9d755" kindref="member">CPCROSPlugin::OnUpdate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>common::UpdateInfo&amp;<sp/>_info)</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Publish<sp/>sensor<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>this-&gt;PublishState();</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;EnableMeasurement(_info)<sp/>||<sp/>this-&gt;updatingCloud)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>particle<sp/>concentration<sp/>to<sp/>zero<sp/>if<sp/>the<sp/>point<sp/>cloud<sp/>message<sp/>has<sp/>not</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>been<sp/>received<sp/>for<sp/>a<sp/>long<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(_info.simTime.Double()<sp/>-<sp/>this-&gt;lastUpdateTimestamp.toSec()<sp/>&gt;<sp/>5.0)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.is_measuring<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.concentration<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.header.frame_id<sp/>=<sp/>this-&gt;referenceFrameID;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.concentration<sp/>+=<sp/>this-&gt;GetGaussianNoise(</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;noiseAmp);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.header.stamp.sec<sp/>=<sp/>_info.simTime.sec;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/>this-&gt;outputMsg.header.stamp.nsec<sp/>=<sp/>_info.simTime.nsec;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>this-&gt;rosSensorOutputPub.publish(this-&gt;outputMsg);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.header.frame_id<sp/>=<sp/>this-&gt;referenceFrameID;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.header.stamp.sec<sp/>=<sp/>_info.simTime.sec;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.header.stamp.nsec<sp/>=<sp/>_info.simTime.nsec;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/>this-&gt;salinityMsg.salinity<sp/>=</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;waterSalinityValue<sp/>*<sp/>(1<sp/>-<sp/>std::min(1.0,<sp/>this-&gt;outputMsg.concentration))<sp/>+</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>std::min(1.0,<sp/>this-&gt;outputMsg.concentration)<sp/>*<sp/>this-&gt;plumeSalinityValue;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/>this-&gt;salinityPub.publish(this-&gt;salinityMsg);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>current<sp/>simulation<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/>this-&gt;lastMeasurementTime<sp/>=<sp/>this-&gt;world-&gt;SimTime();</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/>this-&gt;lastMeasurementTime<sp/>=<sp/>this-&gt;world-&gt;GetSimTime();</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a4df41586ec6bca66f1b9cc6b1f80af73" kindref="member">CPCROSPlugin::OnPlumeParticlesUpdate</ref>(</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sensor_msgs::PointCloud::ConstPtr<sp/>&amp;_msg)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;rosSensorOutputPub.getNumSubscribers()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;updatingCloud<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>totalParticleConc<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>smoothingParam;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>particleConc;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distToParticle;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d<sp/>linkPos,<sp/>linkPosRef;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/>linkPos<sp/>=<sp/>this-&gt;link-&gt;WorldPose().Pos();</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>linkPos<sp/>=<sp/>this-&gt;link-&gt;GetWorldPose().Ign().Pos();</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Apply<sp/>transformation<sp/>wrt<sp/>to<sp/>the<sp/>reference<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>linkPosRef<sp/>=<sp/>linkPos<sp/>-<sp/>this-&gt;referenceFrame.Pos();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>linkPosRef<sp/>=<sp/>this-&gt;referenceFrame.Rot().RotateVectorReverse(linkPosRef);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.is_measuring<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>the<sp/>current<sp/>position<sp/>wrt<sp/>the<sp/>reference<sp/>frame<sp/>where<sp/>this</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>measurement<sp/>was<sp/>taken</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.position.x<sp/>=<sp/>linkPosRef.X();</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.position.y<sp/>=<sp/>linkPosRef.Y();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.position.z<sp/>=<sp/>linkPosRef.Z();</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculate<sp/>the<sp/>current<sp/>position<sp/>in<sp/>WGS84<sp/>spherical<sp/>coordinates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d<sp/>cartVec<sp/>=<sp/>linkPos;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d<sp/>scVec<sp/>=</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;link-&gt;GetWorld()-&gt;SphericalCoords()-&gt;SphericalFromLocal(</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cartVec);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d<sp/>scVec<sp/>=</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;link-&gt;GetWorld()-&gt;GetSphericalCoordinates()-&gt;SphericalFromLocal(</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cartVec);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.latitude<sp/>=<sp/>scVec.X();</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.longitude<sp/>=<sp/>scVec.Y();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.depth<sp/>=<sp/>-1<sp/>*<sp/>scVec.Z();</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>this<sp/>measurement&apos;s<sp/>time<sp/>stamp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;lastUpdateTimestamp<sp/>=<sp/>_msg-&gt;header.stamp;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>currentTime<sp/>=<sp/>_msg-&gt;header.stamp.toSec();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>initSmoothingLength<sp/>=<sp/>std::pow(this-&gt;smoothingLength,<sp/>2.0<sp/>/<sp/>3);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d<sp/>particle;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>_msg-&gt;points.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>particle<sp/>=<sp/>ignition::math::Vector3d(_msg-&gt;points[i].x,<sp/>_msg-&gt;points[i].y,</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_msg-&gt;points[i].z);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>smoothingParam<sp/>=<sp/>std::pow(initSmoothingLength<sp/>+</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;gamma<sp/>*<sp/>(currentTime<sp/>-<sp/>_msg-&gt;channels[0].values[i]),<sp/>1.5);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>distToParticle<sp/>=<sp/>linkPos.Distance(particle);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>particle<sp/>concentration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(distToParticle<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>distToParticle<sp/>&lt;<sp/>smoothingParam)</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>4.0<sp/>-</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6.0<sp/>*<sp/>std::pow(distToParticle<sp/>/<sp/>smoothingParam,<sp/>2)<sp/>+</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3.0<sp/>*<sp/>std::pow(distToParticle<sp/>/<sp/>smoothingParam,<sp/>3);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(distToParticle<sp/>&gt;=<sp/>smoothingParam<sp/>&amp;&amp;<sp/>distToParticle<sp/>&lt;<sp/>2<sp/>*<sp/>smoothingParam)</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>std::pow(2<sp/>-<sp/>distToParticle<sp/>/<sp/>smoothingParam,<sp/>3);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>*=<sp/>1<sp/>/<sp/>(4<sp/>*<sp/>M_PI<sp/>*<sp/>std::pow(smoothingParam,<sp/>3));</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>totalParticleConc<sp/>+=<sp/>particleConc;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;outputMsg.concentration<sp/>=<sp/>this-&gt;gain<sp/>*<sp/>totalParticleConc;</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;updatingCloud<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="238"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal">GZ_REGISTER_MODEL_PLUGIN(CPCROSPlugin)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/CPCROSPlugin.cc"/>
+  </compounddef>
+</doxygen>

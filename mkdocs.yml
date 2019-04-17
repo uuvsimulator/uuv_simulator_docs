@@ -1,0 +1,139 @@
+site_name: Unmanned Underwater Vehicle Simulator Documentation
+copyright: Copyright (c) 2016-2019 The UUV Simulator Authors
+repo_url: https://github.com/uuvsimulator
+site_url: https://uuvsimulator.github.io/
+site_description: 'Unmanned Underwater Vehicle Simulator Documentation.'
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://github.com/boschresearch
+    - type: comment
+      link: https://discourse.ros.org/c/maritime
+    - type: github-alt
+      link: https://github.com/uuvsimulator/
+    - type: slack
+      link: https://uuvsimulator.slack.com/    
+
+# Extensions
+markdown_extensions:
+  - codehilite
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+      baselevel: 4
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+nav:
+  - Home: index.md      
+  - Installation: installation.md
+  - Quick start: quick_start.md    
+  - UUV Simulator: 
+    - Introduction: packages/uuv_simulator/intro.md
+    - Packages:
+      - uuv_assistants: packages/uuv_simulator/docs/packages/uuv_assistants.md             
+      - uuv_auv_control_allocator: packages/uuv_simulator/docs/packages/uuv_auv_control_allocator.md 
+      - uuv_control_cascaded_pid: packages/uuv_simulator/docs/packages/uuv_control_cascaded_pid.md
+      - uuv_control_msgs: packages/uuv_simulator/docs/packages/uuv_control_msgs.md
+      - uuv_control_utils: packages/uuv_simulator/docs/packages/uuv_control_utils.md
+      - uuv_descriptions: packages/uuv_simulator/docs/packages/uuv_descriptions.md
+      - uuv_gazebo_plugins: packages/uuv_simulator/docs/packages/uuv_gazebo_plugins.md
+      - uuv_gazebo: packages/uuv_simulator/docs/packages/uuv_gazebo.md
+      - uuv_gazebo_ros_plugins: packages/uuv_simulator/docs/packages/uuv_gazebo_ros_plugins.md
+      - uuv_gazebo_ros_plugins_msgs: packages/uuv_simulator/docs/packages/uuv_gazebo_ros_plugins_msgs.md
+      - uuv_gazebo_worlds: packages/uuv_simulator/docs/packages/uuv_gazebo_worlds.md
+      - uuv_sensor_ros_plugins: packages/uuv_simulator/docs/packages/uuv_sensor_ros_plugins.md
+      - uuv_sensor_ros_plugins_msgs: packages/uuv_simulator/docs/packages/uuv_sensor_ros_plugins_msgs.md
+      - uuv_teleop: packages/uuv_simulator/docs/packages/uuv_teleop.md
+      - uuv_thruster_manager: packages/uuv_simulator/docs/packages/uuv_thruster_manager.md
+      - uuv_trajectory_control: packages/uuv_simulator/docs/packages/uuv_trajectory_control.md
+      - uuv_world_plugins: packages/uuv_simulator/docs/packages/uuv_world_plugins.md
+      - uuv_world_ros_plugins: packages/uuv_simulator/docs/packages/uuv_world_ros_plugins.md
+      - uuv_world_ros_plugins_msgs: packages/uuv_simulator/docs/packages/uuv_world_ros_plugins_msgs.md
+    - API:
+      - uuv_gazebo_plugins: packages/uuv_simulator/docs/api/api-uuv_gazebo_plugins.md
+      - uuv_gazebo_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_gazebo_ros_plugins.md
+      - uuv_sensor_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_sensor_ros_plugins.md
+      - uuv_world_plugins: packages/uuv_simulator/docs/api/api-uuv_world_plugins.md
+      - uuv_world_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_world_ros_plugins.md
+  - Plume Simulator: 
+    - Introduction: packages/uuv_plume_simulator/intro.md
+    - Packages:
+      - uuv_plume_simulator: packages/uuv_plume_simulator/docs/packages/uuv_plume_simulator.md
+      - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/packages/uuv_cpc_sensor.md
+      - uuv_plume_msgs: packages/uuv_plume_simulator/docs/packages/uuv_plume_msgs.md
+    - API:
+      - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/api/api-uuv_cpc_sensor.md
+  - RexROV 2: 
+    - Introduction: packages/rexrov2/intro.md
+    - Packages:
+        - rexrov2_control: packages/rexrov2/docs/packages/rexrov2_control.md
+        - rexrov2_description: packages/rexrov2/docs/packages/rexrov2_description.md
+        - rexrov2_gazebo: packages/rexrov2/docs/packages/rexrov2_gazebo.md
+  - ECA A9: 
+    - Introduction: packages/eca_a9/intro.md 
+    - Packages:
+        - eca_a9_control: packages/eca_a9/docs/packages/eca_a9_control.md
+        - eca_a9_description: packages/eca_a9/docs/packages/eca_a9_description.md
+        - eca_a9_gazebo: packages/eca_a9/docs/packages/eca_a9_gazebo.md
+  - LAUV: 
+    - Introduction: packages/lauv_gazebo/intro.md
+    - Packages:
+      - lauv_control: packages/lauv_gazebo/docs/packages/lauv_control.md
+      - lauv_description: packages/lauv_gazebo/docs/packages/lauv_description.md
+      - lauv_gazebo: packages/lauv_gazebo/docs/packages/lauv_gazebo.md
+  - Desistek SAGA ROV: 
+    - Introduction: packages/desistek_saga/intro.md
+    - Packages:
+      - desistek_saga_control: packages/desistek_saga/docs/packages/desistek_saga_control.md
+      - desistek_saga_description: packages/desistek_saga/docs/packages/desistek_saga_description.md
+      - desistek_saga_gazebo: packages/desistek_saga/docs/packages/desistek_saga_gazebo.md
+  - Tutorials:
+    - Configuring the thruster manager: tutorials/config_thruster_manager.md
+    - Create new vehicle: tutorials/create_new_vehicle.md
+    - Creating new dynamic positioning controller: tutorials/creating_new_dp_controller.md
+    - Disturbances: tutorials/disturbances.md
+    - Plume simulation: tutorials/plume_simulation.md
+    - Creating a new world with a custom seabed: tutorials/seabed_world.md
+    - Using the simulation wrapper: tutorials/simulation_wrapper.md 
+  - FAQ: faq.md
+  - Useful Bibliography: bibliography.md
+  - About:
+    - License: about/license.md
+
+theme:
+  name: 'material'
+  feature:
+    tabs: true
+
+plugins:
+  - search
+  - awesome-pages
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'

@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgazebo_1_1_buoyant_object" kind="class"><name>gazebo::BuoyantObject</name>
+    <member refid="classgazebo_1_1_buoyant_object_1a5df478c848c90966d975f43d23273b68" kind="variable"><name>volume</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ad5478bc34170f61cc4c5dfa29bc2b652" kind="variable"><name>scalingVolume</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a87a15b7f37f66ac1042e3d2389c961ae" kind="variable"><name>offsetVolume</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ac4f954fe80eef93dd1382cd56be9a8c4" kind="variable"><name>fluidDensity</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a10e218847e76c2f8d80f7d6e36936b07" kind="variable"><name>g</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ac117d052ffe3b6d64b68931fb02a7cfa" kind="variable"><name>centerOfBuoyancy</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ad112205a7f3eafdd5d928053ddcf5b56" kind="variable"><name>boundingBox</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1aa4e2fa73e7befaa26e862b65b374d4cc" kind="variable"><name>hydroWrench</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ab0183045981acc20a4bb50bec6ef95df" kind="variable"><name>debugFlag</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a3cebc89074e9c099470dc07dc7b48d4c" kind="variable"><name>isSubmerged</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ac6c3d6cdb2429b08d460c8a73b425faa" kind="variable"><name>link</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a7a708207b8bfa11a2b16fdd9760cf7fe" kind="variable"><name>neutrallyBuoyant</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a9ab2bf6881f44a9295dca31c6e7c69f1" kind="variable"><name>metacentricWidth</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a5f3d6b665a81d6e253f958e2a223cab5" kind="variable"><name>metacentricLength</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a81cdf161131ba5c6b5d0b0375a13e6d4" kind="variable"><name>waterLevelPlaneArea</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ad83cee778e1d1851e3c951a1bbbed73e" kind="variable"><name>submergedHeight</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a3418fd9dd6946135e0d36a5e47c4d47d" kind="variable"><name>isSurfaceVessel</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a894adcdaac90ad400378c15e893efefa" kind="variable"><name>isSurfaceVesselFloating</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a359805730b19387b09b949017f4ec98c" kind="function"><name>BuoyantObject</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1aa2bce1d66c086f79021ede0af29b3c35" kind="function"><name>~BuoyantObject</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a932cee34723b709eacc09b7faf06c160" kind="function"><name>GetBuoyancyForce</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a4921e5c67f56246c7db97354907e96b4" kind="function"><name>ApplyBuoyancyForce</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1af6d39e740bfb499c20066308dbd4c8db" kind="function"><name>SetVolume</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ac68e8561a42b7a735df95b98bc36c9e2" kind="function"><name>GetVolume</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a678331bb1b31810e0e0cebfc3308e716" kind="function"><name>SetFluidDensity</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1aa5f4f9aa79af1d53bf2abac34c919e3f" kind="function"><name>GetFluidDensity</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ab8eb0fcd27dcc5e42493953b5f8a3fbf" kind="function"><name>SetCoB</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1ac650663010209205589444a1b6399d8f" kind="function"><name>GetCoB</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a58bf8302392511f120389455b20650d0" kind="function"><name>SetGravity</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a30e79e6d2a15cc72f13f2bdbd4d8ca20" kind="function"><name>GetGravity</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1aa882b38b3a34b53b63387e88b3cf35f8" kind="function"><name>SetBoundingBox</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a4eac79e88a01768d2ac57edb9f0c2165" kind="function"><name>SetStoreVector</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a54823aae49748ba43a3850a46e6bde54" kind="function"><name>GetStoredVector</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a82d4bf4144197aacc72af095b694646d" kind="function"><name>SetDebugFlag</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a8c463acfd7aff5617ae4eee3b7fce5bd" kind="function"><name>IsSubmerged</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a1963a046ea32ebd0c5ef8b84e47ffa12" kind="function"><name>IsNeutrallyBuoyant</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a83d4b9929c151d16c2b554a13f6eb999" kind="function"><name>GetDebugFlag</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a28274bff9fd823e3691241d10f4634ba" kind="function"><name>SetNeutrallyBuoyant</name></member>
+    <member refid="classgazebo_1_1_buoyant_object_1a72cef0c40933fdad28fbb805ca392ad6" kind="function"><name>StoreVector</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_conversion_function" kind="class"><name>gazebo::ConversionFunction</name>
+    <member refid="classgazebo_1_1_conversion_function_1a70689912f6f1f316a84f2dea2e10050d" kind="function"><name>ConversionFunction</name></member>
+    <member refid="classgazebo_1_1_conversion_function_1afc13b3997ac95f70425ec5fc830d927c" kind="function"><name>~ConversionFunction</name></member>
+    <member refid="classgazebo_1_1_conversion_function_1ac0d2640de379ea86c087491c70bc6189" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_conversion_function_1a9e0c3b99751eeaf95f96dd49ed0351a2" kind="function"><name>GetTable</name></member>
+    <member refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950" kind="function"><name>convert</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_conversion_function_basic" kind="class"><name>gazebo::ConversionFunctionBasic</name>
+    <member refid="classgazebo_1_1_conversion_function_basic_1aeb1f1c7f7c8f27d8abd47224fcda456b" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1abdf5701a85c00966ae5c44a6415672ac" kind="variable"><name>rotorConstant</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a9f93dad90325e745d6fa34bedd9cfb21" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a2ce48db471c7706abede19a724ef08fe" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a943dbcaa6720093a775ebb7f3a1e3bea" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a8f10f33118aeda7560214d915cee892e" kind="function"><name>convert</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a901c1ae9f3da58e006bf03ee97061a0f" kind="function"><name>REGISTER_CONVERSIONFUNCTION</name></member>
+    <member refid="classgazebo_1_1_conversion_function_basic_1a88ec34aeb29fb684979e71e83dfa593d" kind="function"><name>ConversionFunctionBasic</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_conversion_function_bessa" kind="class"><name>gazebo::ConversionFunctionBessa</name>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a30a2c7f70f224a46ea3a2931a65d635f" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a88fc66f186604e3016e50581adec26d5" kind="variable"><name>rotorConstantL</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a80c0ace3fdaca319830453dd3aa3621d" kind="variable"><name>rotorConstantR</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a0184a1d1f19c054a8da00be558984e1e" kind="variable"><name>deltaL</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1aa619db40514f2084f775b2d22cfca3c4" kind="variable"><name>deltaR</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a7935156beb3d0055e7a43b01973dcc99" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a31637f978fdc895689920238998b7926" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1ad47b4e53609b493924d3f0e76626f133" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a2e863ecdfdeb289ada6d9045783d17a0" kind="function"><name>convert</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1a3609d2addedd4e4105f7632ca4634c8f" kind="function"><name>REGISTER_CONVERSIONFUNCTION</name></member>
+    <member refid="classgazebo_1_1_conversion_function_bessa_1afab84998dbf8c6bc4db702321f50019f" kind="function"><name>ConversionFunctionBessa</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_conversion_function_factory" kind="class"><name>gazebo::ConversionFunctionFactory</name>
+    <member refid="classgazebo_1_1_conversion_function_factory_1ad4826ffafd38d7bc75af7ce797cbcd4c" kind="variable"><name>creators_</name></member>
+    <member refid="classgazebo_1_1_conversion_function_factory_1a26d4ebd40ed459a7fb5ed382822ecc33" kind="function"><name>CreateConversionFunction</name></member>
+    <member refid="classgazebo_1_1_conversion_function_factory_1ac25e17bcce4a2fd6f0cf42f2ead733b0" kind="function"><name>RegisterCreator</name></member>
+    <member refid="classgazebo_1_1_conversion_function_factory_1acc7a6d4d975acadff293bf2af2748282" kind="function"><name>GetInstance</name></member>
+    <member refid="classgazebo_1_1_conversion_function_factory_1ac4b18bd433c8978dd27b9f5de1748e72" kind="function"><name>ConversionFunctionFactory</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_conversion_function_linear_interp" kind="class"><name>gazebo::ConversionFunctionLinearInterp</name>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1a12be2236eb2449d99526384502993163" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1a2b7d1d90d6e83dbcc588054da571df99" kind="variable"><name>lookupTable</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1ad1a03fe3738aa5dd88638ea07e499743" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1a949ed2e6176730ef0322a25a1a86c92c" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1aa443515bbf8913e8d5fef758a6f21b71" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1a2252ec3701319511a8d7ef2bbdf25a70" kind="function"><name>GetTable</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1ae0bfc703bbbe5eef389fedf5565b10c1" kind="function"><name>convert</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1a88c9e7968451be0b83c24586b72ff99a" kind="function"><name>REGISTER_CONVERSIONFUNCTION</name></member>
+    <member refid="classgazebo_1_1_conversion_function_linear_interp_1af91f01dbc7ee21439cb736306edac569" kind="function"><name>ConversionFunctionLinearInterp</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_dynamics" kind="class"><name>gazebo::Dynamics</name>
+    <member refid="classgazebo_1_1_dynamics_1a27de443c5e85c6ab6ddcbb31e880d4b2" kind="variable"><name>prevTime</name></member>
+    <member refid="classgazebo_1_1_dynamics_1a4c2f128d2d0ef4d312936f66106cf229" kind="variable"><name>state</name></member>
+    <member refid="classgazebo_1_1_dynamics_1a4e590f9f7264d3d7e22c08d9b7737f1a" kind="function"><name>Dynamics</name></member>
+    <member refid="classgazebo_1_1_dynamics_1a93c023678bcde05d9cc280afe071b889" kind="function"><name>~Dynamics</name></member>
+    <member refid="classgazebo_1_1_dynamics_1ae9efe1854032da39ab230063c0303549" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_dynamics_1a7cae772ac89944d52757c7883d75f93a" kind="function"><name>update</name></member>
+    <member refid="classgazebo_1_1_dynamics_1a4ca9ecc33bdd2e3cf8a42a928a9eec8f" kind="function"><name>Reset</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_dynamics_factory" kind="class"><name>gazebo::DynamicsFactory</name>
+    <member refid="classgazebo_1_1_dynamics_factory_1a74faeb9a3eb416dbeb4e06a702a5af45" kind="variable"><name>creators_</name></member>
+    <member refid="classgazebo_1_1_dynamics_factory_1a7c041d73164da84de4a4677e7df83c88" kind="function"><name>CreateDynamics</name></member>
+    <member refid="classgazebo_1_1_dynamics_factory_1a46196328ff7188a0bc741da2ab3c4441" kind="function"><name>RegisterCreator</name></member>
+    <member refid="classgazebo_1_1_dynamics_factory_1a6396cc1d091dc0907c825ec37c2ef4e3" kind="function"><name>GetInstance</name></member>
+    <member refid="classgazebo_1_1_dynamics_factory_1a9d8e39ad7ebeb9c349fd4aba00d5551a" kind="function"><name>DynamicsFactory</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_dynamics_first_order" kind="class"><name>gazebo::DynamicsFirstOrder</name>
+    <member refid="classgazebo_1_1_dynamics_first_order_1a705d661095e9222d2865163d0f640caf" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1aa1178a7a1fc884b3e4658dbc3150dca3" kind="variable"><name>tau</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1ac7d44c0d877c788f980dedd406ff321c" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1a976f58c938b8ca01939d2e9590b75998" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1af22a9290175ba3af09ef326bd136dd7f" kind="function"><name>update</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1aa1e44293875790faab5a753e06f01884" kind="function"><name>REGISTER_DYNAMICS</name></member>
+    <member refid="classgazebo_1_1_dynamics_first_order_1adb7d4d4306b902b6c80ef0713567992d" kind="function"><name>DynamicsFirstOrder</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_dynamics_zero_order" kind="class"><name>gazebo::DynamicsZeroOrder</name>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1aee97b28def507d3998196ea6dfff40d8" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1a24a60d5e8102bb6a24e08b7a345a2e60" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1a1a4108039cf597688a76c54c75272822" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1ae65354f33fab89db306180c59cb60090" kind="function"><name>update</name></member>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1abec3a9203d5b128fb883517780d4a24b" kind="function"><name>REGISTER_DYNAMICS</name></member>
+    <member refid="classgazebo_1_1_dynamics_zero_order_1a91c82ad03ae3f68a846c8d7cd61abe56" kind="function"><name>DynamicsZeroOrder</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_fin_plugin" kind="class"><name>gazebo::FinPlugin</name>
+    <member refid="classgazebo_1_1_fin_plugin_1ad0a0e94fc62d04d9a08f119e72919420" kind="variable"><name>dynamics</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a59d7567aa36e7d6882d1dd11c9ab75d0" kind="variable"><name>liftdrag</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a217cde139114bb0f1415f73b82538e00" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a2acefe090abcbd138a230391e577d187" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1af5fbe5a75a59199af8e92e17b2546841" kind="variable"><name>joint</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1aa2a49d7b7c718265296063be66767375" kind="variable"><name>link</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a5d58c432064cc3c9c94b3ed0bd8a52a3" kind="variable"><name>commandSubscriber</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a17fc907ce5376d31010075d2c127e0a9" kind="variable"><name>anglePublisher</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1ae0cfeae0cbbf51ed8ad3d88710a7bf95" kind="variable"><name>finForce</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1ac748f61691360a841314e3d92ee7cfdd" kind="variable"><name>inputCommand</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a0d357d22e70731d4f0da1e2eb16dbec9" kind="variable"><name>finID</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1ae595f9a8c9d7d00439935c3a95a7ec42" kind="variable"><name>topicPrefix</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a030388a1a36c2f58f0baa34605eb0d15" kind="variable"><name>angle</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a4fb2db18a81a9a7cf8f2f5376b3e5d02" kind="variable"><name>angleStamp</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a3940ad05bd8930b1d866154116939a07" kind="variable"><name>currentSubscriber</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1adc8117b6c3169bbcccc25ba63ba4276e" kind="variable"><name>currentVelocity</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a347a9d485eb98d0c0d1ce181cf3530e7" kind="function"><name>FinPlugin</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a6bfb47239eaef146985a19a5005ba320" kind="function"><name>~FinPlugin</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a2229e6e90a612c37da8bbf1110c54f53" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1a674d8c80971e173b7066fa2a52ae8388" kind="function"><name>Init</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1ab4612d0093ed8b1fd0e24f780f584889" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1ad20391361f5206bde332a229251c7f38" kind="function"><name>UpdateInput</name></member>
+    <member refid="classgazebo_1_1_fin_plugin_1aaf4c2da2058c877cbffdd0dc6d94c0ee" kind="function"><name>UpdateCurrentVelocity</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_h_m_box" kind="class"><name>gazebo::HMBox</name>
+    <member refid="classgazebo_1_1_h_m_box_1a13bd1620bd19b2ae8096decc6502a1e7" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1ac2c2cc1ea1fbb98b17f47ebede1261e3" kind="variable"><name>Cd</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a13e4a2034e9c0b727087c2525bd84acf" kind="variable"><name>length</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1ab0d0b9465a2f7f595d5922d3ed45a9c4" kind="variable"><name>width</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a73325f0d7d5098892963503f5b6c3149" kind="variable"><name>height</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a7e70ec74041e24838fb2597020444bc3" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a6617b9acdab36fa004feb27b7a05f6ef" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a56a3123563c1f6dfa78a4f124d495c72" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1a6272ca1c6e201215e4e35dedb07ead8d" kind="function"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="classgazebo_1_1_h_m_box_1af1d27f2047dbcfa9b979179f5f3ef870" kind="function"><name>HMBox</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_h_m_cylinder" kind="class"><name>gazebo::HMCylinder</name>
+    <member refid="classgazebo_1_1_h_m_cylinder_1a87cc88906d52e7d431e1b55bea1854df" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1a396afa964665d8f0702391b2cfdf6cc4" kind="variable"><name>length</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1aba2dc883b09294d82f9a87cc197e4a25" kind="variable"><name>radius</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1ae872f7cb144c935dd22e84e33b1cdf7e" kind="variable"><name>axis</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1af173fe2078a149180c5bd7a36c746265" kind="variable"><name>dimRatio</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1af6ee1fcee5b899e82b5ffdd114d01c49" kind="variable"><name>cdCirc</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1a2c81fea33f924981d87c7213d75916fe" kind="variable"><name>cdLength</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1a76f0a8d44b4bb95f0b6d4f854ce2be21" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1af03d6bf3387a364000b7f40fca710ec5" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1afacc200562d7f89d6b04bf18a1d0cfb7" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1aa2282fe6b0f7359650ae929d31d2675c" kind="function"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="classgazebo_1_1_h_m_cylinder_1a84ee35b71884652b527c57e80620176f" kind="function"><name>HMCylinder</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_h_m_fossen" kind="class"><name>gazebo::HMFossen</name>
+    <member refid="classgazebo_1_1_h_m_fossen_1a0b7a8b504cbf1075e53a0960b2563f4a" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a2a31c659331c826a6d80abe7755e473e" kind="variable"><name>Ma</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1ada6f90d47445047d905e8fe3794885ac" kind="variable"><name>scalingAddedMass</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1ab326125b3b49893d7492f4778d6ace55" kind="variable"><name>offsetAddedMass</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1aafd51761404afd9b1e98f0b1ecb0b14f" kind="variable"><name>Ca</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a20df2ff4d0a155b41c275d37e621e32f" kind="variable"><name>D</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a5d5f9e75be8dbbd2b8bbfbc81ba55cf3" kind="variable"><name>scalingDamping</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1adc9dd4195791aab3ebaf12bdbe2e293e" kind="variable"><name>offsetLinearDamping</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a1c9074d7810329daca5f3ea42e6307cb" kind="variable"><name>offsetLinForwardSpeedDamping</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a6e2bfe2801f2697f0e0c087a45158ff3" kind="variable"><name>offsetNonLinDamping</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a1301b0130643ce7d55b8ff238afdc264" kind="variable"><name>DLin</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a9a2cc66ad71a7fc9ce904f5cc27a36f0" kind="variable"><name>DLinForwardSpeed</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a3219a54c0be1a8a1e186b33dde95d6b5" kind="variable"><name>DNonLin</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1aaaee5e4e341d1f3fccba9c832429712d" kind="variable"><name>linearDampCoef</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a062e26123041365e16822bc2059fe3d1" kind="variable"><name>quadDampCoef</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a4473fe62590315c62a74d57a49561c3d" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1aab89ea21b6813039f229fc7b9a8fcc0d" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1abd8c4e6caecac0a09fdbfa4d7d6b3b54" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1aef89b7d0c921eed479aea9f825de8883" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1acc9a5f5880cc346390a036f8561127ee" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1ad312189912d8613083fc53570ed07ae0" kind="function"><name>SetParam</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1ad13894a8127a248f9c8c79678266ed07" kind="function"><name>ApplyHydrodynamicForces</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1ab3a59be3a5e9037575ee6f4878e96d8b" kind="function"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a9b9fcbd9ca518c9cd41300e0f9d43ee5" kind="function"><name>HMFossen</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1afe97af45fc44777a04b4f1c81519b07b" kind="function"><name>ComputeAddedCoriolisMatrix</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a19624761792eac92864647ebee971196" kind="function"><name>ComputeDampingMatrix</name></member>
+    <member refid="classgazebo_1_1_h_m_fossen_1a555bb01ef30396e3b39fa26bf6a79848" kind="function"><name>GetAddedMass</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_h_m_sphere" kind="class"><name>gazebo::HMSphere</name>
+    <member refid="classgazebo_1_1_h_m_sphere_1ac6fe680806e0da29a77c3dd9996a1763" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1a53a9704c540fd283d50118a870d9a8b1" kind="variable"><name>radius</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1a61c1e959e29f452df6dda720e5f6b5c1" kind="variable"><name>Cd</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1a5081baf0c9306d417ad644e227687b68" kind="variable"><name>areaSection</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1aba02ae4b4e986947c89b3552b2661ddf" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1a6ee346960d84c9013955972feb52cc8b" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1acd4564627261d2b9b3008760a4a478d7" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1aeaadb6a68613b17755780a3de522ff5c" kind="function"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="classgazebo_1_1_h_m_sphere_1aa7e66a6a55d3eb381c258de70f0b81a6" kind="function"><name>HMSphere</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_h_m_spheroid" kind="class"><name>gazebo::HMSpheroid</name>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a5429fc186631bdebff6e8f12e60b1eb1" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a3de304ad70f38d3ef85501c5533c39a3" kind="variable"><name>length</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a1aab5b64e948769bf729157ce0f3ae8d" kind="variable"><name>radius</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1acca3b046f41e6fc364d744bc3e6d0486" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a2af19270ed7d89121ad909c2d295d2ff" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a76aa73929b7c32a19d578bea07dea1f1" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1a18fc82c0a1428fe643680f56cdeb0b7a" kind="function"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="classgazebo_1_1_h_m_spheroid_1afdf9b645d329cd9d774375d2f167d03d" kind="function"><name>HMSpheroid</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_hydrodynamic_model" kind="class"><name>gazebo::HydrodynamicModel</name>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a9d402a541867397d32247de6746ab5de" kind="variable"><name>filteredAcc</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a212a914dc81067558c637d308773e23e" kind="variable"><name>lastTime</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1affd2dff3e08a26ac9e00ee2ebaff6016" kind="variable"><name>lastVelRel</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a6152abe7eda7e10157ed72696d87be38" kind="variable"><name>params</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1ae82075119ebbf0d7f3f0ea13b6aeb6cf" kind="variable"><name>Re</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1adf0cb47bd32f552c285f4cf5eeec9d36" kind="variable"><name>temperature</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1aac68d5a44688757965ccf0e9d648c8b8" kind="function"><name>HydrodynamicModel</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1abb6cf4e433202d163b1276d67434ace2" kind="function"><name>ComputeAcc</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a729f90fa3933d2fd9aeed5fdb7838f1b" kind="function"><name>CheckParams</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a46a25bbc280aa3d466268756c7362809" kind="function"><name>ToNED</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a715caa11d851a41265d0d682301e3781" kind="function"><name>FromNED</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a16e39024389414178442d4278c16222a" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a365a5ea0d71ad3ec3d79f985c42c2417" kind="function"><name>ApplyHydrodynamicForces</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1aead6d1b6eefebe5034bb86adcbf1169a" kind="function"><name>Print</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1ac123271c564f843fb280713704d20f7e" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1addaa35736ce4bc798ab70ace59a0a9e8" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_1a173db3079e94e656abcaf44d61ea3ba2" kind="function"><name>SetParam</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_hydrodynamic_model_factory" kind="class"><name>gazebo::HydrodynamicModelFactory</name>
+    <member refid="classgazebo_1_1_hydrodynamic_model_factory_1a8a96b7328af955ebb20fb639fd7aeab3" kind="variable"><name>creators_</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_factory_1a4113b1faaf8277574e4a4b3854f51884" kind="function"><name>CreateHydrodynamicModel</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_factory_1acc1cc6c8730ee4e0d558d4fbfa96ecb5" kind="function"><name>RegisterCreator</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_factory_1a8281e8722c60237ee137347d4ddfe668" kind="function"><name>GetInstance</name></member>
+    <member refid="classgazebo_1_1_hydrodynamic_model_factory_1a2086dbee8dc2dcb508d53f0fb23f1be7" kind="function"><name>HydrodynamicModelFactory</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_lift_drag" kind="class"><name>gazebo::LiftDrag</name>
+    <member refid="classgazebo_1_1_lift_drag_1aa062dc13d3a5c4b9d6de277cc578eee7" kind="variable"><name>prevTime</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1a73cd43d69e94ce2a392abe437c732cb0" kind="variable"><name>state</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1aa9f53de408dfca89a517be7dbcd673c6" kind="function"><name>LiftDrag</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1a1985b8f41a6ab17525f50b39396a8a60" kind="function"><name>CheckForElement</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1a7025e5299778dfb25ee8e1eaed4ecb83" kind="function"><name>~LiftDrag</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1ad8a25e574ba7f75b30e8813b315010b3" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1ac20f4dbd4ea08d8d9d0852f8e2b128b0" kind="function"><name>compute</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1a4e2d58afb4af2ba7c0f169cd8fcebb3b" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_lift_drag_1a7d35e963ce57451f5939ccff9a956285" kind="function"><name>GetListParams</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_lift_drag_factory" kind="class"><name>gazebo::LiftDragFactory</name>
+    <member refid="classgazebo_1_1_lift_drag_factory_1a57745386d1c2cec50debea467d73347b" kind="variable"><name>creators_</name></member>
+    <member refid="classgazebo_1_1_lift_drag_factory_1a7a79c4e602ee766109f7ff64de1db8ac" kind="function"><name>CreateLiftDrag</name></member>
+    <member refid="classgazebo_1_1_lift_drag_factory_1addb70527ea530e2f7d260a077657f722" kind="function"><name>RegisterCreator</name></member>
+    <member refid="classgazebo_1_1_lift_drag_factory_1a0de687e12227bda9889214f2dcbf8805" kind="function"><name>GetInstance</name></member>
+    <member refid="classgazebo_1_1_lift_drag_factory_1a38a8efea276c007fb225fde974cc1e7e" kind="function"><name>LiftDragFactory</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_lift_drag_quadratic" kind="class"><name>gazebo::LiftDragQuadratic</name>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1a23ae540d852d416b71f4776059ee2a3f" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1abbe2a7518c24690bee23fe9bde91092e" kind="variable"><name>liftConstant</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1a78a7b21bef504b05c84da40ed47699ad" kind="variable"><name>dragConstant</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1a668607ebeb1636d049a7178d96761abf" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1a1e9fd0549b24b7148e12011a0f294eb5" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1ae187246d00eb5202a72faa5828ab2f00" kind="function"><name>compute</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1add46239f7abd7ed73c700c6cfb0dc63a" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1abeb288db759bcc85f8e6414e4c07e326" kind="function"><name>GetListParams</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1ab215ec40855cf8e0eb8e9f92a071d656" kind="function"><name>REGISTER_LIFTDRAG</name></member>
+    <member refid="classgazebo_1_1_lift_drag_quadratic_1a6921b10c10dd8b58cff882c2121929da" kind="function"><name>LiftDragQuadratic</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_lift_drag_two_lines" kind="class"><name>gazebo::LiftDragTwoLines</name>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a849e06ab2106f38ea6102293c031e69d" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a461fc127b2ec92301d715d6a6b4df69f" kind="variable"><name>area</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ac5ea64aeb8b87292fe68a1c024d6d474" kind="variable"><name>fluidDensity</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a01e4fdcf5d1cb823d782180c7b5e4ac7" kind="variable"><name>a0</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a4215009b05c352436274ce81e0ddf8c4" kind="variable"><name>alphaStall</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a569349db608e180bf2ea30de181ee34a" kind="variable"><name>cla</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ad2653c58c571861bd6510b30f3803d39" kind="variable"><name>claStall</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a90b024b3933c2f2c5ee67c026af6b5c8" kind="variable"><name>cda</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a369bf986130bde7cac35d088f00f8e7a" kind="variable"><name>cdaStall</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ac5e46b28d2ee07f3d483a217b1e04394" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a541d5835070a1b626cd57c4291c805d0" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ae88266dfe7c1fc1818cdf0a998b37002" kind="function"><name>compute</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ac5ae08c5d1cbad85f259bcc5b84705b5" kind="function"><name>GetParam</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ac1e2943c9ebef6ef3471fe293799b726" kind="function"><name>GetListParams</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1ace1cac9ef31ee2e150ce07fa9ebbcba3" kind="function"><name>REGISTER_LIFTDRAG</name></member>
+    <member refid="classgazebo_1_1_lift_drag_two_lines_1a9ee6176fc9adc66f6592edbf7cdd1837" kind="function"><name>LiftDragTwoLines</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_thruster_dynamics_bessa" kind="class"><name>gazebo::ThrusterDynamicsBessa</name>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1af4016a5daa452e86d79880e7f003ad93" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a7f5e4be25a7f92635cc58d254705cbd3" kind="variable"><name>Jmsp</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1ac6aff138fdc4f682fa02f07d60fb8553" kind="variable"><name>Kv1</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a77373aaccfd112a4bf8d8059e57427f8" kind="variable"><name>Kv2</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a263ea14e96b28a33974b4d32f3d4b47e" kind="variable"><name>Kt</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a37eeb03aebfc1bff4761d6cd7e972322" kind="variable"><name>Rm</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a8a27b37a3fdf08d44bb12d458de4c062" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a141b10b080998366163f31793fd93a78" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a4eaffe57006894124ec0f62987785996" kind="function"><name>update</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1ad6579557ba9a17946112bdfbffe2ef1d" kind="function"><name>REGISTER_DYNAMICS</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_bessa_1a4dc6bf9444c9db0c79765c7868ba5279" kind="function"><name>ThrusterDynamicsBessa</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_thruster_dynamics_yoerger" kind="class"><name>gazebo::ThrusterDynamicsYoerger</name>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a7f37e3eb000a296df29af46a0c808ae4" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1ade230d79ed1f0ba3b6c94db4c2982c09" kind="variable"><name>alpha</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a3cbdbb7f6aef9c512844ae5761056993" kind="variable"><name>beta</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1ad08fced9cdaf6148887f23f34d40acb3" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a71e827ac4c6ed26139b35d0fb72f5c3e" kind="function"><name>GetType</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a0d43ff9c18a4caa3b056c50f4997de85" kind="function"><name>update</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a24a772162e5c89c70f3a81355f3da9e0" kind="function"><name>REGISTER_DYNAMICS</name></member>
+    <member refid="classgazebo_1_1_thruster_dynamics_yoerger_1a4a762da0f3d9d5ddec036ac5a33d5ccd" kind="function"><name>ThrusterDynamicsYoerger</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_thruster_plugin" kind="class"><name>gazebo::ThrusterPlugin</name>
+    <member refid="classgazebo_1_1_thruster_plugin_1a2a5bdae0148178c1688362257e59dbfa" kind="variable"><name>thrusterDynamics</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1aab369c9f214021b0e3372dd61907c257" kind="variable"><name>conversionFunction</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a23c4d67fd108db7dabc2727244934a30" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a141de7a7aedb56861b9046ee7897399f" kind="variable"><name>thrusterLink</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1afedb1c79f0a9c060cd4bc6c1ef541b68" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1ae4054a7444082b7f0195b3cf72bfad6f" kind="variable"><name>commandSubscriber</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a8ad82769e76b0844a87763446f03a267" kind="variable"><name>thrustTopicPublisher</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a617d0e909a0d82397d95954c8c103035" kind="variable"><name>inputCommand</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a3dd6123930d825ae14ca56b253b9c8a2" kind="variable"><name>thrustForce</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1afc2f42b3a4d4dfe1d59bdb06a15bf8e7" kind="variable"><name>thrustForceStamp</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a5df1a3ae7ee6363498bf3221d7c70f93" kind="variable"><name>joint</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1ab2e98f8b4a89488d0455d7d57b84ec52" kind="variable"><name>clampMin</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a58ee9e27895d9921cc40cd0c64aa086d" kind="variable"><name>clampMax</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1aad3011318655f542756926e0633de05e" kind="variable"><name>thrustMin</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a7730c8c0b69432591ab15e42f4deef35" kind="variable"><name>thrustMax</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a2e6fb5eaaa297788fabb51bd8dc578e3" kind="variable"><name>thrusterID</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1acde9d0318e86dfbc9e6e2af723ea9c3b" kind="variable"><name>topicPrefix</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a76067d3ea096103f7d6f3f43106e0e23" kind="variable"><name>gain</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a86031b28be7600d3eedaecf3d11a9ea5" kind="variable"><name>isOn</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a36d3369e6481b21d8450c012b21ea7a7" kind="variable"><name>thrustEfficiency</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a0e8f044924d12715aba76aa95555641d" kind="variable"><name>propellerEfficiency</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a961eff0b01402bf7a56117a35e064b06" kind="variable"><name>thrusterAxis</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a6b5841ff33686cc450313e03cf294d9c" kind="function"><name>ThrusterPlugin</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a06d1a5a37d484a2ce88329fd2fed8f59" kind="function"><name>~ThrusterPlugin</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a1b4f788380387681886f65531ceb0f25" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a976abc5ac54372004630800a7d83aa8e" kind="function"><name>Init</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a3a445ef9af6ff415eb3d2e319c232841" kind="function"><name>Reset</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a4cd1505e012721530e09cc346500ff12" kind="function"><name>Update</name></member>
+    <member refid="classgazebo_1_1_thruster_plugin_1a8ede5b7013c52fd890a429f55a0d0c74" kind="function"><name>UpdateInput</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_umbilical_model" kind="class"><name>gazebo::UmbilicalModel</name>
+    <member refid="classgazebo_1_1_umbilical_model_1a48ea9fa0b8db157b948b1a6f21e94be1" kind="variable"><name>model</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_1a83ea6576e2b766d962be574e576413bd" kind="variable"><name>connector</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_1a71941e80b15a64440d87138956e93774" kind="function"><name>UmbilicalModel</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_1a6219268fde521f1873477227342e22f8" kind="function"><name>~UmbilicalModel</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_1adbc3a2261e2f18bf139ebcd4bdad9a2e" kind="function"><name>Init</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_1ae2c720369c5eea2d3562a73d9031571b" kind="function"><name>OnUpdate</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_umbilical_model_berg" kind="class"><name>gazebo::UmbilicalModelBerg</name>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a9b96823f93c9f8d4f0d3e39697c97f83" kind="variable"><name>IDENTIFIER</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1ad8930052ba2cd86285c9067d01b1a161" kind="variable"><name>diameter</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a4aac5df312f235472062adcc1fc5c6fd" kind="variable"><name>rho</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a3f1ce2888fe8ef1fa0da035c97926b48" kind="function"><name>UmbilicalModelBerg</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a4263ddcd8f8712ebf473ef5e88e623d4" kind="function"><name>create</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a192a711adeb0f052eb0b07d67b4629f4" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_berg_1a328cf4cbae97bb4543f39c8854881010" kind="function"><name>REGISTER_UMBILICALMODEL</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_umbilical_model_factory" kind="class"><name>gazebo::UmbilicalModelFactory</name>
+    <member refid="classgazebo_1_1_umbilical_model_factory_1ae79305cd7cd1ca1989881f99f166d014" kind="variable"><name>creators_</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_factory_1ac7a7245f47500ee02e68f84c5e7a5032" kind="function"><name>CreateUmbilicalModel</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_factory_1a97c20262e741c090c7616f082a23869e" kind="function"><name>RegisterCreator</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_factory_1aa6505cb366b7415a287c968307288c4d" kind="function"><name>GetInstance</name></member>
+    <member refid="classgazebo_1_1_umbilical_model_factory_1ab611cf44849de59afee4d0fab40a443f" kind="function"><name>UmbilicalModelFactory</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_umbilical_plugin" kind="class"><name>gazebo::UmbilicalPlugin</name>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a23741aa2b2775fb58db688c19b338c7f" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1aa495d0dd46d56e18550dfa30ec6a5ccf" kind="variable"><name>model</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a9299893f7d97eb66ee07fb725ca165d4" kind="variable"><name>world</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a552cee3d43b51eb33048ad88120bf879" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a5f7d8aee1c7f91bcfdc680484a60b4db" kind="variable"><name>flowSubscriber</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a6b65710780f67008b0b167840d19d781" kind="variable"><name>flowVelocity</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a02c19fdf4ddac48e3a46b5e72522c938" kind="variable"><name>umbilical</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a057f26aba6131c97efcfad72864c1c96" kind="function"><name>UmbilicalPlugin</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1afd11fddc7265c89ce53a665688ea4baa" kind="function"><name>~UmbilicalPlugin</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1af44b8802650eb0c0d9842558db614914" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1a27b0bf9ff8f9face03db37b7882e9195" kind="function"><name>OnUpdate</name></member>
+    <member refid="classgazebo_1_1_umbilical_plugin_1aafce9f28f1b7438e2585c9d5fe5d434c" kind="function"><name>UpdateFlowVelocity</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_umbilical_segment" kind="class"><name>gazebo::UmbilicalSegment</name>
+    <member refid="classgazebo_1_1_umbilical_segment_1a963afcbc43ee1488b5445ad365a4ccab" kind="variable"><name>link</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a2393822c7d09df752db6760e969ce384" kind="variable"><name>linkA</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a4bd1470650660e46276958afa6da098e" kind="variable"><name>jointA</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a9eeb348f8684ccd14ada13447584fb15" kind="variable"><name>jointB</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1ac5f9bc503bb4ffb2d2e055e542ad0d6a" kind="variable"><name>prev</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1ae1d881262117ee5c620ec6792b955582" kind="variable"><name>next</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a5f993c68f1d019f106603a57b7e30423" kind="variable"><name>sdfSegment</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1acd1d7bf99c3c1b4b2778bfc82383d139" kind="function"><name>UmbilicalSegment</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a166887767ceae016d2dc9653079f22c5" kind="function"><name>UmbilicalSegment</name></member>
+    <member refid="classgazebo_1_1_umbilical_segment_1a12a42cd56d35a6534e7f9e8fafcf2414" kind="function"><name>initSdfSegment</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_underwater_object_plugin" kind="class"><name>gazebo::UnderwaterObjectPlugin</name>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1abbc883398252e410563c657648743e3e" kind="variable"><name>models</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1ac5bf6578ef4434438ba7d7647b69b971" kind="variable"><name>flowVelocity</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a1a4d81782ad2d21fc01598e0d9b42d27" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a9f16fc2908d17c0975331cc825d14cb0" kind="variable"><name>world</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a896d92ed527a0d9f7b47208614eaba0c" kind="variable"><name>model</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a5422d922731696d2767e5be09c2cb5c2" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a08b0e6dfab6a63945ea6d1c71c858df1" kind="variable"><name>baseLinkName</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1adb22008a9f57f11659e2b2a18d57bcc6" kind="variable"><name>flowSubscriber</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a0bfd19ce74a42666f26fefa0ded488f3" kind="variable"><name>useGlobalCurrent</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a33989646c81bc47fe86dae3052846ea2" kind="variable"><name>hydroPub</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1ac875088ebde0583e6f3e07cdeaea53ae" kind="function"><name>UnderwaterObjectPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1af97f83bac0327ebc2671839c56f44207" kind="function"><name>~UnderwaterObjectPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1acaa3bd6b66429cb588fbcba3ae70be74" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1afbe0672e704e832adf5619fd7c34cd5c" kind="function"><name>Init</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1ad5893829b75bed2bb052bef467d6dcf4" kind="function"><name>Update</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a7497acca39dc0a4f338bd863b002ec33" kind="function"><name>Connect</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a22bb6d230cc76b4a838ffffe5a6ba722" kind="function"><name>UpdateFlowVelocity</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a89d8430bc839e0ff477fd893be829060" kind="function"><name>PublishCurrentVelocityMarker</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1adc2e3f16a6fa8ce79497b5664fb66b82" kind="function"><name>PublishIsSubmerged</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1ae5da81b93706dded6de765628f57ad05" kind="function"><name>PublishRestoringForce</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1af1b5370bf8ebd626fd9eafb2b46075b9" kind="function"><name>PublishHydrodynamicWrenches</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a6deb4663c719f288b671539020257bb0" kind="function"><name>GenWrenchMsg</name></member>
+    <member refid="classgazebo_1_1_underwater_object_plugin_1a86136f608b56ecd79bd6530f92724a75" kind="function"><name>InitDebug</name></member>
+  </compound>
+  <compound refid="namespace_eigen" kind="namespace"><name>Eigen</name>
+    <member refid="_def_8hh_1ab6f8b8b11b0f6350ed45e7cd3437207f" kind="typedef"><name>Matrix6d</name></member>
+    <member refid="_def_8hh_1a09219f5e0b822edbf24b125e0e2a4fe0" kind="typedef"><name>Vector6d</name></member>
+  </compound>
+  <compound refid="namespacegazebo" kind="namespace"><name>gazebo</name>
+    <member refid="_dynamics_8hh_1a8e7489c3c056152b0a8b80ffe77c5567" kind="typedef"><name>DynamicsCreator</name></member>
+    <member refid="_fin_plugin_8hh_1adec3148dfa71d908caf33660a62187d4" kind="typedef"><name>ConstDoublePtr</name></member>
+    <member refid="_hydrodynamic_model_8hh_1ab7e72448c3e86f93ab214d73c0cd4414" kind="typedef"><name>HydrodynamicModelPtr</name></member>
+    <member refid="_hydrodynamic_model_8hh_1a194f8f65c5742548df2f40575c3a243a" kind="typedef"><name>HydrodynamicModelCreator</name></member>
+    <member refid="_lift_drag_model_8hh_1a0f875f2388cacda1cc18a2084bf6fb39" kind="typedef"><name>LiftDragCreator</name></member>
+    <member refid="_thruster_conversion_fcn_8hh_1a8dbde708b15603a355a927eb4fa22060" kind="typedef"><name>ConversionFunctionCreator</name></member>
+    <member refid="_umbilical_model_8hh_1ac83d0f2a8002f70380344d41af30a20d" kind="typedef"><name>UmbilicalModelCreator</name></member>
+    <member refid="_umbilical_plugin_8hh_1ace27208bf80d280bc41a57056340385c" kind="typedef"><name>UmbilicalSegmentPtr</name></member>
+    <member refid="_def_8hh_1a2cebe56ebe3fea83f705b81b63478ab3" kind="function"><name>Str2Vector</name></member>
+    <member refid="_def_8hh_1af0c92548f7f8577ab4baf1e3ea1bad8c" kind="function"><name>CrossProductOperator</name></member>
+    <member refid="_def_8hh_1afdae7b4473d28927d48943e02ffb6997" kind="function"><name>CrossProductOperator</name></member>
+    <member refid="_def_8hh_1a1ef93fe6b4298908bce62e78f6ccbec1" kind="function"><name>ToEigen</name></member>
+    <member refid="_def_8hh_1a6e99d53b62183beec10906544a332398" kind="function"><name>ToEigen</name></member>
+    <member refid="_def_8hh_1a0bfe56e41fbcc76d068fdb8c64bc9658" kind="function"><name>EigenStack</name></member>
+    <member refid="_def_8hh_1abf74a848ac8e88250e20d2f9c527a035" kind="function"><name>Vec3dToGazebo</name></member>
+    <member refid="_def_8hh_1ab6be531ba3f076aa302787cc0f08b8a0" kind="function"><name>Mat3dToGazebo</name></member>
+    <member refid="_dynamics_8cc_1a4449aff6ae35a1c889f8bd3bee7cef38" kind="function"><name>REGISTER_DYNAMICS_CREATOR</name></member>
+    <member refid="_dynamics_8cc_1ab5566bd0a552bb647e261f0fa4636ac9" kind="function"><name>REGISTER_DYNAMICS_CREATOR</name></member>
+    <member refid="_dynamics_8cc_1aa763285ed8d3d33598c48f5366a2a159" kind="function"><name>REGISTER_DYNAMICS_CREATOR</name></member>
+    <member refid="_dynamics_8cc_1ad9384305982bbb7ccb903654cf44d174" kind="function"><name>REGISTER_DYNAMICS_CREATOR</name></member>
+    <member refid="_hydrodynamic_model_8cc_1a389aad33a29388be8ba649233c4b2388" kind="function"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+    <member refid="_hydrodynamic_model_8cc_1aa9493417a195f7fa86f7be6e3df8733f" kind="function"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+    <member refid="_hydrodynamic_model_8cc_1ad4101ddb1453ef95ec71ca2e1c15b6bb" kind="function"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+    <member refid="_hydrodynamic_model_8cc_1a099465f483f1fcfc9ef96bbcbe6c10d7" kind="function"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+    <member refid="_hydrodynamic_model_8cc_1a74769739d76bc34176d05d2e9b35b3d2" kind="function"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+    <member refid="_lift_drag_model_8cc_1a3a7c3e09fa3f79d2777967d0962b54b9" kind="function"><name>REGISTER_LIFTDRAG_CREATOR</name></member>
+    <member refid="_lift_drag_model_8cc_1ab5100d02a5113eea87d0e30645be00fa" kind="function"><name>REGISTER_LIFTDRAG_CREATOR</name></member>
+    <member refid="_thruster_conversion_fcn_8cc_1ab4b8624453357262a7c8ee726f493362" kind="function"><name>REGISTER_CONVERSIONFUNCTION_CREATOR</name></member>
+    <member refid="_thruster_conversion_fcn_8cc_1aa19a1211c0e03422138d85e67d6e401b" kind="function"><name>REGISTER_CONVERSIONFUNCTION_CREATOR</name></member>
+    <member refid="_thruster_conversion_fcn_8cc_1a6a10547af4c30411a1f3cf9c5c7575f3" kind="function"><name>REGISTER_CONVERSIONFUNCTION_CREATOR</name></member>
+    <member refid="_umbilical_plugin_8cc_1aa0457d29fbe099affb59c08843bb121a" kind="function"><name>GZ_REGISTER_MODEL_PLUGIN</name></member>
+  </compound>
+  <compound refid="_buoyant_object_8hh" kind="file"><name>BuoyantObject.hh</name>
+    <member refid="_buoyant_object_8hh_1a1d994d77185f407da4a9682b1b8e8e9b" kind="define"><name>RESTORING_FORCE</name></member>
+  </compound>
+  <compound refid="_def_8hh" kind="file"><name>Def.hh</name>
+    <member refid="_def_8hh_1a1d994d77185f407da4a9682b1b8e8e9b" kind="define"><name>RESTORING_FORCE</name></member>
+    <member refid="_def_8hh_1a64add06c958a04a6b923b857d1c736c5" kind="define"><name>UUV_DAMPING_FORCE</name></member>
+    <member refid="_def_8hh_1a7ec67b97cb1feb9296486a0f69b41da7" kind="define"><name>UUV_DAMPING_TORQUE</name></member>
+    <member refid="_def_8hh_1a388b4a05152409fe5dc0c9349fbdecc3" kind="define"><name>UUV_ADDED_CORIOLIS_FORCE</name></member>
+    <member refid="_def_8hh_1af5d7a8753d7107f164309eee6be39ded" kind="define"><name>UUV_ADDED_CORIOLIS_TORQUE</name></member>
+    <member refid="_def_8hh_1ac46a100982d7a5fb982c3c67d089f0d7" kind="define"><name>UUV_ADDED_MASS_FORCE</name></member>
+    <member refid="_def_8hh_1a782a5518d6d68b83512340eb7e8db1de" kind="define"><name>UUV_ADDED_MASS_TORQUE</name></member>
+    <member refid="_def_8hh_1a598a3330b3c21701223ee0ca14316eca" kind="define"><name>PI</name></member>
+  </compound>
+  <compound refid="_dynamics_8hh" kind="file"><name>Dynamics.hh</name>
+    <member refid="_dynamics_8hh_1aa6f8dca3386a544ae65f9d434e0369dc" kind="define"><name>REGISTER_DYNAMICS</name></member>
+    <member refid="_dynamics_8hh_1a65edd6ef7394a283315627d0f5a5d894" kind="define"><name>REGISTER_DYNAMICS_CREATOR</name></member>
+  </compound>
+  <compound refid="_fin_plugin_8hh" kind="file"><name>FinPlugin.hh</name>
+  </compound>
+  <compound refid="_hydrodynamic_model_8hh" kind="file"><name>HydrodynamicModel.hh</name>
+    <member refid="_hydrodynamic_model_8hh_1a4f8c2caa967436437bdfd62b94509794" kind="define"><name>REGISTER_HYDRODYNAMICMODEL</name></member>
+    <member refid="_hydrodynamic_model_8hh_1abdb9e8724ddd754aaa5445bfe88674c4" kind="define"><name>REGISTER_HYDRODYNAMICMODEL_CREATOR</name></member>
+  </compound>
+  <compound refid="_lift_drag_model_8hh" kind="file"><name>LiftDragModel.hh</name>
+    <member refid="_lift_drag_model_8hh_1a89937b823063205db9751f27716c79a7" kind="define"><name>REGISTER_LIFTDRAG</name></member>
+    <member refid="_lift_drag_model_8hh_1a74e100492a7da6df4b8a69719bdf3dc6" kind="define"><name>REGISTER_LIFTDRAG_CREATOR</name></member>
+  </compound>
+  <compound refid="_thruster_conversion_fcn_8hh" kind="file"><name>ThrusterConversionFcn.hh</name>
+    <member refid="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" kind="define"><name>REGISTER_CONVERSIONFUNCTION</name></member>
+    <member refid="_thruster_conversion_fcn_8hh_1aacdbe129a8efc2b64eb25a8b13a80d96" kind="define"><name>REGISTER_CONVERSIONFUNCTION_CREATOR</name></member>
+  </compound>
+  <compound refid="_thruster_plugin_8hh" kind="file"><name>ThrusterPlugin.hh</name>
+  </compound>
+  <compound refid="_umbilical_model_8hh" kind="file"><name>UmbilicalModel.hh</name>
+    <member refid="_umbilical_model_8hh_1a01f4f572d377ca63eaca37e71d03ffef" kind="define"><name>REGISTER_UMBILICALMODEL</name></member>
+    <member refid="_umbilical_model_8hh_1a2bc2fd937d9ce2e10b1505d3154f3ed8" kind="define"><name>REGISTER_UMBILICALMODEL_CREATOR</name></member>
+  </compound>
+  <compound refid="_umbilical_plugin_8hh" kind="file"><name>UmbilicalPlugin.hh</name>
+  </compound>
+  <compound refid="_underwater_object_plugin_8hh" kind="file"><name>UnderwaterObjectPlugin.hh</name>
+  </compound>
+  <compound refid="_buoyant_object_8cc" kind="file"><name>BuoyantObject.cc</name>
+  </compound>
+  <compound refid="_dynamics_8cc" kind="file"><name>Dynamics.cc</name>
+  </compound>
+  <compound refid="_fin_plugin_8cc" kind="file"><name>FinPlugin.cc</name>
+  </compound>
+  <compound refid="_hydrodynamic_model_8cc" kind="file"><name>HydrodynamicModel.cc</name>
+  </compound>
+  <compound refid="_lift_drag_model_8cc" kind="file"><name>LiftDragModel.cc</name>
+  </compound>
+  <compound refid="_thruster_conversion_fcn_8cc" kind="file"><name>ThrusterConversionFcn.cc</name>
+  </compound>
+  <compound refid="_thruster_conversion_fcn___t_e_s_t_8cc" kind="file"><name>ThrusterConversionFcn_TEST.cc</name>
+    <member refid="_thruster_conversion_fcn___t_e_s_t_8cc_1a7239195faaa59e80bd60114c9d919f61" kind="function"><name>ConversionFromString</name></member>
+    <member refid="_thruster_conversion_fcn___t_e_s_t_8cc_1aaac2dc19b5fb40287ae8d6af65819955" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_conversion_fcn___t_e_s_t_8cc_1a058cb1b82f717cc315842d3a866876da" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_conversion_fcn___t_e_s_t_8cc_1a0d076f584d47590ed33426eb330efc90" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_conversion_fcn___t_e_s_t_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_thruster_dynamics___t_e_s_t_8cc" kind="file"><name>ThrusterDynamics_TEST.cc</name>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1a5f5b4542f0b6ce63e37747fee976657a" kind="function"><name>DynamicsFromString</name></member>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1a23fcaf59ad6ed5424f80939679ef05df" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1ab02826e085e82a22e823adefdfc8ac1d" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1a9305e3a28612a88cf5324a9462f5b7cc" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1aefc9afcf36e6843a61865f71e557664d" kind="function"><name>TEST</name></member>
+    <member refid="_thruster_dynamics___t_e_s_t_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_thruster_plugin_8cc" kind="file"><name>ThrusterPlugin.cc</name>
+  </compound>
+  <compound refid="_umbilical_model_8cc" kind="file"><name>UmbilicalModel.cc</name>
+  </compound>
+  <compound refid="_umbilical_plugin_8cc" kind="file"><name>UmbilicalPlugin.cc</name>
+  </compound>
+  <compound refid="_underwater_object_plugin_8cc" kind="file"><name>UnderwaterObjectPlugin.cc</name>
+  </compound>
+  <compound refid="dir_5c9b1b03f6e45e6a48c8e8f7b0f905ad" kind="dir"><name>/home/musamorena/catkin_ws</name>
+  </compound>
+  <compound refid="dir_80821f1986564ecf21cc741af32e2fbd" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include</name>
+  </compound>
+  <compound refid="dir_7c859f3878cb32062c29919224ce2290" kind="dir"><name>/home/musamorena/catkin_ws/src</name>
+  </compound>
+  <compound refid="dir_72b9c92f3bd8d6a54e24f0a8488d76e1" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src</name>
+  </compound>
+  <compound refid="dir_9634e3cd6208255d5e0add4df8b3b9a5" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins</name>
+  </compound>
+  <compound refid="dir_280b21408f76275f6febde58caa507ce" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins</name>
+  </compound>
+  <compound refid="dir_6105ae8600f83d07163a143d3d00ac41" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins</name>
+  </compound>
+  <compound refid="dir_947f9076ebd7f86e6acc2c3743d06dac" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator</name>
+  </compound>
+</doxygenindex>

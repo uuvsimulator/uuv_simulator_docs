@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::SphericalCoordinatesROSInterfacePlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">WorldPlugin</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aea70e85edc45f5c16f6b4aa0deee4fc4" prot="protected" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; gazebo::SphericalCoordinatesROSInterfacePlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+<para>Pointer to this ROS node&apos;s handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="71" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a7369e11fa96d90bfa45a24689869d719" prot="protected" static="no" mutable="no">
+        <type>event::ConnectionPtr</type>
+        <definition>event::ConnectionPtr gazebo::SphericalCoordinatesROSInterfacePlugin::rosPublishConnection</definition>
+        <argsstring></argsstring>
+        <name>rosPublishConnection</name>
+        <briefdescription>
+<para>Connection for callbacks on update world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="74" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a92dbd263f77ee75c67dfa8f7dbe7f45d" prot="protected" static="no" mutable="no">
+        <type>physics::WorldPtr</type>
+        <definition>physics::WorldPtr gazebo::SphericalCoordinatesROSInterfacePlugin::world</definition>
+        <argsstring></argsstring>
+        <name>world</name>
+        <briefdescription>
+<para>Pointer to world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="77" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0f858a67ac5be296746f6b7075131261" prot="protected" static="no" mutable="no">
+        <type>std::map&lt; std::string, ros::ServiceServer &gt;</type>
+        <definition>std::map&lt;std::string, ros::ServiceServer&gt; gazebo::SphericalCoordinatesROSInterfacePlugin::worldServices</definition>
+        <argsstring></argsstring>
+        <name>worldServices</name>
+        <briefdescription>
+<para>All underwater world services. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="80" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a6bf1a00d18fac3a015684a1afc0820c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::SphericalCoordinatesROSInterfacePlugin::SphericalCoordinatesROSInterfacePlugin</definition>
+        <argsstring>()</argsstring>
+        <name>SphericalCoordinatesROSInterfacePlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="42" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="24" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0ea8367ff22eeeac89fb5db34e2cde81" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>gazebo::SphericalCoordinatesROSInterfacePlugin::~SphericalCoordinatesROSInterfacePlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~SphericalCoordinatesROSInterfacePlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="45" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a8d0cef461af33093c256fdf1ccfd82c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::SphericalCoordinatesROSInterfacePlugin::Load</definition>
+        <argsstring>(physics::WorldPtr _world, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>physics::WorldPtr</type>
+          <declname>_world</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load module and read parameters from SDF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="48" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="39" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aa967b09744ddbe4072a4c8dc5e35a631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::SphericalCoordinatesROSInterfacePlugin::GetOriginSphericalCoord</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::GetOriginSphericalCoord::Request &amp;_req, uuv_world_ros_plugins_msgs::GetOriginSphericalCoord::Response &amp;_res)</argsstring>
+        <name>GetOriginSphericalCoord</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetOriginSphericalCoord::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetOriginSphericalCoord::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call that returns the origin in WGS84 standard. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="51" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="145" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0805453fc6658c5024cddf6907ca34bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::SphericalCoordinatesROSInterfacePlugin::SetOriginSphericalCoord</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetOriginSphericalCoord::Request &amp;_req, uuv_world_ros_plugins_msgs::SetOriginSphericalCoord::Response &amp;_res)</argsstring>
+        <name>SetOriginSphericalCoord</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetOriginSphericalCoord::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetOriginSphericalCoord::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call that returns the origin in WGS84 standard. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="56" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="168" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a3e480b1393af8868ee975a7c32638ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::SphericalCoordinatesROSInterfacePlugin::TransformToSphericalCoord</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::TransformToSphericalCoord::Request &amp;_req, uuv_world_ros_plugins_msgs::TransformToSphericalCoord::Response &amp;_res)</argsstring>
+        <name>TransformToSphericalCoord</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::TransformToSphericalCoord::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::TransformToSphericalCoord::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to transform from Cartesian to spherical coordinates. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="61" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="104" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aa314576c573c750cf0d32b1191e86d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::SphericalCoordinatesROSInterfacePlugin::TransformFromSphericalCoord</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::TransformFromSphericalCoord::Request &amp;_req, uuv_world_ros_plugins_msgs::TransformFromSphericalCoord::Response &amp;_res)</argsstring>
+        <name>TransformFromSphericalCoord</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::TransformFromSphericalCoord::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::TransformFromSphericalCoord::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to transform from spherical to Cartesian coordinates. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/SphericalCoordinatesROSInterfacePlugin.cc" bodystart="125" bodyend="142"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>WorldPlugin</label>
+      </node>
+      <node id="0">
+        <label>gazebo::SphericalCoordinatesROSInterfacePlugin</label>
+        <link refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>WorldPlugin</label>
+      </node>
+      <node id="2">
+        <label>gazebo::SphericalCoordinatesROSInterfacePlugin</label>
+        <link refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" line="40" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/SphericalCoordinatesROSInterfacePlugin.hh" bodystart="39" bodyend="81"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aa967b09744ddbe4072a4c8dc5e35a631" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>GetOriginSphericalCoord</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a8d0cef461af33093c256fdf1ccfd82c3" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aea70e85edc45f5c16f6b4aa0deee4fc4" prot="protected" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>rosNode</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a7369e11fa96d90bfa45a24689869d719" prot="protected" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>rosPublishConnection</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0805453fc6658c5024cddf6907ca34bf" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>SetOriginSphericalCoord</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a6bf1a00d18fac3a015684a1afc0820c3" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>SphericalCoordinatesROSInterfacePlugin</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1aa314576c573c750cf0d32b1191e86d03" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>TransformFromSphericalCoord</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a3e480b1393af8868ee975a7c32638ac0" prot="public" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>TransformToSphericalCoord</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a92dbd263f77ee75c67dfa8f7dbe7f45d" prot="protected" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>world</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0f858a67ac5be296746f6b7075131261" prot="protected" virt="non-virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>worldServices</name></member>
+      <member refid="classgazebo_1_1_spherical_coordinates_r_o_s_interface_plugin_1a0ea8367ff22eeeac89fb5db34e2cde81" prot="public" virt="virtual"><scope>gazebo::SphericalCoordinatesROSInterfacePlugin</scope><name>~SphericalCoordinatesROSInterfacePlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

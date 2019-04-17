@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgazebo_1_1_gauss_markov_process" kind="class"><name>gazebo::GaussMarkovProcess</name>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a1e4fb7902c13ed7f5ed4b081b8c750a1" kind="variable"><name>var</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1ac245edf6d8fa0b6926cb8d83d29e3457" kind="variable"><name>mean</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a5becb64490649244d6ee0370dd9e9952" kind="variable"><name>min</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a36c94fb3fd89d6b8ec095ff2fd61fd1a" kind="variable"><name>max</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1af0c51962ec2392d734c0ee79f45866a8" kind="variable"><name>mu</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a094afee00b782c741a5edfdea42f0644" kind="variable"><name>noiseAmp</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a21d7006da353d3a20fdb0faba2a24da7" kind="variable"><name>lastUpdate</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1af1e11c49f71e6fd8f260f69db1e45e61" kind="function"><name>GaussMarkovProcess</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1abb7d9286aa8162e074b64188908017fe" kind="function"><name>Reset</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1aa987aee49f6f4a2f460138c93b11d3e8" kind="function"><name>SetModel</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a02d2ce1deb17930eb2b6d87ffc93d3f0" kind="function"><name>SetMean</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a4fe5c320c4fbdf4c6e5211381cf6e96a" kind="function"><name>Update</name></member>
+    <member refid="classgazebo_1_1_gauss_markov_process_1a5933e94170a0b8ab0b32e8eaba5281bf" kind="function"><name>Print</name></member>
+  </compound>
+  <compound refid="classgazebo_1_1_underwater_current_plugin" kind="class"><name>gazebo::UnderwaterCurrentPlugin</name>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a23c0101c0c3c71f512727a4a3ba75d28" kind="variable"><name>updateConnection</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a3a758a0e71061bcdc7ca82c2bfab6fc4" kind="variable"><name>world</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1ad082f3db4ccdc319ce003add6a21c18f" kind="variable"><name>sdf</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a4654b0504fbad298f0d73357ab17a131" kind="variable"><name>hasSurface</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a92e9794c05da0bba890d582232cc0f85" kind="variable"><name>node</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a1590e7fe4479c23286fde33697bf365f" kind="variable"><name>publishers</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a4ac6ce6988a4ef57df89e865ea658c79" kind="variable"><name>currentVelocityTopic</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a5bdd48d0cd5a5895935bd7326bf8863d" kind="variable"><name>ns</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1af97217b7fc6ee9e751cdabfeb8615499" kind="variable"><name>currentVelModel</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1af31b1c5721c123f7e4057765d3692a6d" kind="variable"><name>currentHorzAngleModel</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1ac0dfdc167921e5a4066e46c56283b2ec" kind="variable"><name>currentVertAngleModel</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a7db4c296d502c5c0133ad3ce0f088ec7" kind="variable"><name>lastUpdate</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a4b2a08f71f1a6aa4f8404d363d446385" kind="variable"><name>currentVelocity</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a53ab68e44476969bf9f060e5d373dd7f" kind="function"><name>UnderwaterCurrentPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a6c6a579c9dec4ea61acfa9a9d4fa7600" kind="function"><name>~UnderwaterCurrentPlugin</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a4bf93316f588c10868ed5dba85a14e78" kind="function"><name>Load</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a88d6932fa23c36f7628fbc424c323cc8" kind="function"><name>Init</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1adb9ca73dfee4c4ac0f98e1d87dcd2aa8" kind="function"><name>Update</name></member>
+    <member refid="classgazebo_1_1_underwater_current_plugin_1a4587e4131fa4978b360f8e2510502a3a" kind="function"><name>PublishCurrentVelocity</name></member>
+  </compound>
+  <compound refid="namespacegazebo" kind="namespace"><name>gazebo</name>
+  </compound>
+  <compound refid="_gauss_markov_process_8hh" kind="file"><name>GaussMarkovProcess.hh</name>
+  </compound>
+  <compound refid="_underwater_current_plugin_8hh" kind="file"><name>UnderwaterCurrentPlugin.hh</name>
+  </compound>
+  <compound refid="_gauss_markov_process_8cc" kind="file"><name>GaussMarkovProcess.cc</name>
+  </compound>
+  <compound refid="_underwater_current_plugin_8cc" kind="file"><name>UnderwaterCurrentPlugin.cc</name>
+  </compound>
+  <compound refid="dir_5c9b1b03f6e45e6a48c8e8f7b0f905ad" kind="dir"><name>/home/musamorena/catkin_ws</name>
+  </compound>
+  <compound refid="dir_03b7e1bc7f00a6f47330444a60b44515" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include</name>
+  </compound>
+  <compound refid="dir_7c859f3878cb32062c29919224ce2290" kind="dir"><name>/home/musamorena/catkin_ws/src</name>
+  </compound>
+  <compound refid="dir_1d952b5ddac5dd5f9bf4fdc8fabd9bcd" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src</name>
+  </compound>
+  <compound refid="dir_947f9076ebd7f86e6acc2c3743d06dac" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator</name>
+  </compound>
+  <compound refid="dir_c916e31eacff0338c311f20cab547f4e" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins</name>
+  </compound>
+  <compound refid="dir_e45380eab2b1bbc9d5298c9f09e44ff0" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins</name>
+  </compound>
+  <compound refid="dir_6947e5d1cb8d0995f5c9b8cfe9f19497" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins</name>
+  </compound>
+</doxygenindex>

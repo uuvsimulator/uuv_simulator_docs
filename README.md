@@ -15,6 +15,35 @@ Before using it in a safety relevant setting, make sure that the software
 fulfills your requirements and adjust it according to any applicable safety
 standards (e.g. ISO 26262).
 
+## Installation
+
+### Requirements
+
+Install the dependencies
+
+```
+sudo apt install python3-pip
+sudo pip3 install virtualenv
+```
+
+### Activate the virtual environment and install the dependencies
+
+```
+virtualenv -p python3 venv
+pip install -r requirements.txt 
+```
+
+### Install `moxygen`
+
+1. Install [`npm`](https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/)
+2. Install [`moxygen`](https://github.com/sourcey/moxygen)
+
+Run 
+
+```
+> moxygen --anchors --groups --output api-%s.md /path/to/doxygen/xml
+```
+
 ## License
 
 UUV Simulator is open-sourced under the Apache-2.0 license. See the

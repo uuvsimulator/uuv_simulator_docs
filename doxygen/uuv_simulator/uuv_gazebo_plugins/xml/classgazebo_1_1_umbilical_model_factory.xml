@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_umbilical_model_factory" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::UmbilicalModelFactory</compoundname>
+    <includes refid="_umbilical_model_8hh" local="no">UmbilicalModel.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_factory_1ae79305cd7cd1ca1989881f99f166d014" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, UmbilicalModelCreator &gt;</type>
+        <definition>std::map&lt;std::string, UmbilicalModelCreator&gt; gazebo::UmbilicalModelFactory::creators_</definition>
+        <argsstring></argsstring>
+        <name>creators_</name>
+        <briefdescription>
+<para>Map of each registered identifiers to its corresponding creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="76" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_factory_1ac7a7245f47500ee02e68f84c5e7a5032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> *</type>
+        <definition>UmbilicalModel * gazebo::UmbilicalModelFactory::CreateUmbilicalModel</definition>
+        <argsstring>(sdf::ElementPtr _sdf, physics::ModelPtr _model)</argsstring>
+        <name>CreateUmbilicalModel</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref> object according to its sdf Description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="62" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="27" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_factory_1a97c20262e741c090c7616f082a23869e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::UmbilicalModelFactory::RegisterCreator</definition>
+        <argsstring>(const std::string &amp;_identifier, UmbilicalModelCreator _creator)</argsstring>
+        <name>RegisterCreator</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_identifier</declname>
+        </param>
+        <param>
+          <type>UmbilicalModelCreator</type>
+          <declname>_creator</declname>
+        </param>
+        <briefdescription>
+<para>Register an <ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> class with its creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="59" bodyend="72"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_factory_1aa6505cb366b7415a287c968307288c4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_umbilical_model_factory" kindref="compound">UmbilicalModelFactory</ref> &amp;</type>
+        <definition>UmbilicalModelFactory &amp; gazebo::UmbilicalModelFactory::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+<para>Return the singleton instance of this factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_factory_1ab611cf44849de59afee4d0fab40a443f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::UmbilicalModelFactory::UmbilicalModelFactory</definition>
+        <argsstring>()</argsstring>
+        <name>UmbilicalModelFactory</name>
+        <briefdescription>
+<para>Constructor is private since this is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="73" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="73" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory singleton class that creates an <ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> from sdf. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="59" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_umbilical_model_factory_1ac7a7245f47500ee02e68f84c5e7a5032" prot="public" virt="non-virtual"><scope>gazebo::UmbilicalModelFactory</scope><name>CreateUmbilicalModel</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_factory_1ae79305cd7cd1ca1989881f99f166d014" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelFactory</scope><name>creators_</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_factory_1aa6505cb366b7415a287c968307288c4d" prot="public" virt="non-virtual"><scope>gazebo::UmbilicalModelFactory</scope><name>GetInstance</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_factory_1a97c20262e741c090c7616f082a23869e" prot="public" virt="non-virtual"><scope>gazebo::UmbilicalModelFactory</scope><name>RegisterCreator</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_factory_1ab611cf44849de59afee4d0fab40a443f" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelFactory</scope><name>UmbilicalModelFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

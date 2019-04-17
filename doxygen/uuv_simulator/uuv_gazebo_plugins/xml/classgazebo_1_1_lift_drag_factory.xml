@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_lift_drag_factory" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::LiftDragFactory</compoundname>
+    <includes refid="_lift_drag_model_8hh" local="no">LiftDragModel.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_factory_1a57745386d1c2cec50debea467d73347b" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, LiftDragCreator &gt;</type>
+        <definition>std::map&lt;std::string, LiftDragCreator&gt; gazebo::LiftDragFactory::creators_</definition>
+        <argsstring></argsstring>
+        <name>creators_</name>
+        <briefdescription>
+<para>Map of each registered identifier to its corresponding creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="85" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_factory_1a7a79c4e602ee766109f7ff64de1db8ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> *</type>
+        <definition>LiftDrag * gazebo::LiftDragFactory::CreateLiftDrag</definition>
+        <argsstring>(sdf::ElementPtr _sdf)</argsstring>
+        <name>CreateLiftDrag</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Create <ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> object according to its sdf Description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="37" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_factory_1addb70527ea530e2f7d260a077657f722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::LiftDragFactory::RegisterCreator</definition>
+        <argsstring>(const std::string &amp;_identifier, LiftDragCreator _creator)</argsstring>
+        <name>RegisterCreator</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_identifier</declname>
+        </param>
+        <param>
+          <type>LiftDragCreator</type>
+          <declname>_creator</declname>
+        </param>
+        <briefdescription>
+<para>Register a <ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> class with its creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="78" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="66" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_factory_1a0de687e12227bda9889214f2dcbf8805" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_lift_drag_factory" kindref="compound">LiftDragFactory</ref> &amp;</type>
+        <definition>LiftDragFactory &amp; gazebo::LiftDragFactory::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+<para>Returns the singleton instance of this factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="75" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="59" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_factory_1a38a8efea276c007fb225fde974cc1e7e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::LiftDragFactory::LiftDragFactory</definition>
+        <argsstring>()</argsstring>
+        <name>LiftDragFactory</name>
+        <briefdescription>
+<para>Constructor is private since this is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="82" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory singleton class that creates a <ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> from sdf. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="70" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="69" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_lift_drag_factory_1a7a79c4e602ee766109f7ff64de1db8ac" prot="public" virt="non-virtual"><scope>gazebo::LiftDragFactory</scope><name>CreateLiftDrag</name></member>
+      <member refid="classgazebo_1_1_lift_drag_factory_1a57745386d1c2cec50debea467d73347b" prot="private" virt="non-virtual"><scope>gazebo::LiftDragFactory</scope><name>creators_</name></member>
+      <member refid="classgazebo_1_1_lift_drag_factory_1a0de687e12227bda9889214f2dcbf8805" prot="public" virt="non-virtual"><scope>gazebo::LiftDragFactory</scope><name>GetInstance</name></member>
+      <member refid="classgazebo_1_1_lift_drag_factory_1a38a8efea276c007fb225fde974cc1e7e" prot="private" virt="non-virtual"><scope>gazebo::LiftDragFactory</scope><name>LiftDragFactory</name></member>
+      <member refid="classgazebo_1_1_lift_drag_factory_1addb70527ea530e2f7d260a077657f722" prot="public" virt="non-virtual"><scope>gazebo::LiftDragFactory</scope><name>RegisterCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

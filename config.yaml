@@ -1,0 +1,54 @@
+git_root_url: https://github.com/uuvsimulator 
+catkin_pkg_docs:
+- repository_name: uuv_simulator
+  pkg_names:
+    - uuv_assistants 
+    - uuv_auv_control_allocator 
+    - uuv_control_cascaded_pid 
+    - uuv_control_msgs 
+    - uuv_control_utils
+    - uuv_descriptions
+    - uuv_gazebo
+    - uuv_gazebo_plugins
+    - uuv_gazebo_ros_plugins_msgs
+    - uuv_gazebo_ros_plugins
+    - uuv_gazebo_worlds
+    - uuv_sensor_ros_plugins_msgs
+    - uuv_sensor_ros_plugins
+    - uuv_teleop
+    - uuv_thruster_manager
+    - uuv_trajectory_control
+    - uuv_world_plugins
+    - uuv_world_ros_plugins_msgs
+    - uuv_world_ros_plugins
+  output_dir: docs/packages/uuv_simulator/docs/packages
+- repository_name: uuv_plume_simulator
+  pkg_names:
+    - uuv_plume_msgs 
+    - uuv_cpc_sensor 
+    - uuv_plume_simulator
+  output_dir: docs/packages/uuv_plume_simulator/docs/packages
+- repository_name: rexrov2
+  pkg_names:
+    - rexrov2_gazebo 
+    - rexrov2_description 
+    - rexrov2_control
+  output_dir: docs/packages/rexrov2/docs/packages
+- repository_name: eca_a9
+  pkg_names:
+    - eca_a9_gazebo 
+    - eca_a9_description 
+    - eca_a9_control
+  output_dir: docs/packages/eca_a9/docs/packages
+- repository_name: lauv_gazebo
+  pkg_names: 
+    - lauv_gazebo 
+    - lauv_description 
+    - lauv_control
+  output_dir: docs/packages/lauv_gazebo/docs/packages
+- repository_name: desistek_saga
+  pkg_names: 
+    - desistek_saga_gazebo 
+    - desistek_saga_description 
+    - desistek_saga_control
+  output_dir: docs/packages/desistek_saga/docs/packages

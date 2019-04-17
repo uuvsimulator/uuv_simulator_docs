@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structgazebo_1_1_i_m_u_parameters" kind="struct" language="C++" prot="public">
+    <compoundname>gazebo::IMUParameters</compoundname>
+    <includes refid="_i_m_u_r_o_s_plugin_8hh" local="no">IMUROSPlugin.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1a25f7a443bbabe24709fef7902f253686" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::gyroscopeNoiseDensity</definition>
+        <argsstring></argsstring>
+        <name>gyroscopeNoiseDensity</name>
+        <briefdescription>
+<para>Gyroscope noise density (two-sided spectrum) [rad/s/sqrt(Hz)]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="57" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1ae252c3f9cc0692111ce5d34603db2c1b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::gyroscopeRandomWalk</definition>
+        <argsstring></argsstring>
+        <name>gyroscopeRandomWalk</name>
+        <briefdescription>
+<para>Gyroscope bias random walk [rad/s/s/sqrt(Hz)]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1ab9fa9588c7a67ae9c38e71910a510661" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::gyroscopeBiasCorrelationTime</definition>
+        <argsstring></argsstring>
+        <name>gyroscopeBiasCorrelationTime</name>
+        <briefdescription>
+<para>Gyroscope bias correlation time constant [s]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1aa90e85c829fb5a8a7079c670feaa1513" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::gyroscopeTurnOnBiasSigma</definition>
+        <argsstring></argsstring>
+        <name>gyroscopeTurnOnBiasSigma</name>
+        <briefdescription>
+<para>Gyroscope turn on bias standard deviation [rad/s]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1a2b4bca730c38f081af8c9b73f4b6bad4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::accelerometerNoiseDensity</definition>
+        <argsstring></argsstring>
+        <name>accelerometerNoiseDensity</name>
+        <briefdescription>
+<para>Accelerometer noise density (two-sided spectrum) [m/s^2/sqrt(Hz)]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1a2d6b2fd03ddb35a1e61653745bbfb8fb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::accelerometerRandomWalk</definition>
+        <argsstring></argsstring>
+        <name>accelerometerRandomWalk</name>
+        <briefdescription>
+<para>Accelerometer bias random walk. [m/s^2/s/sqrt(Hz)]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1ae3ee5ba06f1f4c1982bfd85d50edf07d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::accelerometerBiasCorrelationTime</definition>
+        <argsstring></argsstring>
+        <name>accelerometerBiasCorrelationTime</name>
+        <briefdescription>
+<para>Accelerometer bias correlation time constant [s]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="75" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1ad9ed56456fb2bfbe95d4caeb73631613" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::accelerometerTurnOnBiasSigma</definition>
+        <argsstring></argsstring>
+        <name>accelerometerTurnOnBiasSigma</name>
+        <briefdescription>
+<para>Accelerometer turn on bias standard deviation [m/s^2]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="78" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgazebo_1_1_i_m_u_parameters_1a6c283963ffe5ce1e1552238d3bd00541" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::IMUParameters::orientationNoise</definition>
+        <argsstring></argsstring>
+        <name>orientationNoise</name>
+        <briefdescription>
+<para>Standard deviation of orientation noise per axis [rad]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="81" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structgazebo_1_1_i_m_u_parameters_1a458153650853d5e46e0c8ebfbcc3982f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::IMUParameters::IMUParameters</definition>
+        <argsstring>()</argsstring>
+        <name>IMUParameters</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="84" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="84" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="structgazebo_1_1_i_m_u_parameters" kindref="compound">IMUParameters</ref> stores all IMU model parameters. A description of these parameters can be found here: <ulink url="https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model-and-Intrinsics">https://github.com/ethz-asl/kalibr/wiki/IMU-Noise-Model-and-Intrinsics</ulink>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" line="55" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/IMUROSPlugin.hh" bodystart="55" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1ae3ee5ba06f1f4c1982bfd85d50edf07d" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>accelerometerBiasCorrelationTime</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1a2b4bca730c38f081af8c9b73f4b6bad4" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>accelerometerNoiseDensity</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1a2d6b2fd03ddb35a1e61653745bbfb8fb" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>accelerometerRandomWalk</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1ad9ed56456fb2bfbe95d4caeb73631613" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>accelerometerTurnOnBiasSigma</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1ab9fa9588c7a67ae9c38e71910a510661" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>gyroscopeBiasCorrelationTime</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1a25f7a443bbabe24709fef7902f253686" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>gyroscopeNoiseDensity</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1ae252c3f9cc0692111ce5d34603db2c1b" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>gyroscopeRandomWalk</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1aa90e85c829fb5a8a7079c670feaa1513" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>gyroscopeTurnOnBiasSigma</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1a458153650853d5e46e0c8ebfbcc3982f" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>IMUParameters</name></member>
+      <member refid="structgazebo_1_1_i_m_u_parameters_1a6c283963ffe5ce1e1552238d3bd00541" prot="public" virt="non-virtual"><scope>gazebo::IMUParameters</scope><name>orientationNoise</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classuuv__plume__simulator_1_1_c_p_c_sensor" kind="class"><name>uuv_plume_simulator::CPCSensor</name>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a32ace61c89476eb6309a4507936b5257" kind="variable"><name>updatingCloud</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a853b8d456c24b321b952359c9a61489b" kind="variable"><name>gamma</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ad676c2b912f8b148b57070cda5b1c384" kind="variable"><name>gain</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a285eb79145cfd715291f808eaac32afb" kind="variable"><name>smoothingLength</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kind="variable"><name>salinityUnit</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a4925a0273447a20a2a45749c2b739bf3" kind="variable"><name>saturation</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a9f12bbbc0bb4734e3e319fc940b0b0e6" kind="variable"><name>useGeoCoordinates</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9007729f28c92ac5d8a11190cdeb8bd" kind="variable"><name>publishSalinity</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a91278f224f4dc69aaa839eb517dd5a46" kind="variable"><name>referenceSalinityValue</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a7bbe4a621ed6c6be8d7ee87769c154f6" kind="variable"><name>plumeSalinityValue</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2de0395b9721e726347601543cfcd03d" kind="variable"><name>updateMeasurement</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a5091b83afd0468f9f9926e19329c33ee" kind="variable"><name>updateRate</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aee44faae4c264c656d8ebd248d2292a4" kind="variable"><name>sensorFrameID</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1af7b8775cc7edf1f37b10d2324f002146" kind="variable"><name>areParticlesInit</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ab9602b92be015516bb35879f6b1539fe" kind="variable"><name>useOdom</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a42362a4faafe57c53e52930f32d5b757" kind="variable"><name>useGPS</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6e5f2a338e6158a8e65288489d2f43d0" kind="variable"><name>useTFUpdate</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kind="variable"><name>cartPos</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2eaeb701f45906596c91eb81b0799423" kind="variable"><name>geoPos</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a10ca6338f7e6ed74c814aecd89908df9" kind="variable"><name>particlesSub</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1113a6a302688220ec6e900897847e08" kind="variable"><name>odometrySub</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a22257bbc83b40e7b502e3c423fa25572" kind="variable"><name>gpsSub</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aeacfcb3e55ddf1da3df33dfd7132dad1" kind="variable"><name>concentrationPub</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a606721a0bb469e7c369d166ec7298027" kind="variable"><name>salinityPub</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kind="variable"><name>nodeHandle</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2b75335de225523e6ddadaab786c6376" kind="variable"><name>tfBuffer</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ab6950f90194ecfd62ab0bbd54fd81f7c" kind="variable"><name>tfListener</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9c6808ab2ad5b13a72fb511eac3ab94" kind="variable"><name>projection</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kind="variable"><name>concentrationMsg</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kind="variable"><name>salinityMsg</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a9c173307f263aa9b9b7c7f2342d5ce94" kind="variable"><name>updateTimer</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a32296108956e0909056e72ea5c3fe873" kind="variable"><name>rndGen</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a43cfa91f2d9b5285545e7986b5a15962" kind="variable"><name>noiseModel</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aff1cf4cad2ccf96800db7f6a16f271cc" kind="variable"><name>noiseAmp</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a051b51ad3230fe9ee57f94aa80605cb1" kind="variable"><name>noiseSigma</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1472cc5596ca8af358a4a2a887c94935" kind="function"><name>CPCSensor</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6c28c6d5b2f1788372ce74be9ac48d31" kind="function"><name>~CPCSensor</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aa0112facdab526f2e99a62772a7613cb" kind="function"><name>OnSensorUpdate</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae4cac538822b672d2045a11f4d406336" kind="function"><name>OnPlumeParticlesUpdate</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6348d873f88079a8af2303d76eede010" kind="function"><name>OnOdometryUpdate</name></member>
+    <member refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a428cc881985682f78876aa44866a6c7e" kind="function"><name>OnGPSUpdate</name></member>
+  </compound>
+  <compound refid="namespaceuuv__plume__simulator" kind="namespace"><name>uuv_plume_simulator</name>
+  </compound>
+  <compound refid="_c_p_c_sensor_8hh" kind="file"><name>CPCSensor.hh</name>
+    <member refid="_c_p_c_sensor_8hh_1a5e9dcabf0ade6d2c472746923950b0e0" kind="define"><name>CONCENTRATION_UNIT_PPT</name></member>
+    <member refid="_c_p_c_sensor_8hh_1a97bfb4a419a29aea34eed3d2522c402b" kind="define"><name>CONCENTRATION_UNIT_PPM</name></member>
+    <member refid="_c_p_c_sensor_8hh_1a82d7d26c26e7eb587f92708bf75d80f3" kind="define"><name>CONCENTRATION_UNIT_PSU</name></member>
+  </compound>
+  <compound refid="_c_p_c_sensor_8cc" kind="file"><name>CPCSensor.cc</name>
+  </compound>
+  <compound refid="_c_p_c_sensor_node_8cc" kind="file"><name>CPCSensorNode.cc</name>
+    <member refid="_c_p_c_sensor_node_8cc_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_5c9b1b03f6e45e6a48c8e8f7b0f905ad" kind="dir"><name>/home/musamorena/catkin_ws</name>
+  </compound>
+  <compound refid="dir_d0b2de4cbac9fa9b1a575e07d3d31fe3" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/include</name>
+  </compound>
+  <compound refid="dir_7c859f3878cb32062c29919224ce2290" kind="dir"><name>/home/musamorena/catkin_ws/src</name>
+  </compound>
+  <compound refid="dir_fc47454dc6547ec11ba773db3e9cf691" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/src</name>
+  </compound>
+  <compound refid="dir_121aa1fb207245ccaabc647ad68cfd91" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor</name>
+  </compound>
+  <compound refid="dir_3e0b106fd2c5fc02aab34ba0b8a2c296" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/include/uuv_cpc_sensor</name>
+  </compound>
+  <compound refid="dir_f41182556770da2149b9bffedadda53e" kind="dir"><name>/home/musamorena/catkin_ws/src/uuv_plume_simulator</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,49 @@
+#!/bin/bash
+set +e
+
+run_doxygen() {
+    # Run doxygen
+    REPO_NAME=$1
+    ROOT_DOXYGEN_DIR=doxygen/$REPO_NAME
+
+    PKG_NAMES=$2
+    # Remove old API folder for the documentation
+    if [ -d docs/packages/$REPO_NAME/api ]; then
+        rm -rf docs/packages/$REPO_NAME/docs/api
+    fi
+
+    mkdir -p docs/packages/$REPO_NAME/docs/api
+
+    for PKG in $PKG_NAMES;
+    do
+        if [ -d $ROOT_DOXYGEN_DIR/$PKG ]; then 
+            rm -rf $ROOT_DOXYGEN_DIR/$PKG
+        fi
+
+        echo "Running Doxygen for $PKG"
+        echo "Options: GENERATE_XML=YES;GENERATE_HTML=NO;INPUT=$(rospack find $PKG);OUTPUT_DIRECTORY=$ROOT_DOXYGEN_DIR/$PKG"
+        mkdir -p $ROOT_DOXYGEN_DIR/$PKG/markdown 
+        (cat $ROOT_DOXYGEN_DIR/Doxyfile; 
+            echo "DOXYGEN_QUIET=YES"; 
+            echo "GENERATE_XML=YES"; 
+            echo "GENERATE_HTML=NO"; 
+            echo "INPUT=$(rospack find $PKG)"; 
+            echo "OUTPUT_DIRECTORY=$ROOT_DOXYGEN_DIR/$PKG") | doxygen -
+
+        moxygen --output $ROOT_DOXYGEN_DIR/$PKG/markdown/api-$PKG.md $ROOT_DOXYGEN_DIR/$PKG/xml
+
+        cp $ROOT_DOXYGEN_DIR/$PKG/markdown/api-$PKG.md docs/packages/$REPO_NAME/docs/api
+    done
+
+}
+
+# Run Doxygen on uuv_simulator modules with C++ plugins
+run_doxygen "uuv_simulator" "uuv_gazebo_plugins uuv_gazebo_ros_plugins uuv_sensor_ros_plugins uuv_world_plugins uuv_world_ros_plugins"
+run_doxygen "uuv_plume_simulator" "uuv_cpc_sensor"
+
+# Build the rest of the documentation
+./gen_catkin_pkg_docs --config_file config.yaml
+
+# Build the site
+mkdocs build
+set -e

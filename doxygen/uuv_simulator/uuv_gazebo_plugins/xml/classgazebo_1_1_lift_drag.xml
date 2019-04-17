@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_lift_drag" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gazebo::LiftDrag</compoundname>
+    <derivedcompoundref refid="classgazebo_1_1_lift_drag_quadratic" prot="public" virt="non-virtual">gazebo::LiftDragQuadratic</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_lift_drag_two_lines" prot="public" virt="non-virtual">gazebo::LiftDragTwoLines</derivedcompoundref>
+    <includes refid="_lift_drag_model_8hh" local="no">LiftDragModel.hh</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_1aa062dc13d3a5c4b9d6de277cc578eee7" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::LiftDrag::prevTime</definition>
+        <argsstring></argsstring>
+        <name>prevTime</name>
+        <briefdescription>
+<para>Time of last state update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="59" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_lift_drag_1a73cd43d69e94ce2a392abe437c732cb0" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::LiftDrag::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+<para>Latest state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="62" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1aa9f53de408dfca89a517be7dbcd673c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::LiftDrag::LiftDrag</definition>
+        <argsstring>()</argsstring>
+        <name>LiftDrag</name>
+        <briefdescription>
+<para>Protected constructor: Use the factory for object creation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="35" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1a1985b8f41a6ab17525f50b39396a8a60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::LiftDrag::CheckForElement</definition>
+        <argsstring>(sdf::ElementPtr _sdf, const std::string &amp;element)</argsstring>
+        <name>CheckForElement</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+<para>Check for element. Complain and return 0 if it is missing. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="38" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/LiftDragModel.cc" bodystart="23" bodyend="34"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1a7025e5299778dfb25ee8e1eaed4ecb83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gazebo::LiftDrag::~LiftDrag</definition>
+        <argsstring>()</argsstring>
+        <name>~LiftDrag</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="42" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1ad8a25e574ba7f75b30e8813b315010b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string gazebo::LiftDrag::GetType</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetType</name>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_quadratic_1a1e9fd0549b24b7148e12011a0f294eb5">GetType</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_two_lines_1a541d5835070a1b626cd57c4291c805d0">GetType</reimplementedby>
+        <briefdescription>
+<para>Return (derived) type of lift&amp;drag model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1ac20f4dbd4ea08d8d9d0852f8e2b128b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>ignition::math::Vector3d</type>
+        <definition>virtual ignition::math::Vector3d gazebo::LiftDrag::compute</definition>
+        <argsstring>(const ignition::math::Vector3d &amp;_velL)=0</argsstring>
+        <name>compute</name>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_quadratic_1ae187246d00eb5202a72faa5828ab2f00">compute</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_two_lines_1ae88266dfe7c1fc1818cdf0a998b37002">compute</reimplementedby>
+        <param>
+          <type>const ignition::math::Vector3d &amp;</type>
+          <declname>_velL</declname>
+        </param>
+        <briefdescription>
+<para>Compute the lift and drag force. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1a4e2d58afb4af2ba7c0f169cd8fcebb3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool gazebo::LiftDrag::GetParam</definition>
+        <argsstring>(std::string _tag, double &amp;_output)=0</argsstring>
+        <name>GetParam</name>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_quadratic_1add46239f7abd7ed73c700c6cfb0dc63a">GetParam</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_two_lines_1ac5ae08c5d1cbad85f259bcc5b84705b5">GetParam</reimplementedby>
+        <param>
+          <type>std::string</type>
+          <declname>_tag</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>_output</declname>
+        </param>
+        <briefdescription>
+<para>Return paramater in vector form for the given tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_lift_drag_1a7d35e963ce57451f5939ccff9a956285" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::map&lt; std::string, double &gt;</type>
+        <definition>virtual std::map&lt;std::string, double&gt; gazebo::LiftDrag::GetListParams</definition>
+        <argsstring>()=0</argsstring>
+        <name>GetListParams</name>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_quadratic_1abeb288db759bcc85f8e6414e4c07e326">GetListParams</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_lift_drag_two_lines_1ac1e2943c9ebef6ef3471fe293799b726">GetListParams</reimplementedby>
+        <briefdescription>
+<para>Return list of all parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Abstract base class for Lift&amp;Drag models. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="101">
+        <label>gazebo::LiftDragQuadratic</label>
+        <link refid="classgazebo_1_1_lift_drag_quadratic"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>gazebo::LiftDrag</label>
+        <link refid="classgazebo_1_1_lift_drag"/>
+      </node>
+      <node id="102">
+        <label>gazebo::LiftDragTwoLines</label>
+        <link refid="classgazebo_1_1_lift_drag_two_lines"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" line="33" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/LiftDragModel.hh" bodystart="32" bodyend="63"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_lift_drag_1a1985b8f41a6ab17525f50b39396a8a60" prot="public" virt="non-virtual"><scope>gazebo::LiftDrag</scope><name>CheckForElement</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1ac20f4dbd4ea08d8d9d0852f8e2b128b0" prot="public" virt="pure-virtual"><scope>gazebo::LiftDrag</scope><name>compute</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a7d35e963ce57451f5939ccff9a956285" prot="public" virt="pure-virtual"><scope>gazebo::LiftDrag</scope><name>GetListParams</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a4e2d58afb4af2ba7c0f169cd8fcebb3b" prot="public" virt="pure-virtual"><scope>gazebo::LiftDrag</scope><name>GetParam</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1ad8a25e574ba7f75b30e8813b315010b3" prot="public" virt="pure-virtual"><scope>gazebo::LiftDrag</scope><name>GetType</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1aa9f53de408dfca89a517be7dbcd673c6" prot="protected" virt="non-virtual"><scope>gazebo::LiftDrag</scope><name>LiftDrag</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1aa062dc13d3a5c4b9d6de277cc578eee7" prot="protected" virt="non-virtual"><scope>gazebo::LiftDrag</scope><name>prevTime</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a73cd43d69e94ce2a392abe437c732cb0" prot="protected" virt="non-virtual"><scope>gazebo::LiftDrag</scope><name>state</name></member>
+      <member refid="classgazebo_1_1_lift_drag_1a7025e5299778dfb25ee8e1eaed4ecb83" prot="public" virt="virtual"><scope>gazebo::LiftDrag</scope><name>~LiftDrag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

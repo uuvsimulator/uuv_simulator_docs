@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-mkdir -p build/html
-git clone https://github.com/uuvsimulator/uuvsimulator.github.io.git build/html

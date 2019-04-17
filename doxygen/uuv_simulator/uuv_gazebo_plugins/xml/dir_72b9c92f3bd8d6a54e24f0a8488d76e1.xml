@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_72b9c92f3bd8d6a54e24f0a8488d76e1" kind="dir">
+    <compoundname>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src</compoundname>
+    <innerfile refid="_buoyant_object_8cc">BuoyantObject.cc</innerfile>
+    <innerfile refid="_dynamics_8cc">Dynamics.cc</innerfile>
+    <innerfile refid="_fin_plugin_8cc">FinPlugin.cc</innerfile>
+    <innerfile refid="_hydrodynamic_model_8cc">HydrodynamicModel.cc</innerfile>
+    <innerfile refid="_lift_drag_model_8cc">LiftDragModel.cc</innerfile>
+    <innerfile refid="_thruster_conversion_fcn_8cc">ThrusterConversionFcn.cc</innerfile>
+    <innerfile refid="_thruster_conversion_fcn___t_e_s_t_8cc">ThrusterConversionFcn_TEST.cc</innerfile>
+    <innerfile refid="_thruster_dynamics___t_e_s_t_8cc">ThrusterDynamics_TEST.cc</innerfile>
+    <innerfile refid="_thruster_plugin_8cc">ThrusterPlugin.cc</innerfile>
+    <innerfile refid="_umbilical_model_8cc">UmbilicalModel.cc</innerfile>
+    <innerfile refid="_umbilical_plugin_8cc">UmbilicalPlugin.cc</innerfile>
+    <innerfile refid="_underwater_object_plugin_8cc">UnderwaterObjectPlugin.cc</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/"/>
+  </compounddef>
+</doxygen>

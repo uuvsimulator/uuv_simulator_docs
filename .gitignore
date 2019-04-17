@@ -9,5 +9,6 @@
 .imdone
 
 # Documentation
-build
 source/files
+venv
+site

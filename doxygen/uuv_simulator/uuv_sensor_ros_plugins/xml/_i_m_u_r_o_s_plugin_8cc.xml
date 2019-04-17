@@ -1,0 +1,581 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_i_m_u_r_o_s_plugin_8cc" kind="file" language="C++">
+    <compoundname>IMUROSPlugin.cc</compoundname>
+    <includes refid="_i_m_u_r_o_s_plugin_8hh" local="no">uuv_sensor_ros_plugins/IMUROSPlugin.hh</includes>
+    <incdepgraph>
+      <node id="519">
+        <label>gazebo/common/Plugin.hh</label>
+      </node>
+      <node id="522">
+        <label>gazebo/common/common.hh</label>
+      </node>
+      <node id="537">
+        <label>functional</label>
+      </node>
+      <node id="530">
+        <label>boost/shared_ptr.hpp</label>
+      </node>
+      <node id="518">
+        <label>uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh</label>
+        <link refid="_r_o_s_base_model_plugin_8hh_source"/>
+        <childnode refid="519" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="521" relation="include">
+        </childnode>
+        <childnode refid="537" relation="include">
+        </childnode>
+        <childnode refid="538" relation="include">
+        </childnode>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="539" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="540" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="541" relation="include">
+        </childnode>
+      </node>
+      <node id="540">
+        <label>tf/transform_listener.h</label>
+      </node>
+      <node id="541">
+        <label>tf/transform_broadcaster.h</label>
+      </node>
+      <node id="526">
+        <label>std_msgs/Bool.h</label>
+      </node>
+      <node id="524">
+        <label>string</label>
+      </node>
+      <node id="523">
+        <label>uuv_sensor_ros_plugins/Common.hh</label>
+        <link refid="_common_8hh_source"/>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="525" relation="include">
+        </childnode>
+        <childnode refid="516" relation="include">
+        </childnode>
+      </node>
+      <node id="536">
+        <label>map</label>
+      </node>
+      <node id="533">
+        <label>tf/tf.h</label>
+      </node>
+      <node id="542">
+        <label>sensor_msgs/Imu.h</label>
+      </node>
+      <node id="516">
+        <label>gazebo/gazebo.hh</label>
+      </node>
+      <node id="535">
+        <label>random</label>
+      </node>
+      <node id="525">
+        <label>Eigen/Dense</label>
+      </node>
+      <node id="528">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
+      <node id="539">
+        <label>tf/transform_datatypes.h</label>
+      </node>
+      <node id="543">
+        <label>SensorImu.pb.h</label>
+      </node>
+      <node id="529">
+        <label>gazebo/sensors/Noise.hh</label>
+      </node>
+      <node id="527">
+        <label>uuv_sensor_ros_plugins_msgs/ChangeSensorState.h</label>
+      </node>
+      <node id="517">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="514">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc</label>
+        <link refid="_i_m_u_r_o_s_plugin_8cc"/>
+        <childnode refid="515" relation="include">
+        </childnode>
+      </node>
+      <node id="531">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="515">
+        <label>uuv_sensor_ros_plugins/IMUROSPlugin.hh</label>
+        <link refid="_i_m_u_r_o_s_plugin_8hh_source"/>
+        <childnode refid="516" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="518" relation="include">
+        </childnode>
+        <childnode refid="542" relation="include">
+        </childnode>
+        <childnode refid="543" relation="include">
+        </childnode>
+      </node>
+      <node id="534">
+        <label>chrono</label>
+      </node>
+      <node id="520">
+        <label>gazebo/physics/physics.hh</label>
+      </node>
+      <node id="532">
+        <label>tf/tfMessage.h</label>
+      </node>
+      <node id="521">
+        <label>uuv_sensor_ros_plugins/ROSBasePlugin.hh</label>
+        <link refid="_r_o_s_base_plugin_8hh_source"/>
+        <childnode refid="522" relation="include">
+        </childnode>
+        <childnode refid="520" relation="include">
+        </childnode>
+        <childnode refid="523" relation="include">
+        </childnode>
+        <childnode refid="517" relation="include">
+        </childnode>
+        <childnode refid="526" relation="include">
+        </childnode>
+        <childnode refid="527" relation="include">
+        </childnode>
+        <childnode refid="528" relation="include">
+        </childnode>
+        <childnode refid="529" relation="include">
+        </childnode>
+        <childnode refid="530" relation="include">
+        </childnode>
+        <childnode refid="531" relation="include">
+        </childnode>
+        <childnode refid="532" relation="include">
+        </childnode>
+        <childnode refid="533" relation="include">
+        </childnode>
+        <childnode refid="534" relation="include">
+        </childnode>
+        <childnode refid="535" relation="include">
+        </childnode>
+        <childnode refid="524" relation="include">
+        </childnode>
+        <childnode refid="536" relation="include">
+        </childnode>
+      </node>
+      <node id="538">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegazebo">gazebo</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>source<sp/>code<sp/>is<sp/>derived<sp/>from<sp/>rotors_simulator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>(https://github.com/ethz-asl/rotors_simulator)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Copyright<sp/>2015<sp/>Fadri<sp/>Furrer,<sp/>ASL,<sp/>ETH<sp/>Zurich,<sp/>Switzerland,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Copyright<sp/>2015<sp/>Michael<sp/>Burri,<sp/>ASL,<sp/>ETH<sp/>Zurich,<sp/>Switzerland,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Copyright<sp/>2015<sp/>Mina<sp/>Kamel,<sp/>ASL,<sp/>ETH<sp/>Zurich,<sp/>Switzerland,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Copyright<sp/>2015<sp/>Janosch<sp/>Nikolic,<sp/>ASL,<sp/>ETH<sp/>Zurich,<sp/>Switzerland,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>Copyright<sp/>2015<sp/>Markus<sp/>Achtelik,<sp/>ASL,<sp/>ETH<sp/>Zurich,<sp/>Switzerland,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>licensed<sp/>under<sp/>the<sp/>Apache-2.0<sp/>license,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>cf.<sp/>3rd-party-licenses.txt<sp/>file<sp/>in<sp/>the<sp/>root<sp/>directory<sp/>of<sp/>this<sp/>source<sp/>tree.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>original<sp/>code<sp/>was<sp/>modified<sp/>to:</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>be<sp/>more<sp/>consistent<sp/>with<sp/>other<sp/>sensor<sp/>plugins<sp/>within<sp/>uuv_simulator,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">//<sp/>-<sp/>adhere<sp/>to<sp/>Gazebo&apos;s<sp/>coding<sp/>standards.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_sensor_ros_plugins/IMUROSPlugin.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegazebo" kindref="compound">gazebo</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><ref refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a5c7035a09686f2688c235b17a3d8a7db" kindref="member">IMUROSPlugin::IMUROSPlugin</ref>()<sp/>:<sp/>ROSBaseModelPlugin()</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{<sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><ref refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1ab19c7cfef17c9a660f495841e494edd6" kindref="member">IMUROSPlugin::~IMUROSPlugin</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a91f9dd3cb212d8b2207e4b51bd06bc79" kindref="member">IMUROSPlugin::Load</ref>(physics::ModelPtr<sp/>_model,<sp/>sdf::ElementPtr<sp/>_sdf)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="classgazebo_1_1_r_o_s_base_model_plugin_1a9201b96ddee1a64ce43e59f3cf1ff2e9" kindref="member">ROSBaseModelPlugin::Load</ref>(_model,<sp/>_sdf);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Only<sp/>need<sp/>to<sp/>load<sp/>settings<sp/>specific<sp/>to<sp/>this<sp/>sensor.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gyroscope_noise_density&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gyroscope_bias_random_walk&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeRandomWalk,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeRandomWalk);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gyroscope_bias_correlation_time&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeBiasCorrelationTime,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeBiasCorrelationTime);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;imuParameters.gyroscopeBiasCorrelationTime<sp/>&gt;<sp/>0.0,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Gyroscope<sp/>bias<sp/>correlation<sp/>time<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;gyroscope_turn_on_bias_sigma&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeTurnOnBiasSigma,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeTurnOnBiasSigma);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;accelerometer_noise_density&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;accelerometer_random_walk&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerRandomWalk,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerRandomWalk);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;accelerometer_bias_correlation_time&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerBiasCorrelationTime,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerBiasCorrelationTime);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/>GZ_ASSERT(this-&gt;imuParameters.accelerometerBiasCorrelationTime<sp/>&gt;<sp/>0.0,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Accelerometer<sp/>bias<sp/>correlation<sp/>time<sp/>must<sp/>be<sp/>greater<sp/>than<sp/>zero&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;accelerometer_turn_on_bias_sigma&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerTurnOnBiasSigma,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerTurnOnBiasSigma);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/>GetSDFParam&lt;double&gt;(_sdf,<sp/></highlight><highlight class="stringliteral">&quot;orientation_noise&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.orientationNoise,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.orientationNoise);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.header.frame_id<sp/>=<sp/>this-&gt;link-&gt;GetName();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Fill<sp/>IMU<sp/>message.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>We<sp/>assume<sp/>uncorrelated<sp/>noise<sp/>on<sp/>the<sp/>3<sp/>channels<sp/>-&gt;<sp/>only<sp/>set<sp/>diagonal</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>elements.<sp/>Only<sp/>the<sp/>broadband<sp/>noise<sp/>component<sp/>is<sp/>considered,<sp/>specified<sp/>as</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>a<sp/>continuous-time<sp/>density<sp/>(two-sided<sp/>spectrum);<sp/>not<sp/>the<sp/>true<sp/>covariance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>of<sp/>the<sp/>measurements.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Angular<sp/>velocity<sp/>measurement<sp/>covariance.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;gyro_noise_density&quot;</highlight><highlight class="normal">,<sp/>this-&gt;imuParameters.gyroscopeNoiseDensity);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>gyroVar<sp/>=<sp/>this-&gt;imuParameters.gyroscopeNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity_covariance[0]<sp/>=<sp/>gyroVar;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity_covariance[4]<sp/>=<sp/>gyroVar;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity_covariance[8]<sp/>=<sp/>gyroVar;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Linear<sp/>acceleration<sp/>measurement<sp/>covariance.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;acc_noise_density&quot;</highlight><highlight class="normal">,<sp/>this-&gt;imuParameters.accelerometerNoiseDensity);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>accelVar<sp/>=<sp/>this-&gt;imuParameters.accelerometerNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration_covariance[0]<sp/>=<sp/>accelVar;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration_covariance[4]<sp/>=<sp/>accelVar;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration_covariance[8]<sp/>=<sp/>accelVar;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Orientation<sp/>estimate<sp/>covariance</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;orientation_noise_density&quot;</highlight><highlight class="normal">,<sp/>this-&gt;imuParameters.orientationNoise);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>orientationVar<sp/>=<sp/>this-&gt;imuParameters.orientationNoise<sp/>*</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;imuParameters.orientationNoise;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation_covariance[0]<sp/>=<sp/>orientationVar;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation_covariance[4]<sp/>=<sp/>orientationVar;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation_covariance[8]<sp/>=<sp/>orientationVar;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Store<sp/>the<sp/>acc.<sp/>gravity<sp/>vector</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/>this-&gt;gravityWorld<sp/>=<sp/>this-&gt;world-&gt;Gravity();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/>this-&gt;gravityWorld<sp/>=<sp/>this-&gt;world-&gt;GetPhysicsEngine()-&gt;GetGravity().Ign();</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBonG<sp/>=<sp/>this-&gt;imuParameters.gyroscopeTurnOnBiasSigma;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBonA<sp/>=<sp/>this-&gt;imuParameters.accelerometerTurnOnBiasSigma;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;gyro_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>sigmaBonG);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;acc_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>sigmaBonA);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>gyroscope</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/>this-&gt;gyroscopeTurnOnBias<sp/>=<sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gyro_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gyro_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gyro_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>accelerometer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/>this-&gt;accelerometerTurnOnBias<sp/>=<sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;acc_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;acc_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;acc_turn_on_bias&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO(nikolicj)<sp/>incorporate<sp/>steady-state<sp/>covariance<sp/>of<sp/>bias<sp/>process</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/>this-&gt;gyroscopeBias<sp/>=<sp/>ignition::math::Vector3d::Zero;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/>this-&gt;accelerometerBias<sp/>=<sp/>ignition::math::Vector3d::Zero;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>this-&gt;rosSensorOutputPub<sp/>=</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;rosNode-&gt;advertise&lt;sensor_msgs::Imu&gt;(this-&gt;sensorOutputTopic,<sp/>1);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;gazeboMsgEnabled)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;gazeboSensorOutputPub<sp/>=</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;gazeboNode-&gt;Advertise&lt;sensor_msgs::msgs::Imu&gt;(</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;robotNamespace<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>+<sp/>this-&gt;sensorOutputTopic,<sp/>1);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1aa15397b1f75e506ddb42841966306392" kindref="member">IMUROSPlugin::OnUpdate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>common::UpdateInfo&amp;<sp/>_info)</highlight></codeline>
+<codeline lineno="151"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Publish<sp/>sensor<sp/>state</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/>this-&gt;PublishState();</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;EnableMeasurement(_info))</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;enableLocalNEDFrame)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SendLocalNEDTransform();</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>current<sp/>simulation<sp/>time</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>common::Time<sp/>curTime<sp/>=<sp/>this-&gt;world-&gt;SimTime();</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>common::Time<sp/>curTime<sp/>=<sp/>this-&gt;world-&gt;GetSimTime();</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dt<sp/>=<sp/>curTime.Double()<sp/>-<sp/>this-&gt;lastMeasurementTime.Double();</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/>ignition::math::Pose3d<sp/>worldLinkPose;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d<sp/>refLinVel;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d<sp/>bodyAngVel;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d<sp/>bodyLinAcc,<sp/>worldLinAcc;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d<sp/>refGravityWorld;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>sensor<sp/>link&apos;s<sp/>current<sp/>pose<sp/>and<sp/>velocity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/>bodyAngVel<sp/>=<sp/>this-&gt;link-&gt;RelativeAngularVel();</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/>bodyLinAcc<sp/>=<sp/>this-&gt;link-&gt;RelativeLinearAccel();</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/>worldLinkPose<sp/>=<sp/>this-&gt;link-&gt;WorldPose();</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/>bodyAngVel<sp/>=<sp/>this-&gt;link-&gt;GetRelativeAngularVel().Ign();</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/>bodyLinAcc<sp/>=<sp/>this-&gt;link-&gt;GetRelativeLinearAccel().Ign();</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/>worldLinkPose<sp/>=<sp/>this-&gt;link-&gt;GetWorldPose().Ign();</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/>this-&gt;UpdateReferenceFramePose();</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;referenceLink)</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>GAZEBO_MAJOR_VERSION<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;referenceFrame<sp/>=<sp/>this-&gt;referenceLink-&gt;WorldPose();</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;referenceFrame<sp/>=<sp/>this-&gt;referenceLink-&gt;GetWorldPose().Ign();</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Transform<sp/>pose<sp/>and<sp/>velocity<sp/>vectors<sp/>to<sp/>be<sp/>represented<sp/>wrt<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>reference<sp/>link<sp/>provided</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/>worldLinkPose.Pos()<sp/>=<sp/>worldLinkPose.Pos()<sp/>-<sp/>this-&gt;referenceFrame.Pos();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/>worldLinkPose.Pos()<sp/>=<sp/>this-&gt;referenceFrame.Rot().RotateVectorReverse(</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/>worldLinkPose.Pos());</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/>worldLinkPose.Rot()<sp/>*=<sp/>this-&gt;referenceFrame.Rot().Inverse();</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d<sp/>gravityBody<sp/>=</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>worldLinkPose.Rot().RotateVectorReverse(this-&gt;gravityWorld);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;enableLocalNEDFrame)</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>bodyAngVel<sp/>=<sp/>this-&gt;localNEDFrame.Rot().RotateVector(bodyAngVel);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>bodyLinAcc<sp/>=<sp/>this-&gt;localNEDFrame.Rot().RotateVector(bodyLinAcc);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>gravityBody<sp/>=<sp/>this-&gt;localNEDFrame.Rot().RotateVector(gravityBody);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>the<sp/>simulated<sp/>measurements<sp/>wrt<sp/>the<sp/>default<sp/>world<sp/>ENU<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>this-&gt;measLinearAcc<sp/>=<sp/>bodyLinAcc<sp/>-<sp/>gravityBody;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/>this-&gt;measAngularVel<sp/>=<sp/>bodyAngVel;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/>this-&gt;measOrientation<sp/>=<sp/>worldLinkPose.Rot();</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>noise<sp/>and<sp/>bias<sp/>to<sp/>the<sp/>simulated<sp/>data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/>this-&gt;AddNoise(this-&gt;measLinearAcc,<sp/>this-&gt;measAngularVel,</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;measOrientation,<sp/>dt);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Fill<sp/>the<sp/>ROS<sp/>IMU<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.header.stamp.sec<sp/>=<sp/>_info.simTime.sec;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.header.stamp.nsec<sp/>=<sp/>_info.simTime.nsec;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation.x<sp/>=<sp/>this-&gt;measOrientation.X();</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation.y<sp/>=<sp/>this-&gt;measOrientation.Y();</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation.z<sp/>=<sp/>this-&gt;measOrientation.Z();</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.orientation.w<sp/>=<sp/>this-&gt;measOrientation.W();</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration.x<sp/>=<sp/>this-&gt;measLinearAcc.X();</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration.y<sp/>=<sp/>this-&gt;measLinearAcc.Y();</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.linear_acceleration.z<sp/>=<sp/>this-&gt;measLinearAcc.Z();</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity.x<sp/>=<sp/>this-&gt;measAngularVel.X();</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity.y<sp/>=<sp/>this-&gt;measAngularVel.Y();</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/>this-&gt;imuROSMessage.angular_velocity.z<sp/>=<sp/>this-&gt;measAngularVel.Z();</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/>this-&gt;rosSensorOutputPub.publish(this-&gt;imuROSMessage);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;gazeboMsgEnabled)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>sensor_msgs::msgs::Imu<sp/>imuGazeboMessage;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Fill<sp/>the<sp/>Gazebo<sp/>IMU<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>9;<sp/>i++)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(i)</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_angular_velocity_covariance(</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_orientation_covariance(-1.0);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_linear_acceleration_covariance(</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_angular_velocity_covariance(0.0);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_orientation_covariance(-1.0);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_linear_acceleration_covariance(0.0);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_angular_velocity_covariance(</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_orientation_covariance(-1.0);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_linear_acceleration_covariance(</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_angular_velocity_covariance(0.0);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_orientation_covariance(-1.0);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_linear_acceleration_covariance(0.0);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_angular_velocity_covariance(</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.gyroscopeNoiseDensity);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_orientation_covariance(-1.0);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>imuGazeboMessage.add_linear_acceleration_covariance(</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity<sp/>*</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;imuParameters.accelerometerNoiseDensity);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>math::Quaternion<sp/>to<sp/>gazebo::msgs::Quaternion</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::msgs::Quaternion<sp/>*<sp/>orientation<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>gazebo::msgs::Quaternion();</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>orientation-&gt;set_x(this-&gt;measOrientation.X());</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>orientation-&gt;set_y(this-&gt;measOrientation.Y());</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>orientation-&gt;set_z(this-&gt;measOrientation.Z());</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>orientation-&gt;set_w(this-&gt;measOrientation.W());</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>Eigen::Vector3d<sp/>to<sp/>gazebo::msgs::Vector3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>gazebo::msgs::Vector3d<sp/>*<sp/>linAcc<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>gazebo::msgs::Vector3d();</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/>linAcc-&gt;set_x(this-&gt;measLinearAcc.X());</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>linAcc-&gt;set_y(this-&gt;measLinearAcc.Y());</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/>linAcc-&gt;set_z(this-&gt;measLinearAcc.Z());</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Copy<sp/>Eigen::Vector3d<sp/>to<sp/>gazebo::msgs::Vector3d</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>gazebo::msgs::Vector3d<sp/>*<sp/>angVel<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>gazebo::msgs::Vector3d();</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>angVel-&gt;set_x(this-&gt;measAngularVel.X());</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>angVel-&gt;set_y(this-&gt;measAngularVel.Y());</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>angVel-&gt;set_z(this-&gt;measAngularVel.Z());</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>imuGazeboMessage.set_allocated_orientation(orientation);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>imuGazeboMessage.set_allocated_linear_acceleration(linAcc);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>imuGazeboMessage.set_allocated_angular_velocity(angVel);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;gazeboSensorOutputPub-&gt;Publish(imuGazeboMessage);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/>this-&gt;lastMeasurementTime<sp/>=<sp/>curTime;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1af354ab1547a4509481807e08c959655f" kindref="member">IMUROSPlugin::AddNoise</ref>(ignition::math::Vector3d&amp;<sp/>_linAcc,</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/>ignition::math::Vector3d&amp;<sp/>_angVel,<sp/>ignition::math::Quaterniond&amp;<sp/>_orientation,</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_dt)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/>GZ_ASSERT(_dt<sp/>&gt;<sp/>0.0,<sp/></highlight><highlight class="stringliteral">&quot;Invalid<sp/>time<sp/>step&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tauG<sp/>=<sp/>this-&gt;imuParameters.gyroscopeBiasCorrelationTime;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Discrete-time<sp/>standard<sp/>deviation<sp/>equivalent<sp/>to<sp/>an<sp/>&quot;integrating&quot;<sp/>sampler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>integration<sp/>time<sp/>dt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaGD<sp/>=<sp/>1<sp/>/<sp/>sqrt(_dt)<sp/>*<sp/>this-&gt;imuParameters.gyroscopeNoiseDensity;</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBG<sp/>=<sp/>this-&gt;imuParameters.gyroscopeRandomWalk;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>exact<sp/>covariance<sp/>of<sp/>the<sp/>process<sp/>after<sp/>dt<sp/>[Maybeck<sp/>4-114].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBGD<sp/>=<sp/>sqrt(-<sp/>sigmaBG<sp/>*<sp/>sigmaBG<sp/>*<sp/>tauG<sp/>/<sp/>2.0<sp/>*</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/>(exp(-2.0<sp/>*<sp/>_dt<sp/>/<sp/>tauG)<sp/>-<sp/>1.0));</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>state-transition.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phiGD<sp/>=<sp/>exp(-1.0<sp/>/<sp/>tauG<sp/>*<sp/>_dt);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>BGD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;bgd&quot;</highlight><highlight class="normal">,<sp/>sigmaBGD);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>GD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;gd&quot;</highlight><highlight class="normal">,<sp/>sigmaGD);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>gyroscope<sp/>noise<sp/>processes<sp/>and<sp/>add<sp/>them<sp/>to<sp/>the<sp/>true<sp/>angular<sp/>rate.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/>this-&gt;gyroscopeBias<sp/>=<sp/>phiGD<sp/>*<sp/>this-&gt;gyroscopeBias<sp/>+</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bgd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bgd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bgd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/>_angVel<sp/>=<sp/>_angVel<sp/>+<sp/>this-&gt;gyroscopeBias<sp/>+<sp/>this-&gt;gyroscopeTurnOnBias<sp/>+</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;gd&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tauA<sp/>=<sp/>this-&gt;imuParameters.accelerometerBiasCorrelationTime;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Discrete-time<sp/>standard<sp/>deviation<sp/>equivalent<sp/>to<sp/>an<sp/>&quot;integrating&quot;<sp/>sampler</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>with<sp/>integration<sp/>time<sp/>dt.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaAD<sp/>=<sp/>1.<sp/>/<sp/>sqrt(_dt)<sp/>*<sp/>this-&gt;imuParameters.accelerometerNoiseDensity;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBA<sp/>=<sp/>this-&gt;imuParameters.accelerometerRandomWalk;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>exact<sp/>covariance<sp/>of<sp/>the<sp/>process<sp/>after<sp/>dt<sp/>[Maybeck<sp/>4-114].</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigmaBAD<sp/>=<sp/>sqrt(-<sp/>sigmaBA<sp/>*<sp/>sigmaBA<sp/>*<sp/>tauA<sp/>/<sp/>2.0<sp/>*</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>(exp(-2.0<sp/>*<sp/>_dt<sp/>/<sp/>tauA)<sp/>-<sp/>1.0));</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>state-transition.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phiAD<sp/>=<sp/>exp(-1.0<sp/>/<sp/>tauA<sp/>*<sp/>_dt);</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>BAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;bad&quot;</highlight><highlight class="normal">,<sp/>sigmaBAD);</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>FIXME<sp/>Add<sp/>the<sp/>noise<sp/>amplitude<sp/>input<sp/>for<sp/>BAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/>this-&gt;AddNoiseModel(</highlight><highlight class="stringliteral">&quot;ad&quot;</highlight><highlight class="normal">,<sp/>sigmaAD);</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Simulate<sp/>accelerometer<sp/>noise<sp/>processes<sp/>and<sp/>add<sp/>them<sp/>to<sp/>the<sp/>true<sp/>linear</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>acceleration.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/>this-&gt;accelerometerBias<sp/>=<sp/>phiAD<sp/>*<sp/>this-&gt;accelerometerBias<sp/>+</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;bad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/>_linAcc<sp/>=<sp/>_linAcc<sp/>+<sp/>this-&gt;accelerometerBias<sp/>+<sp/>this-&gt;accelerometerTurnOnBias<sp/>+</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/>ignition::math::Vector3d(</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;ad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;ad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp),</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;ad&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp));</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Construct<sp/>error<sp/>quaterion<sp/>using<sp/>small-angle<sp/>approximation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>scale<sp/>=<sp/>0.5<sp/>*<sp/>this-&gt;imuParameters.orientationNoise;</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Attention:<sp/>w-xyz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"><sp/><sp/>ignition::math::Quaterniond<sp/>error(1.0,</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;orientation_noise_density&quot;</highlight><highlight class="normal">,<sp/>scale),</highlight></codeline>
+<codeline lineno="395"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;orientation_noise_density&quot;</highlight><highlight class="normal">,<sp/>scale),</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;GetGaussianNoise(</highlight><highlight class="stringliteral">&quot;orientation_noise_density&quot;</highlight><highlight class="normal">,<sp/>scale));</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/>error.Normalize();</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/>_orientation<sp/>=<sp/>_orientation<sp/>*<sp/>error;</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"></highlight></codeline>
+<codeline lineno="403"><highlight class="normal">GZ_REGISTER_MODEL_PLUGIN(IMUROSPlugin)</highlight></codeline>
+<codeline lineno="404"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/IMUROSPlugin.cc"/>
+  </compounddef>
+</doxygen>

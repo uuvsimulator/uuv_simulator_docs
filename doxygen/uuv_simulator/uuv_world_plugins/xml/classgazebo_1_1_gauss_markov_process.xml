@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_gauss_markov_process" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::GaussMarkovProcess</compoundname>
+    <includes refid="_gauss_markov_process_8hh" local="no">GaussMarkovProcess.hh</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1a1e4fb7902c13ed7f5ed4b081b8c750a1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <briefdescription>
+<para>Process variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="57" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1ac245edf6d8fa0b6926cb8d83d29e3457" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::mean</definition>
+        <argsstring></argsstring>
+        <name>mean</name>
+        <briefdescription>
+<para>Mean process value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1a5becb64490649244d6ee0370dd9e9952" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+<para>Minimum limit for the process variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1a36c94fb3fd89d6b8ec095ff2fd61fd1a" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <briefdescription>
+<para>Maximum limit for the process variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1af0c51962ec2392d734c0ee79f45866a8" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::mu</definition>
+        <argsstring></argsstring>
+        <name>mu</name>
+        <briefdescription>
+<para>Process constant, if zero, process becomes a random walk. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1a094afee00b782c741a5edfdea42f0644" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::noiseAmp</definition>
+        <argsstring></argsstring>
+        <name>noiseAmp</name>
+        <briefdescription>
+<para>Gaussian white noise amplitude. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_gauss_markov_process_1a21d7006da353d3a20fdb0faba2a24da7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::lastUpdate</definition>
+        <argsstring></argsstring>
+        <name>lastUpdate</name>
+        <briefdescription>
+<para>Timestamp for the last update. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="75" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1af1e11c49f71e6fd8f260f69db1e45e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::GaussMarkovProcess::GaussMarkovProcess</definition>
+        <argsstring>()</argsstring>
+        <name>GaussMarkovProcess</name>
+        <briefdescription>
+<para>Class constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="36" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="23" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1abb7d9286aa8162e074b64188908017fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::GaussMarkovProcess::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Resets the process parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="39" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1aa987aee49f6f4a2f460138c93b11d3e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::GaussMarkovProcess::SetModel</definition>
+        <argsstring>(double _mean, double _min, double _max, double _mu=0, double _noise=0)</argsstring>
+        <name>SetModel</name>
+        <param>
+          <type>double</type>
+          <declname>_mean</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_min</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_max</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_mu</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>_noise</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+<para>Sets all the necessary parameters for the computation. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_mean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Mean value </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_min</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Minimum limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_max</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Maximum limit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_mu</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Process constant </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>_noise</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amplitude for the Gaussian white noise </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, if all parameters were valid </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="48" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="52" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1a02d2ce1deb17930eb2b6d87ffc93d3f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::GaussMarkovProcess::SetMean</definition>
+        <argsstring>(double _mean)</argsstring>
+        <name>SetMean</name>
+        <param>
+          <type>double</type>
+          <declname>_mean</declname>
+        </param>
+        <briefdescription>
+<para>Set mean process value. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_mean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>New mean value </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True, if value inside the limit range </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="54" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="41" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1a4fe5c320c4fbdf4c6e5211381cf6e96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gazebo::GaussMarkovProcess::Update</definition>
+        <argsstring>(double _time)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>double</type>
+          <declname>_time</declname>
+        </param>
+        <briefdescription>
+<para>Update function for a new time stamp. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Current time stamp </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="79" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="74" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_gauss_markov_process_1a5933e94170a0b8ab0b32e8eaba5281bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::GaussMarkovProcess::Print</definition>
+        <argsstring>()</argsstring>
+        <name>Print</name>
+        <briefdescription>
+<para>Print current model paramters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/src/GaussMarkovProcess.cc" bodystart="89" bodyend="96"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Implementation of a Gauss-Markov process to model the current velocity and direction according to [1] [1] Fossen, Thor I. Handbook of marine craft hydrodynamics and motion control. John Wiley &amp; Sons, 2011. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="34" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" bodystart="33" bodyend="83"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_gauss_markov_process_1af1e11c49f71e6fd8f260f69db1e45e61" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>GaussMarkovProcess</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a21d7006da353d3a20fdb0faba2a24da7" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>lastUpdate</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a36c94fb3fd89d6b8ec095ff2fd61fd1a" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>max</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1ac245edf6d8fa0b6926cb8d83d29e3457" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>mean</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a5becb64490649244d6ee0370dd9e9952" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>min</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1af0c51962ec2392d734c0ee79f45866a8" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>mu</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a094afee00b782c741a5edfdea42f0644" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>noiseAmp</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a5933e94170a0b8ab0b32e8eaba5281bf" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>Print</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1abb7d9286aa8162e074b64188908017fe" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>Reset</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a02d2ce1deb17930eb2b6d87ffc93d3f0" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>SetMean</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1aa987aee49f6f4a2f460138c93b11d3e8" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>SetModel</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a4fe5c320c4fbdf4c6e5211381cf6e96a" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>Update</name></member>
+      <member refid="classgazebo_1_1_gauss_markov_process_1a1e4fb7902c13ed7f5ed4b081b8c750a1" prot="public" virt="non-virtual"><scope>gazebo::GaussMarkovProcess</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

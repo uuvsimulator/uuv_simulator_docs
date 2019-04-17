@@ -1,0 +1,392 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_fin_plugin" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::FinPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelPlugin</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1ad0a0e94fc62d04d9a08f119e72919420" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgazebo_1_1_dynamics" kindref="compound">Dynamics</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;Dynamics&gt; gazebo::FinPlugin::dynamics</definition>
+        <argsstring></argsstring>
+        <name>dynamics</name>
+        <briefdescription>
+<para>Fin dynamic model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="64" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a59d7567aa36e7d6882d1dd11c9ab75d0" prot="protected" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classgazebo_1_1_lift_drag" kindref="compound">LiftDrag</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;LiftDrag&gt; gazebo::FinPlugin::liftdrag</definition>
+        <argsstring></argsstring>
+        <name>liftdrag</name>
+        <briefdescription>
+<para>Lift&amp;Drag model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="67" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a217cde139114bb0f1415f73b82538e00" prot="protected" static="no" mutable="no">
+        <type>event::ConnectionPtr</type>
+        <definition>event::ConnectionPtr gazebo::FinPlugin::updateConnection</definition>
+        <argsstring></argsstring>
+        <name>updateConnection</name>
+        <briefdescription>
+<para>Update event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="70" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a2acefe090abcbd138a230391e577d187" prot="protected" static="no" mutable="no">
+        <type>transport::NodePtr</type>
+        <definition>transport::NodePtr gazebo::FinPlugin::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+<para>Gazebo node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="73" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1af5fbe5a75a59199af8e92e17b2546841" prot="protected" static="no" mutable="no">
+        <type>physics::JointPtr</type>
+        <definition>physics::JointPtr gazebo::FinPlugin::joint</definition>
+        <argsstring></argsstring>
+        <name>joint</name>
+        <briefdescription>
+<para>The fin joint. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="76" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1aa2a49d7b7c718265296063be66767375" prot="protected" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::FinPlugin::link</definition>
+        <argsstring></argsstring>
+        <name>link</name>
+        <briefdescription>
+<para>The fin link. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="79" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a5d58c432064cc3c9c94b3ed0bd8a52a3" prot="protected" static="no" mutable="no">
+        <type>transport::SubscriberPtr</type>
+        <definition>transport::SubscriberPtr gazebo::FinPlugin::commandSubscriber</definition>
+        <argsstring></argsstring>
+        <name>commandSubscriber</name>
+        <briefdescription>
+<para>Subscriber to the reference signal topic. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a17fc907ce5376d31010075d2c127e0a9" prot="protected" static="no" mutable="no">
+        <type>transport::PublisherPtr</type>
+        <definition>transport::PublisherPtr gazebo::FinPlugin::anglePublisher</definition>
+        <argsstring></argsstring>
+        <name>anglePublisher</name>
+        <briefdescription>
+<para>Publisher to the output thrust topic. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="85" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1ae0cfeae0cbbf51ed8ad3d88710a7bf95" prot="protected" static="no" mutable="no">
+        <type>ignition::math::Vector3d</type>
+        <definition>ignition::math::Vector3d gazebo::FinPlugin::finForce</definition>
+        <argsstring></argsstring>
+        <name>finForce</name>
+        <briefdescription>
+<para>Force component calculated from the lift and drag module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="88" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1ac748f61691360a841314e3d92ee7cfdd" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::FinPlugin::inputCommand</definition>
+        <argsstring></argsstring>
+        <name>inputCommand</name>
+        <briefdescription>
+<para>Latest input command. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="91" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a0d357d22e70731d4f0da1e2eb16dbec9" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gazebo::FinPlugin::finID</definition>
+        <argsstring></argsstring>
+        <name>finID</name>
+        <briefdescription>
+<para>Fin ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="94" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1ae595f9a8c9d7d00439935c3a95a7ec42" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gazebo::FinPlugin::topicPrefix</definition>
+        <argsstring></argsstring>
+        <name>topicPrefix</name>
+        <briefdescription>
+<para>Topic prefix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="97" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a030388a1a36c2f58f0baa34605eb0d15" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::FinPlugin::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <briefdescription>
+<para>Latest fin angle in [rad]. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="100" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a4fb2db18a81a9a7cf8f2f5376b3e5d02" prot="protected" static="no" mutable="no">
+        <type>common::Time</type>
+        <definition>common::Time gazebo::FinPlugin::angleStamp</definition>
+        <argsstring></argsstring>
+        <name>angleStamp</name>
+        <briefdescription>
+<para>Time stamp of latest thrust force. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="103" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1a3940ad05bd8930b1d866154116939a07" prot="protected" static="no" mutable="no">
+        <type>transport::SubscriberPtr</type>
+        <definition>transport::SubscriberPtr gazebo::FinPlugin::currentSubscriber</definition>
+        <argsstring></argsstring>
+        <name>currentSubscriber</name>
+        <briefdescription>
+<para>Subcriber to current message. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="106" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_fin_plugin_1adc8117b6c3169bbcccc25ba63ba4276e" prot="protected" static="no" mutable="no">
+        <type>ignition::math::Vector3d</type>
+        <definition>ignition::math::Vector3d gazebo::FinPlugin::currentVelocity</definition>
+        <argsstring></argsstring>
+        <name>currentVelocity</name>
+        <briefdescription>
+<para>Current velocity vector read from topic. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="109" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1a347a9d485eb98d0c0d1ce181cf3530e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::FinPlugin::FinPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>FinPlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="41" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="30" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1a6bfb47239eaef146985a19a5005ba320" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>gazebo::FinPlugin::~FinPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~FinPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="44" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1a2229e6e90a612c37da8bbf1110c54f53" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::FinPlugin::Load</definition>
+        <argsstring>(physics::ModelPtr _model, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="47" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="48" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1a674d8c80971e173b7066fa2a52ae8388" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::FinPlugin::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="51" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="132" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1ab4612d0093ed8b1fd0e24f780f584889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::FinPlugin::OnUpdate</definition>
+        <argsstring>(const common::UpdateInfo &amp;_info)</argsstring>
+        <name>OnUpdate</name>
+        <param>
+          <type>const common::UpdateInfo &amp;</type>
+          <declname>_info</declname>
+        </param>
+        <briefdescription>
+<para>Update the simulation state. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Information used in the update event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="55" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="137" bodyend="186"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1ad20391361f5206bde332a229251c7f38" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::FinPlugin::UpdateInput</definition>
+        <argsstring>(ConstDoublePtr &amp;_msg)</argsstring>
+        <name>UpdateInput</name>
+        <param>
+          <type><ref refid="_fin_plugin_8hh_1adec3148dfa71d908caf33660a62187d4" kindref="member">ConstDoublePtr</ref> &amp;</type>
+          <declname>_msg</declname>
+        </param>
+        <briefdescription>
+<para>Callback for the input topic subscriber. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="58" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="189" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_fin_plugin_1aaf4c2da2058c877cbffdd0dc6d94c0ee" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::FinPlugin::UpdateCurrentVelocity</definition>
+        <argsstring>(ConstVector3dPtr &amp;_msg)</argsstring>
+        <name>UpdateCurrentVelocity</name>
+        <param>
+          <type>ConstVector3dPtr &amp;</type>
+          <declname>_msg</declname>
+        </param>
+        <briefdescription>
+<para>Reads current velocity topic. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="61" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/FinPlugin.cc" bodystart="195" bodyend="200"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>gazebo::FinPlugin</label>
+        <link refid="classgazebo_1_1_fin_plugin"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>ModelPlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>gazebo::FinPlugin</label>
+        <link refid="classgazebo_1_1_fin_plugin"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>ModelPlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" line="39" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/FinPlugin.hh" bodystart="38" bodyend="110"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_fin_plugin_1a030388a1a36c2f58f0baa34605eb0d15" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>angle</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a17fc907ce5376d31010075d2c127e0a9" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>anglePublisher</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a4fb2db18a81a9a7cf8f2f5376b3e5d02" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>angleStamp</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a5d58c432064cc3c9c94b3ed0bd8a52a3" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>commandSubscriber</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a3940ad05bd8930b1d866154116939a07" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>currentSubscriber</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1adc8117b6c3169bbcccc25ba63ba4276e" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>currentVelocity</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ad0a0e94fc62d04d9a08f119e72919420" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>dynamics</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ae0cfeae0cbbf51ed8ad3d88710a7bf95" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>finForce</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a0d357d22e70731d4f0da1e2eb16dbec9" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>finID</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a347a9d485eb98d0c0d1ce181cf3530e7" prot="public" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>FinPlugin</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a674d8c80971e173b7066fa2a52ae8388" prot="public" virt="virtual"><scope>gazebo::FinPlugin</scope><name>Init</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ac748f61691360a841314e3d92ee7cfdd" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>inputCommand</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1af5fbe5a75a59199af8e92e17b2546841" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>joint</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a59d7567aa36e7d6882d1dd11c9ab75d0" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>liftdrag</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1aa2a49d7b7c718265296063be66767375" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>link</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a2229e6e90a612c37da8bbf1110c54f53" prot="public" virt="virtual"><scope>gazebo::FinPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a2acefe090abcbd138a230391e577d187" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>node</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ab4612d0093ed8b1fd0e24f780f584889" prot="public" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ae595f9a8c9d7d00439935c3a95a7ec42" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>topicPrefix</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a217cde139114bb0f1415f73b82538e00" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>updateConnection</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1aaf4c2da2058c877cbffdd0dc6d94c0ee" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>UpdateCurrentVelocity</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1ad20391361f5206bde332a229251c7f38" prot="protected" virt="non-virtual"><scope>gazebo::FinPlugin</scope><name>UpdateInput</name></member>
+      <member refid="classgazebo_1_1_fin_plugin_1a6bfb47239eaef146985a19a5005ba320" prot="public" virt="virtual"><scope>gazebo::FinPlugin</scope><name>~FinPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

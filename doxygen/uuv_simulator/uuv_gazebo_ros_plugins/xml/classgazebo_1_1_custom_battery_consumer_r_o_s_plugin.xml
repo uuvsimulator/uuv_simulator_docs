@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::CustomBatteryConsumerROSPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelPlugin</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a849c350038fc65f0b6618daa9bff2d5a" prot="protected" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; gazebo::CustomBatteryConsumerROSPlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+<para>Pointer to this ROS node&apos;s handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="48" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a5f4ab26681042a3704d0854c80179ccb" prot="protected" static="no" mutable="no">
+        <type>ros::Subscriber</type>
+        <definition>ros::Subscriber gazebo::CustomBatteryConsumerROSPlugin::deviceStateSub</definition>
+        <argsstring></argsstring>
+        <name>deviceStateSub</name>
+        <briefdescription>
+<para>Subscriber to the device state flag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="51" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aab63a2fd9601f9ed588cd310a31d166d" prot="protected" static="no" mutable="no">
+        <type>common::BatteryPtr</type>
+        <definition>common::BatteryPtr gazebo::CustomBatteryConsumerROSPlugin::battery</definition>
+        <argsstring></argsstring>
+        <name>battery</name>
+        <briefdescription>
+<para>Pointer to battery. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="54" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1adb9208bcb12e204be32cdafbd4dedece" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gazebo::CustomBatteryConsumerROSPlugin::isDeviceOn</definition>
+        <argsstring></argsstring>
+        <name>isDeviceOn</name>
+        <briefdescription>
+<para>Flag to signal whether a specific device is running. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="57" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a2a77576499d0d9a4121df0ab26263999" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::CustomBatteryConsumerROSPlugin::powerLoad</definition>
+        <argsstring></argsstring>
+        <name>powerLoad</name>
+        <briefdescription>
+<para>Power load in W. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1afa8963cf588440f8a65a40709ee87f1b" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gazebo::CustomBatteryConsumerROSPlugin::consumerID</definition>
+        <argsstring></argsstring>
+        <name>consumerID</name>
+        <briefdescription>
+<para>Battery consumer ID. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aab7c22693c5544d155fe5e3a193d9848" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gazebo::CustomBatteryConsumerROSPlugin::linkName</definition>
+        <argsstring></argsstring>
+        <name>linkName</name>
+        <briefdescription>
+<para>Link name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aabf460331c052e75d5bdfd801832e67c" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gazebo::CustomBatteryConsumerROSPlugin::batteryName</definition>
+        <argsstring></argsstring>
+        <name>batteryName</name>
+        <briefdescription>
+<para>Battery model name. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1ac88de3b1d146e46df3352b5769a86b81" prot="protected" static="no" mutable="no">
+        <type>event::ConnectionPtr</type>
+        <definition>event::ConnectionPtr gazebo::CustomBatteryConsumerROSPlugin::rosPublishConnection</definition>
+        <argsstring></argsstring>
+        <name>rosPublishConnection</name>
+        <briefdescription>
+<para>Connection for callbacks on update world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a1dfc5cbec8fb4bb7c398b5f92ebfe025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::CustomBatteryConsumerROSPlugin::CustomBatteryConsumerROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>CustomBatteryConsumerROSPlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="33" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/CustomBatteryConsumerROSPlugin.cc" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1ad874654e87502adee138a375c59096a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>gazebo::CustomBatteryConsumerROSPlugin::~CustomBatteryConsumerROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~CustomBatteryConsumerROSPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="36" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/CustomBatteryConsumerROSPlugin.cc" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a092657cb2832d56f4f4f9037e29de22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::CustomBatteryConsumerROSPlugin::Load</definition>
+        <argsstring>(physics::ModelPtr _parent, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_parent</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load module and read parameters from SDF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="39" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/CustomBatteryConsumerROSPlugin.cc" bodystart="33" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a884a9bccf2a5f4a5a935b67a133a18a2" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::CustomBatteryConsumerROSPlugin::UpdateDeviceState</definition>
+        <argsstring>(const std_msgs::Bool::ConstPtr &amp;_msg)</argsstring>
+        <name>UpdateDeviceState</name>
+        <param>
+          <type>const std_msgs::Bool::ConstPtr &amp;</type>
+          <declname>_msg</declname>
+        </param>
+        <briefdescription>
+<para>Callback for the device state topic subscriber. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="42" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/CustomBatteryConsumerROSPlugin.cc" bodystart="87" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aa0f068f722eb00582d21cd0c69379a2f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::CustomBatteryConsumerROSPlugin::UpdatePowerLoad</definition>
+        <argsstring>(double _powerLoad=0.0)</argsstring>
+        <name>UpdatePowerLoad</name>
+        <param>
+          <type>double</type>
+          <declname>_powerLoad</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+<para>Update power load. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="45" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/CustomBatteryConsumerROSPlugin.cc" bodystart="98" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>gazebo::CustomBatteryConsumerROSPlugin</label>
+        <link refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>ModelPlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>gazebo::CustomBatteryConsumerROSPlugin</label>
+        <link refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>ModelPlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" line="31" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/CustomBatteryConsumerROSPlugin.hh" bodystart="30" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aab63a2fd9601f9ed588cd310a31d166d" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>battery</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aabf460331c052e75d5bdfd801832e67c" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>batteryName</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1afa8963cf588440f8a65a40709ee87f1b" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>consumerID</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a1dfc5cbec8fb4bb7c398b5f92ebfe025" prot="public" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>CustomBatteryConsumerROSPlugin</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a5f4ab26681042a3704d0854c80179ccb" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>deviceStateSub</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1adb9208bcb12e204be32cdafbd4dedece" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>isDeviceOn</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aab7c22693c5544d155fe5e3a193d9848" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>linkName</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a092657cb2832d56f4f4f9037e29de22f" prot="public" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a2a77576499d0d9a4121df0ab26263999" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>powerLoad</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a849c350038fc65f0b6618daa9bff2d5a" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>rosNode</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1ac88de3b1d146e46df3352b5769a86b81" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>rosPublishConnection</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1a884a9bccf2a5f4a5a935b67a133a18a2" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>UpdateDeviceState</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1aa0f068f722eb00582d21cd0c69379a2f" prot="protected" virt="non-virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>UpdatePowerLoad</name></member>
+      <member refid="classgazebo_1_1_custom_battery_consumer_r_o_s_plugin_1ad874654e87502adee138a375c59096a5" prot="public" virt="virtual"><scope>gazebo::CustomBatteryConsumerROSPlugin</scope><name>~CustomBatteryConsumerROSPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
