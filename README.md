@@ -30,7 +30,7 @@ sudo pip3 install virtualenv
 
 ```
 virtualenv -p python3 venv
-pip install -r requirements.txt 
+pip install -r requirements.txt --user
 ```
 
 ### Install `moxygen`
