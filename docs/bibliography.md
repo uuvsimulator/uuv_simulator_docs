@@ -9,6 +9,8 @@
 - [García-Valdovinos, Luis Govinda, et al. "Modelling, design and robust control of a remotely operated underwater vehicle." International Journal of Advanced Robotic Systems 11.1 (2014): 1.](https://journals.sagepub.com/doi/full/10.5772/56810)
 - [Tian, Yu, and Aiqun Zhang. "Simulation environment and guidance system for AUV tracing chemical plume in 3-dimensions." 2010 2nd International Asia Conference on Informatics in Control, Automation and Robotics (CAR 2010). Vol. 1. IEEE, 2010.](https://ieeexplore.ieee.org/abstract/document/5456812/)
 - [Nornes, Stein M., et al. "Underwater photogrammetric mapping of an intact standing steel wreck with ROV." IFAC-PapersOnLine 48.2 (2015): 206-211.](https://www.sciencedirect.com/science/article/pii/S2405896315002736)
+- [Salgado-Jiménez, Tomás, Luis G. García-Valdovinos, and Guillermo Delgado-Ramírez. "Control of rovs using a model-free 2nd-order sliding mode approach." Sliding mode control. IntechOpen, 2011.](https://www.intechopen.com/download/pdf/15221)
+- [Fjellstad, O-E., and Thor I. Fossen. "Singularity-free tracking of unmanned underwater vehicles in 6 DOF." Proceedings of 1994 33rd IEEE Conference on Decision and Control. Vol. 2. IEEE, 1994.](https://ieeexplore.ieee.org/abstract/document/411068)
 
 # Books
 
