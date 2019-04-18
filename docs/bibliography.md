@@ -27,7 +27,10 @@
 - [Maritime Archaeology Trust](https://sketchfab.com/maritimearchaeologytrust)
 - [Blueye Robotics](https://sketchfab.com/blueyerobotics)
 - [Tywoky - Wreck scanner](https://sketchfab.com/tywoky)
-
+- [National Park Service Submerged Resources Center](https://sketchfab.com/submerged)
+- [Global Underwater Explorers](https://sketchfab.com/GUE)
+- [Octopus Foundation](https://sketchfab.com/octopusfoundation)
+  
 # Other maritime robotics projects
 
 - [UWSim - The UnderWater Simulator](http://www.irs.uji.es/uwsim/)
