@@ -46,17 +46,19 @@ create_readme() {
     echo "# $TITLE" > $OUTPUT_DIR/README.md
     echo "" >> $OUTPUT_DIR/README.md
     cat docs/packages/$REPO_NAME/intro.md >> $OUTPUT_DIR/README.md
-    echo "Repository $REPO_NAME README.md update, output_dir=$OUTPUT_DIR"
+    echo "Repository $REPO_NAME README.md update, output_dir=$OUTPUT_DIR"    
 
-    if [ -d $OUTPUT_DIR/images ]; then
-        rm -rf $OUTPUT_DIR/images
+    if [ ! -z "$IMAGES" -a "$IMAGES" != " " ]; then
+        if [ -d $OUTPUT_DIR/images ]; then
+            rm -rf $OUTPUT_DIR/images
+        fi
+
+        mkdir $OUTPUT_DIR/images
+        for IMAGE in $IMAGES;
+        do
+            cp docs/packages/$REPO_NAME/images/$IMAGE $OUTPUT_DIR/images
+        done
     fi
-
-    mkdir $OUTPUT_DIR/images
-    for IMAGE in $IMAGES;
-    do
-        cp docs/packages/$REPO_NAME/images/$IMAGE $OUTPUT_DIR/images
-    done
 }
 
 # Run Doxygen on uuv_simulator modules with C++ plugins
@@ -67,7 +69,8 @@ run_doxygen "uuv_plume_simulator" "uuv_cpc_sensor"
 ./gen_catkin_pkg_docs --config_file config.yaml
 
 # Copy the intro.md files from each package to the README.md of the repository
-create_readme "RexROV 2" rexrov2 $HOME/catkin_ws/src/rexrov2 "rexrov2.png"
+create_readme 'RexROV 2' rexrov2 $HOME/catkin_ws/src/rexrov2 "rexrov2.png"
+create_readme '`uuv_simulator`: Unmanned Underwater Vehicle (UUV) simulation with Gazebo' uuv_simulator $HOME/catkin_ws/src/uuv_simulator ""
 
 # Build the site
 mkdocs build
