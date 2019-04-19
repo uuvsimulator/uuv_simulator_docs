@@ -70,6 +70,7 @@ run_doxygen "uuv_plume_simulator" "uuv_cpc_sensor"
 
 # Copy the intro.md files from each package to the README.md of the repository
 create_readme 'RexROV 2' rexrov2 $HOME/catkin_ws/src/rexrov2 "rexrov2.png"
+create_readme 'ECA A9 AUV' eca_a9 $HOME/catkin_ws/src/eca_a9 "eca_a9.png"
 create_readme '`uuv_simulator`: Unmanned Underwater Vehicle (UUV) simulation with Gazebo' uuv_simulator $HOME/catkin_ws/src/uuv_simulator ""
 
 # Build the site
