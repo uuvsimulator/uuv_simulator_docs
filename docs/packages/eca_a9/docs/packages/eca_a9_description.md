@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/version-0.1.5-brightgreen.svg)
+![Version](https://img.shields.io/badge/version-0.1.6-brightgreen.svg)
 
 > Link to the `eca_a9` repository [here](https://github.com/uuvsimulator/eca_a9)
 
