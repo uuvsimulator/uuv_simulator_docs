@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/badge/version-0.3.1-brightgreen.svg)
+![Version](https://img.shields.io/badge/version-0.3.2-brightgreen.svg)
 
 > Link to the `uuv_plume_simulator` repository [here](https://github.com/uuvsimulator/uuv_plume_simulator)
 

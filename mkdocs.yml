@@ -83,6 +83,9 @@ nav:
       - uuv_world_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_world_ros_plugins.md
   - Plume Simulator: 
     - Introduction: packages/uuv_plume_simulator/intro.md
+    - User Guide:
+      - Introduction: packages/uuv_plume_simulator/docs/user_guide/introduction.md
+      - How to start a turbulent passive plume: packages/uuv_plume_simulator/docs/user_guide/how_to_start_a_turbulent_plume.md
     - Packages:
       - uuv_plume_simulator: packages/uuv_plume_simulator/docs/packages/uuv_plume_simulator.md
       - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/packages/uuv_cpc_sensor.md

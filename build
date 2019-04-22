@@ -74,6 +74,7 @@ create_readme 'ECA A9 AUV' eca_a9 $HOME/catkin_ws/src/eca_a9 "eca_a9.png"
 create_readme 'Desistek SAGA ROV' desistek_saga $HOME/catkin_ws/src/desistek_saga "desistek_saga.png"
 create_readme '`uuv_simulator`: Unmanned Underwater Vehicle (UUV) simulation with Gazebo' uuv_simulator $HOME/catkin_ws/src/uuv_simulator ""
 create_readme 'Light Autonomous Underwater Vehicle (LAUV) model for Gazebo' lauv_gazebo $HOME/catkin_ws/src/lauv_gazebo "lauv.png"
+create_readme 'Plume Simulator' uuv_plume_simulator $HOME/catkin_ws/src/uuv_plume_simulator "plume.png"
 
 # Build the site
 mkdocs build
