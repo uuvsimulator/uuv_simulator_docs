@@ -6,6 +6,8 @@
 
 > Link to the [documentation page](https://uuvsimulator.github.io/packages/uuv_plume_simulator/intro/)
 
+> Chat on [Discord](https://discord.gg/zNauF2F)
+
 This repository contains ROS nodes and messages necessary to simulate a turbulent
 plume, which is an implementation of the algorithm described in [1]. This repository
 is complementary to the [Unmanned Underwater Vehicle Simulator (UUV Simulator)](https://github.com/uuvsimulator/uuv_simulator),

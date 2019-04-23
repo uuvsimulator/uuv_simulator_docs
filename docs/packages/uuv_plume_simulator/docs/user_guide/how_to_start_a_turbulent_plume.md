@@ -105,4 +105,23 @@ where
 
 # Running the example
 
+The full tutorial to start a turbulent plume can be started with the following commands:
+
+```bash
+roslaunch uuv_plume_simulator start_plume_example.launch
+```
+
+```bash
+rosrun uuv_plume_simulator set_demo_current_vel
+```
+
+```bash
+rosrun uuv_plume_simulator set_demo_turbulent_plume
+```
+
 ![Starting a turbulent plume](../../images/plume_example.gif)
+
+# Services to configure and control the plume
+
+* [Plume server](../packages/uuv_plume_simulator.md#plume_server)
+* [Current velocity server](../packages/uuv_plume_simulator.md#current_velocity_server)

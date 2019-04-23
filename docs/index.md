@@ -1,5 +1,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](about/license.md)
 
+> Chat on [Discord](https://discord.gg/zNauF2F)
+
 The UUV Simulator is a package containing the implementation of Gazebo plugins and ROS nodes necessary for the simulation of unmanned underwater vehicles, such as ROVs (remotely operated vehicles) and AUVs (autonomous underwater vehicles).
 
 To send questions and/or issues, please refer to the [repository’s issues page](https://github.com/uuvsimulator/uuv_simulator/issues).

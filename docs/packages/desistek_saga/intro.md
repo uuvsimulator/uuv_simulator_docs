@@ -6,6 +6,8 @@
 
 > Link to the [documentation page](https://uuvsimulator.github.io/packages/desistek_saga/intro/) 
 
+> Chat on [Discord](https://discord.gg/zNauF2F)
+
 This repository contains the robot description and necessary launch files to
 simulate the [Desistek SAGA ROV vehicle](http://www.desistek.com.tr/).
 This repository is complementary to the [Unmanned Underwater Vehicle Simulator (UUV Simulator)](https://github.com/uuvsimulator/uuv_simulator),

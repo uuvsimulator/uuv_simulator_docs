@@ -8,13 +8,11 @@ site_description: 'Unmanned Underwater Vehicle Simulator Documentation.'
 extra:
   social:
     - type: globe
-      link: https://github.com/boschresearch
-    - type: comment
       link: https://discourse.ros.org/c/maritime
     - type: github-alt
       link: https://github.com/uuvsimulator/
-    - type: slack
-      link: https://uuvsimulator.slack.com/    
+    - type: comment
+      link: https://discord.gg/zNauF2F    
 
 # Extensions
 markdown_extensions:
