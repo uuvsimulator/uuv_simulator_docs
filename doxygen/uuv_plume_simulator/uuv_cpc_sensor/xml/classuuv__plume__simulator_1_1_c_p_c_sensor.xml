@@ -64,7 +64,7 @@
 <para>Salinity unit to be used. Options are. </para>        </briefdescription>
         <detaileddescription>
 <para><itemizedlist>
-<listitem><para>PPT (parts per thousand)</para></listitem><listitem><para>PPM (parts per million)</para></listitem><listitem><para>PSU (practical salinity unit) </para></listitem></itemizedlist>
+<listitem><para><computeroutput>ppt</computeroutput> (parts per thousand)</para></listitem><listitem><para><computeroutput>ppm</computeroutput> (parts per million)</para></listitem><listitem><para><computeroutput>psu</computeroutput> (practical salinity unit) </para></listitem></itemizedlist>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>

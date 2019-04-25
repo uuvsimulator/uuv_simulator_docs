@@ -50,7 +50,8 @@ markdown_extensions:
 nav:
   - Home: index.md      
   - Installation: installation.md
-  - Quick start: quick_start.md    
+  - Quick start: quick_start.md  
+  - API: api.md  
   - UUV Simulator: 
     - Introduction: packages/uuv_simulator/intro.md
     - Packages:
@@ -73,12 +74,81 @@ nav:
       - uuv_world_plugins: packages/uuv_simulator/docs/packages/uuv_world_plugins.md
       - uuv_world_ros_plugins: packages/uuv_simulator/docs/packages/uuv_world_ros_plugins.md
       - uuv_world_ros_plugins_msgs: packages/uuv_simulator/docs/packages/uuv_world_ros_plugins_msgs.md
-    - API:
-      - uuv_gazebo_plugins: packages/uuv_simulator/docs/api/api-uuv_gazebo_plugins.md
-      - uuv_gazebo_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_gazebo_ros_plugins.md
-      - uuv_sensor_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_sensor_ros_plugins.md
-      - uuv_world_plugins: packages/uuv_simulator/docs/api/api-uuv_world_plugins.md
-      - uuv_world_ros_plugins: packages/uuv_simulator/docs/api/api-uuv_world_ros_plugins.md
+    - C++ API:
+      - uuv_gazebo_plugins: 
+        - BuoyantObject: packages/uuv_simulator/docs/api/gazebo::BuoyantObject.md       
+        - Dynamics:
+          - Dynamics: packages/uuv_simulator/docs/api/gazebo::Dynamics.md       
+          - DynamicsFactory: packages/uuv_simulator/docs/api/gazebo::DynamicsFactory.md
+          - DynamicsFirstOrder: packages/uuv_simulator/docs/api/gazebo::DynamicsFirstOrder.md
+          - DynamicsZeroOrder: packages/uuv_simulator/docs/api/gazebo::DynamicsZeroOrder.md
+          - ThrusterDynamicsBessa: packages/uuv_simulator/docs/api/gazebo::ThrusterDynamicsBessa.md
+          - ThrusterDynamicsYoerger: packages/uuv_simulator/docs/api/gazebo::ThrusterDynamicsYoerger.md
+        - FinPlugin: packages/uuv_simulator/docs/api/gazebo::FinPlugin.md
+        - HydrodynamicModel:
+          - HydrodynamicModel: packages/uuv_simulator/docs/api/gazebo::HydrodynamicModel.md
+          - HydrodynamicModelFactory: packages/uuv_simulator/docs/api/gazebo::HydrodynamicModelFactory.md
+          - HMBox: packages/uuv_simulator/docs/api/gazebo::HMBox.md
+          - HMCylinder: packages/uuv_simulator/docs/api/gazebo::HMCylinder.md
+          - HMFossen: packages/uuv_simulator/docs/api/gazebo::HMFossen.md
+          - HMSphere: packages/uuv_simulator/docs/api/gazebo::HMSphere.md
+          - HMSpheroid: packages/uuv_simulator/docs/api/gazebo::HMSpheroid.md
+        - LiftDragModel:
+          - LiftDrag: packages/uuv_simulator/docs/api/gazebo::LiftDrag.md
+          - LiftDragFactory: packages/uuv_simulator/docs/api/gazebo::LiftDragFactory.md
+          - LiftDragQuadratic: packages/uuv_simulator/docs/api/gazebo::LiftDragQuadratic.md
+          - LiftDragTwoLines: packages/uuv_simulator/docs/api/gazebo::LiftDragTwoLines.md
+        - ThrusterConversionFcn:
+          - ConversionFunction: packages/uuv_simulator/docs/api/gazebo::ConversionFunction.md
+          - ConversionFunctionFactory: packages/uuv_simulator/docs/api/gazebo::ConversionFunctionFactory.md
+          - ConversionFunctionBasic: packages/uuv_simulator/docs/api/gazebo::ConversionFunctionBasic.md
+          - ConversionFunctionBessa: packages/uuv_simulator/docs/api/gazebo::ConversionFunctionBessa.md
+          - ConversionFunctionLinearInterp: packages/uuv_simulator/docs/api/gazebo::ConversionFunctionLinearInterp.md
+        - ThrusterPlugin: packages/uuv_simulator/docs/api/gazebo::ThrusterPlugin.md
+        - UnderwaterObjectPlugin: packages/uuv_simulator/docs/api/gazebo::UnderwaterObjectPlugin.md
+      - uuv_gazebo_ros_plugins: 
+        - AccelerationsTestPlugin: packages/uuv_simulator/docs/api/gazebo::AccelerationsTestPlugin.md
+        - CustomBatteryConsumerROSPlugin: packages/uuv_simulator/docs/api/gazebo::CustomBatteryConsumerROSPlugin.md
+        - FinROSPlugin: packages/uuv_simulator/docs/api/uuv_simulator_ros::FinROSPlugin.md
+        - JointStatePublisher: packages/uuv_simulator/docs/api/uuv_simulator_ros::JointStatePublisher.md
+        - LinearBatteryROSPlugin: packages/uuv_simulator/docs/api/gazebo::LinearBatteryROSPlugin.md
+        - ThrusterROSPlugin: packages/uuv_simulator/docs/api/uuv_simulator_ros::ThrusterROSPlugin.md
+        - UnderwaterObjectROSPlugin: packages/uuv_simulator/docs/api/uuv_simulator_ros::UnderwaterObjectROSPlugin.md
+      - uuv_sensor_ros_plugins:
+        - ROSBasePlugin: packages/uuv_simulator/docs/api/gazebo::ROSBasePlugin.md
+        - ROSBaseModelPlugin: packages/uuv_simulator/docs/api/gazebo::ROSBaseModelPlugin.md
+        - ROSBaseSensorPlugin: packages/uuv_simulator/docs/api/gazebo::ROSBaseSensorPlugin.md
+        - CPCROSPlugin: packages/uuv_simulator/docs/api/gazebo::CPCROSPlugin.md
+        - DVLROSPlugin: packages/uuv_simulator/docs/api/gazebo::DVLROSPlugin.md
+        - GazeboRosImageSonar: packages/uuv_simulator/docs/api/gazebo::GazeboRosImageSonar.md
+        - GPSROSPlugin: packages/uuv_simulator/docs/api/gazebo::GPSROSPlugin.md
+        - IMUROSPlugin: 
+          - IMUParameters: packages/uuv_simulator/docs/api/gazebo::IMUParameters.md
+          - IMUROSPlugin: packages/uuv_simulator/docs/api/gazebo::IMUROSPlugin.md
+        - MagnetometerROSPlugin: 
+          - MagnetometerParameters: packages/uuv_simulator/docs/api/gazebo::MagnetometerParameters.md
+          - MagnetometerROSPlugin: packages/uuv_simulator/docs/api/gazebo::MagnetometerROSPlugin.md
+        - PoseGTROSPlugin: packages/uuv_simulator/docs/api/gazebo::PoseGTROSPlugin.md        
+        - RPTROSPlugin: packages/uuv_simulator/docs/api/gazebo::RPTROSPlugin.md        
+        - SubseaPressureROSPlugin: packages/uuv_simulator/docs/api/gazebo::SubseaPressureROSPlugin.md        
+        - UnderwaterCameraROSPlugin: packages/uuv_simulator/docs/api/gazebo::UnderwaterCameraROSPlugin.md         
+      - uuv_world_plugins: 
+        - GaussMarkovProcess: packages/uuv_simulator/docs/api/gazebo::GaussMarkovProcess.md         
+        - UnderwaterCurrentPlugin: packages/uuv_simulator/docs/api/gazebo::UnderwaterCurrentPlugin.md         
+      - uuv_world_ros_plugins: 
+        - SphericalCoordinatesROSInterfacePlugin: packages/uuv_simulator/docs/api/gazebo::SphericalCoordinatesROSInterfacePlugin.md         
+        - UnderwaterCurrentROSPlugin: packages/uuv_simulator/docs/api/uuv_simulator_ros::UnderwaterCurrentROSPlugin.md
+    - Python API:
+      - uuv_auv_control_allocator:
+        - uuv_auv_actuator_interface: packages/uuv_simulator/docs/python_api/uuv_auv_actuator_interface.md
+      - uuv_control_cascaded_pids:
+        - PID: packages/uuv_simulator/docs/python_api/PID.md
+      - uuv_thruster_manager:
+        - uuv_thrusters: packages/uuv_simulator/docs/python_api/uuv_thrusters.md
+      - uuv_trajectory_control:
+        - uuv_control_interfaces: packages/uuv_simulator/docs/python_api/uuv_control_interfaces.md
+        - uuv_trajectory_generator: packages/uuv_simulator/docs/python_api/uuv_trajectory_generator.md
+        - uuv_waypoints: packages/uuv_simulator/docs/python_api/uuv_waypoints.md
   - Plume Simulator: 
     - Introduction: packages/uuv_plume_simulator/intro.md
     - User Guide:
@@ -88,8 +158,12 @@ nav:
       - uuv_plume_simulator: packages/uuv_plume_simulator/docs/packages/uuv_plume_simulator.md
       - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/packages/uuv_cpc_sensor.md
       - uuv_plume_msgs: packages/uuv_plume_simulator/docs/packages/uuv_plume_msgs.md
-    - API:
-      - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/api/api-uuv_cpc_sensor.md
+    - C++ API:
+      - CPCSensor: packages/uuv_plume_simulator/docs/api/uuv_plume_simulator::CPCSensor.md
+    - Python API:
+      - uuv_plume_simulator:
+        - uuv_gm_process: packages/uuv_plume_simulator/docs/python_api/uuv_gm_process.md      
+        - uuv_plume_model: packages/uuv_plume_simulator/docs/python_api/uuv_plume_model.md      
   - RexROV 2: 
     - Introduction: packages/rexrov2/intro.md
     - Packages:

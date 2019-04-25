@@ -508,7 +508,7 @@ the plume particles from an YAML file.
 Node to call the ROS service from the plume server to create a 
 passive turbulent plume.
 
-!!! note "See also"
+!!! note "See als
 
     [Description of the turbulent plume model](../user_guide/introduction.md)
 

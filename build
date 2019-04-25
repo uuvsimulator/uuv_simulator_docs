@@ -10,29 +10,28 @@ run_doxygen() {
     # Remove old API folder for the documentation
     if [ -d docs/packages/$REPO_NAME/api ]; then
         rm -rf docs/packages/$REPO_NAME/docs/api
-    fi
+    fi    
 
-    mkdir -p docs/packages/$REPO_NAME/docs/api
+    OUTPUT_DIR=docs/packages/$REPO_NAME/docs/api
+    mkdir -p $OUTPUT_DIR
 
     for PKG in $PKG_NAMES;
-    do
+    do        
         if [ -d $ROOT_DOXYGEN_DIR/$PKG ]; then 
             rm -rf $ROOT_DOXYGEN_DIR/$PKG
         fi
 
         echo "Running Doxygen for $PKG"
         echo "Options: GENERATE_XML=YES;GENERATE_HTML=NO;INPUT=$(rospack find $PKG);OUTPUT_DIRECTORY=$ROOT_DOXYGEN_DIR/$PKG"
-        mkdir -p $ROOT_DOXYGEN_DIR/$PKG/markdown 
+      
         (cat $ROOT_DOXYGEN_DIR/Doxyfile; 
             echo "DOXYGEN_QUIET=YES"; 
             echo "GENERATE_XML=YES"; 
             echo "GENERATE_HTML=NO"; 
             echo "INPUT=$(rospack find $PKG)"; 
             echo "OUTPUT_DIRECTORY=$ROOT_DOXYGEN_DIR/$PKG") | doxygen -
-
-        moxygen --output $ROOT_DOXYGEN_DIR/$PKG/markdown/api-$PKG.md $ROOT_DOXYGEN_DIR/$PKG/xml
-
-        cp $ROOT_DOXYGEN_DIR/$PKG/markdown/api-$PKG.md docs/packages/$REPO_NAME/docs/api
+        
+        moxygen --noindex --classes --output=$OUTPUT_DIR/%s.md $ROOT_DOXYGEN_DIR/$PKG/xml
     done
 
 }
@@ -75,6 +74,78 @@ create_readme 'Desistek SAGA ROV' desistek_saga $HOME/catkin_ws/src/desistek_sag
 create_readme '`uuv_simulator`: Unmanned Underwater Vehicle (UUV) simulation with Gazebo' uuv_simulator $HOME/catkin_ws/src/uuv_simulator ""
 create_readme 'Light Autonomous Underwater Vehicle (LAUV) model for Gazebo' lauv_gazebo $HOME/catkin_ws/src/lauv_gazebo "lauv.png"
 create_readme 'Plume Simulator' uuv_plume_simulator $HOME/catkin_ws/src/uuv_plume_simulator "plume.png"
+
+# Create API documentation for Python packages
+
+# =======================================
+# UUV_PLUME_SIMULATOR
+# =======================================
+
+REPO_NAME=uuv_plume_simulator
+ROOT_FOLDER=docs/packages/$REPO_NAME/docs/python_api
+
+if [ -d $ROOT_FOLDER ]; then
+    rm -rf $ROOT_FOLDER
+fi
+
+mkdir -p $ROOT_FOLDER
+
+# uuv_plume_simulator
+PKG_NAME=uuv_gm_process
+pydocmd simple \
+    uuv_gm_process++ uuv_gm_process.gauss_markov_process++ > $ROOT_FOLDER/$PKG_NAME.md
+
+PKG_NAME=uuv_plume_model
+pydocmd simple \
+    uuv_plume_model++ uuv_plume_model.plume++ uuv_plume_model.passive_scalar_turbulence++ uuv_plume_model.spheroid++ > $ROOT_FOLDER/$PKG_NAME.md
+
+# =======================================
+# UUV_SIMULATOR
+# =======================================
+
+REPO_NAME=uuv_simulator
+ROOT_FOLDER=docs/packages/$REPO_NAME/docs/python_api
+
+if [ -d $ROOT_FOLDER ]; then
+    rm -rf $ROOT_FOLDER
+fi
+
+mkdir -p $ROOT_FOLDER
+
+# uuv_auv_control_allocator
+PKG_NAME=uuv_auv_actuator_interface
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.actuator_manager++ $PKG_NAME.fin_model++ > $ROOT_FOLDER/$PKG_NAME.md
+
+# uuv_control_cascaded_pids
+PKG_NAME=PID
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.PIDRegulator++ > $ROOT_FOLDER/$PKG_NAME.md
+
+# uuv_thruster_manager
+PKG_NAME=uuv_thrusters
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.thruster_manager++ $PKG_NAME.models++ $PKG_NAME.models.thruster++ \
+    $PKG_NAME.models.thruster_custom++ $PKG_NAME.models.thruster_proportional++ > $ROOT_FOLDER/$PKG_NAME.md
+
+# uuv_trajectory_control
+PKG_NAME=uuv_control_interfaces
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.dp_controller_base++ $PKG_NAME.dp_controller_local_planner++ \
+    $PKG_NAME.dp_pid_controller_base++ $PKG_NAME.sym_vehicle++ $PKG_NAME.vehicle++ > $ROOT_FOLDER/$PKG_NAME.md
+
+PKG_NAME=uuv_trajectory_generator
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.trajectory_generator++ $PKG_NAME.trajectory_point++ \
+    $PKG_NAME.wp_trajectory_generator++ $PKG_NAME.path_generator.bezier_curve++ \
+    $PKG_NAME.path_generator.cs_interpolator++ $PKG_NAME.path_generator.dubins_interpolator++ \
+    $PKG_NAME.path_generator.helical_segment++ $PKG_NAME.path_generator.line_segment++ \
+    $PKG_NAME.path_generator.linear_interpolator++ $PKG_NAME.path_generator.lipb_interpolator++ \
+    $PKG_NAME.path_generator.path_generator > $ROOT_FOLDER/$PKG_NAME.md
+
+PKG_NAME=uuv_waypoints
+pydocmd simple \
+    $PKG_NAME++ $PKG_NAME.waypoint++ $PKG_NAME.waypoint_set++ > $ROOT_FOLDER/$PKG_NAME.md
 
 # Build the site
 mkdocs build
