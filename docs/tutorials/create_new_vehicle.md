@@ -36,16 +36,16 @@ The fin plugin macros available in  set the fin joint to rotate around the
 Z axis, so the fin mesh can be positioned as in the image below to avoid
 configuring its origin and orientation in the URDF file.
 
-.. image:: ../images/tutorial_new_vehicle/fin_mesh.png
+![Fin mesh](../images/tutorial_new_vehicle/fin_mesh.png)
 
 The template files should have the necessary macros for ROVs, AUVs and simple
 surface vessels. If you want to check more macros of URDF snippets for UUV
-simulator plugins, you should check the `uuv_gazebo_ros_plugins XACRO macros <https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/urdf>`_
-and the `uuv_sensor_plugins_ros XACRO macros <https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_sensor_plugins/uuv_sensor_plugins_ros/urdf>`_.
+simulator plugins, you should check the [`uuv_gazebo_ros_plugins` XACRO macros](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/urdf)
+and the [`uuv_sensor_plugins_ros` XACRO macros](https://github.com/uuvsimulator/uuv_simulator/tree/master/uuv_sensor_plugins/uuv_sensor_plugins_ros/urdf).
 
-.. note::
+!!! note
 
-  The position and orientation for sensors, actuators and center of buoyancy
-  must be set with respect to the center of gravity of the vehicle's base link.
-  ROS and Gazebo also use per default the `ENU (East-North-Up) reference frame <http://www.ros.org/reps/rep-0103.html>`_
-  convention, not NED (North-East-Down).
+    The position and orientation for sensors, actuators and center of buoyancy
+    must be set with respect to the center of gravity of the vehicle's base link.
+    ROS and Gazebo also use per default the [ENU (East-North-Up) reference frame](http://www.ros.org/reps/rep-0103.html)
+    convention, not NED (North-East-Down).
