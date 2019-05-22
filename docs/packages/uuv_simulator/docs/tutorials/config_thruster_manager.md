@@ -10,7 +10,7 @@ $\tau_i$ for each.
 The simulation expects each thruster unit to have its own unique frame, which
 enables the use of [`tf`](http://wiki.ros.org/tf) to lookup the transformation
 matrix between the vehicle's body frame and each thruster during runtime.
-Using this possibility, a package called [`uuv_thruster_manager`](../packages/uuv_simulator/docs/packages/uuv_thruster_manager.md) has been
+Using this possibility, a package called [`uuv_thruster_manager`](../packages/uuv_thruster_manager.md) has been
 developed to generate the thruster allocation matrix automatically and
 translating the control vector into commands to each thruster.
 

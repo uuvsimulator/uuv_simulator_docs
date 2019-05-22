@@ -26,7 +26,7 @@ This will create a catkin package named `<ROBOT_NAME>_description` with template
 
 Actuators and vehicles are modeled separately in the robot description and should also have separate mesh files. The thruster plugin macros set the axis of rotation of the thruster as the X axis, so it is better to setup the mesh accordingly, like in the example below showing the mesh for the RexROV thruster.
 
-![Thruster mesh](../images/tutorial_new_vehicle/thruster_mesh.png)
+![Thruster mesh](../images/thruster_mesh.png)
 
 !!! note
 
