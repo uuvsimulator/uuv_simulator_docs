@@ -54,6 +54,8 @@ nav:
   - API: api.md  
   - UUV Simulator: 
     - Introduction: packages/uuv_simulator/intro.md
+    - Features:
+      - Gazebo worlds: packages/uuv_simulator/docs/features/gazebo_worlds.md 
     - User Guide:
       - Configuring the thruster manager: packages/uuv_simulator/docs/tutorials/config_thruster_manager.md
       - Create new vehicle: packages/uuv_simulator/docs/tutorials/create_new_vehicle.md
