@@ -162,7 +162,7 @@ and you can monitor the current velocity topic `/hydrodynamics/current_velocity`
 
 It is important to note that the current velocity is calculated in Gazebo's ENU reference frame since it does not recognize the `SNAME` convention. If you visualize the simulation output in RViz, you can subscribe to the topic `/<model_name>/current_velocity_marker` to see an arrow indicating the direction of the current velocity as shown in the image below. The marker disappears if the current velocity is set to zero.
 
-![Current RViz](../images/tutorial_disturbances/current_rviz.png)
+![Current RViz](../images/current_rviz.png)
 
 As mentioned, the current velocity magnitude, horizontal and vertical angles are modelled as Gauss-Markov processes to allow a small variation around a mean value. These models can be set using the service calls below 
 
@@ -174,7 +174,7 @@ rosservice call /hydrodynamics/set_current_vert_angle_model "{mean: 0.0, min: 0.
 
 ## Using the uuv_control_utils ROS node
 
-In order set a current velocity to the simulation without needing manual service calls or changes in the world's SDF file, a ROS node is available in the [`uuv_control_utils`](../packages/uuv_simulator/docs/packages/uuv_control_utils.md) package, but currently only for constant current velocity models. You can call it using the following launch file 
+In order set a current velocity to the simulation without needing manual service calls or changes in the world's SDF file, a ROS node is available in the [`uuv_control_utils`](../packages/uuv_control_utils.md) package, but currently only for constant current velocity models. You can call it using the following launch file 
 
 ```bash
 roslaunch uuv_control_utils set_timed_current_perturbation.launch starting_time:=0.0 end_time:=10.0 current_vel:=1.0 horizontal_angle:=10.0 vertical_angle:=30

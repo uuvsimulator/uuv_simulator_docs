@@ -390,7 +390,7 @@ roslaunch uuv_tutorial_dp_controller start_tutorial_dp_controller_demo.launch
 
 This will start the Gazebo simulator with an instance of the RexROV vehicle with this custom controller being used for positioning.
 
-![RViz view](../images/tutorial_dp_controller/rviz_view.png)
+![RViz view](../images/rviz_view.png)
 
 You can use one the modules from the [`uuv_control_utils`](../packages/uuv_simulator/docs/packages/uuv_control_utils.md) package to send the vehicle some waypoints and see the controller in action. For example, use the [default list of waypoints](https://github.com/uuvsimulator/uuv_simulator/blob/master/uuv_control/uuv_control_utils/config/example_waypoints.yaml) and send them to the controller by using 
 
@@ -400,4 +400,4 @@ roslaunch uuv_control_utils send_waypoints_file.launch uuv_name:=rexrov
 
 The local planner in `uuv_control_interfaces` that is used per default by the `DPControllerBase` class will receive the waypoints and apply a linear interpolation with polynomial blends to generate a path to be followed by the vehicle.
 
-![Waypoint following](../images/tutorial_dp_controller/waypoint_following.png)
+![Waypoint following](../images/waypoint_following.png)

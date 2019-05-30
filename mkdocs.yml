@@ -54,6 +54,14 @@ nav:
   - API: api.md  
   - UUV Simulator: 
     - Introduction: packages/uuv_simulator/intro.md
+    - Features:
+      - Gazebo worlds: packages/uuv_simulator/docs/features/gazebo_worlds.md 
+    - User Guide:
+      - Configuring the thruster manager: packages/uuv_simulator/docs/tutorials/config_thruster_manager.md
+      - Create new vehicle: packages/uuv_simulator/docs/tutorials/create_new_vehicle.md
+      - Creating new dynamic positioning controller: packages/uuv_simulator/docs/tutorials/creating_new_dp_controller.md
+      - Generating disturbances: packages/uuv_simulator/docs/tutorials/disturbances.md
+      - Creating a new world with a custom seabed: packages/uuv_simulator/docs/tutorials/seabed_world.md
     - Packages:
       - uuv_assistants: packages/uuv_simulator/docs/packages/uuv_assistants.md             
       - uuv_auv_control_allocator: packages/uuv_simulator/docs/packages/uuv_auv_control_allocator.md 
@@ -154,6 +162,7 @@ nav:
     - User Guide:
       - Introduction: packages/uuv_plume_simulator/docs/user_guide/introduction.md
       - How to start a turbulent passive plume: packages/uuv_plume_simulator/docs/user_guide/how_to_start_a_turbulent_plume.md
+      - Add CPC sensor model to simulated vehicle: packages/uuv_plume_simulator/docs/user_guide/add_cpc_sensor_to_model.md
     - Packages:
       - uuv_plume_simulator: packages/uuv_plume_simulator/docs/packages/uuv_plume_simulator.md
       - uuv_cpc_sensor: packages/uuv_plume_simulator/docs/packages/uuv_cpc_sensor.md
@@ -188,14 +197,8 @@ nav:
       - desistek_saga_control: packages/desistek_saga/docs/packages/desistek_saga_control.md
       - desistek_saga_description: packages/desistek_saga/docs/packages/desistek_saga_description.md
       - desistek_saga_gazebo: packages/desistek_saga/docs/packages/desistek_saga_gazebo.md
-  - Tutorials:
-    - Configuring the thruster manager: tutorials/config_thruster_manager.md
-    - Create new vehicle: tutorials/create_new_vehicle.md
-    - Creating new dynamic positioning controller: tutorials/creating_new_dp_controller.md
-    - Disturbances: tutorials/disturbances.md
-    - Plume simulation: tutorials/plume_simulation.md
-    - Creating a new world with a custom seabed: tutorials/seabed_world.md
-    - Using the simulation wrapper: tutorials/simulation_wrapper.md 
+  #- Tutorials:            
+  #  - Using the simulation wrapper: tutorials/simulation_wrapper.md 
   - FAQ: faq.md
   - Useful bibliography and other sources: bibliography.md
   - About:

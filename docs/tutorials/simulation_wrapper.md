@@ -1,31 +1,32 @@
-.. _simulation_wrapper:
-
-How to use the wrapper class for repetitive simulation runs
-===========================================================
+# How to use the wrapper class for repetitive simulation runs
 
 One of the good advantages of simulation implemenations is the possibility of evaluating the complete closed-loop system under several different scenarios that would be difficult to reproduce in real experiments.
 That is the case for reinforcement learning and optimization algorithms, to name a few use-cases where the simulation could be used for system evaluation.
 Even though that is a promising application of any Gazebo/ROS based simulation, the actual implementation of a wrapper with which the simulation can be started and terminated in a controlled environment involves a lot of attention in order to guarantee that all ROS nodes can be properly started.
-For this purposes, a set of nodes and process managers have been implemented as part of the `uuv_simulation_evaluation <https://github.com/uuvsimulator/uuv_simulation_evaluation>`_.
-Be sure to install the package in your catkin workspace ::
+For this purposes, a set of nodes and process managers have been implemented as part of the [`uuv_simulation_evaluation`](https://github.com/uuvsimulator/uuv_simulation_evaluation).
+Be sure to install the package in your catkin workspace
 
+```bash
   cd ~/catkin_ws/src
   git clone https://github.com/uuvsimulator/uuv_simulation_evaluation.git
+```
 
-then build the workspace::
+then build the workspace
 
+```bash
   cd ~/catkin_ws
   catkin build
   source devel/setup.bash
+```
 
-.. note::
+!!! note
 
-  The **uuv_simulation_evaluation** package also requires extra dependencies that can be installed as follows::
-
+    The `uuv_simulation_evaluation` package also requires extra dependencies that can be installed as follows
+    ```
     pip3 install smac
+    ```
 
-Starting and terminating the simulation using a timeout
--------------------------------------------------------
+# Starting and terminating the simulation using a timeout
 
 Per default, it is not possible to set a termination time for the simulation.
 This is acchieved by a very simple ROS node that is launched by the file below
