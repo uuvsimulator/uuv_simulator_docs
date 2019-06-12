@@ -1,0 +1,443 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__frame" kind="struct" language="C++" prot="public">
+    <compoundname>_frame</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__frame_1a92f0794bfa51e632b26c92e197051051" prot="public" static="no" mutable="no">
+        <type>PyObject_VAR_HEAD struct <ref refid="struct__frame" kindref="compound">_frame</ref> *</type>
+        <definition>PyObject_VAR_HEAD struct _frame* _frame::f_back</definition>
+        <argsstring></argsstring>
+        <name>f_back</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="19" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a6c43e49e9a1dda4b0da3b584e94213f0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref> *</type>
+        <definition>PyCodeObject* _frame::f_code</definition>
+        <argsstring></argsstring>
+        <name>f_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="20" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1aef7749f09670f4ef49043aa80261a96f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_builtins</definition>
+        <argsstring></argsstring>
+        <name>f_builtins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="21" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a7a3f5887fbfe5790091cd54e032d54db" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_globals</definition>
+        <argsstring></argsstring>
+        <name>f_globals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="22" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a723e1f7f21d8fd1bbf93dcad47e62f74" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_locals</definition>
+        <argsstring></argsstring>
+        <name>f_locals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="23" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1aa313524b8ea2f4cbfd9768f44557f8a1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+        <definition>PyObject** _frame::f_valuestack</definition>
+        <argsstring></argsstring>
+        <name>f_valuestack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="24" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a57757e28548379cb1a3e6e82062a9fe5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+        <definition>PyObject** _frame::f_stacktop</definition>
+        <argsstring></argsstring>
+        <name>f_stacktop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="28" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a6daba36513c0e5e5c36ac9985f70c1a3" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_trace</definition>
+        <argsstring></argsstring>
+        <name>f_trace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="29" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1adcf0f9edaf610db9885445be200d214a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_exc_type</definition>
+        <argsstring></argsstring>
+        <name>f_exc_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="38" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a570b7add80d01e5421f2c52e413933dd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject * _frame::f_exc_value</definition>
+        <argsstring></argsstring>
+        <name>f_exc_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="38" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1ac1ad471552c27336a9c6f35a43a738bb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject * _frame::f_exc_traceback</definition>
+        <argsstring></argsstring>
+        <name>f_exc_traceback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="38" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1adf13ad303d30ef678c8cc643d23bb05e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_gen</definition>
+        <argsstring></argsstring>
+        <name>f_gen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="40" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1aaebc36353db847803b7572b0b6868ccf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _frame::f_lasti</definition>
+        <argsstring></argsstring>
+        <name>f_lasti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="42" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a584b2ea31653920d828df650b8223d11" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _frame::f_lineno</definition>
+        <argsstring></argsstring>
+        <name>f_lineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="48" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a904da381a4a19f881f68d522fb8d9811" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _frame::f_iblock</definition>
+        <argsstring></argsstring>
+        <name>f_iblock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="49" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a198dd7ce9b78d616496d2684550dafd2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _frame::f_executing</definition>
+        <argsstring></argsstring>
+        <name>f_executing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="50" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a7bb5b52ff4d50835f67738158d7d9a02" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_try_block" kindref="compound">PyTryBlock</ref></type>
+        <definition>PyTryBlock _frame::f_blockstack[CO_MAXBLOCKS]</definition>
+        <argsstring>[CO_MAXBLOCKS]</argsstring>
+        <name>f_blockstack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="51" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__frame_1a0c11cca41571107e3c56771eb385a146" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _frame::f_localsplus[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>f_localsplus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="52" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="126">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="122">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="123" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="128">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="127">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="129">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="119">
+        <label>_frame</label>
+        <link refid="struct__frame"/>
+        <childnode refid="120" relation="usage">
+          <edgelabel>f_blockstack</edgelabel>
+        </childnode>
+        <childnode refid="121" relation="usage">
+          <edgelabel>f_code</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>f_gen</edgelabel>
+          <edgelabel>f_valuestack</edgelabel>
+          <edgelabel>f_exc_value</edgelabel>
+          <edgelabel>f_exc_traceback</edgelabel>
+          <edgelabel>f_trace</edgelabel>
+          <edgelabel>f_stacktop</edgelabel>
+          <edgelabel>f_locals</edgelabel>
+          <edgelabel>f_globals</edgelabel>
+          <edgelabel>f_builtins</edgelabel>
+          <edgelabel>f_localsplus</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="119" relation="usage">
+          <edgelabel>f_back</edgelabel>
+        </childnode>
+      </node>
+      <node id="123">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="124" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="125" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="126" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="127" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="128" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="129" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="130" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="131" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="122" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="123" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="120">
+        <label>PyTryBlock</label>
+        <link refid="struct_py_try_block"/>
+      </node>
+      <node id="124">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="121">
+        <label>PyCodeObject</label>
+        <link refid="struct_py_code_object"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>co_freevars</edgelabel>
+          <edgelabel>co_consts</edgelabel>
+          <edgelabel>co_cellvars</edgelabel>
+          <edgelabel>co_lnotab</edgelabel>
+          <edgelabel>co_filename</edgelabel>
+          <edgelabel>co_varnames</edgelabel>
+          <edgelabel>co_weakreflist</edgelabel>
+          <edgelabel>co_names</edgelabel>
+          <edgelabel>co_name</edgelabel>
+          <edgelabel>co_code</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="130">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="131">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="122" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="125">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/frameobject.h" line="17" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="17" bodyend="53"/>
+    <listofallmembers>
+      <member refid="struct__frame_1a92f0794bfa51e632b26c92e197051051" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_back</name></member>
+      <member refid="struct__frame_1a7bb5b52ff4d50835f67738158d7d9a02" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_blockstack</name></member>
+      <member refid="struct__frame_1aef7749f09670f4ef49043aa80261a96f" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_builtins</name></member>
+      <member refid="struct__frame_1a6c43e49e9a1dda4b0da3b584e94213f0" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_code</name></member>
+      <member refid="struct__frame_1ac1ad471552c27336a9c6f35a43a738bb" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_exc_traceback</name></member>
+      <member refid="struct__frame_1adcf0f9edaf610db9885445be200d214a" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_exc_type</name></member>
+      <member refid="struct__frame_1a570b7add80d01e5421f2c52e413933dd" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_exc_value</name></member>
+      <member refid="struct__frame_1a198dd7ce9b78d616496d2684550dafd2" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_executing</name></member>
+      <member refid="struct__frame_1adf13ad303d30ef678c8cc643d23bb05e" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_gen</name></member>
+      <member refid="struct__frame_1a7a3f5887fbfe5790091cd54e032d54db" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_globals</name></member>
+      <member refid="struct__frame_1a904da381a4a19f881f68d522fb8d9811" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_iblock</name></member>
+      <member refid="struct__frame_1aaebc36353db847803b7572b0b6868ccf" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_lasti</name></member>
+      <member refid="struct__frame_1a584b2ea31653920d828df650b8223d11" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_lineno</name></member>
+      <member refid="struct__frame_1a723e1f7f21d8fd1bbf93dcad47e62f74" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_locals</name></member>
+      <member refid="struct__frame_1a0c11cca41571107e3c56771eb385a146" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_localsplus</name></member>
+      <member refid="struct__frame_1a57757e28548379cb1a3e6e82062a9fe5" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_stacktop</name></member>
+      <member refid="struct__frame_1a6daba36513c0e5e5c36ac9985f70c1a3" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_trace</name></member>
+      <member refid="struct__frame_1aa313524b8ea2f4cbfd9768f44557f8a1" prot="public" virt="non-virtual"><scope>_frame</scope><name>f_valuestack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

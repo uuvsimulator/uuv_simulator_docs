@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xslt_decimal_format" kind="struct" language="C++" prot="public">
+    <compoundname>_xsltDecimalFormat</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1af2a93f7d06bdb868fc11cf0a7915342f" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_decimal_format" kindref="compound">_xsltDecimalFormat</ref> *</type>
+        <definition>struct _xsltDecimalFormat* _xsltDecimalFormat::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="312" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a8067896532bb595a2d9c1504320a863a" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="313" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1af4c8c3e149583e59ae0a1e3d372b5546" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::digit</definition>
+        <argsstring></argsstring>
+        <name>digit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="315" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1ad43c6ab1f687fba710fa8cef08221a35" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::patternSeparator</definition>
+        <argsstring></argsstring>
+        <name>patternSeparator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="316" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1ac5d2f7cc202c10150c87412460d734ec" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::minusSign</definition>
+        <argsstring></argsstring>
+        <name>minusSign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="318" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a52c3a5bf4e68c246d86a2e08ecbace04" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::infinity</definition>
+        <argsstring></argsstring>
+        <name>infinity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="319" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1ae917e159b47abda3aa3da7a0bfe5835e" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::noNumber</definition>
+        <argsstring></argsstring>
+        <name>noNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="320" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a718217d08b75cefb80dab18fd52e1b62" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::decimalPoint</definition>
+        <argsstring></argsstring>
+        <name>decimalPoint</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="322" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1aa8a6c87edeee426e38a55cfdad761602" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::grouping</definition>
+        <argsstring></argsstring>
+        <name>grouping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="323" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a9e7bac792099639c848b6022b0ff4f4b" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="324" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a9467cf5eb5cb8c6ad075517d49c79429" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::permille</definition>
+        <argsstring></argsstring>
+        <name>permille</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="325" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1ab6dfe999daf44151377e37b5976c7eac" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltDecimalFormat::zeroDigit</definition>
+        <argsstring></argsstring>
+        <name>zeroDigit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="326" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_decimal_format_1a9a449a3b8aa3582a5f6e33f751a93a02" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltDecimalFormat::nsUri</definition>
+        <argsstring></argsstring>
+        <name>nsUri</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="327" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="639">
+        <label>_xsltDecimalFormat</label>
+        <link refid="struct__xslt_decimal_format"/>
+        <childnode refid="639" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="311" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="311" bodyend="328"/>
+    <listofallmembers>
+      <member refid="struct__xslt_decimal_format_1a718217d08b75cefb80dab18fd52e1b62" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>decimalPoint</name></member>
+      <member refid="struct__xslt_decimal_format_1af4c8c3e149583e59ae0a1e3d372b5546" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>digit</name></member>
+      <member refid="struct__xslt_decimal_format_1aa8a6c87edeee426e38a55cfdad761602" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>grouping</name></member>
+      <member refid="struct__xslt_decimal_format_1a52c3a5bf4e68c246d86a2e08ecbace04" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>infinity</name></member>
+      <member refid="struct__xslt_decimal_format_1ac5d2f7cc202c10150c87412460d734ec" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>minusSign</name></member>
+      <member refid="struct__xslt_decimal_format_1a8067896532bb595a2d9c1504320a863a" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>name</name></member>
+      <member refid="struct__xslt_decimal_format_1af2a93f7d06bdb868fc11cf0a7915342f" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>next</name></member>
+      <member refid="struct__xslt_decimal_format_1ae917e159b47abda3aa3da7a0bfe5835e" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>noNumber</name></member>
+      <member refid="struct__xslt_decimal_format_1a9a449a3b8aa3582a5f6e33f751a93a02" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>nsUri</name></member>
+      <member refid="struct__xslt_decimal_format_1ad43c6ab1f687fba710fa8cef08221a35" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>patternSeparator</name></member>
+      <member refid="struct__xslt_decimal_format_1a9e7bac792099639c848b6022b0ff4f4b" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>percent</name></member>
+      <member refid="struct__xslt_decimal_format_1a9467cf5eb5cb8c6ad075517d49c79429" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>permille</name></member>
+      <member refid="struct__xslt_decimal_format_1ab6dfe999daf44151377e37b5976c7eac" prot="public" virt="non-virtual"><scope>_xsltDecimalFormat</scope><name>zeroDigit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

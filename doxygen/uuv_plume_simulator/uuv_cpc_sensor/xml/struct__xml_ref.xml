@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_ref" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlRef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_ref_1a11ced87eb876462aefdaad07b6216e32" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_ref" kindref="compound">_xmlRef</ref> *</type>
+        <definition>struct _xmlRef* _xmlRef::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="475" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ref_1ac28785f779ebfd41e264c9e9e91e6660" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlRef::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="476" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="476" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ref_1a3ff97e4e127f1749ab2e59fdec0f8a8e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_attr" kindref="compound">xmlAttrPtr</ref></type>
+        <definition>xmlAttrPtr _xmlRef::attr</definition>
+        <argsstring></argsstring>
+        <name>attr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="477" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="477" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ref_1a54973d491748936cc306713782f4f467" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlRef::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="478" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="478" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ref_1aa9d570e7f96cc7647c9b7fe96fc10eca" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlRef::lineno</definition>
+        <argsstring></argsstring>
+        <name>lineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="479" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="479" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="594">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="595" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="594" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="596">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="595" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="598" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="598">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="595" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="597">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="596" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="595">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="595" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="594" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="596" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="597" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="593">
+        <label>_xmlRef</label>
+        <link refid="struct__xml_ref"/>
+        <childnode refid="594" relation="usage">
+          <edgelabel>attr</edgelabel>
+        </childnode>
+        <childnode refid="593" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="474" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="474" bodyend="480"/>
+    <listofallmembers>
+      <member refid="struct__xml_ref_1a3ff97e4e127f1749ab2e59fdec0f8a8e" prot="public" virt="non-virtual"><scope>_xmlRef</scope><name>attr</name></member>
+      <member refid="struct__xml_ref_1aa9d570e7f96cc7647c9b7fe96fc10eca" prot="public" virt="non-virtual"><scope>_xmlRef</scope><name>lineno</name></member>
+      <member refid="struct__xml_ref_1a54973d491748936cc306713782f4f467" prot="public" virt="non-virtual"><scope>_xmlRef</scope><name>name</name></member>
+      <member refid="struct__xml_ref_1a11ced87eb876462aefdaad07b6216e32" prot="public" virt="non-virtual"><scope>_xmlRef</scope><name>next</name></member>
+      <member refid="struct__xml_ref_1ac28785f779ebfd41e264c9e9e91e6660" prot="public" virt="non-virtual"><scope>_xmlRef</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

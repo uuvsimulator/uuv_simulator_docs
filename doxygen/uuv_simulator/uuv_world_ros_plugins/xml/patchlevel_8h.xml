@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="patchlevel_8h" kind="file" language="C++">
+    <compoundname>patchlevel.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3314">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3315">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3317">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3312">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3313" relation="include">
+        </childnode>
+        <childnode refid="3315" relation="include">
+        </childnode>
+        <childnode refid="3316" relation="include">
+        </childnode>
+        <childnode refid="3317" relation="include">
+        </childnode>
+        <childnode refid="3318" relation="include">
+        </childnode>
+      </node>
+      <node id="3318">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3313">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3314" relation="include">
+        </childnode>
+      </node>
+      <node id="3311">
+        <label>/usr/include/python3.6m/patchlevel.h</label>
+        <link refid="patchlevel_8h"/>
+        <childnode refid="3312" relation="include">
+        </childnode>
+      </node>
+      <node id="3316">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="patchlevel_8h_1a1ac0d21eb816de74ed58c1f900ceb14a" prot="public" static="no">
+        <name>PY_RELEASE_LEVEL_ALPHA</name>
+        <initializer>0xA</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="11" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1af24bbf60740a7dba96df444cb625c605" prot="public" static="no">
+        <name>PY_RELEASE_LEVEL_BETA</name>
+        <initializer>0xB</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="12" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1aa211657faa8445ba59a1f2381cbc2bfa" prot="public" static="no">
+        <name>PY_RELEASE_LEVEL_GAMMA</name>
+        <initializer>0xC     /* For release candidates */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="13" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1ae1fd3fdcc3ac37fe0ef0d92434c40edc" prot="public" static="no">
+        <name>PY_RELEASE_LEVEL_FINAL</name>
+        <initializer>0xF	/* Serial should be 0 here */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="14" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1ad5f6136575682abd82ac34babb4e1b48" prot="public" static="no">
+        <name>PY_MAJOR_VERSION</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="19" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1a0c77faaab3dbe19710f708352b20f226" prot="public" static="no">
+        <name>PY_MINOR_VERSION</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="20" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1a81dee48e13f97f0a690110afddcbaea8" prot="public" static="no">
+        <name>PY_MICRO_VERSION</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="21" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1a4c58760362a63ebe61fc04cf6eb78bd3" prot="public" static="no">
+        <name>PY_RELEASE_LEVEL</name>
+        <initializer>PY_RELEASE_LEVEL_FINAL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="22" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1a466dd8ea47c68ae9a26b59b3efb60ee8" prot="public" static="no">
+        <name>PY_RELEASE_SERIAL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="23" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1afa284c9dff3dfafb112749ecb35f07a3" prot="public" static="no">
+        <name>PY_VERSION</name>
+        <initializer>&quot;3.6.7&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="26" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="patchlevel_8h_1a8b78c3c8542acafa7b3f246c32b2ee53" prot="public" static="no">
+        <name>PY_VERSION_HEX</name>
+        <initializer>((PY_MAJOR_VERSION &lt;&lt; 24) | \
+			(PY_MINOR_VERSION &lt;&lt; 16) | \
+			(PY_MICRO_VERSION &lt;&lt;  8) | \
+			(PY_RELEASE_LEVEL &lt;&lt;  4) | \
+			(PY_RELEASE_SERIAL &lt;&lt; 0))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/patchlevel.h" line="31" column="9" bodyfile="/usr/include/python3.6m/patchlevel.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Python<sp/>version<sp/>identification<sp/>scheme.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/><sp/><sp/>When<sp/>the<sp/>major<sp/>or<sp/>minor<sp/>version<sp/>changes,<sp/>the<sp/>VERSION<sp/>variable<sp/>in</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/><sp/><sp/>configure.ac<sp/>must<sp/>also<sp/>be<sp/>changed.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/>There<sp/>is<sp/>also<sp/>(independent)<sp/>API<sp/>version<sp/>information<sp/>in<sp/>modsupport.h.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Values<sp/>for<sp/>PY_RELEASE_LEVEL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_LEVEL_ALPHA<sp/><sp/>0xA</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_LEVEL_BETA<sp/><sp/><sp/>0xB</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_LEVEL_GAMMA<sp/><sp/>0xC<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>For<sp/>release<sp/>candidates<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_LEVEL_FINAL<sp/><sp/>0xF<sp/></highlight><highlight class="comment">/*<sp/>Serial<sp/>should<sp/>be<sp/>0<sp/>here<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Higher<sp/>for<sp/>patch<sp/>releases<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Version<sp/>parsed<sp/>out<sp/>into<sp/>numeric<sp/>values<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*--start<sp/>constants--*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_MAJOR_VERSION<sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_MINOR_VERSION<sp/><sp/><sp/><sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_MICRO_VERSION<sp/><sp/><sp/><sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_LEVEL<sp/><sp/><sp/><sp/>PY_RELEASE_LEVEL_FINAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_RELEASE_SERIAL<sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Version<sp/>as<sp/>a<sp/>string<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;3.6.7&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*--end<sp/>constants--*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Version<sp/>as<sp/>a<sp/>single<sp/>4-byte<sp/>hex<sp/>number,<sp/>e.g.<sp/>0x010502B2<sp/>==<sp/>1.5.2b2.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/>Use<sp/>this<sp/>for<sp/>numeric<sp/>comparisons,<sp/>e.g.<sp/>#if<sp/>PY_VERSION_HEX<sp/>&gt;=<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_VERSION_HEX<sp/>((PY_MAJOR_VERSION<sp/>&lt;&lt;<sp/>24)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PY_MINOR_VERSION<sp/>&lt;&lt;<sp/>16)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PY_MICRO_VERSION<sp/>&lt;&lt;<sp/><sp/>8)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PY_RELEASE_LEVEL<sp/>&lt;&lt;<sp/><sp/>4)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PY_RELEASE_SERIAL<sp/>&lt;&lt;<sp/>0))</highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/patchlevel.h"/>
+  </compounddef>
+</doxygen>

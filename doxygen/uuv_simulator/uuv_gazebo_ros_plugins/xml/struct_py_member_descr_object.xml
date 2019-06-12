@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_member_descr_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyMemberDescrObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_member_descr_object_1a7b959892ce5a401b22c67e3c5162bee0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>PyMemberDescrObject::PyDescr_COMMON</definition>
+        <argsstring></argsstring>
+        <name>PyDescr_COMMON</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/descrobject.h" line="59" column="1" bodyfile="/usr/include/python3.6m/descrobject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_member_descr_object_1a3169c9bdd945c9cf780b3940d3300387" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_py_member_def" kindref="compound">PyMemberDef</ref> *</type>
+        <definition>struct PyMemberDef* PyMemberDescrObject::d_member</definition>
+        <argsstring></argsstring>
+        <name>d_member</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/descrobject.h" line="60" column="1" bodyfile="/usr/include/python3.6m/descrobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1238">
+        <label>PyMemberDescrObject</label>
+        <link refid="struct_py_member_descr_object"/>
+        <childnode refid="1239" relation="usage">
+          <edgelabel>d_member</edgelabel>
+        </childnode>
+      </node>
+      <node id="1239">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/descrobject.h" line="58" column="1" bodyfile="/usr/include/python3.6m/descrobject.h" bodystart="58" bodyend="61"/>
+    <listofallmembers>
+      <member refid="struct_py_member_descr_object_1a3169c9bdd945c9cf780b3940d3300387" prot="public" virt="non-virtual"><scope>PyMemberDescrObject</scope><name>d_member</name></member>
+      <member refid="struct_py_member_descr_object_1a7b959892ce5a401b22c67e3c5162bee0" prot="public" virt="non-virtual"><scope>PyMemberDescrObject</scope><name>PyDescr_COMMON</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

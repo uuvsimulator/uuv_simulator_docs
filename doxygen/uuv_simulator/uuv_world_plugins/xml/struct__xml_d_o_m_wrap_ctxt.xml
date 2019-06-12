@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_d_o_m_wrap_ctxt" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlDOMWrapCtxt</compoundname>
+    <includes refid="tree_8h" local="no">tree.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_d_o_m_wrap_ctxt_1ad3411d16697c0b7773be3e0719c75381" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDOMWrapCtxt::_private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="614" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_d_o_m_wrap_ctxt_1a1d84b623242d09de1c0ea065e5411fbc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlDOMWrapCtxt::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="619" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_d_o_m_wrap_ctxt_1ab39bb319265ac6962e847a0874cdbabd" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDOMWrapCtxt::namespaceMap</definition>
+        <argsstring></argsstring>
+        <name>namespaceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="623" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_d_o_m_wrap_ctxt_1a2fc065d32c83c5d1cdbd49f8162c7340" prot="public" static="no" mutable="no">
+        <type>xmlDOMWrapAcquireNsFunction</type>
+        <definition>xmlDOMWrapAcquireNsFunction _xmlDOMWrapCtxt::getNsForNodeFunc</definition>
+        <argsstring></argsstring>
+        <name>getNsForNodeFunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="628" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="628" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>xmlDOMWrapCtxt:</para><para>Context for DOM wrapper-operations. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="483">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="483" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="480" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="481">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="480" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="484" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="484">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="480">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="481" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="480" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="482">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="482" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="483" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="481" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="480" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="479">
+        <label>_xmlDOMWrapCtxt</label>
+        <link refid="struct__xml_d_o_m_wrap_ctxt"/>
+        <childnode refid="480" relation="usage">
+          <edgelabel>getNsForNodeFunc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="613" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="613" bodyend="629"/>
+    <listofallmembers>
+      <member refid="struct__xml_d_o_m_wrap_ctxt_1ad3411d16697c0b7773be3e0719c75381" prot="public" virt="non-virtual"><scope>_xmlDOMWrapCtxt</scope><name>_private</name></member>
+      <member refid="struct__xml_d_o_m_wrap_ctxt_1a2fc065d32c83c5d1cdbd49f8162c7340" prot="public" virt="non-virtual"><scope>_xmlDOMWrapCtxt</scope><name>getNsForNodeFunc</name></member>
+      <member refid="struct__xml_d_o_m_wrap_ctxt_1ab39bb319265ac6962e847a0874cdbabd" prot="public" virt="non-virtual"><scope>_xmlDOMWrapCtxt</scope><name>namespaceMap</name></member>
+      <member refid="struct__xml_d_o_m_wrap_ctxt_1a1d84b623242d09de1c0ea065e5411fbc" prot="public" virt="non-virtual"><scope>_xmlDOMWrapCtxt</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

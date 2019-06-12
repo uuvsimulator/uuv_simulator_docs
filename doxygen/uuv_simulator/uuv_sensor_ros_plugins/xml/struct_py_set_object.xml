@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_set_object" kind="struct" language="C++" prot="public">
+    <compoundname>PySetObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_set_object_1ab208cc20a13d9bdbec670998f33c681a" prot="public" static="no" mutable="no">
+        <type>PyObject_HEAD Py_ssize_t</type>
+        <definition>PyObject_HEAD Py_ssize_t PySetObject::fill</definition>
+        <argsstring></argsstring>
+        <name>fill</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="45" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a5490ae6336343dc5370b444e65658b68" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PySetObject::used</definition>
+        <argsstring></argsstring>
+        <name>used</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="46" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a51774d9f28698ae52ce20710fa44d7dc" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PySetObject::mask</definition>
+        <argsstring></argsstring>
+        <name>mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="52" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a86e11f8095545a3e6d0a2191f6b76af0" prot="public" static="no" mutable="no">
+        <type><ref refid="structsetentry" kindref="compound">setentry</ref> *</type>
+        <definition>setentry* PySetObject::table</definition>
+        <argsstring></argsstring>
+        <name>table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="59" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a94ffef985efd5b978a350c8248a3373d" prot="public" static="no" mutable="no">
+        <type>Py_hash_t</type>
+        <definition>Py_hash_t PySetObject::hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="60" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1ad4a04778894dde40cd1b17730f471795" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PySetObject::finger</definition>
+        <argsstring></argsstring>
+        <name>finger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="61" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a1e57b39fafc349cec4c423397ce05cc5" prot="public" static="no" mutable="no">
+        <type><ref refid="structsetentry" kindref="compound">setentry</ref></type>
+        <definition>setentry PySetObject::smalltable[PySet_MINSIZE]</definition>
+        <argsstring>[PySet_MINSIZE]</argsstring>
+        <name>smalltable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="63" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_set_object_1a18035d8fd033ae372267563d41fa217b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySetObject::weakreflist</definition>
+        <argsstring></argsstring>
+        <name>weakreflist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="64" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1359">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1355">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1356" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1361">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1360">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1362">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1356">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1357" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1358" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1359" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1360" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1361" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1362" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1363" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1364" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1356" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1357">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1354">
+        <label>PySetObject</label>
+        <link refid="struct_py_set_object"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>weakreflist</edgelabel>
+        </childnode>
+        <childnode refid="1365" relation="usage">
+          <edgelabel>smalltable</edgelabel>
+          <edgelabel>table</edgelabel>
+        </childnode>
+      </node>
+      <node id="1363">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1365">
+        <label>setentry</label>
+        <link refid="structsetentry"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>key</edgelabel>
+        </childnode>
+      </node>
+      <node id="1364">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1355" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1358">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/setobject.h" line="42" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="42" bodyend="65"/>
+    <listofallmembers>
+      <member refid="struct_py_set_object_1ab208cc20a13d9bdbec670998f33c681a" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>fill</name></member>
+      <member refid="struct_py_set_object_1ad4a04778894dde40cd1b17730f471795" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>finger</name></member>
+      <member refid="struct_py_set_object_1a94ffef985efd5b978a350c8248a3373d" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>hash</name></member>
+      <member refid="struct_py_set_object_1a51774d9f28698ae52ce20710fa44d7dc" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>mask</name></member>
+      <member refid="struct_py_set_object_1a1e57b39fafc349cec4c423397ce05cc5" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>smalltable</name></member>
+      <member refid="struct_py_set_object_1a86e11f8095545a3e6d0a2191f6b76af0" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>table</name></member>
+      <member refid="struct_py_set_object_1a5490ae6336343dc5370b444e65658b68" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>used</name></member>
+      <member refid="struct_py_set_object_1a18035d8fd033ae372267563d41fa217b" prot="public" virt="non-virtual"><scope>PySetObject</scope><name>weakreflist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

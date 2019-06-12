@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="xsltlocale_8h" kind="file" language="C++">
+    <compoundname>xsltlocale.h</compoundname>
+    <includes refid="xmlstring_8h" local="no">libxml/xmlstring.h</includes>
+    <includes refid="xsltexports_8h" local="yes">xsltexports.h</includes>
+    <includedby refid="xslt_internals_8h" local="yes">venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</includedby>
+    <incdepgraph>
+      <node id="2613">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2616">
+        <label>xsltexports.h</label>
+        <link refid="xsltexports_8h_source"/>
+      </node>
+      <node id="2614">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="2615" relation="include">
+        </childnode>
+      </node>
+      <node id="2612">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="2613" relation="include">
+        </childnode>
+        <childnode refid="2614" relation="include">
+        </childnode>
+      </node>
+      <node id="2611">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h</label>
+        <link refid="xsltlocale_8h"/>
+        <childnode refid="2612" relation="include">
+        </childnode>
+        <childnode refid="2616" relation="include">
+        </childnode>
+      </node>
+      <node id="2615">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2628">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h</label>
+        <link refid="security_8h_source"/>
+      </node>
+      <node id="2622">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h</label>
+        <link refid="functions_8h_source"/>
+        <childnode refid="2623" relation="include">
+        </childnode>
+      </node>
+      <node id="2621">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h</label>
+        <link refid="extra_8h_source"/>
+      </node>
+      <node id="2627">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h</label>
+        <link refid="preproc_8h_source"/>
+      </node>
+      <node id="2630">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</label>
+        <link refid="transform_8h_source"/>
+      </node>
+      <node id="2626">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h</label>
+        <link refid="pattern_8h_source"/>
+      </node>
+      <node id="2617">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h</label>
+        <link refid="xsltlocale_8h"/>
+        <childnode refid="2618" relation="include">
+        </childnode>
+      </node>
+      <node id="2629">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h</label>
+        <link refid="templates_8h_source"/>
+      </node>
+      <node id="2619">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h</label>
+        <link refid="documents_8h_source"/>
+      </node>
+      <node id="2624">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h</label>
+        <link refid="imports_8h_source"/>
+      </node>
+      <node id="2618">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="2619" relation="include">
+        </childnode>
+        <childnode refid="2620" relation="include">
+        </childnode>
+        <childnode refid="2621" relation="include">
+        </childnode>
+        <childnode refid="2622" relation="include">
+        </childnode>
+        <childnode refid="2624" relation="include">
+        </childnode>
+        <childnode refid="2625" relation="include">
+        </childnode>
+        <childnode refid="2626" relation="include">
+        </childnode>
+        <childnode refid="2627" relation="include">
+        </childnode>
+        <childnode refid="2628" relation="include">
+        </childnode>
+        <childnode refid="2629" relation="include">
+        </childnode>
+        <childnode refid="2630" relation="include">
+        </childnode>
+        <childnode refid="2623" relation="include">
+        </childnode>
+        <childnode refid="2631" relation="include">
+        </childnode>
+      </node>
+      <node id="2620">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h</label>
+        <link refid="extensions_8h_source"/>
+      </node>
+      <node id="2623">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h</label>
+        <link refid="variables_8h_source"/>
+      </node>
+      <node id="2631">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</label>
+        <link refid="xsltutils_8h_source"/>
+      </node>
+      <node id="2625">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h</label>
+        <link refid="keys_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="xsltlocale_8h_1ac51306952e0afe9c796268c04cf35cea" prot="public" static="no">
+        <name>XSLT_LOCALE_NONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="55" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="xsltlocale_8h_1a3afda04d40e8fd320f85247f8a06297a" prot="public" static="no">
+        <type>void *</type>
+        <definition>typedef void* xsltLocale</definition>
+        <argsstring></argsstring>
+        <name>xsltLocale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="57" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="xsltlocale_8h_1a539d53908e67bc0121f4dc098b3722fb" prot="public" static="no">
+        <type>xmlChar</type>
+        <definition>typedef xmlChar xsltLocaleChar</definition>
+        <argsstring></argsstring>
+        <name>xsltLocaleChar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="58" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="xsltlocale_8h_1a2e202f938b92f5b437aebf9b2482a3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xsltLocale XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltLocale XSLTCALL xsltNewLocale</definition>
+        <argsstring>(const xmlChar *langName)</argsstring>
+        <name>xsltNewLocale</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>langName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xsltlocale_8h_1a2b7cdfcebe4ea7bb4ebfaec02663942b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeLocale</definition>
+        <argsstring>(xsltLocale locale)</argsstring>
+        <name>xsltFreeLocale</name>
+        <param>
+          <type>xsltLocale</type>
+          <declname>locale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xsltlocale_8h_1a09cdde3653578d14bb6ff9bbe96ad92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xsltLocaleChar *XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltLocaleChar* XSLTCALL xsltStrxfrm</definition>
+        <argsstring>(xsltLocale locale, const xmlChar *string)</argsstring>
+        <name>xsltStrxfrm</name>
+        <param>
+          <type>xsltLocale</type>
+          <declname>locale</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xsltlocale_8h_1af8e59a7545c74a77c8846df4f6d6f321" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltLocaleStrcmp</definition>
+        <argsstring>(xsltLocale locale, const xsltLocaleChar *str1, const xsltLocaleChar *str2)</argsstring>
+        <name>xsltLocaleStrcmp</name>
+        <param>
+          <type>xsltLocale</type>
+          <declname>locale</declname>
+        </param>
+        <param>
+          <type>const xsltLocaleChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xsltLocaleChar *</type>
+          <declname>str2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xsltlocale_8h_1afa79e02e314783cf29e8a3ff11f9ce76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeLocales</definition>
+        <argsstring>(void)</argsstring>
+        <name>xsltFreeLocales</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h" line="74" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>Locale<sp/>handling</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>Interfaces<sp/>for<sp/>locale<sp/>handling.<sp/>Needed<sp/>for<sp/>language<sp/>dependent</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sorting.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Nick<sp/>Wellnhofer</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLTLOCALE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLTLOCALE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_STRXFRM_L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>XSLT_LOCALE_POSIX:</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Macro<sp/>indicating<sp/>to<sp/>use<sp/>POSIX<sp/>locale<sp/>extensions</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XSLT_LOCALE_POSIX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_LOCALE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;locale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_XLOCALE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;xlocale.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>locale_t<sp/>xsltLocale;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlChar<sp/>xsltLocaleChar;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(_WIN32)<sp/>&amp;&amp;<sp/>!defined(__CYGWIN__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>XSLT_LOCALE_WINAPI:</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/>Macro<sp/>indicating<sp/>to<sp/>use<sp/>WinAPI<sp/>for<sp/>extended<sp/>locale<sp/>support</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XSLT_LOCALE_WINAPI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;winnls.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>LCID<sp/>xsltLocale;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">wchar_t</highlight><highlight class="normal"><sp/>xsltLocaleChar;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*<sp/>XSLT_LOCALE_NONE:</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/>*<sp/>Macro<sp/>indicating<sp/>that<sp/>there&apos;s<sp/>no<sp/>extended<sp/>locale<sp/>support</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XSLT_LOCALE_NONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*xsltLocale;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlChar<sp/>xsltLocaleChar;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">XSLTPUBFUN<sp/>xsltLocale<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>xsltNewLocale<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*langName);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>xsltFreeLocale<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xsltLocale<sp/>locale);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">XSLTPUBFUN<sp/>xsltLocaleChar<sp/>*<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>xsltStrxfrm<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xsltLocale<sp/>locale,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>xsltLocaleStrcmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xsltLocale<sp/>locale,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xsltLocaleChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xsltLocaleChar<sp/>*str2);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>xsltFreeLocales<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLTLOCALE_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h"/>
+  </compounddef>
+</doxygen>

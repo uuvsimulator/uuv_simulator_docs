@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_lxml_fallback_element_class_lookup" kind="struct" language="C++" prot="public">
+    <compoundname>LxmlFallbackElementClassLookup</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_lxml_fallback_element_class_lookup_1ac2a69c7dc7b0644ab7dc51eda98bd306" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_class_lookup" kindref="compound">LxmlElementClassLookup</ref></type>
+        <definition>struct LxmlElementClassLookup LxmlFallbackElementClassLookup::__pyx_base</definition>
+        <argsstring></argsstring>
+        <name>__pyx_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="126" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_lxml_fallback_element_class_lookup_1adc0e686caa47e1ebb30a69ced1f4069a" prot="public" static="no" mutable="no">
+        <type>struct __pyx_vtabstruct_4lxml_5etree_FallbackElementClassLookup *</type>
+        <definition>struct __pyx_vtabstruct_4lxml_5etree_FallbackElementClassLookup * LxmlFallbackElementClassLookup::__pyx_vtab</definition>
+        <argsstring></argsstring>
+        <name>__pyx_vtab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="138" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_lxml_fallback_element_class_lookup_1a3de15fb366931e7ebc7cdf03b7913237" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_class_lookup" kindref="compound">LxmlElementClassLookup</ref> *</type>
+        <definition>struct LxmlElementClassLookup * LxmlFallbackElementClassLookup::fallback</definition>
+        <argsstring></argsstring>
+        <name>fallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="139" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_lxml_fallback_element_class_lookup_1a9187e4781856116356935e5ae6766d74" prot="public" static="no" mutable="no">
+        <type>_element_class_lookup_function</type>
+        <definition>_element_class_lookup_function LxmlFallbackElementClassLookup::_fallback_function</definition>
+        <argsstring></argsstring>
+        <name>_fallback_function</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="963">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="959">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="960" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="965">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="957">
+        <label>LxmlFallbackElementClassLookup</label>
+        <link refid="struct_lxml_fallback_element_class_lookup"/>
+        <childnode refid="958" relation="usage">
+          <edgelabel>fallback</edgelabel>
+          <edgelabel>__pyx_base</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>_fallback_function</edgelabel>
+        </childnode>
+      </node>
+      <node id="964">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="966">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="960">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="961" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="962" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="963" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="964" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="965" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="966" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="967" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="968" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="959" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="960" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="958">
+        <label>LxmlElementClassLookup</label>
+        <link refid="struct_lxml_element_class_lookup"/>
+      </node>
+      <node id="961">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="967">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="968">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="959" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="962">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="136" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="136" bodyend="141"/>
+    <listofallmembers>
+      <member refid="struct_lxml_fallback_element_class_lookup_1ac2a69c7dc7b0644ab7dc51eda98bd306" prot="public" virt="non-virtual"><scope>LxmlFallbackElementClassLookup</scope><name>__pyx_base</name></member>
+      <member refid="struct_lxml_fallback_element_class_lookup_1adc0e686caa47e1ebb30a69ced1f4069a" prot="public" virt="non-virtual"><scope>LxmlFallbackElementClassLookup</scope><name>__pyx_vtab</name></member>
+      <member refid="struct_lxml_fallback_element_class_lookup_1a9187e4781856116356935e5ae6766d74" prot="public" virt="non-virtual"><scope>LxmlFallbackElementClassLookup</scope><name>_fallback_function</name></member>
+      <member refid="struct_lxml_fallback_element_class_lookup_1a3de15fb366931e7ebc7cdf03b7913237" prot="public" virt="non-virtual"><scope>LxmlFallbackElementClassLookup</scope><name>fallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

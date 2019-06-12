@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_1c429cb999c144613e2dc2bd7a509f3a" kind="dir">
+    <compoundname>venv/lib/python3.6/site-packages/lxml</compoundname>
+    <innerdir refid="dir_4da2631d8b22168b4631088da1aa827b">venv/lib/python3.6/site-packages/lxml/includes</innerdir>
+    <innerfile refid="etree_8h">etree.h</innerfile>
+    <innerfile refid="etree__api_8h">etree_api.h</innerfile>
+    <innerfile refid="lxml_8etree_8h">lxml.etree.h</innerfile>
+    <innerfile refid="lxml_8etree__api_8h">lxml.etree_api.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lxml/"/>
+  </compounddef>
+</doxygen>

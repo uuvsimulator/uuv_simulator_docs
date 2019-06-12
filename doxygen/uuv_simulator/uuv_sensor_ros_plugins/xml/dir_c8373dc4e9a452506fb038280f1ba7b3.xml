@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c8373dc4e9a452506fb038280f1ba7b3" kind="dir">
+    <compoundname>/usr/lib</compoundname>
+    <innerdir refid="dir_edecf3287eec21d11d2e05e6c96b9b07">/usr/lib/python3.6</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/lib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1595 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="opcode_8h" kind="file" language="C++">
+    <compoundname>opcode.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="opcode_8h_1a05e1246a882d184347ea37111e883a8e" prot="public" static="no">
+        <name>POP_TOP</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="10" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a52e89ed3e39985fc09bcf5ba601cde1c" prot="public" static="no">
+        <name>ROT_TWO</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="11" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a80f366b7c356146f3ffe053822b5f804" prot="public" static="no">
+        <name>ROT_THREE</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="12" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a088b123f85cd20b0501c32efb5f38af5" prot="public" static="no">
+        <name>DUP_TOP</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="13" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a541c21c331649490988076aeb90e9bf6" prot="public" static="no">
+        <name>DUP_TOP_TWO</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="14" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a700f88377bf36711b711f69b06c52f5d" prot="public" static="no">
+        <name>NOP</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="15" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a641d9a909e8c18d6e57f939d57b64b75" prot="public" static="no">
+        <name>UNARY_POSITIVE</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="16" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1abe2c85157b3c67112c9da1f5c9e0e13d" prot="public" static="no">
+        <name>UNARY_NEGATIVE</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="17" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae327a497b08e0b4134c638d28e35cac8" prot="public" static="no">
+        <name>UNARY_NOT</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="18" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a1ed78f71ce2bbc287277a6ffa367da7f" prot="public" static="no">
+        <name>UNARY_INVERT</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="19" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a12db22009903248519bf6b1f4323cc2c" prot="public" static="no">
+        <name>BINARY_MATRIX_MULTIPLY</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="20" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a1e8ad76f255e5be2b28c7a7e9f863793" prot="public" static="no">
+        <name>INPLACE_MATRIX_MULTIPLY</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="21" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a24dd4859849b8089df00bf2d474f9a12" prot="public" static="no">
+        <name>BINARY_POWER</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="22" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1adaf181f74ff2163e4903f9adc394bca1" prot="public" static="no">
+        <name>BINARY_MULTIPLY</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="23" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab28d6cae2e06ee440b8f0f60cf607eb8" prot="public" static="no">
+        <name>BINARY_MODULO</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="24" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a208067cae24ed94f0e9fca5ec41667a2" prot="public" static="no">
+        <name>BINARY_ADD</name>
+        <initializer>23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="25" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab356a923e72ffc64ee99c678869e6d7d" prot="public" static="no">
+        <name>BINARY_SUBTRACT</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="26" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae64f38cfa273d3c301f325273e5f33df" prot="public" static="no">
+        <name>BINARY_SUBSCR</name>
+        <initializer>25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="27" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ac6fc11a15553bd395a4ac4329878a663" prot="public" static="no">
+        <name>BINARY_FLOOR_DIVIDE</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="28" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1af9f678224d8609d2a30210d3052bf608" prot="public" static="no">
+        <name>BINARY_TRUE_DIVIDE</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="29" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ad500ed699b55afbc6e1742c132070cca" prot="public" static="no">
+        <name>INPLACE_FLOOR_DIVIDE</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="30" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a616e26fdbda2f532022f740742fee78f" prot="public" static="no">
+        <name>INPLACE_TRUE_DIVIDE</name>
+        <initializer>29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="31" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a1e3aa36179d932f685d40c8fa557c7e3" prot="public" static="no">
+        <name>GET_AITER</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="32" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a8ffa9f2c0b9feaf491f06233bdedcf23" prot="public" static="no">
+        <name>GET_ANEXT</name>
+        <initializer>51</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="33" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a96fc64d4e85a624413da41c7455e1be4" prot="public" static="no">
+        <name>BEFORE_ASYNC_WITH</name>
+        <initializer>52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="34" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a0cc41cc0b2c9b401091eb8f07f826ddb" prot="public" static="no">
+        <name>INPLACE_ADD</name>
+        <initializer>55</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="35" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a053786cd4131415b9b485111fa7de1e2" prot="public" static="no">
+        <name>INPLACE_SUBTRACT</name>
+        <initializer>56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="36" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a7cbac5ae3ab3f23c571a8ea6277920d8" prot="public" static="no">
+        <name>INPLACE_MULTIPLY</name>
+        <initializer>57</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="37" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab90cc10d014ef73420913694b4b8ca03" prot="public" static="no">
+        <name>INPLACE_MODULO</name>
+        <initializer>59</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="38" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a6f93980a29fedcbaa9b008977776dfa9" prot="public" static="no">
+        <name>STORE_SUBSCR</name>
+        <initializer>60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="39" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab50699a1548c231f58a8585edddbba42" prot="public" static="no">
+        <name>DELETE_SUBSCR</name>
+        <initializer>61</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="40" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a214a0f6125490bdd0826008d6818b91a" prot="public" static="no">
+        <name>BINARY_LSHIFT</name>
+        <initializer>62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="41" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ac6f4f504d339553298cdb91ad3d2db07" prot="public" static="no">
+        <name>BINARY_RSHIFT</name>
+        <initializer>63</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="42" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a09618550f9ab1fc430f2ac2120639b8d" prot="public" static="no">
+        <name>BINARY_AND</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="43" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a0b86fdf6bc13eb5c08aa8362e0cdc3c8" prot="public" static="no">
+        <name>BINARY_XOR</name>
+        <initializer>65</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="44" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a461558c0a6652d8918c76addef9757d4" prot="public" static="no">
+        <name>BINARY_OR</name>
+        <initializer>66</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="45" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a544130f16063cb61c165a816b44eebc5" prot="public" static="no">
+        <name>INPLACE_POWER</name>
+        <initializer>67</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="46" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a49f773750e008d1f234ea1c30e52f9ce" prot="public" static="no">
+        <name>GET_ITER</name>
+        <initializer>68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="47" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a576eedf077f6b41b15cc959c4c8078b2" prot="public" static="no">
+        <name>GET_YIELD_FROM_ITER</name>
+        <initializer>69</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="48" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae8e5112d36320ecb8659ffd096a5f529" prot="public" static="no">
+        <name>PRINT_EXPR</name>
+        <initializer>70</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="49" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a1e2cc6dc2978f16fd23e228b8f6a4bf1" prot="public" static="no">
+        <name>LOAD_BUILD_CLASS</name>
+        <initializer>71</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="50" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a08b0b515975c2e6a356ce5c5d4b0f7c7" prot="public" static="no">
+        <name>YIELD_FROM</name>
+        <initializer>72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="51" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a82ccb3df0e9d090d03fd6e9706977a44" prot="public" static="no">
+        <name>GET_AWAITABLE</name>
+        <initializer>73</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="52" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a8afc9237b4f3d173cd5604d0a0401aac" prot="public" static="no">
+        <name>INPLACE_LSHIFT</name>
+        <initializer>75</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="53" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a9f1df90d49c660ec55e05f10f21f2643" prot="public" static="no">
+        <name>INPLACE_RSHIFT</name>
+        <initializer>76</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="54" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a0df10e824e04ce3c7f0ec1146cb88fe3" prot="public" static="no">
+        <name>INPLACE_AND</name>
+        <initializer>77</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="55" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1af7249aed9e07ad4c33dc59734bee95f5" prot="public" static="no">
+        <name>INPLACE_XOR</name>
+        <initializer>78</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="56" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4e2d5b242ca1ea88963ae93821d17ea8" prot="public" static="no">
+        <name>INPLACE_OR</name>
+        <initializer>79</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="57" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aeb65a3a8f7335c07ca15bf40c96a049e" prot="public" static="no">
+        <name>BREAK_LOOP</name>
+        <initializer>80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="58" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4e7a0c0bbe3597b34e096b0a83958b5e" prot="public" static="no">
+        <name>WITH_CLEANUP_START</name>
+        <initializer>81</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="59" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a622e9e7563ea9fd2a1591df9ae91d261" prot="public" static="no">
+        <name>WITH_CLEANUP_FINISH</name>
+        <initializer>82</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="60" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4624dbb836fe1fc7317421b08e0882a0" prot="public" static="no">
+        <name>RETURN_VALUE</name>
+        <initializer>83</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="61" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1af5d812efd30a08f10365cfdb0d03d625" prot="public" static="no">
+        <name>IMPORT_STAR</name>
+        <initializer>84</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="62" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a2bf36a523b27ba34f32d6740922f6371" prot="public" static="no">
+        <name>SETUP_ANNOTATIONS</name>
+        <initializer>85</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="63" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1abc0f7c89ebce5a8962aff2c7f466a444" prot="public" static="no">
+        <name>YIELD_VALUE</name>
+        <initializer>86</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="64" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aa709bdeb75a12da7166e011e3ab79d4e" prot="public" static="no">
+        <name>POP_BLOCK</name>
+        <initializer>87</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="65" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1afa229514cbf168322a619142c0e59d6a" prot="public" static="no">
+        <name>END_FINALLY</name>
+        <initializer>88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="66" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a3204915eacf3221111aa5a9675f1d89c" prot="public" static="no">
+        <name>POP_EXCEPT</name>
+        <initializer>89</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="67" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aba3688307d5e119c3f361def77d8822e" prot="public" static="no">
+        <name>HAVE_ARGUMENT</name>
+        <initializer>90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="68" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a24583012e5ce5844db79b44835254c5a" prot="public" static="no">
+        <name>STORE_NAME</name>
+        <initializer>90</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="69" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aec4e5e2a3468d4ae6796dec13b35db21" prot="public" static="no">
+        <name>DELETE_NAME</name>
+        <initializer>91</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="70" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a526e9d200bfcc0383de47b6fb1642154" prot="public" static="no">
+        <name>UNPACK_SEQUENCE</name>
+        <initializer>92</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="71" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ad59aedae1b6ccc32f39194f42cb433d0" prot="public" static="no">
+        <name>FOR_ITER</name>
+        <initializer>93</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="72" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a75796bb64b6cd787fa7509807198a9ef" prot="public" static="no">
+        <name>UNPACK_EX</name>
+        <initializer>94</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="73" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a00eeae51146c5a9db914bf5ea5df215e" prot="public" static="no">
+        <name>STORE_ATTR</name>
+        <initializer>95</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="74" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae1bdb2b5bb87989d3754667fbbdcbb02" prot="public" static="no">
+        <name>DELETE_ATTR</name>
+        <initializer>96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="75" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a43bb8bd6730ef0c295dcc4236a36c32a" prot="public" static="no">
+        <name>STORE_GLOBAL</name>
+        <initializer>97</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="76" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a541436616eff54d80d3930b53eea5cef" prot="public" static="no">
+        <name>DELETE_GLOBAL</name>
+        <initializer>98</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="77" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab40643b210c56ea611cab87de66b0b64" prot="public" static="no">
+        <name>LOAD_CONST</name>
+        <initializer>100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="78" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a9146e9e93f9f4d5dcf976a780aa3d209" prot="public" static="no">
+        <name>LOAD_NAME</name>
+        <initializer>101</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="79" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1afedeca28cf0eafaafddf47fc7dda1b59" prot="public" static="no">
+        <name>BUILD_TUPLE</name>
+        <initializer>102</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="80" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a8494a4205a94b4075bc95415e9492c05" prot="public" static="no">
+        <name>BUILD_LIST</name>
+        <initializer>103</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="81" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aa18d5516f954577cead9589a30da1f6e" prot="public" static="no">
+        <name>BUILD_SET</name>
+        <initializer>104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="82" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4b97f099cfc5811c2132932bc9092dba" prot="public" static="no">
+        <name>BUILD_MAP</name>
+        <initializer>105</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="83" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aad0cb728c9102fe8389a0225455808f1" prot="public" static="no">
+        <name>LOAD_ATTR</name>
+        <initializer>106</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="84" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ac37898b221501812637eea96ddb40116" prot="public" static="no">
+        <name>COMPARE_OP</name>
+        <initializer>107</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="85" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a187746a30a347e4791ef0bb61deca6f3" prot="public" static="no">
+        <name>IMPORT_NAME</name>
+        <initializer>108</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="86" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1abf2224c9403a22e81ae365d741ac3204" prot="public" static="no">
+        <name>IMPORT_FROM</name>
+        <initializer>109</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="87" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a06526cc198a882847770b3d843758fb7" prot="public" static="no">
+        <name>JUMP_FORWARD</name>
+        <initializer>110</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="88" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aaf92e723cd7cdf6cc0cd6fc1ccb79d56" prot="public" static="no">
+        <name>JUMP_IF_FALSE_OR_POP</name>
+        <initializer>111</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="89" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1adc0780700ab2928c8e000394b201c129" prot="public" static="no">
+        <name>JUMP_IF_TRUE_OR_POP</name>
+        <initializer>112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="90" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a2e73e8daab7fb58e1baa33c3a7a04e8b" prot="public" static="no">
+        <name>JUMP_ABSOLUTE</name>
+        <initializer>113</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="91" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a63c11cdf49d665f38efbe473bcd5eccb" prot="public" static="no">
+        <name>POP_JUMP_IF_FALSE</name>
+        <initializer>114</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="92" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a97b2c2ec12fce5378cf2fb4bcbdde153" prot="public" static="no">
+        <name>POP_JUMP_IF_TRUE</name>
+        <initializer>115</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="93" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a7aa844bb902c8667202d8c6286e5e8af" prot="public" static="no">
+        <name>LOAD_GLOBAL</name>
+        <initializer>116</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="94" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a99e1bb98060f61f8ca7b470e48df20c7" prot="public" static="no">
+        <name>CONTINUE_LOOP</name>
+        <initializer>119</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="95" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a0cfd0d816ee70a9f91bd32285e292749" prot="public" static="no">
+        <name>SETUP_LOOP</name>
+        <initializer>120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="96" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a9565c3a359f7e64684b5d26523a7671a" prot="public" static="no">
+        <name>SETUP_EXCEPT</name>
+        <initializer>121</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="97" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae32c3a947a0784d512c87c35f8c1f1b5" prot="public" static="no">
+        <name>SETUP_FINALLY</name>
+        <initializer>122</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="98" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1af76434208265fb183f32134744be49ab" prot="public" static="no">
+        <name>LOAD_FAST</name>
+        <initializer>124</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="99" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a705eb62cc4e1b59cbe739bc2fd2fd1c2" prot="public" static="no">
+        <name>STORE_FAST</name>
+        <initializer>125</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="100" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ac5dd88704e531e7f2c864e0fa70865bd" prot="public" static="no">
+        <name>DELETE_FAST</name>
+        <initializer>126</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="101" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ad8a4ac15d15c631de5a964382b7c132a" prot="public" static="no">
+        <name>STORE_ANNOTATION</name>
+        <initializer>127</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="102" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a583899c3d447f6753fc0588c75aef796" prot="public" static="no">
+        <name>RAISE_VARARGS</name>
+        <initializer>130</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="103" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a52254b30b318f08e54d2e0fd45158662" prot="public" static="no">
+        <name>CALL_FUNCTION</name>
+        <initializer>131</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="104" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a3d7457b3a4e6fd3f72286230064a9d8a" prot="public" static="no">
+        <name>MAKE_FUNCTION</name>
+        <initializer>132</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="105" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a50f2429b34bd420e2b00174a512b98a6" prot="public" static="no">
+        <name>BUILD_SLICE</name>
+        <initializer>133</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="106" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a18dfb0ce4d633de84548fb3524679efc" prot="public" static="no">
+        <name>LOAD_CLOSURE</name>
+        <initializer>135</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="107" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a9c2dc7db84ce7fed8869ba1ed9283c55" prot="public" static="no">
+        <name>LOAD_DEREF</name>
+        <initializer>136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="108" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1afd0f17d86dbaeaef7484ed4913c1277e" prot="public" static="no">
+        <name>STORE_DEREF</name>
+        <initializer>137</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="109" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a90d145b4216fd261e0f332f9bd91fd2d" prot="public" static="no">
+        <name>DELETE_DEREF</name>
+        <initializer>138</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="110" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4c3a0298c25a05c1b056f1dc003a6852" prot="public" static="no">
+        <name>CALL_FUNCTION_KW</name>
+        <initializer>141</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="111" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1adf3227ec38a7169639fb01415f46e5e6" prot="public" static="no">
+        <name>CALL_FUNCTION_EX</name>
+        <initializer>142</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="112" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ab2312ed219482fdac60661e83e6366fb" prot="public" static="no">
+        <name>SETUP_WITH</name>
+        <initializer>143</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="113" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae3c15555c52fc2e5ba76a5859d62b08e" prot="public" static="no">
+        <name>EXTENDED_ARG</name>
+        <initializer>144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="114" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a8e2d5aa6499254e415525f352c41498f" prot="public" static="no">
+        <name>LIST_APPEND</name>
+        <initializer>145</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="115" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1acd38291bbeb3c9c63c8b7a7c8ad24b56" prot="public" static="no">
+        <name>SET_ADD</name>
+        <initializer>146</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="116" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a10984e9fd95c99c5588eb9d8e817bd68" prot="public" static="no">
+        <name>MAP_ADD</name>
+        <initializer>147</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="117" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1aaaec18064943a13d32d4c75a608095a0" prot="public" static="no">
+        <name>LOAD_CLASSDEREF</name>
+        <initializer>148</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="118" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1abc0cd8d9ac0584da4e1c46c32d566faf" prot="public" static="no">
+        <name>BUILD_LIST_UNPACK</name>
+        <initializer>149</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="119" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a02cff027838d1a4e05d6a2518cf76e29" prot="public" static="no">
+        <name>BUILD_MAP_UNPACK</name>
+        <initializer>150</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="120" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a067ace561763cec92b170913305a875c" prot="public" static="no">
+        <name>BUILD_MAP_UNPACK_WITH_CALL</name>
+        <initializer>151</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="121" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a0f9b982ebefc38c48c6f12d7ec8bef12" prot="public" static="no">
+        <name>BUILD_TUPLE_UNPACK</name>
+        <initializer>152</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="122" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a3b4f2c9ab7d5f8f41cbe05090dafc471" prot="public" static="no">
+        <name>BUILD_SET_UNPACK</name>
+        <initializer>153</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="123" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a4ebd230d583e2b3705e62c331b11d240" prot="public" static="no">
+        <name>SETUP_ASYNC_WITH</name>
+        <initializer>154</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="124" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a5c43ea43f93c64b4db6df2312fac84d6" prot="public" static="no">
+        <name>FORMAT_VALUE</name>
+        <initializer>155</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="125" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a7dff931e7c99889ee7565d05ed567bf0" prot="public" static="no">
+        <name>BUILD_CONST_KEY_MAP</name>
+        <initializer>156</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="126" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1adf055b9e925412a2db46ee08ced4bd3b" prot="public" static="no">
+        <name>BUILD_STRING</name>
+        <initializer>157</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="127" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a2aec1fabde0e7da8f17eb548ce13544e" prot="public" static="no">
+        <name>BUILD_TUPLE_UNPACK_WITH_CALL</name>
+        <initializer>158</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="128" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1a64755179247224c213acf161a4ec0dbe" prot="public" static="no">
+        <name>EXCEPT_HANDLER</name>
+        <initializer>257</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="134" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="opcode_8h_1ae9835b1870615a7cb7c0212dac503883" prot="public" static="no">
+        <name>HAS_ARG</name>
+        <param><defname>op</defname></param>
+        <initializer>((op) &gt;= HAVE_ARGUMENT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="141" column="9" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70" prot="public" static="no">
+        <name>cmp_op</name>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a2f93267459180f6a8c2eb30aae62dd92" prot="public">
+          <name>PyCmp_LT</name>
+          <initializer>=Py_LT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70ad9a8b0109fd576b41aca1d589009f35f" prot="public">
+          <name>PyCmp_LE</name>
+          <initializer>=Py_LE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a2c9f72efdf856a7ef56e147f9dc81dcb" prot="public">
+          <name>PyCmp_EQ</name>
+          <initializer>=Py_EQ</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a880c3b5c672ceeae9a0428885ce6a9af" prot="public">
+          <name>PyCmp_NE</name>
+          <initializer>=Py_NE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a7be377da13c8af230b5b2166c203d2bb" prot="public">
+          <name>PyCmp_GT</name>
+          <initializer>=Py_GT</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a77fa5c65588bc8b613ebc4e5bdee09c4" prot="public">
+          <name>PyCmp_GE</name>
+          <initializer>=Py_GE</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70aba786b0bd302c962b5d57f50b8ef9436" prot="public">
+          <name>PyCmp_IN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a6a0b062588017d958d1019a676be346e" prot="public">
+          <name>PyCmp_NOT_IN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a32ad20fa2bfd6a698639f753521ea503" prot="public">
+          <name>PyCmp_IS</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70ac86588428b76e55c8d2ed0cddd3175e5" prot="public">
+          <name>PyCmp_IS_NOT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70a3ad16f6e4134ffc8d31371caa9ce272e" prot="public">
+          <name>PyCmp_EXC_MATCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="opcode_8h_1a3375211f4343540eb93660ba96cf7a70ad75ecefb64b47e2df711dd325b686762" prot="public">
+          <name>PyCmp_BAD</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/opcode.h" line="137" column="1" bodyfile="/usr/include/python3.6m/opcode.h" bodystart="137" bodyend="139"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Auto-generated<sp/>by<sp/>Tools/scripts/generate_opcode_h.py<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_OPCODE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_OPCODE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Instruction<sp/>opcodes<sp/>for<sp/>compiled<sp/>code<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_TOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ROT_TWO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ROT_THREE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DUP_TOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DUP_TOP_TWO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNARY_POSITIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNARY_NEGATIVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNARY_NOT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNARY_INVERT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_MATRIX_MULTIPLY<sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_MATRIX_MULTIPLY<sp/><sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_POWER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>19</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_MULTIPLY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_MODULO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>22</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_ADD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_SUBTRACT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>24</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_SUBSCR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>25</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_FLOOR_DIVIDE<sp/><sp/><sp/><sp/><sp/><sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_TRUE_DIVIDE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_FLOOR_DIVIDE<sp/><sp/><sp/><sp/><sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_TRUE_DIVIDE<sp/><sp/><sp/><sp/><sp/><sp/>29</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_AITER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>50</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_ANEXT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>51</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BEFORE_ASYNC_WITH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_ADD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>55</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_SUBTRACT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>56</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_MULTIPLY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>57</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_MODULO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>59</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_SUBSCR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_SUBSCR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>61</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_LSHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_RSHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>63</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_AND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_XOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>65</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BINARY_OR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>66</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_POWER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>67</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_ITER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>68</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_YIELD_FROM_ITER<sp/><sp/><sp/><sp/><sp/><sp/>69</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PRINT_EXPR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>70</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_BUILD_CLASS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>71</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>YIELD_FROM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>72</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GET_AWAITABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>73</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_LSHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>75</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_RSHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>76</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_AND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>77</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_XOR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>78</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INPLACE_OR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>79</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BREAK_LOOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>80</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WITH_CLEANUP_START<sp/><sp/><sp/><sp/><sp/><sp/><sp/>81</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WITH_CLEANUP_FINISH<sp/><sp/><sp/><sp/><sp/><sp/>82</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RETURN_VALUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>83</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMPORT_STAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>84</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_ANNOTATIONS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>85</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>YIELD_VALUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>86</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_BLOCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>87</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>END_FINALLY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>88</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_EXCEPT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>89</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_ARGUMENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>90</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>90</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>91</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNPACK_SEQUENCE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>92</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FOR_ITER<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>93</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UNPACK_EX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>94</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_ATTR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>95</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_ATTR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>96</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>97</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>98</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_CONST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>101</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_TUPLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>102</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>103</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_SET<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>104</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_MAP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>105</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_ATTR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>106</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COMPARE_OP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>107</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMPORT_NAME<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>108</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>IMPORT_FROM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>109</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>JUMP_FORWARD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>110</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>JUMP_IF_FALSE_OR_POP<sp/><sp/><sp/><sp/>111</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>JUMP_IF_TRUE_OR_POP<sp/><sp/><sp/><sp/><sp/>112</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>JUMP_ABSOLUTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>113</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_JUMP_IF_FALSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>114</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>POP_JUMP_IF_TRUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>115</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>116</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONTINUE_LOOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>119</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_LOOP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>120</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_EXCEPT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>121</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_FINALLY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>122</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_FAST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>124</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_FAST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>125</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_FAST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>126</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_ANNOTATION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>127</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RAISE_VARARGS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>130</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALL_FUNCTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>131</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAKE_FUNCTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>132</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_SLICE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>133</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_CLOSURE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>135</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_DEREF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>136</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>STORE_DEREF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>137</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DELETE_DEREF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>138</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALL_FUNCTION_KW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>141</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CALL_FUNCTION_EX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>142</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_WITH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>143</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXTENDED_ARG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>144</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIST_APPEND<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>145</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SET_ADD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>146</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAP_ADD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>147</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOAD_CLASSDEREF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>148</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_LIST_UNPACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/>149</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_MAP_UNPACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>150</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_MAP_UNPACK_WITH_CALL<sp/>151</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_TUPLE_UNPACK<sp/><sp/><sp/><sp/><sp/><sp/>152</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_SET_UNPACK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>153</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETUP_ASYNC_WITH<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>154</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FORMAT_VALUE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>155</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_CONST_KEY_MAP<sp/><sp/><sp/><sp/><sp/>156</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_STRING<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>157</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BUILD_TUPLE_UNPACK_WITH_CALL<sp/>158</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>EXCEPT_HANDLER<sp/>is<sp/>a<sp/>special,<sp/>implicit<sp/>block<sp/>type<sp/>which<sp/>is<sp/>created<sp/>when</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/>entering<sp/>an<sp/>except<sp/>handler.<sp/>It<sp/>is<sp/>not<sp/>an<sp/>opcode<sp/>but<sp/>we<sp/>define<sp/>it<sp/>here</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/>as<sp/>we<sp/>want<sp/>it<sp/>to<sp/>be<sp/>available<sp/>to<sp/>both<sp/>frameobject.c<sp/>and<sp/>ceval.c,<sp/>while</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/>remaining<sp/>private.*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXCEPT_HANDLER<sp/>257</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>cmp_op<sp/>{PyCmp_LT=Py_LT,<sp/>PyCmp_LE=Py_LE,<sp/>PyCmp_EQ=Py_EQ,<sp/>PyCmp_NE=Py_NE,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyCmp_GT=Py_GT,<sp/>PyCmp_GE=Py_GE,<sp/>PyCmp_IN,<sp/>PyCmp_NOT_IN,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyCmp_IS,<sp/>PyCmp_IS_NOT,<sp/>PyCmp_EXC_MATCH,<sp/>PyCmp_BAD};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAS_ARG(op)<sp/>((op)<sp/>&gt;=<sp/>HAVE_ARGUMENT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_OPCODE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/opcode.h"/>
+  </compounddef>
+</doxygen>

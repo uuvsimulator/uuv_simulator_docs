@@ -1,0 +1,1684 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="etree__defs_8h" kind="file" language="C++">
+    <compoundname>etree_defs.h</compoundname>
+    <includes refid="_python_8h" local="yes">Python.h</includes>
+    <includes refid="xmlversion_8h" local="yes">libxml/xmlversion.h</includes>
+    <includes refid="xsltconfig_8h" local="yes">libxslt/xsltconfig.h</includes>
+    <includes refid="tree_8h" local="yes">libxml/tree.h</includes>
+    <includes local="yes">string.h</includes>
+    <incdepgraph>
+      <node id="218">
+        <label>traceback.h</label>
+        <link refid="traceback_8h_source"/>
+        <childnode refid="219" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>typeslots.h</label>
+        <link refid="typeslots_8h_source"/>
+      </node>
+      <node id="240">
+        <label>abstract.h</label>
+        <link refid="abstract_8h_source"/>
+      </node>
+      <node id="195">
+        <label>stdarg.h</label>
+      </node>
+      <node id="250">
+        <label>pyfpe.h</label>
+        <link refid="pyfpe_8h_source"/>
+      </node>
+      <node id="231">
+        <label>pyarena.h</label>
+        <link refid="pyarena_8h_source"/>
+      </node>
+      <node id="222">
+        <label>iterobject.h</label>
+        <link refid="iterobject_8h_source"/>
+      </node>
+      <node id="233">
+        <label>pythonrun.h</label>
+        <link refid="pythonrun_8h_source"/>
+      </node>
+      <node id="206">
+        <label>tupleobject.h</label>
+        <link refid="tupleobject_8h_source"/>
+      </node>
+      <node id="188">
+        <label>object.h</label>
+        <link refid="object_8h_source"/>
+      </node>
+      <node id="256">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>genobject.h</label>
+        <link refid="genobject_8h_source"/>
+      </node>
+      <node id="179">
+        <label>assert.h</label>
+      </node>
+      <node id="220">
+        <label>sliceobject.h</label>
+        <link refid="sliceobject_8h_source"/>
+      </node>
+      <node id="200">
+        <label>longintrepr.h</label>
+        <link refid="longintrepr_8h_source"/>
+      </node>
+      <node id="224">
+        <label>descrobject.h</label>
+        <link refid="descrobject_8h_source"/>
+      </node>
+      <node id="229">
+        <label>codecs.h</label>
+        <link refid="codecs_8h_source"/>
+      </node>
+      <node id="236">
+        <label>sysmodule.h</label>
+        <link refid="sysmodule_8h_source"/>
+      </node>
+      <node id="211">
+        <label>setobject.h</label>
+        <link refid="setobject_8h_source"/>
+      </node>
+      <node id="207">
+        <label>listobject.h</label>
+        <link refid="listobject_8h_source"/>
+      </node>
+      <node id="237">
+        <label>osmodule.h</label>
+        <link refid="osmodule_8h_source"/>
+      </node>
+      <node id="271">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>stdlib.h</label>
+      </node>
+      <node id="227">
+        <label>structseq.h</label>
+        <link refid="structseq_8h_source"/>
+      </node>
+      <node id="267">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="197">
+        <label>unicodeobject.h</label>
+        <link refid="unicodeobject_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+      </node>
+      <node id="242">
+        <label>compile.h</label>
+        <link refid="compile_8h_source"/>
+        <childnode refid="243" relation="include">
+        </childnode>
+      </node>
+      <node id="189">
+        <label>pymem.h</label>
+        <link refid="pymem_8h_source"/>
+        <childnode refid="180" relation="include">
+        </childnode>
+      </node>
+      <node id="226">
+        <label>weakrefobject.h</label>
+        <link refid="weakrefobject_8h_source"/>
+      </node>
+      <node id="243">
+        <label>code.h</label>
+        <link refid="code_8h_source"/>
+      </node>
+      <node id="187">
+        <label>pytime.h</label>
+        <link refid="pytime_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>pystrcmp.h</label>
+        <link refid="pystrcmp_8h_source"/>
+      </node>
+      <node id="244">
+        <label>eval.h</label>
+        <link refid="eval_8h_source"/>
+      </node>
+      <node id="246">
+        <label>pystrtod.h</label>
+        <link refid="pystrtod_8h_source"/>
+      </node>
+      <node id="186">
+        <label>pymath.h</label>
+        <link refid="pymath_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h"/>
+        <childnode refid="171" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+      </node>
+      <node id="261">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="194">
+        <label>bytearrayobject.h</label>
+        <link refid="bytearrayobject_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>limits.h</label>
+      </node>
+      <node id="265">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>pycapsule.h</label>
+        <link refid="pycapsule_8h_source"/>
+      </node>
+      <node id="239">
+        <label>import.h</label>
+        <link refid="import_8h_source"/>
+      </node>
+      <node id="259">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="257">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="185">
+        <label>pyatomic.h</label>
+        <link refid="pyatomic_8h_source"/>
+      </node>
+      <node id="253">
+        <label>libxslt/xsltconfig.h</label>
+        <link refid="xsltconfig_8h_source"/>
+      </node>
+      <node id="251">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>objimpl.h</label>
+        <link refid="objimpl_8h_source"/>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>cellobject.h</label>
+        <link refid="cellobject_8h_source"/>
+      </node>
+      <node id="255">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>fileutils.h</label>
+        <link refid="fileutils_8h_source"/>
+      </node>
+      <node id="260">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="172" relation="include">
+        </childnode>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="174" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="177" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="179" relation="include">
+        </childnode>
+        <childnode refid="180" relation="include">
+        </childnode>
+        <childnode refid="184" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+        <childnode refid="186" relation="include">
+        </childnode>
+        <childnode refid="187" relation="include">
+        </childnode>
+        <childnode refid="189" relation="include">
+        </childnode>
+        <childnode refid="188" relation="include">
+        </childnode>
+        <childnode refid="190" relation="include">
+        </childnode>
+        <childnode refid="191" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+        <childnode refid="213" relation="include">
+        </childnode>
+        <childnode refid="214" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>string.h</label>
+      </node>
+      <node id="203">
+        <label>complexobject.h</label>
+        <link refid="complexobject_8h_source"/>
+      </node>
+      <node id="215">
+        <label>classobject.h</label>
+        <link refid="classobject_8h_source"/>
+      </node>
+      <node id="216">
+        <label>fileobject.h</label>
+        <link refid="fileobject_8h_source"/>
+      </node>
+      <node id="196">
+        <label>bytesobject.h</label>
+        <link refid="bytesobject_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="175" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>warnings.h</label>
+        <link refid="warnings_8h_source"/>
+      </node>
+      <node id="268">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>boolobject.h</label>
+        <link refid="boolobject_8h_source"/>
+      </node>
+      <node id="173">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="210">
+        <label>enumobject.h</label>
+        <link refid="enumobject_8h_source"/>
+      </node>
+      <node id="214">
+        <label>funcobject.h</label>
+        <link refid="funcobject_8h_source"/>
+      </node>
+      <node id="209">
+        <label>odictobject.h</label>
+        <link refid="odictobject_8h_source"/>
+      </node>
+      <node id="263">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>dtoa.h</label>
+        <link refid="dtoa_8h_source"/>
+      </node>
+      <node id="270">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="176" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>floatobject.h</label>
+        <link refid="floatobject_8h_source"/>
+      </node>
+      <node id="199">
+        <label>longobject.h</label>
+        <link refid="longobject_8h_source"/>
+      </node>
+      <node id="193">
+        <label>pydebug.h</label>
+        <link refid="pydebug_8h_source"/>
+      </node>
+      <node id="172">
+        <label>patchlevel.h</label>
+        <link refid="patchlevel_8h_source"/>
+      </node>
+      <node id="232">
+        <label>modsupport.h</label>
+        <link refid="modsupport_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>methodobject.h</label>
+        <link refid="methodobject_8h_source"/>
+      </node>
+      <node id="183">
+        <label>time.h</label>
+      </node>
+      <node id="208">
+        <label>dictobject.h</label>
+        <link refid="dictobject_8h_source"/>
+      </node>
+      <node id="182">
+        <label>math.h</label>
+      </node>
+      <node id="205">
+        <label>memoryobject.h</label>
+        <link refid="memoryobject_8h_source"/>
+      </node>
+      <node id="184">
+        <label>pymacro.h</label>
+        <link refid="pymacro_8h_source"/>
+      </node>
+      <node id="174">
+        <label>pymacconfig.h</label>
+        <link refid="pymacconfig_8h_source"/>
+      </node>
+      <node id="198">
+        <label>ctype.h</label>
+      </node>
+      <node id="180">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="173" relation="include">
+        </childnode>
+        <childnode refid="181" relation="include">
+        </childnode>
+        <childnode refid="178" relation="include">
+        </childnode>
+        <childnode refid="182" relation="include">
+        </childnode>
+        <childnode refid="183" relation="include">
+        </childnode>
+      </node>
+      <node id="245">
+        <label>pyctype.h</label>
+        <link refid="pyctype_8h_source"/>
+      </node>
+      <node id="258">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+      </node>
+      <node id="230">
+        <label>pyerrors.h</label>
+        <link refid="pyerrors_8h_source"/>
+        <childnode refid="195" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>pylifecycle.h</label>
+        <link refid="pylifecycle_8h_source"/>
+      </node>
+      <node id="213">
+        <label>moduleobject.h</label>
+        <link refid="moduleobject_8h_source"/>
+      </node>
+      <node id="192">
+        <label>pyhash.h</label>
+        <link refid="pyhash_8h_source"/>
+      </node>
+      <node id="241">
+        <label>bltinmodule.h</label>
+        <link refid="bltinmodule_8h_source"/>
+      </node>
+      <node id="266">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>ceval.h</label>
+        <link refid="ceval_8h_source"/>
+      </node>
+      <node id="228">
+        <label>namespaceobject.h</label>
+        <link refid="namespaceobject_8h_source"/>
+      </node>
+      <node id="252">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="204">
+        <label>rangeobject.h</label>
+        <link refid="rangeobject_8h_source"/>
+      </node>
+      <node id="219">
+        <label>pystate.h</label>
+        <link refid="pystate_8h_source"/>
+      </node>
+      <node id="176">
+        <label>stdio.h</label>
+      </node>
+      <node id="181">
+        <label>inttypes.h</label>
+      </node>
+      <node id="238">
+        <label>intrcheck.h</label>
+        <link refid="intrcheck_8h_source"/>
+      </node>
+      <node id="264">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="260" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="etree__defs_8h_1abe8e11ba82b18a74c614924d50d609c6" prot="public" static="no">
+        <name>va_int</name>
+        <param><defname>ap</defname></param>
+        <initializer>va_arg(ap, int)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="34" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a4b50c50b19ea00e19097dbf40f36a56b" prot="public" static="no">
+        <name>va_charptr</name>
+        <param><defname>ap</defname></param>
+        <initializer>va_arg(ap, char *)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="35" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1adb0ffea6fbf3a9e6da61f0165b0c6f5f" prot="public" static="no">
+        <name>IS_PYPY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="40" column="14" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1ad0dc2c9ac36b92b22b358e4970cebd3c" prot="public" static="no">
+        <name>IS_PYTHON2</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="47" column="12" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a69310f14a11c9bde7fca2be5079daea7" prot="public" static="no">
+        <name>IS_PYTHON3</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="48" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a30924fff7a787062127c6e8c83110089" prot="public" static="no">
+        <name>LXML_UNICODE_STRINGS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="53" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a133128bd5b2e26fe2b3a5fd76c13ade3" prot="public" static="no">
+        <name>PyWeakref_LockObject</name>
+        <param><defname>obj</defname></param>
+        <initializer>(NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="61" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a63c1e51e6202aba3d1fdbf81248926a4" prot="public" static="no">
+        <name>PyUnicode_IS_READY</name>
+        <param><defname>op</defname></param>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="82" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a6f6f7424628510b0d0cf28d32ca3cb99" prot="public" static="no">
+        <name>PyUnicode_GET_LENGTH</name>
+        <param><defname>u</defname></param>
+        <initializer>PyUnicode_GET_SIZE(u)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="83" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a0e0204128f430d5916d0bb2afc872764" prot="public" static="no">
+        <name>PyUnicode_KIND</name>
+        <param><defname>u</defname></param>
+        <initializer>(sizeof(Py_UNICODE))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="84" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1ab94c9b3c16b41174ebd0c45a547e97ca" prot="public" static="no">
+        <name>PyUnicode_DATA</name>
+        <param><defname>u</defname></param>
+        <initializer>((void*)PyUnicode_AS_UNICODE(u))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="85" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a02981d1b4c85eb157ed4f4c9d34ef862" prot="public" static="no">
+        <name>_lx_PySlice_GetIndicesEx</name>
+        <param><defname>o</defname></param>
+        <param><defname>l</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>e</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>sl</defname></param>
+        <initializer>PySlice_GetIndicesEx(((<ref refid="struct_py_slice_object" kindref="compound">PySliceObject</ref>*)o), l, b, e, s, sl)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="127" column="12" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a12a57fcc1fcdb69c2b57b69af8afd14e" prot="public" static="no">
+        <name>ENABLE_THREADING</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="148" column="12" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a1c8ec438e26694bf05805fcf206aedaa" prot="public" static="no">
+        <name>ENABLE_SCHEMATRON</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="159" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a02145719b84232a13d56e2a3e92eb290" prot="public" static="no">
+        <name>LXML_GET_XSLT_ENCODING</name>
+        <param><defname>result_var</defname></param>
+        <param><defname>style</defname></param>
+        <initializer>XSLT_GET_IMPORT_PTR(result_var, style, encoding)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="201" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a22433622be76b5a9200e94d7a8eda1de" prot="public" static="no">
+        <name>unlikely_condition</name>
+        <param><defname>x</defname></param>
+        <initializer>(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="217" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a02507aa5ff002289d6f1ad2e93351b8a" prot="public" static="no">
+        <name>Py_TYPE</name>
+        <param><defname>ob</defname></param>
+        <initializer>(((<ref refid="struct__object" kindref="compound">PyObject</ref>*)(ob))-&gt;ob_type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="221" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a50d21e21dd81e018bf738379060aeb58" prot="public" static="no">
+        <name>PY_NEW</name>
+        <param><defname>T</defname></param>
+        <initializer>(((<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*)(T))-&gt;tp_new( \
+             (<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*)(T), __pyx_empty_tuple, NULL))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="224" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a6592ae992c7a91dad5b4fc7c2b9f5f64" prot="public" static="no">
+        <name>_fqtypename</name>
+        <param><defname>o</defname></param>
+        <initializer>((Py_TYPE(o))-&gt;tp_name)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="228" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a0163b51a00fafca37a6da00d1e7a8479" prot="public" static="no">
+        <name>lxml_malloc</name>
+        <param><defname>count</defname></param>
+        <param><defname>item_size</defname></param>
+        <initializer>(unlikely_condition((size_t)(count) &gt; (size_t) (PY_SSIZE_T_MAX / item_size)) ? NULL : \
+     (PyMem_Malloc((count) * item_size)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="230" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a95693a7be7ff795987379f3cd7584699" prot="public" static="no">
+        <name>lxml_realloc</name>
+        <param><defname>mem</defname></param>
+        <param><defname>count</defname></param>
+        <param><defname>item_size</defname></param>
+        <initializer>(unlikely_condition((size_t)(count) &gt; (size_t) (PY_SSIZE_T_MAX / item_size)) ? NULL : \
+     (PyMem_Realloc(mem, (count) * item_size)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="234" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a99ce37fa8e77e9ac324ec74a2e49da8e" prot="public" static="no">
+        <name>lxml_free</name>
+        <param><defname>mem</defname></param>
+        <initializer>PyMem_Free(mem)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="238" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1ab751b93601a2dd7289d3bb127b7ff36c" prot="public" static="no">
+        <name>_isString</name>
+        <param><defname>obj</defname></param>
+        <initializer>(PyString_CheckExact(obj)  || \
+                          PyUnicode_CheckExact(obj) || \
+                          PyType_IsSubtype(Py_TYPE(obj), &amp;PyBaseString_Type))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="241" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a8800ad6d59a99f21760cde28ab5e33d4" prot="public" static="no">
+        <name>_isElement</name>
+        <param><defname>c_node</defname></param>
+        <initializer>(((c_node)-&gt;type == XML_ELEMENT_NODE) || \
+         ((c_node)-&gt;type == XML_COMMENT_NODE) || \
+         ((c_node)-&gt;type == XML_ENTITY_REF_NODE) || \
+         ((c_node)-&gt;type == XML_PI_NODE))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="250" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a2584c3ef1a5d9a9b045c59701b7a37a8" prot="public" static="no">
+        <name>_isElementOrXInclude</name>
+        <param><defname>c_node</defname></param>
+        <initializer>(_isElement(c_node)                     || \
+         ((c_node)-&gt;type == XML_XINCLUDE_START) || \
+         ((c_node)-&gt;type == XML_XINCLUDE_END))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="256" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a45ce42279c810e5bfc6a4b2c7c670a9b" prot="public" static="no">
+        <name>_getNs</name>
+        <param><defname>c_node</defname></param>
+        <initializer>(((c_node)-&gt;ns == 0) ? 0 : ((c_node)-&gt;ns-&gt;href))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="261" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a09149c8c6712b5d6c1bb0fdfc0fdead8" prot="public" static="no">
+        <name>_LX__ELEMENT_MATCH</name>
+        <param><defname>c_node</defname></param>
+        <param><defname>only_elements</defname></param>
+        <initializer>((only_elements) ? (_isElement(c_node)) : 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="336" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="336" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a2400273d742b6372cf0c85ac3fa932df" prot="public" static="no">
+        <name>_LX__ADVANCE_TO_NEXT</name>
+        <param><defname>c_node</defname></param>
+        <param><defname>only_elements</defname></param>
+        <initializer>while ((c_node != 0) &amp;&amp; (!_LX__ELEMENT_MATCH(c_node, only_elements)))  \
+        c_node = c_node-&gt;next;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="339" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1accaec2b19b93564699f61d5e2bb8fe91" prot="public" static="no">
+        <name>_LX__TRAVERSE_TO_NEXT</name>
+        <param><defname>c_stop_node</defname></param>
+        <param><defname>c_node</defname></param>
+        <param><defname>only_elements</defname></param>
+        <initializer>{                                                                   \
+    /* walk through children first */                               \
+    <ref refid="struct__xml_node" kindref="compound">xmlNode</ref>* _lx__next = c_node-&gt;children;		            \
+    if (_lx__next != 0) {                                           \
+        if (c_node-&gt;type == XML_ENTITY_REF_NODE || c_node-&gt;type == XML_DTD_NODE) { \
+            _lx__next = 0;                                          \
+        } else {                                                    \
+            _LX__ADVANCE_TO_NEXT(_lx__next, only_elements)	    \
+        }                                                           \
+    }							            \
+    if ((_lx__next == 0) &amp;&amp; (c_node != c_stop_node)) {              \
+        /* try siblings */                                          \
+        _lx__next = c_node-&gt;next;                                   \
+        _LX__ADVANCE_TO_NEXT(_lx__next, only_elements)              \
+        /* back off through parents */                              \
+        while (_lx__next == 0) {                                    \
+            c_node = c_node-&gt;parent;                                \
+            if (c_node == 0)                                        \
+                break;                                              \
+            if (c_node == c_stop_node)                              \
+                break;                                              \
+            if ((only_elements) &amp;&amp; !_isElement(c_node))	            \
+                break;                                              \
+            /* we already traversed the parents -&gt; siblings */      \
+            _lx__next = c_node-&gt;next;                               \
+            _LX__ADVANCE_TO_NEXT(_lx__next, only_elements)	    \
+        }                                                           \
+    }                                                               \
+    c_node = _lx__next;                                             \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="343" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1ae6521602dd9a98a90d24155157091477" prot="public" static="no">
+        <name>_LX__BEGIN_FOR_EACH_FROM</name>
+        <param><defname>c_tree_top</defname></param>
+        <param><defname>c_node</defname></param>
+        <param><defname>inclusive</defname></param>
+        <param><defname>only_elements</defname></param>
+        <initializer>{									      \
+    if (c_node != 0) {							      \
+        const <ref refid="struct__xml_node" kindref="compound">xmlNode</ref>* _lx__tree_top = (c_tree_top);                          \
+        const int _lx__only_elements = (only_elements);                       \
+        /* make sure we start at an element */                   	      \
+        if (!_LX__ELEMENT_MATCH(c_node, _lx__only_elements)) {		      \
+            /* we skip the <ref refid="struct__node" kindref="compound">node</ref>, so &apos;inclusive&apos; is irrelevant */              \
+            if (c_node == _lx__tree_top)                                      \
+                c_node = 0; /* nothing to traverse */                         \
+            else {                                                            \
+                c_node = c_node-&gt;next;                                        \
+                _LX__ADVANCE_TO_NEXT(c_node, _lx__only_elements)              \
+            }                                                                 \
+        } else if (! (inclusive)) {                                           \
+            /* skip the first <ref refid="struct__node" kindref="compound">node</ref> */                                         \
+            _LX__TRAVERSE_TO_NEXT(_lx__tree_top, c_node, _lx__only_elements)  \
+        }                                                                     \
+                                                                              \
+        /* now run the user code on the elements we find */                   \
+        while (c_node != 0) {                                                 \
+            /* here goes the code to be run for each element */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="375" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1af3be05ccd2ad2b5b9d493ca19a0564c4" prot="public" static="no">
+        <name>_LX__END_FOR_EACH_FROM</name>
+        <param><defname>c_node</defname></param>
+        <initializer>_LX__TRAVERSE_TO_NEXT(_lx__tree_top, c_node, _lx__only_elements)  \
+        }                                                                     \
+    }                                                                         \
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="398" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a50b3d7e9aee832b6966666dd42b97356" prot="public" static="no">
+        <name>BEGIN_FOR_EACH_ELEMENT_FROM</name>
+        <param><defname>c_tree_top</defname></param>
+        <param><defname>c_node</defname></param>
+        <param><defname>inclusive</defname></param>
+        <initializer>_LX__BEGIN_FOR_EACH_FROM(c_tree_top, c_node, inclusive, 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="405" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a5c84a1fa63fec2d38acc872fe6e02ded" prot="public" static="no">
+        <name>END_FOR_EACH_ELEMENT_FROM</name>
+        <param><defname>c_node</defname></param>
+        <initializer>_LX__END_FOR_EACH_FROM(c_node)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="408" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1a392340197d337af779fadaf6df88de92" prot="public" static="no">
+        <name>BEGIN_FOR_EACH_FROM</name>
+        <param><defname>c_tree_top</defname></param>
+        <param><defname>c_node</defname></param>
+        <param><defname>inclusive</defname></param>
+        <initializer>_LX__BEGIN_FOR_EACH_FROM(c_tree_top, c_node, inclusive, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="411" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="etree__defs_8h_1ad981bbe3d6ff4680769a73fac4be2adb" prot="public" static="no">
+        <name>END_FOR_EACH_FROM</name>
+        <param><defname>c_node</defname></param>
+        <initializer>_LX__END_FOR_EACH_FROM(c_node)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="414" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="etree__defs_8h_1a9257c599293fd559dc13137723792e99" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>static void* lxml_unpack_xmldoc_capsule</definition>
+        <argsstring>(PyObject *capsule, int *is_owned)</argsstring>
+        <name>lxml_unpack_xmldoc_capsule</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>capsule</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>is_owned</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" line="266" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h" bodystart="266" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>HAS_ETREE_DEFS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAS_ETREE_DEFS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>quick<sp/>check<sp/>for<sp/>Python/libxml2/libxslt<sp/>devel<sp/>setup<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Python.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PY_VERSION_HEX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>the<sp/>development<sp/>package<sp/>of<sp/>Python<sp/>(header<sp/>files<sp/>etc.)<sp/>is<sp/>not<sp/>installed<sp/>correctly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>PY_VERSION_HEX<sp/>&lt;<sp/>0x02070000<sp/>||<sp/>PY_MAJOR_VERSION<sp/>&gt;=<sp/>3<sp/>&amp;&amp;<sp/>PY_VERSION_HEX<sp/>&lt;<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>this<sp/>version<sp/>of<sp/>lxml<sp/>requires<sp/>Python<sp/>2.7,<sp/>3.3<sp/>or<sp/>later</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;libxml/xmlversion.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LIBXML_VERSION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>the<sp/>development<sp/>package<sp/>of<sp/>libxml2<sp/>(header<sp/>files<sp/>etc.)<sp/>is<sp/>not<sp/>installed<sp/>correctly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXML_VERSION<sp/>&lt;<sp/>20700</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>minimum<sp/>required<sp/>version<sp/>of<sp/>libxml2<sp/>is<sp/>2.7.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;libxslt/xsltconfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LIBXSLT_VERSION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>the<sp/>development<sp/>package<sp/>of<sp/>libxslt<sp/>(header<sp/>files<sp/>etc.)<sp/>is<sp/>not<sp/>installed<sp/>correctly</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXSLT_VERSION<sp/>&lt;<sp/>10123</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>minimum<sp/>required<sp/>version<sp/>of<sp/>libxslt<sp/>is<sp/>1.1.23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>v_arg<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>va_int(ap)<sp/><sp/><sp/><sp/><sp/>va_arg(ap,<sp/>int)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>va_charptr(ap)<sp/>va_arg(ap,<sp/>char<sp/>*)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>PYPY_VERSION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>IS_PYPY<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>IS_PYPY<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_MAJOR_VERSION<sp/>&gt;=<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>IS_PYTHON2<sp/>0<sp/><sp/></highlight><highlight class="comment">/*<sp/>prefer<sp/>for<sp/>special<sp/>casing<sp/>Python<sp/>2.x<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>IS_PYTHON3<sp/>1<sp/><sp/></highlight><highlight class="comment">/*<sp/>avoid<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>IS_PYTHON2<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>IS_PYTHON3<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>IS_PYTHON2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LXML_UNICODE_STRINGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LXML_UNICODE_STRINGS<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>LXML_UNICODE_STRINGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LXML_UNICODE_STRINGS<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!IS_PYPY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyWeakref_LockObject(obj)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Threading<sp/>is<sp/>not<sp/>currently<sp/>supported<sp/>by<sp/>PyPy<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>IS_PYPY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifndef<sp/>WITHOUT_THREADING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>WITHOUT_THREADING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>IS_PYPY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyFile_AsFile</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyFile_AsFile(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyByteArray_Check</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyByteArray_Check(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>!IS_PYTHON2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Python<sp/>3+<sp/>doesn&apos;t<sp/>have<sp/>PyFile_*()<sp/>anymore<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyFile_AsFile(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_VERSION_HEX<sp/>&lt;=<sp/>0x03030000<sp/>&amp;&amp;<sp/>!(defined(CYTHON_PEP393_ENABLED)<sp/>&amp;&amp;<sp/>CYTHON_PEP393_ENABLED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>PyUnicode_IS_READY(op)<sp/><sp/><sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>PyUnicode_GET_LENGTH(u)<sp/><sp/><sp/>PyUnicode_GET_SIZE(u)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>PyUnicode_KIND(u)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(sizeof(Py_UNICODE))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>PyUnicode_DATA(u)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((void*)PyUnicode_AS_UNICODE(u))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>IS_PYPY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifndef<sp/>PyUnicode_FromFormat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>PyUnicode_FromFormat<sp/><sp/>PyString_FromFormat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>!IS_PYTHON2<sp/>&amp;&amp;<sp/>!defined(PyBytes_FromFormat)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>ifdef<sp/>PyString_FromFormat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/><sp/><sp/>define<sp/>PyBytes_FromFormat<sp/><sp/>PyString_FromFormat</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>PyBytes_FromFormat(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>format,<sp/>...)<sp/>{</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<ref refid="struct__object" kindref="compound">string</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>va_list<sp/>vargs;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_STDARG_PROTOTYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>va_start(vargs,<sp/>format);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>va_start(vargs);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>PyUnicode_FromFormatV(format,<sp/>vargs);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>va_end(vargs);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>PyUnicode_Check(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*bstring<sp/>=<sp/>PyUnicode_AsUTF8String(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_DECREF(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>bstring;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>!PyBytes_CheckExact(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_DECREF(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_SetString(PyExc_TypeError,<sp/></highlight><highlight class="stringliteral">&quot;String<sp/>formatting<sp/>and<sp/>encoding<sp/>failed<sp/>to<sp/>return<sp/>bytes<sp/>object&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>string;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PySlice_GetIndicesEx()<sp/>has<sp/>wrong<sp/>signature<sp/>in<sp/>Py&lt;=3.1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_VERSION_HEX<sp/>&gt;=<sp/>0x03020000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_lx_PySlice_GetIndicesEx(o,<sp/>l,<sp/>b,<sp/>e,<sp/>s,<sp/>sl)<sp/>PySlice_GetIndicesEx(o,<sp/>l,<sp/>b,<sp/>e,<sp/>s,<sp/>sl)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_lx_PySlice_GetIndicesEx(o,<sp/>l,<sp/>b,<sp/>e,<sp/>s,<sp/>sl)<sp/>PySlice_GetIndicesEx(((PySliceObject*)o),<sp/>l,<sp/>b,<sp/>e,<sp/>s,<sp/>sl)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITHOUT_THREADING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyEval_SaveThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyEval_SaveThread()<sp/>(NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyEval_RestoreThread</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyEval_RestoreThread(state)<sp/><sp/>if<sp/>(state);<sp/>else<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyGILState_Ensure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyGILState_Ensure()<sp/>(PyGILState_UNLOCKED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/>PyGILState_Release</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyGILState_Release(state)<sp/><sp/>if<sp/>(state);<sp/>else<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/><sp/>Py_UNBLOCK_THREADS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>Py_UNBLOCK_THREADS<sp/><sp/>_save<sp/>=<sp/>NULL;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>undef<sp/><sp/>Py_BLOCK_THREADS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>Py_BLOCK_THREADS<sp/><sp/>if<sp/>(_save);<sp/>else<sp/>{}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITHOUT_THREADING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ENABLE_THREADING<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ENABLE_THREADING<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXML_VERSION<sp/>&lt;<sp/>20704</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>FIXME:<sp/>hack<sp/>to<sp/>make<sp/>new<sp/>error<sp/>reporting<sp/>compile<sp/>in<sp/>old<sp/>libxml2<sp/>versions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlStructuredErrorContext<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlXIncludeProcessTreeFlagsData(n,o,d)<sp/>xmlXIncludeProcessTreeFlags(n,o)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>schematron<sp/>was<sp/>added<sp/>in<sp/>libxml2<sp/>2.6.21<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_SCHEMATRON_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ENABLE_SCHEMATRON<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>ENABLE_SCHEMATRON<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>XML_SCHEMATRON_OUT_QUIET<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>XML_SCHEMATRON_OUT_XML<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>XML_SCHEMATRON_OUT_ERROR<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>xmlSchematron;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>xmlSchematronParserCtxt;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>xmlSchematronValidCtxt;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronNewDocParserCtxt(doc)<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronNewParserCtxt(file)<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronParse(ctxt)<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronFreeParserCtxt(ctxt)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronFree(schema)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronNewValidCtxt(schema,<sp/>options)<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronValidateDoc(ctxt,<sp/>doc)<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronFreeValidCtxt(ctxt)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlSchematronSetValidStructuredErrors(ctxt,<sp/>errorfunc,<sp/>data)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXML_VERSION<sp/>&lt;<sp/>20708</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>HTML_PARSE_NODEFDTD<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXML_VERSION<sp/>&lt;<sp/>20900</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>XML_PARSE_BIG_LINES<sp/>4194304</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;libxml/tree.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LIBXML2_NEW_BUFFER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__xml_buffer" kindref="compound">xmlBuffer</ref><sp/>xmlBuf;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlBufContent(buf)<sp/>xmlBufferContent(buf)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>xmlBufUse(buf)<sp/>xmlBufferLength(buf)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>libexslt<sp/>1.1.25+<sp/>support<sp/>EXSLT<sp/>functions<sp/>in<sp/>XPath<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>LIBXSLT_VERSION<sp/>&lt;<sp/>10125</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>exsltDateXpathCtxtRegister(ctxt,<sp/>prefix)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>exsltSetsXpathCtxtRegister(ctxt,<sp/>prefix)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>exsltMathXpathCtxtRegister(ctxt,<sp/>prefix)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>exsltStrXpathCtxtRegister(ctxt,<sp/>prefix)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LXML_GET_XSLT_ENCODING(result_var,<sp/>style)<sp/>XSLT_GET_IMPORT_PTR(result_var,<sp/>style,<sp/>encoding)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>work<sp/>around<sp/>MSDEV<sp/>6.0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(_MSC_VER<sp/>==<sp/>1200)<sp/>&amp;&amp;<sp/>(WINVER<sp/>&lt;<sp/>0x0500)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>_ftol(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>);<sp/></highlight><highlight class="comment">//defined<sp/>by<sp/>VC6<sp/>C<sp/>libs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>_ftol2(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dblSource<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>_ftol(<sp/>dblSource<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Test<sp/>for<sp/>GCC<sp/>&gt;<sp/>2.95<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__GNUC__<sp/>&gt;<sp/>2<sp/>||<sp/>(__GNUC__<sp/>==<sp/>2<sp/>&amp;&amp;<sp/>(__GNUC_MINOR__<sp/>&gt;<sp/>95))<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>unlikely_condition(x)<sp/>__builtin_expect((x),<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>__GNUC__<sp/>&gt;<sp/>2<sp/>...<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>unlikely_condition(x)<sp/>(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__GNUC__<sp/>&gt;<sp/>2<sp/>...<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>__GNUC__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>unlikely_condition(x)<sp/>(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__GNUC__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_TYPE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>Py_TYPE(ob)<sp/><sp/><sp/>(((PyObject*)(ob))-&gt;ob_type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_NEW(T)<sp/>\</highlight></codeline>
+<codeline lineno="225"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>(((PyTypeObject*)(T))-&gt;tp_new(<sp/>\</highlight></codeline>
+<codeline lineno="226"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PyTypeObject*)(T),<sp/>__pyx_empty_tuple,<sp/>NULL))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_fqtypename(o)<sp/><sp/>((Py_TYPE(o))-&gt;tp_name)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>lxml_malloc(count,<sp/>item_size)<sp/>\</highlight></codeline>
+<codeline lineno="231"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(unlikely_condition((size_t)(count)<sp/>&gt;<sp/>(size_t)<sp/>(PY_SSIZE_T_MAX<sp/>/<sp/>item_size))<sp/>?<sp/>NULL<sp/>:<sp/>\</highlight></codeline>
+<codeline lineno="232"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>(PyMem_Malloc((count)<sp/>*<sp/>item_size)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>lxml_realloc(mem,<sp/>count,<sp/>item_size)<sp/>\</highlight></codeline>
+<codeline lineno="235"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(unlikely_condition((size_t)(count)<sp/>&gt;<sp/>(size_t)<sp/>(PY_SSIZE_T_MAX<sp/>/<sp/>item_size))<sp/>?<sp/>NULL<sp/>:<sp/>\</highlight></codeline>
+<codeline lineno="236"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>(PyMem_Realloc(mem,<sp/>(count)<sp/>*<sp/>item_size)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>lxml_free(mem)<sp/><sp/>PyMem_Free(mem)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_MAJOR_VERSION<sp/>&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_isString(obj)<sp/><sp/><sp/>(PyString_CheckExact(obj)<sp/><sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="242"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyUnicode_CheckExact(obj)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="243"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyType_IsSubtype(Py_TYPE(obj),<sp/>&amp;PyBaseString_Type))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>builtin<sp/>subtype<sp/>type<sp/>checks<sp/>are<sp/>almost<sp/>as<sp/>fast<sp/>as<sp/>exact<sp/>checks<sp/>in<sp/>Py2.7+</highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/>*<sp/>and<sp/>Unicode<sp/>is<sp/>more<sp/>common<sp/>in<sp/>Py3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_isString(obj)<sp/><sp/><sp/>(PyUnicode_Check(obj)<sp/>||<sp/>PyBytes_Check(obj))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_isElement(c_node)<sp/>\</highlight></codeline>
+<codeline lineno="251"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((c_node)-&gt;type<sp/>==<sp/>XML_ELEMENT_NODE)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="252"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((c_node)-&gt;type<sp/>==<sp/>XML_COMMENT_NODE)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="253"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((c_node)-&gt;type<sp/>==<sp/>XML_ENTITY_REF_NODE)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="254"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((c_node)-&gt;type<sp/>==<sp/>XML_PI_NODE))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_isElementOrXInclude(c_node)<sp/>\</highlight></codeline>
+<codeline lineno="257"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(_isElement(c_node)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="258"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((c_node)-&gt;type<sp/>==<sp/>XML_XINCLUDE_START)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="259"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((c_node)-&gt;type<sp/>==<sp/>XML_XINCLUDE_END))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_getNs(c_node)<sp/>\</highlight></codeline>
+<codeline lineno="262"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((c_node)-&gt;ns<sp/>==<sp/>0)<sp/>?<sp/>0<sp/>:<sp/>((c_node)-&gt;ns-&gt;href))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;string.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>lxml_unpack_xmldoc_capsule(<ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>capsule,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*<sp/>is_owned)<sp/>{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDoc</ref><sp/>*c_doc;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*context;</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>*is_owned<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(unlikely_condition(!PyCapsule_IsValid(capsule,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)</highlight><highlight class="stringliteral">&quot;libxml2:xmlDoc&quot;</highlight><highlight class="normal">)))<sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_SetString(</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyExc_TypeError,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Not<sp/>a<sp/>valid<sp/>capsule.<sp/>The<sp/>capsule<sp/>argument<sp/>must<sp/>be<sp/>a<sp/>capsule<sp/>object<sp/>with<sp/>name<sp/>libxml2:xmlDoc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/>c_doc<sp/>=<sp/>(<ref refid="struct__xml_doc" kindref="compound">xmlDoc</ref>*)<sp/>PyCapsule_GetPointer(capsule,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)</highlight><highlight class="stringliteral">&quot;libxml2:xmlDoc&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(unlikely_condition(!c_doc))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(unlikely_condition(c_doc-&gt;type<sp/>!=<sp/>XML_DOCUMENT_NODE<sp/>&amp;&amp;<sp/>c_doc-&gt;type<sp/>!=<sp/>XML_HTML_DOCUMENT_NODE))<sp/>{</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_Format(</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyExc_ValueError,</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Illegal<sp/>document<sp/>provided:<sp/>expected<sp/>XML<sp/>or<sp/>HTML,<sp/>found<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)c_doc-&gt;type);</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/>context<sp/>=<sp/>PyCapsule_GetContext(capsule);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(unlikely_condition(!context<sp/>&amp;&amp;<sp/>PyErr_Occurred()))<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(context<sp/>&amp;&amp;<sp/>strcmp((</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<sp/>context,<sp/></highlight><highlight class="stringliteral">&quot;destructor:xmlFreeDoc&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>take<sp/>ownership<sp/>by<sp/>setting<sp/>destructor<sp/>to<sp/>NULL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(PyCapsule_SetDestructor(capsule,<sp/>NULL)<sp/>==<sp/>0)<sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ownership<sp/>transferred<sp/>=&gt;<sp/>invalidate<sp/>capsule<sp/>by<sp/>clearing<sp/>its<sp/>name<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(unlikely_condition(PyCapsule_SetName(capsule,<sp/>NULL)))<sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>this<sp/>should<sp/>never<sp/>happen<sp/>since<sp/>everything<sp/>above<sp/>succeeded<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlFreeDoc(c_doc);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*is_owned<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>c_doc;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macro<sp/>pair<sp/>implementation<sp/>of<sp/>a<sp/>depth<sp/>first<sp/>tree<sp/>walker</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/>*<sp/>Calls<sp/>the<sp/>code<sp/>block<sp/>between<sp/>the<sp/>BEGIN<sp/>and<sp/>END<sp/>macros<sp/>for<sp/>all<sp/>elements</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/>*<sp/>below<sp/>c_tree_top<sp/>(exclusively),<sp/>starting<sp/>at<sp/>c_node<sp/>(inclusively<sp/>iff</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/>*<sp/>&apos;inclusive&apos;<sp/>is<sp/>1).<sp/><sp/>The<sp/>_ELEMENT_<sp/>variants<sp/>will<sp/>only<sp/>stop<sp/>on<sp/>nodes</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/>*<sp/>that<sp/>match<sp/>_isElement(),<sp/>the<sp/>normal<sp/>variant<sp/>will<sp/>stop<sp/>on<sp/>every<sp/>node</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/>*<sp/>except<sp/>text<sp/>nodes.</highlight></codeline>
+<codeline lineno="310"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="311"><highlight class="comment"><sp/>*<sp/>To<sp/>traverse<sp/>the<sp/>node<sp/>and<sp/>all<sp/>of<sp/>its<sp/>children<sp/>and<sp/>siblings<sp/>in<sp/>Pyrex,<sp/>call</highlight></codeline>
+<codeline lineno="312"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>cdef<sp/>xmlNode*<sp/>some_node</highlight></codeline>
+<codeline lineno="313"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>BEGIN_FOR_EACH_ELEMENT_FROM(some_node.parent,<sp/>some_node,<sp/>1)</highlight></codeline>
+<codeline lineno="314"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>#<sp/>do<sp/>something<sp/>with<sp/>some_node</highlight></codeline>
+<codeline lineno="315"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>END_FOR_EACH_ELEMENT_FROM(some_node)</highlight></codeline>
+<codeline lineno="316"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="317"><highlight class="comment"><sp/>*<sp/>To<sp/>traverse<sp/>only<sp/>the<sp/>children<sp/>and<sp/>siblings<sp/>of<sp/>a<sp/>node,<sp/>call</highlight></codeline>
+<codeline lineno="318"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>cdef<sp/>xmlNode*<sp/>some_node</highlight></codeline>
+<codeline lineno="319"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>BEGIN_FOR_EACH_ELEMENT_FROM(some_node.parent,<sp/>some_node,<sp/>0)</highlight></codeline>
+<codeline lineno="320"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>#<sp/>do<sp/>something<sp/>with<sp/>some_node</highlight></codeline>
+<codeline lineno="321"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>END_FOR_EACH_ELEMENT_FROM(some_node)</highlight></codeline>
+<codeline lineno="322"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="323"><highlight class="comment"><sp/>*<sp/>To<sp/>traverse<sp/>only<sp/>the<sp/>children,<sp/>do:</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>cdef<sp/>xmlNode*<sp/>some_node</highlight></codeline>
+<codeline lineno="325"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>some_node<sp/>=<sp/>parent_node.children</highlight></codeline>
+<codeline lineno="326"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>BEGIN_FOR_EACH_ELEMENT_FROM(parent_node,<sp/>some_node,<sp/>1)</highlight></codeline>
+<codeline lineno="327"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>#<sp/>do<sp/>something<sp/>with<sp/>some_node</highlight></codeline>
+<codeline lineno="328"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>END_FOR_EACH_ELEMENT_FROM(some_node)</highlight></codeline>
+<codeline lineno="329"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="330"><highlight class="comment"><sp/>*<sp/>NOTE:<sp/>&apos;some_node&apos;<sp/>MUST<sp/>be<sp/>a<sp/>plain<sp/>&apos;xmlNode*&apos;<sp/>!</highlight></codeline>
+<codeline lineno="331"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="332"><highlight class="comment"><sp/>*<sp/>NOTE:<sp/>parent<sp/>modification<sp/>during<sp/>the<sp/>walk<sp/>can<sp/>divert<sp/>the<sp/>iterator,<sp/>but</highlight></codeline>
+<codeline lineno="333"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>should<sp/>not<sp/>segfault<sp/>!</highlight></codeline>
+<codeline lineno="334"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LX__ELEMENT_MATCH(c_node,<sp/>only_elements)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="337"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((only_elements)<sp/>?<sp/>(_isElement(c_node))<sp/>:<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LX__ADVANCE_TO_NEXT(c_node,<sp/>only_elements)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="340"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>while<sp/>((c_node<sp/>!=<sp/>0)<sp/>&amp;&amp;<sp/>(!_LX__ELEMENT_MATCH(c_node,<sp/>only_elements)))<sp/><sp/>\</highlight></codeline>
+<codeline lineno="341"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c_node<sp/>=<sp/>c_node-&gt;next;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LX__TRAVERSE_TO_NEXT(c_stop_node,<sp/>c_node,<sp/>only_elements)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="344"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="345"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>walk<sp/>through<sp/>children<sp/>first<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="346"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>xmlNode*<sp/>_lx__next<sp/>=<sp/>c_node-&gt;children;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="347"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(_lx__next<sp/>!=<sp/>0)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="348"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(c_node-&gt;type<sp/>==<sp/>XML_ENTITY_REF_NODE<sp/>||<sp/>c_node-&gt;type<sp/>==<sp/>XML_DTD_NODE)<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="349"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_lx__next<sp/>=<sp/>0;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="350"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>else<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="351"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__ADVANCE_TO_NEXT(_lx__next,<sp/>only_elements)<sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="352"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="353"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="354"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>((_lx__next<sp/>==<sp/>0)<sp/>&amp;&amp;<sp/>(c_node<sp/>!=<sp/>c_stop_node))<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="355"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>try<sp/>siblings<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="356"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_lx__next<sp/>=<sp/>c_node-&gt;next;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="357"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__ADVANCE_TO_NEXT(_lx__next,<sp/>only_elements)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="358"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>back<sp/>off<sp/>through<sp/>parents<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="359"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>while<sp/>(_lx__next<sp/>==<sp/>0)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="360"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c_node<sp/>=<sp/>c_node-&gt;parent;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="361"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(c_node<sp/>==<sp/>0)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="362"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="363"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(c_node<sp/>==<sp/>c_stop_node)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="364"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="365"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>((only_elements)<sp/>&amp;&amp;<sp/>!_isElement(c_node))<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="366"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>break;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="367"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>we<sp/>already<sp/>traversed<sp/>the<sp/>parents<sp/>-&gt;<sp/>siblings<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="368"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_lx__next<sp/>=<sp/>c_node-&gt;next;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="369"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__ADVANCE_TO_NEXT(_lx__next,<sp/>only_elements)<sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="370"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="371"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="372"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>c_node<sp/>=<sp/>_lx__next;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="373"><highlight class="preprocessor">}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LX__BEGIN_FOR_EACH_FROM(c_tree_top,<sp/>c_node,<sp/>inclusive,<sp/>only_elements)<sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="376"><highlight class="preprocessor">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="377"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(c_node<sp/>!=<sp/>0)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="378"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>xmlNode*<sp/>_lx__tree_top<sp/>=<sp/>(c_tree_top);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="379"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>int<sp/>_lx__only_elements<sp/>=<sp/>(only_elements);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="380"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>make<sp/>sure<sp/>we<sp/>start<sp/>at<sp/>an<sp/>element<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="381"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(!_LX__ELEMENT_MATCH(c_node,<sp/>_lx__only_elements))<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="382"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>we<sp/>skip<sp/>the<sp/>node,<sp/>so<sp/>&apos;inclusive&apos;<sp/>is<sp/>irrelevant<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="383"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(c_node<sp/>==<sp/>_lx__tree_top)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="384"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c_node<sp/>=<sp/>0;<sp/></highlight><highlight class="comment">/*<sp/>nothing<sp/>to<sp/>traverse<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="385"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>else<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="386"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>c_node<sp/>=<sp/>c_node-&gt;next;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="387"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__ADVANCE_TO_NEXT(c_node,<sp/>_lx__only_elements)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="388"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="389"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>else<sp/>if<sp/>(!<sp/>(inclusive))<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="390"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>skip<sp/>the<sp/>first<sp/>node<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="391"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__TRAVERSE_TO_NEXT(_lx__tree_top,<sp/>c_node,<sp/>_lx__only_elements)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="392"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="393"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="394"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>now<sp/>run<sp/>the<sp/>user<sp/>code<sp/>on<sp/>the<sp/>elements<sp/>we<sp/>find<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="395"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>while<sp/>(c_node<sp/>!=<sp/>0)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="396"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>here<sp/>goes<sp/>the<sp/>code<sp/>to<sp/>be<sp/>run<sp/>for<sp/>each<sp/>element<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LX__END_FOR_EACH_FROM(c_node)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="399"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_LX__TRAVERSE_TO_NEXT(_lx__tree_top,<sp/>c_node,<sp/>_lx__only_elements)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="400"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="401"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="402"><highlight class="preprocessor">}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="403"><highlight class="normal"></highlight></codeline>
+<codeline lineno="404"><highlight class="normal"></highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BEGIN_FOR_EACH_ELEMENT_FROM(c_tree_top,<sp/>c_node,<sp/>inclusive)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="406"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_LX__BEGIN_FOR_EACH_FROM(c_tree_top,<sp/>c_node,<sp/>inclusive,<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="407"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>END_FOR_EACH_ELEMENT_FROM(c_node)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="409"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_LX__END_FOR_EACH_FROM(c_node)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BEGIN_FOR_EACH_FROM(c_tree_top,<sp/>c_node,<sp/>inclusive)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="412"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_LX__BEGIN_FOR_EACH_FROM(c_tree_top,<sp/>c_node,<sp/>inclusive,<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>END_FOR_EACH_FROM(c_node)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="415"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_LX__END_FOR_EACH_FROM(c_node)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"></highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="418"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>HAS_ETREE_DEFS_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h"/>
+  </compounddef>
+</doxygen>

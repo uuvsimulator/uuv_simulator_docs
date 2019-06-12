@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_imaging_utils_8h" kind="file" language="C++">
+    <compoundname>ImagingUtils.h</compoundname>
+    <includedby refid="_imaging_8h" local="yes">/usr/include/python3.6m/Imaging.h</includedby>
+    <invincdepgraph>
+      <node id="3068">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3067">
+        <label>/usr/include/python3.6m/ImagingUtils.h</label>
+        <link refid="_imaging_utils_8h"/>
+        <childnode refid="3068" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_imaging_utils_8h_1aeaba8b13fbf736d978cf2359b76793d3" prot="public" static="no">
+        <name>MAKE_UINT32</name>
+        <param><defname>u0</defname></param>
+        <param><defname>u1</defname></param>
+        <param><defname>u2</defname></param>
+        <param><defname>u3</defname></param>
+        <initializer>(u0 | (u1&lt;&lt;8) | (u2&lt;&lt;16) | (u3&lt;&lt;24))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="8" column="14" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a845ed2a265b8fc2651c440a157a12050" prot="public" static="no">
+        <name>MASK_UINT32_CHANNEL_0</name>
+        <initializer>0x000000ff</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="9" column="13" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a6fec1d88cba59b49f4f2bc9c54ef4665" prot="public" static="no">
+        <name>MASK_UINT32_CHANNEL_1</name>
+        <initializer>0x0000ff00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="10" column="13" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a9cd608d809112d5af5033cf7b2e20fac" prot="public" static="no">
+        <name>MASK_UINT32_CHANNEL_2</name>
+        <initializer>0x00ff0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="11" column="13" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1ab31e05d367a954f90338ac484067c9e9" prot="public" static="no">
+        <name>MASK_UINT32_CHANNEL_3</name>
+        <initializer>0xff000000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="12" column="13" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a5b8442cdae73d078b7a90b2f4bdf8b47" prot="public" static="no">
+        <name>SHIFTFORDIV255</name>
+        <param><defname>a</defname></param>
+        <initializer>((((a) &gt;&gt; 8) + a) &gt;&gt; 8)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="16" column="9" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1aa8db7bcf3846b7138b6d9bbdec5cc2f3" prot="public" static="no">
+        <name>MULDIV255</name>
+        <param><defname>a</defname></param>
+        <param><defname>b</defname></param>
+        <param><defname>tmp</defname></param>
+        <initializer>(tmp = (a) * (b) + 128, SHIFTFORDIV255(tmp))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="20" column="9" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a354e43c6d8f75f225e3e1d65398d6264" prot="public" static="no">
+        <name>DIV255</name>
+        <param><defname>a</defname></param>
+        <param><defname>tmp</defname></param>
+        <initializer>(tmp = (a) + 128, SHIFTFORDIV255(tmp))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="23" column="9" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1afd12971adbef4f9e7bc4614968086880" prot="public" static="no">
+        <name>BLEND</name>
+        <param><defname>mask</defname></param>
+        <param><defname>in1</defname></param>
+        <param><defname>in2</defname></param>
+        <param><defname>tmp1</defname></param>
+        <initializer>DIV255(in1 * (255 - mask) + in2 * mask, tmp1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="26" column="9" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_imaging_utils_8h_1a66873234e7e665f624d07dccad1be441" prot="public" static="no">
+        <name>PREBLEND</name>
+        <param><defname>mask</defname></param>
+        <param><defname>in1</defname></param>
+        <param><defname>in2</defname></param>
+        <param><defname>tmp1</defname></param>
+        <initializer>(MULDIV255(in1, (255 - mask), tmp1) + in2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="29" column="9" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_imaging_utils_8h_1a6d993e007193611fe7885d46ed7b2d3f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float _i2f</definition>
+        <argsstring>(int v)</argsstring>
+        <name>_i2f</name>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImagingUtils.h" line="44" column="1" bodyfile="/usr/include/python3.6m/ImagingUtils.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifdef<sp/>WORDS_BIGENDIAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MAKE_UINT32(u0,<sp/>u1,<sp/>u2,<sp/>u3)<sp/>(u3<sp/>|<sp/>(u2&lt;&lt;8)<sp/>|<sp/>(u1&lt;&lt;16)<sp/>|<sp/>(u0&lt;&lt;24))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_0<sp/>0xff000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_1<sp/>0x00ff0000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_2<sp/>0x0000ff00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_3<sp/>0x000000ff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MAKE_UINT32(u0,<sp/>u1,<sp/>u2,<sp/>u3)<sp/>(u0<sp/>|<sp/>(u1&lt;&lt;8)<sp/>|<sp/>(u2&lt;&lt;16)<sp/>|<sp/>(u3&lt;&lt;24))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_0<sp/>0x000000ff</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_1<sp/>0x0000ff00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_2<sp/>0x00ff0000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MASK_UINT32_CHANNEL_3<sp/>0xff000000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SHIFTFORDIV255(a)\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((((a)<sp/>&gt;&gt;<sp/>8)<sp/>+<sp/>a)<sp/>&gt;&gt;<sp/>8)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>like<sp/>(a<sp/>*<sp/>b<sp/>+<sp/>127)<sp/>/<sp/>255),<sp/>but<sp/>much<sp/>faster<sp/>on<sp/>most<sp/>platforms<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MULDIV255(a,<sp/>b,<sp/>tmp)\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(tmp<sp/>=<sp/>(a)<sp/>*<sp/>(b)<sp/>+<sp/>128,<sp/>SHIFTFORDIV255(tmp))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DIV255(a,<sp/>tmp)\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(tmp<sp/>=<sp/>(a)<sp/>+<sp/>128,<sp/>SHIFTFORDIV255(tmp))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BLEND(mask,<sp/>in1,<sp/>in2,<sp/>tmp1)\</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>DIV255(in1<sp/>*<sp/>(255<sp/>-<sp/>mask)<sp/>+<sp/>in2<sp/>*<sp/>mask,<sp/>tmp1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PREBLEND(mask,<sp/>in1,<sp/>in2,<sp/>tmp1)\</highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(MULDIV255(in1,<sp/>(255<sp/>-<sp/>mask),<sp/>tmp1)<sp/>+<sp/>in2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>is<sp/>to<sp/>work<sp/>around<sp/>a<sp/>bug<sp/>in<sp/>GCC<sp/>prior<sp/>4.9<sp/>in<sp/>64<sp/>bit<sp/>mode.</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/>GCC<sp/>generates<sp/>code<sp/>with<sp/>partial<sp/>dependency<sp/>which<sp/>is<sp/>3<sp/>times<sp/>slower.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>See:<sp/>http://stackoverflow.com/a/26588074/253146<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__x86_64__)<sp/>&amp;&amp;<sp/>defined(__SSE__)<sp/>&amp;&amp;<sp/><sp/>!<sp/>defined(__NO_INLINE__)<sp/>&amp;&amp;<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>!<sp/>defined(__clang__)<sp/>&amp;&amp;<sp/>defined(GCC_VERSION)<sp/>&amp;&amp;<sp/>(GCC_VERSION<sp/>&lt;<sp/>40900)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>__attribute__((always_inline))<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>_i2f(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v)<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>__asm__(</highlight><highlight class="stringliteral">&quot;xorps<sp/>%0,<sp/>%0;<sp/>cvtsi2ss<sp/>%1,<sp/>%0&quot;</highlight><highlight class="normal"><sp/>:<sp/></highlight><highlight class="stringliteral">&quot;=X&quot;</highlight><highlight class="normal">(x)<sp/>:<sp/></highlight><highlight class="stringliteral">&quot;r&quot;</highlight><highlight class="normal">(v)<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>x;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>_i2f(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>v)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal">)<sp/>v;<sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/ImagingUtils.h"/>
+  </compounddef>
+</doxygen>

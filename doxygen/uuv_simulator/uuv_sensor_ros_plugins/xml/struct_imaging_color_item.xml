@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_imaging_color_item" kind="struct" language="C++" prot="public">
+    <compoundname>ImagingColorItem</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_imaging_color_item_1aff41fe37fb4c491797e369454dbaa263" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingColorItem::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="291" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_color_item_1a9ed62ea2aa596b9cb2e731ed4e691106" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingColorItem::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="291" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_color_item_1a7ecfb058ce7a3d767102efb535aa979a" prot="public" static="no" mutable="no">
+        <type>INT32</type>
+        <definition>INT32 ImagingColorItem::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="291" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_color_item_1afd7fc10b2d73c90c27c426b728143f5e" prot="public" static="no" mutable="no">
+        <type>INT32</type>
+        <definition>INT32 ImagingColorItem::pixel</definition>
+        <argsstring></argsstring>
+        <name>pixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="291" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/Imaging.h" line="291" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="291" bodyend="291"/>
+    <listofallmembers>
+      <member refid="struct_imaging_color_item_1a7ecfb058ce7a3d767102efb535aa979a" prot="public" virt="non-virtual"><scope>ImagingColorItem</scope><name>count</name></member>
+      <member refid="struct_imaging_color_item_1afd7fc10b2d73c90c27c426b728143f5e" prot="public" virt="non-virtual"><scope>ImagingColorItem</scope><name>pixel</name></member>
+      <member refid="struct_imaging_color_item_1aff41fe37fb4c491797e369454dbaa263" prot="public" virt="non-virtual"><scope>ImagingColorItem</scope><name>x</name></member>
+      <member refid="struct_imaging_color_item_1a9ed62ea2aa596b9cb2e731ed4e691106" prot="public" virt="non-virtual"><scope>ImagingColorItem</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="moduleobject_8h" kind="file" language="C++">
+    <compoundname>moduleobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3244">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3245">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3247">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3242">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3243" relation="include">
+        </childnode>
+        <childnode refid="3245" relation="include">
+        </childnode>
+        <childnode refid="3246" relation="include">
+        </childnode>
+        <childnode refid="3247" relation="include">
+        </childnode>
+        <childnode refid="3248" relation="include">
+        </childnode>
+      </node>
+      <node id="3248">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3243">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3244" relation="include">
+        </childnode>
+      </node>
+      <node id="3241">
+        <label>/usr/include/python3.6m/moduleobject.h</label>
+        <link refid="moduleobject_8h"/>
+        <childnode refid="3242" relation="include">
+        </childnode>
+      </node>
+      <node id="3246">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_module_def___base" prot="public">PyModuleDef_Base</innerclass>
+    <innerclass refid="struct_py_module_def___slot" prot="public">PyModuleDef_Slot</innerclass>
+    <innerclass refid="struct_py_module_def" prot="public">PyModuleDef</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="moduleobject_8h_1a465a66404adf0a355bc57f9443cf2854" prot="public" static="no">
+        <name>PyModule_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyModule_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="12" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="moduleobject_8h_1a2c11dcf654076785deaa205c15044fe5" prot="public" static="no">
+        <name>PyModule_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyModule_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="13" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="moduleobject_8h_1afb83484784f42cd22eec51bc8087e1a6" prot="public" static="no">
+        <name>PyModuleDef_HEAD_INIT</name>
+        <initializer>{ \
+    PyObject_HEAD_INIT(NULL)    \
+    NULL, /* m_init */          \
+    0,    /* m_index */         \
+    NULL, /* m_copy */          \
+  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="50" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="moduleobject_8h_1ad822d5e2e7c88f5dc3bd0136700563a2" prot="public" static="no">
+        <name>Py_mod_create</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="65" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="moduleobject_8h_1a17a466d94dc9ab3bc9e9c94c46635137" prot="public" static="no">
+        <name>Py_mod_exec</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="66" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="moduleobject_8h_1a7599bbfae2f47b080eb06044b5762687" prot="public" static="no">
+        <name>_Py_mod_LAST_SLOT</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="69" column="9" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="moduleobject_8h_1a1c012f37c7cd029fbadc9c793601c204" prot="public" static="no">
+        <type>struct <ref refid="struct_py_module_def___base" kindref="compound">PyModuleDef_Base</ref></type>
+        <definition>typedef struct PyModuleDef_Base  PyModuleDef_Base</definition>
+        <argsstring></argsstring>
+        <name>PyModuleDef_Base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="moduleobject_8h_1a75ae6cf254b670872a8b5baa4e6832ff" prot="public" static="no">
+        <type>struct <ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref></type>
+        <definition>typedef struct PyModuleDef_Slot  PyModuleDef_Slot</definition>
+        <argsstring></argsstring>
+        <name>PyModuleDef_Slot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="moduleobject_8h_1a844f6c932cf70d43bff58b596cb45874" prot="public" static="no">
+        <type>struct <ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref></type>
+        <definition>typedef struct PyModuleDef  PyModuleDef</definition>
+        <argsstring></argsstring>
+        <name>PyModuleDef</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="84" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="moduleobject_8h_1aabe512f4abdc5a341a456d3a94158b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyModule_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="moduleobject_8h_1a305bed41512040b02c93b66a924c2139" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyModule_NewObject(PyObject *name)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="moduleobject_8h_1a8d85fdbb855f81859b5072e1fa59bf76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(const char *) PyModule_GetName(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="moduleobject_8h_1a07c3e6f8531f89f606a91f25078c3594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _PyModule_Clear(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="moduleobject_8h_1aa939e492c1e0c009157c4ea1df97a5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(struct PyModuleDef *) PyModule_GetDef(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>struct <ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="moduleobject_8h_1a1f964fd06b8c7cf88052df247fa23698" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void *) PyModule_GetState(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Module<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MODULEOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MODULEOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyModule_Type;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyModule_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyModule_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyModule_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyModule_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModule_NewObject(</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModule_New(</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UTF-8<sp/>encoded<sp/>string<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModule_GetDict(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModule_GetNameObject(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>PyModule_GetName(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>PyModule_GetFilename(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModule_GetFilenameObject(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyModule_Clear(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyModule_ClearDict(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*)<sp/>PyModule_GetDef(<ref refid="struct__object" kindref="compound">PyObject</ref>*);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)<sp/>PyModule_GetState(<ref refid="struct__object" kindref="compound">PyObject</ref>*);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03050000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>New<sp/>in<sp/>3.5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyModuleDef_Init(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyModuleDef_Type;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="struct_py_module_def___base" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_py_module_def___base" kindref="compound">PyModuleDef_Base</ref><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>(*m_init)(void);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/>Py_ssize_t<sp/>m_index;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>m_copy;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">}<sp/><ref refid="struct_py_module_def___base" kindref="compound">PyModuleDef_Base</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyModuleDef_HEAD_INIT<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="51"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject_HEAD_INIT(NULL)<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>NULL,<sp/></highlight><highlight class="comment">/*<sp/>m_init<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>0,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>m_index<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>NULL,<sp/></highlight><highlight class="comment">/*<sp/>m_copy<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref>;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03050000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>New<sp/>in<sp/>3.5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="struct_py_module_def___slot" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>slot;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*value;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">}<sp/><ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_mod_create<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_mod_exec<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_mod_LAST_SLOT<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>New<sp/>in<sp/>3.5<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="struct_py_module_def" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>{</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><ref refid="struct_py_module_def___base" kindref="compound">PyModuleDef_Base</ref><sp/>m_base;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>m_name;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>m_doc;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/>Py_ssize_t<sp/>m_size;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><ref refid="struct_py_method_def" kindref="compound">PyMethodDef</ref><sp/>*m_methods;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref>*<sp/>m_slots;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/>traverseproc<sp/>m_traverse;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/>inquiry<sp/>m_clear;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/>freefunc<sp/>m_free;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">}<sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_MODULEOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/moduleobject.h"/>
+  </compounddef>
+</doxygen>

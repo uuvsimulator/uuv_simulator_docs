@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_s_a_x_locator" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlSAXLocator</compoundname>
+    <includes refid="parser_8h" local="no">parser.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_s_a_x_locator_1a11597d38dc3f160c83099f1ec271c423" prot="public" static="no" mutable="no">
+        <type>const xmlChar *(*</type>
+        <definition>const xmlChar*(* _xmlSAXLocator::getPublicId) (void *ctx)</definition>
+        <argsstring>)(void *ctx)</argsstring>
+        <name>getPublicId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="322" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_locator_1a1e0593c3737ab0b589fef883852d61ba" prot="public" static="no" mutable="no">
+        <type>const xmlChar *(*</type>
+        <definition>const xmlChar*(* _xmlSAXLocator::getSystemId) (void *ctx)</definition>
+        <argsstring>)(void *ctx)</argsstring>
+        <name>getSystemId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="323" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_locator_1a8a2688e388ab72c211e0a27e54d2e0c3" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* _xmlSAXLocator::getLineNumber) (void *ctx)</definition>
+        <argsstring>)(void *ctx)</argsstring>
+        <name>getLineNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="324" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_locator_1a3d0cf862955861acdee6da5280b1284d" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* _xmlSAXLocator::getColumnNumber) (void *ctx)</definition>
+        <argsstring>)(void *ctx)</argsstring>
+        <name>getColumnNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="325" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>xmlSAXLocator:</para><para>A SAX Locator. </para>    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="321" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="321" bodyend="326"/>
+    <listofallmembers>
+      <member refid="struct__xml_s_a_x_locator_1a3d0cf862955861acdee6da5280b1284d" prot="public" virt="non-virtual"><scope>_xmlSAXLocator</scope><name>getColumnNumber</name></member>
+      <member refid="struct__xml_s_a_x_locator_1a8a2688e388ab72c211e0a27e54d2e0c3" prot="public" virt="non-virtual"><scope>_xmlSAXLocator</scope><name>getLineNumber</name></member>
+      <member refid="struct__xml_s_a_x_locator_1a11597d38dc3f160c83099f1ec271c423" prot="public" virt="non-virtual"><scope>_xmlSAXLocator</scope><name>getPublicId</name></member>
+      <member refid="struct__xml_s_a_x_locator_1a1e0593c3737ab0b589fef883852d61ba" prot="public" virt="non-virtual"><scope>_xmlSAXLocator</scope><name>getSystemId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

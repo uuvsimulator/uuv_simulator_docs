@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pymem_8h" kind="file" language="C++">
+    <compoundname>pymem.h</compoundname>
+    <includes refid="pyport_8h" local="yes">pyport.h</includes>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <includedby refid="objimpl_8h" local="yes">/usr/include/python3.6m/objimpl.h</includedby>
+    <incdepgraph>
+      <node id="3540">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3536">
+        <label>/usr/include/python3.6m/pymem.h</label>
+        <link refid="pymem_8h"/>
+        <childnode refid="3537" relation="include">
+        </childnode>
+      </node>
+      <node id="3538">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="3542">
+        <label>time.h</label>
+      </node>
+      <node id="3541">
+        <label>math.h</label>
+      </node>
+      <node id="3537">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="3538" relation="include">
+        </childnode>
+        <childnode refid="3539" relation="include">
+        </childnode>
+        <childnode refid="3540" relation="include">
+        </childnode>
+        <childnode refid="3541" relation="include">
+        </childnode>
+        <childnode refid="3542" relation="include">
+        </childnode>
+      </node>
+      <node id="3539">
+        <label>inttypes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3546">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3547">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3543">
+        <label>/usr/include/python3.6m/pymem.h</label>
+        <link refid="pymem_8h"/>
+        <childnode refid="3544" relation="include">
+        </childnode>
+        <childnode refid="3551" relation="include">
+        </childnode>
+      </node>
+      <node id="3549">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3551">
+        <label>/usr/include/python3.6m/objimpl.h</label>
+        <link refid="objimpl_8h_source"/>
+        <childnode refid="3544" relation="include">
+        </childnode>
+      </node>
+      <node id="3544">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3545" relation="include">
+        </childnode>
+        <childnode refid="3547" relation="include">
+        </childnode>
+        <childnode refid="3548" relation="include">
+        </childnode>
+        <childnode refid="3549" relation="include">
+        </childnode>
+        <childnode refid="3550" relation="include">
+        </childnode>
+      </node>
+      <node id="3550">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3545">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3546" relation="include">
+        </childnode>
+      </node>
+      <node id="3548">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_mem_allocator_ex" prot="public">PyMemAllocatorEx</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pymem_8h_1ae8de012416d8167e311872a1d6710121" prot="public" static="no">
+        <name>PyMem_MALLOC</name>
+        <param><defname>n</defname></param>
+        <initializer>PyMem_Malloc(n)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="123" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1abf2214e1ddf9ee451b2baf84692e0110" prot="public" static="no">
+        <name>PyMem_REALLOC</name>
+        <param><defname>p</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>PyMem_Realloc(p, n)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="124" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1a3410b9b6c7bd5616824edd5877740943" prot="public" static="no">
+        <name>PyMem_FREE</name>
+        <param><defname>p</defname></param>
+        <initializer>PyMem_Free(p)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="125" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1a72e60fdd5b400f2083d71ed01f382ee3" prot="public" static="no">
+        <name>PyMem_New</name>
+        <param><defname>type</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( ((size_t)(n) &gt; PY_SSIZE_T_MAX / sizeof(type)) ? NULL :	\
+	( (type *) PyMem_Malloc((n) * sizeof(type)) ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="137" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1a0b75e31b46d1959321e376d813d9dc58" prot="public" static="no">
+        <name>PyMem_NEW</name>
+        <param><defname>type</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( ((size_t)(n) &gt; PY_SSIZE_T_MAX / sizeof(type)) ? NULL :	\
+	( (type *) PyMem_MALLOC((n) * sizeof(type)) ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="140" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1afb22d91b2530d4885af927f392a3717b" prot="public" static="no">
+        <name>PyMem_Resize</name>
+        <param><defname>p</defname></param>
+        <param><defname>type</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (p) = ((size_t)(n) &gt; PY_SSIZE_T_MAX / sizeof(type)) ? NULL :	\
+	(type *) PyMem_Realloc((p), (n) * sizeof(type)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="150" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1a9c3d0e79d90b74b630f9d9f1096efa28" prot="public" static="no">
+        <name>PyMem_RESIZE</name>
+        <param><defname>p</defname></param>
+        <param><defname>type</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (p) = ((size_t)(n) &gt; PY_SSIZE_T_MAX / sizeof(type)) ? NULL :	\
+	(type *) PyMem_REALLOC((p), (n) * sizeof(type)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="153" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1ab16433cc148ea9f4212de6d5376562e0" prot="public" static="no">
+        <name>PyMem_Del</name>
+        <initializer>PyMem_Free</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="160" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymem_8h_1a5e47ad0cf985481e482060a940ab00cd" prot="public" static="no">
+        <name>PyMem_DEL</name>
+        <initializer>PyMem_FREE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="161" column="9" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="pymem_8h_1a5a3090093105ecd4e76db3f4b6aa0f20" prot="public" static="no">
+        <name>PyMemAllocatorDomain</name>
+        <enumvalue id="pymem_8h_1a5a3090093105ecd4e76db3f4b6aa0f20aa35427f5a0bbf1894817408c2fd1410e" prot="public">
+          <name>PYMEM_DOMAIN_RAW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pymem_8h_1a5a3090093105ecd4e76db3f4b6aa0f20aecaa825eb2b9ed28b4ac6d7d84c68686" prot="public">
+          <name>PYMEM_DOMAIN_MEM</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pymem_8h_1a5a3090093105ecd4e76db3f4b6aa0f20abb29f17012b9e4d7a712dd65ca217bd1" prot="public">
+          <name>PYMEM_DOMAIN_OBJ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="164" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="164" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="pymem_8h_1a21780352e5d84f4772be68f7e07754e0" prot="public" static="no">
+        <type>unsigned int</type>
+        <definition>typedef unsigned int _PyTraceMalloc_domain_t</definition>
+        <argsstring></argsstring>
+        <name>_PyTraceMalloc_domain_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="29" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pymem_8h_1ae8214a3e983e767cced72e5b5dc29d4f" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t elsize</definition>
+        <argsstring></argsstring>
+        <name>elsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="16" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pymem_8h_1a869ff6351d8479366128bb1febc90c9a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t new_size</definition>
+        <argsstring></argsstring>
+        <name>new_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="17" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pymem_8h_1ab9ed1f49a75a5e709fc7453836c271db" prot="public" static="no" mutable="no">
+        <type>uintptr_t</type>
+        <definition>uintptr_t ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="40" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pymem_8h_1a3ca8380840ef644ec699c1c600febcd5" prot="public" static="no" mutable="no">
+        <type>uintptr_t size_t</type>
+        <definition>uintptr_t size_t size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="41" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pymem_8h_1aa9d9ba564624e603e605591eda3edf00" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_mem_allocator_ex" kindref="compound">PyMemAllocatorEx</ref> *</type>
+        <definition>PyMemAllocatorEx * allocator</definition>
+        <argsstring></argsstring>
+        <name>allocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="194" column="1" bodyfile="/usr/include/python3.6m/pymem.h" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pymem_8h_1aad0578b0306412d0ec34781a829f9b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void *) PyMem_RawMalloc(size_t size)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymem_8h_1a531b3b1daae11e9ad9f8170ac2b6bf54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) PyMem_RawFree(void *ptr)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymem_8h_1afa04bab01eb324b91ba2c72bd76783fe" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PyMem_SetupAllocators(const char *opt)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymem_8h_1aeb1228308e4f253daf159a6986477bd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) _PyTraceMalloc_GetTraceback(_PyTraceMalloc_domain_t domain</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymem_8h_1aedacf5126f1af52b8e88966cecf2d9c0" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(char *) _PyMem_RawStrdup(const char *str)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymem.h" line="111" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>The<sp/>PyMem_<sp/>family:<sp/><sp/>low-level<sp/>memory<sp/>allocation<sp/>interfaces.</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>See<sp/>objimpl.h<sp/>for<sp/>the<sp/>PyObject_<sp/>memory<sp/>family.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_PYMEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYMEM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_RawMalloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_RawCalloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nelem,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elsize);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_RawRealloc(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyMem_RawFree(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Configure<sp/>the<sp/>Python<sp/>memory<sp/>allocators.<sp/>Pass<sp/>NULL<sp/>to<sp/>use<sp/>default</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/>allocators.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyMem_SetupAllocators(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*opt);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_PYMALLOC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyMem_PymallocEnabled(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Identifier<sp/>of<sp/>an<sp/>address<sp/>space<sp/>(domain)<sp/>in<sp/>tracemalloc<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_PyTraceMalloc_domain_t;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Track<sp/>an<sp/>allocated<sp/>memory<sp/>block<sp/>in<sp/>the<sp/>tracemalloc<sp/>module.</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>0<sp/>on<sp/>success,<sp/>return<sp/>-1<sp/>on<sp/>error<sp/>(failed<sp/>to<sp/>allocate<sp/>memory<sp/>to<sp/>store</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/>the<sp/>trace).</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>-2<sp/>if<sp/>tracemalloc<sp/>is<sp/>disabled.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/>If<sp/>memory<sp/>block<sp/>is<sp/>already<sp/>tracked,<sp/>update<sp/>the<sp/>existing<sp/>trace.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyTraceMalloc_Track(</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyTraceMalloc_domain_t<sp/>domain,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>uintptr_t<sp/>ptr,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Untrack<sp/>an<sp/>allocated<sp/>memory<sp/>block<sp/>in<sp/>the<sp/>tracemalloc<sp/>module.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/>Do<sp/>nothing<sp/>if<sp/>the<sp/>block<sp/>was<sp/>not<sp/>tracked.</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"></highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>-2<sp/>if<sp/>tracemalloc<sp/>is<sp/>disabled,<sp/>otherwise<sp/>return<sp/>0.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyTraceMalloc_Untrack(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyTraceMalloc_domain_t<sp/>domain,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>uintptr_t<sp/>ptr);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>traceback<sp/>where<sp/>a<sp/>memory<sp/>block<sp/>was<sp/>allocated.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>a<sp/>tuple<sp/>of<sp/>(filename:<sp/>str,<sp/>lineno:<sp/>int)<sp/>tuples.</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"></highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>None<sp/>if<sp/>the<sp/>tracemalloc<sp/>module<sp/>is<sp/>disabled<sp/>or<sp/>if<sp/>the<sp/>memory<sp/>block</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/>is<sp/>not<sp/>tracked<sp/>by<sp/>tracemalloc.</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"></highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/>Raise<sp/>an<sp/>exception<sp/>and<sp/>return<sp/>NULL<sp/>on<sp/>error.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref>*)<sp/>_PyTraceMalloc_GetTraceback(</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyTraceMalloc_domain_t<sp/>domain,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>uintptr_t<sp/>ptr);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>BEWARE:</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"></highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/>Each<sp/>interface<sp/>exports<sp/>both<sp/>functions<sp/>and<sp/>macros.<sp/><sp/>Extension<sp/>modules<sp/>should</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/>use<sp/>the<sp/>functions,<sp/>to<sp/>ensure<sp/>binary<sp/>compatibility<sp/>across<sp/>Python<sp/>versions.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/>Because<sp/>the<sp/>Python<sp/>implementation<sp/>is<sp/>free<sp/>to<sp/>change<sp/>internal<sp/>details,<sp/>and</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/>the<sp/>macros<sp/>may<sp/>(or<sp/>may<sp/>not)<sp/>expose<sp/>details<sp/>for<sp/>speed,<sp/>if<sp/>you<sp/>do<sp/>use<sp/>the</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/>macros<sp/>you<sp/>must<sp/>recompile<sp/>your<sp/>extensions<sp/>with<sp/>each<sp/>Python<sp/>release.</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"></highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/>Never<sp/>mix<sp/>calls<sp/>to<sp/>PyMem_<sp/>with<sp/>calls<sp/>to<sp/>the<sp/>platform<sp/>malloc/realloc/</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/>calloc/free.<sp/><sp/>For<sp/>example,<sp/>on<sp/>Windows<sp/>different<sp/>DLLs<sp/>may<sp/>end<sp/>up<sp/>using</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/>different<sp/>heaps,<sp/>and<sp/>if<sp/>you<sp/>use<sp/>PyMem_Malloc<sp/>you&apos;ll<sp/>get<sp/>the<sp/>memory<sp/>from<sp/>the</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/>heap<sp/>used<sp/>by<sp/>the<sp/>Python<sp/>DLL;<sp/>it<sp/>could<sp/>be<sp/>a<sp/>disaster<sp/>if<sp/>you<sp/>free()&apos;ed<sp/>that</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/>directly<sp/>in<sp/>your<sp/>own<sp/>extension.<sp/><sp/>Using<sp/>PyMem_Free<sp/>instead<sp/>ensures<sp/>Python</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/>can<sp/>return<sp/>the<sp/>memory<sp/>to<sp/>the<sp/>proper<sp/>heap.<sp/><sp/>As<sp/>another<sp/>example,<sp/>in</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/>PYMALLOC_DEBUG<sp/>mode,<sp/>Python<sp/>wraps<sp/>all<sp/>calls<sp/>to<sp/>all<sp/>PyMem_<sp/>and<sp/>PyObject_</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/>memory<sp/>functions<sp/>in<sp/>special<sp/>debugging<sp/>wrappers<sp/>that<sp/>add<sp/>additional</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/>debugging<sp/>info<sp/>to<sp/>dynamic<sp/>memory<sp/>blocks.<sp/><sp/>The<sp/>system<sp/>routines<sp/>have<sp/>no<sp/>idea</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/>what<sp/>to<sp/>do<sp/>with<sp/>that<sp/>stuff,<sp/>and<sp/>the<sp/>Python<sp/>wrappers<sp/>have<sp/>no<sp/>idea<sp/>what<sp/>to<sp/>do</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/>with<sp/>raw<sp/>blocks<sp/>obtained<sp/>directly<sp/>by<sp/>the<sp/>system<sp/>routines<sp/>then.</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"></highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/><sp/><sp/>The<sp/>GIL<sp/>must<sp/>be<sp/>held<sp/>when<sp/>using<sp/>these<sp/>APIs.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>Raw<sp/>memory<sp/>interface</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>====================</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Functions</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/>Functions<sp/>supplying<sp/>platform-independent<sp/>semantics<sp/>for<sp/>malloc/realloc/</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/>free.<sp/><sp/>These<sp/>functions<sp/>make<sp/>sure<sp/>that<sp/>allocating<sp/>0<sp/>bytes<sp/>returns<sp/>a<sp/>distinct</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/>non-NULL<sp/>pointer<sp/>(whenever<sp/>possible<sp/>--<sp/>if<sp/>we&apos;re<sp/>flat<sp/>out<sp/>of<sp/>memory,<sp/>NULL</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/>may<sp/>be<sp/>returned),<sp/>even<sp/>if<sp/>the<sp/>platform<sp/>malloc<sp/>and<sp/>realloc<sp/>don&apos;t.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/>Returned<sp/>pointers<sp/>must<sp/>be<sp/>checked<sp/>for<sp/>NULL<sp/>explicitly.<sp/><sp/>No<sp/>action<sp/>is</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/>performed<sp/>on<sp/>failure<sp/>(no<sp/>exception<sp/>is<sp/>set,<sp/>no<sp/>warning<sp/>is<sp/>printed,<sp/>etc).</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_Malloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03050000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_Calloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nelem,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elsize);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyMem_Realloc(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyMem_Free(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>_PyMem_RawStrdup(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>_PyMem_Strdup(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyMem_MALLOC(0)<sp/>means<sp/>malloc(1).<sp/>Some<sp/>systems<sp/>would<sp/>return<sp/>NULL</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/>for<sp/>malloc(0),<sp/>which<sp/>would<sp/>be<sp/>treated<sp/>as<sp/>an<sp/>error.<sp/>Some<sp/>platforms</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/>would<sp/>return<sp/>a<sp/>pointer<sp/>with<sp/>no<sp/>memory<sp/>behind<sp/>it,<sp/>which<sp/>would<sp/>break</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/>pymalloc.<sp/>To<sp/>solve<sp/>these<sp/>problems,<sp/>allocate<sp/>an<sp/>extra<sp/>byte.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Returns<sp/>NULL<sp/>to<sp/>indicate<sp/>error<sp/>if<sp/>a<sp/>negative<sp/>size<sp/>or<sp/>size<sp/>larger<sp/>than</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/>Py_ssize_t<sp/>can<sp/>represent<sp/>is<sp/>supplied.<sp/><sp/>Helps<sp/>prevents<sp/>security<sp/>holes.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_MALLOC(n)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMem_Malloc(n)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_REALLOC(p,<sp/>n)<sp/><sp/><sp/><sp/><sp/>PyMem_Realloc(p,<sp/>n)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_FREE(p)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMem_Free(p)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>Type-oriented<sp/>memory<sp/>interface</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>==============================</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*<sp/>Allocate<sp/>memory<sp/>for<sp/>n<sp/>objects<sp/>of<sp/>the<sp/>given<sp/>type.<sp/><sp/>Returns<sp/>a<sp/>new<sp/>pointer</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/>*<sp/>or<sp/>NULL<sp/>if<sp/>the<sp/>request<sp/>was<sp/>too<sp/>large<sp/>or<sp/>memory<sp/>allocation<sp/>failed.<sp/><sp/>Use</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/>*<sp/>these<sp/>macros<sp/>rather<sp/>than<sp/>doing<sp/>the<sp/>multiplication<sp/>yourself<sp/>so<sp/>that<sp/>proper</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/>*<sp/>overflow<sp/>checking<sp/>is<sp/>always<sp/>done.</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_New(type,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="138"><highlight class="preprocessor"><sp/><sp/>(<sp/>((size_t)(n)<sp/>&gt;<sp/>PY_SSIZE_T_MAX<sp/>/<sp/>sizeof(type))<sp/>?<sp/>NULL<sp/>:<sp/><sp/>\</highlight></codeline>
+<codeline lineno="139"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>PyMem_Malloc((n)<sp/>*<sp/>sizeof(type))<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_NEW(type,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="141"><highlight class="preprocessor"><sp/><sp/>(<sp/>((size_t)(n)<sp/>&gt;<sp/>PY_SSIZE_T_MAX<sp/>/<sp/>sizeof(type))<sp/>?<sp/>NULL<sp/>:<sp/><sp/>\</highlight></codeline>
+<codeline lineno="142"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>PyMem_MALLOC((n)<sp/>*<sp/>sizeof(type))<sp/>)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>The<sp/>value<sp/>of<sp/>(p)<sp/>is<sp/>always<sp/>clobbered<sp/>by<sp/>this<sp/>macro<sp/>regardless<sp/>of<sp/>success.</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>The<sp/>caller<sp/>MUST<sp/>check<sp/>if<sp/>(p)<sp/>is<sp/>NULL<sp/>afterwards<sp/>and<sp/>deal<sp/>with<sp/>the<sp/>memory</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>error<sp/>if<sp/>so.<sp/><sp/>This<sp/>means<sp/>the<sp/>original<sp/>value<sp/>of<sp/>(p)<sp/>MUST<sp/>be<sp/>saved<sp/>for<sp/>the</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*<sp/>caller&apos;s<sp/>memory<sp/>error<sp/>handler<sp/>to<sp/>not<sp/>lose<sp/>track<sp/>of<sp/>it.</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_Resize(p,<sp/>type,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="151"><highlight class="preprocessor"><sp/><sp/>(<sp/>(p)<sp/>=<sp/>((size_t)(n)<sp/>&gt;<sp/>PY_SSIZE_T_MAX<sp/>/<sp/>sizeof(type))<sp/>?<sp/>NULL<sp/>:<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="152"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(type<sp/>*)<sp/>PyMem_Realloc((p),<sp/>(n)<sp/>*<sp/>sizeof(type))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_RESIZE(p,<sp/>type,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="154"><highlight class="preprocessor"><sp/><sp/>(<sp/>(p)<sp/>=<sp/>((size_t)(n)<sp/>&gt;<sp/>PY_SSIZE_T_MAX<sp/>/<sp/>sizeof(type))<sp/>?<sp/>NULL<sp/>:<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="155"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(type<sp/>*)<sp/>PyMem_REALLOC((p),<sp/>(n)<sp/>*<sp/>sizeof(type))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyMem{Del,DEL}<sp/>are<sp/>left<sp/>over<sp/>from<sp/>ancient<sp/>days,<sp/>and<sp/>shouldn&apos;t<sp/>be<sp/>used</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/>*<sp/>anymore.<sp/><sp/>They&apos;re<sp/>just<sp/>confusing<sp/>aliases<sp/>for<sp/>PyMem_{Free,FREE}<sp/>now.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_Del<sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMem_Free</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMem_DEL<sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMem_FREE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>PyMem_RawMalloc(),<sp/>PyMem_RawRealloc()<sp/>and<sp/>PyMem_RawFree()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>PYMEM_DOMAIN_RAW,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>PyMem_Malloc(),<sp/>PyMem_Realloc()<sp/>and<sp/>PyMem_Free()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/>PYMEM_DOMAIN_MEM,</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>PyObject_Malloc(),<sp/>PyObject_Realloc()<sp/>and<sp/>PyObject_Free()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>PYMEM_DOMAIN_OBJ</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}<sp/>PyMemAllocatorDomain;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="struct_py_mem_allocator_ex" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>user<sp/>context<sp/>passed<sp/>as<sp/>the<sp/>first<sp/>argument<sp/>to<sp/>the<sp/>4<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>a<sp/>memory<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>(*malloc)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>a<sp/>memory<sp/>block<sp/>initialized<sp/>by<sp/>zeros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>(*calloc)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nelem,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elsize);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>or<sp/>resize<sp/>a<sp/>memory<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>(*realloc)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>release<sp/>a<sp/>memory<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*free)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}<sp/><ref refid="struct_py_mem_allocator_ex" kindref="compound">PyMemAllocatorEx</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>memory<sp/>block<sp/>allocator<sp/>of<sp/>the<sp/>specified<sp/>domain.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyMem_GetAllocator(PyMemAllocatorDomain<sp/>domain,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMemAllocatorEx<sp/>*allocator);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Set<sp/>the<sp/>memory<sp/>block<sp/>allocator<sp/>of<sp/>the<sp/>specified<sp/>domain.</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"></highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/>The<sp/>new<sp/>allocator<sp/>must<sp/>return<sp/>a<sp/>distinct<sp/>non-NULL<sp/>pointer<sp/>when<sp/>requesting</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/><sp/><sp/>zero<sp/>bytes.</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"></highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/>For<sp/>the<sp/>PYMEM_DOMAIN_RAW<sp/>domain,<sp/>the<sp/>allocator<sp/>must<sp/>be<sp/>thread-safe:<sp/>the<sp/>GIL</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/>is<sp/>not<sp/>held<sp/>when<sp/>the<sp/>allocator<sp/>is<sp/>called.</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"></highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/>If<sp/>the<sp/>new<sp/>allocator<sp/>is<sp/>not<sp/>a<sp/>hook<sp/>(don&apos;t<sp/>call<sp/>the<sp/>previous<sp/>allocator),<sp/>the</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/>PyMem_SetupDebugHooks()<sp/>function<sp/>must<sp/>be<sp/>called<sp/>to<sp/>reinstall<sp/>the<sp/>debug<sp/>hooks</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/>on<sp/>top<sp/>on<sp/>the<sp/>new<sp/>allocator.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyMem_SetAllocator(PyMemAllocatorDomain<sp/>domain,</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyMemAllocatorEx<sp/>*allocator);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Setup<sp/>hooks<sp/>to<sp/>detect<sp/>bugs<sp/>in<sp/>the<sp/>following<sp/>Python<sp/>memory<sp/>allocator</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/>functions:</highlight></codeline>
+<codeline lineno="212"><highlight class="comment"></highlight></codeline>
+<codeline lineno="213"><highlight class="comment"><sp/><sp/><sp/>-<sp/>PyMem_RawMalloc(),<sp/>PyMem_RawRealloc(),<sp/>PyMem_RawFree()</highlight></codeline>
+<codeline lineno="214"><highlight class="comment"><sp/><sp/><sp/>-<sp/>PyMem_Malloc(),<sp/>PyMem_Realloc(),<sp/>PyMem_Free()</highlight></codeline>
+<codeline lineno="215"><highlight class="comment"><sp/><sp/><sp/>-<sp/>PyObject_Malloc(),<sp/>PyObject_Realloc()<sp/>and<sp/>PyObject_Free()</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"></highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/><sp/><sp/>Newly<sp/>allocated<sp/>memory<sp/>is<sp/>filled<sp/>with<sp/>the<sp/>byte<sp/>0xCB,<sp/>freed<sp/>memory<sp/>is<sp/>filled</highlight></codeline>
+<codeline lineno="218"><highlight class="comment"><sp/><sp/><sp/>with<sp/>the<sp/>byte<sp/>0xDB.<sp/>Additionnal<sp/>checks:</highlight></codeline>
+<codeline lineno="219"><highlight class="comment"></highlight></codeline>
+<codeline lineno="220"><highlight class="comment"><sp/><sp/><sp/>-<sp/>detect<sp/>API<sp/>violations,<sp/>ex:<sp/>PyObject_Free()<sp/>called<sp/>on<sp/>a<sp/>buffer<sp/>allocated</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>by<sp/>PyMem_Malloc()</highlight></codeline>
+<codeline lineno="222"><highlight class="comment"><sp/><sp/><sp/>-<sp/>detect<sp/>write<sp/>before<sp/>the<sp/>start<sp/>of<sp/>the<sp/>buffer<sp/>(buffer<sp/>underflow)</highlight></codeline>
+<codeline lineno="223"><highlight class="comment"><sp/><sp/><sp/>-<sp/>detect<sp/>write<sp/>after<sp/>the<sp/>end<sp/>of<sp/>the<sp/>buffer<sp/>(buffer<sp/>overflow)</highlight></codeline>
+<codeline lineno="224"><highlight class="comment"></highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/><sp/><sp/>The<sp/>function<sp/>does<sp/>nothing<sp/>if<sp/>Python<sp/>is<sp/>not<sp/>compiled<sp/>is<sp/>debug<sp/>mode.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyMem_SetupDebugHooks(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_PYMEM_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pymem.h"/>
+  </compounddef>
+</doxygen>

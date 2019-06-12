@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_complex_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyComplexObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_complex_object_1ae369afecae8b5bda8a358a8de2826648" prot="public" static="no" mutable="no">
+        <type>PyObject_HEAD <ref refid="struct_py__complex" kindref="compound">Py_complex</ref></type>
+        <definition>PyObject_HEAD Py_complex PyComplexObject::cval</definition>
+        <argsstring></argsstring>
+        <name>cval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="35" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1070">
+        <label>Py_complex</label>
+        <link refid="struct_py__complex"/>
+      </node>
+      <node id="1069">
+        <label>PyComplexObject</label>
+        <link refid="struct_py_complex_object"/>
+        <childnode refid="1070" relation="usage">
+          <edgelabel>cval</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/complexobject.h" line="33" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="33" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct_py_complex_object_1ae369afecae8b5bda8a358a8de2826648" prot="public" virt="non-virtual"><scope>PyComplexObject</scope><name>cval</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

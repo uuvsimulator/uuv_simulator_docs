@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_sequence_methods" kind="struct" language="C++" prot="public">
+    <compoundname>PySequenceMethods</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_sequence_methods_1a065df8805c9fe2274312a52efa70461a" prot="public" static="no" mutable="no">
+        <type>lenfunc</type>
+        <definition>lenfunc PySequenceMethods::sq_length</definition>
+        <argsstring></argsstring>
+        <name>sq_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="288" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1af1b354d31d0f760321715a678a1ade80" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PySequenceMethods::sq_concat</definition>
+        <argsstring></argsstring>
+        <name>sq_concat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="289" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1afa5e868a77ebfd808b4286aea874230a" prot="public" static="no" mutable="no">
+        <type>ssizeargfunc</type>
+        <definition>ssizeargfunc PySequenceMethods::sq_repeat</definition>
+        <argsstring></argsstring>
+        <name>sq_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="290" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1ab8d80a68cc44c06a10a746cd5242d943" prot="public" static="no" mutable="no">
+        <type>ssizeargfunc</type>
+        <definition>ssizeargfunc PySequenceMethods::sq_item</definition>
+        <argsstring></argsstring>
+        <name>sq_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="291" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1a7a3a31a89a34d4dd1e385360218f9f0a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PySequenceMethods::was_sq_slice</definition>
+        <argsstring></argsstring>
+        <name>was_sq_slice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="292" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1aba9bd4b6a8918934de3218a7b749cae4" prot="public" static="no" mutable="no">
+        <type>ssizeobjargproc</type>
+        <definition>ssizeobjargproc PySequenceMethods::sq_ass_item</definition>
+        <argsstring></argsstring>
+        <name>sq_ass_item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="293" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1a6fa77611741f43e399656ffa0a3980df" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PySequenceMethods::was_sq_ass_slice</definition>
+        <argsstring></argsstring>
+        <name>was_sq_ass_slice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="294" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1ab2fdbfcc770f5f76d9e51c9ae790a18b" prot="public" static="no" mutable="no">
+        <type>objobjproc</type>
+        <definition>objobjproc PySequenceMethods::sq_contains</definition>
+        <argsstring></argsstring>
+        <name>sq_contains</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="295" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1affec621f1814e2cff5abb2d907f9bf59" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PySequenceMethods::sq_inplace_concat</definition>
+        <argsstring></argsstring>
+        <name>sq_inplace_concat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="297" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_sequence_methods_1a6e8b51006d6635efddd6d5e03514eff8" prot="public" static="no" mutable="no">
+        <type>ssizeargfunc</type>
+        <definition>ssizeargfunc PySequenceMethods::sq_inplace_repeat</definition>
+        <argsstring></argsstring>
+        <name>sq_inplace_repeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="298" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1348">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1344">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1345" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1343">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1349">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1350">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1345">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1346" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1347" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1348" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1349" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1343" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1350" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1351" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1352" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1345" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1346">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1351">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1352">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1344" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1347">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="287" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="287" bodyend="299"/>
+    <listofallmembers>
+      <member refid="struct_py_sequence_methods_1aba9bd4b6a8918934de3218a7b749cae4" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_ass_item</name></member>
+      <member refid="struct_py_sequence_methods_1af1b354d31d0f760321715a678a1ade80" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_concat</name></member>
+      <member refid="struct_py_sequence_methods_1ab2fdbfcc770f5f76d9e51c9ae790a18b" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_contains</name></member>
+      <member refid="struct_py_sequence_methods_1affec621f1814e2cff5abb2d907f9bf59" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_inplace_concat</name></member>
+      <member refid="struct_py_sequence_methods_1a6e8b51006d6635efddd6d5e03514eff8" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_inplace_repeat</name></member>
+      <member refid="struct_py_sequence_methods_1ab8d80a68cc44c06a10a746cd5242d943" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_item</name></member>
+      <member refid="struct_py_sequence_methods_1a065df8805c9fe2274312a52efa70461a" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_length</name></member>
+      <member refid="struct_py_sequence_methods_1afa5e868a77ebfd808b4286aea874230a" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>sq_repeat</name></member>
+      <member refid="struct_py_sequence_methods_1a6fa77611741f43e399656ffa0a3980df" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>was_sq_ass_slice</name></member>
+      <member refid="struct_py_sequence_methods_1a7a3a31a89a34d4dd1e385360218f9f0a" prot="public" virt="non-virtual"><scope>PySequenceMethods</scope><name>was_sq_slice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1061 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xslt_stylesheet" kind="struct" language="C++" prot="public">
+    <compoundname>_xsltStylesheet</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a7335f3ba61a86609bd4fb71a4a8464cc" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_stylesheet" kindref="compound">_xsltStylesheet</ref> *</type>
+        <definition>struct _xsltStylesheet* _xsltStylesheet::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1491" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a227a59c7dac9af59ca43707376852516" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_stylesheet" kindref="compound">_xsltStylesheet</ref> *</type>
+        <definition>struct _xsltStylesheet* _xsltStylesheet::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1492" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1492" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a49dc69445de9eeae6a49a13b1507d496" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_stylesheet" kindref="compound">_xsltStylesheet</ref> *</type>
+        <definition>struct _xsltStylesheet* _xsltStylesheet::imports</definition>
+        <argsstring></argsstring>
+        <name>imports</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1493" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a95cd9bca61239eec54fd5fc1930814c4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref></type>
+        <definition>xsltDocumentPtr _xsltStylesheet::docList</definition>
+        <argsstring></argsstring>
+        <name>docList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1495" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a4f71e8da254a33b0774770244d28d993" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+        <definition>xmlDocPtr _xsltStylesheet::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1500" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1acca4c59694c70a5ae5b8c66b90ea5bad" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::stripSpaces</definition>
+        <argsstring></argsstring>
+        <name>stripSpaces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1501" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1501" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a4cccd2a18558e0f54b346e35e1cce22e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::stripAll</definition>
+        <argsstring></argsstring>
+        <name>stripAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1503" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a9b0336b6ffdc6ec4828c22a0614a9043" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::cdataSection</definition>
+        <argsstring></argsstring>
+        <name>cdataSection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1504" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a500844b5373a3e2c34f3d26753312a15" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref></type>
+        <definition>xsltStackElemPtr _xsltStylesheet::variables</definition>
+        <argsstring></argsstring>
+        <name>variables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1509" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a32586d3547cfa5582fc0b960658972ef" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref></type>
+        <definition>xsltTemplatePtr _xsltStylesheet::templates</definition>
+        <argsstring></argsstring>
+        <name>templates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1514" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1514" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a46040e3838c372f6f0e56011bb7e151a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::templatesHash</definition>
+        <argsstring></argsstring>
+        <name>templatesHash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1515" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a566f94d39302c9f9f9830282506b0284" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::rootMatch</definition>
+        <argsstring></argsstring>
+        <name>rootMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1517" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1517" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a4b36b097b695250db82b84e41b086ec3" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::keyMatch</definition>
+        <argsstring></argsstring>
+        <name>keyMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1518" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1518" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ad4d5120fc967014f8d75daf3be07e0a4" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::elemMatch</definition>
+        <argsstring></argsstring>
+        <name>elemMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1519" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a9fe4058617003b1acb1f1e7d21ac0303" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::attrMatch</definition>
+        <argsstring></argsstring>
+        <name>attrMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1520" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a2a2939cec5826e3490b78fd0facb062d" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::parentMatch</definition>
+        <argsstring></argsstring>
+        <name>parentMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1521" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a005820058a0000267a49ceb92690fa5e" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::textMatch</definition>
+        <argsstring></argsstring>
+        <name>textMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1522" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1aab5144090e98ca3b1021d51ea6582be6" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::piMatch</definition>
+        <argsstring></argsstring>
+        <name>piMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1523" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ab01aaa638fd56205eea509e65b3db21e" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::commentMatch</definition>
+        <argsstring></argsstring>
+        <name>commentMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1524" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a2093955acded3962d455107e5d88363c" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::nsAliases</definition>
+        <argsstring></argsstring>
+        <name>nsAliases</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1530" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1530" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ad486fd567132ffe99ee5127688840b85" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::attributeSets</definition>
+        <argsstring></argsstring>
+        <name>attributeSets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1535" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1af616984901033580ba00e9323e7b01c2" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::nsHash</definition>
+        <argsstring></argsstring>
+        <name>nsHash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1541" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1aa718c76695760e051e84ea26a02d661a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::nsDefs</definition>
+        <argsstring></argsstring>
+        <name>nsDefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1548" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1548" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a1740fe4f751fface83fca961381a1c92" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::keys</definition>
+        <argsstring></argsstring>
+        <name>keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1556" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a9ef942d1ed74fc6c89cab091d0eb6728" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1561" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a03ca19f46a143246c5e81cfd3c4435bf" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::methodURI</definition>
+        <argsstring></argsstring>
+        <name>methodURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1562" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a8024bac7b577204b76db0624edebdcfe" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1563" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1563" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1aad95f48fd04ff9e2eecb8fb997ea273a" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1564" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a369bb971486e464f7b75b6ffe1a16316" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::omitXmlDeclaration</definition>
+        <argsstring></argsstring>
+        <name>omitXmlDeclaration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1565" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a4c487001a28cbe39ea2f0ae54e0d89f9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_decimal_format" kindref="compound">xsltDecimalFormatPtr</ref></type>
+        <definition>xsltDecimalFormatPtr _xsltStylesheet::decimalFormat</definition>
+        <argsstring></argsstring>
+        <name>decimalFormat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1570" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1570" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ac4ec31351dc535ec57fe131c511dca4e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::standalone</definition>
+        <argsstring></argsstring>
+        <name>standalone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1571" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a8244611fdb29a859425b93fab84358b9" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::doctypePublic</definition>
+        <argsstring></argsstring>
+        <name>doctypePublic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1572" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ad168499ca49b8927415542ad403942a1" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::doctypeSystem</definition>
+        <argsstring></argsstring>
+        <name>doctypeSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1573" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a6d58a5d9951dea4d5511538917475faa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::indent</definition>
+        <argsstring></argsstring>
+        <name>indent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1574" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a2a7c09517e906bfa2585cbf8d81b1b52" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::mediaType</definition>
+        <argsstring></argsstring>
+        <name>mediaType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1575" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a686d1404ded48bb0e37eb8638f169ac2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+        <definition>xsltElemPreCompPtr _xsltStylesheet::preComps</definition>
+        <argsstring></argsstring>
+        <name>preComps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1580" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a6e98a7ad3050d6f1c67dedff865112f5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::warnings</definition>
+        <argsstring></argsstring>
+        <name>warnings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1581" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a2314ab987b3e6a2f814a234da55aa230" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::errors</definition>
+        <argsstring></argsstring>
+        <name>errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1582" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ad27e42d8869ab687fb219794be6b359f" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltStylesheet::exclPrefix</definition>
+        <argsstring></argsstring>
+        <name>exclPrefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1584" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a0479b00f3ad2b391c7b22ecba33af047" prot="public" static="no" mutable="no">
+        <type>xmlChar **</type>
+        <definition>xmlChar** _xsltStylesheet::exclPrefixTab</definition>
+        <argsstring></argsstring>
+        <name>exclPrefixTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1585" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a36ccc94a7ca9b7c45494c122d104668b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::exclPrefixNr</definition>
+        <argsstring></argsstring>
+        <name>exclPrefixNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1586" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a4dae9dec531e829aa2f5a2db1736719b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::exclPrefixMax</definition>
+        <argsstring></argsstring>
+        <name>exclPrefixMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1587" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a6a1c33db6a3da1c4f95c209b57201f5c" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::_private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1589" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1589" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1af44ff3859530866c4c31af027c5659e4" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::extInfos</definition>
+        <argsstring></argsstring>
+        <name>extInfos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1594" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1594" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1abb10a68a4f6dc348fc9b403e1b57c9e1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::extrasNr</definition>
+        <argsstring></argsstring>
+        <name>extrasNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1595" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a07d6d7c4bbac99c0f179339cff69336b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref></type>
+        <definition>xsltDocumentPtr _xsltStylesheet::includes</definition>
+        <argsstring></argsstring>
+        <name>includes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1600" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ab0d02952bb78c25b1392bc69da847fcc" prot="public" static="no" mutable="no">
+        <type>xmlDictPtr</type>
+        <definition>xmlDictPtr _xsltStylesheet::dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1605" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a9d99a301577b415a72c1ed2b15ce2817" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltStylesheet::attVTs</definition>
+        <argsstring></argsstring>
+        <name>attVTs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1609" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1aa1ce817efb30433d06a7ad38b26ed8aa" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltStylesheet::defaultAlias</definition>
+        <argsstring></argsstring>
+        <name>defaultAlias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1614" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1614" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a8de76630037a63c51040f71906e41715" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::nopreproc</definition>
+        <argsstring></argsstring>
+        <name>nopreproc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1618" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1618" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a914f56e89f2649ba7874f2390d965ccb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::internalized</definition>
+        <argsstring></argsstring>
+        <name>internalized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1622" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1622" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1acd8050e775c5fd2285c44dd1ab82fa92" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::literal_result</definition>
+        <argsstring></argsstring>
+        <name>literal_result</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1626" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1ad0636a3a8ada5e963f8641212b88d024" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+        <definition>xsltStylesheetPtr _xsltStylesheet::principal</definition>
+        <argsstring></argsstring>
+        <name>principal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1630" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1630" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1af911fb549e3f38b6059311b86d88bcf5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltStylesheet::forwards_compatible</definition>
+        <argsstring></argsstring>
+        <name>forwards_compatible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1642" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_stylesheet_1a2d67d9bf92f530509e140fa482ef6095" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xsltStylesheet::namedTemplates</definition>
+        <argsstring></argsstring>
+        <name>namedTemplates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1644" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1644" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="729">
+        <label>_xsltRuntimeExtra</label>
+        <link refid="struct__xslt_runtime_extra"/>
+      </node>
+      <node id="728">
+        <label>_xsltTransformCache</label>
+        <link refid="struct__xslt_transform_cache"/>
+        <childnode refid="720" relation="usage">
+          <edgelabel>stackItems</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>RVT</edgelabel>
+        </childnode>
+      </node>
+      <node id="730">
+        <label>_xsltTemplate</label>
+        <link refid="struct__xslt_template"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>content</edgelabel>
+          <edgelabel>elem</edgelabel>
+        </childnode>
+        <childnode refid="719" relation="usage">
+          <edgelabel>style</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>inheritedNs</edgelabel>
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>templCalledTab</edgelabel>
+        </childnode>
+      </node>
+      <node id="732">
+        <label>_xsltElemPreComp</label>
+        <link refid="struct__xslt_elem_pre_comp"/>
+        <childnode refid="721" relation="usage">
+          <edgelabel>func</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>inst</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>free</edgelabel>
+        </childnode>
+      </node>
+      <node id="721">
+        <label>_xsltTransformContext</label>
+        <link refid="struct__xslt_transform_context"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>docList</edgelabel>
+          <edgelabel>document</edgelabel>
+          <edgelabel>styleList</edgelabel>
+        </childnode>
+        <childnode refid="720" relation="usage">
+          <edgelabel>varsTab</edgelabel>
+          <edgelabel>vars</edgelabel>
+        </childnode>
+        <childnode refid="721" relation="usage">
+          <edgelabel>sortfunc</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>initialContextNode</edgelabel>
+          <edgelabel>node</edgelabel>
+          <edgelabel>inst</edgelabel>
+          <edgelabel>insert</edgelabel>
+        </childnode>
+        <childnode refid="719" relation="usage">
+          <edgelabel>style</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>localRVTBase</edgelabel>
+          <edgelabel>output</edgelabel>
+          <edgelabel>persistRVT</edgelabel>
+          <edgelabel>tmpDoc</edgelabel>
+          <edgelabel>initialContextDoc</edgelabel>
+          <edgelabel>tmpRVT</edgelabel>
+          <edgelabel>localRVT</edgelabel>
+        </childnode>
+        <childnode refid="728" relation="usage">
+          <edgelabel>cache</edgelabel>
+        </childnode>
+        <childnode refid="729" relation="usage">
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>templ</edgelabel>
+          <edgelabel>currentTemplateRule</edgelabel>
+          <edgelabel>templTab</edgelabel>
+        </childnode>
+      </node>
+      <node id="725">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="725" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="723">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="727" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="720">
+        <label>_xsltStackElem</label>
+        <link refid="struct__xslt_stack_elem"/>
+        <childnode refid="720" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="721" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>tree</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>fragment</edgelabel>
+        </childnode>
+        <childnode refid="731" relation="usage">
+          <edgelabel>comp</edgelabel>
+        </childnode>
+      </node>
+      <node id="727">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="726">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="723" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="724">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="725" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="719">
+        <label>_xsltStylesheet</label>
+        <link refid="struct__xslt_stylesheet"/>
+        <childnode refid="720" relation="usage">
+          <edgelabel>variables</edgelabel>
+        </childnode>
+        <childnode refid="722" relation="usage">
+          <edgelabel>docList</edgelabel>
+          <edgelabel>includes</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>preComps</edgelabel>
+        </childnode>
+        <childnode refid="719" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>imports</edgelabel>
+          <edgelabel>principal</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="734" relation="usage">
+          <edgelabel>decimalFormat</edgelabel>
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>templates</edgelabel>
+        </childnode>
+      </node>
+      <node id="734">
+        <label>_xsltDecimalFormat</label>
+        <link refid="struct__xslt_decimal_format"/>
+        <childnode refid="734" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="722">
+        <label>_xsltDocument</label>
+        <link refid="struct__xslt_document"/>
+        <childnode refid="722" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>includes</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="733">
+        <label>_xsltNumberData</label>
+        <link refid="struct__xslt_number_data"/>
+        <childnode refid="724" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+        <childnode refid="723" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="731">
+        <label>_xsltStylePreComp</label>
+        <link refid="struct__xslt_style_pre_comp"/>
+        <childnode refid="721" relation="usage">
+          <edgelabel>func</edgelabel>
+        </childnode>
+        <childnode refid="724" relation="usage">
+          <edgelabel>inst</edgelabel>
+        </childnode>
+        <childnode refid="732" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="726" relation="usage">
+          <edgelabel>nsList</edgelabel>
+        </childnode>
+        <childnode refid="733" relation="usage">
+          <edgelabel>numdata</edgelabel>
+        </childnode>
+        <childnode refid="730" relation="usage">
+          <edgelabel>templ</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="1487" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="1487" bodyend="1645"/>
+    <listofallmembers>
+      <member refid="struct__xslt_stylesheet_1a6a1c33db6a3da1c4f95c209b57201f5c" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>_private</name></member>
+      <member refid="struct__xslt_stylesheet_1ad486fd567132ffe99ee5127688840b85" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>attributeSets</name></member>
+      <member refid="struct__xslt_stylesheet_1a9fe4058617003b1acb1f1e7d21ac0303" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>attrMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1a9d99a301577b415a72c1ed2b15ce2817" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>attVTs</name></member>
+      <member refid="struct__xslt_stylesheet_1a9b0336b6ffdc6ec4828c22a0614a9043" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>cdataSection</name></member>
+      <member refid="struct__xslt_stylesheet_1ab01aaa638fd56205eea509e65b3db21e" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>commentMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1a4c487001a28cbe39ea2f0ae54e0d89f9" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>decimalFormat</name></member>
+      <member refid="struct__xslt_stylesheet_1aa1ce817efb30433d06a7ad38b26ed8aa" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>defaultAlias</name></member>
+      <member refid="struct__xslt_stylesheet_1ab0d02952bb78c25b1392bc69da847fcc" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>dict</name></member>
+      <member refid="struct__xslt_stylesheet_1a4f71e8da254a33b0774770244d28d993" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>doc</name></member>
+      <member refid="struct__xslt_stylesheet_1a95cd9bca61239eec54fd5fc1930814c4" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>docList</name></member>
+      <member refid="struct__xslt_stylesheet_1a8244611fdb29a859425b93fab84358b9" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>doctypePublic</name></member>
+      <member refid="struct__xslt_stylesheet_1ad168499ca49b8927415542ad403942a1" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>doctypeSystem</name></member>
+      <member refid="struct__xslt_stylesheet_1ad4d5120fc967014f8d75daf3be07e0a4" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>elemMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1aad95f48fd04ff9e2eecb8fb997ea273a" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>encoding</name></member>
+      <member refid="struct__xslt_stylesheet_1a2314ab987b3e6a2f814a234da55aa230" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>errors</name></member>
+      <member refid="struct__xslt_stylesheet_1ad27e42d8869ab687fb219794be6b359f" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>exclPrefix</name></member>
+      <member refid="struct__xslt_stylesheet_1a4dae9dec531e829aa2f5a2db1736719b" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>exclPrefixMax</name></member>
+      <member refid="struct__xslt_stylesheet_1a36ccc94a7ca9b7c45494c122d104668b" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>exclPrefixNr</name></member>
+      <member refid="struct__xslt_stylesheet_1a0479b00f3ad2b391c7b22ecba33af047" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>exclPrefixTab</name></member>
+      <member refid="struct__xslt_stylesheet_1af44ff3859530866c4c31af027c5659e4" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>extInfos</name></member>
+      <member refid="struct__xslt_stylesheet_1abb10a68a4f6dc348fc9b403e1b57c9e1" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>extrasNr</name></member>
+      <member refid="struct__xslt_stylesheet_1af911fb549e3f38b6059311b86d88bcf5" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>forwards_compatible</name></member>
+      <member refid="struct__xslt_stylesheet_1a49dc69445de9eeae6a49a13b1507d496" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>imports</name></member>
+      <member refid="struct__xslt_stylesheet_1a07d6d7c4bbac99c0f179339cff69336b" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>includes</name></member>
+      <member refid="struct__xslt_stylesheet_1a6d58a5d9951dea4d5511538917475faa" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>indent</name></member>
+      <member refid="struct__xslt_stylesheet_1a914f56e89f2649ba7874f2390d965ccb" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>internalized</name></member>
+      <member refid="struct__xslt_stylesheet_1a4b36b097b695250db82b84e41b086ec3" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>keyMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1a1740fe4f751fface83fca961381a1c92" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>keys</name></member>
+      <member refid="struct__xslt_stylesheet_1acd8050e775c5fd2285c44dd1ab82fa92" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>literal_result</name></member>
+      <member refid="struct__xslt_stylesheet_1a2a7c09517e906bfa2585cbf8d81b1b52" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>mediaType</name></member>
+      <member refid="struct__xslt_stylesheet_1a9ef942d1ed74fc6c89cab091d0eb6728" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>method</name></member>
+      <member refid="struct__xslt_stylesheet_1a03ca19f46a143246c5e81cfd3c4435bf" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>methodURI</name></member>
+      <member refid="struct__xslt_stylesheet_1a2d67d9bf92f530509e140fa482ef6095" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>namedTemplates</name></member>
+      <member refid="struct__xslt_stylesheet_1a227a59c7dac9af59ca43707376852516" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>next</name></member>
+      <member refid="struct__xslt_stylesheet_1a8de76630037a63c51040f71906e41715" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>nopreproc</name></member>
+      <member refid="struct__xslt_stylesheet_1a2093955acded3962d455107e5d88363c" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>nsAliases</name></member>
+      <member refid="struct__xslt_stylesheet_1aa718c76695760e051e84ea26a02d661a" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>nsDefs</name></member>
+      <member refid="struct__xslt_stylesheet_1af616984901033580ba00e9323e7b01c2" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>nsHash</name></member>
+      <member refid="struct__xslt_stylesheet_1a369bb971486e464f7b75b6ffe1a16316" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>omitXmlDeclaration</name></member>
+      <member refid="struct__xslt_stylesheet_1a7335f3ba61a86609bd4fb71a4a8464cc" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>parent</name></member>
+      <member refid="struct__xslt_stylesheet_1a2a2939cec5826e3490b78fd0facb062d" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>parentMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1aab5144090e98ca3b1021d51ea6582be6" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>piMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1a686d1404ded48bb0e37eb8638f169ac2" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>preComps</name></member>
+      <member refid="struct__xslt_stylesheet_1ad0636a3a8ada5e963f8641212b88d024" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>principal</name></member>
+      <member refid="struct__xslt_stylesheet_1a566f94d39302c9f9f9830282506b0284" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>rootMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1ac4ec31351dc535ec57fe131c511dca4e" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>standalone</name></member>
+      <member refid="struct__xslt_stylesheet_1a4cccd2a18558e0f54b346e35e1cce22e" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>stripAll</name></member>
+      <member refid="struct__xslt_stylesheet_1acca4c59694c70a5ae5b8c66b90ea5bad" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>stripSpaces</name></member>
+      <member refid="struct__xslt_stylesheet_1a32586d3547cfa5582fc0b960658972ef" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>templates</name></member>
+      <member refid="struct__xslt_stylesheet_1a46040e3838c372f6f0e56011bb7e151a" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>templatesHash</name></member>
+      <member refid="struct__xslt_stylesheet_1a005820058a0000267a49ceb92690fa5e" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>textMatch</name></member>
+      <member refid="struct__xslt_stylesheet_1a500844b5373a3e2c34f3d26753312a15" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>variables</name></member>
+      <member refid="struct__xslt_stylesheet_1a8024bac7b577204b76db0624edebdcfe" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>version</name></member>
+      <member refid="struct__xslt_stylesheet_1a6e98a7ad3050d6f1c67dedff865112f5" prot="public" virt="non-virtual"><scope>_xsltStylesheet</scope><name>warnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

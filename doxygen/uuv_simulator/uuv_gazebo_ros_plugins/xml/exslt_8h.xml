@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="exslt_8h" kind="file" language="C++">
+    <compoundname>exslt.h</compoundname>
+    <includes refid="tree_8h" local="no">libxml/tree.h</includes>
+    <includes refid="xpath_8h" local="no">libxml/xpath.h</includes>
+    <includes refid="exsltexports_8h" local="yes">exsltexports.h</includes>
+    <includes refid="exsltconfig_8h" local="no">libexslt/exsltconfig.h</includes>
+    <incdepgraph>
+      <node id="298">
+        <label>libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>stdarg.h</label>
+      </node>
+      <node id="281">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="296">
+        <label>stdlib.h</label>
+      </node>
+      <node id="292">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="287">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+      </node>
+      <node id="294">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>libexslt/exsltconfig.h</label>
+        <link refid="exsltconfig_8h_source"/>
+      </node>
+      <node id="286">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>limits.h</label>
+      </node>
+      <node id="290">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="284">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+      </node>
+      <node id="282">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+      <node id="277">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="278" relation="include">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+      <node id="299">
+        <label>exsltexports.h</label>
+        <link refid="exsltexports_8h_source"/>
+      </node>
+      <node id="274">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="276" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+      </node>
+      <node id="293">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h</label>
+        <link refid="exslt_8h"/>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+      </node>
+      <node id="288">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+      </node>
+      <node id="283">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+      </node>
+      <node id="291">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="274" relation="include">
+        </childnode>
+      </node>
+      <node id="278">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="275">
+        <label>stdio.h</label>
+      </node>
+      <node id="289">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="285" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="exslt_8h_1a3569a342fb07baf5c65a3f225cab6e2b" prot="public" static="no">
+        <name>EXSLT_COMMON_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/common&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_COMMON_NAMESPACE:</para><para>Namespace for EXSLT common functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="24" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a082efb0828af25b69d8d8fe06c0db3ad" prot="public" static="no">
+        <name>EXSLT_CRYPTO_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/crypto&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_CRYPTO_NAMESPACE:</para><para>Namespace for EXSLT crypto functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="30" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a4d32a311d1032e7aa0610f521bd4a86f" prot="public" static="no">
+        <name>EXSLT_MATH_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/math&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_MATH_NAMESPACE:</para><para>Namespace for EXSLT math functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="36" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a152a1a23862ef08c415cfc25b08f25b4" prot="public" static="no">
+        <name>EXSLT_SETS_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/sets&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_SETS_NAMESPACE:</para><para>Namespace for EXSLT set functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="42" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1aa28f20b2eea2dbf9e92a9087b7de680a" prot="public" static="no">
+        <name>EXSLT_FUNCTIONS_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/functions&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_FUNCTIONS_NAMESPACE:</para><para>Namespace for EXSLT functions extension functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="48" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1acc26dd68e8afe06a6ce4795edbe7ea68" prot="public" static="no">
+        <name>EXSLT_STRINGS_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/strings&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_STRINGS_NAMESPACE:</para><para>Namespace for EXSLT strings functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="54" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a4bf2abc59b8e1ccc95f1ebeb8ae1b404" prot="public" static="no">
+        <name>EXSLT_DATE_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/dates-and-times&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_DATE_NAMESPACE:</para><para>Namespace for EXSLT date functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="60" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a887be9da7b79d5a19a1ac6076753ccd8" prot="public" static="no">
+        <name>EXSLT_DYNAMIC_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://exslt.org/dynamic&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>EXSLT_DYNAMIC_NAMESPACE:</para><para>Namespace for EXSLT dynamic functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="66" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="exslt_8h_1a2c365cb5049d01280b3851d942dc218a" prot="public" static="no">
+        <name>SAXON_NAMESPACE</name>
+        <initializer>((const xmlChar *) &quot;http://icl.com/saxon&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>SAXON_NAMESPACE:</para><para>Namespace for SAXON extensions functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="73" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="exslt_8h_1a8f230b05c8f011b3a82f71f129b3dfab" prot="public" static="no" mutable="no">
+        <type>EXSLTPUBVAR const char *</type>
+        <definition>EXSLTPUBVAR const char* exsltLibraryVersion</definition>
+        <argsstring></argsstring>
+        <name>exsltLibraryVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="14" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="exslt_8h_1ae7189fdc5ed439e8e3697bcc892bd2e1" prot="public" static="no" mutable="no">
+        <type>EXSLTPUBVAR const int</type>
+        <definition>EXSLTPUBVAR const int exsltLibexsltVersion</definition>
+        <argsstring></argsstring>
+        <name>exsltLibexsltVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="15" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="exslt_8h_1a4bc951b0e8a7f7d1bc4826ec882aaf25" prot="public" static="no" mutable="no">
+        <type>EXSLTPUBVAR const int</type>
+        <definition>EXSLTPUBVAR const int exsltLibxsltVersion</definition>
+        <argsstring></argsstring>
+        <name>exsltLibxsltVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="16" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="exslt_8h_1a7a0ab9d4fa8c0ccfc6373277fd84a4d2" prot="public" static="no" mutable="no">
+        <type>EXSLTPUBVAR const int</type>
+        <definition>EXSLTPUBVAR const int exsltLibxmlVersion</definition>
+        <argsstring></argsstring>
+        <name>exsltLibxmlVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="17" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="exslt_8h_1a01ee7701e256816697ac229073046fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltCommonRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltCommonRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a0fc54cc72d31510dcba54317c811b2be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltMathRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltMathRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1ac3394b6b63bcf089d74e3a05ca7b0bb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltSetsRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltSetsRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a2d1f94376259841bd99bf41218f98068" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltFuncRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltFuncRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a742d5529dc77b08dc4384cdd8307e3fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltStrRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltStrRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1abbce2dadf0be8abbfed6b0a926da7cff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltDateRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltDateRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1ab7493fb7b650e9215127af57d566adb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltSaxonRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltSaxonRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a68cd2713f33c5392847dce9702a6f809" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltDynRegister</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltDynRegister</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1ad02061f9cee2518d42e9b42df5fb2fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN void EXSLTCALL</type>
+        <definition>EXSLTPUBFUN void EXSLTCALL exsltRegisterAll</definition>
+        <argsstring>(void)</argsstring>
+        <name>exsltRegisterAll</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a18a8db85e5fbb8cddcd38e92ba7fbb47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN int EXSLTCALL</type>
+        <definition>EXSLTPUBFUN int EXSLTCALL exsltDateXpathCtxtRegister</definition>
+        <argsstring>(xmlXPathContextPtr ctxt, const xmlChar *prefix)</argsstring>
+        <name>exsltDateXpathCtxtRegister</name>
+        <param>
+          <type>xmlXPathContextPtr</type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a83db0bad74dafc3c99d00c06dfdf70dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN int EXSLTCALL</type>
+        <definition>EXSLTPUBFUN int EXSLTCALL exsltMathXpathCtxtRegister</definition>
+        <argsstring>(xmlXPathContextPtr ctxt, const xmlChar *prefix)</argsstring>
+        <name>exsltMathXpathCtxtRegister</name>
+        <param>
+          <type>xmlXPathContextPtr</type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1ac3eca298cde971c5a9b3b2ef10960d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN int EXSLTCALL</type>
+        <definition>EXSLTPUBFUN int EXSLTCALL exsltSetsXpathCtxtRegister</definition>
+        <argsstring>(xmlXPathContextPtr ctxt, const xmlChar *prefix)</argsstring>
+        <name>exsltSetsXpathCtxtRegister</name>
+        <param>
+          <type>xmlXPathContextPtr</type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="exslt_8h_1a4588da9c0fa5ca8dfe2b2c2ee91f70a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>EXSLTPUBFUN int EXSLTCALL</type>
+        <definition>EXSLTPUBFUN int EXSLTCALL exsltStrXpathCtxtRegister</definition>
+        <argsstring>(xmlXPathContextPtr ctxt, const xmlChar *prefix)</argsstring>
+        <name>exsltStrXpathCtxtRegister</name>
+        <param>
+          <type>xmlXPathContextPtr</type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>prefix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__EXSLT_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__EXSLT_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xpath.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libexslt/exsltconfig.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">EXSLTPUBVAR<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*exsltLibraryVersion;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">EXSLTPUBVAR<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>exsltLibexsltVersion;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">EXSLTPUBVAR<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>exsltLibxsltVersion;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">EXSLTPUBVAR<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>exsltLibxmlVersion;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor">#define<sp/>EXSLT_COMMON_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/common&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor">#define<sp/>EXSLT_CRYPTO_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/crypto&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor">#define<sp/>EXSLT_MATH_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/math&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor">#define<sp/>EXSLT_SETS_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/sets&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor">#define<sp/>EXSLT_FUNCTIONS_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/functions&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor">#define<sp/>EXSLT_STRINGS_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/strings&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor">#define<sp/>EXSLT_DATE_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/dates-and-times&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor">#define<sp/>EXSLT_DYNAMIC_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://exslt.org/dynamic&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor">#define<sp/>SAXON_NAMESPACE<sp/>((const<sp/>xmlChar<sp/>*)<sp/>&quot;http://icl.com/saxon&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltCommonRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>EXSLT_CRYPTO_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltCryptoRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltMathRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltSetsRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltFuncRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltStrRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltDateRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltSaxonRegister<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltDynRegister(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltRegisterAll<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltDateXpathCtxtRegister<sp/>(xmlXPathContextPtr<sp/>ctxt,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*prefix);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltMathXpathCtxtRegister<sp/>(xmlXPathContextPtr<sp/>ctxt,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*prefix);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltSetsXpathCtxtRegister<sp/>(xmlXPathContextPtr<sp/>ctxt,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*prefix);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">EXSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>EXSLTCALL<sp/>exsltStrXpathCtxtRegister<sp/>(xmlXPathContextPtr<sp/>ctxt,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*prefix);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__EXSLT_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h"/>
+  </compounddef>
+</doxygen>

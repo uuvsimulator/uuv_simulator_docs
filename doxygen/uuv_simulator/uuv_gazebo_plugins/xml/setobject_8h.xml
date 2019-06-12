@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="setobject_8h" kind="file" language="C++">
+    <compoundname>setobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3723">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3720">
+        <label>/usr/include/python3.6m/setobject.h</label>
+        <link refid="setobject_8h"/>
+        <childnode refid="3721" relation="include">
+        </childnode>
+      </node>
+      <node id="3724">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3726">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3721">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3722" relation="include">
+        </childnode>
+        <childnode refid="3724" relation="include">
+        </childnode>
+        <childnode refid="3725" relation="include">
+        </childnode>
+        <childnode refid="3726" relation="include">
+        </childnode>
+        <childnode refid="3727" relation="include">
+        </childnode>
+      </node>
+      <node id="3727">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3722">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3723" relation="include">
+        </childnode>
+      </node>
+      <node id="3725">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structsetentry" prot="public">setentry</innerclass>
+    <innerclass refid="struct_py_set_object" prot="public">PySetObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="setobject_8h_1a4d2d577602a30e417393d879b7eeb70c" prot="public" static="no">
+        <name>PySet_MINSIZE</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="24" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1ae0e9372ef59d5555b90535a71ccbd021" prot="public" static="no">
+        <name>PySet_GET_SIZE</name>
+        <param><defname>so</defname></param>
+        <initializer>(((<ref refid="struct_py_set_object" kindref="compound">PySetObject</ref> *)(so))-&gt;used)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="67" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1ab5bd089c79794b75fb35f9d5fe0e9c45" prot="public" static="no">
+        <name>PyFrozenSet_CheckExact</name>
+        <param><defname>ob</defname></param>
+        <initializer>(Py_TYPE(ob) == &amp;PyFrozenSet_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="91" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1aa04fbd9bf289ad83b4c0f9216d301b63" prot="public" static="no">
+        <name>PyAnySet_CheckExact</name>
+        <param><defname>ob</defname></param>
+        <initializer>(Py_TYPE(ob) == &amp;PySet_Type || Py_TYPE(ob) == &amp;PyFrozenSet_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="92" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1a9f3be7e6027dc2296cf797509cc99f69" prot="public" static="no">
+        <name>PyAnySet_Check</name>
+        <param><defname>ob</defname></param>
+        <initializer>(Py_TYPE(ob) == &amp;PySet_Type || Py_TYPE(ob) == &amp;PyFrozenSet_Type || \
+      PyType_IsSubtype(Py_TYPE(ob), &amp;PySet_Type) || \
+      PyType_IsSubtype(Py_TYPE(ob), &amp;PyFrozenSet_Type))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="94" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1a5f2386ff11ddbfc71bc4560a6ef6473d" prot="public" static="no">
+        <name>PySet_Check</name>
+        <param><defname>ob</defname></param>
+        <initializer>(Py_TYPE(ob) == &amp;PySet_Type || \
+    PyType_IsSubtype(Py_TYPE(ob), &amp;PySet_Type))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="98" column="9" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="setobject_8h_1a3506ab5dd5fbfb35feaf2518f605498b" prot="public" static="no">
+        <name>PyFrozenSet_Check</name>
+        <param><defname>ob</defname></param>
+        <initializer>(Py_TYPE(ob) == &amp;PyFrozenSet_Type || \
+      PyType_IsSubtype(Py_TYPE(ob), &amp;PyFrozenSet_Type))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="101" column="11" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="setobject_8h_1a0cdb1b70380fd629358aa8be81bb89b6" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t *</type>
+        <definition>Py_ssize_t* pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="71" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="setobject_8h_1a2ddff520dd75428bb77078979677f12f" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t <ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+        <definition>PyObject* key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="71" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="setobject_8h_1a8f7532fd917734fadaa2d01d2fdcc129" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t <ref refid="struct__object" kindref="compound">PyObject</ref> Py_hash_t *</type>
+        <definition>Py_ssize_t PyObject Py_hash_t* hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="71" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="setobject_8h_1abde1123f2e15338312430e40a313d9cf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* iterable</definition>
+        <argsstring></argsstring>
+        <name>iterable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="72" column="1" bodyfile="/usr/include/python3.6m/setobject.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="setobject_8h_1a69ffc8ab45709bc4afa3ca07fadba952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyObject *) _PySet_Dummy</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="setobject_8h_1a18be683583b5804c95fe8d9548773ebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PySet_NextEntry(PyObject *set</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="setobject_8h_1a1f051d8e355c9f7b9f561420601cfcb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PySet_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="setobject_8h_1acffbedd5fcbcfe6d91f53aa5f69ecf4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PySet_New(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="setobject_8h_1ad6ea98425341a337511d53a95642d829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_ssize_t) PySet_Size(PyObject *anyset)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_ssize_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/setobject.h" line="89" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Set<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_SETOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_SETOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>There<sp/>are<sp/>three<sp/>kinds<sp/>of<sp/>entries<sp/>in<sp/>the<sp/>table:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">1.<sp/>Unused:<sp/><sp/>key<sp/>==<sp/>NULL<sp/>and<sp/>hash<sp/>==<sp/>0</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">2.<sp/>Dummy:<sp/><sp/><sp/>key<sp/>==<sp/>dummy<sp/>and<sp/>hash<sp/>==<sp/>-1</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">3.<sp/>Active:<sp/><sp/>key<sp/>!=<sp/>NULL<sp/>and<sp/>key<sp/>!=<sp/>dummy<sp/>and<sp/>hash<sp/>!=<sp/>-1</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment">The<sp/>hash<sp/>field<sp/>of<sp/>Unused<sp/>slots<sp/>is<sp/>always<sp/>zero.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"></highlight></codeline>
+<codeline lineno="19"><highlight class="comment">The<sp/>hash<sp/>field<sp/>of<sp/>Dummy<sp/>slots<sp/>are<sp/>set<sp/>to<sp/>-1</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">meaning<sp/>that<sp/>dummy<sp/>entries<sp/>can<sp/>be<sp/>detected<sp/>by</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">either<sp/>entry-&gt;key==dummy<sp/>or<sp/>by<sp/>entry-&gt;hash==-1.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PySet_MINSIZE<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structsetentry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hash;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Cached<sp/>hash<sp/>code<sp/>of<sp/>the<sp/>key<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/><ref refid="structsetentry" kindref="compound">setentry</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>SetObject<sp/>data<sp/>structure<sp/>is<sp/>shared<sp/>by<sp/>set<sp/>and<sp/>frozenset<sp/>objects.</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"></highlight></codeline>
+<codeline lineno="33"><highlight class="comment">Invariant<sp/>for<sp/>sets:</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>-<sp/>hash<sp/>is<sp/>-1</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"></highlight></codeline>
+<codeline lineno="36"><highlight class="comment">Invariants<sp/>for<sp/>frozensets:</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>-<sp/>data<sp/>is<sp/>immutable.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>-<sp/>hash<sp/>is<sp/>the<sp/>hash<sp/>of<sp/>the<sp/>frozenset<sp/>or<sp/>-1<sp/>if<sp/>not<sp/>computed<sp/>yet.</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="struct_py_set_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>fill;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>active<sp/>and<sp/>dummy<sp/>entries*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>used;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>active<sp/>entries<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>table<sp/>contains<sp/>mask<sp/>+<sp/>1<sp/>slots,<sp/>and<sp/>that&apos;s<sp/>a<sp/>power<sp/>of<sp/>2.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>We<sp/>store<sp/>the<sp/>mask<sp/>instead<sp/>of<sp/>the<sp/>size<sp/>because<sp/>the<sp/>mask<sp/>is<sp/>more</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>frequently<sp/>needed.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>mask;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>table<sp/>points<sp/>to<sp/>a<sp/>fixed-size<sp/>smalltable<sp/>for<sp/>small<sp/>tables</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>or<sp/>to<sp/>additional<sp/>malloc&apos;ed<sp/>memory<sp/>for<sp/>bigger<sp/>tables.</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>table<sp/>pointer<sp/>is<sp/>never<sp/>NULL<sp/>which<sp/>saves<sp/>us<sp/>from<sp/>repeated</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>runtime<sp/>null-tests.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsetentry" kindref="compound">setentry</ref><sp/>*table;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hash;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Only<sp/>used<sp/>by<sp/>frozenset<sp/>objects<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>finger;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Search<sp/>finger<sp/>for<sp/>pop()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structsetentry" kindref="compound">setentry</ref><sp/>smalltable[PySet_MINSIZE];</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*weakreflist;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>List<sp/>of<sp/>weak<sp/>references<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="struct_py_set_object" kindref="compound">PySetObject</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PySet_GET_SIZE(so)<sp/>(((PySetObject<sp/>*)(so))-&gt;used)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">PyAPI_DATA(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PySet_Dummy;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PySet_NextEntry(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">,<sp/>Py_ssize_t<sp/>*pos,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**key,<sp/>Py_hash_t<sp/>*hash);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PySet_Update(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*iterable);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PySet_ClearFreeList(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Section<sp/>excluded<sp/>by<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PySet_Type;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyFrozenSet_Type;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PySetIter_Type;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PySet_New(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyFrozenSet_New(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PySet_Add(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PySet_Clear(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PySet_Contains(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*anyset,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PySet_Discard(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PySet_Pop(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">set</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>PySet_Size(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*anyset);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyFrozenSet_CheckExact(ob)<sp/>(Py_TYPE(ob)<sp/>==<sp/>&amp;PyFrozenSet_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyAnySet_CheckExact(ob)<sp/>\</highlight></codeline>
+<codeline lineno="93"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(Py_TYPE(ob)<sp/>==<sp/>&amp;PySet_Type<sp/>||<sp/>Py_TYPE(ob)<sp/>==<sp/>&amp;PyFrozenSet_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyAnySet_Check(ob)<sp/>\</highlight></codeline>
+<codeline lineno="95"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(Py_TYPE(ob)<sp/>==<sp/>&amp;PySet_Type<sp/>||<sp/>Py_TYPE(ob)<sp/>==<sp/>&amp;PyFrozenSet_Type<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="96"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>PyType_IsSubtype(Py_TYPE(ob),<sp/>&amp;PySet_Type)<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="97"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>PyType_IsSubtype(Py_TYPE(ob),<sp/>&amp;PyFrozenSet_Type))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PySet_Check(ob)<sp/>\</highlight></codeline>
+<codeline lineno="99"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(Py_TYPE(ob)<sp/>==<sp/>&amp;PySet_Type<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="100"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyType_IsSubtype(Py_TYPE(ob),<sp/>&amp;PySet_Type))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/><sp/><sp/>PyFrozenSet_Check(ob)<sp/>\</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(Py_TYPE(ob)<sp/>==<sp/>&amp;PyFrozenSet_Type<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="103"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>PyType_IsSubtype(Py_TYPE(ob),<sp/>&amp;PyFrozenSet_Type))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_SETOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/setobject.h"/>
+  </compounddef>
+</doxygen>

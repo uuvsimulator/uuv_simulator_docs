@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_valid_ctxt" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlValidCtxt</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a669355aa1f3621673694e0860e4f78b5" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlValidCtxt::userData</definition>
+        <argsstring></argsstring>
+        <name>userData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="83" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a67cb1147c3d53a4cb2920987b091ff7a" prot="public" static="no" mutable="no">
+        <type>xmlValidityErrorFunc</type>
+        <definition>xmlValidityErrorFunc _xmlValidCtxt::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="84" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1af4ce21729ce719fd2c84e7c8d1f69413" prot="public" static="no" mutable="no">
+        <type>xmlValidityWarningFunc</type>
+        <definition>xmlValidityWarningFunc _xmlValidCtxt::warning</definition>
+        <argsstring></argsstring>
+        <name>warning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="85" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a3b3eca74a3d7965394d7cda4974e673a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xmlValidCtxt::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="88" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a22247258390f6c2d960e26d915aa8bcb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlValidCtxt::nodeNr</definition>
+        <argsstring></argsstring>
+        <name>nodeNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="89" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1acb50c245f7c4afbdb5b5e6d56f108d97" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlValidCtxt::nodeMax</definition>
+        <argsstring></argsstring>
+        <name>nodeMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="90" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1ac9084ffd1c5f9d43a8809177ef838810" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref> *</type>
+        <definition>xmlNodePtr* _xmlValidCtxt::nodeTab</definition>
+        <argsstring></argsstring>
+        <name>nodeTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="91" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a34ff820a3378c7742c09f6daeacd4db5" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _xmlValidCtxt::finishDtd</definition>
+        <argsstring></argsstring>
+        <name>finishDtd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="93" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a1f084e858e3a50fa87696738c6d6a019" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+        <definition>xmlDocPtr _xmlValidCtxt::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="94" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1ac31686aaeedb48c46b453f98c51597d2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlValidCtxt::valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="95" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a70d2a592a1909a626ae50db98a9ed136" prot="public" static="no" mutable="no">
+        <type>xmlValidState *</type>
+        <definition>xmlValidState* _xmlValidCtxt::vstate</definition>
+        <argsstring></argsstring>
+        <name>vstate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="98" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1af1d9fbfcf068c8dad6349fd677effc22" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlValidCtxt::vstateNr</definition>
+        <argsstring></argsstring>
+        <name>vstateNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="99" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a606af121a4d33a9ec572147b17682125" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlValidCtxt::vstateMax</definition>
+        <argsstring></argsstring>
+        <name>vstateMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="100" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a81fb3ed51e4a63ddaf5a7541f3563ebc" prot="public" static="no" mutable="no">
+        <type>xmlValidState *</type>
+        <definition>xmlValidState* _xmlValidCtxt::vstateTab</definition>
+        <argsstring></argsstring>
+        <name>vstateTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="101" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1adef83a3cd73508675a7b1246dc6e9dc1" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlValidCtxt::am</definition>
+        <argsstring></argsstring>
+        <name>am</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="107" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_valid_ctxt_1a88d110c3238a8766436bf8da59bf9d0c" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlValidCtxt::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="108" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="632">
+        <label>_xmlValidCtxt</label>
+        <link refid="struct__xml_valid_ctxt"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>node</edgelabel>
+          <edgelabel>nodeTab</edgelabel>
+        </childnode>
+        <childnode refid="635" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="634">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="634" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="635" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="636" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="635">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="635" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="636" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="637" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="637">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="635" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="636">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="635" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="636" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="633">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="633" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="634" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="635" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="636" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" line="82" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h" bodystart="82" bodyend="110"/>
+    <listofallmembers>
+      <member refid="struct__xml_valid_ctxt_1adef83a3cd73508675a7b1246dc6e9dc1" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>am</name></member>
+      <member refid="struct__xml_valid_ctxt_1a1f084e858e3a50fa87696738c6d6a019" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>doc</name></member>
+      <member refid="struct__xml_valid_ctxt_1a67cb1147c3d53a4cb2920987b091ff7a" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>error</name></member>
+      <member refid="struct__xml_valid_ctxt_1a34ff820a3378c7742c09f6daeacd4db5" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>finishDtd</name></member>
+      <member refid="struct__xml_valid_ctxt_1a3b3eca74a3d7965394d7cda4974e673a" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>node</name></member>
+      <member refid="struct__xml_valid_ctxt_1acb50c245f7c4afbdb5b5e6d56f108d97" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>nodeMax</name></member>
+      <member refid="struct__xml_valid_ctxt_1a22247258390f6c2d960e26d915aa8bcb" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>nodeNr</name></member>
+      <member refid="struct__xml_valid_ctxt_1ac9084ffd1c5f9d43a8809177ef838810" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>nodeTab</name></member>
+      <member refid="struct__xml_valid_ctxt_1a88d110c3238a8766436bf8da59bf9d0c" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>state</name></member>
+      <member refid="struct__xml_valid_ctxt_1a669355aa1f3621673694e0860e4f78b5" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>userData</name></member>
+      <member refid="struct__xml_valid_ctxt_1ac31686aaeedb48c46b453f98c51597d2" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>valid</name></member>
+      <member refid="struct__xml_valid_ctxt_1a70d2a592a1909a626ae50db98a9ed136" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>vstate</name></member>
+      <member refid="struct__xml_valid_ctxt_1a606af121a4d33a9ec572147b17682125" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>vstateMax</name></member>
+      <member refid="struct__xml_valid_ctxt_1af1d9fbfcf068c8dad6349fd677effc22" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>vstateNr</name></member>
+      <member refid="struct__xml_valid_ctxt_1a81fb3ed51e4a63ddaf5a7541f3563ebc" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>vstateTab</name></member>
+      <member refid="struct__xml_valid_ctxt_1af4ce21729ce719fd2c84e7c8d1f69413" prot="public" virt="non-virtual"><scope>_xmlValidCtxt</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

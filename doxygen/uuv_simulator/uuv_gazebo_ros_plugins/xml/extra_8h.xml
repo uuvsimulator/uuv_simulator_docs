@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="extra_8h" kind="file" language="C++">
+    <compoundname>extra.h</compoundname>
+    <includes refid="xpath_8h" local="no">libxml/xpath.h</includes>
+    <includes refid="xsltexports_8h" local="yes">xsltexports.h</includes>
+    <includes refid="xslt_internals_8h" local="yes">xsltInternals.h</includes>
+    <incdepgraph>
+      <node id="2109">
+        <label>libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+      </node>
+      <node id="2118">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2112">
+        <label>xsltexports.h</label>
+        <link refid="xsltexports_8h_source"/>
+      </node>
+      <node id="2119">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+      </node>
+      <node id="2136">
+        <label>libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+      </node>
+      <node id="2135">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2134">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2108">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h</label>
+        <link refid="extra_8h"/>
+        <childnode refid="2109" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+        <childnode refid="2113" relation="include">
+        </childnode>
+      </node>
+      <node id="2130">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2125">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2124" relation="include">
+        </childnode>
+      </node>
+      <node id="2132">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2122" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2131" relation="include">
+        </childnode>
+      </node>
+      <node id="2138">
+        <label>numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+      </node>
+      <node id="2124">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="2116" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2116">
+        <label>limits.h</label>
+      </node>
+      <node id="2128">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+      </node>
+      <node id="2122">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2133" relation="include">
+        </childnode>
+        <childnode refid="2120" relation="include">
+        </childnode>
+        <childnode refid="2121" relation="include">
+        </childnode>
+      </node>
+      <node id="2120">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2121" relation="include">
+        </childnode>
+        <childnode refid="2122" relation="include">
+        </childnode>
+      </node>
+      <node id="2110">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="2111" relation="include">
+        </childnode>
+      </node>
+      <node id="2117">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="2118" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+      </node>
+      <node id="2123">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="2118" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2124" relation="include">
+        </childnode>
+        <childnode refid="2125" relation="include">
+        </childnode>
+        <childnode refid="2126" relation="include">
+        </childnode>
+        <childnode refid="2130" relation="include">
+        </childnode>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2117" relation="include">
+        </childnode>
+        <childnode refid="2131" relation="include">
+        </childnode>
+        <childnode refid="2132" relation="include">
+        </childnode>
+        <childnode refid="2122" relation="include">
+        </childnode>
+      </node>
+      <node id="2137">
+        <label>xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="2117" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+      </node>
+      <node id="2114">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2116" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2117" relation="include">
+        </childnode>
+        <childnode refid="2119" relation="include">
+        </childnode>
+        <childnode refid="2120" relation="include">
+        </childnode>
+      </node>
+      <node id="2131">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2126">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2128" relation="include">
+        </childnode>
+        <childnode refid="2129" relation="include">
+        </childnode>
+        <childnode refid="2119" relation="include">
+        </childnode>
+      </node>
+      <node id="2133">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="2115" relation="include">
+        </childnode>
+        <childnode refid="2134" relation="include">
+        </childnode>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2123" relation="include">
+        </childnode>
+        <childnode refid="2135" relation="include">
+        </childnode>
+      </node>
+      <node id="2113">
+        <label>xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="2114" relation="include">
+        </childnode>
+        <childnode refid="2125" relation="include">
+        </childnode>
+        <childnode refid="2109" relation="include">
+        </childnode>
+        <childnode refid="2127" relation="include">
+        </childnode>
+        <childnode refid="2124" relation="include">
+        </childnode>
+        <childnode refid="2117" relation="include">
+        </childnode>
+        <childnode refid="2136" relation="include">
+        </childnode>
+        <childnode refid="2112" relation="include">
+        </childnode>
+        <childnode refid="2137" relation="include">
+        </childnode>
+        <childnode refid="2138" relation="include">
+        </childnode>
+      </node>
+      <node id="2121">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2122" relation="include">
+        </childnode>
+      </node>
+      <node id="2129">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="2110" relation="include">
+        </childnode>
+        <childnode refid="2114" relation="include">
+        </childnode>
+      </node>
+      <node id="2111">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="2115">
+        <label>stdio.h</label>
+      </node>
+      <node id="2127">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="2123" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="extra_8h_1afcb6edb47557dd59d588163bdc3d972a" prot="public" static="no">
+        <name>XSLT_LIBXSLT_NAMESPACE</name>
+        <initializer>((xmlChar *) &quot;http://xmlsoft.org/XSLT/namespace&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSLT_LIBXSLT_NAMESPACE:</para><para>This is the libxslt namespace for specific extensions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="27" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="extra_8h_1aca3554ae3b41b90bfc5a452b1ac8c1ce" prot="public" static="no">
+        <name>XSLT_SAXON_NAMESPACE</name>
+        <initializer>((xmlChar *) &quot;http://icl.com/saxon&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSLT_SAXON_NAMESPACE:</para><para>This is Michael Kay&apos;s Saxon processor namespace for extensions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="34" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="extra_8h_1a31c4168216020a1285557e06e65c15c5" prot="public" static="no">
+        <name>XSLT_XT_NAMESPACE</name>
+        <initializer>((xmlChar *) &quot;http://www.jclark.com/xt&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSLT_XT_NAMESPACE:</para><para>This is James Clark&apos;s XT processor namespace for extensions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="41" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="extra_8h_1a8cf699587e1d11ccc0202173d516cd01" prot="public" static="no">
+        <name>XSLT_XALAN_NAMESPACE</name>
+        <initializer>((xmlChar *)	\
+	                        &quot;org.apache.xalan.xslt.extensions.Redirect&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSLT_XALAN_NAMESPACE:</para><para>This is the Apache project XALAN processor namespace for extensions. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="48" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="extra_8h_1a29cc720e1a2da0cc434df3e8c97a77df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFunctionNodeSet</definition>
+        <argsstring>(xmlXPathParserContextPtr ctxt, int nargs)</argsstring>
+        <name>xsltFunctionNodeSet</name>
+        <param>
+          <type>xmlXPathParserContextPtr</type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="extra_8h_1a64f30e025aba871893c4c6f4a1610fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltDebug</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltDebug</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="extra_8h_1a230b0f64865f9597597c73201729bc23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltRegisterExtras</definition>
+        <argsstring>(xsltTransformContextPtr ctxt)</argsstring>
+        <name>xsltRegisterExtras</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="extra_8h_1ac1d15b24ef48d46aea08cc15d17566fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltRegisterAllExtras</definition>
+        <argsstring>(void)</argsstring>
+        <name>xsltRegisterAllExtras</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>interface<sp/>for<sp/>the<sp/>non-standard<sp/>features</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>implement<sp/>some<sp/>extension<sp/>outside<sp/>the<sp/>XSLT<sp/>namespace</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>but<sp/>not<sp/>EXSLT<sp/>with<sp/>is<sp/>in<sp/>a<sp/>different<sp/>library.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLT_EXTRA_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLT_EXTRA_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xpath.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltInternals.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor">#define<sp/>XSLT_LIBXSLT_NAMESPACE<sp/>((xmlChar<sp/>*)<sp/>&quot;http://xmlsoft.org/XSLT/namespace&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor">#define<sp/>XSLT_SAXON_NAMESPACE<sp/>((xmlChar<sp/>*)<sp/>&quot;http://icl.com/saxon&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor">#define<sp/>XSLT_XT_NAMESPACE<sp/>((xmlChar<sp/>*)<sp/>&quot;http://www.jclark.com/xt&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="preprocessor">#define<sp/>XSLT_XALAN_NAMESPACE<sp/>((xmlChar<sp/>*)<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;org.apache.xalan.xslt.extensions.Redirect&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltFunctionNodeSet<sp/>(xmlXPathParserContextPtr<sp/>ctxt,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nargs);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltDebug<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltRegisterExtras<sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltRegisterAllExtras<sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLT_EXTRA_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h"/>
+  </compounddef>
+</doxygen>

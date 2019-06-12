@@ -1,0 +1,648 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_number_methods" kind="struct" language="C++" prot="public">
+    <compoundname>PyNumberMethods</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_number_methods_1ada624d95704d8ec3491a6e6473b5c6af" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_add</definition>
+        <argsstring></argsstring>
+        <name>nb_add</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="245" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aa92ce9adbe4345ed779e32fbec1633b9" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_subtract</definition>
+        <argsstring></argsstring>
+        <name>nb_subtract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="246" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a6c2361df75359a95de536c0bba3b0ebc" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_multiply</definition>
+        <argsstring></argsstring>
+        <name>nb_multiply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="247" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1ac5faf4e85e1044648b75d87b980810f6" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_remainder</definition>
+        <argsstring></argsstring>
+        <name>nb_remainder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="248" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="248" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a993851f9a4d1ad172b8d3cf94382cb20" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_divmod</definition>
+        <argsstring></argsstring>
+        <name>nb_divmod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="249" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a41e3d866693e4d036b8f6c19e005d2e0" prot="public" static="no" mutable="no">
+        <type>ternaryfunc</type>
+        <definition>ternaryfunc PyNumberMethods::nb_power</definition>
+        <argsstring></argsstring>
+        <name>nb_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="250" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a0a4cb6e0aa1d4f2846ad198931c53af0" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_negative</definition>
+        <argsstring></argsstring>
+        <name>nb_negative</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="251" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1adca8072483c63243de4d26d0575e6e8d" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_positive</definition>
+        <argsstring></argsstring>
+        <name>nb_positive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="252" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aacd0b9091af25d0b001c7ae955f01242" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_absolute</definition>
+        <argsstring></argsstring>
+        <name>nb_absolute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="253" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a924b8f034adfc6d692aa2622ceb241c9" prot="public" static="no" mutable="no">
+        <type>inquiry</type>
+        <definition>inquiry PyNumberMethods::nb_bool</definition>
+        <argsstring></argsstring>
+        <name>nb_bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="254" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aee32a87f659df88aab41f1f163a106dd" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_invert</definition>
+        <argsstring></argsstring>
+        <name>nb_invert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="255" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a8d70551ecd98629b8bd17609db59ce75" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_lshift</definition>
+        <argsstring></argsstring>
+        <name>nb_lshift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="256" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a5a5c35ddb101f3d16b0558daf4676e6f" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_rshift</definition>
+        <argsstring></argsstring>
+        <name>nb_rshift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="257" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a4b3d3a6ff70631b1c23aa98e636831e9" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_and</definition>
+        <argsstring></argsstring>
+        <name>nb_and</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="258" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1af66f02aa7e6385879627498f944a666a" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_xor</definition>
+        <argsstring></argsstring>
+        <name>nb_xor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="259" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1acc4e4256e1d46b983c3e22609cf4e7ff" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_or</definition>
+        <argsstring></argsstring>
+        <name>nb_or</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="260" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a5581d02c0349c4045eefe4c3ac7cc8da" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_int</definition>
+        <argsstring></argsstring>
+        <name>nb_int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="261" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a3f2db2681aface87f148bd9191549a8a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PyNumberMethods::nb_reserved</definition>
+        <argsstring></argsstring>
+        <name>nb_reserved</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="262" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a29824c24582ece29d1e249f10231a7ba" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_float</definition>
+        <argsstring></argsstring>
+        <name>nb_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="263" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1acf941d59796873a7680450d3356aab98" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_add</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_add</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="265" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a4ee67aea58af57dd5bb1ce077cf090b4" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_subtract</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_subtract</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="266" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a98754030d57450255e1604ffef8c8416" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_multiply</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_multiply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="267" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1ab97168bbc3fd66e4908a402e5661d2e3" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_remainder</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_remainder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="268" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a02023c70f79944ff3e781611dbee9026" prot="public" static="no" mutable="no">
+        <type>ternaryfunc</type>
+        <definition>ternaryfunc PyNumberMethods::nb_inplace_power</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="269" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aebe5c52c591c70759a7a24bc73dd391f" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_lshift</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_lshift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="270" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aa5240cc9ef3ec51027e01144b7daf143" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_rshift</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_rshift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="271" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a4f801b5abf04bab3777b28e1160dd8d4" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_and</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_and</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="272" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a765b38e2d40ef62058dc8433fb35d2d8" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_xor</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_xor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="273" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a3e01f63c2f42532862663e2d94f70833" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_or</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_or</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="274" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a05f22c9ef56fb0c264dd1987975f6c0c" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_floor_divide</definition>
+        <argsstring></argsstring>
+        <name>nb_floor_divide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="276" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a7de1a2730c487e2dcce5babec5b24bed" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_true_divide</definition>
+        <argsstring></argsstring>
+        <name>nb_true_divide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="277" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1af12f77b35585ee95c1721216a3542d13" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_floor_divide</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_floor_divide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="278" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a97f52131b7b10b1f37f7cbe1fe9835a3" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_true_divide</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_true_divide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="279" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1ade4ff47ded0d8b356dfbca189fc35bc6" prot="public" static="no" mutable="no">
+        <type>unaryfunc</type>
+        <definition>unaryfunc PyNumberMethods::nb_index</definition>
+        <argsstring></argsstring>
+        <name>nb_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="281" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1aa55b9351d0046399002d74dc593f580c" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_matrix_multiply</definition>
+        <argsstring></argsstring>
+        <name>nb_matrix_multiply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="283" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_number_methods_1a412af2eae5b355af32641e75ae611e3d" prot="public" static="no" mutable="no">
+        <type>binaryfunc</type>
+        <definition>binaryfunc PyNumberMethods::nb_inplace_matrix_multiply</definition>
+        <argsstring></argsstring>
+        <name>nb_inplace_matrix_multiply</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="284" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1323">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1319">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1320" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1325">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1324">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1326">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1320">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1321" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1322" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1323" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1324" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1325" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1326" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1318" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1327" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1320" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1321">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1318">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1327">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1319" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1322">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="240" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="240" bodyend="285"/>
+    <listofallmembers>
+      <member refid="struct_py_number_methods_1aacd0b9091af25d0b001c7ae955f01242" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_absolute</name></member>
+      <member refid="struct_py_number_methods_1ada624d95704d8ec3491a6e6473b5c6af" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_add</name></member>
+      <member refid="struct_py_number_methods_1a4b3d3a6ff70631b1c23aa98e636831e9" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_and</name></member>
+      <member refid="struct_py_number_methods_1a924b8f034adfc6d692aa2622ceb241c9" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_bool</name></member>
+      <member refid="struct_py_number_methods_1a993851f9a4d1ad172b8d3cf94382cb20" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_divmod</name></member>
+      <member refid="struct_py_number_methods_1a29824c24582ece29d1e249f10231a7ba" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_float</name></member>
+      <member refid="struct_py_number_methods_1a05f22c9ef56fb0c264dd1987975f6c0c" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_floor_divide</name></member>
+      <member refid="struct_py_number_methods_1ade4ff47ded0d8b356dfbca189fc35bc6" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_index</name></member>
+      <member refid="struct_py_number_methods_1acf941d59796873a7680450d3356aab98" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_add</name></member>
+      <member refid="struct_py_number_methods_1a4f801b5abf04bab3777b28e1160dd8d4" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_and</name></member>
+      <member refid="struct_py_number_methods_1af12f77b35585ee95c1721216a3542d13" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_floor_divide</name></member>
+      <member refid="struct_py_number_methods_1aebe5c52c591c70759a7a24bc73dd391f" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_lshift</name></member>
+      <member refid="struct_py_number_methods_1a412af2eae5b355af32641e75ae611e3d" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_matrix_multiply</name></member>
+      <member refid="struct_py_number_methods_1a98754030d57450255e1604ffef8c8416" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_multiply</name></member>
+      <member refid="struct_py_number_methods_1a3e01f63c2f42532862663e2d94f70833" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_or</name></member>
+      <member refid="struct_py_number_methods_1a02023c70f79944ff3e781611dbee9026" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_power</name></member>
+      <member refid="struct_py_number_methods_1ab97168bbc3fd66e4908a402e5661d2e3" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_remainder</name></member>
+      <member refid="struct_py_number_methods_1aa5240cc9ef3ec51027e01144b7daf143" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_rshift</name></member>
+      <member refid="struct_py_number_methods_1a4ee67aea58af57dd5bb1ce077cf090b4" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_subtract</name></member>
+      <member refid="struct_py_number_methods_1a97f52131b7b10b1f37f7cbe1fe9835a3" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_true_divide</name></member>
+      <member refid="struct_py_number_methods_1a765b38e2d40ef62058dc8433fb35d2d8" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_inplace_xor</name></member>
+      <member refid="struct_py_number_methods_1a5581d02c0349c4045eefe4c3ac7cc8da" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_int</name></member>
+      <member refid="struct_py_number_methods_1aee32a87f659df88aab41f1f163a106dd" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_invert</name></member>
+      <member refid="struct_py_number_methods_1a8d70551ecd98629b8bd17609db59ce75" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_lshift</name></member>
+      <member refid="struct_py_number_methods_1aa55b9351d0046399002d74dc593f580c" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_matrix_multiply</name></member>
+      <member refid="struct_py_number_methods_1a6c2361df75359a95de536c0bba3b0ebc" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_multiply</name></member>
+      <member refid="struct_py_number_methods_1a0a4cb6e0aa1d4f2846ad198931c53af0" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_negative</name></member>
+      <member refid="struct_py_number_methods_1acc4e4256e1d46b983c3e22609cf4e7ff" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_or</name></member>
+      <member refid="struct_py_number_methods_1adca8072483c63243de4d26d0575e6e8d" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_positive</name></member>
+      <member refid="struct_py_number_methods_1a41e3d866693e4d036b8f6c19e005d2e0" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_power</name></member>
+      <member refid="struct_py_number_methods_1ac5faf4e85e1044648b75d87b980810f6" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_remainder</name></member>
+      <member refid="struct_py_number_methods_1a3f2db2681aface87f148bd9191549a8a" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_reserved</name></member>
+      <member refid="struct_py_number_methods_1a5a5c35ddb101f3d16b0558daf4676e6f" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_rshift</name></member>
+      <member refid="struct_py_number_methods_1aa92ce9adbe4345ed779e32fbec1633b9" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_subtract</name></member>
+      <member refid="struct_py_number_methods_1a7de1a2730c487e2dcce5babec5b24bed" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_true_divide</name></member>
+      <member refid="struct_py_number_methods_1af66f02aa7e6385879627498f944a666a" prot="public" virt="non-virtual"><scope>PyNumberMethods</scope><name>nb_xor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

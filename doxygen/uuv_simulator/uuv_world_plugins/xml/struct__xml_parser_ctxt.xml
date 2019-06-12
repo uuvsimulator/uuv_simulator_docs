@@ -1,0 +1,1491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_parser_ctxt" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlParserCtxt</compoundname>
+    <includes refid="parser_8h" local="no">parser.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a6461422cb3f71bd1eeea538a7c72b56e" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_s_a_x_handler" kindref="compound">_xmlSAXHandler</ref> *</type>
+        <definition>struct _xmlSAXHandler* _xmlParserCtxt::sax</definition>
+        <argsstring></argsstring>
+        <name>sax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="185" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ae23873a107a9dc280a0a4daba0f21671" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlParserCtxt::userData</definition>
+        <argsstring></argsstring>
+        <name>userData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="186" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a7058431b5a7781f3ecb400a0687b35de" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+        <definition>xmlDocPtr _xmlParserCtxt::myDoc</definition>
+        <argsstring></argsstring>
+        <name>myDoc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="187" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a304fdc65a808cab0e5057770375d1809" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::wellFormed</definition>
+        <argsstring></argsstring>
+        <name>wellFormed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="188" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="188" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a1649ee3fa54a9a0a666f82c5738faf80" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::replaceEntities</definition>
+        <argsstring></argsstring>
+        <name>replaceEntities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="189" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="189" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ac3b0f4294a275545b1305218d90d02ea" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="190" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a8ab949233a869865002ede3ef6c1a452" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::encoding</definition>
+        <argsstring></argsstring>
+        <name>encoding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="191" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ad92c2a15082cf72806f8b6499b12b4d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::standalone</definition>
+        <argsstring></argsstring>
+        <name>standalone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="192" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aa963b0ce68afd948cd56a4ec1894c82d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::html</definition>
+        <argsstring></argsstring>
+        <name>html</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="193" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1af8206afddd8fa7a780e42a963049697b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref></type>
+        <definition>xmlParserInputPtr _xmlParserCtxt::input</definition>
+        <argsstring></argsstring>
+        <name>input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="199" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a810ebc704f76c8aa8ea7990581159822" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::inputNr</definition>
+        <argsstring></argsstring>
+        <name>inputNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="200" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a048f19467718dab3a8a069cfac9e4dad" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::inputMax</definition>
+        <argsstring></argsstring>
+        <name>inputMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="201" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="201" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1add9eeeaea766f48ea0392bc2ab475794" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref> *</type>
+        <definition>xmlParserInputPtr* _xmlParserCtxt::inputTab</definition>
+        <argsstring></argsstring>
+        <name>inputTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="202" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aeec26cdcb168cb04b9c7d78f24559d41" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xmlParserCtxt::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="205" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a5bf7f999acdf8ca93eec2b284136c9ce" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodeNr</definition>
+        <argsstring></argsstring>
+        <name>nodeNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="206" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a45b85da2db53d7b44217e44fa36facfe" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodeMax</definition>
+        <argsstring></argsstring>
+        <name>nodeMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="207" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a4cc3b4c1af570b5d06f5a17afaadfc0c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref> *</type>
+        <definition>xmlNodePtr* _xmlParserCtxt::nodeTab</definition>
+        <argsstring></argsstring>
+        <name>nodeTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="208" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ad25fd020c9638c8c83d1ca20e9c654d0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::record_info</definition>
+        <argsstring></argsstring>
+        <name>record_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="210" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a67ea88a46d6f75ee30ea0ae1c5b231e1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_node_info_seq" kindref="compound">xmlParserNodeInfoSeq</ref></type>
+        <definition>xmlParserNodeInfoSeq _xmlParserCtxt::node_seq</definition>
+        <argsstring></argsstring>
+        <name>node_seq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="211" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a18c6437841924c5d32203447e2bc09cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::errNo</definition>
+        <argsstring></argsstring>
+        <name>errNo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="213" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a71dea0c007d91137762b6344501c6e76" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::hasExternalSubset</definition>
+        <argsstring></argsstring>
+        <name>hasExternalSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="215" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a17eae9a89a2cc2a642a91b82848f18cb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::hasPErefs</definition>
+        <argsstring></argsstring>
+        <name>hasPErefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="216" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a28a2603f4c465b5ffb680ab32331ce63" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::external</definition>
+        <argsstring></argsstring>
+        <name>external</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="217" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a45c179682750430ef82ef5ab5f362268" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="219" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1af152215ec777654003b8c1303702b6d0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::validate</definition>
+        <argsstring></argsstring>
+        <name>validate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="220" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a19e33aa85d0096a58474ca1b8cc08bec" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_valid_ctxt" kindref="compound">xmlValidCtxt</ref></type>
+        <definition>xmlValidCtxt _xmlParserCtxt::vctxt</definition>
+        <argsstring></argsstring>
+        <name>vctxt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="221" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a7c245b95e3490e3f36777e591e212c09" prot="public" static="no" mutable="no">
+        <type>xmlParserInputState</type>
+        <definition>xmlParserInputState _xmlParserCtxt::instate</definition>
+        <argsstring></argsstring>
+        <name>instate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="223" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1abfb170aa1cc309760fec4ab80c9d7fa5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::token</definition>
+        <argsstring></argsstring>
+        <name>token</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="224" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a0b7d8fe514a8504d3115bc2a29f05cc1" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _xmlParserCtxt::directory</definition>
+        <argsstring></argsstring>
+        <name>directory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="226" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ac0c5cf2b8f3b237419081333df2b0155" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="229" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a1b1150eb7811fb53c98e63e35d53e4b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nameNr</definition>
+        <argsstring></argsstring>
+        <name>nameNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="230" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a6a0ab12d2cb34af65df75d7c2c583239" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nameMax</definition>
+        <argsstring></argsstring>
+        <name>nameMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="231" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ae09e1b7b9859f479ae530e5d4b57fa5e" prot="public" static="no" mutable="no">
+        <type>const xmlChar **</type>
+        <definition>const xmlChar* * _xmlParserCtxt::nameTab</definition>
+        <argsstring></argsstring>
+        <name>nameTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="232" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="232" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a4113f0fbbfd08c0f29cbc460cc86da79" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long _xmlParserCtxt::nbChars</definition>
+        <argsstring></argsstring>
+        <name>nbChars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="234" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a74b3a4672d064ba4e2ef98d4c3e743db" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long _xmlParserCtxt::checkIndex</definition>
+        <argsstring></argsstring>
+        <name>checkIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="235" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a1fa21b92fadb52c5b1b85a4916343671" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::keepBlanks</definition>
+        <argsstring></argsstring>
+        <name>keepBlanks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="236" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a427c7da076659275c117e0697787dd48" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::disableSAX</definition>
+        <argsstring></argsstring>
+        <name>disableSAX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="237" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ad63f2b246bc1550da0a7cf9987ee748c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::inSubset</definition>
+        <argsstring></argsstring>
+        <name>inSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="238" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a518541a39787b4f33393e9748a1dee27" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::intSubName</definition>
+        <argsstring></argsstring>
+        <name>intSubName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="239" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ac07fc6c5e12b9adf5a146a3ef68566da" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xmlParserCtxt::extSubURI</definition>
+        <argsstring></argsstring>
+        <name>extSubURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="240" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a61141688814ddb09be77b94054f2b105" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xmlParserCtxt::extSubSystem</definition>
+        <argsstring></argsstring>
+        <name>extSubSystem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="241" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a39bd630bf5ce1c43b5effabea8d005a4" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* _xmlParserCtxt::space</definition>
+        <argsstring></argsstring>
+        <name>space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="244" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ab8c1540b6c6e92500a302a94d6811c6c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::spaceNr</definition>
+        <argsstring></argsstring>
+        <name>spaceNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="245" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a2bf81df7c8f3436c87a74f84a2491a68" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::spaceMax</definition>
+        <argsstring></argsstring>
+        <name>spaceMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="246" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ad3d20dc163993400e839dd5184c67696" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* _xmlParserCtxt::spaceTab</definition>
+        <argsstring></argsstring>
+        <name>spaceTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="247" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a2a1d335b2cddf80f7a47733ab5c8d80f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::depth</definition>
+        <argsstring></argsstring>
+        <name>depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="249" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a512d34ee6ddbf6ce1f192757ae3a3ecf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref></type>
+        <definition>xmlParserInputPtr _xmlParserCtxt::entity</definition>
+        <argsstring></argsstring>
+        <name>entity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="250" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1af301648ace86f018fe05cb5dc3b6a102" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::charset</definition>
+        <argsstring></argsstring>
+        <name>charset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="251" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a30fec8f827d12f92cd0de13514cd889c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodelen</definition>
+        <argsstring></argsstring>
+        <name>nodelen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="253" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a4eaca77096f011383a1c287f3d0fba15" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodemem</definition>
+        <argsstring></argsstring>
+        <name>nodemem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="254" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="254" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a796a6b0c9f0007e254efb062b93d1ae8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::pedantic</definition>
+        <argsstring></argsstring>
+        <name>pedantic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="255" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a4b4bdcdc7e1de4c8c97c7418afb6ec74" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlParserCtxt::_private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="256" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a40da231797aa3b884594164515fb0324" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::loadsubset</definition>
+        <argsstring></argsstring>
+        <name>loadsubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="258" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aee2a9f6d1f92d0f418cf8e4a646f6015" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::linenumbers</definition>
+        <argsstring></argsstring>
+        <name>linenumbers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="259" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="259" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aa8125b050bb6db81ed3c9eabb26d932f" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlParserCtxt::catalogs</definition>
+        <argsstring></argsstring>
+        <name>catalogs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="260" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a9c51ae3fc1792162019746d718b87325" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::recovery</definition>
+        <argsstring></argsstring>
+        <name>recovery</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="261" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="261" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a3922f3d01fced1a3e0a9ed119617bc3b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::progressive</definition>
+        <argsstring></argsstring>
+        <name>progressive</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="262" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a9b94feda8017aa3343b4465254e73e6b" prot="public" static="no" mutable="no">
+        <type>xmlDictPtr</type>
+        <definition>xmlDictPtr _xmlParserCtxt::dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="263" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a10dc07c0f01633feca48837c09accd13" prot="public" static="no" mutable="no">
+        <type>const xmlChar **</type>
+        <definition>const xmlChar* * _xmlParserCtxt::atts</definition>
+        <argsstring></argsstring>
+        <name>atts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="264" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="264" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a81b0f6978c0946d5f99cd8d08f33fb6f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::maxatts</definition>
+        <argsstring></argsstring>
+        <name>maxatts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="265" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aceaa20243b828ee00343b8e9356d70a2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::docdict</definition>
+        <argsstring></argsstring>
+        <name>docdict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="266" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a47a6c172a978bdd2ef9c2072631534de" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::str_xml</definition>
+        <argsstring></argsstring>
+        <name>str_xml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="271" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a7e83158bd42f091210700ff2f00e587b" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::str_xmlns</definition>
+        <argsstring></argsstring>
+        <name>str_xmlns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="272" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a7ae6bf3f97ec96b023fe67163461fa31" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlParserCtxt::str_xml_ns</definition>
+        <argsstring></argsstring>
+        <name>str_xml_ns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="273" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a6b8cc2efcfe76db0b97ba622d2eb9528" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::sax2</definition>
+        <argsstring></argsstring>
+        <name>sax2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="278" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1abea0de93d293184f4b128aa0a6c1086e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nsNr</definition>
+        <argsstring></argsstring>
+        <name>nsNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="279" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a8f66360c203d9a013575853da5d33914" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nsMax</definition>
+        <argsstring></argsstring>
+        <name>nsMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="280" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a9fcc26c9cea3b15d607c1dbb8ac35149" prot="public" static="no" mutable="no">
+        <type>const xmlChar **</type>
+        <definition>const xmlChar* * _xmlParserCtxt::nsTab</definition>
+        <argsstring></argsstring>
+        <name>nsTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="281" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a9ce2d8ccd729786b95de2a5640e1a441" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* _xmlParserCtxt::attallocs</definition>
+        <argsstring></argsstring>
+        <name>attallocs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="282" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a499226a57b2c8b8956d62005f85dc1b2" prot="public" static="no" mutable="no">
+        <type>void **</type>
+        <definition>void* * _xmlParserCtxt::pushTab</definition>
+        <argsstring></argsstring>
+        <name>pushTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="283" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ae6e54118b3c9a1d0b49163e5e8be50a5" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xmlParserCtxt::attsDefault</definition>
+        <argsstring></argsstring>
+        <name>attsDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="284" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aa28f2a75723d92222abaea81ce3e94a8" prot="public" static="no" mutable="no">
+        <type>xmlHashTablePtr</type>
+        <definition>xmlHashTablePtr _xmlParserCtxt::attsSpecial</definition>
+        <argsstring></argsstring>
+        <name>attsSpecial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="285" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a15f8e8be481f79a4636e643f72d464b0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nsWellFormed</definition>
+        <argsstring></argsstring>
+        <name>nsWellFormed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="286" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a5f58199ceeb59e5faa1a6ea6d5a73502" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::options</definition>
+        <argsstring></argsstring>
+        <name>options</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="287" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a6e8ea51dd2f12067ebff135091cd97ed" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::dictNames</definition>
+        <argsstring></argsstring>
+        <name>dictNames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="292" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a47e2bf49432ad708a09298a8f441dbf3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::freeElemsNr</definition>
+        <argsstring></argsstring>
+        <name>freeElemsNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="293" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1af6e6f367f0455e32cf2050fecf0f2647" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xmlParserCtxt::freeElems</definition>
+        <argsstring></argsstring>
+        <name>freeElems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="294" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a505367ee1fc8289be00afd4217a169be" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::freeAttrsNr</definition>
+        <argsstring></argsstring>
+        <name>freeAttrsNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="295" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ac5c4d7b54b7e19da0256b7eacb5a159b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_attr" kindref="compound">xmlAttrPtr</ref></type>
+        <definition>xmlAttrPtr _xmlParserCtxt::freeAttrs</definition>
+        <argsstring></argsstring>
+        <name>freeAttrs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="296" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a06c58f3bc22c0d7c1ce76d607a5f44a9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_error" kindref="compound">xmlError</ref></type>
+        <definition>xmlError _xmlParserCtxt::lastError</definition>
+        <argsstring></argsstring>
+        <name>lastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="301" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a000fedcc192734e86f5d4544b7ef12e1" prot="public" static="no" mutable="no">
+        <type>xmlParserMode</type>
+        <definition>xmlParserMode _xmlParserCtxt::parseMode</definition>
+        <argsstring></argsstring>
+        <name>parseMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="302" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ae54fcad8c5b2a1a99a3f2600ff6fbd20" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _xmlParserCtxt::nbentities</definition>
+        <argsstring></argsstring>
+        <name>nbentities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="303" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1ac33f4970b6a6c6d44d6af6b3e75c1cba" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _xmlParserCtxt::sizeentities</definition>
+        <argsstring></argsstring>
+        <name>sizeentities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="304" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a94cfb5fca39a2f7799401ce839d56fa5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_node_info" kindref="compound">xmlParserNodeInfo</ref> *</type>
+        <definition>xmlParserNodeInfo* _xmlParserCtxt::nodeInfo</definition>
+        <argsstring></argsstring>
+        <name>nodeInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="307" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1afa9973d4413dc9c5258beaf8630d4482" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodeInfoNr</definition>
+        <argsstring></argsstring>
+        <name>nodeInfoNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="308" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aa60d004e3a010df0d860323babb6292b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::nodeInfoMax</definition>
+        <argsstring></argsstring>
+        <name>nodeInfoMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="309" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1aefdcb34e692fd2f6925e9bb76c6765df" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_parser_node_info" kindref="compound">xmlParserNodeInfo</ref> *</type>
+        <definition>xmlParserNodeInfo* _xmlParserCtxt::nodeInfoTab</definition>
+        <argsstring></argsstring>
+        <name>nodeInfoTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="310" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1a9e161978b15e21b447d7548e6b423aef" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserCtxt::input_id</definition>
+        <argsstring></argsstring>
+        <name>input_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="312" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_ctxt_1adb01e0317efabacab7a736e39c5785dd" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _xmlParserCtxt::sizeentcopy</definition>
+        <argsstring></argsstring>
+        <name>sizeentcopy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="313" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>xmlParserCtxt:</para><para>The parser context. NOTE This doesn&apos;t completely define the parser state, the (current ?) design of the parser uses recursive function calls since this allow and easy mapping from the production rules of the specification to the actual code. The drawback is that the actual function call also reflect the parser state. However most of the parsing routines takes as the only argument the parser context pointer, so migrating to a state based parser for progressive parsing shouldn&apos;t be too hard. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="555">
+        <label>_xmlCharEncodingHandler</label>
+        <link refid="struct__xml_char_encoding_handler"/>
+      </node>
+      <node id="556">
+        <label>_xmlValidCtxt</label>
+        <link refid="struct__xml_valid_ctxt"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>node</edgelabel>
+          <edgelabel>nodeTab</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="564">
+        <label>_xmlEnumeration</label>
+        <link refid="struct__xml_enumeration"/>
+        <childnode refid="564" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="565">
+        <label>_xmlEntity</label>
+        <link refid="struct__xml_entity"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="565" relation="usage">
+          <edgelabel>nexte</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="561" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="558">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="558" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="560" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="559">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="560" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="561" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="568">
+        <label>_xmlParserNodeInfo</label>
+        <link refid="struct__xml_parser_node_info"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+      </node>
+      <node id="567">
+        <label>_xmlParserNodeInfoSeq</label>
+        <link refid="struct__xml_parser_node_info_seq"/>
+        <childnode refid="568" relation="usage">
+          <edgelabel>buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="553">
+        <label>_xmlParserInput</label>
+        <link refid="struct__xml_parser_input"/>
+        <childnode refid="554" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="569">
+        <label>_xmlError</label>
+        <link refid="struct__xml_error"/>
+      </node>
+      <node id="561">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="560">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="559" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="560" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="554">
+        <label>_xmlParserInputBuffer</label>
+        <link refid="struct__xml_parser_input_buffer"/>
+        <childnode refid="555" relation="usage">
+          <edgelabel>encoder</edgelabel>
+        </childnode>
+      </node>
+      <node id="557">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="557" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="558" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="560" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="562">
+        <label>_xmlSAXHandler</label>
+        <link refid="struct__xml_s_a_x_handler"/>
+        <childnode refid="563" relation="usage">
+          <edgelabel>elementDecl</edgelabel>
+        </childnode>
+        <childnode refid="564" relation="usage">
+          <edgelabel>attributeDecl</edgelabel>
+        </childnode>
+        <childnode refid="553" relation="usage">
+          <edgelabel>resolveEntity</edgelabel>
+        </childnode>
+        <childnode refid="565" relation="usage">
+          <edgelabel>getEntity</edgelabel>
+          <edgelabel>getParameterEntity</edgelabel>
+        </childnode>
+        <childnode refid="566" relation="usage">
+          <edgelabel>setDocumentLocator</edgelabel>
+        </childnode>
+      </node>
+      <node id="563">
+        <label>_xmlElementContent</label>
+        <link refid="struct__xml_element_content"/>
+        <childnode refid="563" relation="usage">
+          <edgelabel>c1</edgelabel>
+          <edgelabel>c2</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="566">
+        <label>_xmlSAXLocator</label>
+        <link refid="struct__xml_s_a_x_locator"/>
+      </node>
+      <node id="552">
+        <label>_xmlParserCtxt</label>
+        <link refid="struct__xml_parser_ctxt"/>
+        <childnode refid="553" relation="usage">
+          <edgelabel>entity</edgelabel>
+          <edgelabel>input</edgelabel>
+          <edgelabel>inputTab</edgelabel>
+        </childnode>
+        <childnode refid="556" relation="usage">
+          <edgelabel>vctxt</edgelabel>
+        </childnode>
+        <childnode refid="557" relation="usage">
+          <edgelabel>node</edgelabel>
+          <edgelabel>freeElems</edgelabel>
+          <edgelabel>nodeTab</edgelabel>
+        </childnode>
+        <childnode refid="562" relation="usage">
+          <edgelabel>sax</edgelabel>
+        </childnode>
+        <childnode refid="558" relation="usage">
+          <edgelabel>freeAttrs</edgelabel>
+        </childnode>
+        <childnode refid="559" relation="usage">
+          <edgelabel>myDoc</edgelabel>
+        </childnode>
+        <childnode refid="567" relation="usage">
+          <edgelabel>node_seq</edgelabel>
+        </childnode>
+        <childnode refid="568" relation="usage">
+          <edgelabel>nodeInfoTab</edgelabel>
+          <edgelabel>nodeInfo</edgelabel>
+        </childnode>
+        <childnode refid="569" relation="usage">
+          <edgelabel>lastError</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="184" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="184" bodyend="314"/>
+    <listofallmembers>
+      <member refid="struct__xml_parser_ctxt_1a4b4bdcdc7e1de4c8c97c7418afb6ec74" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>_private</name></member>
+      <member refid="struct__xml_parser_ctxt_1a9ce2d8ccd729786b95de2a5640e1a441" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>attallocs</name></member>
+      <member refid="struct__xml_parser_ctxt_1a10dc07c0f01633feca48837c09accd13" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>atts</name></member>
+      <member refid="struct__xml_parser_ctxt_1ae6e54118b3c9a1d0b49163e5e8be50a5" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>attsDefault</name></member>
+      <member refid="struct__xml_parser_ctxt_1aa28f2a75723d92222abaea81ce3e94a8" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>attsSpecial</name></member>
+      <member refid="struct__xml_parser_ctxt_1aa8125b050bb6db81ed3c9eabb26d932f" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>catalogs</name></member>
+      <member refid="struct__xml_parser_ctxt_1af301648ace86f018fe05cb5dc3b6a102" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>charset</name></member>
+      <member refid="struct__xml_parser_ctxt_1a74b3a4672d064ba4e2ef98d4c3e743db" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>checkIndex</name></member>
+      <member refid="struct__xml_parser_ctxt_1a2a1d335b2cddf80f7a47733ab5c8d80f" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>depth</name></member>
+      <member refid="struct__xml_parser_ctxt_1a9b94feda8017aa3343b4465254e73e6b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>dict</name></member>
+      <member refid="struct__xml_parser_ctxt_1a6e8ea51dd2f12067ebff135091cd97ed" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>dictNames</name></member>
+      <member refid="struct__xml_parser_ctxt_1a0b7d8fe514a8504d3115bc2a29f05cc1" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>directory</name></member>
+      <member refid="struct__xml_parser_ctxt_1a427c7da076659275c117e0697787dd48" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>disableSAX</name></member>
+      <member refid="struct__xml_parser_ctxt_1aceaa20243b828ee00343b8e9356d70a2" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>docdict</name></member>
+      <member refid="struct__xml_parser_ctxt_1a8ab949233a869865002ede3ef6c1a452" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>encoding</name></member>
+      <member refid="struct__xml_parser_ctxt_1a512d34ee6ddbf6ce1f192757ae3a3ecf" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>entity</name></member>
+      <member refid="struct__xml_parser_ctxt_1a18c6437841924c5d32203447e2bc09cf" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>errNo</name></member>
+      <member refid="struct__xml_parser_ctxt_1a28a2603f4c465b5ffb680ab32331ce63" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>external</name></member>
+      <member refid="struct__xml_parser_ctxt_1a61141688814ddb09be77b94054f2b105" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>extSubSystem</name></member>
+      <member refid="struct__xml_parser_ctxt_1ac07fc6c5e12b9adf5a146a3ef68566da" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>extSubURI</name></member>
+      <member refid="struct__xml_parser_ctxt_1ac5c4d7b54b7e19da0256b7eacb5a159b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>freeAttrs</name></member>
+      <member refid="struct__xml_parser_ctxt_1a505367ee1fc8289be00afd4217a169be" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>freeAttrsNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1af6e6f367f0455e32cf2050fecf0f2647" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>freeElems</name></member>
+      <member refid="struct__xml_parser_ctxt_1a47e2bf49432ad708a09298a8f441dbf3" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>freeElemsNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1a71dea0c007d91137762b6344501c6e76" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>hasExternalSubset</name></member>
+      <member refid="struct__xml_parser_ctxt_1a17eae9a89a2cc2a642a91b82848f18cb" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>hasPErefs</name></member>
+      <member refid="struct__xml_parser_ctxt_1aa963b0ce68afd948cd56a4ec1894c82d" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>html</name></member>
+      <member refid="struct__xml_parser_ctxt_1af8206afddd8fa7a780e42a963049697b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>input</name></member>
+      <member refid="struct__xml_parser_ctxt_1a9e161978b15e21b447d7548e6b423aef" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>input_id</name></member>
+      <member refid="struct__xml_parser_ctxt_1a048f19467718dab3a8a069cfac9e4dad" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>inputMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1a810ebc704f76c8aa8ea7990581159822" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>inputNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1add9eeeaea766f48ea0392bc2ab475794" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>inputTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1a7c245b95e3490e3f36777e591e212c09" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>instate</name></member>
+      <member refid="struct__xml_parser_ctxt_1ad63f2b246bc1550da0a7cf9987ee748c" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>inSubset</name></member>
+      <member refid="struct__xml_parser_ctxt_1a518541a39787b4f33393e9748a1dee27" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>intSubName</name></member>
+      <member refid="struct__xml_parser_ctxt_1a1fa21b92fadb52c5b1b85a4916343671" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>keepBlanks</name></member>
+      <member refid="struct__xml_parser_ctxt_1a06c58f3bc22c0d7c1ce76d607a5f44a9" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>lastError</name></member>
+      <member refid="struct__xml_parser_ctxt_1aee2a9f6d1f92d0f418cf8e4a646f6015" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>linenumbers</name></member>
+      <member refid="struct__xml_parser_ctxt_1a40da231797aa3b884594164515fb0324" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>loadsubset</name></member>
+      <member refid="struct__xml_parser_ctxt_1a81b0f6978c0946d5f99cd8d08f33fb6f" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>maxatts</name></member>
+      <member refid="struct__xml_parser_ctxt_1a7058431b5a7781f3ecb400a0687b35de" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>myDoc</name></member>
+      <member refid="struct__xml_parser_ctxt_1ac0c5cf2b8f3b237419081333df2b0155" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>name</name></member>
+      <member refid="struct__xml_parser_ctxt_1a6a0ab12d2cb34af65df75d7c2c583239" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nameMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1a1b1150eb7811fb53c98e63e35d53e4b3" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nameNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1ae09e1b7b9859f479ae530e5d4b57fa5e" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nameTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1a4113f0fbbfd08c0f29cbc460cc86da79" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nbChars</name></member>
+      <member refid="struct__xml_parser_ctxt_1ae54fcad8c5b2a1a99a3f2600ff6fbd20" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nbentities</name></member>
+      <member refid="struct__xml_parser_ctxt_1aeec26cdcb168cb04b9c7d78f24559d41" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>node</name></member>
+      <member refid="struct__xml_parser_ctxt_1a67ea88a46d6f75ee30ea0ae1c5b231e1" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>node_seq</name></member>
+      <member refid="struct__xml_parser_ctxt_1a94cfb5fca39a2f7799401ce839d56fa5" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeInfo</name></member>
+      <member refid="struct__xml_parser_ctxt_1aa60d004e3a010df0d860323babb6292b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeInfoMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1afa9973d4413dc9c5258beaf8630d4482" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeInfoNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1aefdcb34e692fd2f6925e9bb76c6765df" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeInfoTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1a30fec8f827d12f92cd0de13514cd889c" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodelen</name></member>
+      <member refid="struct__xml_parser_ctxt_1a45b85da2db53d7b44217e44fa36facfe" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1a4eaca77096f011383a1c287f3d0fba15" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodemem</name></member>
+      <member refid="struct__xml_parser_ctxt_1a5bf7f999acdf8ca93eec2b284136c9ce" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1a4cc3b4c1af570b5d06f5a17afaadfc0c" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nodeTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1a8f66360c203d9a013575853da5d33914" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nsMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1abea0de93d293184f4b128aa0a6c1086e" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nsNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1a9fcc26c9cea3b15d607c1dbb8ac35149" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nsTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1a15f8e8be481f79a4636e643f72d464b0" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>nsWellFormed</name></member>
+      <member refid="struct__xml_parser_ctxt_1a5f58199ceeb59e5faa1a6ea6d5a73502" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>options</name></member>
+      <member refid="struct__xml_parser_ctxt_1a000fedcc192734e86f5d4544b7ef12e1" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>parseMode</name></member>
+      <member refid="struct__xml_parser_ctxt_1a796a6b0c9f0007e254efb062b93d1ae8" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>pedantic</name></member>
+      <member refid="struct__xml_parser_ctxt_1a3922f3d01fced1a3e0a9ed119617bc3b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>progressive</name></member>
+      <member refid="struct__xml_parser_ctxt_1a499226a57b2c8b8956d62005f85dc1b2" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>pushTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1ad25fd020c9638c8c83d1ca20e9c654d0" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>record_info</name></member>
+      <member refid="struct__xml_parser_ctxt_1a9c51ae3fc1792162019746d718b87325" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>recovery</name></member>
+      <member refid="struct__xml_parser_ctxt_1a1649ee3fa54a9a0a666f82c5738faf80" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>replaceEntities</name></member>
+      <member refid="struct__xml_parser_ctxt_1a6461422cb3f71bd1eeea538a7c72b56e" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>sax</name></member>
+      <member refid="struct__xml_parser_ctxt_1a6b8cc2efcfe76db0b97ba622d2eb9528" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>sax2</name></member>
+      <member refid="struct__xml_parser_ctxt_1adb01e0317efabacab7a736e39c5785dd" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>sizeentcopy</name></member>
+      <member refid="struct__xml_parser_ctxt_1ac33f4970b6a6c6d44d6af6b3e75c1cba" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>sizeentities</name></member>
+      <member refid="struct__xml_parser_ctxt_1a39bd630bf5ce1c43b5effabea8d005a4" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>space</name></member>
+      <member refid="struct__xml_parser_ctxt_1a2bf81df7c8f3436c87a74f84a2491a68" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>spaceMax</name></member>
+      <member refid="struct__xml_parser_ctxt_1ab8c1540b6c6e92500a302a94d6811c6c" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>spaceNr</name></member>
+      <member refid="struct__xml_parser_ctxt_1ad3d20dc163993400e839dd5184c67696" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>spaceTab</name></member>
+      <member refid="struct__xml_parser_ctxt_1ad92c2a15082cf72806f8b6499b12b4d5" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>standalone</name></member>
+      <member refid="struct__xml_parser_ctxt_1a47a6c172a978bdd2ef9c2072631534de" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>str_xml</name></member>
+      <member refid="struct__xml_parser_ctxt_1a7ae6bf3f97ec96b023fe67163461fa31" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>str_xml_ns</name></member>
+      <member refid="struct__xml_parser_ctxt_1a7e83158bd42f091210700ff2f00e587b" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>str_xmlns</name></member>
+      <member refid="struct__xml_parser_ctxt_1abfb170aa1cc309760fec4ab80c9d7fa5" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>token</name></member>
+      <member refid="struct__xml_parser_ctxt_1ae23873a107a9dc280a0a4daba0f21671" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>userData</name></member>
+      <member refid="struct__xml_parser_ctxt_1a45c179682750430ef82ef5ab5f362268" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>valid</name></member>
+      <member refid="struct__xml_parser_ctxt_1af152215ec777654003b8c1303702b6d0" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>validate</name></member>
+      <member refid="struct__xml_parser_ctxt_1a19e33aa85d0096a58474ca1b8cc08bec" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>vctxt</name></member>
+      <member refid="struct__xml_parser_ctxt_1ac3b0f4294a275545b1305218d90d02ea" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>version</name></member>
+      <member refid="struct__xml_parser_ctxt_1a304fdc65a808cab0e5057770375d1809" prot="public" virt="non-virtual"><scope>_xmlParserCtxt</scope><name>wellFormed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

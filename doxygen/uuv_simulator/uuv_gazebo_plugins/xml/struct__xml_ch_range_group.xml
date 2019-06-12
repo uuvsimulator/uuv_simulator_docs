@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_ch_range_group" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlChRangeGroup</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_ch_range_group_1a586ec6ff0df5781a799120268c917581" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlChRangeGroup::nbShortRange</definition>
+        <argsstring></argsstring>
+        <name>nbShortRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" line="45" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ch_range_group_1a8c00ae5937f0d5489444fd8c264f7640" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlChRangeGroup::nbLongRange</definition>
+        <argsstring></argsstring>
+        <name>nbLongRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" line="46" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ch_range_group_1aedd6b0cbe54821910877e37a34c6ab38" prot="public" static="no" mutable="no">
+        <type>const <ref refid="struct__xml_ch_s_range" kindref="compound">xmlChSRange</ref> *</type>
+        <definition>const xmlChSRange* _xmlChRangeGroup::shortRange</definition>
+        <argsstring></argsstring>
+        <name>shortRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" line="47" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_ch_range_group_1a17b011e8ac3510579c3f59bc82960c34" prot="public" static="no" mutable="no">
+        <type>const <ref refid="struct__xml_ch_l_range" kindref="compound">xmlChLRange</ref> *</type>
+        <definition>const xmlChLRange* _xmlChRangeGroup::longRange</definition>
+        <argsstring></argsstring>
+        <name>longRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" line="48" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="468">
+        <label>_xmlChSRange</label>
+        <link refid="struct__xml_ch_s_range"/>
+      </node>
+      <node id="467">
+        <label>_xmlChRangeGroup</label>
+        <link refid="struct__xml_ch_range_group"/>
+        <childnode refid="468" relation="usage">
+          <edgelabel>shortRange</edgelabel>
+        </childnode>
+        <childnode refid="469" relation="usage">
+          <edgelabel>longRange</edgelabel>
+        </childnode>
+      </node>
+      <node id="469">
+        <label>_xmlChLRange</label>
+        <link refid="struct__xml_ch_l_range"/>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" line="44" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h" bodystart="44" bodyend="49"/>
+    <listofallmembers>
+      <member refid="struct__xml_ch_range_group_1a17b011e8ac3510579c3f59bc82960c34" prot="public" virt="non-virtual"><scope>_xmlChRangeGroup</scope><name>longRange</name></member>
+      <member refid="struct__xml_ch_range_group_1a8c00ae5937f0d5489444fd8c264f7640" prot="public" virt="non-virtual"><scope>_xmlChRangeGroup</scope><name>nbLongRange</name></member>
+      <member refid="struct__xml_ch_range_group_1a586ec6ff0df5781a799120268c917581" prot="public" virt="non-virtual"><scope>_xmlChRangeGroup</scope><name>nbShortRange</name></member>
+      <member refid="struct__xml_ch_range_group_1aedd6b0cbe54821910877e37a34c6ab38" prot="public" virt="non-virtual"><scope>_xmlChRangeGroup</scope><name>shortRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

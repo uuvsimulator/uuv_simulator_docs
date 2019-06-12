@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="uri_8h" kind="file" language="C++">
+    <compoundname>uri.h</compoundname>
+    <includes refid="xmlversion_8h" local="no">libxml/xmlversion.h</includes>
+    <includes refid="tree_8h" local="no">libxml/tree.h</includes>
+    <incdepgraph>
+      <node id="1211">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1212">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+      </node>
+      <node id="1228">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1227">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1223">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1218">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+      </node>
+      <node id="1225">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+      </node>
+      <node id="1217">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1209">
+        <label>limits.h</label>
+      </node>
+      <node id="1221">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+      </node>
+      <node id="1215">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1226" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+      </node>
+      <node id="1213">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1214" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+      </node>
+      <node id="1205">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="1206" relation="include">
+        </childnode>
+      </node>
+      <node id="1210">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+      </node>
+      <node id="1216">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="1211" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+        <childnode refid="1217" relation="include">
+        </childnode>
+        <childnode refid="1218" relation="include">
+        </childnode>
+        <childnode refid="1219" relation="include">
+        </childnode>
+        <childnode refid="1223" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1210" relation="include">
+        </childnode>
+        <childnode refid="1224" relation="include">
+        </childnode>
+        <childnode refid="1225" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1210" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+        <childnode refid="1213" relation="include">
+        </childnode>
+      </node>
+      <node id="1224">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1219">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1220" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+        <childnode refid="1221" relation="include">
+        </childnode>
+        <childnode refid="1222" relation="include">
+        </childnode>
+        <childnode refid="1212" relation="include">
+        </childnode>
+      </node>
+      <node id="1226">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+        <childnode refid="1227" relation="include">
+        </childnode>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1216" relation="include">
+        </childnode>
+        <childnode refid="1228" relation="include">
+        </childnode>
+      </node>
+      <node id="1214">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1215" relation="include">
+        </childnode>
+      </node>
+      <node id="1222">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1206">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="1208">
+        <label>stdio.h</label>
+      </node>
+      <node id="1204">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h</label>
+        <link refid="uri_8h"/>
+        <childnode refid="1205" relation="include">
+        </childnode>
+        <childnode refid="1207" relation="include">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="1216" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct__xml_u_r_i" prot="public">_xmlURI</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="uri_8h_1ae2d1c5456730ad1fce438a9c6c6c4f12" prot="public" static="no">
+        <type>struct <ref refid="struct__xml_u_r_i" kindref="compound">_xmlURI</ref></type>
+        <definition>typedef struct _xmlURI xmlURI</definition>
+        <argsstring></argsstring>
+        <name>xmlURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Summary: library of generic URI related routines Description: library of generic URI related routines Implements RFC 2396</para><para>Copy: See Copyright for the status of this software.</para><para>Author: Daniel Veillard xmlURI:</para><para>A parsed URI reference. This is a struct containing the various fields as described in RFC 2396 but separated for further processing.</para><para>Note: query is a deprecated field which is incorrectly unescaped. query_raw takes precedence over query if the former is set. See: <ulink url="http://mail.gnome.org/archives/xml/2007-April/thread.html#00127">http://mail.gnome.org/archives/xml/2007-April/thread.html#00127</ulink> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="628" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="uri_8h_1a6bd281f5fd6d59aea11dcf7d2a3ad1f2" prot="public" static="no">
+        <type><ref refid="struct__xml_u_r_i" kindref="compound">xmlURI</ref> *</type>
+        <definition>typedef xmlURI* xmlURIPtr</definition>
+        <argsstring></argsstring>
+        <name>xmlURIPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="32" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="uri_8h_1a3bcac8dfd54220aa8f2e88ccf584ad61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlURIPtr XMLCALL xmlCreateURI</definition>
+        <argsstring>(void)</argsstring>
+        <name>xmlCreateURI</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1ab51c0060304fe144f2500f0d537b77ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlBuildURI</definition>
+        <argsstring>(const xmlChar *URI, const xmlChar *base)</argsstring>
+        <name>xmlBuildURI</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1abeba22042476e28fcc04bd09066f297a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlBuildRelativeURI</definition>
+        <argsstring>(const xmlChar *URI, const xmlChar *base)</argsstring>
+        <name>xmlBuildRelativeURI</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a6b6554062f8863fb3cf9e971bbbb7100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlURIPtr XMLCALL xmlParseURI</definition>
+        <argsstring>(const char *str)</argsstring>
+        <name>xmlParseURI</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a5f791e5063a8d9d6ee27d5bd5c2ba886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlURIPtr XMLCALL xmlParseURIRaw</definition>
+        <argsstring>(const char *str, int raw)</argsstring>
+        <name>xmlParseURIRaw</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a5b9b2b0962f28f95e383ebfaef423af0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlParseURIReference</definition>
+        <argsstring>(xmlURIPtr uri, const char *str)</argsstring>
+        <name>xmlParseURIReference</name>
+        <param>
+          <type><ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref></type>
+          <declname>uri</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a93b7b50491a6f39b726bdc5885723991" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlSaveUri</definition>
+        <argsstring>(xmlURIPtr uri)</argsstring>
+        <name>xmlSaveUri</name>
+        <param>
+          <type><ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref></type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a2e51b43baa3ceaa7abae86e9c2f81d46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void XMLCALL</type>
+        <definition>XMLPUBFUN void XMLCALL xmlPrintURI</definition>
+        <argsstring>(FILE *stream, xmlURIPtr uri)</argsstring>
+        <name>xmlPrintURI</name>
+        <param>
+          <type>FILE *</type>
+          <declname>stream</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref></type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1ab341c2dcc169a71680b9bf664a5543b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlURIEscapeStr</definition>
+        <argsstring>(const xmlChar *str, const xmlChar *list)</argsstring>
+        <name>xmlURIEscapeStr</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1a1add01e3f6206861eb4a380625c37ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN char *XMLCALL</type>
+        <definition>XMLPUBFUN char* XMLCALL xmlURIUnescapeString</definition>
+        <argsstring>(const char *str, int len, char *target)</argsstring>
+        <name>xmlURIUnescapeString</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1ae0754917a2872826b31e570791480f55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlNormalizeURIPath</definition>
+        <argsstring>(char *path)</argsstring>
+        <name>xmlNormalizeURIPath</name>
+        <param>
+          <type>char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1aa03b1b790d7ea83d45cde69f1794754f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlURIEscape</definition>
+        <argsstring>(const xmlChar *str)</argsstring>
+        <name>xmlURIEscape</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1aebdc00febe4e51080fd32ceb8b42c356" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void XMLCALL</type>
+        <definition>XMLPUBFUN void XMLCALL xmlFreeURI</definition>
+        <argsstring>(xmlURIPtr uri)</argsstring>
+        <name>xmlFreeURI</name>
+        <param>
+          <type><ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref></type>
+          <declname>uri</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1ae22d29a9b25f122eaaa65e5f9103689c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlCanonicPath</definition>
+        <argsstring>(const xmlChar *path)</argsstring>
+        <name>xmlCanonicPath</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="uri_8h_1aef435dc98d660f4e118878aed27c68fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlPathToURI</definition>
+        <argsstring>(const xmlChar *path)</argsstring>
+        <name>xmlPathToURI</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h" line="89" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="11"><highlight class="preprocessor">#ifndef<sp/>__XML_URI_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_URI_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__xml_u_r_i" kindref="compound">_xmlURI</ref><sp/><ref refid="struct__xml_u_r_i" kindref="compound">xmlURI</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__xml_u_r_i" kindref="compound">xmlURI</ref><sp/>*<ref refid="struct__xml_u_r_i" kindref="compound">xmlURIPtr</ref>;</highlight></codeline>
+<codeline lineno="33" refid="struct__xml_u_r_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__xml_u_r_i" kindref="compound">_xmlURI</ref><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*scheme;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>URI<sp/>scheme<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*opaque;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>opaque<sp/>part<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*authority;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>authority<sp/>part<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*server;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>server<sp/>part<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*user;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>user<sp/>part<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>port;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>port<sp/>number<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>path<sp/>string<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*query;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>query<sp/>string<sp/>(deprecated<sp/>-<sp/>use<sp/>with<sp/>caution)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fragment;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>fragment<sp/>identifier<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/>cleanup;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>parsing<sp/>potentially<sp/>unclean<sp/>URI<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*query_raw;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>query<sp/>string<sp/>(as<sp/>it<sp/>appears<sp/>in<sp/>the<sp/>URI)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>This<sp/>function<sp/>is<sp/>in<sp/>tree.h:</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>xmlChar<sp/>*<sp/><sp/><sp/><sp/>xmlNodeGetBase<sp/><sp/>(xmlDocPtr<sp/>doc,</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlNodePtr<sp/>cur);</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">XMLPUBFUN<sp/>xmlURIPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCreateURI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlBuildURI<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URI,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*base);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlBuildRelativeURI<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URI,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*base);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">XMLPUBFUN<sp/>xmlURIPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlParseURI<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">XMLPUBFUN<sp/>xmlURIPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlParseURIRaw<sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>raw);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlParseURIReference<sp/><sp/><sp/><sp/>(xmlURIPtr<sp/>uri,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlSaveUri<sp/><sp/><sp/><sp/><sp/><sp/>(xmlURIPtr<sp/>uri);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlPrintURI<sp/><sp/><sp/><sp/><sp/>(FILE<sp/>*stream,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlURIPtr<sp/>uri);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlURIEscapeStr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*list);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlURIUnescapeString<sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*target);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlNormalizeURIPath<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlURIEscape<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlFreeURI<sp/><sp/><sp/><sp/><sp/><sp/>(xmlURIPtr<sp/>uri);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">XMLPUBFUN<sp/>xmlChar*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCanonicPath<sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*path);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">XMLPUBFUN<sp/>xmlChar*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlPathToURI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*path);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_URI_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h"/>
+  </compounddef>
+</doxygen>

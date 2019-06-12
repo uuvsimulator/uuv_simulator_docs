@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="complexobject_8h" kind="file" language="C++">
+    <compoundname>complexobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2874">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2875">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2877">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2872">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2873" relation="include">
+        </childnode>
+        <childnode refid="2875" relation="include">
+        </childnode>
+        <childnode refid="2876" relation="include">
+        </childnode>
+        <childnode refid="2877" relation="include">
+        </childnode>
+        <childnode refid="2878" relation="include">
+        </childnode>
+      </node>
+      <node id="2878">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2871">
+        <label>/usr/include/python3.6m/complexobject.h</label>
+        <link refid="complexobject_8h"/>
+        <childnode refid="2872" relation="include">
+        </childnode>
+      </node>
+      <node id="2873">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2874" relation="include">
+        </childnode>
+      </node>
+      <node id="2876">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py__complex" prot="public">Py_complex</innerclass>
+    <innerclass refid="struct_py_complex_object" prot="public">PyComplexObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="complexobject_8h_1a677a36eb3b141cbfbb2dcceb2aa0fae6" prot="public" static="no">
+        <name>PyComplex_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyComplex_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="41" column="9" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="complexobject_8h_1ab5c2d68cc46cb9083dc1ccb0568c3a48" prot="public" static="no">
+        <name>PyComplex_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyComplex_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="42" column="9" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="complexobject_8h_1afce2cc400ba62d22418327039697f266" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Py_complex</definition>
+        <argsstring></argsstring>
+        <name>Py_complex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="17" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complexobject_8h_1a9aace20780eedccdde9fe2352ee4fb05" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double imag</definition>
+        <argsstring></argsstring>
+        <name>imag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="47" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complexobject_8h_1aaa12580403a2cc24c96324b4c5715889" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="60" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complexobject_8h_1a85929ace2f0054245aa2e25e1712a51e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* format_spec</definition>
+        <argsstring></argsstring>
+        <name>format_spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="61" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complexobject_8h_1a800e25b474f2fdf4e9511c72c339295c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t</type>
+        <definition>PyObject Py_ssize_t start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="62" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="complexobject_8h_1ae88a7a817c1ebf1a683f3a3dd24290a6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t Py_ssize_t</type>
+        <definition>PyObject Py_ssize_t Py_ssize_t end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="63" column="1" bodyfile="/usr/include/python3.6m/complexobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="complexobject_8h_1acdc8b60e2b35644767af188547fd32d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_complex) _Py_c_sum(Py_complex</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py__complex" kindref="compound">Py_complex</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="complexobject_8h_1abd1beaa4909ae1abc43276cf48e4ca5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(double) _Py_c_abs(Py_complex)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="complexobject_8h_1aa05a66c010bf430c33905466e9664b39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyComplex_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="complexobject_8h_1a018acf491135c599933aab82148c7c06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyComplex_FromCComplex(Py_complex)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="complexobject_8h_1a9be7939c63bda4ba4c86ff625aa1a9f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PyComplex_FormatAdvancedWriter(_PyUnicodeWriter *writer</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/complexobject.h" line="58" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Complex<sp/>number<sp/>structure<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_COMPLEXOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_COMPLEXOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="struct_py__complex" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>real;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>imag;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">}<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Operations<sp/>on<sp/>complex<sp/>numbers<sp/>from<sp/>complexmodule.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_sum(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>,<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_diff(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>,<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_neg(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_prod(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>,<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_quot(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>,<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>_Py_c_pow(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>,<sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_c_abs(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Complex<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">PyComplexObject<sp/>represents<sp/>a<sp/>complex<sp/>number<sp/>with<sp/>double-precision</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">real<sp/>and<sp/>imaginary<sp/>parts.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="struct_py_complex_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py__complex" kindref="compound">Py_complex</ref><sp/>cval;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}<sp/><ref refid="struct_py_complex_object" kindref="compound">PyComplexObject</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyComplex_Type;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyComplex_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyComplex_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyComplex_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyComplex_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyComplex_FromCComplex(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyComplex_FromDoubles(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>real,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>imag);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyComplex_RealAsDouble(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*op);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyComplex_ImagAsDouble(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*op);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py__complex" kindref="compound">Py_complex</ref>)<sp/>PyComplex_AsCComplex(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*op);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Format<sp/>the<sp/>object<sp/>based<sp/>on<sp/>the<sp/>format_spec,<sp/>as<sp/>defined<sp/>in<sp/>PEP<sp/>3101</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/>(Advanced<sp/>String<sp/>Formatting).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyComplex_FormatAdvancedWriter(</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_unicode_writer" kindref="compound">_PyUnicodeWriter</ref><sp/>*writer,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*format_spec,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>start,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>end);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_COMPLEXOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/complexobject.h"/>
+  </compounddef>
+</doxygen>

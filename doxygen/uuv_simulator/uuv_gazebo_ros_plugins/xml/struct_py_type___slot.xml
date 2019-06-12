@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_type___slot" kind="struct" language="C++" prot="public">
+    <compoundname>PyType_Slot</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_type___slot_1a72275647f4f13143d4ba91ee094f04d9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyType_Slot::slot</definition>
+        <argsstring></argsstring>
+        <name>slot</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="439" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_type___slot_1ae1095a0440938ccb92f0495af86c1016" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PyType_Slot::pfunc</definition>
+        <argsstring></argsstring>
+        <name>pfunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="440" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="440" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/object.h" line="438" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="438" bodyend="441"/>
+    <listofallmembers>
+      <member refid="struct_py_type___slot_1ae1095a0440938ccb92f0495af86c1016" prot="public" virt="non-virtual"><scope>PyType_Slot</scope><name>pfunc</name></member>
+      <member refid="struct_py_type___slot_1a72275647f4f13143d4ba91ee094f04d9" prot="public" virt="non-virtual"><scope>PyType_Slot</scope><name>slot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

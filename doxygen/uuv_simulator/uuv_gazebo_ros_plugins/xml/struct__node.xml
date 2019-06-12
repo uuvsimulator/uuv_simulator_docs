@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__node" kind="struct" language="C++" prot="public">
+    <compoundname>_node</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__node_1a1e33106d8300c321ff2f0f42e66de92d" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short _node::n_type</definition>
+        <argsstring></argsstring>
+        <name>n_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="11" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__node_1af35079752ee060258bf77220fba1b166" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* _node::n_str</definition>
+        <argsstring></argsstring>
+        <name>n_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="12" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__node_1a0e7e01a2a66d8b94029ed2dcdadb139f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _node::n_lineno</definition>
+        <argsstring></argsstring>
+        <name>n_lineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="13" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__node_1a6e2c596f659504275df03b590c25b4bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _node::n_col_offset</definition>
+        <argsstring></argsstring>
+        <name>n_col_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="14" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__node_1acf53660d344ef4ecfacb77c3658848ea" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _node::n_nchildren</definition>
+        <argsstring></argsstring>
+        <name>n_nchildren</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="15" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__node_1ad86383d3bc0a5c37e389ee7bd2804752" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__node" kindref="compound">_node</ref> *</type>
+        <definition>struct _node* _node::n_child</definition>
+        <argsstring></argsstring>
+        <name>n_child</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/node.h" line="16" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="215">
+        <label>_node</label>
+        <link refid="struct__node"/>
+        <childnode refid="215" relation="usage">
+          <edgelabel>n_child</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/node.h" line="10" column="1" bodyfile="/usr/include/python3.6m/node.h" bodystart="10" bodyend="17"/>
+    <listofallmembers>
+      <member refid="struct__node_1ad86383d3bc0a5c37e389ee7bd2804752" prot="public" virt="non-virtual"><scope>_node</scope><name>n_child</name></member>
+      <member refid="struct__node_1a6e2c596f659504275df03b590c25b4bc" prot="public" virt="non-virtual"><scope>_node</scope><name>n_col_offset</name></member>
+      <member refid="struct__node_1a0e7e01a2a66d8b94029ed2dcdadb139f" prot="public" virt="non-virtual"><scope>_node</scope><name>n_lineno</name></member>
+      <member refid="struct__node_1acf53660d344ef4ecfacb77c3658848ea" prot="public" virt="non-virtual"><scope>_node</scope><name>n_nchildren</name></member>
+      <member refid="struct__node_1af35079752ee060258bf77220fba1b166" prot="public" virt="non-virtual"><scope>_node</scope><name>n_str</name></member>
+      <member refid="struct__node_1a1e33106d8300c321ff2f0f42e66de92d" prot="public" virt="non-virtual"><scope>_node</scope><name>n_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

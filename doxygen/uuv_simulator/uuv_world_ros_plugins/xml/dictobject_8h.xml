@@ -1,0 +1,722 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dictobject_8h" kind="file" language="C++">
+    <compoundname>dictobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2894">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2895">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2897">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2892">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2893" relation="include">
+        </childnode>
+        <childnode refid="2895" relation="include">
+        </childnode>
+        <childnode refid="2896" relation="include">
+        </childnode>
+        <childnode refid="2897" relation="include">
+        </childnode>
+        <childnode refid="2898" relation="include">
+        </childnode>
+      </node>
+      <node id="2898">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2893">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2894" relation="include">
+        </childnode>
+      </node>
+      <node id="2891">
+        <label>/usr/include/python3.6m/dictobject.h</label>
+        <link refid="dictobject_8h"/>
+        <childnode refid="2892" relation="include">
+        </childnode>
+      </node>
+      <node id="2896">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_dict_object" prot="public">PyDictObject</innerclass>
+    <innerclass refid="struct___py_dict_view_object" prot="public">_PyDictViewObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dictobject_8h_1ad488614c20f5d24435ec7eb738af0d8b" prot="public" static="no">
+        <name>PyDict_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyType_FastSubclass(Py_TYPE(op), Py_TPFLAGS_DICT_SUBCLASS)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="58" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1a97c330228b2a8632942ea1e8477b091d" prot="public" static="no">
+        <name>PyDict_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyDict_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="60" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1af2f9e85ffa76d708530eecea0fdc51d7" prot="public" static="no">
+        <name>PyDictKeys_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyDictKeys_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="61" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1ac187a5318e91fc1ad9e46c1f8b13d922" prot="public" static="no">
+        <name>PyDictItems_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyDictItems_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="62" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1ac793423bf7db7a62b245179fdd793675" prot="public" static="no">
+        <name>PyDictValues_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyDictValues_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="63" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1a9c0ca30a16a60d989065faa4db080820" prot="public" static="no">
+        <name>PyDictViewSet_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>(PyDictKeys_Check(op) || PyDictItems_Check(op))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="65" column="10" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="dictobject_8h_1a2d60d9ee17c08c5bf0a5d2535ab5ccbb" prot="public" static="no">
+        <name>_PyDict_HasSplitTable</name>
+        <param><defname>d</defname></param>
+        <initializer>((d)-&gt;ma_values != NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="120" column="9" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="dictobject_8h_1a965027b373eafa23b59d56e47a816b08" prot="public" static="no">
+        <type>struct _dictkeysobject</type>
+        <definition>typedef struct _dictkeysobject PyDictKeysObject</definition>
+        <argsstring></argsstring>
+        <name>PyDictKeysObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="71" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dictobject_8h_1ae38c99a72d0f329cd329f20fe7c5e3b7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>struct _Py_Identifier* key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="70" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1ace3b1d21316f226995243454b535e917" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> Py_hash_t</type>
+        <definition>PyObject Py_hash_t hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="73" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1a0fab3c4ab016d193f022e2c8a69eb078" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* defaultobj</definition>
+        <argsstring></argsstring>
+        <name>defaultobj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="80" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1a9aad393da6a594966bf0e278c98cbd2e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>struct _Py_Identifier PyObject * item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="82" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1aa943cd649a29fb11ea2822ca5d1aa5fe" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> int(*</type>
+        <definition>PyObject int(* predicate) (PyObject *value))</definition>
+        <argsstring>)(PyObject *value))</argsstring>
+        <name>predicate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="92" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1acc4c1dc2146ae4adf0ef97340ad95aee" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t *</type>
+        <definition>void Py_ssize_t * pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="96" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1abecab1014523b80a630a3e826814fa8d" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+        <definition>void Py_ssize_t PyObject PyObject** value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="96" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1abd4733e17e86acb453bda62bc8b96adf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject * other</definition>
+        <argsstring></argsstring>
+        <name>other</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="126" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1a055cf4fd16bde9bce026127362cee1a3" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> int</type>
+        <definition>PyObject int override</definition>
+        <argsstring></argsstring>
+        <name>override</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="135" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dictobject_8h_1a0a10c17a92cd145d61d7503be0832268" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* seq2</definition>
+        <argsstring></argsstring>
+        <name>seq2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="153" column="1" bodyfile="/usr/include/python3.6m/dictobject.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dictobject_8h_1a89d48d71bd4f181a7a20dae3dd7ff1ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyDict_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1aa0ad35432c274d79eeaf27088ce1f98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyDict_New(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a1941db43da02f5c943873621d8e2f6f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyDict_SetItem(PyObject *mp</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a2e139a98e99b62fcb64537b940196906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) PyDict_Clear(PyObject *mp)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a81772cb8e03e7ad40a7e473a61354b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>PyDictKeysObject *</type>
+        <definition>PyDictKeysObject* _PyDict_NewKeysForClass</definition>
+        <argsstring>(void)</argsstring>
+        <name>_PyDict_NewKeysForClass</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a1d7ee66a952b70fc575da05fb04c2805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyDictView_New</definition>
+        <argsstring>(PyObject *, PyTypeObject *)</argsstring>
+        <name>_PyDictView_New</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a115baf3345b38b67629e9a3d1c6817aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_ssize_t) PyDict_Size(PyObject *mp)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_ssize_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a2e04225bcdbf02f8e0424db0c91a1309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyDict_KeysSize</definition>
+        <argsstring>(PyDictKeysObject *keys)</argsstring>
+        <name>_PyDict_KeysSize</name>
+        <param>
+          <type>PyDictKeysObject *</type>
+          <declname>keys</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="115" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a21af13b80fa0ca8213ae547c332f683f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyDict_SizeOf</definition>
+        <argsstring>(PyDictObject *)</argsstring>
+        <name>_PyDict_SizeOf</name>
+        <param>
+          <type><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a16cdcf2b44aec06a28beba10ebdf1c0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *<ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* PyObject* _PyDict_Pop_KnownHash</definition>
+        <argsstring>(PyObject *, PyObject *, Py_hash_t, PyObject *)</argsstring>
+        <name>_PyDict_Pop_KnownHash</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <param>
+          <type>Py_hash_t</type>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="118" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a320ca9b33e46e47559573d848a1b576f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyDict_FromKeys</definition>
+        <argsstring>(PyObject *, PyObject *, PyObject *)</argsstring>
+        <name>_PyDict_FromKeys</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a706591ed29e35ff58a0054b6a7924449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _PyObjectDict_SetItem</definition>
+        <argsstring>(PyTypeObject *tp, PyObject **dictptr, PyObject *name, PyObject *value)</argsstring>
+        <name>_PyObjectDict_SetItem</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref> *</type>
+          <declname>tp</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+          <declname>dictptr</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="170" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dictobject_8h_1a004526049b2e2701a87dad8336f17a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyDict_LoadGlobal</definition>
+        <argsstring>(PyDictObject *, PyDictObject *, PyObject *)</argsstring>
+        <name>_PyDict_LoadGlobal</name>
+        <param>
+          <type><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref> *</type>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dictobject.h" line="171" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_DICTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DICTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Dictionary<sp/>object<sp/>type<sp/>--<sp/>mapping<sp/>from<sp/>hashable<sp/>object<sp/>to<sp/>object<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>distribution<sp/>includes<sp/>a<sp/>separate<sp/>file,<sp/>Objects/dictnotes.txt,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/>describing<sp/>explorations<sp/>into<sp/>dictionary<sp/>design<sp/>and<sp/>optimization.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/>It<sp/>covers<sp/>typical<sp/>dictionary<sp/>use<sp/>patterns,<sp/>the<sp/>parameters<sp/>for</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>tuning<sp/>dictionaries,<sp/>and<sp/>several<sp/>ideas<sp/>for<sp/>possible<sp/>optimizations.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_dictkeysobject<sp/>PyDictKeysObject;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>ma_values<sp/>pointer<sp/>is<sp/>NULL<sp/>for<sp/>a<sp/>combined<sp/>table</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>or<sp/>points<sp/>to<sp/>an<sp/>array<sp/>of<sp/>PyObject*<sp/>for<sp/>a<sp/>split<sp/>table</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_py_dict_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>items<sp/>in<sp/>the<sp/>dictionary<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>ma_used;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Dictionary<sp/>version:<sp/>globally<sp/>unique,<sp/>value<sp/>change<sp/>each<sp/>time</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>dictionary<sp/>is<sp/>modified<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>uint64_t<sp/>ma_version_tag;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>PyDictKeysObject<sp/>*ma_keys;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>If<sp/>ma_values<sp/>is<sp/>NULL,<sp/>the<sp/>table<sp/>is<sp/>&quot;combined&quot;:<sp/>keys<sp/>and<sp/>values</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>are<sp/>stored<sp/>in<sp/>ma_keys.</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"></highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>If<sp/>ma_values<sp/>is<sp/>not<sp/>NULL,<sp/>the<sp/>table<sp/>is<sp/>splitted:</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>keys<sp/>are<sp/>stored<sp/>in<sp/>ma_keys<sp/>and<sp/>values<sp/>are<sp/>stored<sp/>in<sp/>ma_values<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**ma_values;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<sp/><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="struct___py_dict_view_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref><sp/>*dv_dict;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}<sp/><ref refid="struct___py_dict_view_object" kindref="compound">_PyDictViewObject</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDict_Type;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictIterKey_Type;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictIterValue_Type;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictIterItem_Type;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictKeys_Type;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictItems_Type;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyDictValues_Type;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDict_Check(op)<sp/>\</highlight></codeline>
+<codeline lineno="59"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyType_FastSubclass(Py_TYPE(op),<sp/>Py_TPFLAGS_DICT_SUBCLASS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDict_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDict_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDictKeys_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDictKeys_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDictItems_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDictItems_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDictValues_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDictValues_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>excludes<sp/>Values,<sp/>since<sp/>they<sp/>are<sp/>not<sp/>sets.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>PyDictViewSet_Check(op)<sp/>\</highlight></codeline>
+<codeline lineno="66"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(PyDictKeys_Check(op)<sp/>||<sp/>PyDictItems_Check(op))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_New(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_GetItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDict_GetItem_KnownHash(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hash);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_GetItemWithError(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDict_GetItemIdWithError(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct___py___identifier" kindref="compound">_Py_Identifier</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_SetDefault(</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*defaultobj);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_SetItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*item);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_SetItem_KnownHash(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*item,<sp/>Py_hash_t<sp/>hash);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_DelItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_DelItem_KnownHash(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hash);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_DelItemIf(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>(*predicate)(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*value));</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyDict_Clear(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_Next(</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/>Py_ssize_t<sp/>*pos,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**value);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">PyDictKeysObject<sp/>*_PyDict_NewKeysForClass(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyObject_GenericGetDict(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_Next(</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/>Py_ssize_t<sp/>*pos,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**value,<sp/>Py_hash_t<sp/>*hash);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyDictView_New(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_Keys(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_Values(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_Items(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>PyDict_Size(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_Copy(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_Contains(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_Contains(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,<sp/>Py_hash_t<sp/>hash);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDict_NewPresized(Py_ssize_t<sp/>minused);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyDict_MaybeUntrack(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_HasOnlyStringKeys(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">Py_ssize_t<sp/>_PyDict_KeysSize(PyDictKeysObject<sp/>*keys);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">Py_ssize_t<sp/>_PyDict_SizeOf(<ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDict_Pop(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyDict_Pop_KnownHash(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_hash_t,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyDict_FromKeys(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDict_HasSplitTable(d)<sp/>((d)-&gt;ma_values<sp/>!=<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_ClearFreeList(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyDict_Update(mp,<sp/>other)<sp/>is<sp/>equivalent<sp/>to<sp/>PyDict_Merge(mp,<sp/>other,<sp/>1).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_Update(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyDict_Merge<sp/>updates/merges<sp/>from<sp/>a<sp/>mapping<sp/>object<sp/>(an<sp/>object<sp/>that</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/>supports<sp/>PyMapping_Keys()<sp/>and<sp/>PyObject_GetItem()).<sp/><sp/>If<sp/>override<sp/>is<sp/>true,</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/>the<sp/>last<sp/>occurrence<sp/>of<sp/>a<sp/>key<sp/>wins,<sp/>else<sp/>the<sp/>first.<sp/><sp/>The<sp/>Python</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/>dict.update(other)<sp/>is<sp/>equivalent<sp/>to<sp/>PyDict_Merge(dict,<sp/>other,<sp/>1).</highlight></codeline>
+<codeline lineno="132"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_Merge(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*other,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Like<sp/>PyDict_Merge,<sp/>but<sp/>override<sp/>can<sp/>be<sp/>0,<sp/>1<sp/>or<sp/>2.<sp/><sp/>If<sp/>override<sp/>is<sp/>0,</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/>the<sp/>first<sp/>occurrence<sp/>of<sp/>a<sp/>key<sp/>wins,<sp/>if<sp/>override<sp/>is<sp/>1,<sp/>the<sp/>last<sp/>occurrence</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/>of<sp/>a<sp/>key<sp/>wins,<sp/>if<sp/>override<sp/>is<sp/>2,<sp/>a<sp/>KeyError<sp/>with<sp/>conflicting<sp/>key<sp/>as</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/>argument<sp/>is<sp/>raised.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_MergeEx(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*other,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDictView_Intersect(<ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/></highlight><highlight class="keyword">self</highlight><highlight class="normal">,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyDict_MergeFromSeq2<sp/>updates/merges<sp/>from<sp/>an<sp/>iterable<sp/>object<sp/>producing</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/>iterable<sp/>objects<sp/>of<sp/>length<sp/>2.<sp/><sp/>If<sp/>override<sp/>is<sp/>true,<sp/>the<sp/>last<sp/>occurrence</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/>of<sp/>a<sp/>key<sp/>wins,<sp/>else<sp/>the<sp/>first.<sp/><sp/>The<sp/>Python<sp/>dict<sp/>constructor<sp/>dict(seq2)</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/>is<sp/>equivalent<sp/>to<sp/>dict={};<sp/>PyDict_MergeFromSeq(dict,<sp/>seq2,<sp/>1).</highlight></codeline>
+<codeline lineno="151"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_MergeFromSeq2(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*d,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*seq2,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyDict_GetItemString(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyDict_GetItemId(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct___py___identifier" kindref="compound">_Py_Identifier</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_SetItemString(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*item);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_SetItemId(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct___py___identifier" kindref="compound">_Py_Identifier</ref><sp/>*key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*item);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyDict_DelItemString(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*dp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*key);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyDict_DelItemId(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*mp,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct___py___identifier" kindref="compound">_Py_Identifier</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyDict_DebugMallocStats(FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_PyObjectDict_SetItem(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*tp,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**dictptr,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyDict_LoadGlobal(<ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref><sp/>*,<sp/><ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_DICTOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/dictobject.h"/>
+  </compounddef>
+</doxygen>

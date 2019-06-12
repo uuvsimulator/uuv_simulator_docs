@@ -1,0 +1,1467 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="xml_i_o_8h" kind="file" language="C++">
+    <compoundname>xmlIO.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="xmlversion_8h" local="no">libxml/xmlversion.h</includes>
+    <includes refid="globals_8h" local="no">libxml/globals.h</includes>
+    <includes refid="tree_8h" local="no">libxml/tree.h</includes>
+    <includes refid="parser_8h" local="no">libxml/parser.h</includes>
+    <includes refid="encoding_8h" local="no">libxml/encoding.h</includes>
+    <includedby refid="parser_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h</includedby>
+    <includedby refid="xmlreader_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h</includedby>
+    <includedby refid="xmlsave_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h</includedby>
+    <includedby refid="transform_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</includedby>
+    <incdepgraph>
+      <node id="1609">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1613">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1626">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1625">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1622">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1617">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1616" relation="include">
+        </childnode>
+      </node>
+      <node id="1603">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h"/>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1623" relation="include">
+        </childnode>
+      </node>
+      <node id="1616">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="1611" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1611">
+        <label>limits.h</label>
+      </node>
+      <node id="1620">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1607">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1619" relation="include">
+        </childnode>
+        <childnode refid="1624" relation="include">
+        </childnode>
+        <childnode refid="1614" relation="include">
+        </childnode>
+        <childnode refid="1615" relation="include">
+        </childnode>
+      </node>
+      <node id="1614">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1615" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+      </node>
+      <node id="1605">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="1606" relation="include">
+        </childnode>
+      </node>
+      <node id="1612">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="1609" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+      </node>
+      <node id="1608">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="1609" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1616" relation="include">
+        </childnode>
+        <childnode refid="1617" relation="include">
+        </childnode>
+        <childnode refid="1618" relation="include">
+        </childnode>
+        <childnode refid="1622" relation="include">
+        </childnode>
+        <childnode refid="1619" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+        <childnode refid="1623" relation="include">
+        </childnode>
+        <childnode refid="1603" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+      </node>
+      <node id="1610">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1611" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1612" relation="include">
+        </childnode>
+        <childnode refid="1613" relation="include">
+        </childnode>
+        <childnode refid="1614" relation="include">
+        </childnode>
+      </node>
+      <node id="1623">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1618">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1619" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+        <childnode refid="1620" relation="include">
+        </childnode>
+        <childnode refid="1621" relation="include">
+        </childnode>
+        <childnode refid="1613" relation="include">
+        </childnode>
+      </node>
+      <node id="1624">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="1604" relation="include">
+        </childnode>
+        <childnode refid="1625" relation="include">
+        </childnode>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1608" relation="include">
+        </childnode>
+        <childnode refid="1626" relation="include">
+        </childnode>
+      </node>
+      <node id="1615">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1607" relation="include">
+        </childnode>
+      </node>
+      <node id="1621">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="1605" relation="include">
+        </childnode>
+        <childnode refid="1610" relation="include">
+        </childnode>
+      </node>
+      <node id="1606">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="1604">
+        <label>stdio.h</label>
+      </node>
+      <node id="1619">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="1608" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1668">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/namespaces.h</label>
+        <link refid="namespaces_8h_source"/>
+      </node>
+      <node id="1669">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="1640" relation="include">
+        </childnode>
+      </node>
+      <node id="1636">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/debugXML.h</label>
+        <link refid="debug_x_m_l_8h_source"/>
+      </node>
+      <node id="1661">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="1662" relation="include">
+        </childnode>
+        <childnode refid="1663" relation="include">
+        </childnode>
+      </node>
+      <node id="1665">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h</label>
+        <link refid="xmlreader_8h_source"/>
+      </node>
+      <node id="1650">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h</label>
+        <link refid="security_8h_source"/>
+      </node>
+      <node id="1644">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h</label>
+        <link refid="functions_8h_source"/>
+        <childnode refid="1645" relation="include">
+        </childnode>
+      </node>
+      <node id="1670">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLparser.h</label>
+        <link refid="_h_t_m_lparser_8h_source"/>
+        <childnode refid="1657" relation="include">
+        </childnode>
+        <childnode refid="1671" relation="include">
+        </childnode>
+      </node>
+      <node id="1643">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h</label>
+        <link refid="extra_8h_source"/>
+      </node>
+      <node id="1656">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+      </node>
+      <node id="1638">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1639" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+      </node>
+      <node id="1627">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1665" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1652" relation="include">
+        </childnode>
+      </node>
+      <node id="1667">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="1640" relation="include">
+        </childnode>
+      </node>
+      <node id="1666">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/attributes.h</label>
+        <link refid="attributes_8h_source"/>
+      </node>
+      <node id="1649">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h</label>
+        <link refid="preproc_8h_source"/>
+      </node>
+      <node id="1660">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xinclude.h</label>
+        <link refid="xinclude_8h_source"/>
+      </node>
+      <node id="1652">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</label>
+        <link refid="transform_8h_source"/>
+      </node>
+      <node id="1655">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h</label>
+        <link refid="xmlsave_8h_source"/>
+      </node>
+      <node id="1648">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h</label>
+        <link refid="pattern_8h_source"/>
+      </node>
+      <node id="1633">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="1635">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h</label>
+        <link refid="catalog_8h_source"/>
+      </node>
+      <node id="1637">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="1638" relation="include">
+        </childnode>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+        <childnode refid="1653" relation="include">
+        </childnode>
+      </node>
+      <node id="1629">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1630" relation="include">
+        </childnode>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1631" relation="include">
+        </childnode>
+      </node>
+      <node id="1639">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h</label>
+        <link refid="relaxng_8h_source"/>
+      </node>
+      <node id="1631">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="1632" relation="include">
+        </childnode>
+        <childnode refid="1629" relation="include">
+        </childnode>
+      </node>
+      <node id="1628">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="1629" relation="include">
+        </childnode>
+        <childnode refid="1638" relation="include">
+        </childnode>
+        <childnode refid="1670" relation="include">
+        </childnode>
+        <childnode refid="1671" relation="include">
+        </childnode>
+        <childnode refid="1662" relation="include">
+        </childnode>
+        <childnode refid="1663" relation="include">
+        </childnode>
+        <childnode refid="1672" relation="include">
+        </childnode>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1652" relation="include">
+        </childnode>
+      </node>
+      <node id="1657">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLtree.h</label>
+        <link refid="_h_t_m_ltree_8h_source"/>
+      </node>
+      <node id="1651">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h</label>
+        <link refid="templates_8h_source"/>
+      </node>
+      <node id="1632">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="1633" relation="include">
+        </childnode>
+        <childnode refid="1634" relation="include">
+        </childnode>
+        <childnode refid="1635" relation="include">
+        </childnode>
+        <childnode refid="1636" relation="include">
+        </childnode>
+        <childnode refid="1637" relation="include">
+        </childnode>
+        <childnode refid="1654" relation="include">
+        </childnode>
+        <childnode refid="1656" relation="include">
+        </childnode>
+        <childnode refid="1657" relation="include">
+        </childnode>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1658" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1660" relation="include">
+        </childnode>
+        <childnode refid="1661" relation="include">
+        </childnode>
+        <childnode refid="1664" relation="include">
+        </childnode>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1665" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+        <childnode refid="1666" relation="include">
+        </childnode>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+        <childnode refid="1667" relation="include">
+        </childnode>
+        <childnode refid="1646" relation="include">
+        </childnode>
+        <childnode refid="1668" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
+        </childnode>
+        <childnode refid="1650" relation="include">
+        </childnode>
+        <childnode refid="1669" relation="include">
+        </childnode>
+      </node>
+      <node id="1654">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1627" relation="include">
+        </childnode>
+        <childnode refid="1655" relation="include">
+        </childnode>
+      </node>
+      <node id="1634">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h</label>
+        <link refid="exslt_8h_source"/>
+      </node>
+      <node id="1659">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="1628" relation="include">
+        </childnode>
+      </node>
+      <node id="1663">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="1629" relation="include">
+        </childnode>
+      </node>
+      <node id="1671">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parserInternals.h</label>
+        <link refid="parser_internals_8h_source"/>
+      </node>
+      <node id="1641">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h</label>
+        <link refid="documents_8h_source"/>
+      </node>
+      <node id="1646">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h</label>
+        <link refid="imports_8h_source"/>
+      </node>
+      <node id="1640">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="1641" relation="include">
+        </childnode>
+        <childnode refid="1642" relation="include">
+        </childnode>
+        <childnode refid="1643" relation="include">
+        </childnode>
+        <childnode refid="1644" relation="include">
+        </childnode>
+        <childnode refid="1646" relation="include">
+        </childnode>
+        <childnode refid="1647" relation="include">
+        </childnode>
+        <childnode refid="1648" relation="include">
+        </childnode>
+        <childnode refid="1649" relation="include">
+        </childnode>
+        <childnode refid="1650" relation="include">
+        </childnode>
+        <childnode refid="1651" relation="include">
+        </childnode>
+        <childnode refid="1652" relation="include">
+        </childnode>
+        <childnode refid="1645" relation="include">
+        </childnode>
+        <childnode refid="1653" relation="include">
+        </childnode>
+      </node>
+      <node id="1642">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h</label>
+        <link refid="extensions_8h_source"/>
+      </node>
+      <node id="1630">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="1629" relation="include">
+        </childnode>
+        <childnode refid="1631" relation="include">
+        </childnode>
+      </node>
+      <node id="1662">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX.h</label>
+        <link refid="_s_a_x_8h_source"/>
+      </node>
+      <node id="1645">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h</label>
+        <link refid="variables_8h_source"/>
+      </node>
+      <node id="1664">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="1659" relation="include">
+        </childnode>
+      </node>
+      <node id="1653">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</label>
+        <link refid="xsltutils_8h_source"/>
+      </node>
+      <node id="1647">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h</label>
+        <link refid="keys_8h_source"/>
+      </node>
+      <node id="1658">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h</label>
+        <link refid="uri_8h_source"/>
+      </node>
+      <node id="1672">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="1629" relation="include">
+        </childnode>
+        <childnode refid="1628" relation="include">
+        </childnode>
+        <childnode refid="1659" relation="include">
+        </childnode>
+        <childnode refid="1640" relation="include">
+        </childnode>
+        <childnode refid="1653" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__xml_parser_input_buffer" prot="public">_xmlParserInputBuffer</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="xml_i_o_8h_1a550f1c8007af30b011124ccf0c16da48" prot="public" static="no">
+        <type>int(XMLCALL *</type>
+        <definition>typedef int(XMLCALL * xmlInputMatchCallback) (char const *filename)</definition>
+        <argsstring>)(char const *filename)</argsstring>
+        <name>xmlInputMatchCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xmlInputMatchCallback: : the filename or URI</para><para>Callback used in the I/O Input API to detect if the current handler can provide input fonctionnalities for this resource.</para><para>Returns 1 if yes and 0 if another Input module should be used </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="34" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="xml_i_o_8h_1a043b5fa39bd5fb08257dfc11d511da50" prot="public" static="no">
+        <type>void *(XMLCALL *</type>
+        <definition>typedef void*(XMLCALL * xmlInputOpenCallback) (char const *filename)</definition>
+        <argsstring>)(char const *filename)</argsstring>
+        <name>xmlInputOpenCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xmlInputOpenCallback: : the filename or URI</para><para>Callback used in the I/O Input API to open the resource</para><para>Returns an Input context or NULL in case or error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="43" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="xml_i_o_8h_1a58f39aa8dfee64d5739855d8335232cb" prot="public" static="no">
+        <type>int(XMLCALL *</type>
+        <definition>typedef int(XMLCALL * xmlInputReadCallback) (void *context, char *buffer, int len)</definition>
+        <argsstring>)(void *context, char *buffer, int len)</argsstring>
+        <name>xmlInputReadCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xmlInputReadCallback: : an Input context : the buffer to store data read : the length of the buffer in bytes</para><para>Callback used in the I/O Input API to read the resource</para><para>Returns the number of bytes read or -1 in case of error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="54" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="xml_i_o_8h_1ac637d5fa8489d9087ecdca7cdaedfede" prot="public" static="no">
+        <type>int(XMLCALL *</type>
+        <definition>typedef int(XMLCALL * xmlInputCloseCallback) (void *context)</definition>
+        <argsstring>)(void *context)</argsstring>
+        <name>xmlInputCloseCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xmlInputCloseCallback: : an Input context</para><para>Callback used in the I/O Input API to close the resource</para><para>Returns 0 or -1 in case of error </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="63" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="xml_i_o_8h_1a5edf097cf1a1b6e1e89a015815afd506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void XMLCALL</type>
+        <definition>XMLPUBFUN void XMLCALL xmlCleanupInputCallbacks</definition>
+        <argsstring>(void)</argsstring>
+        <name>xmlCleanupInputCallbacks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="159" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a71afdfcf17fe1c2032bfafe53d457a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlPopInputCallbacks</definition>
+        <argsstring>(void)</argsstring>
+        <name>xmlPopInputCallbacks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="162" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a7692e738bf5b841390ddb06b923d6dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void XMLCALL</type>
+        <definition>XMLPUBFUN void XMLCALL xmlRegisterDefaultInputCallbacks</definition>
+        <argsstring>(void)</argsstring>
+        <name>xmlRegisterDefaultInputCallbacks</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="165" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a2d688d6b3f4df191b7ad27d8516d2ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlAllocParserInputBuffer</definition>
+        <argsstring>(xmlCharEncoding enc)</argsstring>
+        <name>xmlAllocParserInputBuffer</name>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="167" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1af87c4675983471d7fdc16e3efc3283af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateFilename</definition>
+        <argsstring>(const char *URI, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateFilename</name>
+        <param>
+          <type>const char *</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="170" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1aecb300cf17cad0ff358d46ad807507ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateFile</definition>
+        <argsstring>(FILE *file, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateFile</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="173" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a3fa652a50fa2b517bab2de950463add3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateFd</definition>
+        <argsstring>(int fd, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateFd</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1ae027560aa81056918e3023f3704cdece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateMem</definition>
+        <argsstring>(const char *mem, int size, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateMem</name>
+        <param>
+          <type>const char *</type>
+          <declname>mem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="179" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a8915db32bce8a79232d750e800d4ff13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateStatic</definition>
+        <argsstring>(const char *mem, int size, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateStatic</name>
+        <param>
+          <type>const char *</type>
+          <declname>mem</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="182" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a9353ffadb38ed8fd90858dd7a45064fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputBufferPtr XMLCALL xmlParserInputBufferCreateIO</definition>
+        <argsstring>(xmlInputReadCallback ioread, xmlInputCloseCallback ioclose, void *ioctx, xmlCharEncoding enc)</argsstring>
+        <name>xmlParserInputBufferCreateIO</name>
+        <param>
+          <type>xmlInputReadCallback</type>
+          <declname>ioread</declname>
+        </param>
+        <param>
+          <type>xmlInputCloseCallback</type>
+          <declname>ioclose</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>ioctx</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="185" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1aaa5ecf9ee2df221faf62f056a93a49c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlParserInputBufferRead</definition>
+        <argsstring>(xmlParserInputBufferPtr in, int len)</argsstring>
+        <name>xmlParserInputBufferRead</name>
+        <param>
+          <type><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a0eb054fc7f037d73f8eba69784877032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlParserInputBufferGrow</definition>
+        <argsstring>(xmlParserInputBufferPtr in, int len)</argsstring>
+        <name>xmlParserInputBufferGrow</name>
+        <param>
+          <type><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="193" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1ad8f9822a052a39e46df29a04281138bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlParserInputBufferPush</definition>
+        <argsstring>(xmlParserInputBufferPtr in, int len, const char *buf)</argsstring>
+        <name>xmlParserInputBufferPush</name>
+        <param>
+          <type><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="196" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a1dc7bda791f7ec981960eb2e5781a984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void XMLCALL</type>
+        <definition>XMLPUBFUN void XMLCALL xmlFreeParserInputBuffer</definition>
+        <argsstring>(xmlParserInputBufferPtr in)</argsstring>
+        <name>xmlFreeParserInputBuffer</name>
+        <param>
+          <type><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="200" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a1cd28a981d62a3957e9540259c778053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN char *XMLCALL</type>
+        <definition>XMLPUBFUN char* XMLCALL xmlParserGetDirectory</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>xmlParserGetDirectory</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="202" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a0717b99a618e1e4cc8dbd47784bbe6d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlRegisterInputCallbacks</definition>
+        <argsstring>(xmlInputMatchCallback matchFunc, xmlInputOpenCallback openFunc, xmlInputReadCallback readFunc, xmlInputCloseCallback closeFunc)</argsstring>
+        <name>xmlRegisterInputCallbacks</name>
+        <param>
+          <type>xmlInputMatchCallback</type>
+          <declname>matchFunc</declname>
+        </param>
+        <param>
+          <type>xmlInputOpenCallback</type>
+          <declname>openFunc</declname>
+        </param>
+        <param>
+          <type>xmlInputReadCallback</type>
+          <declname>readFunc</declname>
+        </param>
+        <param>
+          <type>xmlInputCloseCallback</type>
+          <declname>closeFunc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="205" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a64cb85092a6bb321ee684c02579e88b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></type>
+        <definition>xmlParserInputBufferPtr __xmlParserInputBufferCreateFilename</definition>
+        <argsstring>(const char *URI, xmlCharEncoding enc)</argsstring>
+        <name>__xmlParserInputBufferCreateFilename</name>
+        <param>
+          <type>const char *</type>
+          <declname>URI</declname>
+        </param>
+        <param>
+          <type>xmlCharEncoding</type>
+          <declname>enc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="211" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a9bb366419d828402c0b73191354567a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputPtr XMLCALL xmlCheckHTTPInput</definition>
+        <argsstring>(xmlParserCtxtPtr ctxt, xmlParserInputPtr ret)</argsstring>
+        <name>xmlCheckHTTPInput</name>
+        <param>
+          <type><ref refid="struct__xml_parser_ctxt" kindref="compound">xmlParserCtxtPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref></type>
+          <declname>ret</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="291" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1ad0e0a80ef21e1930c6a94425502cf67a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN <ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref> XMLCALL</type>
+        <definition>XMLPUBFUN xmlParserInputPtr XMLCALL xmlNoNetExternalEntityLoader</definition>
+        <argsstring>(const char *URL, const char *ID, xmlParserCtxtPtr ctxt)</argsstring>
+        <name>xmlNoNetExternalEntityLoader</name>
+        <param>
+          <type>const char *</type>
+          <declname>URL</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>ID</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_parser_ctxt" kindref="compound">xmlParserCtxtPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="298" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a8dc620f420696b39acfd3d99d951aef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlNormalizeWindowsPath</definition>
+        <argsstring>(const xmlChar *path)</argsstring>
+        <name>xmlNormalizeWindowsPath</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="307" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a950236a0429bcb1347d2a024e3906eac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlCheckFilename</definition>
+        <argsstring>(const char *path)</argsstring>
+        <name>xmlCheckFilename</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="310" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a49149d135abdf24488825844f50d0fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlFileMatch</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>xmlFileMatch</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Default &apos;<ulink url="file://&apos;">file://&apos;</ulink> protocol callbacks </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="315" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1a18f6bb177ecb8c88f2e7161e426d9ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN void *XMLCALL</type>
+        <definition>XMLPUBFUN void* XMLCALL xmlFileOpen</definition>
+        <argsstring>(const char *filename)</argsstring>
+        <name>xmlFileOpen</name>
+        <param>
+          <type>const char *</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="317" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1af5f737e727fdec24235f678577b3bed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlFileRead</definition>
+        <argsstring>(void *context, char *buffer, int len)</argsstring>
+        <name>xmlFileRead</name>
+        <param>
+          <type>void *</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="319" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xml_i_o_8h_1af59f018a2005699ed91497b21b9564b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlFileClose</definition>
+        <argsstring>(void *context)</argsstring>
+        <name>xmlFileClose</name>
+        <param>
+          <type>void *</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="323" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>interface<sp/>for<sp/>the<sp/>I/O<sp/>interfaces<sp/>used<sp/>by<sp/>the<sp/>parser</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>interface<sp/>for<sp/>the<sp/>I/O<sp/>interfaces<sp/>used<sp/>by<sp/>the<sp/>parser</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_IO_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_IO_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>Those<sp/>are<sp/>the<sp/>functions<sp/>and<sp/>datatypes<sp/>for<sp/>the<sp/>parser<sp/>input</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>I/O<sp/>structures.</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlInputMatchCallback)<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="43"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>(XMLCALL<sp/>*xmlInputOpenCallback)<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="54"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlInputReadCallback)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="63"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlInputCloseCallback)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>Those<sp/>are<sp/>the<sp/>functions<sp/>and<sp/>datatypes<sp/>for<sp/>the<sp/>library<sp/>output</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>I/O<sp/>structures.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlOutputMatchCallback)<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="89"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>(XMLCALL<sp/>*xmlOutputOpenCallback)<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="100"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlOutputWriteCallback)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="110"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(XMLCALL<sp/>*xmlOutputCloseCallback)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/globals.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/parser.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/encoding.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="struct__xml_parser_input_buffer" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__xml_parser_input_buffer" kindref="compound">_xmlParserInputBuffer</ref><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlInputReadCallback<sp/><sp/><sp/>readcallback;</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlInputCloseCallback<sp/><sp/>closecallback;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder;<sp/></highlight><highlight class="comment">/*<sp/>I18N<sp/>conversions<sp/>to<sp/>UTF-8<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlBufPtr<sp/>buffer;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Local<sp/>buffer<sp/>encoded<sp/>in<sp/>UTF-8<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlBufPtr<sp/>raw;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>if<sp/>encoder<sp/>!=<sp/>NULL<sp/>buffer<sp/>for<sp/>raw<sp/>input<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compressed;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>-1=unknown,<sp/>0=not<sp/>compressed,<sp/>1=compressed<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>rawconsumed;</highlight><highlight class="comment">/*<sp/>amount<sp/>consumed<sp/>from<sp/>raw<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlOutputBuffer<sp/>{</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>context;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputWriteCallback<sp/><sp/>writecallback;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputCloseCallback<sp/><sp/>closecallback;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder;<sp/></highlight><highlight class="comment">/*<sp/>I18N<sp/>conversions<sp/>to<sp/>UTF-8<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlBufPtr<sp/>buffer;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Local<sp/>buffer<sp/>encoded<sp/>in<sp/>UTF-8<sp/>or<sp/>ISOLatin<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlBufPtr<sp/>conv;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>if<sp/>encoder<sp/>!=<sp/>NULL<sp/>buffer<sp/>for<sp/>output<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>written;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>total<sp/>number<sp/>of<sp/>byte<sp/>written<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>Interfaces<sp/>for<sp/>input</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlCleanupInputCallbacks<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlPopInputCallbacks<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegisterDefaultInputCallbacks<sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlAllocParserInputBuffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateFilename<sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*URI,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateFile<sp/><sp/><sp/><sp/><sp/><sp/>(FILE<sp/>*file,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateFd<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateMem<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mem,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateStatic<sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mem,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>size,</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferCreateIO<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlInputReadCallback<sp/><sp/><sp/>ioread,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlInputCloseCallback<sp/><sp/>ioclose,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ioctx,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>in,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferGrow<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>in,</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserInputBufferPush<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>in,</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlFreeParserInputBuffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref><sp/>in);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlParserGetDirectory<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegisterInputCallbacks<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlInputMatchCallback<sp/>matchFunc,</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlInputOpenCallback<sp/>openFunc,</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlInputReadCallback<sp/>readFunc,</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlInputCloseCallback<sp/>closeFunc);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><ref refid="struct__xml_parser_input_buffer" kindref="compound">xmlParserInputBufferPtr</ref></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/>__xmlParserInputBufferCreateFilename(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*URI,</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncoding<sp/>enc);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="216"><highlight class="comment"><sp/>*<sp/>Interfaces<sp/>for<sp/>output</highlight></codeline>
+<codeline lineno="217"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlCleanupOutputCallbacks<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegisterDefaultOutputCallbacks(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlAllocOutputBuffer<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferCreateFilename<sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*URI,</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder,</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compression);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferCreateFile<sp/><sp/><sp/>(FILE<sp/>*file,</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferCreateBuffer<sp/>(<ref refid="struct__xml_buffer" kindref="compound">xmlBufferPtr</ref><sp/>buffer,</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferCreateFd<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal">XMLPUBFUN<sp/>xmlOutputBufferPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferCreateIO<sp/><sp/><sp/><sp/><sp/>(xmlOutputWriteCallback<sp/><sp/><sp/>iowrite,</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputCloseCallback<sp/><sp/>ioclose,</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ioctx,</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Couple<sp/>of<sp/>APIs<sp/>to<sp/>get<sp/>the<sp/>output<sp/>without<sp/>digging<sp/>into<sp/>the<sp/>buffers<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputBufferGetContent<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlOutputBufferPtr<sp/>out);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputBufferGetSize<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlOutputBufferPtr<sp/>out);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferWrite<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlOutputBufferPtr<sp/>out,</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferWriteString<sp/><sp/>(xmlOutputBufferPtr<sp/>out,</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferWriteEscape<sp/><sp/>(xmlOutputBufferPtr<sp/>out,</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharEncodingOutputFunc<sp/>escaping);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferFlush<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlOutputBufferPtr<sp/>out);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlOutputBufferClose<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlOutputBufferPtr<sp/>out);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegisterOutputCallbacks<sp/><sp/>(xmlOutputMatchCallback<sp/>matchFunc,</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputOpenCallback<sp/>openFunc,</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputWriteCallback<sp/>writeFunc,</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputCloseCallback<sp/>closeFunc);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal">xmlOutputBufferPtr</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>__xmlOutputBufferCreateFilename(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*URI,</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref><sp/>encoder,</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>compression);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_HTTP_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>This<sp/>function<sp/>only<sp/>exists<sp/>if<sp/>HTTP<sp/>support<sp/>built<sp/>into<sp/>the<sp/>library<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegisterHTTPPostCallbacks<sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_HTTP_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlCheckHTTPInput<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xml_parser_ctxt" kindref="compound">xmlParserCtxtPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref><sp/>ret);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="295"><highlight class="comment"><sp/>*<sp/>A<sp/>predefined<sp/>entity<sp/>loader<sp/>disabling<sp/>network<sp/>accesses</highlight></codeline>
+<codeline lineno="296"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_parser_input" kindref="compound">xmlParserInputPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlNoNetExternalEntityLoader<sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*URL,</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ID,</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_parser_ctxt" kindref="compound">xmlParserCtxtPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="303"><highlight class="comment"><sp/>*<sp/>xmlNormalizeWindowsPath<sp/>is<sp/>obsolete,<sp/>don&apos;t<sp/>use<sp/>it.</highlight></codeline>
+<codeline lineno="304"><highlight class="comment"><sp/>*<sp/>Check<sp/>xmlCanonicPath<sp/>in<sp/>uri.h<sp/>for<sp/>a<sp/>better<sp/>alternative.</highlight></codeline>
+<codeline lineno="305"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlNormalizeWindowsPath<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*path);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlCheckFilename<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlFileMatch<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="316"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlFileOpen<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlFileRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context,</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer,</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlFileClose<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="preprocessor">#ifdef<sp/>LIBXML_HTTP_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOHTTPMatch<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOHTTPOpen<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOHTTPOpenW<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>post_uri,</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/>compression<sp/>);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOHTTPRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context,</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer,</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOHTTPClose<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_HTTP_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="349"><highlight class="preprocessor">#ifdef<sp/>LIBXML_FTP_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOFTPMatch<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOFTPOpen<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOFTPRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context,</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>buffer,</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlIOFTPClose<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>context);</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_FTP_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_IO_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h"/>
+  </compounddef>
+</doxygen>

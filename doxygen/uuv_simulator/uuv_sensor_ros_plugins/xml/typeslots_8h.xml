@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="typeslots_8h" kind="file" language="C++">
+    <compoundname>typeslots.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3782">
+        <label>/usr/include/python3.6m/typeslots.h</label>
+        <link refid="typeslots_8h"/>
+        <childnode refid="3783" relation="include">
+        </childnode>
+      </node>
+      <node id="3785">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3786">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3788">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3783">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3784" relation="include">
+        </childnode>
+        <childnode refid="3786" relation="include">
+        </childnode>
+        <childnode refid="3787" relation="include">
+        </childnode>
+        <childnode refid="3788" relation="include">
+        </childnode>
+        <childnode refid="3789" relation="include">
+        </childnode>
+      </node>
+      <node id="3789">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3784">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3785" relation="include">
+        </childnode>
+      </node>
+      <node id="3787">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="typeslots_8h_1ae39be2d48cbd6f7b19aab9684f85be90" prot="public" static="no">
+        <name>Py_mp_ass_subscript</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="5" column="11" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1acc9bf38c7f2a58ee0bed2e276a964303" prot="public" static="no">
+        <name>Py_mp_length</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="6" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a4831d18f3bbb648cc6d0b59b67e69cad" prot="public" static="no">
+        <name>Py_mp_subscript</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="7" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac241b06e5cb861d11fec3076900819d3" prot="public" static="no">
+        <name>Py_nb_absolute</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="8" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a6b9dc014a510d456e9a9766fad25e935" prot="public" static="no">
+        <name>Py_nb_add</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="9" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aed21aac75f3ef1c0bc648f5f51bb1caf" prot="public" static="no">
+        <name>Py_nb_and</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="10" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a47a6b442d728bdb38cb68428dc6c0dcf" prot="public" static="no">
+        <name>Py_nb_bool</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="11" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ab7dfda2db1673b421c7a6936cfb16329" prot="public" static="no">
+        <name>Py_nb_divmod</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="12" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ae945fd6e056dd3c1a12d61389945a375" prot="public" static="no">
+        <name>Py_nb_float</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="13" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac428010cce2f26625e6314d297142466" prot="public" static="no">
+        <name>Py_nb_floor_divide</name>
+        <initializer>12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="14" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a97c8f68060137a5cda780c797bcbf486" prot="public" static="no">
+        <name>Py_nb_index</name>
+        <initializer>13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="15" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a523a1ec04c6bbbf4f22d204317cf132e" prot="public" static="no">
+        <name>Py_nb_inplace_add</name>
+        <initializer>14</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="16" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a1b759fd91f80e48d89e48028a9026364" prot="public" static="no">
+        <name>Py_nb_inplace_and</name>
+        <initializer>15</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="17" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a735b0e2ae8e8de75aa87df689b39583f" prot="public" static="no">
+        <name>Py_nb_inplace_floor_divide</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="18" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a1168dc9075ed2085b054d68fa5cebae5" prot="public" static="no">
+        <name>Py_nb_inplace_lshift</name>
+        <initializer>17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="19" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a2f4dc97e75a204de5e7b5ac338416e48" prot="public" static="no">
+        <name>Py_nb_inplace_multiply</name>
+        <initializer>18</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="20" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a0d0bad8947dfc33f97a67b1214f5aa6f" prot="public" static="no">
+        <name>Py_nb_inplace_or</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="21" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a3b7abd556bab4f16db2c61f3f69f2b55" prot="public" static="no">
+        <name>Py_nb_inplace_power</name>
+        <initializer>20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="22" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a84ac16c6a5292d0cb7031afceeefe772" prot="public" static="no">
+        <name>Py_nb_inplace_remainder</name>
+        <initializer>21</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="23" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a66501da4ea235c39d3d32215f18f6e28" prot="public" static="no">
+        <name>Py_nb_inplace_rshift</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="24" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1adf8b1b5a790479fad14e58bf6624240c" prot="public" static="no">
+        <name>Py_nb_inplace_subtract</name>
+        <initializer>23</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="25" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a4b13034f36e9a87ede087d47ae75f649" prot="public" static="no">
+        <name>Py_nb_inplace_true_divide</name>
+        <initializer>24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="26" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac9faa695ea255194d312e169d536c89a" prot="public" static="no">
+        <name>Py_nb_inplace_xor</name>
+        <initializer>25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="27" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aec2dca4d0c39549a9567e44535de6aba" prot="public" static="no">
+        <name>Py_nb_int</name>
+        <initializer>26</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="28" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a15a7286094fc1e7dc4fdc1f0fa13663f" prot="public" static="no">
+        <name>Py_nb_invert</name>
+        <initializer>27</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="29" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a28a1d82e004ce7ea08553716132b8a24" prot="public" static="no">
+        <name>Py_nb_lshift</name>
+        <initializer>28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="30" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a1efc93f3c3f46ddc5502e749688efb46" prot="public" static="no">
+        <name>Py_nb_multiply</name>
+        <initializer>29</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="31" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac02b699c21689b3f1cb4a89aaf7fa3aa" prot="public" static="no">
+        <name>Py_nb_negative</name>
+        <initializer>30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="32" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ad328ca4f4ce5a88ae1592b8528a475a7" prot="public" static="no">
+        <name>Py_nb_or</name>
+        <initializer>31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="33" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aef988455cee83fcd3732d50331777eb7" prot="public" static="no">
+        <name>Py_nb_positive</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="34" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a2b025893db8dd20d3bde8e50228c9984" prot="public" static="no">
+        <name>Py_nb_power</name>
+        <initializer>33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="35" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a5ea1fecfa6d8e05abcf168e1d2f8e26b" prot="public" static="no">
+        <name>Py_nb_remainder</name>
+        <initializer>34</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="36" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a0dc149bc15c42ad338b49a7845a2eb17" prot="public" static="no">
+        <name>Py_nb_rshift</name>
+        <initializer>35</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="37" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a6c8e401747fdb019c02f5898ae89956b" prot="public" static="no">
+        <name>Py_nb_subtract</name>
+        <initializer>36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="38" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a28979a880133143fce7876872ac1133b" prot="public" static="no">
+        <name>Py_nb_true_divide</name>
+        <initializer>37</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="39" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a7a99faee1612023545fd4c92eee379c4" prot="public" static="no">
+        <name>Py_nb_xor</name>
+        <initializer>38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="40" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1acc481fb40428fe7f57945cb9505837c1" prot="public" static="no">
+        <name>Py_sq_ass_item</name>
+        <initializer>39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="41" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1acced9b00f3423408163b34db07330b5c" prot="public" static="no">
+        <name>Py_sq_concat</name>
+        <initializer>40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="42" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a3302b2437d2b486f88557c9acae5e5c5" prot="public" static="no">
+        <name>Py_sq_contains</name>
+        <initializer>41</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="43" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a159fedd68ce279d94b00e1682e01f90d" prot="public" static="no">
+        <name>Py_sq_inplace_concat</name>
+        <initializer>42</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="44" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a79b96e765d515b05e97f7459bc785358" prot="public" static="no">
+        <name>Py_sq_inplace_repeat</name>
+        <initializer>43</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="45" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a04107a7f8b9d3b6f89080d10c570460a" prot="public" static="no">
+        <name>Py_sq_item</name>
+        <initializer>44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="46" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac1c87b03f5e53cfa637879c162ffc019" prot="public" static="no">
+        <name>Py_sq_length</name>
+        <initializer>45</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="47" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aaa43d3d755982323417d23b292197616" prot="public" static="no">
+        <name>Py_sq_repeat</name>
+        <initializer>46</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="48" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a57167dd06e5c436c556dcf368a630470" prot="public" static="no">
+        <name>Py_tp_alloc</name>
+        <initializer>47</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="49" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a3105c66d29ffdee54884639a01663bc2" prot="public" static="no">
+        <name>Py_tp_base</name>
+        <initializer>48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="50" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a027d86820c9c743b56e126456aeadf50" prot="public" static="no">
+        <name>Py_tp_bases</name>
+        <initializer>49</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="51" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a79ac09898c1ce2f077dbc23385ee74e9" prot="public" static="no">
+        <name>Py_tp_call</name>
+        <initializer>50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="52" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a533033ccb2e365b636a9351da01dc2ad" prot="public" static="no">
+        <name>Py_tp_clear</name>
+        <initializer>51</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="53" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a5eea652d689237d62b6ab7168a1d921b" prot="public" static="no">
+        <name>Py_tp_dealloc</name>
+        <initializer>52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="54" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a969cdc422a7a3da5ca62bec31ad84ae7" prot="public" static="no">
+        <name>Py_tp_del</name>
+        <initializer>53</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="55" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a3439d0fbc922bf4f276c1e1518b6a484" prot="public" static="no">
+        <name>Py_tp_descr_get</name>
+        <initializer>54</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="56" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a46a3dd413dde73282b7b49dabda558c7" prot="public" static="no">
+        <name>Py_tp_descr_set</name>
+        <initializer>55</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="57" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a4b3ca21a6699c743d8d84ace33cb05a0" prot="public" static="no">
+        <name>Py_tp_doc</name>
+        <initializer>56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="58" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a3cd76485ea002ebe62f668893d8801d2" prot="public" static="no">
+        <name>Py_tp_getattr</name>
+        <initializer>57</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="59" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a6d3ffc952658f214786b0de39b00a172" prot="public" static="no">
+        <name>Py_tp_getattro</name>
+        <initializer>58</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="60" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a664d925c8419748312d3c88b38e001cf" prot="public" static="no">
+        <name>Py_tp_hash</name>
+        <initializer>59</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="61" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aa38d74e8399d6b06213d23ca13e20e84" prot="public" static="no">
+        <name>Py_tp_init</name>
+        <initializer>60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="62" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aaccaa4d46c76f3046a89c03d3d313f9c" prot="public" static="no">
+        <name>Py_tp_is_gc</name>
+        <initializer>61</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="63" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aa519c5e6c042bcbe9b9821ee352d5ad0" prot="public" static="no">
+        <name>Py_tp_iter</name>
+        <initializer>62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="64" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a9189a59286d03cb0fa8fed64250391dd" prot="public" static="no">
+        <name>Py_tp_iternext</name>
+        <initializer>63</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="65" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a343285d7e74dddfe8c8e867afc219681" prot="public" static="no">
+        <name>Py_tp_methods</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="66" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1adcf04909f2522cdb687658f1e00d39ba" prot="public" static="no">
+        <name>Py_tp_new</name>
+        <initializer>65</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="67" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a42ea56c607c70003f3b01da340b032bb" prot="public" static="no">
+        <name>Py_tp_repr</name>
+        <initializer>66</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="68" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aa7462ed0c5cefd79bf61ecf3010fb893" prot="public" static="no">
+        <name>Py_tp_richcompare</name>
+        <initializer>67</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="69" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a6720117cd3ecf7b5f11727222c828aaa" prot="public" static="no">
+        <name>Py_tp_setattr</name>
+        <initializer>68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="70" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a4c8c049a3a49eecb18128d1fcc14e1bf" prot="public" static="no">
+        <name>Py_tp_setattro</name>
+        <initializer>69</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="71" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a1338e014d9c3ebaf3601181b103f015d" prot="public" static="no">
+        <name>Py_tp_str</name>
+        <initializer>70</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="72" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a7b160fe7e686613b052ff916bef839dc" prot="public" static="no">
+        <name>Py_tp_traverse</name>
+        <initializer>71</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="73" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a8abef969db0dea1b920bb4a45f280233" prot="public" static="no">
+        <name>Py_tp_members</name>
+        <initializer>72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="74" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a59bfb4653f88de35f73dcc3743ebd997" prot="public" static="no">
+        <name>Py_tp_getset</name>
+        <initializer>73</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="75" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aeef0a71534629d70084d8a53cfe92c36" prot="public" static="no">
+        <name>Py_tp_free</name>
+        <initializer>74</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="76" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a259519d6602373815d05b661ed0b2a9f" prot="public" static="no">
+        <name>Py_nb_matrix_multiply</name>
+        <initializer>75</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="77" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1aa9b7a43b0ff222b6af12e90a3cab64d8" prot="public" static="no">
+        <name>Py_nb_inplace_matrix_multiply</name>
+        <initializer>76</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="78" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1ac7455fbbe61f553d172f89bafa077895" prot="public" static="no">
+        <name>Py_am_await</name>
+        <initializer>77</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="79" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1afe6258ac6f9097b3efef05e9c94de3fc" prot="public" static="no">
+        <name>Py_am_aiter</name>
+        <initializer>78</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="80" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a40df1815243c2fd00168a514a93471a4" prot="public" static="no">
+        <name>Py_am_anext</name>
+        <initializer>79</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="81" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="typeslots_8h_1a6a974865278dfdc6a82be64732a26c64" prot="public" static="no">
+        <name>Py_tp_finalize</name>
+        <initializer>80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/typeslots.h" line="84" column="9" bodyfile="/usr/include/python3.6m/typeslots.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Do<sp/>not<sp/>renumber<sp/>the<sp/>file;<sp/>these<sp/>numbers<sp/>are<sp/>part<sp/>of<sp/>the<sp/>stable<sp/>ABI.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Disabled,<sp/>see<sp/>#10181<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>Py_bf_getbuffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>Py_bf_releasebuffer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_mp_ass_subscript<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_mp_length<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_mp_subscript<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_absolute<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_add<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_and<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_bool<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_divmod<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_float<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_floor_divide<sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_index<sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_add<sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_and<sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_floor_divide<sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_lshift<sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_multiply<sp/>18</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_or<sp/>19</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_power<sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_remainder<sp/>21</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_rshift<sp/>22</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_subtract<sp/>23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_true_divide<sp/>24</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_xor<sp/>25</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_int<sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_invert<sp/>27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_lshift<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_multiply<sp/>29</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_negative<sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_or<sp/>31</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_positive<sp/>32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_power<sp/>33</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_remainder<sp/>34</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_rshift<sp/>35</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_subtract<sp/>36</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_true_divide<sp/>37</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_xor<sp/>38</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_ass_item<sp/>39</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_concat<sp/>40</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_contains<sp/>41</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_inplace_concat<sp/>42</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_inplace_repeat<sp/>43</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_item<sp/>44</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_length<sp/>45</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_sq_repeat<sp/>46</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_alloc<sp/>47</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_base<sp/>48</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_bases<sp/>49</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_call<sp/>50</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_clear<sp/>51</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_dealloc<sp/>52</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_del<sp/>53</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_descr_get<sp/>54</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_descr_set<sp/>55</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_doc<sp/>56</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_getattr<sp/>57</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_getattro<sp/>58</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_hash<sp/>59</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_init<sp/>60</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_is_gc<sp/>61</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_iter<sp/>62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_iternext<sp/>63</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_methods<sp/>64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_new<sp/>65</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_repr<sp/>66</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_richcompare<sp/>67</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_setattr<sp/>68</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_setattro<sp/>69</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_str<sp/>70</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_traverse<sp/>71</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_members<sp/>72</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_getset<sp/>73</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_free<sp/>74</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_matrix_multiply<sp/>75</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_nb_inplace_matrix_multiply<sp/>76</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_am_await<sp/>77</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_am_aiter<sp/>78</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_am_anext<sp/>79</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03050000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>New<sp/>in<sp/>3.5<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_tp_finalize<sp/>80</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/typeslots.h"/>
+  </compounddef>
+</doxygen>

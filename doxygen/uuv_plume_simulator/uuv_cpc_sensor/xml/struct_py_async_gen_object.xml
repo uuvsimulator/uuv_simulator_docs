@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_async_gen_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyAsyncGenObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_async_gen_object_1a3f073718939bd7a0cae6526cc65e24d1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyAsyncGenObject::ag_hooks_inited</definition>
+        <argsstring></argsstring>
+        <name>ag_hooks_inited</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="75" column="1" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_async_gen_object_1a7201ab7d49df6953c155c64b8a66c175" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyAsyncGenObject::ag_closed</definition>
+        <argsstring></argsstring>
+        <name>ag_closed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="79" column="1" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_py_async_gen_object_1a1ec65b1d076e5ce5cdaf6e1c97bb74fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAsyncGenObject::_PyGenObject_HEAD</definition>
+        <argsstring>(ag) PyObject *ag_finalizer</argsstring>
+        <name>_PyGenObject_HEAD</name>
+        <param>
+          <type>ag</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/genobject.h" line="68" column="1" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="68" bodyend="80"/>
+    <listofallmembers>
+      <member refid="struct_py_async_gen_object_1a1ec65b1d076e5ce5cdaf6e1c97bb74fe" prot="public" virt="non-virtual"><scope>PyAsyncGenObject</scope><name>_PyGenObject_HEAD</name></member>
+      <member refid="struct_py_async_gen_object_1a7201ab7d49df6953c155c64b8a66c175" prot="public" virt="non-virtual"><scope>PyAsyncGenObject</scope><name>ag_closed</name></member>
+      <member refid="struct_py_async_gen_object_1a3f073718939bd7a0cae6526cc65e24d1" prot="public" virt="non-virtual"><scope>PyAsyncGenObject</scope><name>ag_hooks_inited</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

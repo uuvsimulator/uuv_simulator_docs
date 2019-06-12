@@ -1,0 +1,397 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pyhash_8h" kind="file" language="C++">
+    <compoundname>pyhash.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3494">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3495">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3497">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3492">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3493" relation="include">
+        </childnode>
+        <childnode refid="3495" relation="include">
+        </childnode>
+        <childnode refid="3496" relation="include">
+        </childnode>
+        <childnode refid="3497" relation="include">
+        </childnode>
+        <childnode refid="3498" relation="include">
+        </childnode>
+      </node>
+      <node id="3498">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3493">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3494" relation="include">
+        </childnode>
+      </node>
+      <node id="3491">
+        <label>/usr/include/python3.6m/pyhash.h</label>
+        <link refid="pyhash_8h"/>
+        <childnode refid="3492" relation="include">
+        </childnode>
+      </node>
+      <node id="3496">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="union___py___hash_secret__t" prot="public">_Py_HashSecret_t</innerclass>
+    <innerclass refid="struct_py_hash___func_def" prot="public">PyHash_FuncDef</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pyhash_8h_1a0cb39ba9e0f73e721bfcb2f42c6b7cbf" prot="public" static="no">
+        <name>_PyHASH_MULTIPLIER</name>
+        <initializer>1000003UL  /* 0xf4243 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="16" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1a9d4a8d158510104863557c400b1b9734" prot="public" static="no">
+        <name>_PyHASH_BITS</name>
+        <initializer>31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="25" column="12" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ad94fa55c5a652603d785a0c4d93bd065" prot="public" static="no">
+        <name>_PyHASH_MODULUS</name>
+        <initializer>(((size_t)1 &lt;&lt; _PyHASH_BITS) - 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="28" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ad6c56c61526f1dd0fc72f39b7295421a" prot="public" static="no">
+        <name>_PyHASH_INF</name>
+        <initializer>314159</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="29" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ac313d69782bb68f75cbe362a52cffaa4" prot="public" static="no">
+        <name>_PyHASH_NAN</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="30" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ae5e06966f5a0d8c2c92a40c0428e760b" prot="public" static="no">
+        <name>_PyHASH_IMAG</name>
+        <initializer>_PyHASH_MULTIPLIER</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="31" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1a7ea9b5fd7e0729041f2fc7fdcf07a975" prot="public" static="no">
+        <name>Py_HASH_CUTOFF</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="110" column="11" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ada8ebb1fc9881d1cf9382148c5349571" prot="public" static="no">
+        <name>Py_HASH_EXTERNAL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="129" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ae2627505bdfc48221f8662619aef94fe" prot="public" static="no">
+        <name>Py_HASH_SIPHASH24</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="130" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1a7a9ded0f9ac84eb2514b74c4016b0ad9" prot="public" static="no">
+        <name>Py_HASH_FNV</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="131" column="9" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pyhash_8h_1ada15a12f4c205d34f8b2c9bbfd856cdd" prot="public" static="no">
+        <name>Py_HASH_ALGORITHM</name>
+        <initializer>Py_HASH_SIPHASH24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="135" column="13" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pyhash_8h_1a3655899f66ca98255b47208712b31518" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Py_ssize_t</definition>
+        <argsstring></argsstring>
+        <name>Py_ssize_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="12" column="1" bodyfile="/usr/include/python3.6m/pyhash.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pyhash_8h_1a3fd3bd1bd7e849b068af53c5a4ded9e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_hash_t) _Py_HashDouble(double)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_hash_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pyhash_8h_1a0783ed68db8c742faf0e1af7c4d5c48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(_Py_HashSecret_t) _Py_HashSecret</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="union___py___hash_secret__t" kindref="compound">_Py_HashSecret_t</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pyhash_8h_1a76cad9c3a4a21648aa9939276c32f4e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyHash_FuncDef *) PyHash_GetFuncDef(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py_hash___func_def" kindref="compound">PyHash_FuncDef</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyhash.h" line="94" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_HASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_HASH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Helpers<sp/>for<sp/>hash<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">PyAPI_FUNC(Py_hash_t)<sp/>_Py_HashDouble(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">PyAPI_FUNC(Py_hash_t)<sp/>_Py_HashPointer(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PyAPI_FUNC(Py_hash_t)<sp/>_Py_HashBytes(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Prime<sp/>multiplier<sp/>used<sp/>in<sp/>string<sp/>and<sp/>various<sp/>other<sp/>hashes.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyHASH_MULTIPLIER<sp/>1000003UL<sp/><sp/></highlight><highlight class="comment">/*<sp/>0xf4243<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Parameters<sp/>used<sp/>for<sp/>the<sp/>numeric<sp/>hash<sp/>implementation.<sp/><sp/>See<sp/>notes<sp/>for</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/>_Py_HashDouble<sp/>in<sp/>Python/pyhash.c.<sp/><sp/>Numeric<sp/>hashes<sp/>are<sp/>based<sp/>on</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/>reduction<sp/>modulo<sp/>the<sp/>prime<sp/>2**_PyHASH_BITS<sp/>-<sp/>1.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>SIZEOF_VOID_P<sp/>&gt;=<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_PyHASH_BITS<sp/>61</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_PyHASH_BITS<sp/>31</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyHASH_MODULUS<sp/>(((size_t)1<sp/>&lt;&lt;<sp/>_PyHASH_BITS)<sp/>-<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyHASH_INF<sp/>314159</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyHASH_NAN<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyHASH_IMAG<sp/>_PyHASH_MULTIPLIER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>hash<sp/>secret</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/>memory<sp/>layout<sp/>on<sp/>64<sp/>bit<sp/>systems</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/><sp/><sp/>cccccccc<sp/>cccccccc<sp/>cccccccc<sp/><sp/>uc<sp/>--<sp/>unsigned<sp/>char[24]</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/><sp/><sp/>pppppppp<sp/>ssssssss<sp/>........<sp/><sp/>fnv<sp/>--<sp/>two<sp/>Py_hash_t</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/><sp/><sp/>k0k0k0k0<sp/>k1k1k1k1<sp/>........<sp/><sp/>siphash<sp/>--<sp/>two<sp/>uint64_t</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*<sp/><sp/><sp/>........<sp/>........<sp/>ssssssss<sp/><sp/>djbx33a<sp/>--<sp/>16<sp/>bytes<sp/>padding<sp/>+<sp/>one<sp/>Py_hash_t</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/><sp/><sp/>........<sp/>........<sp/>eeeeeeee<sp/><sp/>pyexpat<sp/>XML<sp/>hash<sp/>salt</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/>*<sp/>memory<sp/>layout<sp/>on<sp/>32<sp/>bit<sp/>systems</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>*<sp/><sp/><sp/>cccccccc<sp/>cccccccc<sp/>cccccccc<sp/><sp/>uc</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/>*<sp/><sp/><sp/>ppppssss<sp/>........<sp/>........<sp/><sp/>fnv<sp/>--<sp/>two<sp/>Py_hash_t</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/>*<sp/><sp/><sp/>k0k0k0k0<sp/>k1k1k1k1<sp/>........<sp/><sp/>siphash<sp/>--<sp/>two<sp/>uint64_t<sp/>(*)</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/>*<sp/><sp/><sp/>........<sp/>........<sp/>ssss....<sp/><sp/>djbx33a<sp/>--<sp/>16<sp/>bytes<sp/>padding<sp/>+<sp/>one<sp/>Py_hash_t</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/><sp/><sp/>........<sp/>........<sp/>eeee....<sp/><sp/>pyexpat<sp/>XML<sp/>hash<sp/>salt</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>(*)<sp/>The<sp/>siphash<sp/>member<sp/>may<sp/>not<sp/>be<sp/>available<sp/>on<sp/>32<sp/>bit<sp/>platforms<sp/>without</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>an<sp/>unsigned<sp/>int64<sp/>data<sp/>type.</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="union___py___hash_secret__t" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ensure<sp/>24<sp/>bytes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>uc[24];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>two<sp/>Py_hash_t<sp/>for<sp/>FNV<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>prefix;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>suffix;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>fnv;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>two<sp/>uint64<sp/>for<sp/>SipHash24<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>k0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint64_t<sp/>k1;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>siphash;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>a<sp/>different<sp/>(!)<sp/>Py_hash_t<sp/>for<sp/>small<sp/>string<sp/>optimization<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>padding[16];</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>suffix;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>djbx33a;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>padding[16];</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hashsalt;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>expat;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}<sp/><ref refid="union___py___hash_secret__t" kindref="compound">_Py_HashSecret_t</ref>;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">PyAPI_DATA(<ref refid="union___py___hash_secret__t" kindref="compound">_Py_HashSecret_t</ref>)<sp/>_Py_HashSecret;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">PyAPI_DATA(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_Py_HashSecret_Initialized;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>hash<sp/>function<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="struct_py_hash___func_def" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>(*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>hash)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>hash_bits;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seed_bits;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/><ref refid="struct_py_hash___func_def" kindref="compound">PyHash_FuncDef</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_hash___func_def" kindref="compound">PyHash_FuncDef</ref>*)<sp/>PyHash_GetFuncDef(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>cutoff<sp/>for<sp/>small<sp/>string<sp/>DJBX33A<sp/>optimization<sp/>in<sp/>range<sp/>[1,<sp/>cutoff).</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/>*<sp/>About<sp/>50%<sp/>of<sp/>the<sp/>strings<sp/>in<sp/>a<sp/>typical<sp/>Python<sp/>application<sp/>are<sp/>smaller<sp/>than</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>6<sp/>to<sp/>7<sp/>chars.<sp/>However<sp/>DJBX33A<sp/>is<sp/>vulnerable<sp/>to<sp/>hash<sp/>collision<sp/>attacks.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>NEVER<sp/>use<sp/>DJBX33A<sp/>for<sp/>long<sp/>strings!</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>A<sp/>Py_HASH_CUTOFF<sp/>of<sp/>0<sp/>disables<sp/>small<sp/>string<sp/>optimization.<sp/>32<sp/>bit<sp/>platforms</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>should<sp/>use<sp/>a<sp/>smaller<sp/>cutoff<sp/>because<sp/>it<sp/>is<sp/>easier<sp/>to<sp/>create<sp/>colliding</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>strings.<sp/>A<sp/>cutoff<sp/>of<sp/>7<sp/>on<sp/>64bit<sp/>platforms<sp/>and<sp/>5<sp/>on<sp/>32bit<sp/>platforms<sp/>should</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>provide<sp/>a<sp/>decent<sp/>safety<sp/>margin.</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_HASH_CUTOFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>Py_HASH_CUTOFF<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>(Py_HASH_CUTOFF<sp/>&gt;<sp/>7<sp/>||<sp/>Py_HASH_CUTOFF<sp/>&lt;<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>Py_HASH_CUTOFF<sp/>must<sp/>in<sp/>range<sp/>0...7.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_HASH_CUTOFF<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>hash<sp/>algorithm<sp/>selection</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/>*<sp/>The<sp/>values<sp/>for<sp/>Py_HASH_SIPHASH24<sp/>and<sp/>Py_HASH_FNV<sp/>are<sp/>hard-coded<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/>*<sp/>configure<sp/>script.</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*<sp/>-<sp/>FNV<sp/>is<sp/>available<sp/>on<sp/>all<sp/>platforms<sp/>and<sp/>architectures.</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/>*<sp/>-<sp/>SIPHASH24<sp/>only<sp/>works<sp/>on<sp/>plaforms<sp/>that<sp/>don&apos;t<sp/>require<sp/>aligned<sp/>memory<sp/>for<sp/>integers.</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/>*<sp/>-<sp/>With<sp/>EXTERNAL<sp/>embedders<sp/>can<sp/>provide<sp/>an<sp/>alternative<sp/>implementation<sp/>with::</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>PyHash_FuncDef<sp/>PyHash_Func<sp/>=<sp/>{...};</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>XXX:<sp/>Figure<sp/>out<sp/>__declspec()<sp/>for<sp/>extern<sp/>PyHash_FuncDef.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_HASH_EXTERNAL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_HASH_SIPHASH24<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_HASH_FNV<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_HASH_ALGORITHM</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifndef<sp/>HAVE_ALIGNED_REQUIRED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_HASH_ALGORITHM<sp/>Py_HASH_SIPHASH24</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_HASH_ALGORITHM<sp/>Py_HASH_FNV</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif<sp/></highlight><highlight class="comment">/*<sp/>uint64_t<sp/>&amp;&amp;<sp/>uint32_t<sp/>&amp;&amp;<sp/>aligned<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_HASH_ALGORITHM<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_HASH_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pyhash.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_syntax_error_object" kind="struct" language="C++" prot="public">
+    <compoundname>PySyntaxErrorObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1a71896ef95d204cabfffbc25c44338a43" prot="public" static="no" mutable="no">
+        <type>PyException_HEAD <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyException_HEAD PyObject* PySyntaxErrorObject::msg</definition>
+        <argsstring></argsstring>
+        <name>msg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="22" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1aed7ca919fca31f79cda28d1cb0d62755" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySyntaxErrorObject::filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="23" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1a518424d9f51fde459c23101d19e49c85" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySyntaxErrorObject::lineno</definition>
+        <argsstring></argsstring>
+        <name>lineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="24" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1a0cb77b0acc909058c6c74cfdaa1ffdda" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySyntaxErrorObject::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="25" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1aebd47dd29210b4107549874ee2253ede" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySyntaxErrorObject::text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="26" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_syntax_error_object_1a2680fe45d034e0d79c6395787b0186dd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PySyntaxErrorObject::print_file_and_line</definition>
+        <argsstring></argsstring>
+        <name>print_file_and_line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pyerrors.h" line="27" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1401">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1397">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1398" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1403">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1396">
+        <label>PySyntaxErrorObject</label>
+        <link refid="struct_py_syntax_error_object"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>offset</edgelabel>
+          <edgelabel>lineno</edgelabel>
+          <edgelabel>print_file_and_line</edgelabel>
+          <edgelabel>msg</edgelabel>
+          <edgelabel>text</edgelabel>
+          <edgelabel>filename</edgelabel>
+        </childnode>
+      </node>
+      <node id="1402">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1404">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1398">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1399" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1400" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1401" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1402" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1403" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1404" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1405" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1406" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1398" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1399">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1405">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1406">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1397" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1400">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/pyerrors.h" line="20" column="1" bodyfile="/usr/include/python3.6m/pyerrors.h" bodystart="20" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_py_syntax_error_object_1aed7ca919fca31f79cda28d1cb0d62755" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>filename</name></member>
+      <member refid="struct_py_syntax_error_object_1a518424d9f51fde459c23101d19e49c85" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>lineno</name></member>
+      <member refid="struct_py_syntax_error_object_1a71896ef95d204cabfffbc25c44338a43" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>msg</name></member>
+      <member refid="struct_py_syntax_error_object_1a0cb77b0acc909058c6c74cfdaa1ffdda" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>offset</name></member>
+      <member refid="struct_py_syntax_error_object_1a2680fe45d034e0d79c6395787b0186dd" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>print_file_and_line</name></member>
+      <member refid="struct_py_syntax_error_object_1aebd47dd29210b4107549874ee2253ede" prot="public" virt="non-virtual"><scope>PySyntaxErrorObject</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

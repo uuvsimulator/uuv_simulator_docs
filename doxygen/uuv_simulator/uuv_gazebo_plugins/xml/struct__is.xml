@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__is" kind="struct" language="C++" prot="public">
+    <compoundname>_is</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__is_1a1c3d238e47f3b06f3dcc161e18145e4a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__is" kindref="compound">_is</ref> *</type>
+        <definition>struct _is* _is::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="28" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a0691d58c38c8286ac6dbceb6aa98bd09" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__ts" kindref="compound">_ts</ref> *</type>
+        <definition>struct _ts* _is::tstate_head</definition>
+        <argsstring></argsstring>
+        <name>tstate_head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="29" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a7f06027c7ab7541936413d7d91eac5fb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::modules</definition>
+        <argsstring></argsstring>
+        <name>modules</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="31" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a1431ac8b548820109cc56eaa266e69b4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::modules_by_index</definition>
+        <argsstring></argsstring>
+        <name>modules_by_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="32" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a95556056d8c72409c77f50896b610110" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::sysdict</definition>
+        <argsstring></argsstring>
+        <name>sysdict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="33" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1aed5b927da76a3c44b320b5faf68db0f5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::builtins</definition>
+        <argsstring></argsstring>
+        <name>builtins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="34" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1ab9fbc89270858fe958ccea121e615fd6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::importlib</definition>
+        <argsstring></argsstring>
+        <name>importlib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="35" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1ac1d3848054d54f616334ffc47b560fad" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::codec_search_path</definition>
+        <argsstring></argsstring>
+        <name>codec_search_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="37" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1aa85c05fed3a236e56918fe0c832c3c98" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::codec_search_cache</definition>
+        <argsstring></argsstring>
+        <name>codec_search_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="38" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a98cfa3eae066203fcfc5b884914d6daf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::codec_error_registry</definition>
+        <argsstring></argsstring>
+        <name>codec_error_registry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="39" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a84c00194c23e5ca19531761e9f2a9c83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _is::codecs_initialized</definition>
+        <argsstring></argsstring>
+        <name>codecs_initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="40" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a27bd7f4cb8088c9a66871c2bb7843814" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _is::fscodec_initialized</definition>
+        <argsstring></argsstring>
+        <name>fscodec_initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="41" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a85529e9475beff65b9302958f9e46266" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::builtins_copy</definition>
+        <argsstring></argsstring>
+        <name>builtins_copy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="47" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a901c9f5ff8e1bd883d335b379a5eeaab" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _is::import_func</definition>
+        <argsstring></argsstring>
+        <name>import_func</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="48" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__is_1a7f4a791e11758666f25dc937eb8b4876" prot="public" static="no" mutable="no">
+        <type>_PyFrameEvalFunction</type>
+        <definition>_PyFrameEvalFunction _is::eval_frame</definition>
+        <argsstring></argsstring>
+        <name>eval_frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="50" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="167">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="162">
+        <label>_ts</label>
+        <link refid="struct__ts"/>
+        <childnode refid="161" relation="usage">
+          <edgelabel>interp</edgelabel>
+        </childnode>
+        <childnode refid="162" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>trash_delete_later</edgelabel>
+          <edgelabel>exc_type</edgelabel>
+          <edgelabel>curexc_value</edgelabel>
+          <edgelabel>c_profileobj</edgelabel>
+          <edgelabel>async_exc</edgelabel>
+          <edgelabel>async_gen_finalizer</edgelabel>
+          <edgelabel>dict</edgelabel>
+          <edgelabel>curexc_traceback</edgelabel>
+          <edgelabel>curexc_type</edgelabel>
+          <edgelabel>c_traceobj</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>frame</edgelabel>
+        </childnode>
+      </node>
+      <node id="163">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="164" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="169">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="168">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="170">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="173">
+        <label>_frame</label>
+        <link refid="struct__frame"/>
+        <childnode refid="174" relation="usage">
+          <edgelabel>f_blockstack</edgelabel>
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>f_code</edgelabel>
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>f_gen</edgelabel>
+          <edgelabel>f_valuestack</edgelabel>
+          <edgelabel>f_exc_value</edgelabel>
+          <edgelabel>f_exc_traceback</edgelabel>
+          <edgelabel>f_trace</edgelabel>
+          <edgelabel>f_stacktop</edgelabel>
+          <edgelabel>f_locals</edgelabel>
+          <edgelabel>f_globals</edgelabel>
+          <edgelabel>f_builtins</edgelabel>
+          <edgelabel>f_localsplus</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>f_back</edgelabel>
+        </childnode>
+      </node>
+      <node id="164">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="165" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="167" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="164" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="174">
+        <label>PyTryBlock</label>
+        <link refid="struct_py_try_block"/>
+      </node>
+      <node id="165">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="175">
+        <label>PyCodeObject</label>
+        <link refid="struct_py_code_object"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>co_freevars</edgelabel>
+          <edgelabel>co_consts</edgelabel>
+          <edgelabel>co_cellvars</edgelabel>
+          <edgelabel>co_lnotab</edgelabel>
+          <edgelabel>co_filename</edgelabel>
+          <edgelabel>co_varnames</edgelabel>
+          <edgelabel>co_weakreflist</edgelabel>
+          <edgelabel>co_names</edgelabel>
+          <edgelabel>co_name</edgelabel>
+          <edgelabel>co_code</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="172">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="163" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="161">
+        <label>_is</label>
+        <link refid="struct__is"/>
+        <childnode refid="161" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="162" relation="usage">
+          <edgelabel>tstate_head</edgelabel>
+        </childnode>
+        <childnode refid="163" relation="usage">
+          <edgelabel>import_func</edgelabel>
+          <edgelabel>importlib</edgelabel>
+          <edgelabel>builtins</edgelabel>
+          <edgelabel>builtins_copy</edgelabel>
+          <edgelabel>codec_search_path</edgelabel>
+          <edgelabel>modules</edgelabel>
+          <edgelabel>eval_frame</edgelabel>
+          <edgelabel>codec_search_cache</edgelabel>
+          <edgelabel>modules_by_index</edgelabel>
+          <edgelabel>codec_error_registry</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="166">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/pystate.h" line="26" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="26" bodyend="51"/>
+    <listofallmembers>
+      <member refid="struct__is_1aed5b927da76a3c44b320b5faf68db0f5" prot="public" virt="non-virtual"><scope>_is</scope><name>builtins</name></member>
+      <member refid="struct__is_1a85529e9475beff65b9302958f9e46266" prot="public" virt="non-virtual"><scope>_is</scope><name>builtins_copy</name></member>
+      <member refid="struct__is_1a98cfa3eae066203fcfc5b884914d6daf" prot="public" virt="non-virtual"><scope>_is</scope><name>codec_error_registry</name></member>
+      <member refid="struct__is_1aa85c05fed3a236e56918fe0c832c3c98" prot="public" virt="non-virtual"><scope>_is</scope><name>codec_search_cache</name></member>
+      <member refid="struct__is_1ac1d3848054d54f616334ffc47b560fad" prot="public" virt="non-virtual"><scope>_is</scope><name>codec_search_path</name></member>
+      <member refid="struct__is_1a84c00194c23e5ca19531761e9f2a9c83" prot="public" virt="non-virtual"><scope>_is</scope><name>codecs_initialized</name></member>
+      <member refid="struct__is_1a7f4a791e11758666f25dc937eb8b4876" prot="public" virt="non-virtual"><scope>_is</scope><name>eval_frame</name></member>
+      <member refid="struct__is_1a27bd7f4cb8088c9a66871c2bb7843814" prot="public" virt="non-virtual"><scope>_is</scope><name>fscodec_initialized</name></member>
+      <member refid="struct__is_1a901c9f5ff8e1bd883d335b379a5eeaab" prot="public" virt="non-virtual"><scope>_is</scope><name>import_func</name></member>
+      <member refid="struct__is_1ab9fbc89270858fe958ccea121e615fd6" prot="public" virt="non-virtual"><scope>_is</scope><name>importlib</name></member>
+      <member refid="struct__is_1a7f06027c7ab7541936413d7d91eac5fb" prot="public" virt="non-virtual"><scope>_is</scope><name>modules</name></member>
+      <member refid="struct__is_1a1431ac8b548820109cc56eaa266e69b4" prot="public" virt="non-virtual"><scope>_is</scope><name>modules_by_index</name></member>
+      <member refid="struct__is_1a1c3d238e47f3b06f3dcc161e18145e4a" prot="public" virt="non-virtual"><scope>_is</scope><name>next</name></member>
+      <member refid="struct__is_1a95556056d8c72409c77f50896b610110" prot="public" virt="non-virtual"><scope>_is</scope><name>sysdict</name></member>
+      <member refid="struct__is_1a0691d58c38c8286ac6dbceb6aa98bd09" prot="public" virt="non-virtual"><scope>_is</scope><name>tstate_head</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pythonrun_8h" kind="file" language="C++">
+    <compoundname>pythonrun.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3692">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3689">
+        <label>/usr/include/python3.6m/pythonrun.h</label>
+        <link refid="pythonrun_8h"/>
+        <childnode refid="3690" relation="include">
+        </childnode>
+      </node>
+      <node id="3693">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3695">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3690">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3691" relation="include">
+        </childnode>
+        <childnode refid="3693" relation="include">
+        </childnode>
+        <childnode refid="3694" relation="include">
+        </childnode>
+        <childnode refid="3695" relation="include">
+        </childnode>
+        <childnode refid="3696" relation="include">
+        </childnode>
+      </node>
+      <node id="3696">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3691">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3692" relation="include">
+        </childnode>
+      </node>
+      <node id="3694">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_compiler_flags" prot="public">PyCompilerFlags</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pythonrun_8h_1a1d12a6ce6fbee675191aa0c448b38124" prot="public" static="no">
+        <name>PyCF_MASK</name>
+        <initializer>(CO_FUTURE_DIVISION | CO_FUTURE_ABSOLUTE_IMPORT | \
+                   CO_FUTURE_WITH_STATEMENT | CO_FUTURE_PRINT_FUNCTION | \
+                   CO_FUTURE_UNICODE_LITERALS | CO_FUTURE_BARRY_AS_BDFL | \
+                   CO_FUTURE_GENERATOR_STOP)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="10" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a57d5b10e19f273327108a82baa816fbc" prot="public" static="no">
+        <name>PyCF_MASK_OBSOLETE</name>
+        <initializer>(CO_NESTED)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="14" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1aad0ae3019acc2cd2bb89a7e073388afc" prot="public" static="no">
+        <name>PyCF_SOURCE_IS_UTF8</name>
+        <initializer>0x0100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="15" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a9028d25367e09be0b02d376f23cac840" prot="public" static="no">
+        <name>PyCF_DONT_IMPLY_DEDENT</name>
+        <initializer>0x0200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="16" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a09e0320e84ddce5141c2895899239955" prot="public" static="no">
+        <name>PyCF_ONLY_AST</name>
+        <initializer>0x0400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="17" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a77ea37fb35b1c4df188a84bc9d22f6db" prot="public" static="no">
+        <name>PyCF_IGNORE_COOKIE</name>
+        <initializer>0x0800</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="18" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a2b854e94c3c4d43a1735cf60349bc3f9" prot="public" static="no">
+        <name>PyParser_SimpleParseString</name>
+        <param><defname>S</defname></param>
+        <param><defname>B</defname></param>
+        <initializer>PyParser_SimpleParseStringFlags(S, B, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="87" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a76f0f14e3418716265e5c95ba2580ceb" prot="public" static="no">
+        <name>PyParser_SimpleParseFile</name>
+        <param><defname>FP</defname></param>
+        <param><defname>S</defname></param>
+        <param><defname>B</defname></param>
+        <initializer>PyParser_SimpleParseFileFlags(FP, S, B, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="89" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1af9f2f6efa661eebb035591169efdea7c" prot="public" static="no">
+        <name>Py_CompileString</name>
+        <param><defname>str</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>s</defname></param>
+        <initializer>Py_CompileStringExFlags(str, p, s, NULL, -1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="119" column="10" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1addb5e68a88a85cfccbd38e596d8967b5" prot="public" static="no">
+        <name>Py_CompileStringFlags</name>
+        <param><defname>str</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>f</defname></param>
+        <initializer>Py_CompileStringExFlags(str, p, s, f, -1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="120" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a8ce80a6c4e8d7460a55e2f86aae95310" prot="public" static="no">
+        <name>PyRun_String</name>
+        <param><defname>str</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>g</defname></param>
+        <param><defname>l</defname></param>
+        <initializer>PyRun_StringFlags(str, s, g, l, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="150" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1aa3b94c5a34856a200ee0927aeeebf245" prot="public" static="no">
+        <name>PyRun_AnyFile</name>
+        <param><defname>fp</defname></param>
+        <param><defname>name</defname></param>
+        <initializer>PyRun_AnyFileExFlags(fp, name, 0, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="151" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1ab506966cac6742dab8241667c1d14d34" prot="public" static="no">
+        <name>PyRun_AnyFileEx</name>
+        <param><defname>fp</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>closeit</defname></param>
+        <initializer>PyRun_AnyFileExFlags(fp, name, closeit, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="152" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1ab3b7e36ed054f855e8d68b2b28e07140" prot="public" static="no">
+        <name>PyRun_AnyFileFlags</name>
+        <param><defname>fp</defname></param>
+        <param><defname>name</defname></param>
+        <param><defname>flags</defname></param>
+        <initializer>PyRun_AnyFileExFlags(fp, name, 0, flags)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="154" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a67858e9f03ae94301ce9f86ce6ef9376" prot="public" static="no">
+        <name>PyRun_SimpleString</name>
+        <param><defname>s</defname></param>
+        <initializer>PyRun_SimpleStringFlags(s, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="156" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a9189e5625f4a180cca5e6f5ce2ddd9fb" prot="public" static="no">
+        <name>PyRun_SimpleFile</name>
+        <param><defname>f</defname></param>
+        <param><defname>p</defname></param>
+        <initializer>PyRun_SimpleFileExFlags(f, p, 0, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="157" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a117eb7c1696274e7a0f30585badfb124" prot="public" static="no">
+        <name>PyRun_SimpleFileEx</name>
+        <param><defname>f</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>PyRun_SimpleFileExFlags(f, p, c, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="158" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a9919c1f3553ed4183ce4d99a5ae3f05c" prot="public" static="no">
+        <name>PyRun_InteractiveOne</name>
+        <param><defname>f</defname></param>
+        <param><defname>p</defname></param>
+        <initializer>PyRun_InteractiveOneFlags(f, p, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="159" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1ab71151cadee4152038998381a51e0c57" prot="public" static="no">
+        <name>PyRun_InteractiveLoop</name>
+        <param><defname>f</defname></param>
+        <param><defname>p</defname></param>
+        <initializer>PyRun_InteractiveLoopFlags(f, p, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="160" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1af008cd314d44e8595cb456818c6cbf7d" prot="public" static="no">
+        <name>PyRun_File</name>
+        <param><defname>fp</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>g</defname></param>
+        <param><defname>l</defname></param>
+        <initializer>PyRun_FileExFlags(fp, p, s, g, l, 0, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="161" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a4c1c241cc6d343258fb9951e178357a6" prot="public" static="no">
+        <name>PyRun_FileEx</name>
+        <param><defname>fp</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>g</defname></param>
+        <param><defname>l</defname></param>
+        <param><defname>c</defname></param>
+        <initializer>PyRun_FileExFlags(fp, p, s, g, l, c, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="163" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1adffe28a65742d8e0bbea5d13bc663082" prot="public" static="no">
+        <name>PyRun_FileFlags</name>
+        <param><defname>fp</defname></param>
+        <param><defname>p</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>g</defname></param>
+        <param><defname>l</defname></param>
+        <param><defname>flags</defname></param>
+        <initializer>PyRun_FileExFlags(fp, p, s, g, l, 0, flags)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="165" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pythonrun_8h_1a830538db26260e18b43ac3e42e1b6da6" prot="public" static="no">
+        <name>PYOS_STACK_MARGIN</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="182" column="9" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="182" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pythonrun_8h_1ada9aa55ceeb96a7ed4c539713952ba6f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char *</type>
+        <definition>PyObject* filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="31" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1ad37d89489f72843a5c841a769dbb17f9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char int</type>
+        <definition>PyObject PyObject PyCompilerFlags const char int PyObject PyObject int closeit</definition>
+        <argsstring></argsstring>
+        <name>closeit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="32" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a7fd2d87e494ed220f5188fc42ff1e4f0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char int <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> *</type>
+        <definition>PyObject int PyCompilerFlags* flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="33" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a9dc353f9c08809245078f98a9515528e" prot="public" static="no" mutable="no">
+        <type>const char int</type>
+        <definition>PyObject int start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="55" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a08a6fccd8c4a1628ce7bc54709175997" prot="public" static="no" mutable="no">
+        <type>const char int <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> PyArena *</type>
+        <definition>PyObject const char int const char const char PyCompilerFlags int PyArena* arena</definition>
+        <argsstring></argsstring>
+        <name>arena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="57" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1aba72f2c49cc40065addca367fdd225bf" prot="public" static="no" mutable="no">
+        <type>const char const char *</type>
+        <definition>PyObject const char* enc</definition>
+        <argsstring></argsstring>
+        <name>enc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="67" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1ad98bfca883c4f58978aa56a2fb979dda" prot="public" static="no" mutable="no">
+        <type>const char const char int const char *</type>
+        <definition>PyObject const char int const char* ps1</definition>
+        <argsstring></argsstring>
+        <name>ps1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="69" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a48161c2a7f2011cc4d23a101957c10e6" prot="public" static="no" mutable="no">
+        <type>const char const char int const char const char *</type>
+        <definition>PyObject const char int const char const char* ps2</definition>
+        <argsstring></argsstring>
+        <name>ps2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="70" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a9881b173e7412d36bd0445054bbe9f09" prot="public" static="no" mutable="no">
+        <type>const char const char int const char const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> int *</type>
+        <definition>PyObject const char int const char const char PyCompilerFlags int * errcode</definition>
+        <argsstring></argsstring>
+        <name>errcode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="72" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a61569f2965b7a369eb10b6d75d410d11" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="92" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1ac2d0176575c767c41a8061cb37499bc3" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char int <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject PyCompilerFlags const char int PyObject* globals</definition>
+        <argsstring></argsstring>
+        <name>globals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="110" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a9edb89ca38da5477adab27dac4c436ba" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char int <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject PyCompilerFlags const char int PyObject PyObject* locals</definition>
+        <argsstring></argsstring>
+        <name>locals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="111" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1a18f04a2e96637b9843dd4b01f7f866ea" prot="public" static="no" mutable="no">
+        <type>const char int <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> int</type>
+        <definition>PyObject int PyCompilerFlags int optimize</definition>
+        <argsstring></argsstring>
+        <name>optimize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="126" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pythonrun_8h_1acc3c7d1ed1947624df304d4f6d55569d" prot="public" static="no" mutable="no">
+        <type>FILE const char *PyAPI_DATA() int(*</type>
+        <definition>FILE const char* PyAPI_DATA() int(* PyOS_InputHook) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>PyOS_InputHook</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="173" column="1" bodyfile="/usr/include/python3.6m/pythonrun.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pythonrun_8h_1abd0f943c094b27f9be38e190c823a55d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyRun_SimpleStringFlags(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1a98f1bfd2a4c585989220d41bd4d73c1e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(struct _mod *) PyParser_ASTFromString(const char *s</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>struct <ref refid="struct__mod" kindref="compound">_mod</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1ae0d5d34b5941658aa9f8dbc4f5553aaa" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(struct _node *) PyParser_SimpleParseStringFlags(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>struct <ref refid="struct__node" kindref="compound">_node</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1a3279804513b3df861617dd07dd1e8c31" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyRun_StringFlags(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1a2c0b1e6bc3e94dc18ebbb8f4b6a9d2f2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(struct symtable *) Py_SymtableString(const char *str</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>struct <ref refid="structsymtable" kindref="compound">symtable</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="133" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1a73731469d47f0f9f0c3557ea71a9822f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) PyErr_Print(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1abb5152b21ad5b0b8b3bfa21aac797127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(char *) PyOS_Readline(FILE *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1a7e946f92f641fc4616d9c4b548284053" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(char) *(*PyOS_ReadlineFunctionPointer)(FILE *</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type>char</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="174" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pythonrun_8h_1abe6ce002e567b3f72fbbb88007c4349c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>FILE const char *</type>
+        <definition>FILE const char* PyAPI_DATA</definition>
+        <argsstring>(PyThreadState *) _PyOS_ReadlineTState</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__ts" kindref="compound">PyThreadState</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pythonrun.h" line="176" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Interfaces<sp/>to<sp/>parse<sp/>and<sp/>execute<sp/>pieces<sp/>of<sp/>python<sp/>code<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_PYTHONRUN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYTHONRUN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_MASK<sp/>(CO_FUTURE_DIVISION<sp/>|<sp/>CO_FUTURE_ABSOLUTE_IMPORT<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="11"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CO_FUTURE_WITH_STATEMENT<sp/>|<sp/>CO_FUTURE_PRINT_FUNCTION<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CO_FUTURE_UNICODE_LITERALS<sp/>|<sp/>CO_FUTURE_BARRY_AS_BDFL<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CO_FUTURE_GENERATOR_STOP)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_MASK_OBSOLETE<sp/>(CO_NESTED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_SOURCE_IS_UTF8<sp/><sp/>0x0100</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_DONT_IMPLY_DEDENT<sp/>0x0200</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_ONLY_AST<sp/>0x0400</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCF_IGNORE_COOKIE<sp/>0x0800</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="struct_py_compiler_flags" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cf_flags;<sp/><sp/></highlight><highlight class="comment">/*<sp/>bitmask<sp/>of<sp/>CO_xxx<sp/>flags<sp/>relevant<sp/>to<sp/>future<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}<sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_SimpleStringFlags(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_AnyFileFlags(FILE<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_AnyFileExFlags(</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>closeit,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_SimpleFileExFlags(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>closeit,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_InteractiveOneFlags(</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_InteractiveOneObject(</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyRun_InteractiveLoopFlags(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*)<sp/>PyParser_ASTFromString(</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*)<sp/>PyParser_ASTFromStringObject(</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*)<sp/>PyParser_ASTFromFile(</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>enc,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ps1,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ps2,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*errcode,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*)<sp/>PyParser_ASTFromFileObject(</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>enc,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ps1,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ps2,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*errcode,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PyParser_SimpleParseString</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyParser_SimpleParseString(S,<sp/>B)<sp/>\</highlight></codeline>
+<codeline lineno="88"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyParser_SimpleParseStringFlags(S,<sp/>B,<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyParser_SimpleParseFile(FP,<sp/>S,<sp/>B)<sp/>\</highlight></codeline>
+<codeline lineno="90"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyParser_SimpleParseFileFlags(FP,<sp/>S,<sp/>B,<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">_node</ref><sp/>*)<sp/>PyParser_SimpleParseStringFlags(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">_node</ref><sp/>*)<sp/>PyParser_SimpleParseStringFlagsFilename(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">_node</ref><sp/>*)<sp/>PyParser_SimpleParseFileFlags(FILE<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyRun_StringFlags(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyRun_FileExFlags(</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>FILE<sp/>*fp,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*globals,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*locals,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>closeit,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>Py_CompileString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_CompileString(str,<sp/>p,<sp/>s)<sp/>Py_CompileStringExFlags(str,<sp/>p,<sp/>s,<sp/>NULL,<sp/>-1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_CompileStringFlags(str,<sp/>p,<sp/>s,<sp/>f)<sp/>Py_CompileStringExFlags(str,<sp/>p,<sp/>s,<sp/>f,<sp/>-1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>Py_CompileStringExFlags(</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optimize);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>Py_CompileStringObject(</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optimize);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*)<sp/>Py_SymtableString(</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*)<sp/>Py_SymtableStringObject(</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyErr_Print(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyErr_PrintEx(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyErr_Display(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Use<sp/>macros<sp/>for<sp/>a<sp/>bunch<sp/>of<sp/>old<sp/>variants<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_String(str,<sp/>s,<sp/>g,<sp/>l)<sp/>PyRun_StringFlags(str,<sp/>s,<sp/>g,<sp/>l,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_AnyFile(fp,<sp/>name)<sp/>PyRun_AnyFileExFlags(fp,<sp/>name,<sp/>0,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_AnyFileEx(fp,<sp/>name,<sp/>closeit)<sp/>\</highlight></codeline>
+<codeline lineno="153"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyRun_AnyFileExFlags(fp,<sp/>name,<sp/>closeit,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_AnyFileFlags(fp,<sp/>name,<sp/>flags)<sp/>\</highlight></codeline>
+<codeline lineno="155"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyRun_AnyFileExFlags(fp,<sp/>name,<sp/>0,<sp/>flags)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_SimpleString(s)<sp/>PyRun_SimpleStringFlags(s,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_SimpleFile(f,<sp/>p)<sp/>PyRun_SimpleFileExFlags(f,<sp/>p,<sp/>0,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_SimpleFileEx(f,<sp/>p,<sp/>c)<sp/>PyRun_SimpleFileExFlags(f,<sp/>p,<sp/>c,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_InteractiveOne(f,<sp/>p)<sp/>PyRun_InteractiveOneFlags(f,<sp/>p,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_InteractiveLoop(f,<sp/>p)<sp/>PyRun_InteractiveLoopFlags(f,<sp/>p,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_File(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l)<sp/>\</highlight></codeline>
+<codeline lineno="162"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyRun_FileExFlags(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l,<sp/>0,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_FileEx(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l,<sp/>c)<sp/>\</highlight></codeline>
+<codeline lineno="164"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyRun_FileExFlags(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l,<sp/>c,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyRun_FileFlags(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l,<sp/>flags)<sp/>\</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyRun_FileExFlags(fp,<sp/>p,<sp/>s,<sp/>g,<sp/>l,<sp/>0,<sp/>flags)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Stuff<sp/>with<sp/>no<sp/>proper<sp/>home<sp/>(yet)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>PyOS_Readline(FILE<sp/>*,<sp/>FILE<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal">PyAPI_DATA(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>(*PyOS_InputHook)(void);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal">PyAPI_DATA(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)<sp/>*(*PyOS_ReadlineFunctionPointer)(FILE<sp/>*,<sp/>FILE<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">PyAPI_DATA(<ref refid="struct__ts" kindref="compound">PyThreadState</ref>*)<sp/>_PyOS_ReadlineTState;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Stack<sp/>size,<sp/>in<sp/>&quot;pointers&quot;<sp/>(so<sp/>we<sp/>get<sp/>extra<sp/>safety<sp/>margins</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/>on<sp/>64-bit<sp/>platforms).<sp/><sp/>On<sp/>a<sp/>32-bit<sp/>platform,<sp/>this<sp/>translates</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/>to<sp/>an<sp/>8k<sp/>margin.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PYOS_STACK_MARGIN<sp/>2048</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(WIN32)<sp/>&amp;&amp;<sp/>!defined(MS_WIN64)<sp/>&amp;&amp;<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>_MSC_VER<sp/>&gt;=<sp/>1300</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Enable<sp/>stack<sp/>checking<sp/>under<sp/>Microsoft<sp/>C<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USE_STACKCHECK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>USE_STACKCHECK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Check<sp/>that<sp/>we<sp/>aren&apos;t<sp/>overflowing<sp/>our<sp/>stack<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyOS_CheckStack(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_PYTHONRUN_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pythonrun.h"/>
+  </compounddef>
+</doxygen>

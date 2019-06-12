@@ -1,0 +1,768 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_python_8h" kind="file" language="C++">
+    <compoundname>Python.h</compoundname>
+    <includes refid="patchlevel_8h" local="yes">patchlevel.h</includes>
+    <includes refid="pyconfig_8h" local="yes">pyconfig.h</includes>
+    <includes refid="pymacconfig_8h" local="yes">pymacconfig.h</includes>
+    <includes local="no">limits.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">assert.h</includes>
+    <includes refid="pyport_8h" local="yes">pyport.h</includes>
+    <includes refid="pymacro_8h" local="yes">pymacro.h</includes>
+    <includes refid="pyatomic_8h" local="yes">pyatomic.h</includes>
+    <includes refid="pymath_8h" local="yes">pymath.h</includes>
+    <includes refid="pytime_8h" local="yes">pytime.h</includes>
+    <includes refid="pymem_8h" local="yes">pymem.h</includes>
+    <includes refid="object_8h" local="yes">object.h</includes>
+    <includes refid="objimpl_8h" local="yes">objimpl.h</includes>
+    <includes refid="typeslots_8h" local="yes">typeslots.h</includes>
+    <includes refid="pyhash_8h" local="yes">pyhash.h</includes>
+    <includes refid="pydebug_8h" local="yes">pydebug.h</includes>
+    <includes refid="bytearrayobject_8h" local="yes">bytearrayobject.h</includes>
+    <includes refid="bytesobject_8h" local="yes">bytesobject.h</includes>
+    <includes refid="unicodeobject_8h" local="yes">unicodeobject.h</includes>
+    <includes refid="longobject_8h" local="yes">longobject.h</includes>
+    <includes refid="longintrepr_8h" local="yes">longintrepr.h</includes>
+    <includes refid="boolobject_8h" local="yes">boolobject.h</includes>
+    <includes refid="floatobject_8h" local="yes">floatobject.h</includes>
+    <includes refid="complexobject_8h" local="yes">complexobject.h</includes>
+    <includes refid="rangeobject_8h" local="yes">rangeobject.h</includes>
+    <includes refid="memoryobject_8h" local="yes">memoryobject.h</includes>
+    <includes refid="tupleobject_8h" local="yes">tupleobject.h</includes>
+    <includes refid="listobject_8h" local="yes">listobject.h</includes>
+    <includes refid="dictobject_8h" local="yes">dictobject.h</includes>
+    <includes refid="odictobject_8h" local="yes">odictobject.h</includes>
+    <includes refid="enumobject_8h" local="yes">enumobject.h</includes>
+    <includes refid="setobject_8h" local="yes">setobject.h</includes>
+    <includes refid="methodobject_8h" local="yes">methodobject.h</includes>
+    <includes refid="moduleobject_8h" local="yes">moduleobject.h</includes>
+    <includes refid="funcobject_8h" local="yes">funcobject.h</includes>
+    <includes refid="classobject_8h" local="yes">classobject.h</includes>
+    <includes refid="fileobject_8h" local="yes">fileobject.h</includes>
+    <includes refid="pycapsule_8h" local="yes">pycapsule.h</includes>
+    <includes refid="traceback_8h" local="yes">traceback.h</includes>
+    <includes refid="sliceobject_8h" local="yes">sliceobject.h</includes>
+    <includes refid="cellobject_8h" local="yes">cellobject.h</includes>
+    <includes refid="iterobject_8h" local="yes">iterobject.h</includes>
+    <includes refid="genobject_8h" local="yes">genobject.h</includes>
+    <includes refid="descrobject_8h" local="yes">descrobject.h</includes>
+    <includes refid="warnings_8h" local="yes">warnings.h</includes>
+    <includes refid="weakrefobject_8h" local="yes">weakrefobject.h</includes>
+    <includes refid="structseq_8h" local="yes">structseq.h</includes>
+    <includes refid="namespaceobject_8h" local="yes">namespaceobject.h</includes>
+    <includes refid="codecs_8h" local="yes">codecs.h</includes>
+    <includes refid="pyerrors_8h" local="yes">pyerrors.h</includes>
+    <includes refid="pystate_8h" local="yes">pystate.h</includes>
+    <includes refid="pyarena_8h" local="yes">pyarena.h</includes>
+    <includes refid="modsupport_8h" local="yes">modsupport.h</includes>
+    <includes refid="pythonrun_8h" local="yes">pythonrun.h</includes>
+    <includes refid="pylifecycle_8h" local="yes">pylifecycle.h</includes>
+    <includes refid="ceval_8h" local="yes">ceval.h</includes>
+    <includes refid="sysmodule_8h" local="yes">sysmodule.h</includes>
+    <includes refid="osmodule_8h" local="yes">osmodule.h</includes>
+    <includes refid="intrcheck_8h" local="yes">intrcheck.h</includes>
+    <includes refid="import_8h" local="yes">import.h</includes>
+    <includes refid="abstract_8h" local="yes">abstract.h</includes>
+    <includes refid="bltinmodule_8h" local="yes">bltinmodule.h</includes>
+    <includes refid="compile_8h" local="yes">compile.h</includes>
+    <includes refid="eval_8h" local="yes">eval.h</includes>
+    <includes refid="pyctype_8h" local="yes">pyctype.h</includes>
+    <includes refid="pystrtod_8h" local="yes">pystrtod.h</includes>
+    <includes refid="pystrcmp_8h" local="yes">pystrcmp.h</includes>
+    <includes refid="dtoa_8h" local="yes">dtoa.h</includes>
+    <includes refid="fileutils_8h" local="yes">fileutils.h</includes>
+    <includes refid="pyfpe_8h" local="yes">pyfpe.h</includes>
+    <includedby refid="_im_platform_8h" local="yes">/usr/include/python3.6m/ImPlatform.h</includedby>
+    <includedby refid="pgenheaders_8h" local="yes">/usr/include/python3.6m/pgenheaders.h</includedby>
+    <includedby refid="config_8c" local="yes">/usr/lib/python3.6/config-3.6m-x86_64-linux-gnu/config.c</includedby>
+    <includedby refid="cext_8c" local="yes">venv/lib/python3.6/site-packages/lazy_object_proxy/cext.c</includedby>
+    <includedby refid="etree__api_8h" local="yes">venv/lib/python3.6/site-packages/lxml/etree_api.h</includedby>
+    <includedby refid="etree__defs_8h" local="yes">venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</includedby>
+    <includedby refid="lxml_8etree__api_8h" local="yes">venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</includedby>
+    <incdepgraph>
+      <node id="3648">
+        <label>traceback.h</label>
+        <link refid="traceback_8h_source"/>
+        <childnode refid="3649" relation="include">
+        </childnode>
+      </node>
+      <node id="3621">
+        <label>typeslots.h</label>
+        <link refid="typeslots_8h_source"/>
+      </node>
+      <node id="3670">
+        <label>abstract.h</label>
+        <link refid="abstract_8h_source"/>
+      </node>
+      <node id="3625">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3680">
+        <label>pyfpe.h</label>
+        <link refid="pyfpe_8h_source"/>
+      </node>
+      <node id="3661">
+        <label>pyarena.h</label>
+        <link refid="pyarena_8h_source"/>
+      </node>
+      <node id="3652">
+        <label>iterobject.h</label>
+        <link refid="iterobject_8h_source"/>
+      </node>
+      <node id="3663">
+        <label>pythonrun.h</label>
+        <link refid="pythonrun_8h_source"/>
+      </node>
+      <node id="3636">
+        <label>tupleobject.h</label>
+        <link refid="tupleobject_8h_source"/>
+      </node>
+      <node id="3618">
+        <label>object.h</label>
+        <link refid="object_8h_source"/>
+      </node>
+      <node id="3653">
+        <label>genobject.h</label>
+        <link refid="genobject_8h_source"/>
+      </node>
+      <node id="3609">
+        <label>assert.h</label>
+      </node>
+      <node id="3650">
+        <label>sliceobject.h</label>
+        <link refid="sliceobject_8h_source"/>
+      </node>
+      <node id="3630">
+        <label>longintrepr.h</label>
+        <link refid="longintrepr_8h_source"/>
+      </node>
+      <node id="3654">
+        <label>descrobject.h</label>
+        <link refid="descrobject_8h_source"/>
+      </node>
+      <node id="3659">
+        <label>codecs.h</label>
+        <link refid="codecs_8h_source"/>
+      </node>
+      <node id="3666">
+        <label>sysmodule.h</label>
+        <link refid="sysmodule_8h_source"/>
+      </node>
+      <node id="3641">
+        <label>setobject.h</label>
+        <link refid="setobject_8h_source"/>
+      </node>
+      <node id="3637">
+        <label>listobject.h</label>
+        <link refid="listobject_8h_source"/>
+      </node>
+      <node id="3667">
+        <label>osmodule.h</label>
+        <link refid="osmodule_8h_source"/>
+      </node>
+      <node id="3608">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3657">
+        <label>structseq.h</label>
+        <link refid="structseq_8h_source"/>
+      </node>
+      <node id="3627">
+        <label>unicodeobject.h</label>
+        <link refid="unicodeobject_8h_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+        <childnode refid="3628" relation="include">
+        </childnode>
+      </node>
+      <node id="3672">
+        <label>compile.h</label>
+        <link refid="compile_8h_source"/>
+        <childnode refid="3673" relation="include">
+        </childnode>
+      </node>
+      <node id="3619">
+        <label>pymem.h</label>
+        <link refid="pymem_8h_source"/>
+        <childnode refid="3610" relation="include">
+        </childnode>
+      </node>
+      <node id="3656">
+        <label>weakrefobject.h</label>
+        <link refid="weakrefobject_8h_source"/>
+      </node>
+      <node id="3673">
+        <label>code.h</label>
+        <link refid="code_8h_source"/>
+      </node>
+      <node id="3617">
+        <label>pytime.h</label>
+        <link refid="pytime_8h_source"/>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3618" relation="include">
+        </childnode>
+      </node>
+      <node id="3677">
+        <label>pystrcmp.h</label>
+        <link refid="pystrcmp_8h_source"/>
+      </node>
+      <node id="3674">
+        <label>eval.h</label>
+        <link refid="eval_8h_source"/>
+      </node>
+      <node id="3676">
+        <label>pystrtod.h</label>
+        <link refid="pystrtod_8h_source"/>
+      </node>
+      <node id="3616">
+        <label>pymath.h</label>
+        <link refid="pymath_8h_source"/>
+        <childnode refid="3603" relation="include">
+        </childnode>
+      </node>
+      <node id="3624">
+        <label>bytearrayobject.h</label>
+        <link refid="bytearrayobject_8h_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+      </node>
+      <node id="3605">
+        <label>limits.h</label>
+      </node>
+      <node id="3647">
+        <label>pycapsule.h</label>
+        <link refid="pycapsule_8h_source"/>
+      </node>
+      <node id="3669">
+        <label>import.h</label>
+        <link refid="import_8h_source"/>
+      </node>
+      <node id="3615">
+        <label>pyatomic.h</label>
+        <link refid="pyatomic_8h_source"/>
+      </node>
+      <node id="3620">
+        <label>objimpl.h</label>
+        <link refid="objimpl_8h_source"/>
+        <childnode refid="3619" relation="include">
+        </childnode>
+      </node>
+      <node id="3651">
+        <label>cellobject.h</label>
+        <link refid="cellobject_8h_source"/>
+      </node>
+      <node id="3679">
+        <label>fileutils.h</label>
+        <link refid="fileutils_8h_source"/>
+      </node>
+      <node id="3601">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h"/>
+        <childnode refid="3602" relation="include">
+        </childnode>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3604" relation="include">
+        </childnode>
+        <childnode refid="3605" relation="include">
+        </childnode>
+        <childnode refid="3606" relation="include">
+        </childnode>
+        <childnode refid="3607" relation="include">
+        </childnode>
+        <childnode refid="3608" relation="include">
+        </childnode>
+        <childnode refid="3609" relation="include">
+        </childnode>
+        <childnode refid="3610" relation="include">
+        </childnode>
+        <childnode refid="3614" relation="include">
+        </childnode>
+        <childnode refid="3615" relation="include">
+        </childnode>
+        <childnode refid="3616" relation="include">
+        </childnode>
+        <childnode refid="3617" relation="include">
+        </childnode>
+        <childnode refid="3619" relation="include">
+        </childnode>
+        <childnode refid="3618" relation="include">
+        </childnode>
+        <childnode refid="3620" relation="include">
+        </childnode>
+        <childnode refid="3621" relation="include">
+        </childnode>
+        <childnode refid="3622" relation="include">
+        </childnode>
+        <childnode refid="3623" relation="include">
+        </childnode>
+        <childnode refid="3624" relation="include">
+        </childnode>
+        <childnode refid="3626" relation="include">
+        </childnode>
+        <childnode refid="3627" relation="include">
+        </childnode>
+        <childnode refid="3629" relation="include">
+        </childnode>
+        <childnode refid="3630" relation="include">
+        </childnode>
+        <childnode refid="3631" relation="include">
+        </childnode>
+        <childnode refid="3632" relation="include">
+        </childnode>
+        <childnode refid="3633" relation="include">
+        </childnode>
+        <childnode refid="3634" relation="include">
+        </childnode>
+        <childnode refid="3635" relation="include">
+        </childnode>
+        <childnode refid="3636" relation="include">
+        </childnode>
+        <childnode refid="3637" relation="include">
+        </childnode>
+        <childnode refid="3638" relation="include">
+        </childnode>
+        <childnode refid="3639" relation="include">
+        </childnode>
+        <childnode refid="3640" relation="include">
+        </childnode>
+        <childnode refid="3641" relation="include">
+        </childnode>
+        <childnode refid="3642" relation="include">
+        </childnode>
+        <childnode refid="3643" relation="include">
+        </childnode>
+        <childnode refid="3644" relation="include">
+        </childnode>
+        <childnode refid="3645" relation="include">
+        </childnode>
+        <childnode refid="3646" relation="include">
+        </childnode>
+        <childnode refid="3647" relation="include">
+        </childnode>
+        <childnode refid="3648" relation="include">
+        </childnode>
+        <childnode refid="3650" relation="include">
+        </childnode>
+        <childnode refid="3651" relation="include">
+        </childnode>
+        <childnode refid="3652" relation="include">
+        </childnode>
+        <childnode refid="3653" relation="include">
+        </childnode>
+        <childnode refid="3654" relation="include">
+        </childnode>
+        <childnode refid="3655" relation="include">
+        </childnode>
+        <childnode refid="3656" relation="include">
+        </childnode>
+        <childnode refid="3657" relation="include">
+        </childnode>
+        <childnode refid="3658" relation="include">
+        </childnode>
+        <childnode refid="3659" relation="include">
+        </childnode>
+        <childnode refid="3660" relation="include">
+        </childnode>
+        <childnode refid="3649" relation="include">
+        </childnode>
+        <childnode refid="3661" relation="include">
+        </childnode>
+        <childnode refid="3662" relation="include">
+        </childnode>
+        <childnode refid="3663" relation="include">
+        </childnode>
+        <childnode refid="3664" relation="include">
+        </childnode>
+        <childnode refid="3665" relation="include">
+        </childnode>
+        <childnode refid="3666" relation="include">
+        </childnode>
+        <childnode refid="3667" relation="include">
+        </childnode>
+        <childnode refid="3668" relation="include">
+        </childnode>
+        <childnode refid="3669" relation="include">
+        </childnode>
+        <childnode refid="3670" relation="include">
+        </childnode>
+        <childnode refid="3671" relation="include">
+        </childnode>
+        <childnode refid="3672" relation="include">
+        </childnode>
+        <childnode refid="3674" relation="include">
+        </childnode>
+        <childnode refid="3675" relation="include">
+        </childnode>
+        <childnode refid="3676" relation="include">
+        </childnode>
+        <childnode refid="3677" relation="include">
+        </childnode>
+        <childnode refid="3678" relation="include">
+        </childnode>
+        <childnode refid="3679" relation="include">
+        </childnode>
+        <childnode refid="3680" relation="include">
+        </childnode>
+      </node>
+      <node id="3607">
+        <label>string.h</label>
+      </node>
+      <node id="3633">
+        <label>complexobject.h</label>
+        <link refid="complexobject_8h_source"/>
+      </node>
+      <node id="3645">
+        <label>classobject.h</label>
+        <link refid="classobject_8h_source"/>
+      </node>
+      <node id="3646">
+        <label>fileobject.h</label>
+        <link refid="fileobject_8h_source"/>
+      </node>
+      <node id="3626">
+        <label>bytesobject.h</label>
+        <link refid="bytesobject_8h_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+      </node>
+      <node id="3655">
+        <label>warnings.h</label>
+        <link refid="warnings_8h_source"/>
+      </node>
+      <node id="3631">
+        <label>boolobject.h</label>
+        <link refid="boolobject_8h_source"/>
+      </node>
+      <node id="3603">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="3640">
+        <label>enumobject.h</label>
+        <link refid="enumobject_8h_source"/>
+      </node>
+      <node id="3644">
+        <label>funcobject.h</label>
+        <link refid="funcobject_8h_source"/>
+      </node>
+      <node id="3639">
+        <label>odictobject.h</label>
+        <link refid="odictobject_8h_source"/>
+      </node>
+      <node id="3678">
+        <label>dtoa.h</label>
+        <link refid="dtoa_8h_source"/>
+      </node>
+      <node id="3632">
+        <label>floatobject.h</label>
+        <link refid="floatobject_8h_source"/>
+      </node>
+      <node id="3629">
+        <label>longobject.h</label>
+        <link refid="longobject_8h_source"/>
+      </node>
+      <node id="3623">
+        <label>pydebug.h</label>
+        <link refid="pydebug_8h_source"/>
+      </node>
+      <node id="3602">
+        <label>patchlevel.h</label>
+        <link refid="patchlevel_8h_source"/>
+      </node>
+      <node id="3662">
+        <label>modsupport.h</label>
+        <link refid="modsupport_8h_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+      </node>
+      <node id="3642">
+        <label>methodobject.h</label>
+        <link refid="methodobject_8h_source"/>
+      </node>
+      <node id="3613">
+        <label>time.h</label>
+      </node>
+      <node id="3638">
+        <label>dictobject.h</label>
+        <link refid="dictobject_8h_source"/>
+      </node>
+      <node id="3612">
+        <label>math.h</label>
+      </node>
+      <node id="3635">
+        <label>memoryobject.h</label>
+        <link refid="memoryobject_8h_source"/>
+      </node>
+      <node id="3614">
+        <label>pymacro.h</label>
+        <link refid="pymacro_8h_source"/>
+      </node>
+      <node id="3604">
+        <label>pymacconfig.h</label>
+        <link refid="pymacconfig_8h_source"/>
+      </node>
+      <node id="3628">
+        <label>ctype.h</label>
+      </node>
+      <node id="3610">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="3603" relation="include">
+        </childnode>
+        <childnode refid="3611" relation="include">
+        </childnode>
+        <childnode refid="3608" relation="include">
+        </childnode>
+        <childnode refid="3612" relation="include">
+        </childnode>
+        <childnode refid="3613" relation="include">
+        </childnode>
+      </node>
+      <node id="3675">
+        <label>pyctype.h</label>
+        <link refid="pyctype_8h_source"/>
+      </node>
+      <node id="3660">
+        <label>pyerrors.h</label>
+        <link refid="pyerrors_8h_source"/>
+        <childnode refid="3625" relation="include">
+        </childnode>
+      </node>
+      <node id="3664">
+        <label>pylifecycle.h</label>
+        <link refid="pylifecycle_8h_source"/>
+      </node>
+      <node id="3643">
+        <label>moduleobject.h</label>
+        <link refid="moduleobject_8h_source"/>
+      </node>
+      <node id="3622">
+        <label>pyhash.h</label>
+        <link refid="pyhash_8h_source"/>
+      </node>
+      <node id="3671">
+        <label>bltinmodule.h</label>
+        <link refid="bltinmodule_8h_source"/>
+      </node>
+      <node id="3665">
+        <label>ceval.h</label>
+        <link refid="ceval_8h_source"/>
+      </node>
+      <node id="3658">
+        <label>namespaceobject.h</label>
+        <link refid="namespaceobject_8h_source"/>
+      </node>
+      <node id="3634">
+        <label>rangeobject.h</label>
+        <link refid="rangeobject_8h_source"/>
+      </node>
+      <node id="3649">
+        <label>pystate.h</label>
+        <link refid="pystate_8h_source"/>
+      </node>
+      <node id="3606">
+        <label>stdio.h</label>
+      </node>
+      <node id="3611">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3668">
+        <label>intrcheck.h</label>
+        <link refid="intrcheck_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3683">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3684">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3686">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3681">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h"/>
+        <childnode refid="3682" relation="include">
+        </childnode>
+        <childnode refid="3684" relation="include">
+        </childnode>
+        <childnode refid="3685" relation="include">
+        </childnode>
+        <childnode refid="3686" relation="include">
+        </childnode>
+        <childnode refid="3687" relation="include">
+        </childnode>
+      </node>
+      <node id="3687">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3682">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3683" relation="include">
+        </childnode>
+      </node>
+      <node id="3685">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_PYTHON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYTHON_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Since<sp/>this<sp/>is<sp/>a<sp/>&quot;meta-include&quot;<sp/>file,<sp/>no<sp/>#ifdef<sp/>__cplusplus<sp/>/<sp/>extern<sp/>&quot;C&quot;<sp/>{<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Include<sp/>nearly<sp/>all<sp/>Python<sp/>header<sp/>files<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;patchlevel.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyconfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pymacconfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;limits.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>UCHAR_MAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;Something&apos;s<sp/>broken.<sp/><sp/>UCHAR_MAX<sp/>should<sp/>be<sp/>defined<sp/>in<sp/>limits.h.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>UCHAR_MAX<sp/>!=<sp/>255</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;Python&apos;s<sp/>source<sp/>code<sp/>assumes<sp/>C&apos;s<sp/>unsigned<sp/>char<sp/>is<sp/>an<sp/>8-bit<sp/>type.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__sgi)<sp/>&amp;&amp;<sp/>defined(WITH_THREAD)<sp/>&amp;&amp;<sp/>!defined(_SGI_MP_SOURCE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SGI_MP_SOURCE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>NULL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>error<sp/>&quot;Python.h<sp/>requires<sp/>that<sp/>stdio.h<sp/>define<sp/>NULL.&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_ERRNO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;errno.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_UNISTD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;unistd.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_CRYPT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;crypt.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>For<sp/>size_t?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_STDDEF_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>CAUTION:<sp/><sp/>Build<sp/>setups<sp/>should<sp/>ensure<sp/>that<sp/>NDEBUG<sp/>is<sp/>defined<sp/>on<sp/>the</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>compiler<sp/>command<sp/>line<sp/>when<sp/>building<sp/>Python<sp/>in<sp/>release<sp/>mode;<sp/>else</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*<sp/>assert()<sp/>calls<sp/>won&apos;t<sp/>be<sp/>removed.</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pymacro.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyatomic.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Debug-mode<sp/>build<sp/>with<sp/>pymalloc<sp/>implies<sp/>PYMALLOC_DEBUG.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/><sp/>PYMALLOC_DEBUG<sp/>is<sp/>in<sp/>error<sp/>if<sp/>pymalloc<sp/>is<sp/>not<sp/>in<sp/>use.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(Py_DEBUG)<sp/>&amp;&amp;<sp/>defined(WITH_PYMALLOC)<sp/>&amp;&amp;<sp/>!defined(PYMALLOC_DEBUG)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PYMALLOC_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(PYMALLOC_DEBUG)<sp/>&amp;&amp;<sp/>!defined(WITH_PYMALLOC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;PYMALLOC_DEBUG<sp/>requires<sp/>WITH_PYMALLOC&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pymath.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pytime.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pymem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;object.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;objimpl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;typeslots.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyhash.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pydebug.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bytearrayobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bytesobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;unicodeobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;longobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;longintrepr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;boolobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;floatobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;complexobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rangeobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;memoryobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;tupleobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;listobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dictobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;odictobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;enumobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;setobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;methodobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;moduleobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;funcobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;classobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;fileobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pycapsule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;traceback.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sliceobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;cellobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;iterobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;genobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;descrobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;warnings.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;weakrefobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;structseq.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;namespaceobject.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;codecs.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyerrors.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pystate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyarena.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;modsupport.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pythonrun.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pylifecycle.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;ceval.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sysmodule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;osmodule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;intrcheck.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;import.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;abstract.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;bltinmodule.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;compile.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;eval.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyctype.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pystrtod.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pystrcmp.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;dtoa.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;fileutils.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyfpe.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_PYTHON_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/Python.h"/>
+  </compounddef>
+</doxygen>

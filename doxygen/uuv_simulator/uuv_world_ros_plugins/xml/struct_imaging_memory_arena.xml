@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_imaging_memory_arena" kind="struct" language="C++" prot="public">
+    <compoundname>ImagingMemoryArena</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a3829039eb1dad037df004a6272b83d29" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::alignment</definition>
+        <argsstring></argsstring>
+        <name>alignment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="162" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a958e0ebf42e57e8cebaefbfe342e6172" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::block_size</definition>
+        <argsstring></argsstring>
+        <name>block_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="163" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a1f17866bdda61640ca8360b8e9ab36b8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::blocks_max</definition>
+        <argsstring></argsstring>
+        <name>blocks_max</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="164" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1aa103de1ffb8d19a22f1aa83eb06d95cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::blocks_cached</definition>
+        <argsstring></argsstring>
+        <name>blocks_cached</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="165" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a5d4f31fed429364e364a77e04ca8fe71" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_imaging_memory_block" kindref="compound">ImagingMemoryBlock</ref> *</type>
+        <definition>ImagingMemoryBlock* ImagingMemoryArena::blocks_pool</definition>
+        <argsstring></argsstring>
+        <name>blocks_pool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="166" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a105790a645a2ca0f2285f0e0bb3f454c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::stats_new_count</definition>
+        <argsstring></argsstring>
+        <name>stats_new_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="167" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1ab31e23fbeb3b3ce78841436f118226f6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::stats_allocated_blocks</definition>
+        <argsstring></argsstring>
+        <name>stats_allocated_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="168" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1ac9701f11ad4a0515557f0eeb8d385beb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::stats_reused_blocks</definition>
+        <argsstring></argsstring>
+        <name>stats_reused_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="169" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a049f674b29249d47d00b397b0c282fdf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::stats_reallocated_blocks</definition>
+        <argsstring></argsstring>
+        <name>stats_reallocated_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="170" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_memory_arena_1a5203010532c174ba00bd5d56fa1a0812" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingMemoryArena::stats_freed_blocks</definition>
+        <argsstring></argsstring>
+        <name>stats_freed_blocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="171" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="834">
+        <label>ImagingMemoryArena</label>
+        <link refid="struct_imaging_memory_arena"/>
+        <childnode refid="835" relation="usage">
+          <edgelabel>blocks_pool</edgelabel>
+        </childnode>
+      </node>
+      <node id="835">
+        <label>ImagingMemoryBlock</label>
+        <link refid="struct_imaging_memory_block"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/Imaging.h" line="161" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="161" bodyend="172"/>
+    <listofallmembers>
+      <member refid="struct_imaging_memory_arena_1a3829039eb1dad037df004a6272b83d29" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>alignment</name></member>
+      <member refid="struct_imaging_memory_arena_1a958e0ebf42e57e8cebaefbfe342e6172" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>block_size</name></member>
+      <member refid="struct_imaging_memory_arena_1aa103de1ffb8d19a22f1aa83eb06d95cf" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>blocks_cached</name></member>
+      <member refid="struct_imaging_memory_arena_1a1f17866bdda61640ca8360b8e9ab36b8" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>blocks_max</name></member>
+      <member refid="struct_imaging_memory_arena_1a5d4f31fed429364e364a77e04ca8fe71" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>blocks_pool</name></member>
+      <member refid="struct_imaging_memory_arena_1ab31e23fbeb3b3ce78841436f118226f6" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>stats_allocated_blocks</name></member>
+      <member refid="struct_imaging_memory_arena_1a5203010532c174ba00bd5d56fa1a0812" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>stats_freed_blocks</name></member>
+      <member refid="struct_imaging_memory_arena_1a105790a645a2ca0f2285f0e0bb3f454c" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>stats_new_count</name></member>
+      <member refid="struct_imaging_memory_arena_1a049f674b29249d47d00b397b0c282fdf" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>stats_reallocated_blocks</name></member>
+      <member refid="struct_imaging_memory_arena_1ac9701f11ad4a0515557f0eeb8d385beb" prot="public" virt="non-virtual"><scope>ImagingMemoryArena</scope><name>stats_reused_blocks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

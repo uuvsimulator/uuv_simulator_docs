@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="odictobject_8h" kind="file" language="C++">
+    <compoundname>odictobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3290">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3291">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3293">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3288">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3289" relation="include">
+        </childnode>
+        <childnode refid="3291" relation="include">
+        </childnode>
+        <childnode refid="3292" relation="include">
+        </childnode>
+        <childnode refid="3293" relation="include">
+        </childnode>
+        <childnode refid="3294" relation="include">
+        </childnode>
+      </node>
+      <node id="3294">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3289">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3290" relation="include">
+        </childnode>
+      </node>
+      <node id="3287">
+        <label>/usr/include/python3.6m/odictobject.h</label>
+        <link refid="odictobject_8h"/>
+        <childnode refid="3288" relation="include">
+        </childnode>
+      </node>
+      <node id="3292">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="odictobject_8h_1a1898cd3dec08e8381fb162b2a7ac0776" prot="public" static="no">
+        <name>PyODict_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyODict_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="21" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1afe8eb5fca270a760a3a796c2a3bc5cbf" prot="public" static="no">
+        <name>PyODict_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyODict_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="22" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1abd22c15add34666402d5d4792061282e" prot="public" static="no">
+        <name>PyODict_SIZE</name>
+        <param><defname>op</defname></param>
+        <initializer>((<ref refid="struct_py_dict_object" kindref="compound">PyDictObject</ref> *)op)-&gt;ma_used</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="23" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1a6a9beffc4c0041580da6e60dfd3e8515" prot="public" static="no">
+        <name>PyODict_GetItem</name>
+        <param><defname>od</defname></param>
+        <param><defname>key</defname></param>
+        <initializer>PyDict_GetItem((<ref refid="struct__object" kindref="compound">PyObject</ref> *)od, key)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="30" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1a6039120d49489335b873ea9255b093e3" prot="public" static="no">
+        <name>PyODict_GetItemWithError</name>
+        <param><defname>od</defname></param>
+        <param><defname>key</defname></param>
+        <initializer>PyDict_GetItemWithError((<ref refid="struct__object" kindref="compound">PyObject</ref> *)od, key)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="31" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1a2794fb9489376c0744468983e17fe4e9" prot="public" static="no">
+        <name>PyODict_Contains</name>
+        <param><defname>od</defname></param>
+        <param><defname>key</defname></param>
+        <initializer>PyDict_Contains((<ref refid="struct__object" kindref="compound">PyObject</ref> *)od, key)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="33" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1aa6462e9bced358360c2fb1d0a2e660d2" prot="public" static="no">
+        <name>PyODict_Size</name>
+        <param><defname>od</defname></param>
+        <initializer>PyDict_Size((<ref refid="struct__object" kindref="compound">PyObject</ref> *)od)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="34" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="odictobject_8h_1a86995c1bc71368fbaa1caa9ec8c37de1" prot="public" static="no">
+        <name>PyODict_GetItemString</name>
+        <param><defname>od</defname></param>
+        <param><defname>key</defname></param>
+        <initializer>PyDict_GetItemString((<ref refid="struct__object" kindref="compound">PyObject</ref> *)od, key)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="35" column="9" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="odictobject_8h_1a1fd963daa76ae51d4f3736c0df5fef65" prot="public" static="no">
+        <type>struct _odictobject</type>
+        <definition>typedef struct _odictobject PyODictObject</definition>
+        <argsstring></argsstring>
+        <name>PyODictObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="256" column="1" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="odictobject_8h_1a2ddff520dd75428bb77078979677f12f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="26" column="1" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="odictobject_8h_1adbabcb759167fb6a37dc79329f64f1c8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="26" column="1" bodyfile="/usr/include/python3.6m/odictobject.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="odictobject_8h_1a0eda54f716541c0de85b171cabe444cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyODict_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="odictobject_8h_1a3b760a86526863dd9a414cc11612c270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyODict_New(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="odictobject_8h_1aa55af51e9a07efaa5540c3341cd3c536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyODict_SetItem(PyObject *od</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/odictobject.h" line="26" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_ODICTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_ODICTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>OrderedDict<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>API<sp/>is<sp/>optional<sp/>and<sp/>mostly<sp/>redundant.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_odictobject<sp/>PyODictObject;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyODict_Type;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyODictIter_Type;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyODictKeys_Type;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyODictItems_Type;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyODictValues_Type;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyODict_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyODict_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_SIZE(op)<sp/>((PyDictObject<sp/>*)op)-&gt;ma_used</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyODict_New(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyODict_SetItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*od,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*item);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyODict_DelItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*od,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*key);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>wrappers<sp/>around<sp/>PyDict*<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_GetItem(od,<sp/>key)<sp/>PyDict_GetItem((PyObject<sp/>*)od,<sp/>key)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_GetItemWithError(od,<sp/>key)<sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDict_GetItemWithError((PyObject<sp/>*)od,<sp/>key)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_Contains(od,<sp/>key)<sp/>PyDict_Contains((PyObject<sp/>*)od,<sp/>key)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_Size(od)<sp/>PyDict_Size((PyObject<sp/>*)od)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyODict_GetItemString(od,<sp/>key)<sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDict_GetItemString((PyObject<sp/>*)od,<sp/>key)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_ODICTOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/odictobject.h"/>
+  </compounddef>
+</doxygen>

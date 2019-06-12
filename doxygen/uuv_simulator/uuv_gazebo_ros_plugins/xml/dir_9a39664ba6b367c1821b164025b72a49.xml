@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_9a39664ba6b367c1821b164025b72a49" kind="dir">
+    <compoundname>venv/lib/python3.6/site-packages</compoundname>
+    <innerdir refid="dir_c76c79d0632a2343d626dd8cc3ca4849">venv/lib/python3.6/site-packages/lazy_object_proxy</innerdir>
+    <innerdir refid="dir_1c429cb999c144613e2dc2bd7a509f3a">venv/lib/python3.6/site-packages/lxml</innerdir>
+    <innerdir refid="dir_a1ab58433c8fcfd410366af8ed70c854">venv/lib/python3.6/site-packages/markupsafe</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/"/>
+  </compounddef>
+</doxygen>

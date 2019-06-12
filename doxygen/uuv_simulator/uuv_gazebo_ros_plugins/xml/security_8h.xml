@@ -1,0 +1,723 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="security_8h" kind="file" language="C++">
+    <compoundname>security.h</compoundname>
+    <includes refid="tree_8h" local="no">libxml/tree.h</includes>
+    <includes refid="xsltexports_8h" local="yes">xsltexports.h</includes>
+    <includes refid="xslt_internals_8h" local="yes">xsltInternals.h</includes>
+    <incdepgraph>
+      <node id="2397">
+        <label>libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+      </node>
+      <node id="2377">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2395">
+        <label>xsltexports.h</label>
+        <link refid="xsltexports_8h_source"/>
+      </node>
+      <node id="2378">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+      </node>
+      <node id="2398">
+        <label>libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+      </node>
+      <node id="2394">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2393">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2370">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h</label>
+        <link refid="security_8h"/>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2396" relation="include">
+        </childnode>
+      </node>
+      <node id="2389">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2384">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+      </node>
+      <node id="2391">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+      </node>
+      <node id="2400">
+        <label>numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+      </node>
+      <node id="2383">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="2373" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2373">
+        <label>limits.h</label>
+      </node>
+      <node id="2387">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+      </node>
+      <node id="2381">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2392" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+        <childnode refid="2380" relation="include">
+        </childnode>
+      </node>
+      <node id="2379">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2380" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2374">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="2375" relation="include">
+        </childnode>
+      </node>
+      <node id="2376">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+      </node>
+      <node id="2382">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="2377" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2385" relation="include">
+        </childnode>
+        <childnode refid="2389" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2390" relation="include">
+        </childnode>
+        <childnode refid="2391" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2399">
+        <label>xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+      </node>
+      <node id="2371">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2373" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+        <childnode refid="2379" relation="include">
+        </childnode>
+      </node>
+      <node id="2390">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2385">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2387" relation="include">
+        </childnode>
+        <childnode refid="2388" relation="include">
+        </childnode>
+        <childnode refid="2378" relation="include">
+        </childnode>
+      </node>
+      <node id="2392">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="2372" relation="include">
+        </childnode>
+        <childnode refid="2393" relation="include">
+        </childnode>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2382" relation="include">
+        </childnode>
+        <childnode refid="2394" relation="include">
+        </childnode>
+      </node>
+      <node id="2396">
+        <label>xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="2371" relation="include">
+        </childnode>
+        <childnode refid="2384" relation="include">
+        </childnode>
+        <childnode refid="2397" relation="include">
+        </childnode>
+        <childnode refid="2386" relation="include">
+        </childnode>
+        <childnode refid="2383" relation="include">
+        </childnode>
+        <childnode refid="2376" relation="include">
+        </childnode>
+        <childnode refid="2398" relation="include">
+        </childnode>
+        <childnode refid="2395" relation="include">
+        </childnode>
+        <childnode refid="2399" relation="include">
+        </childnode>
+        <childnode refid="2400" relation="include">
+        </childnode>
+      </node>
+      <node id="2380">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2381" relation="include">
+        </childnode>
+      </node>
+      <node id="2388">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="2374" relation="include">
+        </childnode>
+        <childnode refid="2371" relation="include">
+        </childnode>
+      </node>
+      <node id="2375">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="2372">
+        <label>stdio.h</label>
+      </node>
+      <node id="2386">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="2382" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195" prot="public" static="no">
+        <name>xsltSecurityOption</name>
+        <enumvalue id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195ab23613e3228f11a705b3f1206a696434" prot="public">
+          <name>XSLT_SECPREF_READ_FILE</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195a77160482761464dd2452bdd7a5bd3588" prot="public">
+          <name>XSLT_SECPREF_WRITE_FILE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195a5c0377321bd19cdc72c40babfaa983ba" prot="public">
+          <name>XSLT_SECPREF_CREATE_DIRECTORY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195a36215e2d362de75ae8840af4c8669566" prot="public">
+          <name>XSLT_SECPREF_READ_NETWORK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="security_8h_1afe6f77536c16efa92f7bfa0ced6a9195a5bb6e3ac65af8c9c1bb199cc7bfc828b" prot="public">
+          <name>XSLT_SECPREF_WRITE_NETWORK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xsltSecurityOption:</para><para>the set of option that can be configured </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="37" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" bodystart="37" bodyend="43"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="security_8h_1aebb3fba95472d2f4c73ef7b5b1e9c344" prot="public" static="no">
+        <type>struct _xsltSecurityPrefs</type>
+        <definition>typedef struct _xsltSecurityPrefs xsltSecurityPrefs</definition>
+        <argsstring></argsstring>
+        <name>xsltSecurityPrefs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xsltSecurityPref:</para><para>structure to indicate the preferences for security in the XSLT transformation. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="36" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="security_8h_1a11ebc7175550d02da831dff9d104a343" prot="public" static="no">
+        <type>xsltSecurityPrefs *</type>
+        <definition>typedef xsltSecurityPrefs* xsltSecurityPrefsPtr</definition>
+        <argsstring></argsstring>
+        <name>xsltSecurityPrefsPtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="30" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="security_8h_1aa22cfd4c3ae15898aa1c9e950488777d" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* xsltSecurityCheck) (xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const char *value)</definition>
+        <argsstring>)(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const char *value)</argsstring>
+        <name>xsltSecurityCheck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xsltSecurityCheck:</para><para>User provided function to check the value of a string like a file path or an URL ... </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="51" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="security_8h_1a16c972ee703d126f9f4bff5513a59b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xsltSecurityPrefsPtr XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltSecurityPrefsPtr XSLTCALL xsltNewSecurityPrefs</definition>
+        <argsstring>(void)</argsstring>
+        <name>xsltNewSecurityPrefs</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a12f0eebb60b4efe53f3df63316378155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeSecurityPrefs</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec)</argsstring>
+        <name>xsltFreeSecurityPrefs</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a3fffa74318ebea2a3626764758561f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltSetSecurityPrefs</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltSecurityOption option, xsltSecurityCheck func)</argsstring>
+        <name>xsltSetSecurityPrefs</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type>xsltSecurityOption</type>
+          <declname>option</declname>
+        </param>
+        <param>
+          <type>xsltSecurityCheck</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1adf79fd1d6bc97387c0a27bf9e783acea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xsltSecurityCheck XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltSecurityCheck XSLTCALL xsltGetSecurityPrefs</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltSecurityOption option)</argsstring>
+        <name>xsltGetSecurityPrefs</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type>xsltSecurityOption</type>
+          <declname>option</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a879cf37441469cf2a5a7354243cb0c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltSetDefaultSecurityPrefs</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec)</argsstring>
+        <name>xsltSetDefaultSecurityPrefs</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1af6025aa3b34312eb3b72bbdc2c536497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xsltSecurityPrefsPtr XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltSecurityPrefsPtr XSLTCALL xsltGetDefaultSecurityPrefs</definition>
+        <argsstring>(void)</argsstring>
+        <name>xsltGetDefaultSecurityPrefs</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1ab553610ffa604adb528d0f29f4deadf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltSetCtxtSecurityPrefs</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt)</argsstring>
+        <name>xsltSetCtxtSecurityPrefs</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a61fe55905bf1e926ae38cd8475ac284a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltSecurityAllow</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const char *value)</argsstring>
+        <name>xsltSecurityAllow</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a8195a1a9907638310287e73d68cd308a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltSecurityForbid</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const char *value)</argsstring>
+        <name>xsltSecurityForbid</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1a60d96efeb1f04dedc2f46fff44501899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltCheckWrite</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const xmlChar *URL)</argsstring>
+        <name>xsltCheckWrite</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="security_8h_1aa559fee38679925fa7f04e5931fa72e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltCheckRead</definition>
+        <argsstring>(xsltSecurityPrefsPtr sec, xsltTransformContextPtr ctxt, const xmlChar *URL)</argsstring>
+        <name>xsltCheckRead</name>
+        <param>
+          <type>xsltSecurityPrefsPtr</type>
+          <declname>sec</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>interface<sp/>for<sp/>the<sp/>libxslt<sp/>security<sp/>framework</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>the<sp/>libxslt<sp/>security<sp/>framework<sp/>allow<sp/>to<sp/>restrict</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>access<sp/>to<sp/>new<sp/>resources<sp/>(file<sp/>or<sp/>URL)<sp/>from</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>stylesheet<sp/>at<sp/>runtime.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLT_SECURITY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLT_SECURITY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltInternals.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xsltSecurityPrefs<sp/>xsltSecurityPrefs;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xsltSecurityPrefs<sp/>*xsltSecurityPrefsPtr;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>XSLT_SECPREF_READ_FILE<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>XSLT_SECPREF_WRITE_FILE,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>XSLT_SECPREF_CREATE_DIRECTORY,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>XSLT_SECPREF_READ_NETWORK,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>XSLT_SECPREF_WRITE_NETWORK</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}<sp/>xsltSecurityOption;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*xsltSecurityCheck)<sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/>Module<sp/>interfaces</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">XSLTPUBFUN<sp/>xsltSecurityPrefsPtr<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltNewSecurityPrefs<sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltFreeSecurityPrefs<sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSetSecurityPrefs<sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSecurityOption<sp/>option,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSecurityCheck<sp/>func);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">XSLTPUBFUN<sp/>xsltSecurityCheck<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltGetSecurityPrefs<sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSecurityOption<sp/>option);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSetDefaultSecurityPrefs<sp/>(xsltSecurityPrefsPtr<sp/>sec);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">XSLTPUBFUN<sp/>xsltSecurityPrefsPtr<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltGetDefaultSecurityPrefs<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSetCtxtSecurityPrefs<sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSecurityAllow<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSecurityForbid<sp/><sp/><sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/>internal<sp/>interfaces</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCheckWrite<sp/><sp/><sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URL);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCheckRead<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xsltSecurityPrefsPtr<sp/>sec,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URL);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLT_SECURITY_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h"/>
+  </compounddef>
+</doxygen>

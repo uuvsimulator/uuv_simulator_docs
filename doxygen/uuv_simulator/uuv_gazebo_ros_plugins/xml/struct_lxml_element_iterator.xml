@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_lxml_element_iterator" kind="struct" language="C++" prot="public">
+    <compoundname>LxmlElementIterator</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_lxml_element_iterator_1abcdff7ed9b4dce679a3cdfddfcbf35bf" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_tag_matcher" kindref="compound">LxmlElementTagMatcher</ref></type>
+        <definition>struct LxmlElementTagMatcher LxmlElementIterator::__pyx_base</definition>
+        <argsstring></argsstring>
+        <name>__pyx_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="81" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_lxml_element_iterator_1a366804d22d7667f65e45f7eb13db6b44" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *</type>
+        <definition>struct LxmlElement * LxmlElementIterator::_node</definition>
+        <argsstring></argsstring>
+        <name>_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="93" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_lxml_element_iterator_1ac0f9321f9233e7a656f1176eb42e143b" prot="public" static="no" mutable="no">
+        <type>_node_to_node_function</type>
+        <definition>_node_to_node_function LxmlElementIterator::_next_element</definition>
+        <argsstring></argsstring>
+        <name>_next_element</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="94" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="918">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="914">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="915" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="920">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="924">
+        <label>LxmlElementTagMatcher</label>
+        <link refid="struct_lxml_element_tag_matcher"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>_pystrings</edgelabel>
+        </childnode>
+      </node>
+      <node id="919">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="906">
+        <label>LxmlElementIterator</label>
+        <link refid="struct_lxml_element_iterator"/>
+        <childnode refid="907" relation="usage">
+          <edgelabel>_node</edgelabel>
+        </childnode>
+        <childnode refid="908" relation="usage">
+          <edgelabel>_next_element</edgelabel>
+        </childnode>
+        <childnode refid="924" relation="usage">
+          <edgelabel>__pyx_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="909">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="908" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="909" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="910">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="908" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="912" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="921">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="913">
+        <label>LxmlDocument</label>
+        <link refid="struct_lxml_document"/>
+        <childnode refid="910" relation="usage">
+          <edgelabel>_c_doc</edgelabel>
+        </childnode>
+        <childnode refid="914" relation="usage">
+          <edgelabel>_prefix_tail</edgelabel>
+        </childnode>
+      </node>
+      <node id="915">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="916" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="917" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="918" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="919" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="920" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="921" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="922" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="923" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="914" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="915" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="912">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="908" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="916">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="911">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="910" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="908">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="908" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="909" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="910" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="911" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="922">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="907">
+        <label>LxmlElement</label>
+        <link refid="struct_lxml_element"/>
+        <childnode refid="908" relation="usage">
+          <edgelabel>_c_node</edgelabel>
+        </childnode>
+        <childnode refid="913" relation="usage">
+          <edgelabel>_doc</edgelabel>
+        </childnode>
+        <childnode refid="914" relation="usage">
+          <edgelabel>_tag</edgelabel>
+        </childnode>
+      </node>
+      <node id="923">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="914" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="917">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/etree.h" line="91" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/etree.h" bodystart="91" bodyend="95"/>
+    <listofallmembers>
+      <member refid="struct_lxml_element_iterator_1abcdff7ed9b4dce679a3cdfddfcbf35bf" prot="public" virt="non-virtual"><scope>LxmlElementIterator</scope><name>__pyx_base</name></member>
+      <member refid="struct_lxml_element_iterator_1ac0f9321f9233e7a656f1176eb42e143b" prot="public" virt="non-virtual"><scope>LxmlElementIterator</scope><name>_next_element</name></member>
+      <member refid="struct_lxml_element_iterator_1a366804d22d7667f65e45f7eb13db6b44" prot="public" virt="non-virtual"><scope>LxmlElementIterator</scope><name>_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

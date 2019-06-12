@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xslt_runtime_extra" kind="struct" language="C++" prot="public">
+    <compoundname>_xsltRuntimeExtra</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xslt_runtime_extra_1abba0b7bb7e387daa73ea55856b211952" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltRuntimeExtra::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="234" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_runtime_extra_1a37d43c4990a99e8dbb89dd3fb707db7d" prot="public" static="no" mutable="no">
+        <type>xmlFreeFunc</type>
+        <definition>xmlFreeFunc _xsltRuntimeExtra::deallocate</definition>
+        <argsstring></argsstring>
+        <name>deallocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="235" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_runtime_extra_1a02df211983ecf0abe7bd41b987dff9bc" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltRuntimeExtra::ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="237" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_runtime_extra_1aefbe74df98a814c4e6758d914a94c4dd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltRuntimeExtra::ival</definition>
+        <argsstring></argsstring>
+        <name>ival</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="238" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_runtime_extra_1a422f9a1316ec6c4a79eb5828d680072a" prot="public" static="no" mutable="no">
+        <type>union _xsltRuntimeExtra::@71</type>
+        <definition>union _xsltRuntimeExtra::@71  _xsltRuntimeExtra::val</definition>
+        <argsstring></argsstring>
+        <name>val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="239" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="233" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="233" bodyend="240"/>
+    <listofallmembers>
+      <member refid="struct__xslt_runtime_extra_1a37d43c4990a99e8dbb89dd3fb707db7d" prot="public" virt="non-virtual"><scope>_xsltRuntimeExtra</scope><name>deallocate</name></member>
+      <member refid="struct__xslt_runtime_extra_1abba0b7bb7e387daa73ea55856b211952" prot="public" virt="non-virtual"><scope>_xsltRuntimeExtra</scope><name>info</name></member>
+      <member refid="struct__xslt_runtime_extra_1aefbe74df98a814c4e6758d914a94c4dd" prot="public" virt="non-virtual"><scope>_xsltRuntimeExtra</scope><name>ival</name></member>
+      <member refid="struct__xslt_runtime_extra_1a02df211983ecf0abe7bd41b987dff9bc" prot="public" virt="non-virtual"><scope>_xsltRuntimeExtra</scope><name>ptr</name></member>
+      <member refid="struct__xslt_runtime_extra_1a422f9a1316ec6c4a79eb5828d680072a" prot="public" virt="non-virtual"><scope>_xsltRuntimeExtra</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

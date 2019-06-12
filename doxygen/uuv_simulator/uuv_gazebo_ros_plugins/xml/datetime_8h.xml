@@ -1,0 +1,836 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="datetime_8h" kind="file" language="C++">
+    <compoundname>datetime.h</compoundname>
+    <innerclass refid="struct_py_date_time___delta" prot="public">PyDateTime_Delta</innerclass>
+    <innerclass refid="struct_py_date_time___t_z_info" prot="public">PyDateTime_TZInfo</innerclass>
+    <innerclass refid="struct___py_date_time___base_t_z_info" prot="public">_PyDateTime_BaseTZInfo</innerclass>
+    <innerclass refid="struct___py_date_time___base_time" prot="public">_PyDateTime_BaseTime</innerclass>
+    <innerclass refid="struct_py_date_time___time" prot="public">PyDateTime_Time</innerclass>
+    <innerclass refid="struct_py_date_time___date" prot="public">PyDateTime_Date</innerclass>
+    <innerclass refid="struct___py_date_time___base_date_time" prot="public">_PyDateTime_BaseDateTime</innerclass>
+    <innerclass refid="struct_py_date_time___date_time" prot="public">PyDateTime_DateTime</innerclass>
+    <innerclass refid="struct_py_date_time___c_a_p_i" prot="public">PyDateTime_CAPI</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="datetime_8h_1a5bfa01cfa7497f2b7f327492f9f55eb6" prot="public" static="no">
+        <name>_PyDateTime_DATE_DATASIZE</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="25" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a6df6d23894cf34b77ade3ecd059b3849" prot="public" static="no">
+        <name>_PyDateTime_TIME_DATASIZE</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="28" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a2b10d29015ef68695d6ad9c98d55ddbb" prot="public" static="no">
+        <name>_PyDateTime_DATETIME_DATASIZE</name>
+        <initializer>10</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="31" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ae994bac5989fb22f9e704dd1661fdf9c" prot="public" static="no">
+        <name>_PyTZINFO_HEAD</name>
+        <initializer>PyObject_HEAD               \
+    Py_hash_t hashcode;         \
+    char hastzinfo;             /* boolean flag */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="52" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a50ec910e9774082e73625e3604d71d8c" prot="public" static="no">
+        <name>_PyDateTime_TIMEHEAD</name>
+        <initializer>_PyTZINFO_HEAD              \
+    unsigned char data[_PyDateTime_TIME_DATASIZE];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="72" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a6234d690c9278e610c9201ad7190dd0e" prot="public" static="no">
+        <name>_PyDateTime_DATETIMEHEAD</name>
+        <initializer>_PyTZINFO_HEAD                      \
+    unsigned char data[_PyDateTime_DATETIME_DATASIZE];</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="100" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a41a26d9e8bee6b715d6bd9a9a9ab9849" prot="public" static="no">
+        <name>PyDateTime_GET_YEAR</name>
+        <param><defname>o</defname></param>
+        <initializer>((((<ref refid="struct_py_date_time___date" kindref="compound">PyDateTime_Date</ref>*)o)-&gt;data[0] &lt;&lt; 8) | \
+                     ((<ref refid="struct_py_date_time___date" kindref="compound">PyDateTime_Date</ref>*)o)-&gt;data[1])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="118" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a7bcbc19d646f63e5e887c84e793bd2c9" prot="public" static="no">
+        <name>PyDateTime_GET_MONTH</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date" kindref="compound">PyDateTime_Date</ref>*)o)-&gt;data[2])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="120" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a6fc56bbf5596e7470d417d49f6198005" prot="public" static="no">
+        <name>PyDateTime_GET_DAY</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date" kindref="compound">PyDateTime_Date</ref>*)o)-&gt;data[3])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="121" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a7a3c7406dfc6ec23e0efd0864b5d3b47" prot="public" static="no">
+        <name>PyDateTime_DATE_GET_HOUR</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[4])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="123" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a18d62930e10ad35ee2ea040404c456f1" prot="public" static="no">
+        <name>PyDateTime_DATE_GET_MINUTE</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[5])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="124" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a7ec78e41611900ecb541ddeb2d439103" prot="public" static="no">
+        <name>PyDateTime_DATE_GET_SECOND</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[6])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="125" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a7e18fa8342fe7919e940a4412de328a9" prot="public" static="no">
+        <name>PyDateTime_DATE_GET_MICROSECOND</name>
+        <param><defname>o</defname></param>
+        <initializer>((((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[7] &lt;&lt; 16) |       \
+     (((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[8] &lt;&lt; 8)  |       \
+      ((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;data[9])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="126" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a553d99a534d2e1d632a15d8604373ca7" prot="public" static="no">
+        <name>PyDateTime_DATE_GET_FOLD</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>*)o)-&gt;fold)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="130" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ae9cff24f84f5dd4c4ab11062997bfc78" prot="public" static="no">
+        <name>PyDateTime_TIME_GET_HOUR</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[0])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="133" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a41500648440ad4de173f084da9a5c260" prot="public" static="no">
+        <name>PyDateTime_TIME_GET_MINUTE</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[1])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="134" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a02c2288f5765d2d72fb348f062c74567" prot="public" static="no">
+        <name>PyDateTime_TIME_GET_SECOND</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[2])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="135" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ae190a266ec5a36c754455202b8fb597f" prot="public" static="no">
+        <name>PyDateTime_TIME_GET_MICROSECOND</name>
+        <param><defname>o</defname></param>
+        <initializer>((((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[3] &lt;&lt; 16) |           \
+     (((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[4] &lt;&lt; 8)  |           \
+      ((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;data[5])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="136" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a59160ac4c17457e12d1d91e8acb73758" prot="public" static="no">
+        <name>PyDateTime_TIME_GET_FOLD</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>*)o)-&gt;fold)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="140" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a63a70ee060130679f0e68c6158bc0915" prot="public" static="no">
+        <name>PyDateTime_DELTA_GET_DAYS</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___delta" kindref="compound">PyDateTime_Delta</ref>*)o)-&gt;days)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="143" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a2f71a8da1deec5bf289504c423ba7bca" prot="public" static="no">
+        <name>PyDateTime_DELTA_GET_SECONDS</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___delta" kindref="compound">PyDateTime_Delta</ref>*)o)-&gt;seconds)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="144" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a53bf22cb6352ec82a79cb110211162ef" prot="public" static="no">
+        <name>PyDateTime_DELTA_GET_MICROSECONDS</name>
+        <param><defname>o</defname></param>
+        <initializer>(((<ref refid="struct_py_date_time___delta" kindref="compound">PyDateTime_Delta</ref>*)o)-&gt;microseconds)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="145" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1aa4361d39f14299960f852abc88e8e446" prot="public" static="no">
+        <name>PyDateTime_CAPSULE_NAME</name>
+        <initializer>&quot;datetime.datetime_CAPI&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="176" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="176" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ab50bca1010d8d5e0da2947a474d66665" prot="public" static="no">
+        <name>PyDateTime_IMPORT</name>
+        <initializer>PyDateTimeAPI = (<ref refid="struct_py_date_time___c_a_p_i" kindref="compound">PyDateTime_CAPI</ref> *)PyCapsule_Import(PyDateTime_CAPSULE_NAME, 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="202" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ab233e97b4035b38c47bc13d5cebaca24" prot="public" static="no">
+        <name>PyDate_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, PyDateTimeAPI-&gt;DateType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="206" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a2d11085fb0949be19da9cc41dbcc7a8a" prot="public" static="no">
+        <name>PyDate_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == PyDateTimeAPI-&gt;DateType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="207" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1af3b4821e816fd3fa05b90b071f1bddfe" prot="public" static="no">
+        <name>PyDateTime_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, PyDateTimeAPI-&gt;DateTimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="209" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1aa34904bb3cd22be803b55586a46494a9" prot="public" static="no">
+        <name>PyDateTime_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == PyDateTimeAPI-&gt;DateTimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="210" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a6a8f992d9b33eaf2a91b3074f83f9d3d" prot="public" static="no">
+        <name>PyTime_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, PyDateTimeAPI-&gt;TimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="212" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1aa7f6020b34351c309798c655fb143fbe" prot="public" static="no">
+        <name>PyTime_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == PyDateTimeAPI-&gt;TimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="213" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a8b8b0c65be7ca9c3132ace3d68097c21" prot="public" static="no">
+        <name>PyDelta_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, PyDateTimeAPI-&gt;DeltaType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="215" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1ae97c92578f591bda2fb3f8c2c9aa1a00" prot="public" static="no">
+        <name>PyDelta_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == PyDateTimeAPI-&gt;DeltaType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="216" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a902fb09ddeb3ae6ee41118dfe4f0f21c" prot="public" static="no">
+        <name>PyTZInfo_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, PyDateTimeAPI-&gt;TZInfoType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="218" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="218" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a9c30134fd4a9b27ce9a1e9f9029613de" prot="public" static="no">
+        <name>PyTZInfo_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == PyDateTimeAPI-&gt;TZInfoType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="219" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a3fc84289a87c27b0f89848c5929d6d73" prot="public" static="no">
+        <name>PyDate_FromDate</name>
+        <param><defname>year</defname></param>
+        <param><defname>month</defname></param>
+        <param><defname>day</defname></param>
+        <initializer>PyDateTimeAPI-&gt;Date_FromDate(year, month, day, PyDateTimeAPI-&gt;DateType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="222" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a2e35b3eb08f2cf57cf150d0168addea0" prot="public" static="no">
+        <name>PyDateTime_FromDateAndTime</name>
+        <param><defname>year</defname></param>
+        <param><defname>month</defname></param>
+        <param><defname>day</defname></param>
+        <param><defname>hour</defname></param>
+        <param><defname>min</defname></param>
+        <param><defname>sec</defname></param>
+        <param><defname>usec</defname></param>
+        <initializer>PyDateTimeAPI-&gt;DateTime_FromDateAndTime(year, month, day, hour, \
+        min, sec, usec, Py_None, PyDateTimeAPI-&gt;DateTimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="225" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a4d46b42eb849e464ec34fb9e0d123223" prot="public" static="no">
+        <name>PyDateTime_FromDateAndTimeAndFold</name>
+        <param><defname>year</defname></param>
+        <param><defname>month</defname></param>
+        <param><defname>day</defname></param>
+        <param><defname>hour</defname></param>
+        <param><defname>min</defname></param>
+        <param><defname>sec</defname></param>
+        <param><defname>usec</defname></param>
+        <param><defname>fold</defname></param>
+        <initializer>PyDateTimeAPI-&gt;DateTime_FromDateAndTimeAndFold(year, month, day, hour, \
+        min, sec, usec, Py_None, fold, PyDateTimeAPI-&gt;DateTimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="229" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a355d317a4638e76672c0a50b60bac4d6" prot="public" static="no">
+        <name>PyTime_FromTime</name>
+        <param><defname>hour</defname></param>
+        <param><defname>minute</defname></param>
+        <param><defname>second</defname></param>
+        <param><defname>usecond</defname></param>
+        <initializer>PyDateTimeAPI-&gt;Time_FromTime(hour, minute, second, usecond, \
+        Py_None, PyDateTimeAPI-&gt;TimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="233" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a60bd032cb047d9a38dce6b647e71d18c" prot="public" static="no">
+        <name>PyTime_FromTimeAndFold</name>
+        <param><defname>hour</defname></param>
+        <param><defname>minute</defname></param>
+        <param><defname>second</defname></param>
+        <param><defname>usecond</defname></param>
+        <param><defname>fold</defname></param>
+        <initializer>PyDateTimeAPI-&gt;Time_FromTimeAndFold(hour, minute, second, usecond, \
+        Py_None, fold, PyDateTimeAPI-&gt;TimeType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="237" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a9a74e235896584a7947144777ee0d0fd" prot="public" static="no">
+        <name>PyDelta_FromDSU</name>
+        <param><defname>days</defname></param>
+        <param><defname>seconds</defname></param>
+        <param><defname>useconds</defname></param>
+        <initializer>PyDateTimeAPI-&gt;Delta_FromDelta(days, seconds, useconds, 1, \
+        PyDateTimeAPI-&gt;DeltaType)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="241" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a2fd19b87f21b76e279b6b253dc895124" prot="public" static="no">
+        <name>PyDateTime_FromTimestamp</name>
+        <param><defname>args</defname></param>
+        <initializer>PyDateTimeAPI-&gt;DateTime_FromTimestamp( \
+        (<ref refid="struct__object" kindref="compound">PyObject</ref>*) (PyDateTimeAPI-&gt;DateTimeType), args, NULL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="246" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="datetime_8h_1a12ff61e2bbff852a3bd8a4a92df31fc7" prot="public" static="no">
+        <name>PyDate_FromTimestamp</name>
+        <param><defname>args</defname></param>
+        <initializer>PyDateTimeAPI-&gt;Date_FromTimestamp( \
+        (<ref refid="struct__object" kindref="compound">PyObject</ref>*) (PyDateTimeAPI-&gt;DateType), args)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="250" column="9" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="250" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="datetime_8h_1ab48d136374f1eccbe39f0cc0c9fa2eff" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_py_date_time___c_a_p_i" kindref="compound">PyDateTime_CAPI</ref> *</type>
+        <definition>PyDateTime_CAPI* PyDateTimeAPI</definition>
+        <argsstring></argsstring>
+        <name>PyDateTimeAPI</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/datetime.h" line="200" column="1" bodyfile="/usr/include/python3.6m/datetime.h" bodystart="200" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/><sp/>datetime.h</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>DATETIME_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DATETIME_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Fields<sp/>are<sp/>packed<sp/>into<sp/>successive<sp/>bytes,<sp/>each<sp/>viewed<sp/>as<sp/>unsigned<sp/>and</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*<sp/>big-endian,<sp/>unless<sp/>otherwise<sp/>noted:</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>byte<sp/>offset</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>year<sp/><sp/><sp/><sp/><sp/>2<sp/>bytes,<sp/>1-9999</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*<sp/><sp/>2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>month<sp/><sp/><sp/><sp/>1<sp/>byte,<sp/>1-12</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/><sp/>3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>day<sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>byte,<sp/>1-31</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/>4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hour<sp/><sp/><sp/><sp/><sp/>1<sp/>byte,<sp/>0-23</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/>5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>minute<sp/><sp/><sp/>1<sp/>byte,<sp/>0-59</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*<sp/><sp/>6<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>second<sp/><sp/><sp/>1<sp/>byte,<sp/>0-59</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/><sp/>7<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>usecond<sp/><sp/>3<sp/>bytes,<sp/>0-999999</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>10</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#<sp/>of<sp/>bytes<sp/>for<sp/>year,<sp/>month,<sp/>and<sp/>day.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDateTime_DATE_DATASIZE<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#<sp/>of<sp/>bytes<sp/>for<sp/>hour,<sp/>minute,<sp/>second,<sp/>and<sp/>usecond.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDateTime_TIME_DATASIZE<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>#<sp/>of<sp/>bytes<sp/>for<sp/>year,<sp/>month,<sp/>day,<sp/>hour,<sp/>minute,<sp/>second,<sp/>and<sp/>usecond.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDateTime_DATETIME_DATASIZE<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="struct_py_date_time___delta" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hashcode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>-1<sp/>when<sp/>unknown<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>days;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>-MAX_DELTA_DAYS<sp/>&lt;=<sp/>days<sp/>&lt;=<sp/>MAX_DELTA_DAYS<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>seconds;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>&lt;=<sp/>seconds<sp/>&lt;<sp/>24*3600<sp/>is<sp/>invariant<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>microseconds;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>&lt;=<sp/>microseconds<sp/>&lt;<sp/>1000000<sp/>is<sp/>invariant<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___delta" kindref="compound">PyDateTime_Delta</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="struct_py_date_time___t_z_info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>a<sp/>pure<sp/>abstract<sp/>base<sp/>class<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___t_z_info" kindref="compound">PyDateTime_TZInfo</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>datetime<sp/>and<sp/>time<sp/>types<sp/>have<sp/>hashcodes,<sp/>and<sp/>an<sp/>optional<sp/>tzinfo<sp/>member,</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>present<sp/>if<sp/>and<sp/>only<sp/>if<sp/>hastzinfo<sp/>is<sp/>true.</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyTZINFO_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="54"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hashcode;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="55"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>char<sp/>hastzinfo;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>boolean<sp/>flag<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>No<sp/>_PyDateTime_BaseTZInfo<sp/>is<sp/>allocated;<sp/>it&apos;s<sp/>just<sp/>to<sp/>have<sp/>something</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>convenient<sp/>to<sp/>cast<sp/>to,<sp/>when<sp/>getting<sp/>at<sp/>the<sp/>hastzinfo<sp/>member<sp/>of<sp/>objects</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>starting<sp/>with<sp/>_PyTZINFO_HEAD.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="struct___py_date_time___base_t_z_info" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyTZINFO_HEAD</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}<sp/><ref refid="struct___py_date_time___base_t_z_info" kindref="compound">_PyDateTime_BaseTZInfo</ref>;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>All<sp/>time<sp/>objects<sp/>are<sp/>of<sp/>PyDateTime_TimeType,<sp/>but<sp/>that<sp/>can<sp/>be<sp/>allocated</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>in<sp/>two<sp/>ways,<sp/>with<sp/>or<sp/>without<sp/>a<sp/>tzinfo<sp/>member.<sp/><sp/>Without<sp/>is<sp/>the<sp/>same<sp/>as</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>tzinfo<sp/>==<sp/>None,<sp/>but<sp/>consumes<sp/>less<sp/>memory.<sp/><sp/>_PyDateTime_BaseTime<sp/>is<sp/>an</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>internal<sp/>struct<sp/>used<sp/>to<sp/>allocate<sp/>the<sp/>right<sp/>amount<sp/>of<sp/>space<sp/>for<sp/>the</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>&quot;without&quot;<sp/>case.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDateTime_TIMEHEAD<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="73"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_PyTZINFO_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>unsigned<sp/>char<sp/>data[_PyDateTime_TIME_DATASIZE];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="struct___py_date_time___base_time" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyDateTime_TIMEHEAD</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}<sp/><ref refid="struct___py_date_time___base_time" kindref="compound">_PyDateTime_BaseTime</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>hastzinfo<sp/>false<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="struct_py_date_time___time" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyDateTime_TIMEHEAD</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>fold;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*tzinfo;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___time" kindref="compound">PyDateTime_Time</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>hastzinfo<sp/>true<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>All<sp/>datetime<sp/>objects<sp/>are<sp/>of<sp/>PyDateTime_DateTimeType,<sp/>but<sp/>that<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>allocated<sp/>in<sp/>two<sp/>ways<sp/>too,<sp/>just<sp/>like<sp/>for<sp/>time<sp/>objects<sp/>above.<sp/><sp/>In<sp/>addition,</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/>the<sp/>plain<sp/>date<sp/>type<sp/>is<sp/>a<sp/>base<sp/>class<sp/>for<sp/>datetime,<sp/>so<sp/>it<sp/>must<sp/>also<sp/>have</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/>a<sp/>hastzinfo<sp/>member<sp/>(although<sp/>it&apos;s<sp/>unused<sp/>there).</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="struct_py_date_time___date" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyTZINFO_HEAD</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>data[_PyDateTime_DATE_DATASIZE];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___date" kindref="compound">PyDateTime_Date</ref>;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyDateTime_DATETIMEHEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="101"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_PyTZINFO_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="102"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>unsigned<sp/>char<sp/>data[_PyDateTime_DATETIME_DATASIZE];</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="struct___py_date_time___base_date_time" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyDateTime_DATETIMEHEAD</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}<sp/><ref refid="struct___py_date_time___base_date_time" kindref="compound">_PyDateTime_BaseDateTime</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>hastzinfo<sp/>false<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="struct_py_date_time___date_time" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyDateTime_DATETIMEHEAD</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>fold;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*tzinfo;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___date_time" kindref="compound">PyDateTime_DateTime</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>hastzinfo<sp/>true<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Apply<sp/>for<sp/>date<sp/>and<sp/>datetime<sp/>instances.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_GET_YEAR(o)<sp/><sp/><sp/><sp/><sp/>((((PyDateTime_Date*)o)-&gt;data[0]<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>\</highlight></codeline>
+<codeline lineno="119"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((PyDateTime_Date*)o)-&gt;data[1])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_GET_MONTH(o)<sp/><sp/><sp/><sp/>(((PyDateTime_Date*)o)-&gt;data[2])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_GET_DAY(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Date*)o)-&gt;data[3])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DATE_GET_HOUR(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_DateTime*)o)-&gt;data[4])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DATE_GET_MINUTE(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_DateTime*)o)-&gt;data[5])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DATE_GET_SECOND(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_DateTime*)o)-&gt;data[6])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DATE_GET_MICROSECOND(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="127"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((((PyDateTime_DateTime*)o)-&gt;data[7]<sp/>&lt;&lt;<sp/>16)<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="128"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_DateTime*)o)-&gt;data[8]<sp/>&lt;&lt;<sp/>8)<sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>((PyDateTime_DateTime*)o)-&gt;data[9])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DATE_GET_FOLD(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_DateTime*)o)-&gt;fold)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Apply<sp/>for<sp/>time<sp/>instances.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_TIME_GET_HOUR(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Time*)o)-&gt;data[0])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_TIME_GET_MINUTE(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Time*)o)-&gt;data[1])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_TIME_GET_SECOND(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Time*)o)-&gt;data[2])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_TIME_GET_MICROSECOND(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="137"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((((PyDateTime_Time*)o)-&gt;data[3]<sp/>&lt;&lt;<sp/>16)<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="138"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Time*)o)-&gt;data[4]<sp/>&lt;&lt;<sp/>8)<sp/><sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="139"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>((PyDateTime_Time*)o)-&gt;data[5])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_TIME_GET_FOLD(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Time*)o)-&gt;fold)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Apply<sp/>for<sp/>time<sp/>delta<sp/>instances<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DELTA_GET_DAYS(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Delta*)o)-&gt;days)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DELTA_GET_SECONDS(o)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyDateTime_Delta*)o)-&gt;seconds)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_DELTA_GET_MICROSECONDS(o)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="146"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(((PyDateTime_Delta*)o)-&gt;microseconds)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>structure<sp/>for<sp/>C<sp/>API.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="struct_py_date_time___c_a_p_i" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>type<sp/>objects<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*DateType;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*DateTimeType;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*TimeType;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*DeltaType;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*TZInfoType;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>constructors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*(*Date_FromDate)(int,<sp/>int,<sp/>int,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*(*DateTime_FromDateAndTime)(int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*Time_FromTime)(int,<sp/>int,<sp/>int,<sp/>int,<sp/>PyObject*,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*Delta_FromDelta)(int,<sp/>int,<sp/>int,<sp/>int,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>constructors<sp/>for<sp/>the<sp/>DB<sp/>API<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*DateTime_FromTimestamp)(PyObject*,<sp/>PyObject*,<sp/>PyObject*);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*Date_FromTimestamp)(PyObject*,<sp/>PyObject*);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>PEP<sp/>495<sp/>constructors<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*DateTime_FromDateAndTimeAndFold)(int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,<sp/>int,</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject*,<sp/>int,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*(*Time_FromTimeAndFold)(int,<sp/>int,<sp/>int,<sp/>int,<sp/>PyObject*,<sp/>int,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>*);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal">}<sp/><ref refid="struct_py_date_time___c_a_p_i" kindref="compound">PyDateTime_CAPI</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_CAPSULE_NAME<sp/>&quot;datetime.datetime_CAPI&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_BUILD_CORE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>for<sp/>type<sp/>checking<sp/>when<sp/>building<sp/>the<sp/>Python<sp/>core.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDateTime_DateType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDateTime_DateType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDateTime_DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDateTime_DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDateTime_TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDateTime_TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDelta_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDateTime_DeltaType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDelta_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDateTime_DeltaType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTZInfo_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyDateTime_TZInfoType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTZInfo_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyDateTime_TZInfoType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>global<sp/>variable<sp/>for<sp/>the<sp/>C<sp/>API<sp/>and<sp/>a<sp/>macro<sp/>for<sp/>setting<sp/>it.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyDateTime_CAPI<sp/>*PyDateTimeAPI<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_IMPORT<sp/>\</highlight></codeline>
+<codeline lineno="203"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI<sp/>=<sp/>(PyDateTime_CAPI<sp/>*)PyCapsule_Import(PyDateTime_CAPSULE_NAME,<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>for<sp/>type<sp/>checking<sp/>when<sp/>not<sp/>building<sp/>the<sp/>Python<sp/>core.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>PyDateTimeAPI-&gt;DateType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>PyDateTimeAPI-&gt;DateType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>PyDateTimeAPI-&gt;DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>PyDateTimeAPI-&gt;DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>PyDateTimeAPI-&gt;TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>PyDateTimeAPI-&gt;TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDelta_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>PyDateTimeAPI-&gt;DeltaType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDelta_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>PyDateTimeAPI-&gt;DeltaType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTZInfo_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>PyDateTimeAPI-&gt;TZInfoType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTZInfo_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>PyDateTimeAPI-&gt;TZInfoType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>for<sp/>accessing<sp/>constructors<sp/>in<sp/>a<sp/>simplified<sp/>fashion.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_FromDate(year,<sp/>month,<sp/>day)<sp/>\</highlight></codeline>
+<codeline lineno="223"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;Date_FromDate(year,<sp/>month,<sp/>day,<sp/>PyDateTimeAPI-&gt;DateType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_FromDateAndTime(year,<sp/>month,<sp/>day,<sp/>hour,<sp/>min,<sp/>sec,<sp/>usec)<sp/>\</highlight></codeline>
+<codeline lineno="226"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;DateTime_FromDateAndTime(year,<sp/>month,<sp/>day,<sp/>hour,<sp/>\</highlight></codeline>
+<codeline lineno="227"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min,<sp/>sec,<sp/>usec,<sp/>Py_None,<sp/>PyDateTimeAPI-&gt;DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_FromDateAndTimeAndFold(year,<sp/>month,<sp/>day,<sp/>hour,<sp/>min,<sp/>sec,<sp/>usec,<sp/>fold)<sp/>\</highlight></codeline>
+<codeline lineno="230"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;DateTime_FromDateAndTimeAndFold(year,<sp/>month,<sp/>day,<sp/>hour,<sp/>\</highlight></codeline>
+<codeline lineno="231"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min,<sp/>sec,<sp/>usec,<sp/>Py_None,<sp/>fold,<sp/>PyDateTimeAPI-&gt;DateTimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_FromTime(hour,<sp/>minute,<sp/>second,<sp/>usecond)<sp/>\</highlight></codeline>
+<codeline lineno="234"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;Time_FromTime(hour,<sp/>minute,<sp/>second,<sp/>usecond,<sp/>\</highlight></codeline>
+<codeline lineno="235"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_None,<sp/>PyDateTimeAPI-&gt;TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTime_FromTimeAndFold(hour,<sp/>minute,<sp/>second,<sp/>usecond,<sp/>fold)<sp/>\</highlight></codeline>
+<codeline lineno="238"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;Time_FromTimeAndFold(hour,<sp/>minute,<sp/>second,<sp/>usecond,<sp/>\</highlight></codeline>
+<codeline lineno="239"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_None,<sp/>fold,<sp/>PyDateTimeAPI-&gt;TimeType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDelta_FromDSU(days,<sp/>seconds,<sp/>useconds)<sp/>\</highlight></codeline>
+<codeline lineno="242"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;Delta_FromDelta(days,<sp/>seconds,<sp/>useconds,<sp/>1,<sp/>\</highlight></codeline>
+<codeline lineno="243"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;DeltaType)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>supporting<sp/>the<sp/>DB<sp/>API.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDateTime_FromTimestamp(args)<sp/>\</highlight></codeline>
+<codeline lineno="247"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;DateTime_FromTimestamp(<sp/>\</highlight></codeline>
+<codeline lineno="248"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PyObject*)<sp/>(PyDateTimeAPI-&gt;DateTimeType),<sp/>args,<sp/>NULL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDate_FromTimestamp(args)<sp/>\</highlight></codeline>
+<codeline lineno="251"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyDateTimeAPI-&gt;Date_FromTimestamp(<sp/>\</highlight></codeline>
+<codeline lineno="252"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(PyObject*)<sp/>(PyDateTimeAPI-&gt;DateType),<sp/>args)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="comment">/*<sp/>Py_BUILD_CORE<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/datetime.h"/>
+  </compounddef>
+</doxygen>

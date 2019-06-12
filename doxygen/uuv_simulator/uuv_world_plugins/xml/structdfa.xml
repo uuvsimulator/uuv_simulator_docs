@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structdfa" kind="struct" language="C++" prot="public">
+    <compoundname>dfa</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdfa_1a69ef1e4934ea32fd079f99bcd8018946" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dfa::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="51" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdfa_1a714ab213ebbb5228584fe7593399e038" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* dfa::d_name</definition>
+        <argsstring></argsstring>
+        <name>d_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="52" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdfa_1a5e8fc3fd1cb02df885c177bd234c9475" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dfa::d_initial</definition>
+        <argsstring></argsstring>
+        <name>d_initial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="53" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdfa_1ab53253e48bbb638e9bb9cb9ca744004b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int dfa::d_nstates</definition>
+        <argsstring></argsstring>
+        <name>d_nstates</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="54" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdfa_1aa70e502038acab62cce1c115f71cba7b" prot="public" static="no" mutable="no">
+        <type><ref refid="structstate" kindref="compound">state</ref> *</type>
+        <definition>state* dfa::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="55" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdfa_1ad650d40c7f33bf9556eda163df616d20" prot="public" static="no" mutable="no">
+        <type>bitset</type>
+        <definition>bitset dfa::d_first</definition>
+        <argsstring></argsstring>
+        <name>d_first</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="56" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="805">
+        <label>dfa</label>
+        <link refid="structdfa"/>
+        <childnode refid="806" relation="usage">
+          <edgelabel>d_state</edgelabel>
+        </childnode>
+      </node>
+      <node id="807">
+        <label>arc</label>
+        <link refid="structarc"/>
+      </node>
+      <node id="806">
+        <label>state</label>
+        <link refid="structstate"/>
+        <childnode refid="807" relation="usage">
+          <edgelabel>s_arc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/grammar.h" line="50" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="50" bodyend="57"/>
+    <listofallmembers>
+      <member refid="structdfa_1ad650d40c7f33bf9556eda163df616d20" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_first</name></member>
+      <member refid="structdfa_1a5e8fc3fd1cb02df885c177bd234c9475" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_initial</name></member>
+      <member refid="structdfa_1a714ab213ebbb5228584fe7593399e038" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_name</name></member>
+      <member refid="structdfa_1ab53253e48bbb638e9bb9cb9ca744004b" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_nstates</name></member>
+      <member refid="structdfa_1aa70e502038acab62cce1c115f71cba7b" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_state</name></member>
+      <member refid="structdfa_1a69ef1e4934ea32fd079f99bcd8018946" prot="public" virt="non-virtual"><scope>dfa</scope><name>d_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

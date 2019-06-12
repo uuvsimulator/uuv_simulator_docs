@@ -1,0 +1,1456 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="transform_8h" kind="file" language="C++">
+    <compoundname>transform.h</compoundname>
+    <includes refid="parser_8h" local="no">libxml/parser.h</includes>
+    <includes refid="xml_i_o_8h" local="no">libxml/xmlIO.h</includes>
+    <includes refid="xsltexports_8h" local="yes">xsltexports.h</includes>
+    <includes refid="xslt_internals_8h" local="no">libxslt/xsltInternals.h</includes>
+    <incdepgraph>
+      <node id="2462">
+        <label>libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2437">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2460">
+        <label>xsltexports.h</label>
+        <link refid="xsltexports_8h_source"/>
+      </node>
+      <node id="2444">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2463">
+        <label>libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2451">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+      </node>
+      <node id="2450">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2457">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+      </node>
+      <node id="2453">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
+        </childnode>
+      </node>
+      <node id="2459">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+      </node>
+      <node id="2465">
+        <label>numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2435">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</label>
+        <link refid="transform_8h"/>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2459" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2461" relation="include">
+        </childnode>
+      </node>
+      <node id="2452">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="2442" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+      </node>
+      <node id="2442">
+        <label>limits.h</label>
+      </node>
+      <node id="2455">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2447">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2449" relation="include">
+        </childnode>
+        <childnode refid="2445" relation="include">
+        </childnode>
+        <childnode refid="2446" relation="include">
+        </childnode>
+      </node>
+      <node id="2445">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2446" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+      <node id="2438">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="2439" relation="include">
+        </childnode>
+      </node>
+      <node id="2443">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="2437" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+      </node>
+      <node id="2436">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="2437" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
+        </childnode>
+        <childnode refid="2453" relation="include">
+        </childnode>
+        <childnode refid="2454" relation="include">
+        </childnode>
+        <childnode refid="2457" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2458" relation="include">
+        </childnode>
+        <childnode refid="2459" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+      <node id="2464">
+        <label>xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+      </node>
+      <node id="2440">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2442" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2444" relation="include">
+        </childnode>
+        <childnode refid="2445" relation="include">
+        </childnode>
+      </node>
+      <node id="2458">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+      </node>
+      <node id="2454">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2455" relation="include">
+        </childnode>
+        <childnode refid="2456" relation="include">
+        </childnode>
+        <childnode refid="2444" relation="include">
+        </childnode>
+      </node>
+      <node id="2449">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="2441" relation="include">
+        </childnode>
+        <childnode refid="2450" relation="include">
+        </childnode>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2436" relation="include">
+        </childnode>
+        <childnode refid="2451" relation="include">
+        </childnode>
+      </node>
+      <node id="2461">
+        <label>libxslt/xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="2440" relation="include">
+        </childnode>
+        <childnode refid="2453" relation="include">
+        </childnode>
+        <childnode refid="2462" relation="include">
+        </childnode>
+        <childnode refid="2448" relation="include">
+        </childnode>
+        <childnode refid="2452" relation="include">
+        </childnode>
+        <childnode refid="2443" relation="include">
+        </childnode>
+        <childnode refid="2463" relation="include">
+        </childnode>
+        <childnode refid="2460" relation="include">
+        </childnode>
+        <childnode refid="2464" relation="include">
+        </childnode>
+        <childnode refid="2465" relation="include">
+        </childnode>
+      </node>
+      <node id="2446">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2447" relation="include">
+        </childnode>
+      </node>
+      <node id="2456">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="2438" relation="include">
+        </childnode>
+        <childnode refid="2440" relation="include">
+        </childnode>
+      </node>
+      <node id="2439">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="2441">
+        <label>stdio.h</label>
+      </node>
+      <node id="2448">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="2436" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="transform_8h_1a75256fd43d8f8f8e197ab96ea5d121c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltSetXIncludeDefault</definition>
+        <argsstring>(int xinclude)</argsstring>
+        <name>xsltSetXIncludeDefault</name>
+        <param>
+          <type>int</type>
+          <declname>xinclude</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XInclude default processing. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a74eb439c363dbfa346d0611a4846212d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltGetXIncludeDefault</definition>
+        <argsstring>(void)</argsstring>
+        <name>xsltGetXIncludeDefault</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a115fdc0717d91d92244e58aa6cc520ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN <ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref> XSLTCALL</type>
+        <definition>XSLTPUBFUN xsltTransformContextPtr XSLTCALL xsltNewTransformContext</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc)</argsstring>
+        <name>xsltNewTransformContext</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Export context to users. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a114f98e49e6ae8e05f38ebdb5f6680b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeTransformContext</definition>
+        <argsstring>(xsltTransformContextPtr ctxt)</argsstring>
+        <name>xsltFreeTransformContext</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1abd8b67ff96d06aa6943d5a419b7644a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN <ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref> XSLTCALL</type>
+        <definition>XSLTPUBFUN xmlDocPtr XSLTCALL xsltApplyStylesheetUser</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc, const char **params, const char *output, FILE *profile, xsltTransformContextPtr userCtxt)</argsstring>
+        <name>xsltApplyStylesheetUser</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>profile</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>userCtxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a32d6837bb0d51e0e49348fcc0ff3a483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltProcessOneNode</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xsltStackElemPtr params)</argsstring>
+        <name>xsltProcessOneNode</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a59e9a342982dc413555a1ad09229dcbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltApplyStripSpaces</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node)</argsstring>
+        <name>xsltApplyStripSpaces</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Private Interfaces. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a11a208b6a80d5981f823ba1ab9a5d2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN <ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref> XSLTCALL</type>
+        <definition>XSLTPUBFUN xmlDocPtr XSLTCALL xsltApplyStylesheet</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc, const char **params)</argsstring>
+        <name>xsltApplyStylesheet</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a79142781c24cc6f5f2f7a7640308ffb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN <ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref> XSLTCALL</type>
+        <definition>XSLTPUBFUN xmlDocPtr XSLTCALL xsltProfileStylesheet</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc, const char **params, FILE *output)</argsstring>
+        <name>xsltProfileStylesheet</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>output</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a159df014bd419ad624ee53813b72aea2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltRunStylesheet</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc, const char **params, const char *output, xmlSAXHandlerPtr SAX, xmlOutputBufferPtr IObuf)</argsstring>
+        <name>xsltRunStylesheet</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_s_a_x_handler" kindref="compound">xmlSAXHandlerPtr</ref></type>
+          <declname>SAX</declname>
+        </param>
+        <param>
+          <type>xmlOutputBufferPtr</type>
+          <declname>IObuf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="69" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1aa8d18b74fba520be613a34c58c7d8225" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltRunStylesheetUser</definition>
+        <argsstring>(xsltStylesheetPtr style, xmlDocPtr doc, const char **params, const char *output, xmlSAXHandlerPtr SAX, xmlOutputBufferPtr IObuf, FILE *profile, xsltTransformContextPtr userCtxt)</argsstring>
+        <name>xsltRunStylesheetUser</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <param>
+          <type>const char **</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_s_a_x_handler" kindref="compound">xmlSAXHandlerPtr</ref></type>
+          <declname>SAX</declname>
+        </param>
+        <param>
+          <type>xmlOutputBufferPtr</type>
+          <declname>IObuf</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>profile</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>userCtxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a43e54c0464c61cb1df0bd9ddef98bade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltApplyOneTemplate</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr list, xsltTemplatePtr templ, xsltStackElemPtr params)</argsstring>
+        <name>xsltApplyOneTemplate</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref></type>
+          <declname>templ</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a020c070d42429ec1def11920df1be000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltDocumentElem</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltDocumentElem</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1ac65c323894fa24d95d69a50995f29912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltSort</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltSort</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1af019dbb8bece39d0319572144d5b502f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltCopy</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltCopy</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a3c444df278eab12aec4911ac337dfe6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltText</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltText</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a02548fa15eb2e5e2e1b97720ffa8dc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltElement</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltElement</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a32313bec5eb787233cdd7bd21b1598f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltComment</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltComment</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="116" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a878e0d56d39703f7b3a84bf3321b988f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltAttribute</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltAttribute</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="121" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a5cdc7e646d21dfbd05149e32282772d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltProcessingInstruction</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltProcessingInstruction</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1abe6260429b2273fb67d6ff27dd1af62e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltCopyOf</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltCopyOf</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1abca31bed326b5b6169df25d9bfc34c94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltValueOf</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltValueOf</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="136" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1aaa0ceea1b3f5fde0060158fa5d103be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltNumber</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltNumber</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a22ef4416931d50cb0cd9f419fac2b3e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltApplyImports</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltApplyImports</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a0764908567fdedc50b4bba45d9ed8d83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltCallTemplate</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltCallTemplate</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="151" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a3a99f0cfb25e1f2a2f8b4c17f729ce37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltApplyTemplates</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltApplyTemplates</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a1a99429c85dadfc4336cfa1925221ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltChoose</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltChoose</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="161" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a3d45898d53d8c598698e69a542be1371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltIf</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltIf</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="166" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1ad81b17dc4a5b908743f8899cffe46177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltForEach</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr node, xmlNodePtr inst, xsltElemPreCompPtr comp)</argsstring>
+        <name>xsltForEach</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref></type>
+          <declname>comp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="171" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a3f1c7281c01f3c01bddd54a702cf1e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltRegisterAllElement</definition>
+        <argsstring>(xsltTransformContextPtr ctxt)</argsstring>
+        <name>xsltRegisterAllElement</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="176" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a991668f5a636f6e0811a6018e2f75b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN <ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref> XSLTCALL</type>
+        <definition>XSLTPUBFUN xmlNodePtr XSLTCALL xsltCopyTextString</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xmlNodePtr target, const xmlChar *string, int noescape)</argsstring>
+        <name>xsltCopyTextString</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>noescape</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="179" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1ae2630905a0ac24fd6a670d849645cca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltLocalVariablePop</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, int limitNr, int level)</argsstring>
+        <name>xsltLocalVariablePop</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>limitNr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="186" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a58adfae87f5e4967a2f0a4e58168ab6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltLocalVariablePush</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xsltStackElemPtr variable, int level)</argsstring>
+        <name>xsltLocalVariablePush</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref></type>
+          <declname>variable</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="190" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="transform_8h_1a0c75ce02c5049969dd0988dffcfe3a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xslHandleDebugger</definition>
+        <argsstring>(xmlNodePtr cur, xmlNodePtr node, xsltTemplatePtr templ, xsltTransformContextPtr ctxt)</argsstring>
+        <name>xslHandleDebugger</name>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>node</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref></type>
+          <declname>templ</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h" line="197" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>the<sp/>XSLT<sp/>engine<sp/>transformation<sp/>part.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>This<sp/>module<sp/>implements<sp/>the<sp/>bulk<sp/>of<sp/>the<sp/>actual</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>transformation<sp/>processing.<sp/>Most<sp/>of<sp/>the<sp/>xsl:<sp/>element</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>constructs<sp/>are<sp/>implemented<sp/>in<sp/>this<sp/>module.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLT_TRANSFORM_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLT_TRANSFORM_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/parser.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlIO.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxslt/xsltInternals.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSetXIncludeDefault<sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>xinclude);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltGetXIncludeDefault<sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">XSLTPUBFUN<sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltNewTransformContext<sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltFreeTransformContext(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">XSLTPUBFUN<sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyStylesheetUser<sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**params,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*output,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>profile,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>userCtxt);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltProcessOneNode<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref><sp/>params);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyStripSpaces<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">XSLTPUBFUN<sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyStylesheet<sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**params);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">XSLTPUBFUN<sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltProfileStylesheet<sp/><sp/><sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**params,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>output);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltRunStylesheet<sp/><sp/><sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**params,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*output,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_s_a_x_handler" kindref="compound">xmlSAXHandlerPtr</ref><sp/>SAX,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputBufferPtr<sp/>IObuf);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltRunStylesheetUser<sp/><sp/><sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**params,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*output,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_s_a_x_handler" kindref="compound">xmlSAXHandlerPtr</ref><sp/>SAX,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlOutputBufferPtr<sp/>IObuf,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*<sp/>profile,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>userCtxt);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyOneTemplate<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>list,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref><sp/>templ,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref><sp/>params);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltDocumentElem<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltSort<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCopy<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltText<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltElement<sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltComment<sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltAttribute<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltProcessingInstruction(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCopyOf<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltValueOf<sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltNumber<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyImports<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCallTemplate<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltApplyTemplates<sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltChoose<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltIf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltForEach<sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst,</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_elem_pre_comp" kindref="compound">xsltElemPreCompPtr</ref><sp/>comp);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltRegisterAllElement<sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">XSLTPUBFUN<sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltCopyTextString<sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>target,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>noescape);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Following<sp/>2<sp/>functions<sp/>needed<sp/>for<sp/>libexslt/functions.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltLocalVariablePop<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>limitNr,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltLocalVariablePush<sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_stack_elem" kindref="compound">xsltStackElemPtr</ref><sp/>variable,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*<sp/>Hook<sp/>for<sp/>the<sp/>debugger<sp/>if<sp/>activated.</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xslHandleDebugger<sp/><sp/><sp/>(<ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>cur,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>,</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref><sp/>templ,</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLT_TRANSFORM_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h"/>
+  </compounddef>
+</doxygen>

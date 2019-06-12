@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="compile_8h" kind="file" language="C++">
+    <compoundname>compile.h</compoundname>
+    <includes refid="code_8h" local="yes">code.h</includes>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <incdepgraph>
+      <node id="2860">
+        <label>/usr/include/python3.6m/compile.h</label>
+        <link refid="compile_8h"/>
+        <childnode refid="2861" relation="include">
+        </childnode>
+      </node>
+      <node id="2861">
+        <label>code.h</label>
+        <link refid="code_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2865">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2866">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2862">
+        <label>/usr/include/python3.6m/compile.h</label>
+        <link refid="compile_8h"/>
+        <childnode refid="2863" relation="include">
+        </childnode>
+      </node>
+      <node id="2868">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2863">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2864" relation="include">
+        </childnode>
+        <childnode refid="2866" relation="include">
+        </childnode>
+        <childnode refid="2867" relation="include">
+        </childnode>
+        <childnode refid="2868" relation="include">
+        </childnode>
+        <childnode refid="2869" relation="include">
+        </childnode>
+      </node>
+      <node id="2869">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2864">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2865" relation="include">
+        </childnode>
+      </node>
+      <node id="2867">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_future_features" prot="public">PyFutureFeatures</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="compile_8h_1a7dd3c63ea283d91f342dd87cf227d19d" prot="public" static="no">
+        <name>FUTURE_NESTED_SCOPES</name>
+        <initializer>&quot;nested_scopes&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="22" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a217791bb54487b1c154210bd6242abd2" prot="public" static="no">
+        <name>FUTURE_GENERATORS</name>
+        <initializer>&quot;generators&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="23" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a7b3b189a955a31354df899382910a8f2" prot="public" static="no">
+        <name>FUTURE_DIVISION</name>
+        <initializer>&quot;division&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="24" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1ae143028c99828400b9b0e0106efb8a38" prot="public" static="no">
+        <name>FUTURE_ABSOLUTE_IMPORT</name>
+        <initializer>&quot;absolute_import&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="25" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1ad5c2da22db5d140facc95fe18236c708" prot="public" static="no">
+        <name>FUTURE_WITH_STATEMENT</name>
+        <initializer>&quot;with_statement&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="26" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a5472b4e27758bab5e0c7f9bd052e9729" prot="public" static="no">
+        <name>FUTURE_PRINT_FUNCTION</name>
+        <initializer>&quot;print_function&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="27" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1ab415f04a064aec8849e43c1466c05f70" prot="public" static="no">
+        <name>FUTURE_UNICODE_LITERALS</name>
+        <initializer>&quot;unicode_literals&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="28" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a7d223f5d872629e1464ea4c26ea03b4f" prot="public" static="no">
+        <name>FUTURE_BARRY_AS_BDFL</name>
+        <initializer>&quot;barry_as_FLUFL&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="29" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1aa8eff648ed0720e23828f24fadb18ae5" prot="public" static="no">
+        <name>FUTURE_GENERATOR_STOP</name>
+        <initializer>&quot;generator_stop&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="30" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a6bb0ddbdf97f7c2fac81eba57eaaf287" prot="public" static="no">
+        <name>PyAST_Compile</name>
+        <param><defname>mod</defname></param>
+        <param><defname>s</defname></param>
+        <param><defname>f</defname></param>
+        <param><defname>ar</defname></param>
+        <initializer>PyAST_CompileEx(mod, s, f, -1, ar)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="33" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1a6afb7757e41b8fc5b8bdfc56e93480e3" prot="public" static="no">
+        <name>PY_INVALID_STACK_EFFECT</name>
+        <initializer>INT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="58" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1af2e79bc5489b9fdf10887ccfcea1e203" prot="public" static="no">
+        <name>Py_single_input</name>
+        <initializer>256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="69" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1ab7401ab02eb4abcc868d8c2279572af4" prot="public" static="no">
+        <name>Py_file_input</name>
+        <initializer>257</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="70" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="compile_8h_1ae790e5f7292fe0414bf988b728098885" prot="public" static="no">
+        <name>Py_eval_input</name>
+        <initializer>258</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="71" column="9" bodyfile="/usr/include/python3.6m/compile.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="compile_8h_1ada9aa55ceeb96a7ed4c539713952ba6f" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>PyObject* filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="36" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compile_8h_1af0fcfe6b8c6350d2956023075d14d2a9" prot="public" static="no" mutable="no">
+        <type>const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> *</type>
+        <definition>PyObject PyCompilerFlags* flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="37" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compile_8h_1a18f04a2e96637b9843dd4b01f7f866ea" prot="public" static="no" mutable="no">
+        <type>const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> int</type>
+        <definition>PyObject int PyCompilerFlags int optimize</definition>
+        <argsstring></argsstring>
+        <name>optimize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="38" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compile_8h_1a8cf29155e8879d7e5ffbaa2b5d14ed82" prot="public" static="no" mutable="no">
+        <type>const char <ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> int PyArena *</type>
+        <definition>PyObject PyCompilerFlags int PyArena* arena</definition>
+        <argsstring></argsstring>
+        <name>arena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="39" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compile_8h_1ab3978d96531ad97f1c3139b11f771f98" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="56" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="compile_8h_1a8e75124d262a12df22a15b3cdbcf95c5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int oparg</definition>
+        <argsstring></argsstring>
+        <name>oparg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="59" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="compile_8h_1ae76c658100ddce802dee7a5f3a645fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyCodeObject *) PyNode_Compile(struct _node *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="compile_8h_1a87c9d0d151115f861209425f37a631a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyFutureFeatures *) PyFuture_FromAST(struct _mod *mod</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="compile_8h_1a5b1414d48fd8239df9e71cfa24f1c760" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) _Py_Mangle(PyObject *p</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="compile_8h_1ae65363c757fbfb46b4ba2dd0ea07f6c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyCompile_OpcodeStackEffect(int opcode</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_COMPILE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_COMPILE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;code.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Public<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__node" kindref="compound">_node</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Declare<sp/>the<sp/>existence<sp/>of<sp/>this<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref><sp/>*)<sp/>PyNode_Compile(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">_node</ref><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Future<sp/>feature<sp/>support<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="struct_py_future_features" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ff_features;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>flags<sp/>set<sp/>by<sp/>future<sp/>statements<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ff_lineno;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>line<sp/>number<sp/>of<sp/>last<sp/>future<sp/>statement<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_NESTED_SCOPES<sp/>&quot;nested_scopes&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_GENERATORS<sp/>&quot;generators&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_DIVISION<sp/>&quot;division&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_ABSOLUTE_IMPORT<sp/>&quot;absolute_import&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_WITH_STATEMENT<sp/>&quot;with_statement&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_PRINT_FUNCTION<sp/>&quot;print_function&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_UNICODE_LITERALS<sp/>&quot;unicode_literals&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_BARRY_AS_BDFL<sp/>&quot;barry_as_FLUFL&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FUTURE_GENERATOR_STOP<sp/>&quot;generator_stop&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__mod" kindref="compound">_mod</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Declare<sp/>the<sp/>existence<sp/>of<sp/>this<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyAST_Compile(mod,<sp/>s,<sp/>f,<sp/>ar)<sp/>PyAST_CompileEx(mod,<sp/>s,<sp/>f,<sp/>-1,<sp/>ar)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref><sp/>*)<sp/>PyAST_CompileEx(</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*mod,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optimize,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref><sp/>*)<sp/>PyAST_CompileObject(</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*mod,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>optimize,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref><sp/>*)<sp/>PyFuture_FromAST(</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*<sp/>mod,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref><sp/>*)<sp/>PyFuture_FromASTObject(</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__mod" kindref="compound">_mod</ref><sp/>*<sp/>mod,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_Py_Mangle<sp/>is<sp/>defined<sp/>in<sp/>compile.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref>*)<sp/>_Py_Mangle(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*p,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PY_INVALID_STACK_EFFECT<sp/>INT_MAX</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyCompile_OpcodeStackEffect(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>opcode,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>oparg);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>definitions<sp/>must<sp/>match<sp/>corresponding<sp/>definitions<sp/>in<sp/>graminit.h.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/>There&apos;s<sp/>code<sp/>in<sp/>compile.c<sp/>that<sp/>checks<sp/>that<sp/>they<sp/>are<sp/>the<sp/>same.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_single_input<sp/>256</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_file_input<sp/>257</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_eval_input<sp/>258</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_COMPILE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/compile.h"/>
+  </compounddef>
+</doxygen>

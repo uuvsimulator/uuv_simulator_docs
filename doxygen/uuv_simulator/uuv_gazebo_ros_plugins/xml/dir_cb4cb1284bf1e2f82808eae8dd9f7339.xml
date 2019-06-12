@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_cb4cb1284bf1e2f82808eae8dd9f7339" kind="dir">
+    <compoundname>venv/lib/python3.6/site-packages/lxml/includes/libexslt</compoundname>
+    <innerfile refid="exslt_8h">exslt.h</innerfile>
+    <innerfile refid="exsltconfig_8h">exsltconfig.h</innerfile>
+    <innerfile refid="exsltexports_8h">exsltexports.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libexslt/"/>
+  </compounddef>
+</doxygen>

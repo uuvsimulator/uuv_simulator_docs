@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pymacro_8h" kind="file" language="C++">
+    <compoundname>pymacro.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3521">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3522">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3524">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3519">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3520" relation="include">
+        </childnode>
+        <childnode refid="3522" relation="include">
+        </childnode>
+        <childnode refid="3523" relation="include">
+        </childnode>
+        <childnode refid="3524" relation="include">
+        </childnode>
+        <childnode refid="3525" relation="include">
+        </childnode>
+      </node>
+      <node id="3525">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3520">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3521" relation="include">
+        </childnode>
+      </node>
+      <node id="3518">
+        <label>/usr/include/python3.6m/pymacro.h</label>
+        <link refid="pymacro_8h"/>
+        <childnode refid="3519" relation="include">
+        </childnode>
+      </node>
+      <node id="3523">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pymacro_8h_1a51968ce527e1712abac47f7cfe5eae8d" prot="public" static="no">
+        <name>Py_MIN</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>(((x) &gt; (y)) ? (y) : (x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="5" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1afbdd760ba6bfa42522b3543ee34ef56c" prot="public" static="no">
+        <name>Py_MAX</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>(((x) &gt; (y)) ? (x) : (y))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="8" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a02a252f7d7f70a846977c773bfcbf7a2" prot="public" static="no">
+        <name>Py_ABS</name>
+        <param><defname>x</defname></param>
+        <initializer>((x) &lt; 0 ? -(x) : (x))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="11" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a545bbb273e8b2cd95db0b62967b1440a" prot="public" static="no">
+        <name>_Py_XSTRINGIFY</name>
+        <param><defname>x</defname></param>
+        <initializer>#x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="13" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a478031098895b49b33194c6c3ee50a34" prot="public" static="no">
+        <name>Py_STRINGIFY</name>
+        <param><defname>x</defname></param>
+        <initializer>_Py_XSTRINGIFY(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="19" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1ae3890854c1fef144a010fad88e9b994e" prot="public" static="no">
+        <name>Py_MEMBER_SIZE</name>
+        <param><defname>type</defname></param>
+        <param><defname>member</defname></param>
+        <initializer>sizeof(((type *)0)-&gt;member)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="22" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1adb7a5513dbd53a5afce3e1e657583e06" prot="public" static="no">
+        <name>Py_CHARMASK</name>
+        <param><defname>c</defname></param>
+        <initializer>((unsigned char)((c) &amp; 0xff))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="25" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a97ec8dce858b9594ad5dbc61703de71c" prot="public" static="no">
+        <name>Py_BUILD_ASSERT_EXPR</name>
+        <param><defname>cond</defname></param>
+        <initializer>(sizeof(char [1 - 2*!(cond)]) - 1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="39" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a484867ac5261f679fcc0669e63fde1fd" prot="public" static="no">
+        <name>Py_BUILD_ASSERT</name>
+        <param><defname>cond</defname></param>
+        <initializer>do {         \
+        (void)Py_BUILD_ASSERT_EXPR(cond);   \
+    } while(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="42" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1acd4de5900c789ba51814288242091d29" prot="public" static="no">
+        <name>Py_ARRAY_LENGTH</name>
+        <param><defname>array</defname></param>
+        <initializer>(sizeof(array) / sizeof((array)[0]))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="64" column="10" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1aa2db3f1f66818616529a581735e7caeb" prot="public" static="no">
+        <name>PyDoc_VAR</name>
+        <param><defname>name</defname></param>
+        <initializer>static char name[]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="70" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1acd6df347688600918b79b72d422ac31a" prot="public" static="no">
+        <name>PyDoc_STRVAR</name>
+        <param><defname>name</defname></param>
+        <param><defname>str</defname></param>
+        <initializer>PyDoc_VAR(name) = PyDoc_STR(str)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="71" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a955f358851bb49e2f1283b29757fe0e0" prot="public" static="no">
+        <name>PyDoc_STR</name>
+        <param><defname>str</defname></param>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="75" column="10" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a8d9842099c0e6cecb696cd80f9f27a2d" prot="public" static="no">
+        <name>_Py_SIZE_ROUND_DOWN</name>
+        <param><defname>n</defname></param>
+        <param><defname>a</defname></param>
+        <initializer>((size_t)(n) &amp; ~(size_t)((a) - 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="80" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1aa6cb788e9c409347812db99c455c971a" prot="public" static="no">
+        <name>_Py_SIZE_ROUND_UP</name>
+        <param><defname>n</defname></param>
+        <param><defname>a</defname></param>
+        <initializer>(((size_t)(n) + \
+        (size_t)((a) - 1)) &amp; ~(size_t)((a) - 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="82" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1ad2f587a91b69f192312631bd207364f1" prot="public" static="no">
+        <name>_Py_ALIGN_DOWN</name>
+        <param><defname>p</defname></param>
+        <param><defname>a</defname></param>
+        <initializer>((void *)((uintptr_t)(p) &amp; ~(uintptr_t)((a) - 1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="85" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a9f13a61cae6af3f6bb72c1f0d913ef5e" prot="public" static="no">
+        <name>_Py_ALIGN_UP</name>
+        <param><defname>p</defname></param>
+        <param><defname>a</defname></param>
+        <initializer>((void *)(((uintptr_t)(p) + \
+        (uintptr_t)((a) - 1)) &amp; ~(uintptr_t)((a) - 1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="87" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1a5955619fde2fb8fbde6e9cf642a02c7c" prot="public" static="no">
+        <name>_Py_IS_ALIGNED</name>
+        <param><defname>p</defname></param>
+        <param><defname>a</defname></param>
+        <initializer>(!((uintptr_t)(p) &amp; (uintptr_t)((a) - 1)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="90" column="9" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymacro_8h_1ad23fa9ae2faa7c84ea150e5f6fad0224" prot="public" static="no">
+        <name>Py_UNUSED</name>
+        <param><defname>name</defname></param>
+        <initializer>_unused_ ## name</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymacro.h" line="95" column="10" bodyfile="/usr/include/python3.6m/pymacro.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_PYMACRO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYMACRO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Minimum<sp/>value<sp/>between<sp/>x<sp/>and<sp/>y<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MIN(x,<sp/>y)<sp/>(((x)<sp/>&gt;<sp/>(y))<sp/>?<sp/>(y)<sp/>:<sp/>(x))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Maximum<sp/>value<sp/>between<sp/>x<sp/>and<sp/>y<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MAX(x,<sp/>y)<sp/>(((x)<sp/>&gt;<sp/>(y))<sp/>?<sp/>(x)<sp/>:<sp/>(y))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Absolute<sp/>value<sp/>of<sp/>the<sp/>number<sp/>x<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_ABS(x)<sp/>((x)<sp/>&lt;<sp/>0<sp/>?<sp/>-(x)<sp/>:<sp/>(x))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_XSTRINGIFY(x)<sp/>#x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Convert<sp/>the<sp/>argument<sp/>to<sp/>a<sp/>string.<sp/>For<sp/>example,<sp/>Py_STRINGIFY(123)<sp/>is<sp/>replaced</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/>with<sp/>&quot;123&quot;<sp/>by<sp/>the<sp/>preprocessor.<sp/>Defines<sp/>are<sp/>also<sp/>replaced<sp/>by<sp/>their<sp/>value.</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>For<sp/>example<sp/>Py_STRINGIFY(__LINE__)<sp/>is<sp/>replaced<sp/>by<sp/>the<sp/>line<sp/>number,<sp/>not</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>by<sp/>&quot;__LINE__&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_STRINGIFY(x)<sp/>_Py_XSTRINGIFY(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>size<sp/>of<sp/>a<sp/>structure<sp/>member<sp/>in<sp/>bytes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MEMBER_SIZE(type,<sp/>member)<sp/>sizeof(((type<sp/>*)0)-&gt;member)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Argument<sp/>must<sp/>be<sp/>a<sp/>char<sp/>or<sp/>an<sp/>int<sp/>in<sp/>[-128,<sp/>127]<sp/>or<sp/>[0,<sp/>255].<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_CHARMASK(c)<sp/>((unsigned<sp/>char)((c)<sp/>&amp;<sp/>0xff))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Assert<sp/>a<sp/>build-time<sp/>dependency,<sp/>as<sp/>an<sp/>expression.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/>Your<sp/>compile<sp/>will<sp/>fail<sp/>if<sp/>the<sp/>condition<sp/>isn&apos;t<sp/>true,<sp/>or<sp/>can&apos;t<sp/>be<sp/>evaluated</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/>by<sp/>the<sp/>compiler.<sp/>This<sp/>can<sp/>be<sp/>used<sp/>in<sp/>an<sp/>expression:<sp/>its<sp/>value<sp/>is<sp/>0.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>Example:</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/>#define<sp/>foo_to_char(foo)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((char<sp/>*)(foo)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>Py_BUILD_ASSERT_EXPR(offsetof(struct<sp/>foo,<sp/>string)<sp/>==<sp/>0))</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"></highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/>Written<sp/>by<sp/>Rusty<sp/>Russell,<sp/>public<sp/>domain,<sp/>http://ccodearchive.net/<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_BUILD_ASSERT_EXPR(cond)<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(sizeof(char<sp/>[1<sp/>-<sp/>2*!(cond)])<sp/>-<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_BUILD_ASSERT(cond)<sp/><sp/>do<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="43"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(void)Py_BUILD_ASSERT_EXPR(cond);<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>in<sp/>a<sp/>visible<sp/>array</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"></highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/>This<sp/>does<sp/>not<sp/>work<sp/>on<sp/>pointers,<sp/>or<sp/>arrays<sp/>declared<sp/>as<sp/>[],<sp/>or<sp/>function</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/>parameters.<sp/>With<sp/>correct<sp/>compiler<sp/>support,<sp/>such<sp/>usage<sp/>will<sp/>cause<sp/>a<sp/>build</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/>error<sp/>(see<sp/>Py_BUILD_ASSERT_EXPR).</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"></highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/>Written<sp/>by<sp/>Rusty<sp/>Russell,<sp/>public<sp/>domain,<sp/>http://ccodearchive.net/</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/>Requires<sp/>at<sp/>GCC<sp/>3.1+<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(__GNUC__)<sp/>&amp;&amp;<sp/>!defined(__STRICT_ANSI__)<sp/>&amp;&amp;<sp/>\</highlight></codeline>
+<codeline lineno="56"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(((__GNUC__<sp/>==<sp/>3)<sp/>&amp;&amp;<sp/>(__GNU_MINOR__<sp/>&gt;=<sp/>1))<sp/>||<sp/>(__GNUC__<sp/>&gt;=<sp/>4)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Two<sp/>gcc<sp/>extensions.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/>&amp;a[0]<sp/>degrades<sp/>to<sp/>a<sp/>pointer:<sp/>a<sp/>different<sp/>type<sp/>from<sp/>an<sp/>array<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_ARRAY_LENGTH(array)<sp/>\</highlight></codeline>
+<codeline lineno="60"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(sizeof(array)<sp/>/<sp/>sizeof((array)[0])<sp/>\</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/>+<sp/>Py_BUILD_ASSERT_EXPR(!__builtin_types_compatible_p(typeof(array),<sp/>\</highlight></codeline>
+<codeline lineno="62"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typeof(&amp;(array)[0]))))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_ARRAY_LENGTH(array)<sp/>\</highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(sizeof(array)<sp/>/<sp/>sizeof((array)[0]))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Define<sp/>macros<sp/>for<sp/>inline<sp/>documentation.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDoc_VAR(name)<sp/>static<sp/>char<sp/>name[]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDoc_STRVAR(name,str)<sp/>PyDoc_VAR(name)<sp/>=<sp/>PyDoc_STR(str)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_DOC_STRINGS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDoc_STR(str)<sp/>str</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDoc_STR(str)<sp/>&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Below<sp/>&quot;a&quot;<sp/>is<sp/>a<sp/>power<sp/>of<sp/>2.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Round<sp/>down<sp/>size<sp/>&quot;n&quot;<sp/>to<sp/>be<sp/>a<sp/>multiple<sp/>of<sp/>&quot;a&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_SIZE_ROUND_DOWN(n,<sp/>a)<sp/>((size_t)(n)<sp/>&amp;<sp/>~(size_t)((a)<sp/>-<sp/>1))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Round<sp/>up<sp/>size<sp/>&quot;n&quot;<sp/>to<sp/>be<sp/>a<sp/>multiple<sp/>of<sp/>&quot;a&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_SIZE_ROUND_UP(n,<sp/>a)<sp/>(((size_t)(n)<sp/>+<sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(size_t)((a)<sp/>-<sp/>1))<sp/>&amp;<sp/>~(size_t)((a)<sp/>-<sp/>1))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Round<sp/>pointer<sp/>&quot;p&quot;<sp/>down<sp/>to<sp/>the<sp/>closest<sp/>&quot;a&quot;-aligned<sp/>address<sp/>&lt;=<sp/>&quot;p&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_ALIGN_DOWN(p,<sp/>a)<sp/>((void<sp/>*)((uintptr_t)(p)<sp/>&amp;<sp/>~(uintptr_t)((a)<sp/>-<sp/>1)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Round<sp/>pointer<sp/>&quot;p&quot;<sp/>up<sp/>to<sp/>the<sp/>closest<sp/>&quot;a&quot;-aligned<sp/>address<sp/>&gt;=<sp/>&quot;p&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_ALIGN_UP(p,<sp/>a)<sp/>((void<sp/>*)(((uintptr_t)(p)<sp/>+<sp/>\</highlight></codeline>
+<codeline lineno="88"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(uintptr_t)((a)<sp/>-<sp/>1))<sp/>&amp;<sp/>~(uintptr_t)((a)<sp/>-<sp/>1)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Check<sp/>if<sp/>pointer<sp/>&quot;p&quot;<sp/>is<sp/>aligned<sp/>to<sp/>&quot;a&quot;-bytes<sp/>boundary.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_IS_ALIGNED(p,<sp/>a)<sp/>(!((uintptr_t)(p)<sp/>&amp;<sp/>(uintptr_t)((a)<sp/>-<sp/>1)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_UNUSED(name)<sp/>_unused_<sp/>##<sp/>name<sp/>__attribute__((unused))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_UNUSED(name)<sp/>_unused_<sp/>##<sp/>name</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_PYMACRO_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pymacro.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_imaging_codec_state_instance" kind="struct" language="C++" prot="public">
+    <compoundname>ImagingCodecStateInstance</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1af34f7865c6367599dcdc66d5d97f722c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="503" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a4ec1124ca72d9e7295cfe0ff06c3eb27" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="504" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="504" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a50ed16dca6055f1d8c56c1a54c27a51d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::errcode</definition>
+        <argsstring></argsstring>
+        <name>errcode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="505" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a54de02204b347a74cccb7d6331a013e0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="506" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1afe6fdc781a9a1bb0713a9bc650d9d90c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="506" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="506" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a6e1a9787ea1d25e53373fc7cb041458f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::ystep</definition>
+        <argsstring></argsstring>
+        <name>ystep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="507" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="507" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a008e906fc84c3cf8f64d0dc37693bfc8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::xsize</definition>
+        <argsstring></argsstring>
+        <name>xsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="508" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1ac5bd0a751c9a5b360092b116a81c7434" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::ysize</definition>
+        <argsstring></argsstring>
+        <name>ysize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="508" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a1b0c2744c999af9da96858e2fed77a07" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::xoff</definition>
+        <argsstring></argsstring>
+        <name>xoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="508" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1ab20743a7f73629132f24e36e448afedc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::yoff</definition>
+        <argsstring></argsstring>
+        <name>yoff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="508" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1ad01fd44a92cdfb71fd89df923ac92e02" prot="public" static="no" mutable="no">
+        <type>ImagingShuffler</type>
+        <definition>ImagingShuffler ImagingCodecStateInstance::shuffle</definition>
+        <argsstring></argsstring>
+        <name>shuffle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="509" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a24388fdc3281c2fb50d2508f70d29e61" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::bits</definition>
+        <argsstring></argsstring>
+        <name>bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="510" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1af0acfc52ae9fdb4037c6f1f6e1a969b8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ImagingCodecStateInstance::bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="510" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a580e903b0b95654720fcde30fd678c64" prot="public" static="no" mutable="no">
+        <type>UINT8 *</type>
+        <definition>UINT8* ImagingCodecStateInstance::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="511" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="511" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1a301c5719d57c817f145f713051454c6a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* ImagingCodecStateInstance::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="512" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_codec_state_instance_1affc8b4dd6281078f1cb41f4649ef763a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* ImagingCodecStateInstance::fd</definition>
+        <argsstring></argsstring>
+        <name>fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="513" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="513" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="823">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="818">
+        <label>ImagingCodecStateInstance</label>
+        <link refid="struct_imaging_codec_state_instance"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>fd</edgelabel>
+        </childnode>
+      </node>
+      <node id="819">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="820" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="825">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="824">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="826">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="820">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="821" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="822" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="823" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="824" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="825" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="826" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="827" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="828" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="819" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="820" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="821">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="827">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="828">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="819" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="822">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/Imaging.h" line="502" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="502" bodyend="514"/>
+    <listofallmembers>
+      <member refid="struct_imaging_codec_state_instance_1a24388fdc3281c2fb50d2508f70d29e61" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>bits</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a580e903b0b95654720fcde30fd678c64" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>buffer</name></member>
+      <member refid="struct_imaging_codec_state_instance_1af0acfc52ae9fdb4037c6f1f6e1a969b8" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>bytes</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a301c5719d57c817f145f713051454c6a" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>context</name></member>
+      <member refid="struct_imaging_codec_state_instance_1af34f7865c6367599dcdc66d5d97f722c" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>count</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a50ed16dca6055f1d8c56c1a54c27a51d" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>errcode</name></member>
+      <member refid="struct_imaging_codec_state_instance_1affc8b4dd6281078f1cb41f4649ef763a" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>fd</name></member>
+      <member refid="struct_imaging_codec_state_instance_1ad01fd44a92cdfb71fd89df923ac92e02" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>shuffle</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a4ec1124ca72d9e7295cfe0ff06c3eb27" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>state</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a54de02204b347a74cccb7d6331a013e0" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>x</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a1b0c2744c999af9da96858e2fed77a07" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>xoff</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a008e906fc84c3cf8f64d0dc37693bfc8" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>xsize</name></member>
+      <member refid="struct_imaging_codec_state_instance_1afe6fdc781a9a1bb0713a9bc650d9d90c" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>y</name></member>
+      <member refid="struct_imaging_codec_state_instance_1ab20743a7f73629132f24e36e448afedc" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>yoff</name></member>
+      <member refid="struct_imaging_codec_state_instance_1ac5bd0a751c9a5b360092b116a81c7434" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>ysize</name></member>
+      <member refid="struct_imaging_codec_state_instance_1a6e1a9787ea1d25e53373fc7cb041458f" prot="public" virt="non-virtual"><scope>ImagingCodecStateInstance</scope><name>ystep</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="lxml-version_8h" kind="file" language="C++">
+    <compoundname>lxml-version.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lxml-version_8h_1a88c919a2e7d7419c7f056dbc337aa589" prot="public" static="no">
+        <name>LXML_VERSION_STRING</name>
+        <initializer>&quot;4.3.3&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/lxml-version.h" line="2" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/lxml-version.h" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>LXML_VERSION_STRING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LXML_VERSION_STRING<sp/>&quot;4.3.3&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/lxml-version.h"/>
+  </compounddef>
+</doxygen>
