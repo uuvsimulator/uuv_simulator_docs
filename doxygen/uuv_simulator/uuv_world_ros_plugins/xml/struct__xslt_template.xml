@@ -1,0 +1,557 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xslt_template" kind="struct" language="C++" prot="public">
+    <compoundname>_xsltTemplate</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xslt_template_1a2a575a088ca61aef6e26c9985d4290a8" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_template" kindref="compound">_xsltTemplate</ref> *</type>
+        <definition>struct _xsltTemplate* _xsltTemplate::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="275" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1ad076051cf18892d16eb42c068e63b61c" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xslt_stylesheet" kindref="compound">_xsltStylesheet</ref> *</type>
+        <definition>struct _xsltStylesheet* _xsltTemplate::style</definition>
+        <argsstring></argsstring>
+        <name>style</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="276" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1aedd1047715a8733e7779192c5659cc9c" prot="public" static="no" mutable="no">
+        <type>xmlChar *</type>
+        <definition>xmlChar* _xsltTemplate::match</definition>
+        <argsstring></argsstring>
+        <name>match</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="277" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1aaa50923884bef0cb93168a2528078633" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float _xsltTemplate::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="278" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a7f9b08366c80bbc303c2d1c2b5b11098" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltTemplate::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="279" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1af8685974268ee020207957097e4ef396" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltTemplate::nameURI</definition>
+        <argsstring></argsstring>
+        <name>nameURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="280" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a8a6d67dd380190c848a83acd7e643867" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltTemplate::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="281" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a34a145dd4d7d603e6c6efc01242edd87" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltTemplate::modeURI</definition>
+        <argsstring></argsstring>
+        <name>modeURI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="282" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a321bb6c38004d7f05ba7f82c01e44373" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xsltTemplate::content</definition>
+        <argsstring></argsstring>
+        <name>content</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="283" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a0155b14fb912aba1b2957700827ffe11" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xsltTemplate::elem</definition>
+        <argsstring></argsstring>
+        <name>elem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="284" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1ac76e4217b8c888cb80baef565224c9ac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltTemplate::inheritedNsNr</definition>
+        <argsstring></argsstring>
+        <name>inheritedNsNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="290" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a88abe718409d2d6d4129fdbdf347ddac" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_ns" kindref="compound">xmlNsPtr</ref> *</type>
+        <definition>xmlNsPtr* _xsltTemplate::inheritedNs</definition>
+        <argsstring></argsstring>
+        <name>inheritedNs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="291" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1afccf42f04db46d809f353caec11cfe0b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltTemplate::nbCalls</definition>
+        <argsstring></argsstring>
+        <name>nbCalls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="294" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1aa763e93eefc7991ffaad333cdebd1c2a" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _xsltTemplate::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="295" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a37477d9fa3b9f61b069adbfe0503a299" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xsltTemplate::params</definition>
+        <argsstring></argsstring>
+        <name>params</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="296" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1aa7ca6bea1c256cf08568913d1648fe14" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltTemplate::templNr</definition>
+        <argsstring></argsstring>
+        <name>templNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="298" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1ad450a2c0b8a62d530fb1cc96dcc796e3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltTemplate::templMax</definition>
+        <argsstring></argsstring>
+        <name>templMax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="299" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1ad82a3e44658ad84f0d340f0f15b77c82" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xslt_template" kindref="compound">xsltTemplatePtr</ref> *</type>
+        <definition>xsltTemplatePtr* _xsltTemplate::templCalledTab</definition>
+        <argsstring></argsstring>
+        <name>templCalledTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="300" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_template_1a4886846ce90557685bcb21874d587b07" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* _xsltTemplate::templCountTab</definition>
+        <argsstring></argsstring>
+        <name>templCountTab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="301" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="747">
+        <label>_xsltRuntimeExtra</label>
+        <link refid="struct__xslt_runtime_extra"/>
+      </node>
+      <node id="746">
+        <label>_xsltTransformCache</label>
+        <link refid="struct__xslt_transform_cache"/>
+        <childnode refid="743" relation="usage">
+          <edgelabel>stackItems</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>RVT</edgelabel>
+        </childnode>
+      </node>
+      <node id="736">
+        <label>_xsltTemplate</label>
+        <link refid="struct__xslt_template"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>content</edgelabel>
+          <edgelabel>elem</edgelabel>
+        </childnode>
+        <childnode refid="742" relation="usage">
+          <edgelabel>style</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>inheritedNs</edgelabel>
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>templCalledTab</edgelabel>
+        </childnode>
+      </node>
+      <node id="749">
+        <label>_xsltElemPreComp</label>
+        <link refid="struct__xslt_elem_pre_comp"/>
+        <childnode refid="744" relation="usage">
+          <edgelabel>func</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>inst</edgelabel>
+        </childnode>
+        <childnode refid="749" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>free</edgelabel>
+        </childnode>
+      </node>
+      <node id="744">
+        <label>_xsltTransformContext</label>
+        <link refid="struct__xslt_transform_context"/>
+        <childnode refid="745" relation="usage">
+          <edgelabel>docList</edgelabel>
+          <edgelabel>document</edgelabel>
+          <edgelabel>styleList</edgelabel>
+        </childnode>
+        <childnode refid="743" relation="usage">
+          <edgelabel>varsTab</edgelabel>
+          <edgelabel>vars</edgelabel>
+        </childnode>
+        <childnode refid="744" relation="usage">
+          <edgelabel>sortfunc</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>initialContextNode</edgelabel>
+          <edgelabel>node</edgelabel>
+          <edgelabel>inst</edgelabel>
+          <edgelabel>insert</edgelabel>
+        </childnode>
+        <childnode refid="742" relation="usage">
+          <edgelabel>style</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>localRVTBase</edgelabel>
+          <edgelabel>output</edgelabel>
+          <edgelabel>persistRVT</edgelabel>
+          <edgelabel>tmpDoc</edgelabel>
+          <edgelabel>initialContextDoc</edgelabel>
+          <edgelabel>tmpRVT</edgelabel>
+          <edgelabel>localRVT</edgelabel>
+        </childnode>
+        <childnode refid="746" relation="usage">
+          <edgelabel>cache</edgelabel>
+        </childnode>
+        <childnode refid="747" relation="usage">
+          <edgelabel>extras</edgelabel>
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>templ</edgelabel>
+          <edgelabel>currentTemplateRule</edgelabel>
+          <edgelabel>templTab</edgelabel>
+        </childnode>
+      </node>
+      <node id="738">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="738" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="739">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="741" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="743">
+        <label>_xsltStackElem</label>
+        <link refid="struct__xslt_stack_elem"/>
+        <childnode refid="743" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="744" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>tree</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>fragment</edgelabel>
+        </childnode>
+        <childnode refid="748" relation="usage">
+          <edgelabel>comp</edgelabel>
+        </childnode>
+      </node>
+      <node id="741">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="740">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="739" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="737">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="738" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="742">
+        <label>_xsltStylesheet</label>
+        <link refid="struct__xslt_stylesheet"/>
+        <childnode refid="743" relation="usage">
+          <edgelabel>variables</edgelabel>
+        </childnode>
+        <childnode refid="745" relation="usage">
+          <edgelabel>docList</edgelabel>
+          <edgelabel>includes</edgelabel>
+        </childnode>
+        <childnode refid="749" relation="usage">
+          <edgelabel>preComps</edgelabel>
+        </childnode>
+        <childnode refid="742" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>imports</edgelabel>
+          <edgelabel>principal</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="751" relation="usage">
+          <edgelabel>decimalFormat</edgelabel>
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>templates</edgelabel>
+        </childnode>
+      </node>
+      <node id="751">
+        <label>_xsltDecimalFormat</label>
+        <link refid="struct__xslt_decimal_format"/>
+        <childnode refid="751" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="745">
+        <label>_xsltDocument</label>
+        <link refid="struct__xslt_document"/>
+        <childnode refid="745" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>includes</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="750">
+        <label>_xsltNumberData</label>
+        <link refid="struct__xslt_number_data"/>
+        <childnode refid="737" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+        <childnode refid="739" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+      <node id="748">
+        <label>_xsltStylePreComp</label>
+        <link refid="struct__xslt_style_pre_comp"/>
+        <childnode refid="744" relation="usage">
+          <edgelabel>func</edgelabel>
+        </childnode>
+        <childnode refid="737" relation="usage">
+          <edgelabel>inst</edgelabel>
+        </childnode>
+        <childnode refid="749" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="740" relation="usage">
+          <edgelabel>nsList</edgelabel>
+        </childnode>
+        <childnode refid="750" relation="usage">
+          <edgelabel>numdata</edgelabel>
+        </childnode>
+        <childnode refid="736" relation="usage">
+          <edgelabel>templ</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" line="274" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h" bodystart="274" bodyend="302"/>
+    <listofallmembers>
+      <member refid="struct__xslt_template_1a321bb6c38004d7f05ba7f82c01e44373" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>content</name></member>
+      <member refid="struct__xslt_template_1a0155b14fb912aba1b2957700827ffe11" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>elem</name></member>
+      <member refid="struct__xslt_template_1a88abe718409d2d6d4129fdbdf347ddac" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>inheritedNs</name></member>
+      <member refid="struct__xslt_template_1ac76e4217b8c888cb80baef565224c9ac" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>inheritedNsNr</name></member>
+      <member refid="struct__xslt_template_1aedd1047715a8733e7779192c5659cc9c" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>match</name></member>
+      <member refid="struct__xslt_template_1a8a6d67dd380190c848a83acd7e643867" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>mode</name></member>
+      <member refid="struct__xslt_template_1a34a145dd4d7d603e6c6efc01242edd87" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>modeURI</name></member>
+      <member refid="struct__xslt_template_1a7f9b08366c80bbc303c2d1c2b5b11098" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>name</name></member>
+      <member refid="struct__xslt_template_1af8685974268ee020207957097e4ef396" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>nameURI</name></member>
+      <member refid="struct__xslt_template_1afccf42f04db46d809f353caec11cfe0b" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>nbCalls</name></member>
+      <member refid="struct__xslt_template_1a2a575a088ca61aef6e26c9985d4290a8" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>next</name></member>
+      <member refid="struct__xslt_template_1a37477d9fa3b9f61b069adbfe0503a299" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>params</name></member>
+      <member refid="struct__xslt_template_1aaa50923884bef0cb93168a2528078633" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>priority</name></member>
+      <member refid="struct__xslt_template_1ad076051cf18892d16eb42c068e63b61c" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>style</name></member>
+      <member refid="struct__xslt_template_1ad82a3e44658ad84f0d340f0f15b77c82" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>templCalledTab</name></member>
+      <member refid="struct__xslt_template_1a4886846ce90557685bcb21874d587b07" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>templCountTab</name></member>
+      <member refid="struct__xslt_template_1ad450a2c0b8a62d530fb1cc96dcc796e3" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>templMax</name></member>
+      <member refid="struct__xslt_template_1aa7ca6bea1c256cf08568913d1648fe14" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>templNr</name></member>
+      <member refid="struct__xslt_template_1aa763e93eefc7991ffaad333cdebd1c2a" prot="public" virt="non-virtual"><scope>_xsltTemplate</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

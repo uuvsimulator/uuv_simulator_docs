@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___py__clock__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>_Py_clock_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___py__clock__info__t_1abdd45261c08f1c2006260a53cbdf2e23" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* _Py_clock_info_t::implementation</definition>
+        <argsstring></argsstring>
+        <name>implementation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pytime.h" line="167" column="1" bodyfile="/usr/include/python3.6m/pytime.h" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py__clock__info__t_1ae5413085c06ff516322f26df5bd066c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _Py_clock_info_t::monotonic</definition>
+        <argsstring></argsstring>
+        <name>monotonic</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pytime.h" line="168" column="1" bodyfile="/usr/include/python3.6m/pytime.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py__clock__info__t_1a0c6afaf3db00a025cd1c448e1db70307" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _Py_clock_info_t::adjustable</definition>
+        <argsstring></argsstring>
+        <name>adjustable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pytime.h" line="169" column="1" bodyfile="/usr/include/python3.6m/pytime.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py__clock__info__t_1ac4d55c6c34572877030b45103daad2c2" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _Py_clock_info_t::resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pytime.h" line="170" column="1" bodyfile="/usr/include/python3.6m/pytime.h" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/pytime.h" line="166" column="1" bodyfile="/usr/include/python3.6m/pytime.h" bodystart="166" bodyend="171"/>
+    <listofallmembers>
+      <member refid="struct___py__clock__info__t_1a0c6afaf3db00a025cd1c448e1db70307" prot="public" virt="non-virtual"><scope>_Py_clock_info_t</scope><name>adjustable</name></member>
+      <member refid="struct___py__clock__info__t_1abdd45261c08f1c2006260a53cbdf2e23" prot="public" virt="non-virtual"><scope>_Py_clock_info_t</scope><name>implementation</name></member>
+      <member refid="struct___py__clock__info__t_1ae5413085c06ff516322f26df5bd066c8" prot="public" virt="non-virtual"><scope>_Py_clock_info_t</scope><name>monotonic</name></member>
+      <member refid="struct___py__clock__info__t_1ac4d55c6c34572877030b45103daad2c2" prot="public" virt="non-virtual"><scope>_Py_clock_info_t</scope><name>resolution</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

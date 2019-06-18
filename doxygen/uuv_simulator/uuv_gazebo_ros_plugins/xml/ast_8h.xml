@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="ast_8h" kind="file" language="C++">
+    <compoundname>ast.h</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="ast_8h_1a4b5a2fafedee5810b59c66832314b78e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> *</type>
+        <definition>PyCompilerFlags* flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ast.h" line="10" column="1" bodyfile="/usr/include/python3.6m/ast.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ast_8h_1a28849770c8bfeb04039d7dd29d4dfa35" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char *</type>
+        <definition>const char * filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ast.h" line="11" column="1" bodyfile="/usr/include/python3.6m/ast.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="ast_8h_1aedbf5393cea3ac84e4e10abc06ea34cf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref> const char PyArena *</type>
+        <definition>PyObject const char int const char const char PyCompilerFlags int PyArena * arena</definition>
+        <argsstring></argsstring>
+        <name>arena</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ast.h" line="12" column="1" bodyfile="/usr/include/python3.6m/ast.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ast_8h_1a39030379d075c219268c20ec814b1563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyAST_Validate(mod_ty)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ast.h" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ast_8h_1ae9dd9bfc50000658a03f822f1f3bce73" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(mod_ty) PyAST_FromNode(const node *n</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__mod" kindref="compound">mod_ty</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ast.h" line="8" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_AST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_AST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyAST_Validate(<ref refid="struct__mod" kindref="compound">mod_ty</ref>);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__mod" kindref="compound">mod_ty</ref>)<sp/>PyAST_FromNode(</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">node</ref><sp/>*n,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__mod" kindref="compound">mod_ty</ref>)<sp/>PyAST_FromNodeObject(</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__node" kindref="compound">node</ref><sp/>*n,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_compiler_flags" kindref="compound">PyCompilerFlags</ref><sp/>*flags,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_AST_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/ast.h"/>
+  </compounddef>
+</doxygen>

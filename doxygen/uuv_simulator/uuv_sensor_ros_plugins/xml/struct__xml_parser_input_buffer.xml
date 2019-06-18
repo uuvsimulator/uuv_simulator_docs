@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_parser_input_buffer" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlParserInputBuffer</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a6396a2f2ac55266f0b1bf01d6230d475" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlParserInputBuffer::context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="126" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a69f574b183e3acafcfb08e97370ca38a" prot="public" static="no" mutable="no">
+        <type>xmlInputReadCallback</type>
+        <definition>xmlInputReadCallback _xmlParserInputBuffer::readcallback</definition>
+        <argsstring></argsstring>
+        <name>readcallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="127" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a2da9a3f7231857d19ac2ee41c61dfee2" prot="public" static="no" mutable="no">
+        <type>xmlInputCloseCallback</type>
+        <definition>xmlInputCloseCallback _xmlParserInputBuffer::closecallback</definition>
+        <argsstring></argsstring>
+        <name>closecallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="128" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1af72974d4e9a48cdbd29c5071d07f3d69" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_char_encoding_handler" kindref="compound">xmlCharEncodingHandlerPtr</ref></type>
+        <definition>xmlCharEncodingHandlerPtr _xmlParserInputBuffer::encoder</definition>
+        <argsstring></argsstring>
+        <name>encoder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="130" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a0fd90f78724b8b53970154b6b315bd83" prot="public" static="no" mutable="no">
+        <type>xmlBufPtr</type>
+        <definition>xmlBufPtr _xmlParserInputBuffer::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="132" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1afe725b3943ff433acdf0095d167b101e" prot="public" static="no" mutable="no">
+        <type>xmlBufPtr</type>
+        <definition>xmlBufPtr _xmlParserInputBuffer::raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="133" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1aa17c64fa46053ce3e42ac219d15418d4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserInputBuffer::compressed</definition>
+        <argsstring></argsstring>
+        <name>compressed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="134" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a5759b0b008b6fda05e9e850ed7bea149" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xmlParserInputBuffer::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="135" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_parser_input_buffer_1a1a63d0654d57e0d2a7ba52a06dc35b4a" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _xmlParserInputBuffer::rawconsumed</definition>
+        <argsstring></argsstring>
+        <name>rawconsumed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="136" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="576">
+        <label>_xmlCharEncodingHandler</label>
+        <link refid="struct__xml_char_encoding_handler"/>
+      </node>
+      <node id="575">
+        <label>_xmlParserInputBuffer</label>
+        <link refid="struct__xml_parser_input_buffer"/>
+        <childnode refid="576" relation="usage">
+          <edgelabel>encoder</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" line="125" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h" bodystart="125" bodyend="137"/>
+    <listofallmembers>
+      <member refid="struct__xml_parser_input_buffer_1a0fd90f78724b8b53970154b6b315bd83" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>buffer</name></member>
+      <member refid="struct__xml_parser_input_buffer_1a2da9a3f7231857d19ac2ee41c61dfee2" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>closecallback</name></member>
+      <member refid="struct__xml_parser_input_buffer_1aa17c64fa46053ce3e42ac219d15418d4" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>compressed</name></member>
+      <member refid="struct__xml_parser_input_buffer_1a6396a2f2ac55266f0b1bf01d6230d475" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>context</name></member>
+      <member refid="struct__xml_parser_input_buffer_1af72974d4e9a48cdbd29c5071d07f3d69" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>encoder</name></member>
+      <member refid="struct__xml_parser_input_buffer_1a5759b0b008b6fda05e9e850ed7bea149" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>error</name></member>
+      <member refid="struct__xml_parser_input_buffer_1afe725b3943ff433acdf0095d167b101e" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>raw</name></member>
+      <member refid="struct__xml_parser_input_buffer_1a1a63d0654d57e0d2a7ba52a06dc35b4a" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>rawconsumed</name></member>
+      <member refid="struct__xml_parser_input_buffer_1a69f574b183e3acafcfb08e97370ca38a" prot="public" virt="non-virtual"><scope>_xmlParserInputBuffer</scope><name>readcallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

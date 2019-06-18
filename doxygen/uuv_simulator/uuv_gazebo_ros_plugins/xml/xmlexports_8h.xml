@@ -1,0 +1,774 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="xmlexports_8h" kind="file" language="C++">
+    <compoundname>xmlexports.h</compoundname>
+    <includedby refid="xmlversion_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlversion.h</includedby>
+    <invincdepgraph>
+      <node id="1600">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="1541" relation="include">
+        </childnode>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1563" relation="include">
+        </childnode>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+        <childnode refid="1568" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1566" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1598">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlunicode.h</label>
+        <link refid="xmlunicode_8h_source"/>
+      </node>
+      <node id="1591">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/schematron.h</label>
+        <link refid="schematron_8h_source"/>
+      </node>
+      <node id="1583">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/namespaces.h</label>
+        <link refid="namespaces_8h_source"/>
+      </node>
+      <node id="1593">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="1540" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+      </node>
+      <node id="1584">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
+      <node id="1543">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/debugXML.h</label>
+        <link refid="debug_x_m_l_8h_source"/>
+      </node>
+      <node id="1579">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="1557" relation="include">
+        </childnode>
+        <childnode refid="1558" relation="include">
+        </childnode>
+      </node>
+      <node id="1571">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h</label>
+        <link refid="security_8h_source"/>
+      </node>
+      <node id="1551">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h</label>
+        <link refid="xmlreader_8h_source"/>
+      </node>
+      <node id="1565">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h</label>
+        <link refid="functions_8h_source"/>
+        <childnode refid="1566" relation="include">
+        </childnode>
+      </node>
+      <node id="1554">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLparser.h</label>
+        <link refid="_h_t_m_lparser_8h_source"/>
+        <childnode refid="1555" relation="include">
+        </childnode>
+        <childnode refid="1556" relation="include">
+        </childnode>
+      </node>
+      <node id="1564">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h</label>
+        <link refid="extra_8h_source"/>
+      </node>
+      <node id="1576">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+      </node>
+      <node id="1590">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/schemasInternals.h</label>
+        <link refid="schemas_internals_8h_source"/>
+      </node>
+      <node id="1545">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1574" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
+      <node id="1550">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1552" relation="include">
+        </childnode>
+        <childnode refid="1553" relation="include">
+        </childnode>
+      </node>
+      <node id="1582">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
+      <node id="1592">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlmodule.h</label>
+        <link refid="xmlmodule_8h_source"/>
+      </node>
+      <node id="1585">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h</label>
+        <link refid="chvalid_8h_source"/>
+        <childnode refid="1556" relation="include">
+        </childnode>
+      </node>
+      <node id="1581">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/attributes.h</label>
+        <link refid="attributes_8h_source"/>
+      </node>
+      <node id="1570">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h</label>
+        <link refid="preproc_8h_source"/>
+      </node>
+      <node id="1578">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xinclude.h</label>
+        <link refid="xinclude_8h_source"/>
+      </node>
+      <node id="1553">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</label>
+        <link refid="transform_8h_source"/>
+      </node>
+      <node id="1602">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xpointer.h</label>
+        <link refid="xpointer_8h_source"/>
+      </node>
+      <node id="1552">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h</label>
+        <link refid="xmlsave_8h_source"/>
+      </node>
+      <node id="1569">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h</label>
+        <link refid="pattern_8h_source"/>
+      </node>
+      <node id="1539">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="1542">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h</label>
+        <link refid="catalog_8h_source"/>
+      </node>
+      <node id="1544">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="1545" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1587">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="1560" relation="include">
+        </childnode>
+      </node>
+      <node id="1547">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1548" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1549" relation="include">
+        </childnode>
+      </node>
+      <node id="1589">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/nanohttp.h</label>
+        <link refid="nanohttp_8h_source"/>
+      </node>
+      <node id="1574">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h</label>
+        <link refid="relaxng_8h_source"/>
+      </node>
+      <node id="1549">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="1540" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+      </node>
+      <node id="1538">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="1539" relation="include">
+        </childnode>
+        <childnode refid="1540" relation="include">
+        </childnode>
+        <childnode refid="1542" relation="include">
+        </childnode>
+        <childnode refid="1585" relation="include">
+        </childnode>
+        <childnode refid="1543" relation="include">
+        </childnode>
+        <childnode refid="1544" relation="include">
+        </childnode>
+        <childnode refid="1586" relation="include">
+        </childnode>
+        <childnode refid="1575" relation="include">
+        </childnode>
+        <childnode refid="1576" relation="include">
+        </childnode>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1545" relation="include">
+        </childnode>
+        <childnode refid="1554" relation="include">
+        </childnode>
+        <childnode refid="1555" relation="include">
+        </childnode>
+        <childnode refid="1587" relation="include">
+        </childnode>
+        <childnode refid="1588" relation="include">
+        </childnode>
+        <childnode refid="1589" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1556" relation="include">
+        </childnode>
+        <childnode refid="1574" relation="include">
+        </childnode>
+        <childnode refid="1557" relation="include">
+        </childnode>
+        <childnode refid="1558" relation="include">
+        </childnode>
+        <childnode refid="1590" relation="include">
+        </childnode>
+        <childnode refid="1591" relation="include">
+        </childnode>
+        <childnode refid="1548" relation="include">
+        </childnode>
+        <childnode refid="1577" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1578" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+        <childnode refid="1580" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1549" relation="include">
+        </childnode>
+        <childnode refid="1592" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1593" relation="include">
+        </childnode>
+        <childnode refid="1552" relation="include">
+        </childnode>
+        <childnode refid="1594" relation="include">
+        </childnode>
+        <childnode refid="1595" relation="include">
+        </childnode>
+        <childnode refid="1596" relation="include">
+        </childnode>
+        <childnode refid="1598" relation="include">
+        </childnode>
+        <childnode refid="1599" relation="include">
+        </childnode>
+        <childnode refid="1600" relation="include">
+        </childnode>
+        <childnode refid="1601" relation="include">
+        </childnode>
+        <childnode refid="1602" relation="include">
+        </childnode>
+      </node>
+      <node id="1596">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="1540" relation="include">
+        </childnode>
+        <childnode refid="1542" relation="include">
+        </childnode>
+        <childnode refid="1585" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1574" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1597" relation="include">
+        </childnode>
+      </node>
+      <node id="1546">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1545" relation="include">
+        </childnode>
+        <childnode refid="1554" relation="include">
+        </childnode>
+        <childnode refid="1556" relation="include">
+        </childnode>
+        <childnode refid="1557" relation="include">
+        </childnode>
+        <childnode refid="1558" relation="include">
+        </childnode>
+        <childnode refid="1559" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1553" relation="include">
+        </childnode>
+      </node>
+      <node id="1555">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLtree.h</label>
+        <link refid="_h_t_m_ltree_8h_source"/>
+      </node>
+      <node id="1601">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xpathInternals.h</label>
+        <link refid="xpath_internals_8h_source"/>
+        <childnode refid="1565" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1566" relation="include">
+        </childnode>
+      </node>
+      <node id="1597">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="1561" relation="include">
+        </childnode>
+      </node>
+      <node id="1572">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h</label>
+        <link refid="templates_8h_source"/>
+      </node>
+      <node id="1540">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="1539" relation="include">
+        </childnode>
+        <childnode refid="1541" relation="include">
+        </childnode>
+        <childnode refid="1542" relation="include">
+        </childnode>
+        <childnode refid="1543" relation="include">
+        </childnode>
+        <childnode refid="1544" relation="include">
+        </childnode>
+        <childnode refid="1575" relation="include">
+        </childnode>
+        <childnode refid="1576" relation="include">
+        </childnode>
+        <childnode refid="1555" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1577" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1578" relation="include">
+        </childnode>
+        <childnode refid="1579" relation="include">
+        </childnode>
+        <childnode refid="1580" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1551" relation="include">
+        </childnode>
+        <childnode refid="1552" relation="include">
+        </childnode>
+        <childnode refid="1581" relation="include">
+        </childnode>
+        <childnode refid="1562" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1582" relation="include">
+        </childnode>
+        <childnode refid="1567" relation="include">
+        </childnode>
+        <childnode refid="1583" relation="include">
+        </childnode>
+        <childnode refid="1570" relation="include">
+        </childnode>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1584" relation="include">
+        </childnode>
+      </node>
+      <node id="1575">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1550" relation="include">
+        </childnode>
+        <childnode refid="1552" relation="include">
+        </childnode>
+      </node>
+      <node id="1541">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h</label>
+        <link refid="exslt_8h_source"/>
+      </node>
+      <node id="1560">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="1546" relation="include">
+        </childnode>
+      </node>
+      <node id="1558">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="1547" relation="include">
+        </childnode>
+      </node>
+      <node id="1556">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parserInternals.h</label>
+        <link refid="parser_internals_8h_source"/>
+      </node>
+      <node id="1562">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h</label>
+        <link refid="documents_8h_source"/>
+      </node>
+      <node id="1567">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h</label>
+        <link refid="imports_8h_source"/>
+      </node>
+      <node id="1561">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="1562" relation="include">
+        </childnode>
+        <childnode refid="1563" relation="include">
+        </childnode>
+        <childnode refid="1564" relation="include">
+        </childnode>
+        <childnode refid="1565" relation="include">
+        </childnode>
+        <childnode refid="1567" relation="include">
+        </childnode>
+        <childnode refid="1568" relation="include">
+        </childnode>
+        <childnode refid="1569" relation="include">
+        </childnode>
+        <childnode refid="1570" relation="include">
+        </childnode>
+        <childnode refid="1571" relation="include">
+        </childnode>
+        <childnode refid="1572" relation="include">
+        </childnode>
+        <childnode refid="1553" relation="include">
+        </childnode>
+        <childnode refid="1566" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+      <node id="1594">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemas.h</label>
+        <link refid="xmlschemas_8h_source"/>
+      </node>
+      <node id="1563">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h</label>
+        <link refid="extensions_8h_source"/>
+      </node>
+      <node id="1548">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1549" relation="include">
+        </childnode>
+      </node>
+      <node id="1588">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/nanoftp.h</label>
+        <link refid="nanoftp_8h_source"/>
+      </node>
+      <node id="1557">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX.h</label>
+        <link refid="_s_a_x_8h_source"/>
+      </node>
+      <node id="1566">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h</label>
+        <link refid="variables_8h_source"/>
+      </node>
+      <node id="1580">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="1560" relation="include">
+        </childnode>
+      </node>
+      <node id="1537">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h"/>
+        <childnode refid="1538" relation="include">
+        </childnode>
+      </node>
+      <node id="1573">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</label>
+        <link refid="xsltutils_8h_source"/>
+      </node>
+      <node id="1568">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h</label>
+        <link refid="keys_8h_source"/>
+      </node>
+      <node id="1586">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/DOCBparser.h</label>
+        <link refid="_d_o_c_bparser_8h_source"/>
+      </node>
+      <node id="1577">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h</label>
+        <link refid="uri_8h_source"/>
+      </node>
+      <node id="1595">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlschemastypes.h</label>
+        <link refid="xmlschemastypes_8h_source"/>
+      </node>
+      <node id="1599">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlwriter.h</label>
+        <link refid="xmlwriter_8h_source"/>
+      </node>
+      <node id="1559">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="1547" relation="include">
+        </childnode>
+        <childnode refid="1546" relation="include">
+        </childnode>
+        <childnode refid="1560" relation="include">
+        </childnode>
+        <childnode refid="1561" relation="include">
+        </childnode>
+        <childnode refid="1573" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="xmlexports_8h_1a36ddbbadb405791f616e9108ad21f7b8" prot="public" static="no">
+        <name>XMLPUBFUN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XMLPUBFUN, XMLPUBVAR, XMLCALL</para><para>Macros which declare an exportable function, an exportable variable and the calling convention used for functions.</para><para>Please use an extra block for every platform/compiler combination when modifying this, rather than overlong #ifdef lines. This helps readability as well as the fact that different compilers on the same platform might need different definitions. XMLPUBFUN:</para><para>Macros which declare an exportable function </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" line="30" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xmlexports_8h_1a6963fac5c152a8064dc5c2179b945291" prot="public" static="no">
+        <name>XMLPUBVAR</name>
+        <initializer>extern</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XMLPUBVAR:</para><para>Macros which declare an exportable variable </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" line="36" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xmlexports_8h_1aad85d290912c3ffed7a2ec0b6173dad3" prot="public" static="no">
+        <name>XMLCALL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XMLCALL:</para><para>Macros which declare the called convention for exported functions </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" line="42" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xmlexports_8h_1a39b032898040feb8a6758e8c0ed702e4" prot="public" static="no">
+        <name>XMLCDECL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XMLCDECL:</para><para>Macro which declares the calling convention for exported functions that use &apos;...&apos;. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" line="49" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xmlexports_8h_1a8b28c47074210b7bf4c6e411fd5089fe" prot="public" static="no">
+        <name>LIBXML_DLL_IMPORT</name>
+        <initializer>XMLPUBVAR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>DOC_DISABLE </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" line="157" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>macros<sp/>for<sp/>marking<sp/>symbols<sp/>as<sp/>exportable/importable.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>macros<sp/>for<sp/>marking<sp/>symbols<sp/>as<sp/>exportable/importable.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Igor<sp/>Zlatovic<sp/>&lt;igor@zlatkovic.com&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_EXPORTS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_EXPORTS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor">#define<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor">#define<sp/>XMLPUBVAR<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="preprocessor">#define<sp/>XMLCALL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor">#define<sp/>XMLCDECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">/*<sp/>Windows<sp/>platform<sp/>with<sp/>MS<sp/>compiler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)<sp/>&amp;&amp;<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBVAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCALL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCDECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(IN_LIBXML)<sp/>&amp;&amp;<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllimport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(LIBXML_FASTCALL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLCALL<sp/>__fastcall</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLCALL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCDECL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>!defined<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Windows<sp/>platform<sp/>with<sp/>Borland<sp/>compiler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)<sp/>&amp;&amp;<sp/>defined(__BORLANDC__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBVAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCALL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCDECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(IN_LIBXML)<sp/>&amp;&amp;<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllexport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllimport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCALL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCDECL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>!defined<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Windows<sp/>platform<sp/>with<sp/>GNU<sp/>compiler<sp/>(Mingw)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_WIN32)<sp/>&amp;&amp;<sp/>defined(__MINGW32__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBVAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCALL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCDECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/>*<sp/>if<sp/>defined(IN_LIBXML)<sp/>this<sp/>raises<sp/>problems<sp/>on<sp/>mingw<sp/>with<sp/>msys</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/>*<sp/>_imp__xmlFree<sp/>listed<sp/>as<sp/>missing.<sp/>Try<sp/>to<sp/>workaround<sp/>the<sp/>problem</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/>*<sp/>by<sp/>also<sp/>making<sp/>that<sp/>declaration<sp/>when<sp/>compiling<sp/>client<sp/>code.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(IN_LIBXML)<sp/>&amp;&amp;<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllexport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllimport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCALL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCDECL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>!defined<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>_REENTRANT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Cygwin<sp/>platform<sp/>(does<sp/>not<sp/>define<sp/>_WIN32),<sp/>GNU<sp/>compiler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__CYGWIN__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLPUBVAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCALL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#undef<sp/>XMLCDECL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#if<sp/>defined(IN_LIBXML)<sp/>&amp;&amp;<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllexport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBFUN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>!defined(LIBXML_STATIC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>__declspec(dllimport)<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>XMLPUBVAR<sp/>extern</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCALL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>XMLCDECL<sp/>__cdecl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Compatibility<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(LIBXML_DLL_IMPORT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXML_DLL_IMPORT<sp/>XMLPUBVAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_EXPORTS_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlexports.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="asdl_8h" kind="file" language="C++">
+    <compoundname>asdl.h</compoundname>
+    <includedby refid="_python-ast_8h" local="yes">/usr/include/python3.6m/Python-ast.h</includedby>
+    <invincdepgraph>
+      <node id="2767">
+        <label>/usr/include/python3.6m/asdl.h</label>
+        <link refid="asdl_8h"/>
+        <childnode refid="2768" relation="include">
+        </childnode>
+      </node>
+      <node id="2768">
+        <label>/usr/include/python3.6m/Python-ast.h</label>
+        <link refid="_python-ast_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structasdl__seq" prot="public">asdl_seq</innerclass>
+    <innerclass refid="structasdl__int__seq" prot="public">asdl_int_seq</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="asdl_8h_1ab6c5bdbf74f25c02b2d7ff07d96ad310" prot="public" static="no">
+        <name>asdl_seq_GET</name>
+        <param><defname>S</defname></param>
+        <param><defname>I</defname></param>
+        <initializer>(S)-&gt;elements[(I)]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="32" column="9" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="asdl_8h_1ac7fe7f0a54c1e48a16daad321bff5cd0" prot="public" static="no">
+        <name>asdl_seq_LEN</name>
+        <param><defname>S</defname></param>
+        <initializer>((S) == NULL ? 0 : (S)-&gt;size)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="33" column="9" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="asdl_8h_1a075db219ef4057a487985144b51c062e" prot="public" static="no">
+        <name>asdl_seq_SET</name>
+        <param><defname>S</defname></param>
+        <param><defname>I</defname></param>
+        <param><defname>V</defname></param>
+        <initializer>(S)-&gt;elements[I] = (V)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="43" column="10" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="asdl_8h_1a78ca2081e230a95abc88c411c9816775" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>typedef PyObject* identifier</definition>
+        <argsstring></argsstring>
+        <name>identifier</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="4" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="asdl_8h_1aafa21ae74f7a3e4ac0c645f0f30ee853" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>typedef PyObject* string</definition>
+        <argsstring></argsstring>
+        <name>string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="5" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="asdl_8h_1a75beca661949dfdc553e331d6af0c986" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>typedef PyObject* bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="6" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="asdl_8h_1ae17f7d965c789e7909d70373996f326e" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>const Py_UNICODE * object</definition>
+        <argsstring></argsstring>
+        <name>object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="7" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="asdl_8h_1ae23c045968eb19fd0318660dce53b76e" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>typedef PyObject* singleton</definition>
+        <argsstring></argsstring>
+        <name>singleton</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="8" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="asdl_8h_1a1ad75025386f396c9e6b4078451f378e" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>typedef PyObject* constant</definition>
+        <argsstring></argsstring>
+        <name>constant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="9" column="1" bodyfile="/usr/include/python3.6m/asdl.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="asdl_8h_1ade45df80f40f8a6b6774ae123980366d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref> *</type>
+        <definition>asdl_seq* _Py_asdl_seq_new</definition>
+        <argsstring>(Py_ssize_t size, PyArena *arena)</argsstring>
+        <name>_Py_asdl_seq_new</name>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>PyArena *</type>
+          <declname>arena</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="asdl_8h_1a27466029e56187aa49d67b26ef3447b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structasdl__int__seq" kindref="compound">asdl_int_seq</ref> *</type>
+        <definition>asdl_int_seq* _Py_asdl_int_seq_new</definition>
+        <argsstring>(Py_ssize_t size, PyArena *arena)</argsstring>
+        <name>_Py_asdl_int_seq_new</name>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>PyArena *</type>
+          <declname>arena</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/asdl.h" line="30" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_ASDL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_ASDL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">identifier</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">string</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">bytes</ref>;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">object</ref>;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">singleton</ref>;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*<sp/><ref refid="struct__object" kindref="compound">constant</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>It<sp/>would<sp/>be<sp/>nice<sp/>if<sp/>the<sp/>code<sp/>generated<sp/>by<sp/>asdl_c.py<sp/>was<sp/>completely</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/>independent<sp/>of<sp/>Python,<sp/>but<sp/>it<sp/>is<sp/>a<sp/>goal<sp/>the<sp/>requires<sp/>too<sp/>much<sp/>work</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>at<sp/>this<sp/>stage.<sp/><sp/>So,<sp/>for<sp/>example,<sp/>I&apos;ll<sp/>represent<sp/>identifiers<sp/>as</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>interned<sp/>Python<sp/>strings.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>XXX<sp/>A<sp/>sequence<sp/>should<sp/>be<sp/>typed<sp/>so<sp/>that<sp/>its<sp/>use<sp/>can<sp/>be<sp/>typechecked.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structasdl__seq" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>size;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*elements[1];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}<sp/><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structasdl__int__seq" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>size;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>elements[1];</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/><ref refid="structasdl__int__seq" kindref="compound">asdl_int_seq</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref><sp/>*_Py_asdl_seq_new(Py_ssize_t<sp/>size,<sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="structasdl__int__seq" kindref="compound">asdl_int_seq</ref><sp/>*_Py_asdl_int_seq_new(Py_ssize_t<sp/>size,<sp/>PyArena<sp/>*arena);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asdl_seq_GET(S,<sp/>I)<sp/>(S)-&gt;elements[(I)]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asdl_seq_LEN(S)<sp/>((S)<sp/>==<sp/>NULL<sp/>?<sp/>0<sp/>:<sp/>(S)-&gt;size)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asdl_seq_SET(S,<sp/>I,<sp/>V)<sp/>\</highlight></codeline>
+<codeline lineno="36"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>do<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>_asdl_i<sp/>=<sp/>(I);<sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert((S)<sp/>!=<sp/>NULL);<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(_asdl_i<sp/>&lt;<sp/>(S)-&gt;size);<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(S)-&gt;elements[_asdl_i]<sp/>=<sp/>(V);<sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>asdl_seq_SET(S,<sp/>I,<sp/>V)<sp/>(S)-&gt;elements[I]<sp/>=<sp/>(V)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_ASDL_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/asdl.h"/>
+  </compounddef>
+</doxygen>

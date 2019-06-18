@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_future_features" kind="struct" language="C++" prot="public">
+    <compoundname>PyFutureFeatures</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_future_features_1ae87ffcf41926116dcd91cfcee3608ba3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyFutureFeatures::ff_features</definition>
+        <argsstring></argsstring>
+        <name>ff_features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="18" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_future_features_1acef68f58394a40dbdac8c00229d2b317" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyFutureFeatures::ff_lineno</definition>
+        <argsstring></argsstring>
+        <name>ff_lineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/compile.h" line="19" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/compile.h" line="17" column="1" bodyfile="/usr/include/python3.6m/compile.h" bodystart="17" bodyend="20"/>
+    <listofallmembers>
+      <member refid="struct_py_future_features_1ae87ffcf41926116dcd91cfcee3608ba3" prot="public" virt="non-virtual"><scope>PyFutureFeatures</scope><name>ff_features</name></member>
+      <member refid="struct_py_future_features_1acef68f58394a40dbdac8c00229d2b317" prot="public" virt="non-virtual"><scope>PyFutureFeatures</scope><name>ff_lineno</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

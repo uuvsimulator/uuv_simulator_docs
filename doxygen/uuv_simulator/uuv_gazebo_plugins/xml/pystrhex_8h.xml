@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pystrhex_8h" kind="file" language="C++">
+    <compoundname>pystrhex.h</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pystrhex_8h_1a3dee937267c8294302d25ec6b29c462f" prot="public" static="no" mutable="no">
+        <type>const Py_ssize_t</type>
+        <definition>const Py_ssize_t arglen</definition>
+        <argsstring></argsstring>
+        <name>arglen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrhex.h" line="10" column="1" bodyfile="/usr/include/python3.6m/pystrhex.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pystrhex_8h_1a1b2a103cf37b6129390071196a9073fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) _Py_strhex(const char *argbuf</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrhex.h" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_STRHEX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_STRHEX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Returns<sp/>a<sp/>str()<sp/>containing<sp/>the<sp/>hex<sp/>representation<sp/>of<sp/>argbuf.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref>*)<sp/>_Py_strhex(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argbuf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Py_ssize_t<sp/>arglen);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Returns<sp/>a<sp/>bytes()<sp/>containing<sp/>the<sp/>ASCII<sp/>hex<sp/>representation<sp/>of<sp/>argbuf.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref>*)<sp/>_Py_strhex_bytes(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>argbuf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Py_ssize_t<sp/>arglen);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_STRHEX_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pystrhex.h"/>
+  </compounddef>
+</doxygen>

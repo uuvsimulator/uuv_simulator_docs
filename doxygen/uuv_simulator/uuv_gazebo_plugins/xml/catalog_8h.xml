@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="catalog_8h" kind="file" language="C++">
+    <compoundname>catalog.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes refid="xmlversion_8h" local="no">libxml/xmlversion.h</includes>
+    <includes refid="xmlstring_8h" local="no">libxml/xmlstring.h</includes>
+    <includes refid="tree_8h" local="no">libxml/tree.h</includes>
+    <incdepgraph>
+      <node id="315">
+        <label>stdarg.h</label>
+      </node>
+      <node id="318">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="333">
+        <label>stdlib.h</label>
+      </node>
+      <node id="329">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+      </node>
+      <node id="310">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h</label>
+        <link refid="catalog_8h"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="323">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="317">
+        <label>limits.h</label>
+      </node>
+      <node id="327">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="312">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="313" relation="include">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+      </node>
+      <node id="330">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+      </node>
+      <node id="320">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="312" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="311">
+        <label>stdio.h</label>
+      </node>
+      <node id="326">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="322" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="17"><highlight class="preprocessor">#ifndef<sp/>__XML_CATALOG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_CATALOG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlstring.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/tree.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_CATALOG_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor">#define<sp/>XML_CATALOGS_NAMESPACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*)<sp/>&quot;urn:oasis:names:tc:entity:xmlns:xml:catalog&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor">#define<sp/>XML_CATALOG_PI<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="45"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*)<sp/>&quot;oasis-xml-catalog&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/>*<sp/>The<sp/>API<sp/>is<sp/>voluntarily<sp/>limited<sp/>to<sp/>general<sp/>cataloging.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_PREFER_NONE<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_PREFER_PUBLIC<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_PREFER_SYSTEM</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}<sp/>xmlCatalogPrefer;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_ALLOW_NONE<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_ALLOW_GLOBAL<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_ALLOW_DOCUMENT<sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_CATA_ALLOW_ALL<sp/>=<sp/>3</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}<sp/>xmlCatalogAllow;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlCatalog<sp/>xmlCatalog;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlCatalog<sp/>*xmlCatalogPtr;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>Operations<sp/>on<sp/>a<sp/>given<sp/>catalog.</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal">XMLPUBFUN<sp/>xmlCatalogPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlNewCatalog<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sgml);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">XMLPUBFUN<sp/>xmlCatalogPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlLoadACatalog<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">XMLPUBFUN<sp/>xmlCatalogPtr<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlLoadSGMLSuperCatalog<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlConvertSGMLCatalog<sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogAdd<sp/><sp/><sp/><sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*type,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*orig,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*replace);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogRemove<sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogResolve<sp/><sp/>(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogResolveSystem(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogResolvePublic(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogResolveURI<sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URI);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlACatalogDump<sp/><sp/><sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlFreeCatalog<sp/><sp/><sp/><sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogIsEmpty<sp/><sp/><sp/>(xmlCatalogPtr<sp/>catal);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/>Global<sp/>operations.</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlInitializeCatalog<sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlLoadCatalog<sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlLoadCatalogs<sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*paths);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogCleanup<sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_OUTPUT_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogDump<sp/><sp/><sp/><sp/><sp/><sp/>(FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_OUTPUT_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogResolve<sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogResolveSystem<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogResolvePublic<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogResolveURI<sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URI);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogAdd<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*type,</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*orig,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*replace);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogRemove<sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal">XMLPUBFUN<sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlParseCatalogFile<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogConvert<sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>Strictly<sp/>minimal<sp/>interfaces<sp/>for<sp/>per-document<sp/>catalogs<sp/>used</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>by<sp/>the<sp/>parser.</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogFreeLocal<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*catalogs);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogAddLocal<sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*catalogs,</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URL);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogLocalResolve<sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*catalogs,</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID,</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogLocalResolveURI(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*catalogs,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*URI);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/>*<sp/>Preference<sp/>settings.</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogSetDebug<sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal">XMLPUBFUN<sp/>xmlCatalogPrefer<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogSetDefaultPrefer(xmlCatalogPrefer<sp/>prefer);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogSetDefaults<sp/><sp/><sp/>(xmlCatalogAllow<sp/>allow);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">XMLPUBFUN<sp/>xmlCatalogAllow<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogGetDefaults<sp/><sp/><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>DEPRECATED<sp/>interfaces<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogGetSystem<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*sysID);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCatalogGetPublic<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pubID);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_CATALOG_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_CATALOG_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h"/>
+  </compounddef>
+</doxygen>

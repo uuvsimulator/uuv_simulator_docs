@@ -1,0 +1,802 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__typeobject" kind="struct" language="C++" prot="public">
+    <compoundname>_typeobject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__typeobject_1ac5e735ef4e5e666b94668cbed5a08901" prot="public" static="no" mutable="no">
+        <type>PyObject_VAR_HEAD const char *</type>
+        <definition>PyObject_VAR_HEAD const char* _typeobject::tp_name</definition>
+        <argsstring></argsstring>
+        <name>tp_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="348" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1aede3a7181d6d3c0560c44740b805ac00" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _typeobject::tp_basicsize</definition>
+        <argsstring></argsstring>
+        <name>tp_basicsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="349" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1aa2f823359e194b776476771c4b4a0a99" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _typeobject::tp_itemsize</definition>
+        <argsstring></argsstring>
+        <name>tp_itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="349" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a340396d33c324118bdda0a521bf235fb" prot="public" static="no" mutable="no">
+        <type>destructor</type>
+        <definition>destructor _typeobject::tp_dealloc</definition>
+        <argsstring></argsstring>
+        <name>tp_dealloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="353" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a9b6d17094356175c542e007464cae33f" prot="public" static="no" mutable="no">
+        <type>printfunc</type>
+        <definition>printfunc _typeobject::tp_print</definition>
+        <argsstring></argsstring>
+        <name>tp_print</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="354" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a08abee6f5a4acecaf660eebadd013d09" prot="public" static="no" mutable="no">
+        <type>getattrfunc</type>
+        <definition>getattrfunc _typeobject::tp_getattr</definition>
+        <argsstring></argsstring>
+        <name>tp_getattr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="355" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a83b13e804c97dd0941b6531cfd501640" prot="public" static="no" mutable="no">
+        <type>setattrfunc</type>
+        <definition>setattrfunc _typeobject::tp_setattr</definition>
+        <argsstring></argsstring>
+        <name>tp_setattr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="356" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ae28556990c96f295aafa2796ff92d9a6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_async_methods" kindref="compound">PyAsyncMethods</ref> *</type>
+        <definition>PyAsyncMethods* _typeobject::tp_as_async</definition>
+        <argsstring></argsstring>
+        <name>tp_as_async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="357" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a3eb42d25116ad9a0ee140669e7a9a50c" prot="public" static="no" mutable="no">
+        <type>reprfunc</type>
+        <definition>reprfunc _typeobject::tp_repr</definition>
+        <argsstring></argsstring>
+        <name>tp_repr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="359" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a7fe54a45ffad9dea7caa193973ccce1a" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_number_methods" kindref="compound">PyNumberMethods</ref> *</type>
+        <definition>PyNumberMethods* _typeobject::tp_as_number</definition>
+        <argsstring></argsstring>
+        <name>tp_as_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="363" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1af75a067303be5735b139f55a197607af" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_sequence_methods" kindref="compound">PySequenceMethods</ref> *</type>
+        <definition>PySequenceMethods* _typeobject::tp_as_sequence</definition>
+        <argsstring></argsstring>
+        <name>tp_as_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="364" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a994cf6915913e523db5c29a5c78d4b24" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_mapping_methods" kindref="compound">PyMappingMethods</ref> *</type>
+        <definition>PyMappingMethods* _typeobject::tp_as_mapping</definition>
+        <argsstring></argsstring>
+        <name>tp_as_mapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="365" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a0264db6fd772b4c0968c4e71ca1a62a9" prot="public" static="no" mutable="no">
+        <type>hashfunc</type>
+        <definition>hashfunc _typeobject::tp_hash</definition>
+        <argsstring></argsstring>
+        <name>tp_hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="369" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ada85621aa05f8dcf533c3940103072bc" prot="public" static="no" mutable="no">
+        <type>ternaryfunc</type>
+        <definition>ternaryfunc _typeobject::tp_call</definition>
+        <argsstring></argsstring>
+        <name>tp_call</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="370" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a186e058ba8d2ad3dfe6f503f40a05909" prot="public" static="no" mutable="no">
+        <type>reprfunc</type>
+        <definition>reprfunc _typeobject::tp_str</definition>
+        <argsstring></argsstring>
+        <name>tp_str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="371" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1af952b31f626d02e7e1cbe7d806ea2131" prot="public" static="no" mutable="no">
+        <type>getattrofunc</type>
+        <definition>getattrofunc _typeobject::tp_getattro</definition>
+        <argsstring></argsstring>
+        <name>tp_getattro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="372" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a34bf7e4e5555b7569a07d538ad65910a" prot="public" static="no" mutable="no">
+        <type>setattrofunc</type>
+        <definition>setattrofunc _typeobject::tp_setattro</definition>
+        <argsstring></argsstring>
+        <name>tp_setattro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="373" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a9a413fe33d7a2e14d13197f84cd26cc9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_buffer_procs" kindref="compound">PyBufferProcs</ref> *</type>
+        <definition>PyBufferProcs* _typeobject::tp_as_buffer</definition>
+        <argsstring></argsstring>
+        <name>tp_as_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="376" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ab78013075c0a1ce20d1cfcdcd059b6dc" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long _typeobject::tp_flags</definition>
+        <argsstring></argsstring>
+        <name>tp_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="379" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a1c4954276140dfcffb4150acaaff8494" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* _typeobject::tp_doc</definition>
+        <argsstring></argsstring>
+        <name>tp_doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="381" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a29532c271d34df9363d7b174ab78d397" prot="public" static="no" mutable="no">
+        <type>traverseproc</type>
+        <definition>traverseproc _typeobject::tp_traverse</definition>
+        <argsstring></argsstring>
+        <name>tp_traverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="385" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a092849c27b2588b5cada212c871ff009" prot="public" static="no" mutable="no">
+        <type>inquiry</type>
+        <definition>inquiry _typeobject::tp_clear</definition>
+        <argsstring></argsstring>
+        <name>tp_clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="388" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a0a30eadd156f1369bb7fdbbdf5e6cd37" prot="public" static="no" mutable="no">
+        <type>richcmpfunc</type>
+        <definition>richcmpfunc _typeobject::tp_richcompare</definition>
+        <argsstring></argsstring>
+        <name>tp_richcompare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="392" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ae5742c033af6f3a7ad8389b0eb0ef362" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _typeobject::tp_weaklistoffset</definition>
+        <argsstring></argsstring>
+        <name>tp_weaklistoffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="395" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1aa41b38a7f4b64302d111ed8f31c0fc8a" prot="public" static="no" mutable="no">
+        <type>getiterfunc</type>
+        <definition>getiterfunc _typeobject::tp_iter</definition>
+        <argsstring></argsstring>
+        <name>tp_iter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="398" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ac8a504063223b10ac45dc6a4a84f6b91" prot="public" static="no" mutable="no">
+        <type>iternextfunc</type>
+        <definition>iternextfunc _typeobject::tp_iternext</definition>
+        <argsstring></argsstring>
+        <name>tp_iternext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="399" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ac5b8ef9ede866f6c6800e704e8c7503b" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_py_method_def" kindref="compound">PyMethodDef</ref> *</type>
+        <definition>struct PyMethodDef* _typeobject::tp_methods</definition>
+        <argsstring></argsstring>
+        <name>tp_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="402" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ae35c6aa639013712d8b2852aec6eb5c5" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_py_member_def" kindref="compound">PyMemberDef</ref> *</type>
+        <definition>struct PyMemberDef* _typeobject::tp_members</definition>
+        <argsstring></argsstring>
+        <name>tp_members</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="403" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ad57015f55cd9be5bb1b44d7bd9707bc6" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_py_get_set_def" kindref="compound">PyGetSetDef</ref> *</type>
+        <definition>struct PyGetSetDef* _typeobject::tp_getset</definition>
+        <argsstring></argsstring>
+        <name>tp_getset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="404" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a79eba1ed6b94894bd0dc2da3ad0abbff" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__typeobject" kindref="compound">_typeobject</ref> *</type>
+        <definition>struct _typeobject* _typeobject::tp_base</definition>
+        <argsstring></argsstring>
+        <name>tp_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="405" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a5486840b43a2b6045e99879b327bc0a9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_dict</definition>
+        <argsstring></argsstring>
+        <name>tp_dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="406" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a3ff32e22578c07e795f15e2e58b3c657" prot="public" static="no" mutable="no">
+        <type>descrgetfunc</type>
+        <definition>descrgetfunc _typeobject::tp_descr_get</definition>
+        <argsstring></argsstring>
+        <name>tp_descr_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="407" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a19a6249b18199f7ebdb3635e0340f53d" prot="public" static="no" mutable="no">
+        <type>descrsetfunc</type>
+        <definition>descrsetfunc _typeobject::tp_descr_set</definition>
+        <argsstring></argsstring>
+        <name>tp_descr_set</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="408" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ab986a0a8260c994ea70b79329181c240" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _typeobject::tp_dictoffset</definition>
+        <argsstring></argsstring>
+        <name>tp_dictoffset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="409" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ad083cb6eb85208fa7db2ec355df484e6" prot="public" static="no" mutable="no">
+        <type>initproc</type>
+        <definition>initproc _typeobject::tp_init</definition>
+        <argsstring></argsstring>
+        <name>tp_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="410" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a8458b295e2e10393595dc8714bb3c7f6" prot="public" static="no" mutable="no">
+        <type>allocfunc</type>
+        <definition>allocfunc _typeobject::tp_alloc</definition>
+        <argsstring></argsstring>
+        <name>tp_alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="411" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a64c53edf53481e7d4e87d716c8a9e920" prot="public" static="no" mutable="no">
+        <type>newfunc</type>
+        <definition>newfunc _typeobject::tp_new</definition>
+        <argsstring></argsstring>
+        <name>tp_new</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="412" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a29c9778b79956b04b5bcc51cb418154d" prot="public" static="no" mutable="no">
+        <type>freefunc</type>
+        <definition>freefunc _typeobject::tp_free</definition>
+        <argsstring></argsstring>
+        <name>tp_free</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="413" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1adef285ef9efe163de1c57925451f2b5c" prot="public" static="no" mutable="no">
+        <type>inquiry</type>
+        <definition>inquiry _typeobject::tp_is_gc</definition>
+        <argsstring></argsstring>
+        <name>tp_is_gc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="414" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ac261b8254c5dc6679c5359cc262a9762" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_bases</definition>
+        <argsstring></argsstring>
+        <name>tp_bases</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="415" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ad63f55aa467a1b1ef34dd84a4661d294" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_mro</definition>
+        <argsstring></argsstring>
+        <name>tp_mro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="416" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1abd86b6931d70d6edf700bb7172ca5543" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_cache</definition>
+        <argsstring></argsstring>
+        <name>tp_cache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="417" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1acae460bf5a2aa21095f31534d95d88e4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_subclasses</definition>
+        <argsstring></argsstring>
+        <name>tp_subclasses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="418" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1aeb30a09b1547d3ee33eba050b34f28b6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _typeobject::tp_weaklist</definition>
+        <argsstring></argsstring>
+        <name>tp_weaklist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="419" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1aff367b8344e94586326576ec274b625d" prot="public" static="no" mutable="no">
+        <type>destructor</type>
+        <definition>destructor _typeobject::tp_del</definition>
+        <argsstring></argsstring>
+        <name>tp_del</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="420" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1a20cd8f5be5b4df827007c6a76112531f" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _typeobject::tp_version_tag</definition>
+        <argsstring></argsstring>
+        <name>tp_version_tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="423" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__typeobject_1ac7a48087ec9f8101af2aadef3485b688" prot="public" static="no" mutable="no">
+        <type>destructor</type>
+        <definition>destructor _typeobject::tp_finalize</definition>
+        <argsstring></argsstring>
+        <name>tp_finalize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="425" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="422">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="420">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="418" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="424">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="423">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="425">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="418">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="419" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="421" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="422" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="423" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="424" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="425" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="426" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="427" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="420" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="418" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="419">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="426">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="427">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="420" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="421">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="346" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="346" bodyend="435"/>
+    <listofallmembers>
+      <member refid="struct__typeobject_1a8458b295e2e10393595dc8714bb3c7f6" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_alloc</name></member>
+      <member refid="struct__typeobject_1ae28556990c96f295aafa2796ff92d9a6" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_as_async</name></member>
+      <member refid="struct__typeobject_1a9a413fe33d7a2e14d13197f84cd26cc9" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_as_buffer</name></member>
+      <member refid="struct__typeobject_1a994cf6915913e523db5c29a5c78d4b24" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_as_mapping</name></member>
+      <member refid="struct__typeobject_1a7fe54a45ffad9dea7caa193973ccce1a" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_as_number</name></member>
+      <member refid="struct__typeobject_1af75a067303be5735b139f55a197607af" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_as_sequence</name></member>
+      <member refid="struct__typeobject_1a79eba1ed6b94894bd0dc2da3ad0abbff" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_base</name></member>
+      <member refid="struct__typeobject_1ac261b8254c5dc6679c5359cc262a9762" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_bases</name></member>
+      <member refid="struct__typeobject_1aede3a7181d6d3c0560c44740b805ac00" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_basicsize</name></member>
+      <member refid="struct__typeobject_1abd86b6931d70d6edf700bb7172ca5543" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_cache</name></member>
+      <member refid="struct__typeobject_1ada85621aa05f8dcf533c3940103072bc" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_call</name></member>
+      <member refid="struct__typeobject_1a092849c27b2588b5cada212c871ff009" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_clear</name></member>
+      <member refid="struct__typeobject_1a340396d33c324118bdda0a521bf235fb" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_dealloc</name></member>
+      <member refid="struct__typeobject_1aff367b8344e94586326576ec274b625d" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_del</name></member>
+      <member refid="struct__typeobject_1a3ff32e22578c07e795f15e2e58b3c657" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_descr_get</name></member>
+      <member refid="struct__typeobject_1a19a6249b18199f7ebdb3635e0340f53d" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_descr_set</name></member>
+      <member refid="struct__typeobject_1a5486840b43a2b6045e99879b327bc0a9" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_dict</name></member>
+      <member refid="struct__typeobject_1ab986a0a8260c994ea70b79329181c240" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_dictoffset</name></member>
+      <member refid="struct__typeobject_1a1c4954276140dfcffb4150acaaff8494" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_doc</name></member>
+      <member refid="struct__typeobject_1ac7a48087ec9f8101af2aadef3485b688" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_finalize</name></member>
+      <member refid="struct__typeobject_1ab78013075c0a1ce20d1cfcdcd059b6dc" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_flags</name></member>
+      <member refid="struct__typeobject_1a29c9778b79956b04b5bcc51cb418154d" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_free</name></member>
+      <member refid="struct__typeobject_1a08abee6f5a4acecaf660eebadd013d09" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_getattr</name></member>
+      <member refid="struct__typeobject_1af952b31f626d02e7e1cbe7d806ea2131" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_getattro</name></member>
+      <member refid="struct__typeobject_1ad57015f55cd9be5bb1b44d7bd9707bc6" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_getset</name></member>
+      <member refid="struct__typeobject_1a0264db6fd772b4c0968c4e71ca1a62a9" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_hash</name></member>
+      <member refid="struct__typeobject_1ad083cb6eb85208fa7db2ec355df484e6" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_init</name></member>
+      <member refid="struct__typeobject_1adef285ef9efe163de1c57925451f2b5c" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_is_gc</name></member>
+      <member refid="struct__typeobject_1aa2f823359e194b776476771c4b4a0a99" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_itemsize</name></member>
+      <member refid="struct__typeobject_1aa41b38a7f4b64302d111ed8f31c0fc8a" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_iter</name></member>
+      <member refid="struct__typeobject_1ac8a504063223b10ac45dc6a4a84f6b91" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_iternext</name></member>
+      <member refid="struct__typeobject_1ae35c6aa639013712d8b2852aec6eb5c5" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_members</name></member>
+      <member refid="struct__typeobject_1ac5b8ef9ede866f6c6800e704e8c7503b" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_methods</name></member>
+      <member refid="struct__typeobject_1ad63f55aa467a1b1ef34dd84a4661d294" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_mro</name></member>
+      <member refid="struct__typeobject_1ac5e735ef4e5e666b94668cbed5a08901" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_name</name></member>
+      <member refid="struct__typeobject_1a64c53edf53481e7d4e87d716c8a9e920" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_new</name></member>
+      <member refid="struct__typeobject_1a9b6d17094356175c542e007464cae33f" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_print</name></member>
+      <member refid="struct__typeobject_1a3eb42d25116ad9a0ee140669e7a9a50c" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_repr</name></member>
+      <member refid="struct__typeobject_1a0a30eadd156f1369bb7fdbbdf5e6cd37" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_richcompare</name></member>
+      <member refid="struct__typeobject_1a83b13e804c97dd0941b6531cfd501640" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_setattr</name></member>
+      <member refid="struct__typeobject_1a34bf7e4e5555b7569a07d538ad65910a" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_setattro</name></member>
+      <member refid="struct__typeobject_1a186e058ba8d2ad3dfe6f503f40a05909" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_str</name></member>
+      <member refid="struct__typeobject_1acae460bf5a2aa21095f31534d95d88e4" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_subclasses</name></member>
+      <member refid="struct__typeobject_1a29532c271d34df9363d7b174ab78d397" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_traverse</name></member>
+      <member refid="struct__typeobject_1a20cd8f5be5b4df827007c6a76112531f" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_version_tag</name></member>
+      <member refid="struct__typeobject_1aeb30a09b1547d3ee33eba050b34f28b6" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_weaklist</name></member>
+      <member refid="struct__typeobject_1ae5742c033af6f3a7ad8389b0eb0ef362" prot="public" virt="non-virtual"><scope>_typeobject</scope><name>tp_weaklistoffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

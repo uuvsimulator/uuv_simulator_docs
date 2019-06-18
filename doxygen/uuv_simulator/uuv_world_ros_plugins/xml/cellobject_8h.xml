@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="cellobject_8h" kind="file" language="C++">
+    <compoundname>cellobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2818">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2819">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2821">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2815">
+        <label>/usr/include/python3.6m/cellobject.h</label>
+        <link refid="cellobject_8h"/>
+        <childnode refid="2816" relation="include">
+        </childnode>
+      </node>
+      <node id="2816">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2817" relation="include">
+        </childnode>
+        <childnode refid="2819" relation="include">
+        </childnode>
+        <childnode refid="2820" relation="include">
+        </childnode>
+        <childnode refid="2821" relation="include">
+        </childnode>
+        <childnode refid="2822" relation="include">
+        </childnode>
+      </node>
+      <node id="2822">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2817">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2818" relation="include">
+        </childnode>
+      </node>
+      <node id="2820">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_cell_object" prot="public">PyCellObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="cellobject_8h_1abd82a712916140ec1becd89ea0c8a7b2" prot="public" static="no">
+        <name>PyCell_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyCell_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="16" column="9" bodyfile="/usr/include/python3.6m/cellobject.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cellobject_8h_1aa3def8a27dc9ce4e800b91d83f596856" prot="public" static="no">
+        <name>PyCell_GET</name>
+        <param><defname>op</defname></param>
+        <initializer>(((<ref refid="struct_py_cell_object" kindref="compound">PyCellObject</ref> *)(op))-&gt;ob_ref)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="22" column="9" bodyfile="/usr/include/python3.6m/cellobject.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="cellobject_8h_1a1b0139bdfcf55d9d560773088624753d" prot="public" static="no">
+        <name>PyCell_SET</name>
+        <param><defname>op</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>(((<ref refid="struct_py_cell_object" kindref="compound">PyCellObject</ref> *)(op))-&gt;ob_ref = v)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="23" column="9" bodyfile="/usr/include/python3.6m/cellobject.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="cellobject_8h_1aa2b38a2a1b3f0c4e1a50aa0a65a0578d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyCell_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cellobject_8h_1a368c94171dcbf62bde443f23173e54d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyCell_New(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="cellobject_8h_1aeabc93fcc01b961c34774572c9fd1762" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyCell_Set(PyObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/cellobject.h" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Cell<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_CELLOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_CELLOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="struct_py_cell_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ob_ref;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Content<sp/>of<sp/>the<sp/>cell<sp/>or<sp/>NULL<sp/>when<sp/>empty<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}<sp/><ref refid="struct_py_cell_object" kindref="compound">PyCellObject</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyCell_Type;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCell_Check(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyCell_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyCell_New(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyCell_Get(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyCell_Set(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCell_GET(op)<sp/>(((PyCellObject<sp/>*)(op))-&gt;ob_ref)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCell_SET(op,<sp/>v)<sp/>(((PyCellObject<sp/>*)(op))-&gt;ob_ref<sp/>=<sp/>v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_TUPLEOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/cellobject.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_memory_view_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyMemoryViewObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_memory_view_object_1a3f2795998b2e321404f16546220fe489" prot="public" static="no" mutable="no">
+        <type>PyObject_VAR_HEAD <ref refid="struct___py_managed_buffer_object" kindref="compound">_PyManagedBufferObject</ref> *</type>
+        <definition>PyObject_VAR_HEAD _PyManagedBufferObject* PyMemoryViewObject::mbuf</definition>
+        <argsstring></argsstring>
+        <name>mbuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="59" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1ac108de4518b5cd28d67f09774d0650f5" prot="public" static="no" mutable="no">
+        <type>Py_hash_t</type>
+        <definition>Py_hash_t PyMemoryViewObject::hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="60" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1a8cbdae36432c172551c6c6d85d2e1027" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyMemoryViewObject::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="61" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1a277792b3cadb340a1d1a8f1673982d4e" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyMemoryViewObject::exports</definition>
+        <argsstring></argsstring>
+        <name>exports</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="62" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1a0dd3ff4ff4e322d654468e5517b6a6a8" prot="public" static="no" mutable="no">
+        <type><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref></type>
+        <definition>Py_buffer PyMemoryViewObject::view</definition>
+        <argsstring></argsstring>
+        <name>view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="63" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1aee27a2d4e913c7978a3c14c0de8ecd5c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyMemoryViewObject::weakreflist</definition>
+        <argsstring></argsstring>
+        <name>weakreflist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="64" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_memory_view_object_1a98430b1c46ab455746cde1267fdfb665" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyMemoryViewObject::ob_array[1]</definition>
+        <argsstring>[1]</argsstring>
+        <name>ob_array</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="65" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1247">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1242">
+        <label>bufferinfo</label>
+        <link refid="structbufferinfo"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>obj</edgelabel>
+        </childnode>
+      </node>
+      <node id="1243">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1244" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1241">
+        <label>PyMemoryViewObject</label>
+        <link refid="struct_py_memory_view_object"/>
+        <childnode refid="1242" relation="usage">
+          <edgelabel>view</edgelabel>
+        </childnode>
+        <childnode refid="1253" relation="usage">
+          <edgelabel>mbuf</edgelabel>
+        </childnode>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>weakreflist</edgelabel>
+        </childnode>
+      </node>
+      <node id="1249">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1248">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1250">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1244">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1245" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1246" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1247" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1248" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1249" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1250" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1251" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1252" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1244" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1245">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1251">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1252">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1243" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1246">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+      <node id="1253">
+        <label>_PyManagedBufferObject</label>
+        <link refid="struct___py_managed_buffer_object"/>
+        <childnode refid="1242" relation="usage">
+          <edgelabel>master</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/memoryobject.h" line="57" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="57" bodyend="66"/>
+    <listofallmembers>
+      <member refid="struct_py_memory_view_object_1a277792b3cadb340a1d1a8f1673982d4e" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>exports</name></member>
+      <member refid="struct_py_memory_view_object_1a8cbdae36432c172551c6c6d85d2e1027" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>flags</name></member>
+      <member refid="struct_py_memory_view_object_1ac108de4518b5cd28d67f09774d0650f5" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>hash</name></member>
+      <member refid="struct_py_memory_view_object_1a3f2795998b2e321404f16546220fe489" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>mbuf</name></member>
+      <member refid="struct_py_memory_view_object_1a98430b1c46ab455746cde1267fdfb665" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>ob_array</name></member>
+      <member refid="struct_py_memory_view_object_1a0dd3ff4ff4e322d654468e5517b6a6a8" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>view</name></member>
+      <member refid="struct_py_memory_view_object_1aee27a2d4e913c7978a3c14c0de8ecd5c" prot="public" virt="non-virtual"><scope>PyMemoryViewObject</scope><name>weakreflist</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_var_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyVarObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_var_object_1a8b688b12f411a48693a8b159da7ab549" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref></type>
+        <definition>PyObject PyVarObject::ob_base</definition>
+        <argsstring></argsstring>
+        <name>ob_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="113" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_var_object_1ab0b102c17bbf84f5c55baaaff77847c9" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyVarObject::ob_size</definition>
+        <argsstring></argsstring>
+        <name>ob_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="114" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1460">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1456">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1457" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1462">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1461">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1463">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1457">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1458" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1459" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1460" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1461" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1462" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1463" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1464" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1465" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1457" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1458">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1464">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1455">
+        <label>PyVarObject</label>
+        <link refid="struct_py_var_object"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>ob_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1465">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1456" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1459">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="112" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="112" bodyend="115"/>
+    <listofallmembers>
+      <member refid="struct_py_var_object_1a8b688b12f411a48693a8b159da7ab549" prot="public" virt="non-virtual"><scope>PyVarObject</scope><name>ob_base</name></member>
+      <member refid="struct_py_var_object_1ab0b102c17bbf84f5c55baaaff77847c9" prot="public" virt="non-virtual"><scope>PyVarObject</scope><name>ob_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

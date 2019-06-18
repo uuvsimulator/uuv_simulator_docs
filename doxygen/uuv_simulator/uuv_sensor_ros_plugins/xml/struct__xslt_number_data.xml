@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xslt_number_data" kind="struct" language="C++" prot="public">
+    <compoundname>_xsltNumberData</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xslt_number_data_1ac997049f2cdb92bc79f29b96a0cd63ba" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltNumberData::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="31" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a790685c8cb9abb9769408c9ec7ef4270" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltNumberData::count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="32" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a1aa95def2369f66a088019353e6e1138" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltNumberData::from</definition>
+        <argsstring></argsstring>
+        <name>from</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="33" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a3cbced3fa99aeb415c3a21c0a2063596" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltNumberData::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="34" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a316f3ebff5ee852ef98b49607877943a" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xsltNumberData::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="35" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a809af13a118664ddb99d54a8039aef49" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltNumberData::has_format</definition>
+        <argsstring></argsstring>
+        <name>has_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="36" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1aaf479d79fa0e305db94bc0d5db68d1d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltNumberData::digitsPerGroup</definition>
+        <argsstring></argsstring>
+        <name>digitsPerGroup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="37" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a3eafd9afa45b7209017d8e87ed185c4f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltNumberData::groupingCharacter</definition>
+        <argsstring></argsstring>
+        <name>groupingCharacter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="38" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a6a55344d7d9465395f74bbd4eda1122d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _xsltNumberData::groupingCharacterLen</definition>
+        <argsstring></argsstring>
+        <name>groupingCharacterLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="39" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1adedee94d02502e5b1b9595657bbca98f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref></type>
+        <definition>xmlDocPtr _xsltNumberData::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="40" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1a1989d529458248bd2aa96c817d60356d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+        <definition>xmlNodePtr _xsltNumberData::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="41" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1ae32f32001a93688eb2281b03e0cad9da" prot="public" static="no" mutable="no">
+        <type>struct _xsltCompMatch *</type>
+        <definition>struct _xsltCompMatch* _xsltNumberData::countPat</definition>
+        <argsstring></argsstring>
+        <name>countPat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="42" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xslt_number_data_1afc34c0e5e66aa9483ba0e9a125421b00" prot="public" static="no" mutable="no">
+        <type>struct _xsltCompMatch *</type>
+        <definition>struct _xsltCompMatch* _xsltNumberData::fromPat</definition>
+        <argsstring></argsstring>
+        <name>fromPat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="43" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="678">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="677" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="678" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="679">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="677" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="681" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="681">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="677" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="680">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="679" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="677">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="677" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="678" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="680" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="676">
+        <label>_xsltNumberData</label>
+        <link refid="struct__xslt_number_data"/>
+        <childnode refid="677" relation="usage">
+          <edgelabel>node</edgelabel>
+        </childnode>
+        <childnode refid="679" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" line="30" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h" bodystart="30" bodyend="48"/>
+    <listofallmembers>
+      <member refid="struct__xslt_number_data_1a790685c8cb9abb9769408c9ec7ef4270" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>count</name></member>
+      <member refid="struct__xslt_number_data_1ae32f32001a93688eb2281b03e0cad9da" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>countPat</name></member>
+      <member refid="struct__xslt_number_data_1aaf479d79fa0e305db94bc0d5db68d1d5" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>digitsPerGroup</name></member>
+      <member refid="struct__xslt_number_data_1adedee94d02502e5b1b9595657bbca98f" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>doc</name></member>
+      <member refid="struct__xslt_number_data_1a316f3ebff5ee852ef98b49607877943a" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>format</name></member>
+      <member refid="struct__xslt_number_data_1a1aa95def2369f66a088019353e6e1138" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>from</name></member>
+      <member refid="struct__xslt_number_data_1afc34c0e5e66aa9483ba0e9a125421b00" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>fromPat</name></member>
+      <member refid="struct__xslt_number_data_1a3eafd9afa45b7209017d8e87ed185c4f" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>groupingCharacter</name></member>
+      <member refid="struct__xslt_number_data_1a6a55344d7d9465395f74bbd4eda1122d" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>groupingCharacterLen</name></member>
+      <member refid="struct__xslt_number_data_1a809af13a118664ddb99d54a8039aef49" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>has_format</name></member>
+      <member refid="struct__xslt_number_data_1ac997049f2cdb92bc79f29b96a0cd63ba" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>level</name></member>
+      <member refid="struct__xslt_number_data_1a1989d529458248bd2aa96c817d60356d" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>node</name></member>
+      <member refid="struct__xslt_number_data_1a3cbced3fa99aeb415c3a21c0a2063596" prot="public" virt="non-virtual"><scope>_xsltNumberData</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

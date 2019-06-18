@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__ts" kind="struct" language="C++" prot="public">
+    <compoundname>_ts</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__ts_1a0fe90a045d1bf855b2a02df1df775e16" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__ts" kindref="compound">_ts</ref> *</type>
+        <definition>struct _ts* _ts::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="87" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a07c61e6e5019334491b799a4a35a364c" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__ts" kindref="compound">_ts</ref> *</type>
+        <definition>struct _ts* _ts::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="88" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a218498c5d2725df0a11a604c873c7af2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__is" kindref="compound">PyInterpreterState</ref> *</type>
+        <definition>PyInterpreterState* _ts::interp</definition>
+        <argsstring></argsstring>
+        <name>interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="89" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a06cc5290746f822f1ef96a87983d0388" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__frame" kindref="compound">_frame</ref> *</type>
+        <definition>struct _frame* _ts::frame</definition>
+        <argsstring></argsstring>
+        <name>frame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="91" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a6b8d0637b018eecff79f70a6e23292ac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::recursion_depth</definition>
+        <argsstring></argsstring>
+        <name>recursion_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="92" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a3be91b6d624929de136249ce46671bfe" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _ts::overflowed</definition>
+        <argsstring></argsstring>
+        <name>overflowed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="93" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a5ad6a9cc55a6c7b6a4a9301e57c7f7a9" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _ts::recursion_critical</definition>
+        <argsstring></argsstring>
+        <name>recursion_critical</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="95" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a471e83bc7094f90ee8ec4834eb240ad5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::tracing</definition>
+        <argsstring></argsstring>
+        <name>tracing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="100" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1acfef5d2d1002bcf0b14e4535e8a9827b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::use_tracing</definition>
+        <argsstring></argsstring>
+        <name>use_tracing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="101" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a354e6c632d0c7d71b95edfa41a304e94" prot="public" static="no" mutable="no">
+        <type>Py_tracefunc</type>
+        <definition>Py_tracefunc _ts::c_profilefunc</definition>
+        <argsstring></argsstring>
+        <name>c_profilefunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="103" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a62ef329915123042c2cb1a943e986e18" prot="public" static="no" mutable="no">
+        <type>Py_tracefunc</type>
+        <definition>Py_tracefunc _ts::c_tracefunc</definition>
+        <argsstring></argsstring>
+        <name>c_tracefunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="104" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a69de89b983a3a9a5f81bbf59eb27023d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::c_profileobj</definition>
+        <argsstring></argsstring>
+        <name>c_profileobj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="105" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ad1d1bf64520bc604c7177fd4ca6fbff0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::c_traceobj</definition>
+        <argsstring></argsstring>
+        <name>c_traceobj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="106" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1acc500baaee5daf1e51115b8799d91918" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::curexc_type</definition>
+        <argsstring></argsstring>
+        <name>curexc_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="108" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a49b753b1c8ed314bf3ca1cbd37cb5fc9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::curexc_value</definition>
+        <argsstring></argsstring>
+        <name>curexc_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="109" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1aeabab7a3345fe7f60a4c82ea81a1c81d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::curexc_traceback</definition>
+        <argsstring></argsstring>
+        <name>curexc_traceback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="110" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1aef14d4a75d97d3296136822dd1ef439e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::exc_type</definition>
+        <argsstring></argsstring>
+        <name>exc_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="112" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a60f5422b5ac39104bf338015fb40900f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::exc_value</definition>
+        <argsstring></argsstring>
+        <name>exc_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="113" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ae3a9cc8bc03b5715c51c52a677a87552" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::exc_traceback</definition>
+        <argsstring></argsstring>
+        <name>exc_traceback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="114" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1acd979c9d066dde17e31d442cf653e9d5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="116" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a2a1af12986d8ab605b22d0840f2c23cf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::gilstate_counter</definition>
+        <argsstring></argsstring>
+        <name>gilstate_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="118" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a5049998e3860dc12b7104a382cf404c0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::async_exc</definition>
+        <argsstring></argsstring>
+        <name>async_exc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="120" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a8232b11c626b661c1d69560e0b562e7d" prot="public" static="no" mutable="no">
+        <type>long</type>
+        <definition>long _ts::thread_id</definition>
+        <argsstring></argsstring>
+        <name>thread_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="121" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ae8f5168097f7db47480b7c8e28832fc8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::trash_delete_nesting</definition>
+        <argsstring></argsstring>
+        <name>trash_delete_nesting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="123" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a90079dbf02b1666ef4b6b1017ad9dab7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::trash_delete_later</definition>
+        <argsstring></argsstring>
+        <name>trash_delete_later</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="124" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a5636d1d3d3f66a2629c832eedc4e961a" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* _ts::on_delete) (void *)</definition>
+        <argsstring>)(void *)</argsstring>
+        <name>on_delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="149" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ad884a618beea03ff4826eab09b252c3b" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _ts::on_delete_data</definition>
+        <argsstring></argsstring>
+        <name>on_delete_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="150" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a120ec7760cf23f6db30830675584778d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::coroutine_wrapper</definition>
+        <argsstring></argsstring>
+        <name>coroutine_wrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="152" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ad95eb898bfbaf97f54774dfd48e0ada5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _ts::in_coroutine_wrapper</definition>
+        <argsstring></argsstring>
+        <name>in_coroutine_wrapper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="153" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1af7bfdb54d2ea9cb78261fde0b79f5ea6" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _ts::_preserve_36_ABI_1</definition>
+        <argsstring></argsstring>
+        <name>_preserve_36_ABI_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="157" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a7a60f25098e5f9fcf573c720385298f9" prot="public" static="no" mutable="no">
+        <type>freefunc</type>
+        <definition>freefunc _ts::_preserve_36_ABI_2[MAX_CO_EXTRA_USERS]</definition>
+        <argsstring>[MAX_CO_EXTRA_USERS]</argsstring>
+        <name>_preserve_36_ABI_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="158" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1ad0ff18660aeec30e4370cd1939db137f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::async_gen_firstiter</definition>
+        <argsstring></argsstring>
+        <name>async_gen_firstiter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="160" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__ts_1a6d3f90ad605dd2afcf3e00f12dc1f7f9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _ts::async_gen_finalizer</definition>
+        <argsstring></argsstring>
+        <name>async_gen_finalizer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="161" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="408">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="402">
+        <label>_ts</label>
+        <link refid="struct__ts"/>
+        <childnode refid="403" relation="usage">
+          <edgelabel>interp</edgelabel>
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>trash_delete_later</edgelabel>
+          <edgelabel>exc_type</edgelabel>
+          <edgelabel>curexc_value</edgelabel>
+          <edgelabel>c_profileobj</edgelabel>
+          <edgelabel>async_exc</edgelabel>
+          <edgelabel>async_gen_finalizer</edgelabel>
+          <edgelabel>dict</edgelabel>
+          <edgelabel>curexc_traceback</edgelabel>
+          <edgelabel>curexc_type</edgelabel>
+          <edgelabel>c_traceobj</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>frame</edgelabel>
+        </childnode>
+      </node>
+      <node id="404">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="405" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="410">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="409">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="411">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="414">
+        <label>_frame</label>
+        <link refid="struct__frame"/>
+        <childnode refid="415" relation="usage">
+          <edgelabel>f_blockstack</edgelabel>
+        </childnode>
+        <childnode refid="416" relation="usage">
+          <edgelabel>f_code</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>f_gen</edgelabel>
+          <edgelabel>f_valuestack</edgelabel>
+          <edgelabel>f_exc_value</edgelabel>
+          <edgelabel>f_exc_traceback</edgelabel>
+          <edgelabel>f_trace</edgelabel>
+          <edgelabel>f_stacktop</edgelabel>
+          <edgelabel>f_locals</edgelabel>
+          <edgelabel>f_globals</edgelabel>
+          <edgelabel>f_builtins</edgelabel>
+          <edgelabel>f_localsplus</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="414" relation="usage">
+          <edgelabel>f_back</edgelabel>
+        </childnode>
+      </node>
+      <node id="405">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="406" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="407" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="408" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="409" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="410" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="411" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="412" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="413" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="405" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="415">
+        <label>PyTryBlock</label>
+        <link refid="struct_py_try_block"/>
+      </node>
+      <node id="406">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="416">
+        <label>PyCodeObject</label>
+        <link refid="struct_py_code_object"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>co_freevars</edgelabel>
+          <edgelabel>co_consts</edgelabel>
+          <edgelabel>co_cellvars</edgelabel>
+          <edgelabel>co_lnotab</edgelabel>
+          <edgelabel>co_filename</edgelabel>
+          <edgelabel>co_varnames</edgelabel>
+          <edgelabel>co_weakreflist</edgelabel>
+          <edgelabel>co_names</edgelabel>
+          <edgelabel>co_name</edgelabel>
+          <edgelabel>co_code</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="412">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="413">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="404" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="403">
+        <label>_is</label>
+        <link refid="struct__is"/>
+        <childnode refid="403" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="402" relation="usage">
+          <edgelabel>tstate_head</edgelabel>
+        </childnode>
+        <childnode refid="404" relation="usage">
+          <edgelabel>import_func</edgelabel>
+          <edgelabel>importlib</edgelabel>
+          <edgelabel>builtins</edgelabel>
+          <edgelabel>builtins_copy</edgelabel>
+          <edgelabel>codec_search_path</edgelabel>
+          <edgelabel>modules</edgelabel>
+          <edgelabel>eval_frame</edgelabel>
+          <edgelabel>codec_search_cache</edgelabel>
+          <edgelabel>modules_by_index</edgelabel>
+          <edgelabel>codec_error_registry</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="407">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/pystate.h" line="84" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="84" bodyend="165"/>
+    <listofallmembers>
+      <member refid="struct__ts_1af7bfdb54d2ea9cb78261fde0b79f5ea6" prot="public" virt="non-virtual"><scope>_ts</scope><name>_preserve_36_ABI_1</name></member>
+      <member refid="struct__ts_1a7a60f25098e5f9fcf573c720385298f9" prot="public" virt="non-virtual"><scope>_ts</scope><name>_preserve_36_ABI_2</name></member>
+      <member refid="struct__ts_1a5049998e3860dc12b7104a382cf404c0" prot="public" virt="non-virtual"><scope>_ts</scope><name>async_exc</name></member>
+      <member refid="struct__ts_1a6d3f90ad605dd2afcf3e00f12dc1f7f9" prot="public" virt="non-virtual"><scope>_ts</scope><name>async_gen_finalizer</name></member>
+      <member refid="struct__ts_1ad0ff18660aeec30e4370cd1939db137f" prot="public" virt="non-virtual"><scope>_ts</scope><name>async_gen_firstiter</name></member>
+      <member refid="struct__ts_1a354e6c632d0c7d71b95edfa41a304e94" prot="public" virt="non-virtual"><scope>_ts</scope><name>c_profilefunc</name></member>
+      <member refid="struct__ts_1a69de89b983a3a9a5f81bbf59eb27023d" prot="public" virt="non-virtual"><scope>_ts</scope><name>c_profileobj</name></member>
+      <member refid="struct__ts_1a62ef329915123042c2cb1a943e986e18" prot="public" virt="non-virtual"><scope>_ts</scope><name>c_tracefunc</name></member>
+      <member refid="struct__ts_1ad1d1bf64520bc604c7177fd4ca6fbff0" prot="public" virt="non-virtual"><scope>_ts</scope><name>c_traceobj</name></member>
+      <member refid="struct__ts_1a120ec7760cf23f6db30830675584778d" prot="public" virt="non-virtual"><scope>_ts</scope><name>coroutine_wrapper</name></member>
+      <member refid="struct__ts_1aeabab7a3345fe7f60a4c82ea81a1c81d" prot="public" virt="non-virtual"><scope>_ts</scope><name>curexc_traceback</name></member>
+      <member refid="struct__ts_1acc500baaee5daf1e51115b8799d91918" prot="public" virt="non-virtual"><scope>_ts</scope><name>curexc_type</name></member>
+      <member refid="struct__ts_1a49b753b1c8ed314bf3ca1cbd37cb5fc9" prot="public" virt="non-virtual"><scope>_ts</scope><name>curexc_value</name></member>
+      <member refid="struct__ts_1acd979c9d066dde17e31d442cf653e9d5" prot="public" virt="non-virtual"><scope>_ts</scope><name>dict</name></member>
+      <member refid="struct__ts_1ae3a9cc8bc03b5715c51c52a677a87552" prot="public" virt="non-virtual"><scope>_ts</scope><name>exc_traceback</name></member>
+      <member refid="struct__ts_1aef14d4a75d97d3296136822dd1ef439e" prot="public" virt="non-virtual"><scope>_ts</scope><name>exc_type</name></member>
+      <member refid="struct__ts_1a60f5422b5ac39104bf338015fb40900f" prot="public" virt="non-virtual"><scope>_ts</scope><name>exc_value</name></member>
+      <member refid="struct__ts_1a06cc5290746f822f1ef96a87983d0388" prot="public" virt="non-virtual"><scope>_ts</scope><name>frame</name></member>
+      <member refid="struct__ts_1a2a1af12986d8ab605b22d0840f2c23cf" prot="public" virt="non-virtual"><scope>_ts</scope><name>gilstate_counter</name></member>
+      <member refid="struct__ts_1ad95eb898bfbaf97f54774dfd48e0ada5" prot="public" virt="non-virtual"><scope>_ts</scope><name>in_coroutine_wrapper</name></member>
+      <member refid="struct__ts_1a218498c5d2725df0a11a604c873c7af2" prot="public" virt="non-virtual"><scope>_ts</scope><name>interp</name></member>
+      <member refid="struct__ts_1a07c61e6e5019334491b799a4a35a364c" prot="public" virt="non-virtual"><scope>_ts</scope><name>next</name></member>
+      <member refid="struct__ts_1a5636d1d3d3f66a2629c832eedc4e961a" prot="public" virt="non-virtual"><scope>_ts</scope><name>on_delete</name></member>
+      <member refid="struct__ts_1ad884a618beea03ff4826eab09b252c3b" prot="public" virt="non-virtual"><scope>_ts</scope><name>on_delete_data</name></member>
+      <member refid="struct__ts_1a3be91b6d624929de136249ce46671bfe" prot="public" virt="non-virtual"><scope>_ts</scope><name>overflowed</name></member>
+      <member refid="struct__ts_1a0fe90a045d1bf855b2a02df1df775e16" prot="public" virt="non-virtual"><scope>_ts</scope><name>prev</name></member>
+      <member refid="struct__ts_1a5ad6a9cc55a6c7b6a4a9301e57c7f7a9" prot="public" virt="non-virtual"><scope>_ts</scope><name>recursion_critical</name></member>
+      <member refid="struct__ts_1a6b8d0637b018eecff79f70a6e23292ac" prot="public" virt="non-virtual"><scope>_ts</scope><name>recursion_depth</name></member>
+      <member refid="struct__ts_1a8232b11c626b661c1d69560e0b562e7d" prot="public" virt="non-virtual"><scope>_ts</scope><name>thread_id</name></member>
+      <member refid="struct__ts_1a471e83bc7094f90ee8ec4834eb240ad5" prot="public" virt="non-virtual"><scope>_ts</scope><name>tracing</name></member>
+      <member refid="struct__ts_1a90079dbf02b1666ef4b6b1017ad9dab7" prot="public" virt="non-virtual"><scope>_ts</scope><name>trash_delete_later</name></member>
+      <member refid="struct__ts_1ae8f5168097f7db47480b7c8e28832fc8" prot="public" virt="non-virtual"><scope>_ts</scope><name>trash_delete_nesting</name></member>
+      <member refid="struct__ts_1acfef5d2d1002bcf0b14e4535e8a9827b" prot="public" virt="non-virtual"><scope>_ts</scope><name>use_tracing</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

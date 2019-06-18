@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_a_s_c_i_i_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyASCIIObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a90c3126af2bd2e05b88baceb267ef75d" prot="public" static="no" mutable="no">
+        <type>PyObject_HEAD Py_ssize_t</type>
+        <definition>PyObject_HEAD Py_ssize_t PyASCIIObject::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="276" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1aea284faaed395618dc316769d1ec371c" prot="public" static="no" mutable="no">
+        <type>Py_hash_t</type>
+        <definition>Py_hash_t PyASCIIObject::hash</definition>
+        <argsstring></argsstring>
+        <name>hash</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="277" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a215f9848bb29176658f58506b0814d72" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyASCIIObject::interned</definition>
+        <argsstring></argsstring>
+        <name>interned</name>
+        <bitfield>2</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="287" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a1c6c73e53b9a4b04f211a04ef8a7088a" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyASCIIObject::kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <bitfield>3</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="315" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a4222bcd2b8cc0bf6f6ddd0f3a7be6e89" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyASCIIObject::compact</definition>
+        <argsstring></argsstring>
+        <name>compact</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="320" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a5a98f71454148e0c3e778499a96833e6" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyASCIIObject::ascii</definition>
+        <argsstring></argsstring>
+        <name>ascii</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="324" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="324" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a863b14c511f998b3e39e236465f75813" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyASCIIObject::ready</definition>
+        <argsstring></argsstring>
+        <name>ready</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="329" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1ae6ac3c27599498634b6ce6d22f365021" prot="public" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned PyASCIIObject::int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <bitfield>24</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="332" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="332" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a16d3a4e585507c4312fc489c845817fa" prot="public" static="no" mutable="no">
+        <type>struct PyASCIIObject::@69</type>
+        <definition>struct PyASCIIObject::@69  PyASCIIObject::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="333" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_a_s_c_i_i_object_1a9774aaad393b1152a6f68597909a128d" prot="public" static="no" mutable="no">
+        <type>wchar_t *</type>
+        <definition>wchar_t* PyASCIIObject::wstr</definition>
+        <argsstring></argsstring>
+        <name>wstr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="334" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/unicodeobject.h" line="201" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="201" bodyend="335"/>
+    <listofallmembers>
+      <member refid="struct_py_a_s_c_i_i_object_1a5a98f71454148e0c3e778499a96833e6" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>ascii</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a4222bcd2b8cc0bf6f6ddd0f3a7be6e89" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>compact</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1aea284faaed395618dc316769d1ec371c" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>hash</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1ae6ac3c27599498634b6ce6d22f365021" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>int</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a215f9848bb29176658f58506b0814d72" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>interned</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a1c6c73e53b9a4b04f211a04ef8a7088a" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>kind</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a90c3126af2bd2e05b88baceb267ef75d" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>length</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a863b14c511f998b3e39e236465f75813" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>ready</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a16d3a4e585507c4312fc489c845817fa" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>state</name></member>
+      <member refid="struct_py_a_s_c_i_i_object_1a9774aaad393b1152a6f68597909a128d" prot="public" virt="non-virtual"><scope>PyASCIIObject</scope><name>wstr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

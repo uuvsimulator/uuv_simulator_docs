@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pystrtod_8h" kind="file" language="C++">
+    <compoundname>pystrtod.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3593">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3594">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3590">
+        <label>/usr/include/python3.6m/pystrtod.h</label>
+        <link refid="pystrtod_8h"/>
+        <childnode refid="3591" relation="include">
+        </childnode>
+      </node>
+      <node id="3596">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3591">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3592" relation="include">
+        </childnode>
+        <childnode refid="3594" relation="include">
+        </childnode>
+        <childnode refid="3595" relation="include">
+        </childnode>
+        <childnode refid="3596" relation="include">
+        </childnode>
+        <childnode refid="3597" relation="include">
+        </childnode>
+      </node>
+      <node id="3597">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3592">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3593" relation="include">
+        </childnode>
+      </node>
+      <node id="3595">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pystrtod_8h_1a1722be6a7a35e74ee6942258dc4be6bb" prot="public" static="no">
+        <name>Py_DTSF_SIGN</name>
+        <initializer>0x01 /* always add the sign */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="31" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystrtod_8h_1a87bcd930e56b87c606fe6610c10bdbdf" prot="public" static="no">
+        <name>Py_DTSF_ADD_DOT_0</name>
+        <initializer>0x02 /* if the result is an integer add &quot;.0&quot; */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="32" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystrtod_8h_1a3b92af20209616fdd42428da34fe73c1" prot="public" static="no">
+        <name>Py_DTSF_ALT</name>
+        <initializer>0x04 /* &quot;alternate&quot; formatting. it&apos;s format_code
+                                  specific */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="34" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystrtod_8h_1a4cc01a9a921833813e942ad064fac0d3" prot="public" static="no">
+        <name>Py_DTST_FINITE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="37" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystrtod_8h_1a461e18119566cb839874f4da21337dfb" prot="public" static="no">
+        <name>Py_DTST_INFINITE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="38" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystrtod_8h_1a647ee087d36a6526729c2f59d9231b0a" prot="public" static="no">
+        <name>Py_DTST_NAN</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="39" column="9" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="pystrtod_8h_1ad71cb46dd325fb7780a12a0b7bda2c9c" prot="public" static="no" mutable="no">
+        <type>char **</type>
+        <definition>char ** endptr</definition>
+        <argsstring></argsstring>
+        <name>endptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="10" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a300deff4c4d06e95839b5368695eafc9" prot="public" static="no" mutable="no">
+        <type>char <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>char PyObject* overflow_exception</definition>
+        <argsstring></argsstring>
+        <name>overflow_exception</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="11" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a3ae60b2112dd838c31610128d7f4e473" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char format_code</definition>
+        <argsstring></argsstring>
+        <name>format_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="16" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a19d77132d28fdddd521974bf37a34f80" prot="public" static="no" mutable="no">
+        <type>char int</type>
+        <definition>char int precision</definition>
+        <argsstring></argsstring>
+        <name>precision</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="17" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a859a549ff2b5777097fccef669c4ce61" prot="public" static="no" mutable="no">
+        <type>char int int</type>
+        <definition>char int int flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="18" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1aa4a86d796321c3142c092ce30a5c2512" prot="public" static="no" mutable="no">
+        <type>char int int int *</type>
+        <definition>char int int int* type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="19" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a105904f12146f0a02731076cfd0ea6e5" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="23" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1aee862293ec811dde3ff61eac2fcf349b" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t const char *</type>
+        <definition>Py_ssize_t const char* what</definition>
+        <argsstring></argsstring>
+        <name>what</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="23" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a3b41d0a6d45918f3acb9901a686ec00a" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t const char <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>Py_ssize_t const char PyObject* obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="23" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a43c2aac403d28e3eac56f89bbecc91ba" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t const char <ref refid="struct__object" kindref="compound">PyObject</ref> void *</type>
+        <definition>Py_ssize_t const char PyObject void* arg</definition>
+        <argsstring></argsstring>
+        <name>arg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="23" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="pystrtod_8h_1a416ed6959d57d369083dff550d12b009" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t const char <ref refid="struct__object" kindref="compound">PyObject</ref> void <ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>Py_ssize_t const char PyObject void PyObject*(* innerfunc) (const char *, Py_ssize_t, void *))</definition>
+        <argsstring>)(const char *, Py_ssize_t, void *))</argsstring>
+        <name>innerfunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="24" column="1" bodyfile="/usr/include/python3.6m/pystrtod.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pystrtod_8h_1a59db4e19f0380bbb102070f3ae51ccd5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(double) PyOS_string_to_double(const char *str</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystrtod_8h_1ab9a384c310e495e06c84f8b9661d2317" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(char *) PyOS_double_to_string(double val</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystrtod_8h_1a50a1e7a11a69a742ef65731ef009e168" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) _Py_string_to_number_with_underscores(const char *str</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystrtod.h" line="22" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_STRTOD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_STRTOD_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyOS_string_to_double(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**endptr,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*overflow_exception);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>caller<sp/>is<sp/>responsible<sp/>for<sp/>calling<sp/>PyMem_Free<sp/>to<sp/>free<sp/>the<sp/>buffer</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>that&apos;s<sp/>is<sp/>returned.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>PyOS_double_to_string(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>format_code,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>precision,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*type);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_Py_string_to_number_with_underscores(</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*what,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*arg,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*(*innerfunc)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/>Py_ssize_t,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_parse_inf_or_nan(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**endptr);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyOS_double_to_string&apos;s<sp/>&quot;flags&quot;<sp/>parameter<sp/>can<sp/>be<sp/>set<sp/>to<sp/>0<sp/>or<sp/>more<sp/>of:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTSF_SIGN<sp/><sp/><sp/><sp/><sp/><sp/>0x01<sp/></highlight><highlight class="comment">/*<sp/>always<sp/>add<sp/>the<sp/>sign<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTSF_ADD_DOT_0<sp/>0x02<sp/></highlight><highlight class="comment">/*<sp/>if<sp/>the<sp/>result<sp/>is<sp/>an<sp/>integer<sp/>add<sp/>&quot;.0&quot;<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTSF_ALT<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x04<sp/></highlight><highlight class="comment">/*<sp/>&quot;alternate&quot;<sp/>formatting.<sp/>it&apos;s<sp/>format_code</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>specific<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>PyOS_double_to_string&apos;s<sp/>&quot;type&quot;,<sp/>if<sp/>non-NULL,<sp/>will<sp/>be<sp/>set<sp/>to<sp/>one<sp/>of:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTST_FINITE<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTST_INFINITE<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTST_NAN<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_STRTOD_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pystrtod.h"/>
+  </compounddef>
+</doxygen>

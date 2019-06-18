@@ -1,0 +1,720 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pystate_8h" kind="file" language="C++">
+    <compoundname>pystate.h</compoundname>
+    <includedby refid="traceback_8h" local="yes">/usr/include/python3.6m/traceback.h</includedby>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3570">
+        <label>/usr/include/python3.6m/traceback.h</label>
+        <link refid="traceback_8h_source"/>
+        <childnode refid="3571" relation="include">
+        </childnode>
+      </node>
+      <node id="3573">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3574">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3576">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3571">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3572" relation="include">
+        </childnode>
+        <childnode refid="3574" relation="include">
+        </childnode>
+        <childnode refid="3575" relation="include">
+        </childnode>
+        <childnode refid="3576" relation="include">
+        </childnode>
+        <childnode refid="3577" relation="include">
+        </childnode>
+      </node>
+      <node id="3577">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3572">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3573" relation="include">
+        </childnode>
+      </node>
+      <node id="3575">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+      <node id="3569">
+        <label>/usr/include/python3.6m/pystate.h</label>
+        <link refid="pystate_8h"/>
+        <childnode refid="3570" relation="include">
+        </childnode>
+        <childnode refid="3571" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__is" prot="public">_is</innerclass>
+    <innerclass refid="struct__co__extra__state" prot="public">_co_extra_state</innerclass>
+    <innerclass refid="struct__ts" prot="public">_ts</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pystate_8h_1a01bc4292e34451bbb883601cca79481d" prot="public" static="no">
+        <name>MAX_CO_EXTRA_USERS</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="13" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1aacf397c2f0fbe11e8fcf144f6fb56f18" prot="public" static="no">
+        <name>PyTrace_CALL</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="72" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1a276d1ce1b715bfab502bde88ac57322e" prot="public" static="no">
+        <name>PyTrace_EXCEPTION</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="73" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1acc4a6258a390d65fa09192ca7f942bbf" prot="public" static="no">
+        <name>PyTrace_LINE</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="74" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1a13ca69ab4808b2d1cff3148d8ce09d72" prot="public" static="no">
+        <name>PyTrace_RETURN</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="75" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1a73bf8e0a6013201581841d683dafbb7a" prot="public" static="no">
+        <name>PyTrace_C_CALL</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="76" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1aa0e88859b4774fb3935e2860f643eb84" prot="public" static="no">
+        <name>PyTrace_C_EXCEPTION</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="77" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1a0aeb92df4ca79e2ba43924d9ba8f81f1" prot="public" static="no">
+        <name>PyTrace_C_RETURN</name>
+        <initializer>6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="78" column="9" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pystate_8h_1aa13672d2ef4e677011492493c991a605" prot="public" static="no">
+        <name>PyThreadState_GET</name>
+        <param></param>
+        <initializer>PyThreadState_Get()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="227" column="12" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="pystate_8h_1acec61a42d4edd65f94039d4671ce80be" prot="public" static="no">
+        <name>PyGILState_STATE</name>
+        <enumvalue id="pystate_8h_1acec61a42d4edd65f94039d4671ce80bead9ba2aa50dfab0ae36ca769a271ccd2d" prot="public">
+          <name>PyGILState_LOCKED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="pystate_8h_1acec61a42d4edd65f94039d4671ce80bea1e3be71b26057a37ce15ea270d15571d" prot="public">
+          <name>PyGILState_UNLOCKED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="231" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="230" bodyend="231"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="pystate_8h_1aa113d125bd87c173520de6adb266be56" prot="public" static="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>typedef PyObject*(* _PyFrameEvalFunction) (struct _frame *, int)</definition>
+        <argsstring>)(struct _frame *, int)</argsstring>
+        <name>_PyFrameEvalFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="24" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="pystate_8h_1a7c19e387e7a6c47f2d1d639a0f741d4f" prot="public" static="no">
+        <type>struct <ref refid="struct__is" kindref="compound">_is</ref></type>
+        <definition>typedef struct _is  PyInterpreterState</definition>
+        <argsstring></argsstring>
+        <name>PyInterpreterState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="pystate_8h_1ae0716b6d5bfb72d37f3c1aa139c87e49" prot="public" static="no">
+        <type>struct <ref refid="struct__co__extra__state" kindref="compound">_co_extra_state</ref></type>
+        <definition>typedef struct _co_extra_state  __PyCodeExtraState</definition>
+        <argsstring></argsstring>
+        <name>__PyCodeExtraState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="pystate_8h_1ab5c10be1fd41472f8b22569c5f15f8e6" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* Py_tracefunc) (PyObject *, struct _frame *, int, PyObject *)</definition>
+        <argsstring>)(PyObject *, struct _frame *, int, PyObject *)</argsstring>
+        <name>Py_tracefunc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="69" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="pystate_8h_1abd09a2e80e53ee363c70921fca241bfd" prot="public" static="no">
+        <type>struct <ref refid="struct__ts" kindref="compound">_ts</ref></type>
+        <definition>typedef struct _ts  PyThreadState</definition>
+        <argsstring></argsstring>
+        <name>PyThreadState</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="165" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="pystate_8h_1a7782accce17188799c730c61324156d8" prot="public" static="no">
+        <type>struct <ref refid="struct__frame" kindref="compound">_frame</ref> *(*</type>
+        <definition>typedef struct _frame*(* PyThreadFrameGetter) (PyThreadState *self_)</definition>
+        <argsstring>)(PyThreadState *self_)</argsstring>
+        <name>PyThreadFrameGetter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="311" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pystate_8h_1a6c9517283047c5aa156b2412ac5968ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__co__extra__state" kindref="compound">__PyCodeExtraState</ref> *</type>
+        <definition>__PyCodeExtraState* __PyCodeExtraState_Get</definition>
+        <argsstring>(void)</argsstring>
+        <name>__PyCodeExtraState_Get</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1a93b356c5da2c5291f3425bd9e59c25e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyInterpreterState *) PyInterpreterState_New(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__is" kindref="compound">PyInterpreterState</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="169" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1a82a9dad094eb92626b712f6052792a7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) PyInterpreterState_Clear(PyInterpreterState *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="170" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1ad31f5bf429070a1dbc24869db844eee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PyState_AddModule(PyObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="173" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1a0bbf7ba8d67804cc90d65b9f23a5ecb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyState_FindModule(struct PyModuleDef *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="180" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1a851c2ec7b18b1df5cdc65bacc96d00fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyThreadState *) PyThreadState_New(PyInterpreterState *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__ts" kindref="compound">PyThreadState</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="185" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pystate_8h_1a494208e549cd30e8b66c30c6193a984d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyThreadFrameGetter) _PyThreadState_GetFrame</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type>PyThreadFrameGetter</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="318" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Thread<sp/>and<sp/>interpreter<sp/>state<sp/>structures<sp/>and<sp/>their<sp/>interfaces<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_PYSTATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYSTATE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>limitation<sp/>is<sp/>for<sp/>performance<sp/>and<sp/>simplicity.<sp/>If<sp/>needed<sp/>it<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">removed<sp/>(with<sp/>effort).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_CO_EXTRA_USERS<sp/>255</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>State<sp/>shared<sp/>between<sp/>threads<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Forward<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__is" kindref="compound">_is</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Forward<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Forward<sp/>declaration<sp/>for<sp/>PyFrameObject.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__is" kindref="compound">_is</ref><sp/><ref refid="struct__is" kindref="compound">PyInterpreterState</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>(*_PyFrameEvalFunction)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*,<sp/>int);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="struct__is" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__is" kindref="compound">_is</ref><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__is" kindref="compound">_is</ref><sp/>*next;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref><sp/>*tstate_head;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*modules;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*modules_by_index;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*sysdict;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*builtins;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*importlib;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*codec_search_path;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*codec_search_cache;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*codec_error_registry;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>codecs_initialized;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fscodec_initialized;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_DLOPEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dlopenflags;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*builtins_copy;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*import_func;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialized<sp/>to<sp/>PyEval_EvalFrameDefault().<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyFrameEvalFunction<sp/>eval_frame;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}<sp/><ref refid="struct__is" kindref="compound">PyInterpreterState</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="struct__co__extra__state" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__co__extra__state" kindref="compound">_co_extra_state</ref><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__co__extra__state" kindref="compound">_co_extra_state</ref><sp/>*next;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__is" kindref="compound">PyInterpreterState</ref>*<sp/>interp;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>co_extra_user_count;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>freefunc<sp/>co_extra_freefuncs[MAX_CO_EXTRA_USERS];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}<sp/><ref refid="struct__co__extra__state" kindref="compound">__PyCodeExtraState</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>is<sp/>temporary<sp/>for<sp/>backwards<sp/>compat<sp/>in<sp/>3.6<sp/>and<sp/>will<sp/>be<sp/>removed<sp/>in<sp/>3.7<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><ref refid="struct__co__extra__state" kindref="compound">__PyCodeExtraState</ref>*<sp/>__PyCodeExtraState_Get(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>State<sp/>unique<sp/>per<sp/>thread<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_tracefunc<sp/>return<sp/>-1<sp/>when<sp/>raising<sp/>an<sp/>exception,<sp/>or<sp/>0<sp/>for<sp/>success.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*Py_tracefunc)(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*,<sp/>int,<sp/>PyObject<sp/>*);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>following<sp/>values<sp/>are<sp/>used<sp/>for<sp/>&apos;what&apos;<sp/>for<sp/>tracefunc<sp/>functions:<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_CALL<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_EXCEPTION<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_LINE<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_RETURN<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_C_CALL<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_C_EXCEPTION<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTrace_C_RETURN<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref><sp/>PyThreadState;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="struct__ts" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>See<sp/>Python/ceval.c<sp/>for<sp/>comments<sp/>explaining<sp/>most<sp/>fields<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref><sp/>*prev;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__ts" kindref="compound">_ts</ref><sp/>*next;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*interp;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*frame;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>recursion_depth;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>overflowed;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>stack<sp/>has<sp/>overflowed.<sp/>Allow<sp/>50<sp/>more<sp/>calls</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to<sp/>handle<sp/>the<sp/>runtime<sp/>error.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>recursion_critical;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>current<sp/>calls<sp/>must<sp/>not<sp/>cause</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>a<sp/>stack<sp/>overflow.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>&apos;tracing&apos;<sp/>keeps<sp/>track<sp/>of<sp/>the<sp/>execution<sp/>depth<sp/>when<sp/>tracing/profiling.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>This<sp/>is<sp/>to<sp/>prevent<sp/>the<sp/>actual<sp/>trace/profile<sp/>code<sp/>from<sp/>being<sp/>recorded<sp/>in</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>trace/profile.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tracing;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>use_tracing;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_tracefunc<sp/>c_profilefunc;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_tracefunc<sp/>c_tracefunc;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*c_profileobj;</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*c_traceobj;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*curexc_type;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*curexc_value;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*curexc_traceback;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*exc_type;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*exc_value;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*exc_traceback;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*dict;<sp/><sp/></highlight><highlight class="comment">/*<sp/>Stores<sp/>per-thread<sp/>state<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>gilstate_counter;</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*async_exc;<sp/></highlight><highlight class="comment">/*<sp/>Asynchronous<sp/>exception<sp/>to<sp/>raise<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>thread_id;<sp/></highlight><highlight class="comment">/*<sp/>Thread<sp/>id<sp/>where<sp/>this<sp/>tstate<sp/>was<sp/>created<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>trash_delete_nesting;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*trash_delete_later;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Called<sp/>when<sp/>a<sp/>thread<sp/>state<sp/>is<sp/>deleted<sp/>normally,<sp/>but<sp/>not<sp/>when<sp/>it</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>destroyed<sp/>after<sp/>fork().</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Pain:<sp/><sp/>to<sp/>prevent<sp/>rare<sp/>but<sp/>fatal<sp/>shutdown<sp/>errors<sp/>(issue<sp/>18808),</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Thread.join()<sp/>must<sp/>wait<sp/>for<sp/>the<sp/>join&apos;ed<sp/>thread&apos;s<sp/>tstate<sp/>to<sp/>be<sp/>unlinked</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>from<sp/>the<sp/>tstate<sp/>chain.<sp/><sp/>That<sp/>happens<sp/>at<sp/>the<sp/>end<sp/>of<sp/>a<sp/>thread&apos;s<sp/>life,</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>in<sp/>pystate.c.</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>The<sp/>obvious<sp/>way<sp/>doesn&apos;t<sp/>quite<sp/>work:<sp/><sp/>create<sp/>a<sp/>lock<sp/>which<sp/>the<sp/>tstate</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>unlinking<sp/>code<sp/>releases,<sp/>and<sp/>have<sp/>Thread.join()<sp/>wait<sp/>to<sp/>acquire<sp/>that</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>lock.<sp/><sp/>The<sp/>problem<sp/>is<sp/>that<sp/>we<sp/>_are_<sp/>at<sp/>the<sp/>end<sp/>of<sp/>the<sp/>thread&apos;s<sp/>life:</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>if<sp/>the<sp/>thread<sp/>holds<sp/>the<sp/>last<sp/>reference<sp/>to<sp/>the<sp/>lock,<sp/>decref&apos;ing<sp/>the</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>lock<sp/>will<sp/>delete<sp/>the<sp/>lock,<sp/>and<sp/>that<sp/>may<sp/>trigger<sp/>arbitrary<sp/>Python<sp/>code</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>if<sp/>there&apos;s<sp/>a<sp/>weakref,<sp/>with<sp/>a<sp/>callback,<sp/>to<sp/>the<sp/>lock.<sp/><sp/>But<sp/>by<sp/>this<sp/>time</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>_PyThreadState_Current<sp/>is<sp/>already<sp/>NULL,<sp/>so<sp/>only<sp/>the<sp/>simplest<sp/>of<sp/>C<sp/>code</highlight></codeline>
+<codeline lineno="139"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>can<sp/>be<sp/>allowed<sp/>to<sp/>run<sp/>(in<sp/>particular<sp/>it<sp/>must<sp/>not<sp/>be<sp/>possible<sp/>to</highlight></codeline>
+<codeline lineno="140"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>release<sp/>the<sp/>GIL).</highlight></codeline>
+<codeline lineno="141"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>So<sp/>instead<sp/>of<sp/>holding<sp/>the<sp/>lock<sp/>directly,<sp/>the<sp/>tstate<sp/>holds<sp/>a<sp/>weakref<sp/>to</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>lock:<sp/><sp/>that&apos;s<sp/>the<sp/>value<sp/>of<sp/>on_delete_data<sp/>below.<sp/><sp/>Decref&apos;ing<sp/>a</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>weakref<sp/>is<sp/>harmless.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>on_delete<sp/>points<sp/>to<sp/>_threadmodule.c&apos;s<sp/>static<sp/>release_sentinel()<sp/>function.</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>After<sp/>the<sp/>tstate<sp/>is<sp/>unlinked,<sp/>release_sentinel<sp/>is<sp/>called<sp/>with<sp/>the</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>weakref-to-lock<sp/>(on_delete_data)<sp/>argument,<sp/>and<sp/>release_sentinel<sp/>releases</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>indirectly<sp/>held<sp/>lock.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*on_delete)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*on_delete_data;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*coroutine_wrapper;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>in_coroutine_wrapper;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Now<sp/>used<sp/>from<sp/>PyInterpreterState,<sp/>kept<sp/>here<sp/>for<sp/>ABI</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>compatibility<sp/>with<sp/>PyThreadState<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>_preserve_36_ABI_1;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>freefunc<sp/>_preserve_36_ABI_2[MAX_CO_EXTRA_USERS];</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*async_gen_firstiter;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*async_gen_finalizer;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>XXX<sp/>signal<sp/>handlers<sp/>should<sp/>also<sp/>be<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}<sp/>PyThreadState;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*)<sp/>PyInterpreterState_New(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyInterpreterState_Clear(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyInterpreterState_Delete(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyState_AddModule(PyObject*,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>New<sp/>in<sp/>3.3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyState_AddModule(PyObject*,<sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyState_RemoveModule(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal">PyAPI_FUNC(PyObject*)<sp/>PyState_FindModule(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct_py_module_def" kindref="compound">PyModuleDef</ref>*);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyState_ClearModules(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyThreadState_New(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>_PyThreadState_Prealloc(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyThreadState_Init(PyThreadState<sp/>*);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyThreadState_Clear(PyThreadState<sp/>*);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyThreadState_Delete(PyThreadState<sp/>*);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyThreadState_DeleteExcept(PyThreadState<sp/>*tstate);</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_THREAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyThreadState_DeleteCurrent(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyGILState_Reinit(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>the<sp/>current<sp/>thread<sp/>state.<sp/>The<sp/>global<sp/>interpreter<sp/>lock<sp/>must<sp/>be<sp/>held.</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*<sp/>When<sp/>the<sp/>current<sp/>thread<sp/>state<sp/>is<sp/>NULL,<sp/>this<sp/>issues<sp/>a<sp/>fatal<sp/>error<sp/>(so<sp/>that</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>*<sp/>the<sp/>caller<sp/>needn&apos;t<sp/>check<sp/>for<sp/>NULL).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyThreadState_Get(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Similar<sp/>to<sp/>PyThreadState_Get(),<sp/>but<sp/>don&apos;t<sp/>issue<sp/>a<sp/>fatal<sp/>error</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*<sp/>if<sp/>it<sp/>is<sp/>NULL.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>_PyThreadState_UncheckedGet(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyThreadState_Swap(PyThreadState<sp/>*);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal">PyAPI_FUNC(PyObject<sp/>*)<sp/>PyThreadState_GetDict(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyThreadState_SetAsyncExc(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">,<sp/>PyObject<sp/>*);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Variable<sp/>and<sp/>macro<sp/>for<sp/>in-line<sp/>access<sp/>to<sp/>current<sp/>thread<sp/>state<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Assuming<sp/>the<sp/>current<sp/>thread<sp/>holds<sp/>the<sp/>GIL,<sp/>this<sp/>is<sp/>the</highlight></codeline>
+<codeline lineno="221"><highlight class="comment"><sp/><sp/><sp/>PyThreadState<sp/>for<sp/>the<sp/>current<sp/>thread.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_BUILD_CORE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal">PyAPI_DATA(_Py_atomic_address)<sp/>_PyThreadState_Current;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyThreadState_GET()<sp/>\</highlight></codeline>
+<codeline lineno="225"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((PyThreadState*)_Py_atomic_load_relaxed(&amp;_PyThreadState_Current))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>PyThreadState_GET()<sp/>PyThreadState_Get()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{PyGILState_LOCKED,<sp/>PyGILState_UNLOCKED}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyGILState_STATE;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_THREAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Ensure<sp/>that<sp/>the<sp/>current<sp/>thread<sp/>is<sp/>ready<sp/>to<sp/>call<sp/>the<sp/>Python</highlight></codeline>
+<codeline lineno="237"><highlight class="comment"><sp/><sp/><sp/>C<sp/>API,<sp/>regardless<sp/>of<sp/>the<sp/>current<sp/>state<sp/>of<sp/>Python,<sp/>or<sp/>of<sp/>its</highlight></codeline>
+<codeline lineno="238"><highlight class="comment"><sp/><sp/><sp/>thread<sp/>lock.<sp/><sp/>This<sp/>may<sp/>be<sp/>called<sp/>as<sp/>many<sp/>times<sp/>as<sp/>desired</highlight></codeline>
+<codeline lineno="239"><highlight class="comment"><sp/><sp/><sp/>by<sp/>a<sp/>thread<sp/>so<sp/>long<sp/>as<sp/>each<sp/>call<sp/>is<sp/>matched<sp/>with<sp/>a<sp/>call<sp/>to</highlight></codeline>
+<codeline lineno="240"><highlight class="comment"><sp/><sp/><sp/>PyGILState_Release().<sp/><sp/>In<sp/>general,<sp/>other<sp/>thread-state<sp/>APIs<sp/>may</highlight></codeline>
+<codeline lineno="241"><highlight class="comment"><sp/><sp/><sp/>be<sp/>used<sp/>between<sp/>_Ensure()<sp/>and<sp/>_Release()<sp/>calls,<sp/>so<sp/>long<sp/>as<sp/>the</highlight></codeline>
+<codeline lineno="242"><highlight class="comment"><sp/><sp/><sp/>thread-state<sp/>is<sp/>restored<sp/>to<sp/>its<sp/>previous<sp/>state<sp/>before<sp/>the<sp/>Release().</highlight></codeline>
+<codeline lineno="243"><highlight class="comment"><sp/><sp/><sp/>For<sp/>example,<sp/>normal<sp/>use<sp/>of<sp/>the<sp/>Py_BEGIN_ALLOW_THREADS/</highlight></codeline>
+<codeline lineno="244"><highlight class="comment"><sp/><sp/><sp/>Py_END_ALLOW_THREADS<sp/>macros<sp/>are<sp/>acceptable.</highlight></codeline>
+<codeline lineno="245"><highlight class="comment"></highlight></codeline>
+<codeline lineno="246"><highlight class="comment"><sp/><sp/><sp/>The<sp/>return<sp/>value<sp/>is<sp/>an<sp/>opaque<sp/>&quot;handle&quot;<sp/>to<sp/>the<sp/>thread<sp/>state<sp/>when</highlight></codeline>
+<codeline lineno="247"><highlight class="comment"><sp/><sp/><sp/>PyGILState_Ensure()<sp/>was<sp/>called,<sp/>and<sp/>must<sp/>be<sp/>passed<sp/>to</highlight></codeline>
+<codeline lineno="248"><highlight class="comment"><sp/><sp/><sp/>PyGILState_Release()<sp/>to<sp/>ensure<sp/>Python<sp/>is<sp/>left<sp/>in<sp/>the<sp/>same<sp/>state.<sp/>Even</highlight></codeline>
+<codeline lineno="249"><highlight class="comment"><sp/><sp/><sp/>though<sp/>recursive<sp/>calls<sp/>are<sp/>allowed,<sp/>these<sp/>handles<sp/>can<sp/>*not*<sp/>be<sp/>shared<sp/>-</highlight></codeline>
+<codeline lineno="250"><highlight class="comment"><sp/><sp/><sp/>each<sp/>unique<sp/>call<sp/>to<sp/>PyGILState_Ensure<sp/>must<sp/>save<sp/>the<sp/>handle<sp/>for<sp/>its</highlight></codeline>
+<codeline lineno="251"><highlight class="comment"><sp/><sp/><sp/>call<sp/>to<sp/>PyGILState_Release.</highlight></codeline>
+<codeline lineno="252"><highlight class="comment"></highlight></codeline>
+<codeline lineno="253"><highlight class="comment"><sp/><sp/><sp/>When<sp/>the<sp/>function<sp/>returns,<sp/>the<sp/>current<sp/>thread<sp/>will<sp/>hold<sp/>the<sp/>GIL.</highlight></codeline>
+<codeline lineno="254"><highlight class="comment"></highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/><sp/><sp/>Failure<sp/>is<sp/>a<sp/>fatal<sp/>error.</highlight></codeline>
+<codeline lineno="256"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">PyAPI_FUNC(PyGILState_STATE)<sp/>PyGILState_Ensure(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Release<sp/>any<sp/>resources<sp/>previously<sp/>acquired.<sp/><sp/>After<sp/>this<sp/>call,<sp/>Python&apos;s</highlight></codeline>
+<codeline lineno="260"><highlight class="comment"><sp/><sp/><sp/>state<sp/>will<sp/>be<sp/>the<sp/>same<sp/>as<sp/>it<sp/>was<sp/>prior<sp/>to<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline lineno="261"><highlight class="comment"><sp/><sp/><sp/>PyGILState_Ensure()<sp/>call<sp/>(but<sp/>generally<sp/>this<sp/>state<sp/>will<sp/>be<sp/>unknown<sp/>to</highlight></codeline>
+<codeline lineno="262"><highlight class="comment"><sp/><sp/><sp/>the<sp/>caller,<sp/>hence<sp/>the<sp/>use<sp/>of<sp/>the<sp/>GILState<sp/>API.)</highlight></codeline>
+<codeline lineno="263"><highlight class="comment"></highlight></codeline>
+<codeline lineno="264"><highlight class="comment"><sp/><sp/><sp/>Every<sp/>call<sp/>to<sp/>PyGILState_Ensure<sp/>must<sp/>be<sp/>matched<sp/>by<sp/>a<sp/>call<sp/>to</highlight></codeline>
+<codeline lineno="265"><highlight class="comment"><sp/><sp/><sp/>PyGILState_Release<sp/>on<sp/>the<sp/>same<sp/>thread.</highlight></codeline>
+<codeline lineno="266"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyGILState_Release(PyGILState_STATE);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Helper/diagnostic<sp/>function<sp/>-<sp/>get<sp/>the<sp/>current<sp/>thread<sp/>state<sp/>for</highlight></codeline>
+<codeline lineno="270"><highlight class="comment"><sp/><sp/><sp/>this<sp/>thread.<sp/><sp/>May<sp/>return<sp/>NULL<sp/>if<sp/>no<sp/>GILState<sp/>API<sp/>has<sp/>been<sp/>used</highlight></codeline>
+<codeline lineno="271"><highlight class="comment"><sp/><sp/><sp/>on<sp/>the<sp/>current<sp/>thread.<sp/><sp/>Note<sp/>that<sp/>the<sp/>main<sp/>thread<sp/>always<sp/>has<sp/>such<sp/>a</highlight></codeline>
+<codeline lineno="272"><highlight class="comment"><sp/><sp/><sp/>thread-state,<sp/>even<sp/>if<sp/>no<sp/>auto-thread-state<sp/>call<sp/>has<sp/>been<sp/>made</highlight></codeline>
+<codeline lineno="273"><highlight class="comment"><sp/><sp/><sp/>on<sp/>the<sp/>main<sp/>thread.</highlight></codeline>
+<codeline lineno="274"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyGILState_GetThisThreadState(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Issue<sp/>#26558:<sp/>Flag<sp/>to<sp/>disable<sp/>PyGILState_Check().</highlight></codeline>
+<codeline lineno="279"><highlight class="comment"><sp/><sp/><sp/>If<sp/>set<sp/>to<sp/>non-zero,<sp/>PyGILState_Check()<sp/>always<sp/>return<sp/>1.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal">PyAPI_DATA(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyGILState_check_enabled;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Helper/diagnostic<sp/>function<sp/>-<sp/>return<sp/>1<sp/>if<sp/>the<sp/>current<sp/>thread</highlight></codeline>
+<codeline lineno="283"><highlight class="comment"><sp/><sp/><sp/>currently<sp/>holds<sp/>the<sp/>GIL,<sp/>0<sp/>otherwise.</highlight></codeline>
+<codeline lineno="284"><highlight class="comment"></highlight></codeline>
+<codeline lineno="285"><highlight class="comment"><sp/><sp/><sp/>The<sp/>function<sp/>returns<sp/>1<sp/>if<sp/>_PyGILState_check_enabled<sp/>is<sp/>non-zero.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyGILState_Check(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Unsafe<sp/>function<sp/>to<sp/>get<sp/>the<sp/>single<sp/>PyInterpreterState<sp/>used<sp/>by<sp/>this<sp/>process&apos;</highlight></codeline>
+<codeline lineno="289"><highlight class="comment"><sp/><sp/><sp/>GILState<sp/>implementation.</highlight></codeline>
+<codeline lineno="290"><highlight class="comment"></highlight></codeline>
+<codeline lineno="291"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>NULL<sp/>before<sp/>_PyGILState_Init()<sp/>is<sp/>called<sp/>and<sp/>after<sp/>_PyGILState_Fini()</highlight></codeline>
+<codeline lineno="292"><highlight class="comment"><sp/><sp/><sp/>is<sp/>called.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*)<sp/>_PyGILState_GetInterpreterStateUnsafe(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>#ifdef<sp/>WITH_THREAD<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>implementation<sp/>of<sp/>sys._current_frames()<sp/><sp/>Returns<sp/>a<sp/>dict<sp/>mapping</highlight></codeline>
+<codeline lineno="299"><highlight class="comment"><sp/><sp/><sp/>thread<sp/>id<sp/>to<sp/>that<sp/>thread&apos;s<sp/>current<sp/>frame.</highlight></codeline>
+<codeline lineno="300"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal">PyAPI_FUNC(PyObject<sp/>*)<sp/>_PyThread_CurrentFrames(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Routines<sp/>for<sp/>advanced<sp/>debuggers,<sp/>requested<sp/>by<sp/>David<sp/>Beazley.</highlight></codeline>
+<codeline lineno="306"><highlight class="comment"><sp/><sp/><sp/>Don&apos;t<sp/>use<sp/>unless<sp/>you<sp/>know<sp/>what<sp/>you<sp/>are<sp/>doing!<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*)<sp/>PyInterpreterState_Head(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*)<sp/>PyInterpreterState_Next(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyInterpreterState_ThreadHead(<ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal">PyAPI_FUNC(PyThreadState<sp/>*)<sp/>PyThreadState_Next(PyThreadState<sp/>*);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*(*PyThreadFrameGetter)(PyThreadState<sp/>*self_);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>hook<sp/>for<sp/>PyEval_GetFrame(),<sp/>requested<sp/>for<sp/>Psyco<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal">PyAPI_DATA(PyThreadFrameGetter)<sp/>_PyThreadState_GetFrame;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_PYSTATE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pystate.h"/>
+  </compounddef>
+</doxygen>

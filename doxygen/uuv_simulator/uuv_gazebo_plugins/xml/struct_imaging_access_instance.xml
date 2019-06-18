@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_imaging_access_instance" kind="struct" language="C++" prot="public">
+    <compoundname>ImagingAccessInstance</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_imaging_access_instance_1ad308872b0c1713d64cd828f655152a32" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* ImagingAccessInstance::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="130" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_access_instance_1a5988d9c98f0bba99bad3731e102b99f6" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* ImagingAccessInstance::line) (Imaging im, int x, int y)</definition>
+        <argsstring>)(Imaging im, int x, int y)</argsstring>
+        <name>line</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="131" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_access_instance_1abbe6570c9911773aeafd670f3b4def8c" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* ImagingAccessInstance::get_pixel) (Imaging im, int x, int y, void *pixel)</definition>
+        <argsstring>)(Imaging im, int x, int y, void *pixel)</argsstring>
+        <name>get_pixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="132" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_imaging_access_instance_1ae728ca8177d106cdb4ad7dbf22d3b4be" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* ImagingAccessInstance::put_pixel) (Imaging im, int x, int y, const void *pixel)</definition>
+        <argsstring>)(Imaging im, int x, int y, const void *pixel)</argsstring>
+        <name>put_pixel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Imaging.h" line="133" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/Imaging.h" line="129" column="1" bodyfile="/usr/include/python3.6m/Imaging.h" bodystart="129" bodyend="134"/>
+    <listofallmembers>
+      <member refid="struct_imaging_access_instance_1abbe6570c9911773aeafd670f3b4def8c" prot="public" virt="non-virtual"><scope>ImagingAccessInstance</scope><name>get_pixel</name></member>
+      <member refid="struct_imaging_access_instance_1a5988d9c98f0bba99bad3731e102b99f6" prot="public" virt="non-virtual"><scope>ImagingAccessInstance</scope><name>line</name></member>
+      <member refid="struct_imaging_access_instance_1ad308872b0c1713d64cd828f655152a32" prot="public" virt="non-virtual"><scope>ImagingAccessInstance</scope><name>mode</name></member>
+      <member refid="struct_imaging_access_instance_1ae728ca8177d106cdb4ad7dbf22d3b4be" prot="public" virt="non-virtual"><scope>ImagingAccessInstance</scope><name>put_pixel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="symtable_8h" kind="file" language="C++">
+    <compoundname>symtable.h</compoundname>
+    <innerclass refid="structsymtable" prot="public">symtable</innerclass>
+    <innerclass refid="struct__symtable__entry" prot="public">_symtable_entry</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="symtable_8h_1ad61c0a2ba6b2e2b657ec5187407f9ad8" prot="public" static="no">
+        <name>PySTEntry_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PySTEntry_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="69" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1ae61890827b93a161d78b8a5e27fe4611" prot="public" static="no">
+        <name>DEF_GLOBAL</name>
+        <initializer>1           /* global stmt */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="87" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1af2614a3c972f02013d680e151cf49bb6" prot="public" static="no">
+        <name>DEF_LOCAL</name>
+        <initializer>2            /* assignment in code block */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="88" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1ac55189a61b47f4e9e56500ce014e4584" prot="public" static="no">
+        <name>DEF_PARAM</name>
+        <initializer>2&lt;&lt;1         /* formal parameter */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="89" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a74a4fe0ffa4b4251736e772283387f83" prot="public" static="no">
+        <name>DEF_NONLOCAL</name>
+        <initializer>2&lt;&lt;2      /* nonlocal stmt */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="90" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a1d392886fec552aac0632c91a8cb7be0" prot="public" static="no">
+        <name>USE</name>
+        <initializer>2&lt;&lt;3               /* name is used */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="91" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1aaf114c038b6a7bf190f41202e2828dc8" prot="public" static="no">
+        <name>DEF_FREE</name>
+        <initializer>2&lt;&lt;4          /* name used but not defined in nested block */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="92" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a03120dcd92503a79b1d84e32ccb721df" prot="public" static="no">
+        <name>DEF_FREE_CLASS</name>
+        <initializer>2&lt;&lt;5    /* free variable from class&apos;s method */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="93" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1abb5ee75cd2ff62b9c3b6c090c567314e" prot="public" static="no">
+        <name>DEF_IMPORT</name>
+        <initializer>2&lt;&lt;6        /* assignment occurred via import */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="94" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a7efa7a567ae713f0fdf8d8415d29ec49" prot="public" static="no">
+        <name>DEF_ANNOT</name>
+        <initializer>2&lt;&lt;7         /* this name is annotated */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="95" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1ab66a2d49f2c96e6dc3612e02d3ccea9d" prot="public" static="no">
+        <name>DEF_BOUND</name>
+        <initializer>(DEF_LOCAL | DEF_PARAM | DEF_IMPORT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="97" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1adab97a03135a5a8e6e9a41fa5b81ab6c" prot="public" static="no">
+        <name>SCOPE_OFFSET</name>
+        <initializer>11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="103" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a22cd50e677a8d77bf09a4efa930dfab4" prot="public" static="no">
+        <name>SCOPE_MASK</name>
+        <initializer>(DEF_GLOBAL | DEF_LOCAL | DEF_PARAM | DEF_NONLOCAL)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="104" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a3758dd5d300a594312c95bc393378df0" prot="public" static="no">
+        <name>LOCAL</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="106" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1aa08fc77ff6dc8bc5e845975c7dc2c842" prot="public" static="no">
+        <name>GLOBAL_EXPLICIT</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="107" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1ac5e1c137fda2ab97be457cad3583c6da" prot="public" static="no">
+        <name>GLOBAL_IMPLICIT</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="108" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a9a8e700d56e7d858108b755ad3edb52e" prot="public" static="no">
+        <name>FREE</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="109" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a8b4d4a1fcf419d5a3820c5b4b027ee8b" prot="public" static="no">
+        <name>CELL</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="110" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a18b05db4d4bb40d54787cde210bf88ca" prot="public" static="no">
+        <name>GENERATOR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="112" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="symtable_8h_1a78ced2f4e56377bd0e257bc4d89856ce" prot="public" static="no">
+        <name>GENERATOR_EXPRESSION</name>
+        <initializer>2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="113" column="9" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="symtable_8h_1a465de2608e3625f9b65501597b49c5fc" prot="public" static="no">
+        <name>_block_type</name>
+        <enumvalue id="symtable_8h_1a465de2608e3625f9b65501597b49c5fca7064c43c58cad14740cc9c0cac71c43c" prot="public">
+          <name>FunctionBlock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="symtable_8h_1a465de2608e3625f9b65501597b49c5fcaef40f18a4e44181a6938182636b542e8" prot="public">
+          <name>ClassBlock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="symtable_8h_1a465de2608e3625f9b65501597b49c5fca4f773c6ab1f796b5522e8a77cf45e44c" prot="public">
+          <name>ModuleBlock</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="13" column="1" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="symtable_8h_1a027dc810c50764bb9a23c5c30ae99f1f" prot="public" static="no">
+        <type>enum _block_type</type>
+        <definition>typedef enum _block_type
+     _Py_block_ty</definition>
+        <argsstring></argsstring>
+        <name>_Py_block_ty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="symtable_8h_1ad59d40fc50faa83d9d93406025dca81a" prot="public" static="no">
+        <type>struct <ref refid="struct__symtable__entry" kindref="compound">_symtable_entry</ref></type>
+        <definition>typedef struct _symtable_entry  PySTEntryObject</definition>
+        <argsstring></argsstring>
+        <name>PySTEntryObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="65" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="symtable_8h_1ada9aa55ceeb96a7ed4c539713952ba6f" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> const char *</type>
+        <definition>PyObject* filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="75" column="1" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="symtable_8h_1a019e9d04ec8a3ffb50b41b79fe401a58" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> const char <ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref> *</type>
+        <definition>PyObject PyFutureFeatures * future</definition>
+        <argsstring></argsstring>
+        <name>future</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="76" column="1" bodyfile="/usr/include/python3.6m/symtable.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="symtable_8h_1a5a6f75d22f6a17663a6c776a37db659f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PySTEntry_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="symtable_8h_1ab1ee69d96cb7611e2b53f6d53db4f0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyST_GetScope(PySTEntryObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="symtable_8h_1a318162ef94db421f7551aef193fb6df7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyAPI_FUNC</definition>
+        <argsstring>(struct symtable *) PySymtable_Build(mod_ty mod</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>struct <ref refid="structsymtable" kindref="compound">symtable</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="73" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="symtable_8h_1a50a5855fde94702029380e5d0f1b9f31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PySTEntryObject *) PySymtable_Lookup(struct symtable *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__symtable__entry" kindref="compound">PySTEntryObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="symtable_8h_1a65fedf8b6fc373456cea57aa9c81c4f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* PyAPI_FUNC</definition>
+        <argsstring>(void) PySymtable_Free(struct symtable *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/symtable.h" line="83" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_SYMTABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_SYMTABLE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>XXX(ncoghlan):<sp/>This<sp/>is<sp/>a<sp/>weird<sp/>mix<sp/>of<sp/>public<sp/>names<sp/>and<sp/>interpreter<sp/>internal</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>names.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>_block_type<sp/>{<sp/>FunctionBlock,<sp/>ClassBlock,<sp/>ModuleBlock<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>_Py_block_ty;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__symtable__entry" kindref="compound">_symtable_entry</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structsymtable" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*st_filename;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>name<sp/>of<sp/>file<sp/>being<sp/>compiled,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__symtable__entry" kindref="compound">_symtable_entry</ref><sp/>*st_cur;<sp/></highlight><highlight class="comment">/*<sp/>current<sp/>symbol<sp/>table<sp/>entry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__symtable__entry" kindref="compound">_symtable_entry</ref><sp/>*st_top;<sp/></highlight><highlight class="comment">/*<sp/>symbol<sp/>table<sp/>entry<sp/>for<sp/>module<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*st_blocks;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>dict:<sp/>map<sp/>AST<sp/>node<sp/>addresses</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/>to<sp/>symbol<sp/>table<sp/>entries<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*st_stack;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>list:<sp/>stack<sp/>of<sp/>namespace<sp/>info<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*st_global;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>borrowed<sp/>ref<sp/>to<sp/>st_top-&gt;ste_symbols<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>st_nblocks;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>number<sp/>of<sp/>blocks<sp/>used.<sp/>kept<sp/>for</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>consistency<sp/>with<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>compiler<sp/>structure<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*st_private;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>name<sp/>of<sp/>current<sp/>class<sp/>or<sp/>NULL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref><sp/>*st_future;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>module&apos;s<sp/>future<sp/>features<sp/>that<sp/>affect</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>the<sp/>symbol<sp/>table<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>recursion_depth;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>current<sp/>recursion<sp/>depth<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>recursion_limit;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>recursion<sp/>limit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="struct__symtable__entry" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__symtable__entry" kindref="compound">_symtable_entry</ref><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_id;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>int:<sp/>key<sp/>in<sp/>ste_table-&gt;st_blocks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_symbols;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>dict:<sp/>variable<sp/>names<sp/>to<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_name;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>string:<sp/>name<sp/>of<sp/>current<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_varnames;<sp/><sp/></highlight><highlight class="comment">/*<sp/>list<sp/>of<sp/>function<sp/>parameters<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_children;<sp/><sp/></highlight><highlight class="comment">/*<sp/>list<sp/>of<sp/>child<sp/>blocks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ste_directives;</highlight><highlight class="comment">/*<sp/>locations<sp/>of<sp/>global<sp/>and<sp/>nonlocal<sp/>statements<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>_Py_block_ty<sp/>ste_type;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>module,<sp/>class,<sp/>or<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_nested;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>block<sp/>is<sp/>nested<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_free<sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>block<sp/>has<sp/>free<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_child_free<sp/>:<sp/>1;<sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>a<sp/>child<sp/>block<sp/>has<sp/>free<sp/>vars,</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>including<sp/>free<sp/>refs<sp/>to<sp/>globals<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_generator<sp/>:<sp/>1;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>namespace<sp/>is<sp/>a<sp/>generator<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_coroutine<sp/>:<sp/>1;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>namespace<sp/>is<sp/>a<sp/>coroutine<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_varargs<sp/>:<sp/>1;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>block<sp/>has<sp/>varargs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_varkeywords<sp/>:<sp/>1;<sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>block<sp/>has<sp/>varkeywords<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_returns_value<sp/>:<sp/>1;<sp/><sp/></highlight><highlight class="comment">/*<sp/>true<sp/>if<sp/>namespace<sp/>uses<sp/>return<sp/>with</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>an<sp/>argument<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>ste_needs_class_closure<sp/>:<sp/>1;<sp/></highlight><highlight class="comment">/*<sp/>for<sp/>class<sp/>scopes,<sp/>true<sp/>if<sp/>a</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>closure<sp/>over<sp/>__class__</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>should<sp/>be<sp/>created<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_lineno;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>first<sp/>line<sp/>of<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_col_offset;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>offset<sp/>of<sp/>first<sp/>line<sp/>of<sp/>block<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_opt_lineno;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>lineno<sp/>of<sp/>last<sp/>exec<sp/>or<sp/>import<sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_opt_col_offset;<sp/><sp/></highlight><highlight class="comment">/*<sp/>offset<sp/>of<sp/>last<sp/>exec<sp/>or<sp/>import<sp/>*<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ste_tmpname;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>counter<sp/>for<sp/>listcomp<sp/>temp<sp/>vars<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*ste_table;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/><ref refid="struct__symtable__entry" kindref="compound">PySTEntryObject</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PySTEntry_Type;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PySTEntry_Check(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PySTEntry_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyST_GetScope(<ref refid="struct__symtable__entry" kindref="compound">PySTEntryObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*)<sp/>PySymtable_Build(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__mod" kindref="compound">mod_ty</ref><sp/>mod,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*filename,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>decoded<sp/>from<sp/>the<sp/>filesystem<sp/>encoding<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref><sp/>*future);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*)<sp/>PySymtable_BuildObject(</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__mod" kindref="compound">mod_ty</ref><sp/>mod,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*filename,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_future_features" kindref="compound">PyFutureFeatures</ref><sp/>*future);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__symtable__entry" kindref="compound">PySTEntryObject</ref><sp/>*)<sp/>PySymtable_Lookup(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PySymtable_Free(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structsymtable" kindref="compound">symtable</ref><sp/>*);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Flags<sp/>for<sp/>def-use<sp/>information<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_GLOBAL<sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>global<sp/>stmt<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_LOCAL<sp/>2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>assignment<sp/>in<sp/>code<sp/>block<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_PARAM<sp/>2&lt;&lt;1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>formal<sp/>parameter<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_NONLOCAL<sp/>2&lt;&lt;2<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>nonlocal<sp/>stmt<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>USE<sp/>2&lt;&lt;3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>name<sp/>is<sp/>used<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_FREE<sp/>2&lt;&lt;4<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>name<sp/>used<sp/>but<sp/>not<sp/>defined<sp/>in<sp/>nested<sp/>block<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_FREE_CLASS<sp/>2&lt;&lt;5<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>free<sp/>variable<sp/>from<sp/>class&apos;s<sp/>method<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_IMPORT<sp/>2&lt;&lt;6<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>assignment<sp/>occurred<sp/>via<sp/>import<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_ANNOT<sp/>2&lt;&lt;7<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>this<sp/>name<sp/>is<sp/>annotated<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DEF_BOUND<sp/>(DEF_LOCAL<sp/>|<sp/>DEF_PARAM<sp/>|<sp/>DEF_IMPORT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>GLOBAL_EXPLICIT<sp/>and<sp/>GLOBAL_IMPLICIT<sp/>are<sp/>used<sp/>internally<sp/>by<sp/>the<sp/>symbol</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/>table.<sp/><sp/>GLOBAL<sp/>is<sp/>returned<sp/>from<sp/>PyST_GetScope()<sp/>for<sp/>either<sp/>of<sp/>them.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/>It<sp/>is<sp/>stored<sp/>in<sp/>ste_symbols<sp/>at<sp/>bits<sp/>12-15.</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPE_OFFSET<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SCOPE_MASK<sp/>(DEF_GLOBAL<sp/>|<sp/>DEF_LOCAL<sp/>|<sp/>DEF_PARAM<sp/>|<sp/>DEF_NONLOCAL)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOCAL<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLOBAL_EXPLICIT<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GLOBAL_IMPLICIT<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FREE<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CELL<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GENERATOR<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GENERATOR_EXPRESSION<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_SYMTABLE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/symtable.h"/>
+  </compounddef>
+</doxygen>

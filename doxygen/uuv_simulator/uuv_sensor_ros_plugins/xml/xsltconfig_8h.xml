@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="xsltconfig_8h" kind="file" language="C++">
+    <compoundname>xsltconfig.h</compoundname>
+    <includedby refid="etree__defs_8h" local="yes">venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</includedby>
+    <includedby refid="xsltutils_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</includedby>
+    <invincdepgraph>
+      <node id="2544">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2543">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h</label>
+        <link refid="xsltconfig_8h"/>
+        <childnode refid="2544" relation="include">
+        </childnode>
+        <childnode refid="2545" relation="include">
+        </childnode>
+      </node>
+      <node id="2545">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</label>
+        <link refid="xsltutils_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="xsltconfig_8h_1ae2d02e6442443a159e17e20dff81089f" prot="public" static="no">
+        <name>LIBXSLT_DOTTED_VERSION</name>
+        <initializer>&quot;1.1.33&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_DOTTED_VERSION:</para><para>the version string like &quot;1.2.3&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="23" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1acdeadf9466e7499a0a698b04ab5c1561" prot="public" static="no">
+        <name>LIBXSLT_VERSION</name>
+        <initializer>10133</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_VERSION:</para><para>the version number: 1.2.3 value is 10203 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="30" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1afedfceb246ff41c5d962cb2639b7ad41" prot="public" static="no">
+        <name>LIBXSLT_VERSION_STRING</name>
+        <initializer>&quot;10133&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_VERSION_STRING:</para><para>the version number string, 1.2.3 value is &quot;10203&quot; </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="37" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1af7df1e9ee087208a0c5a41cb10ab56fb" prot="public" static="no">
+        <name>LIBXSLT_VERSION_EXTRA</name>
+        <initializer>&quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_VERSION_EXTRA:</para><para>extra version information, used to show a CVS compilation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="44" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1a03bab54091dc15ae1e50e912dfee9ae8" prot="public" static="no">
+        <name>WITH_XSLT_DEBUG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WITH_XSLT_DEBUG:</para><para>Activate the compilation of the debug reporting. Speed penalty is insignifiant and being able to run xsltpoc -v is useful. On by default unless <ndash/>without-debug is passed to configure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="54" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1abacd5adbf68f225d173300a742424204" prot="public" static="no">
+        <name>WITH_DEBUGGER</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>XSLT_NEED_TRIO:</para><para>should be activated if the existing libc library lacks some of the string formatting function, in that case reuse the Trio ones already compiled in the libxml2 library. WITH_XSLT_DEBUGGER:</para><para>Activate the compilation of the debugger support. Speed penalty is insignifiant. On by default unless <ndash/>without-debugger is passed to configure </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="109" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1a635a8d08da53567d5c3b67deb7f98ed3" prot="public" static="no">
+        <name>ATTRIBUTE_UNUSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>WITH_MODULES:</para><para>Whether module support is configured into libxslt Note: no default module path for win32 platforms ATTRIBUTE_UNUSED:</para><para>This macro is used to flag unused function parameters to GCC </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="139" column="10" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1ad2129bca8a6cf6c61fc8f705f229d38b" prot="public" static="no">
+        <name>LIBXSLT_ATTR_FORMAT</name>
+        <param><defname>fmt</defname></param>
+        <param><defname>args</defname></param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_ATTR_FORMAT:</para><para>This macro is used to indicate to GCC the parameters are printf-like </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="150" column="10" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="xsltconfig_8h_1af275a566eea5625f11ee5a1016f0eac6" prot="public" static="no">
+        <name>LIBXSLT_PUBLIC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>LIBXSLT_PUBLIC:</para><para>This macro is used to declare PUBLIC variables for Cygwin and for MSC on Windows </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" line="162" column="10" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>compile-time<sp/>version<sp/>information<sp/>for<sp/>the<sp/>XSLT<sp/>engine</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>compile-time<sp/>version<sp/>information<sp/>for<sp/>the<sp/>XSLT<sp/>engine</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this<sp/>module<sp/>is<sp/>autogenerated.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLTCONFIG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLTCONFIG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor">#define<sp/>LIBXSLT_DOTTED_VERSION<sp/>&quot;1.1.33&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="preprocessor">#define<sp/>LIBXSLT_VERSION<sp/>10133</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="preprocessor">#define<sp/>LIBXSLT_VERSION_STRING<sp/>&quot;10133&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="preprocessor">#define<sp/>LIBXSLT_VERSION_EXTRA<sp/>&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="preprocessor">#if<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WITH_XSLT_DEBUG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="preprocessor">#define<sp/>DEBUG_MEMORY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="preprocessor">#define<sp/>DEBUG_MEMORY_LOCATION</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XSLT_NEED_TRIO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__VMS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_MATH_H<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>HAVE_SYS_STAT_H<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>XSLT_NEED_TRIO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XSLT_NEED_TRIO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>XSLT_NEED_TRIO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TRIO_REPLACE_STDIO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="preprocessor">#if<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WITH_DEBUGGER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WITH_DEBUGGER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="preprocessor">#if<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WITH_MODULES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WITH_MODULES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXSLT_DEFAULT_PLUGINS_PATH()<sp/>&quot;/tmp/pip-req-build-sk9lfh4_/build/tmp/libxml2/lib/libxslt-plugins&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_ANSIDECL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ansidecl.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ATTRIBUTE_UNUSED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ATTRIBUTE_UNUSED<sp/>__attribute__((unused))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ATTRIBUTE_UNUSED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXSLT_ATTR_FORMAT(fmt,args)<sp/>__attribute__((__format__(__printf__,fmt,args)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXSLT_ATTR_FORMAT(fmt,args)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="preprocessor">#if<sp/>!defined<sp/>LIBXSLT_PUBLIC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>(defined(__CYGWIN__)<sp/>||<sp/>defined<sp/>_MSC_VER)<sp/>&amp;&amp;<sp/>!defined<sp/>IN_LIBXSLT<sp/>&amp;&amp;<sp/>!defined<sp/>LIBXSLT_STATIC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXSLT_PUBLIC<sp/>__declspec(dllimport)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LIBXSLT_PUBLIC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLTCONFIG_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltconfig.h"/>
+  </compounddef>
+</doxygen>

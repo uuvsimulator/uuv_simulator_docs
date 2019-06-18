@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_s_a_x_handler" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlSAXHandler</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a7efae3be1f8af0e90820427744c26f48" prot="public" static="no" mutable="no">
+        <type>internalSubsetSAXFunc</type>
+        <definition>internalSubsetSAXFunc _xmlSAXHandler::internalSubset</definition>
+        <argsstring></argsstring>
+        <name>internalSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="720" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1aa5ee8d4a02fd4bde74c3be5dbfdf608e" prot="public" static="no" mutable="no">
+        <type>isStandaloneSAXFunc</type>
+        <definition>isStandaloneSAXFunc _xmlSAXHandler::isStandalone</definition>
+        <argsstring></argsstring>
+        <name>isStandalone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="721" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ab28d186ce3e3876ab981cc3b911f616b" prot="public" static="no" mutable="no">
+        <type>hasInternalSubsetSAXFunc</type>
+        <definition>hasInternalSubsetSAXFunc _xmlSAXHandler::hasInternalSubset</definition>
+        <argsstring></argsstring>
+        <name>hasInternalSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="722" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a1a787a6a8c16f1229fe4efd525e93679" prot="public" static="no" mutable="no">
+        <type>hasExternalSubsetSAXFunc</type>
+        <definition>hasExternalSubsetSAXFunc _xmlSAXHandler::hasExternalSubset</definition>
+        <argsstring></argsstring>
+        <name>hasExternalSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="723" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ac50c24e61236da8bae7730b8185208b8" prot="public" static="no" mutable="no">
+        <type>resolveEntitySAXFunc</type>
+        <definition>resolveEntitySAXFunc _xmlSAXHandler::resolveEntity</definition>
+        <argsstring></argsstring>
+        <name>resolveEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="724" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="724" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a2e52dd17ed7ee2bc5e85362759dc2cfa" prot="public" static="no" mutable="no">
+        <type>getEntitySAXFunc</type>
+        <definition>getEntitySAXFunc _xmlSAXHandler::getEntity</definition>
+        <argsstring></argsstring>
+        <name>getEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="725" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ae7be01c36f39914f1ce8373b02670ea3" prot="public" static="no" mutable="no">
+        <type>entityDeclSAXFunc</type>
+        <definition>entityDeclSAXFunc _xmlSAXHandler::entityDecl</definition>
+        <argsstring></argsstring>
+        <name>entityDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="726" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ab41d080edc929fc5e39fee869ae46837" prot="public" static="no" mutable="no">
+        <type>notationDeclSAXFunc</type>
+        <definition>notationDeclSAXFunc _xmlSAXHandler::notationDecl</definition>
+        <argsstring></argsstring>
+        <name>notationDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="727" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a436a9f001d0955f31798d0e43c0ab8fd" prot="public" static="no" mutable="no">
+        <type>attributeDeclSAXFunc</type>
+        <definition>attributeDeclSAXFunc _xmlSAXHandler::attributeDecl</definition>
+        <argsstring></argsstring>
+        <name>attributeDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="728" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1af860235c4e0b965047592ae2aae38ee0" prot="public" static="no" mutable="no">
+        <type>elementDeclSAXFunc</type>
+        <definition>elementDeclSAXFunc _xmlSAXHandler::elementDecl</definition>
+        <argsstring></argsstring>
+        <name>elementDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="729" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a16b83f8c8399c9e56bb2e11c2035ac66" prot="public" static="no" mutable="no">
+        <type>unparsedEntityDeclSAXFunc</type>
+        <definition>unparsedEntityDeclSAXFunc _xmlSAXHandler::unparsedEntityDecl</definition>
+        <argsstring></argsstring>
+        <name>unparsedEntityDecl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="730" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a23ec5a3c9a79c7d8dd8bc61a54da5cd4" prot="public" static="no" mutable="no">
+        <type>setDocumentLocatorSAXFunc</type>
+        <definition>setDocumentLocatorSAXFunc _xmlSAXHandler::setDocumentLocator</definition>
+        <argsstring></argsstring>
+        <name>setDocumentLocator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="731" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1af62a85328a798558c2557f4f5ed11486" prot="public" static="no" mutable="no">
+        <type>startDocumentSAXFunc</type>
+        <definition>startDocumentSAXFunc _xmlSAXHandler::startDocument</definition>
+        <argsstring></argsstring>
+        <name>startDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="732" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1aadfe2adaa6201eb2b2b4e7482140e52a" prot="public" static="no" mutable="no">
+        <type>endDocumentSAXFunc</type>
+        <definition>endDocumentSAXFunc _xmlSAXHandler::endDocument</definition>
+        <argsstring></argsstring>
+        <name>endDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="733" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ad2ced0dad0ea5ee43adb2ad1ab2de82c" prot="public" static="no" mutable="no">
+        <type>startElementSAXFunc</type>
+        <definition>startElementSAXFunc _xmlSAXHandler::startElement</definition>
+        <argsstring></argsstring>
+        <name>startElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="734" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a9a2aa33cc91f4c84e7033d416a958901" prot="public" static="no" mutable="no">
+        <type>endElementSAXFunc</type>
+        <definition>endElementSAXFunc _xmlSAXHandler::endElement</definition>
+        <argsstring></argsstring>
+        <name>endElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="735" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a4551a694ee274b38f04560cb318a50f8" prot="public" static="no" mutable="no">
+        <type>referenceSAXFunc</type>
+        <definition>referenceSAXFunc _xmlSAXHandler::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="736" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ae96001bf27ccc309489c8d43122bab97" prot="public" static="no" mutable="no">
+        <type>charactersSAXFunc</type>
+        <definition>charactersSAXFunc _xmlSAXHandler::characters</definition>
+        <argsstring></argsstring>
+        <name>characters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="737" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1afbdc941b3030bfb543ee4004784165d7" prot="public" static="no" mutable="no">
+        <type>ignorableWhitespaceSAXFunc</type>
+        <definition>ignorableWhitespaceSAXFunc _xmlSAXHandler::ignorableWhitespace</definition>
+        <argsstring></argsstring>
+        <name>ignorableWhitespace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="738" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ae8f014054dbf154e5578a992cf404420" prot="public" static="no" mutable="no">
+        <type>processingInstructionSAXFunc</type>
+        <definition>processingInstructionSAXFunc _xmlSAXHandler::processingInstruction</definition>
+        <argsstring></argsstring>
+        <name>processingInstruction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="739" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a2fd72a648cbaad634d9373fd70671468" prot="public" static="no" mutable="no">
+        <type>commentSAXFunc</type>
+        <definition>commentSAXFunc _xmlSAXHandler::comment</definition>
+        <argsstring></argsstring>
+        <name>comment</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="740" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1af5030a0179da46bacbb97331141c37ec" prot="public" static="no" mutable="no">
+        <type>warningSAXFunc</type>
+        <definition>warningSAXFunc _xmlSAXHandler::warning</definition>
+        <argsstring></argsstring>
+        <name>warning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="741" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="741" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a3b318039f5f91cd2cfaa4f8891971ef1" prot="public" static="no" mutable="no">
+        <type>errorSAXFunc</type>
+        <definition>errorSAXFunc _xmlSAXHandler::error</definition>
+        <argsstring></argsstring>
+        <name>error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="742" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1aaf7f5ecd43a4d1f0da543739eadc5f3e" prot="public" static="no" mutable="no">
+        <type>fatalErrorSAXFunc</type>
+        <definition>fatalErrorSAXFunc _xmlSAXHandler::fatalError</definition>
+        <argsstring></argsstring>
+        <name>fatalError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="743" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="743" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ac587b0f30a919ff8b09ef31cf8c93150" prot="public" static="no" mutable="no">
+        <type>getParameterEntitySAXFunc</type>
+        <definition>getParameterEntitySAXFunc _xmlSAXHandler::getParameterEntity</definition>
+        <argsstring></argsstring>
+        <name>getParameterEntity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="744" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="744" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1aca507297d40b148eec6abc88c1192646" prot="public" static="no" mutable="no">
+        <type>cdataBlockSAXFunc</type>
+        <definition>cdataBlockSAXFunc _xmlSAXHandler::cdataBlock</definition>
+        <argsstring></argsstring>
+        <name>cdataBlock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="745" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a654b66280cc146c53b7dff845f60d11f" prot="public" static="no" mutable="no">
+        <type>externalSubsetSAXFunc</type>
+        <definition>externalSubsetSAXFunc _xmlSAXHandler::externalSubset</definition>
+        <argsstring></argsstring>
+        <name>externalSubset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="746" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1af965600ab43df87ce5a20063025001fa" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int _xmlSAXHandler::initialized</definition>
+        <argsstring></argsstring>
+        <name>initialized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="747" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a0206a8d061b3e408ec22ead7003a2c7a" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlSAXHandler::_private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="749" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1a62aaeb317e06a20f32b90f105003e45a" prot="public" static="no" mutable="no">
+        <type>startElementNsSAX2Func</type>
+        <definition>startElementNsSAX2Func _xmlSAXHandler::startElementNs</definition>
+        <argsstring></argsstring>
+        <name>startElementNs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="750" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ac5d1d80f714269f30425206428c2675e" prot="public" static="no" mutable="no">
+        <type>endElementNsSAX2Func</type>
+        <definition>endElementNsSAX2Func _xmlSAXHandler::endElementNs</definition>
+        <argsstring></argsstring>
+        <name>endElementNs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="751" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_s_a_x_handler_1ae022c0ff2961999df734b58fc0832338" prot="public" static="no" mutable="no">
+        <type>xmlStructuredErrorFunc</type>
+        <definition>xmlStructuredErrorFunc _xmlSAXHandler::serror</definition>
+        <argsstring></argsstring>
+        <name>serror</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="752" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="752" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="605">
+        <label>_xmlCharEncodingHandler</label>
+        <link refid="struct__xml_char_encoding_handler"/>
+      </node>
+      <node id="602">
+        <label>_xmlEnumeration</label>
+        <link refid="struct__xml_enumeration"/>
+        <childnode refid="602" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="606">
+        <label>_xmlEntity</label>
+        <link refid="struct__xml_entity"/>
+        <childnode refid="607" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="606" relation="usage">
+          <edgelabel>nexte</edgelabel>
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="611" relation="usage">
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="608">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="607" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="608" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="609">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="607" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="611" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="603">
+        <label>_xmlParserInput</label>
+        <link refid="struct__xml_parser_input"/>
+        <childnode refid="604" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="611">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="607" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="610">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="609" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="604">
+        <label>_xmlParserInputBuffer</label>
+        <link refid="struct__xml_parser_input_buffer"/>
+        <childnode refid="605" relation="usage">
+          <edgelabel>encoder</edgelabel>
+        </childnode>
+      </node>
+      <node id="607">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="607" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="608" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="609" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="610" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+      <node id="600">
+        <label>_xmlSAXHandler</label>
+        <link refid="struct__xml_s_a_x_handler"/>
+        <childnode refid="601" relation="usage">
+          <edgelabel>elementDecl</edgelabel>
+        </childnode>
+        <childnode refid="602" relation="usage">
+          <edgelabel>attributeDecl</edgelabel>
+        </childnode>
+        <childnode refid="603" relation="usage">
+          <edgelabel>resolveEntity</edgelabel>
+        </childnode>
+        <childnode refid="606" relation="usage">
+          <edgelabel>getEntity</edgelabel>
+          <edgelabel>getParameterEntity</edgelabel>
+        </childnode>
+        <childnode refid="612" relation="usage">
+          <edgelabel>setDocumentLocator</edgelabel>
+        </childnode>
+      </node>
+      <node id="601">
+        <label>_xmlElementContent</label>
+        <link refid="struct__xml_element_content"/>
+        <childnode refid="601" relation="usage">
+          <edgelabel>c1</edgelabel>
+          <edgelabel>c2</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="612">
+        <label>_xmlSAXLocator</label>
+        <link refid="struct__xml_s_a_x_locator"/>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" line="719" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h" bodystart="719" bodyend="753"/>
+    <listofallmembers>
+      <member refid="struct__xml_s_a_x_handler_1a0206a8d061b3e408ec22ead7003a2c7a" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>_private</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a436a9f001d0955f31798d0e43c0ab8fd" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>attributeDecl</name></member>
+      <member refid="struct__xml_s_a_x_handler_1aca507297d40b148eec6abc88c1192646" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>cdataBlock</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ae96001bf27ccc309489c8d43122bab97" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>characters</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a2fd72a648cbaad634d9373fd70671468" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>comment</name></member>
+      <member refid="struct__xml_s_a_x_handler_1af860235c4e0b965047592ae2aae38ee0" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>elementDecl</name></member>
+      <member refid="struct__xml_s_a_x_handler_1aadfe2adaa6201eb2b2b4e7482140e52a" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>endDocument</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a9a2aa33cc91f4c84e7033d416a958901" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>endElement</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ac5d1d80f714269f30425206428c2675e" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>endElementNs</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ae7be01c36f39914f1ce8373b02670ea3" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>entityDecl</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a3b318039f5f91cd2cfaa4f8891971ef1" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>error</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a654b66280cc146c53b7dff845f60d11f" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>externalSubset</name></member>
+      <member refid="struct__xml_s_a_x_handler_1aaf7f5ecd43a4d1f0da543739eadc5f3e" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>fatalError</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a2e52dd17ed7ee2bc5e85362759dc2cfa" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>getEntity</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ac587b0f30a919ff8b09ef31cf8c93150" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>getParameterEntity</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a1a787a6a8c16f1229fe4efd525e93679" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>hasExternalSubset</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ab28d186ce3e3876ab981cc3b911f616b" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>hasInternalSubset</name></member>
+      <member refid="struct__xml_s_a_x_handler_1afbdc941b3030bfb543ee4004784165d7" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>ignorableWhitespace</name></member>
+      <member refid="struct__xml_s_a_x_handler_1af965600ab43df87ce5a20063025001fa" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>initialized</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a7efae3be1f8af0e90820427744c26f48" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>internalSubset</name></member>
+      <member refid="struct__xml_s_a_x_handler_1aa5ee8d4a02fd4bde74c3be5dbfdf608e" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>isStandalone</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ab41d080edc929fc5e39fee869ae46837" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>notationDecl</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ae8f014054dbf154e5578a992cf404420" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>processingInstruction</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a4551a694ee274b38f04560cb318a50f8" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>reference</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ac50c24e61236da8bae7730b8185208b8" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>resolveEntity</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ae022c0ff2961999df734b58fc0832338" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>serror</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a23ec5a3c9a79c7d8dd8bc61a54da5cd4" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>setDocumentLocator</name></member>
+      <member refid="struct__xml_s_a_x_handler_1af62a85328a798558c2557f4f5ed11486" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>startDocument</name></member>
+      <member refid="struct__xml_s_a_x_handler_1ad2ced0dad0ea5ee43adb2ad1ab2de82c" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>startElement</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a62aaeb317e06a20f32b90f105003e45a" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>startElementNs</name></member>
+      <member refid="struct__xml_s_a_x_handler_1a16b83f8c8399c9e56bb2e11c2035ac66" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>unparsedEntityDecl</name></member>
+      <member refid="struct__xml_s_a_x_handler_1af5030a0179da46bacbb97331141c37ec" prot="public" virt="non-virtual"><scope>_xmlSAXHandler</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="keys_8h" kind="file" language="C++">
+    <compoundname>keys.h</compoundname>
+    <includes refid="xpath_8h" local="no">libxml/xpath.h</includes>
+    <includes refid="xsltexports_8h" local="yes">xsltexports.h</includes>
+    <includes refid="xslt_internals_8h" local="yes">xsltInternals.h</includes>
+    <incdepgraph>
+      <node id="2207">
+        <label>libxml/xpath.h</label>
+        <link refid="xpath_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2216">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2210">
+        <label>xsltexports.h</label>
+        <link refid="xsltexports_8h_source"/>
+      </node>
+      <node id="2217">
+        <label>libxml/xmlregexp.h</label>
+        <link refid="xmlregexp_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2234">
+        <label>libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+      </node>
+      <node id="2233">
+        <label>libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2232">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2228">
+        <label>libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2223">
+        <label>libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+      </node>
+      <node id="2230">
+        <label>libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+      </node>
+      <node id="2236">
+        <label>numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+      </node>
+      <node id="2222">
+        <label>libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="2214" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2214">
+        <label>limits.h</label>
+      </node>
+      <node id="2226">
+        <label>libxml/list.h</label>
+        <link refid="list_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2220">
+        <label>libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2231" relation="include">
+        </childnode>
+        <childnode refid="2218" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+      </node>
+      <node id="2218">
+        <label>libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2219" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+      </node>
+      <node id="2208">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="2209" relation="include">
+        </childnode>
+      </node>
+      <node id="2215">
+        <label>libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h_source"/>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+      </node>
+      <node id="2221">
+        <label>libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="2216" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+        <childnode refid="2224" relation="include">
+        </childnode>
+        <childnode refid="2228" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2229" relation="include">
+        </childnode>
+        <childnode refid="2230" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+      </node>
+      <node id="2235">
+        <label>xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+      </node>
+      <node id="2212">
+        <label>libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2214" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+        <childnode refid="2218" relation="include">
+        </childnode>
+      </node>
+      <node id="2229">
+        <label>libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2224">
+        <label>libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2226" relation="include">
+        </childnode>
+        <childnode refid="2227" relation="include">
+        </childnode>
+        <childnode refid="2217" relation="include">
+        </childnode>
+      </node>
+      <node id="2231">
+        <label>libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="2213" relation="include">
+        </childnode>
+        <childnode refid="2232" relation="include">
+        </childnode>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2221" relation="include">
+        </childnode>
+        <childnode refid="2233" relation="include">
+        </childnode>
+      </node>
+      <node id="2211">
+        <label>xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="2212" relation="include">
+        </childnode>
+        <childnode refid="2223" relation="include">
+        </childnode>
+        <childnode refid="2207" relation="include">
+        </childnode>
+        <childnode refid="2225" relation="include">
+        </childnode>
+        <childnode refid="2222" relation="include">
+        </childnode>
+        <childnode refid="2215" relation="include">
+        </childnode>
+        <childnode refid="2234" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2235" relation="include">
+        </childnode>
+        <childnode refid="2236" relation="include">
+        </childnode>
+      </node>
+      <node id="2219">
+        <label>libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2220" relation="include">
+        </childnode>
+      </node>
+      <node id="2227">
+        <label>libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="2208" relation="include">
+        </childnode>
+        <childnode refid="2212" relation="include">
+        </childnode>
+      </node>
+      <node id="2209">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+      <node id="2206">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h</label>
+        <link refid="keys_8h"/>
+        <childnode refid="2207" relation="include">
+        </childnode>
+        <childnode refid="2210" relation="include">
+        </childnode>
+        <childnode refid="2211" relation="include">
+        </childnode>
+      </node>
+      <node id="2213">
+        <label>stdio.h</label>
+      </node>
+      <node id="2225">
+        <label>libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="2221" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="keys_8h_1a938b83b3f75872f0db6c7c6417c3505e" prot="public" static="no">
+        <name>NODE_IS_KEYED</name>
+        <initializer>(1 &gt;&gt; 15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>NODE_IS_KEYED:</para><para>check for bit 15 set </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="26" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="keys_8h_1ace52b27bce5a4dc8abd8474192a12c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN int XSLTCALL</type>
+        <definition>XSLTPUBFUN int XSLTCALL xsltAddKey</definition>
+        <argsstring>(xsltStylesheetPtr style, const xmlChar *name, const xmlChar *nameURI, const xmlChar *match, const xmlChar *use, xmlNodePtr inst)</argsstring>
+        <name>xsltAddKey</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>nameURI</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>match</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>use</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref></type>
+          <declname>inst</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="keys_8h_1aa0739a39b46f7543fb32dfa9d31bd361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN xmlNodeSetPtr XSLTCALL</type>
+        <definition>XSLTPUBFUN xmlNodeSetPtr XSLTCALL xsltGetKey</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, const xmlChar *name, const xmlChar *nameURI, const xmlChar *value)</argsstring>
+        <name>xsltGetKey</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>nameURI</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="keys_8h_1a5316fa1085618a9c517714d0cba6e65c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltInitCtxtKeys</definition>
+        <argsstring>(xsltTransformContextPtr ctxt, xsltDocumentPtr doc)</argsstring>
+        <name>xsltInitCtxtKeys</name>
+        <param>
+          <type><ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref></type>
+          <declname>ctxt</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="keys_8h_1aa04cfc6249d423ceaf84922505e65584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeKeys</definition>
+        <argsstring>(xsltStylesheetPtr style)</argsstring>
+        <name>xsltFreeKeys</name>
+        <param>
+          <type><ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref></type>
+          <declname>style</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="keys_8h_1a408789b1f8c1fc6a233de064aea7eb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XSLTPUBFUN void XSLTCALL</type>
+        <definition>XSLTPUBFUN void XSLTCALL xsltFreeDocumentKeys</definition>
+        <argsstring>(xsltDocumentPtr doc)</argsstring>
+        <name>xsltFreeDocumentKeys</name>
+        <param>
+          <type><ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref></type>
+          <declname>doc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/><sp/>interface<sp/>for<sp/>the<sp/>key<sp/>matching<sp/>used<sp/>in<sp/>key()<sp/>and<sp/>template<sp/>matches.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>implementation<sp/>of<sp/>the<sp/>key<sp/>mechanims.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_XSLT_KEY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_XSLT_KEY_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xpath.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltexports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;xsltInternals.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor">#define<sp/>NODE_IS_KEYED<sp/>(1<sp/>&gt;&gt;<sp/>15)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltAddKey<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style,</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*nameURI,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*match,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*use,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>inst);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">XSLTPUBFUN<sp/>xmlNodeSetPtr<sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltGetKey<sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*nameURI,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltInitCtxtKeys<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_transform_context" kindref="compound">xsltTransformContextPtr</ref><sp/>ctxt,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref><sp/>doc);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltFreeKeys<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_stylesheet" kindref="compound">xsltStylesheetPtr</ref><sp/>style);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">XSLTPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XSLTCALL</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xsltFreeDocumentKeys<sp/><sp/><sp/><sp/>(<ref refid="struct__xslt_document" kindref="compound">xsltDocumentPtr</ref><sp/>doc);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_XSLT_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h"/>
+  </compounddef>
+</doxygen>

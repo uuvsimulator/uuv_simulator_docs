@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="genobject_8h" kind="file" language="C++">
+    <compoundname>genobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2972">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2969">
+        <label>/usr/include/python3.6m/genobject.h</label>
+        <link refid="genobject_8h"/>
+        <childnode refid="2970" relation="include">
+        </childnode>
+      </node>
+      <node id="2973">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2975">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2970">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2971" relation="include">
+        </childnode>
+        <childnode refid="2973" relation="include">
+        </childnode>
+        <childnode refid="2974" relation="include">
+        </childnode>
+        <childnode refid="2975" relation="include">
+        </childnode>
+        <childnode refid="2976" relation="include">
+        </childnode>
+      </node>
+      <node id="2976">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2971">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2972" relation="include">
+        </childnode>
+      </node>
+      <node id="2974">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_gen_object" prot="public">PyGenObject</innerclass>
+    <innerclass refid="struct_py_coro_object" prot="public">PyCoroObject</innerclass>
+    <innerclass refid="struct_py_async_gen_object" prot="public">PyAsyncGenObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="genobject_8h_1a1b762f5f65e02f17374572c1a99f0e4e" prot="public" static="no">
+        <name>_PyGenObject_HEAD</name>
+        <param><defname>prefix</defname></param>
+        <initializer>PyObject_HEAD                                                           \
+    /* Note: gi_frame can be NULL if the generator is &quot;finished&quot; */         \
+    struct <ref refid="struct__frame" kindref="compound">_frame</ref> *prefix##<ref refid="struct__frame" kindref="compound">_frame</ref>;                                          \
+    /* True if generator is being executed. */                              \
+    char prefix##_running;                                                  \
+    /* The code <ref refid="struct__object" kindref="compound">object</ref> backing the generator */                             \
+    <ref refid="struct__object" kindref="compound">PyObject</ref> *prefix##_code;                                                \
+    /* List of weak reference. */                                           \
+    <ref refid="struct__object" kindref="compound">PyObject</ref> *prefix##_weakreflist;                                         \
+    /* Name of the generator. */                                            \
+    <ref refid="struct__object" kindref="compound">PyObject</ref> *prefix##_name;                                                \
+    /* Qualified name of the generator. */                                  \
+    <ref refid="struct__object" kindref="compound">PyObject</ref> *prefix##_qualname;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="15" column="9" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="genobject_8h_1a81c5928a7fe913e526ce8df8316eb1c9" prot="public" static="no">
+        <name>PyGen_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyGen_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="37" column="9" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="genobject_8h_1ab675683bceadb72050a4e03f8c641dff" prot="public" static="no">
+        <name>PyGen_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyGen_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="38" column="9" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="genobject_8h_1ae6474bc33080176ca3cbee70e566f36d" prot="public" static="no">
+        <name>PyCoro_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyCoro_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="61" column="9" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="genobject_8h_1a2cff48cd388c31e783eb4bc36ff8e451" prot="public" static="no">
+        <name>PyAsyncGen_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyAsyncGen_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="90" column="9" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="genobject_8h_1ab3978d96531ad97f1c3139b11f771f98" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="42" column="1" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="genobject_8h_1a6639e0d5ae107fbd2c19a599c806fbe7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject * qualname</definition>
+        <argsstring></argsstring>
+        <name>qualname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="42" column="1" bodyfile="/usr/include/python3.6m/genobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="genobject_8h_1aa52d317bca2798e4191968a4f4a464f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyGen_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a589ee920a7e1e9c25b7ac256892836ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyGen_New(struct _frame *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a6911564beb160fcf03ed3774f8177f25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyGen_NeedsFinalizing(PyGenObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a9198f0a955b047b4348e1590e944a1fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *<ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyObject* _PyGen_yf</definition>
+        <argsstring>(PyGenObject *)</argsstring>
+        <name>_PyGen_yf</name>
+        <param>
+          <type><ref refid="struct_py_gen_object" kindref="compound">PyGenObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a51aea3e0ef8061776a6daf38002cd1f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _PyGen_Finalize(PyObject *self)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a9a56e7422d542045d5c34be27aa7ffa6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyAIterWrapper_New</definition>
+        <argsstring>(PyObject *aiter)</argsstring>
+        <name>_PyAIterWrapper_New</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>aiter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1aed746df69b62aa36f5eddbb3793ac3be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyCoro_GetAwaitableIter</definition>
+        <argsstring>(PyObject *o)</argsstring>
+        <name>_PyCoro_GetAwaitableIter</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>o</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a2adfb703f87fdfca8b5c80ba68f0a322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyAsyncGenValueWrapperNew</definition>
+        <argsstring>(PyObject *)</argsstring>
+        <name>_PyAsyncGenValueWrapperNew</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="genobject_8h_1a9e8ce0d4e105f8eca5d6ee5893d7d5e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int PyAsyncGen_ClearFreeLists</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyAsyncGen_ClearFreeLists</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/genobject.h" line="94" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Generator<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_GENOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_GENOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Avoid<sp/>including<sp/>frameobject.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyGenObject_HEAD<sp/>defines<sp/>the<sp/>initial<sp/>segment<sp/>of<sp/>generator</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>and<sp/>coroutine<sp/>objects.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGenObject_HEAD(prefix)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Note:<sp/>gi_frame<sp/>can<sp/>be<sp/>NULL<sp/>if<sp/>the<sp/>generator<sp/>is<sp/>&quot;finished&quot;<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>struct<sp/>_frame<sp/>*prefix##_frame;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>True<sp/>if<sp/>generator<sp/>is<sp/>being<sp/>executed.<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="20"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>char<sp/>prefix##_running;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>code<sp/>object<sp/>backing<sp/>the<sp/>generator<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="22"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject<sp/>*prefix##_code;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="23"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>List<sp/>of<sp/>weak<sp/>reference.<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject<sp/>*prefix##_weakreflist;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Name<sp/>of<sp/>the<sp/>generator.<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject<sp/>*prefix##_name;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="27"><highlight class="preprocessor"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Qualified<sp/>name<sp/>of<sp/>the<sp/>generator.<sp/>*/</highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="28"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyObject<sp/>*prefix##_qualname;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="struct_py_gen_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>gi_<sp/>prefix<sp/>is<sp/>intended<sp/>to<sp/>remind<sp/>of<sp/>generator-iterator.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyGenObject_HEAD(gi)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">}<sp/><ref refid="struct_py_gen_object" kindref="compound">PyGenObject</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyGen_Type;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyGen_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyGen_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyGen_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyGen_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyGen_New(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyGen_NewWithQualName(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*qualname);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyGen_NeedsFinalizing(PyGenObject<sp/>*);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyGen_SetStopIterationValue(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyGen_FetchStopIterationValue(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyGen_Send(PyGenObject<sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyGen_yf(PyGenObject<sp/>*);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyGen_Finalize(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*</highlight><highlight class="keyword">self</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="struct_py_coro_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyGenObject_HEAD(cr)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}<sp/><ref refid="struct_py_coro_object" kindref="compound">PyCoroObject</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyCoro_Type;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyCoroWrapper_Type;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyAIterWrapper_Type;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyAIterWrapper_New(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*aiter);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyCoro_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyCoro_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyCoro_GetAwaitableIter(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*o);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyCoro_New(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*qualname);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Asynchronous<sp/>Generators<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="struct_py_async_gen_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>_PyGenObject_HEAD(ag)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*ag_finalizer;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flag<sp/>is<sp/>set<sp/>to<sp/>1<sp/>when<sp/>hooks<sp/>set<sp/>up<sp/>by<sp/>sys.set_asyncgen_hooks</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>were<sp/>called<sp/>on<sp/>the<sp/>generator,<sp/>to<sp/>avoid<sp/>calling<sp/>them<sp/>more</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>than<sp/>once.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ag_hooks_inited;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flag<sp/>is<sp/>set<sp/>to<sp/>1<sp/>when<sp/>aclose()<sp/>is<sp/>called<sp/>for<sp/>the<sp/>first<sp/>time,<sp/>or</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>when<sp/>a<sp/>StopAsyncIteration<sp/>exception<sp/>is<sp/>raised.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ag_closed;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">}<sp/><ref refid="struct_py_async_gen_object" kindref="compound">PyAsyncGenObject</ref>;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyAsyncGen_Type;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyAsyncGenASend_Type;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyAsyncGenWrappedValue_Type;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyAsyncGenAThrow_Type;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyAsyncGen_New(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*name,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*qualname);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyAsyncGen_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyAsyncGen_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_PyAsyncGenValueWrapperNew(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyAsyncGen_ClearFreeLists(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>_PyGenObject_HEAD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_GENOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/genobject.h"/>
+  </compounddef>
+</doxygen>

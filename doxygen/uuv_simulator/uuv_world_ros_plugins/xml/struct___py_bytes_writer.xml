@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___py_bytes_writer" kind="struct" language="C++" prot="public">
+    <compoundname>_PyBytesWriter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___py_bytes_writer_1a4f63cd9da46d5e94f656db117886c1d4" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyBytesWriter::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="146" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1acd4f527c2441f162eb2be714871ae368" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyBytesWriter::allocated</definition>
+        <argsstring></argsstring>
+        <name>allocated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="149" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1ad4a9d1df7565425866b42047204f1eef" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyBytesWriter::min_size</definition>
+        <argsstring></argsstring>
+        <name>min_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="153" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1a20e4cc461166ff8baba60f5bb4c9131f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _PyBytesWriter::use_bytearray</definition>
+        <argsstring></argsstring>
+        <name>use_bytearray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="156" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1aa2a6b5841df61f34f1c67b14ee97e61a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _PyBytesWriter::overallocate</definition>
+        <argsstring></argsstring>
+        <name>overallocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="160" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1a15e02050e33dd6f283cdf72edc56c22f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _PyBytesWriter::use_small_buffer</definition>
+        <argsstring></argsstring>
+        <name>use_small_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="163" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_bytes_writer_1a283280dd6592ccc7169fa7ab47bca4c7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _PyBytesWriter::small_buffer[512]</definition>
+        <argsstring>[512]</argsstring>
+        <name>small_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytesobject.h" line="164" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="273">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="270" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="275">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="274">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="276">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="270">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="271" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="272" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="273" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="274" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="275" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="276" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="277" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="278" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="269" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="271">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="268">
+        <label>_PyBytesWriter</label>
+        <link refid="struct___py_bytes_writer"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="277">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="278">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="272">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/bytesobject.h" line="144" column="1" bodyfile="/usr/include/python3.6m/bytesobject.h" bodystart="144" bodyend="165"/>
+    <listofallmembers>
+      <member refid="struct___py_bytes_writer_1acd4f527c2441f162eb2be714871ae368" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>allocated</name></member>
+      <member refid="struct___py_bytes_writer_1a4f63cd9da46d5e94f656db117886c1d4" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>buffer</name></member>
+      <member refid="struct___py_bytes_writer_1ad4a9d1df7565425866b42047204f1eef" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>min_size</name></member>
+      <member refid="struct___py_bytes_writer_1aa2a6b5841df61f34f1c67b14ee97e61a" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>overallocate</name></member>
+      <member refid="struct___py_bytes_writer_1a283280dd6592ccc7169fa7ab47bca4c7" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>small_buffer</name></member>
+      <member refid="struct___py_bytes_writer_1a20e4cc461166ff8baba60f5bb4c9131f" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>use_bytearray</name></member>
+      <member refid="struct___py_bytes_writer_1a15e02050e33dd6f283cdf72edc56c22f" prot="public" virt="non-virtual"><scope>_PyBytesWriter</scope><name>use_small_buffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

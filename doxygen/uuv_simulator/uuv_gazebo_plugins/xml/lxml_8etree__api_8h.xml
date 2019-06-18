@@ -1,0 +1,1893 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="lxml_8etree__api_8h" kind="file" language="C++">
+    <compoundname>lxml.etree_api.h</compoundname>
+    <includes refid="_python_8h" local="yes">Python.h</includes>
+    <includes refid="lxml_8etree_8h" local="yes">lxml.etree.h</includes>
+    <incdepgraph>
+      <node id="2718">
+        <label>traceback.h</label>
+        <link refid="traceback_8h_source"/>
+        <childnode refid="2719" relation="include">
+        </childnode>
+      </node>
+      <node id="2691">
+        <label>typeslots.h</label>
+        <link refid="typeslots_8h_source"/>
+      </node>
+      <node id="2740">
+        <label>abstract.h</label>
+        <link refid="abstract_8h_source"/>
+      </node>
+      <node id="2695">
+        <label>stdarg.h</label>
+      </node>
+      <node id="2750">
+        <label>pyfpe.h</label>
+        <link refid="pyfpe_8h_source"/>
+      </node>
+      <node id="2731">
+        <label>pyarena.h</label>
+        <link refid="pyarena_8h_source"/>
+      </node>
+      <node id="2722">
+        <label>iterobject.h</label>
+        <link refid="iterobject_8h_source"/>
+      </node>
+      <node id="2733">
+        <label>pythonrun.h</label>
+        <link refid="pythonrun_8h_source"/>
+      </node>
+      <node id="2706">
+        <label>tupleobject.h</label>
+        <link refid="tupleobject_8h_source"/>
+      </node>
+      <node id="2688">
+        <label>object.h</label>
+        <link refid="object_8h_source"/>
+      </node>
+      <node id="2723">
+        <label>genobject.h</label>
+        <link refid="genobject_8h_source"/>
+      </node>
+      <node id="2679">
+        <label>assert.h</label>
+      </node>
+      <node id="2720">
+        <label>sliceobject.h</label>
+        <link refid="sliceobject_8h_source"/>
+      </node>
+      <node id="2700">
+        <label>longintrepr.h</label>
+        <link refid="longintrepr_8h_source"/>
+      </node>
+      <node id="2724">
+        <label>descrobject.h</label>
+        <link refid="descrobject_8h_source"/>
+      </node>
+      <node id="2729">
+        <label>codecs.h</label>
+        <link refid="codecs_8h_source"/>
+      </node>
+      <node id="2736">
+        <label>sysmodule.h</label>
+        <link refid="sysmodule_8h_source"/>
+      </node>
+      <node id="2711">
+        <label>setobject.h</label>
+        <link refid="setobject_8h_source"/>
+      </node>
+      <node id="2707">
+        <label>listobject.h</label>
+        <link refid="listobject_8h_source"/>
+      </node>
+      <node id="2737">
+        <label>osmodule.h</label>
+        <link refid="osmodule_8h_source"/>
+      </node>
+      <node id="2678">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2727">
+        <label>structseq.h</label>
+        <link refid="structseq_8h_source"/>
+      </node>
+      <node id="2697">
+        <label>unicodeobject.h</label>
+        <link refid="unicodeobject_8h_source"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+        <childnode refid="2698" relation="include">
+        </childnode>
+      </node>
+      <node id="2742">
+        <label>compile.h</label>
+        <link refid="compile_8h_source"/>
+        <childnode refid="2743" relation="include">
+        </childnode>
+      </node>
+      <node id="2689">
+        <label>pymem.h</label>
+        <link refid="pymem_8h_source"/>
+        <childnode refid="2680" relation="include">
+        </childnode>
+      </node>
+      <node id="2726">
+        <label>weakrefobject.h</label>
+        <link refid="weakrefobject_8h_source"/>
+      </node>
+      <node id="2743">
+        <label>code.h</label>
+        <link refid="code_8h_source"/>
+      </node>
+      <node id="2687">
+        <label>pytime.h</label>
+        <link refid="pytime_8h_source"/>
+        <childnode refid="2673" relation="include">
+        </childnode>
+        <childnode refid="2688" relation="include">
+        </childnode>
+      </node>
+      <node id="2747">
+        <label>pystrcmp.h</label>
+        <link refid="pystrcmp_8h_source"/>
+      </node>
+      <node id="2744">
+        <label>eval.h</label>
+        <link refid="eval_8h_source"/>
+      </node>
+      <node id="2746">
+        <label>pystrtod.h</label>
+        <link refid="pystrtod_8h_source"/>
+      </node>
+      <node id="2686">
+        <label>pymath.h</label>
+        <link refid="pymath_8h_source"/>
+        <childnode refid="2673" relation="include">
+        </childnode>
+      </node>
+      <node id="2694">
+        <label>bytearrayobject.h</label>
+        <link refid="bytearrayobject_8h_source"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2675">
+        <label>limits.h</label>
+      </node>
+      <node id="2717">
+        <label>pycapsule.h</label>
+        <link refid="pycapsule_8h_source"/>
+      </node>
+      <node id="2739">
+        <label>import.h</label>
+        <link refid="import_8h_source"/>
+      </node>
+      <node id="2685">
+        <label>pyatomic.h</label>
+        <link refid="pyatomic_8h_source"/>
+      </node>
+      <node id="2690">
+        <label>objimpl.h</label>
+        <link refid="objimpl_8h_source"/>
+        <childnode refid="2689" relation="include">
+        </childnode>
+      </node>
+      <node id="2721">
+        <label>cellobject.h</label>
+        <link refid="cellobject_8h_source"/>
+      </node>
+      <node id="2749">
+        <label>fileutils.h</label>
+        <link refid="fileutils_8h_source"/>
+      </node>
+      <node id="2671">
+        <label>Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2672" relation="include">
+        </childnode>
+        <childnode refid="2673" relation="include">
+        </childnode>
+        <childnode refid="2674" relation="include">
+        </childnode>
+        <childnode refid="2675" relation="include">
+        </childnode>
+        <childnode refid="2676" relation="include">
+        </childnode>
+        <childnode refid="2677" relation="include">
+        </childnode>
+        <childnode refid="2678" relation="include">
+        </childnode>
+        <childnode refid="2679" relation="include">
+        </childnode>
+        <childnode refid="2680" relation="include">
+        </childnode>
+        <childnode refid="2684" relation="include">
+        </childnode>
+        <childnode refid="2685" relation="include">
+        </childnode>
+        <childnode refid="2686" relation="include">
+        </childnode>
+        <childnode refid="2687" relation="include">
+        </childnode>
+        <childnode refid="2689" relation="include">
+        </childnode>
+        <childnode refid="2688" relation="include">
+        </childnode>
+        <childnode refid="2690" relation="include">
+        </childnode>
+        <childnode refid="2691" relation="include">
+        </childnode>
+        <childnode refid="2692" relation="include">
+        </childnode>
+        <childnode refid="2693" relation="include">
+        </childnode>
+        <childnode refid="2694" relation="include">
+        </childnode>
+        <childnode refid="2696" relation="include">
+        </childnode>
+        <childnode refid="2697" relation="include">
+        </childnode>
+        <childnode refid="2699" relation="include">
+        </childnode>
+        <childnode refid="2700" relation="include">
+        </childnode>
+        <childnode refid="2701" relation="include">
+        </childnode>
+        <childnode refid="2702" relation="include">
+        </childnode>
+        <childnode refid="2703" relation="include">
+        </childnode>
+        <childnode refid="2704" relation="include">
+        </childnode>
+        <childnode refid="2705" relation="include">
+        </childnode>
+        <childnode refid="2706" relation="include">
+        </childnode>
+        <childnode refid="2707" relation="include">
+        </childnode>
+        <childnode refid="2708" relation="include">
+        </childnode>
+        <childnode refid="2709" relation="include">
+        </childnode>
+        <childnode refid="2710" relation="include">
+        </childnode>
+        <childnode refid="2711" relation="include">
+        </childnode>
+        <childnode refid="2712" relation="include">
+        </childnode>
+        <childnode refid="2713" relation="include">
+        </childnode>
+        <childnode refid="2714" relation="include">
+        </childnode>
+        <childnode refid="2715" relation="include">
+        </childnode>
+        <childnode refid="2716" relation="include">
+        </childnode>
+        <childnode refid="2717" relation="include">
+        </childnode>
+        <childnode refid="2718" relation="include">
+        </childnode>
+        <childnode refid="2720" relation="include">
+        </childnode>
+        <childnode refid="2721" relation="include">
+        </childnode>
+        <childnode refid="2722" relation="include">
+        </childnode>
+        <childnode refid="2723" relation="include">
+        </childnode>
+        <childnode refid="2724" relation="include">
+        </childnode>
+        <childnode refid="2725" relation="include">
+        </childnode>
+        <childnode refid="2726" relation="include">
+        </childnode>
+        <childnode refid="2727" relation="include">
+        </childnode>
+        <childnode refid="2728" relation="include">
+        </childnode>
+        <childnode refid="2729" relation="include">
+        </childnode>
+        <childnode refid="2730" relation="include">
+        </childnode>
+        <childnode refid="2719" relation="include">
+        </childnode>
+        <childnode refid="2731" relation="include">
+        </childnode>
+        <childnode refid="2732" relation="include">
+        </childnode>
+        <childnode refid="2733" relation="include">
+        </childnode>
+        <childnode refid="2734" relation="include">
+        </childnode>
+        <childnode refid="2735" relation="include">
+        </childnode>
+        <childnode refid="2736" relation="include">
+        </childnode>
+        <childnode refid="2737" relation="include">
+        </childnode>
+        <childnode refid="2738" relation="include">
+        </childnode>
+        <childnode refid="2739" relation="include">
+        </childnode>
+        <childnode refid="2740" relation="include">
+        </childnode>
+        <childnode refid="2741" relation="include">
+        </childnode>
+        <childnode refid="2742" relation="include">
+        </childnode>
+        <childnode refid="2744" relation="include">
+        </childnode>
+        <childnode refid="2745" relation="include">
+        </childnode>
+        <childnode refid="2746" relation="include">
+        </childnode>
+        <childnode refid="2747" relation="include">
+        </childnode>
+        <childnode refid="2748" relation="include">
+        </childnode>
+        <childnode refid="2749" relation="include">
+        </childnode>
+        <childnode refid="2750" relation="include">
+        </childnode>
+      </node>
+      <node id="2677">
+        <label>string.h</label>
+      </node>
+      <node id="2670">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h"/>
+        <childnode refid="2671" relation="include">
+        </childnode>
+        <childnode refid="2751" relation="include">
+        </childnode>
+      </node>
+      <node id="2703">
+        <label>complexobject.h</label>
+        <link refid="complexobject_8h_source"/>
+      </node>
+      <node id="2715">
+        <label>classobject.h</label>
+        <link refid="classobject_8h_source"/>
+      </node>
+      <node id="2716">
+        <label>fileobject.h</label>
+        <link refid="fileobject_8h_source"/>
+      </node>
+      <node id="2696">
+        <label>bytesobject.h</label>
+        <link refid="bytesobject_8h_source"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2725">
+        <label>warnings.h</label>
+        <link refid="warnings_8h_source"/>
+      </node>
+      <node id="2701">
+        <label>boolobject.h</label>
+        <link refid="boolobject_8h_source"/>
+      </node>
+      <node id="2673">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="2710">
+        <label>enumobject.h</label>
+        <link refid="enumobject_8h_source"/>
+      </node>
+      <node id="2714">
+        <label>funcobject.h</label>
+        <link refid="funcobject_8h_source"/>
+      </node>
+      <node id="2709">
+        <label>odictobject.h</label>
+        <link refid="odictobject_8h_source"/>
+      </node>
+      <node id="2748">
+        <label>dtoa.h</label>
+        <link refid="dtoa_8h_source"/>
+      </node>
+      <node id="2751">
+        <label>lxml.etree.h</label>
+        <link refid="lxml_8etree_8h_source"/>
+      </node>
+      <node id="2702">
+        <label>floatobject.h</label>
+        <link refid="floatobject_8h_source"/>
+      </node>
+      <node id="2699">
+        <label>longobject.h</label>
+        <link refid="longobject_8h_source"/>
+      </node>
+      <node id="2693">
+        <label>pydebug.h</label>
+        <link refid="pydebug_8h_source"/>
+      </node>
+      <node id="2672">
+        <label>patchlevel.h</label>
+        <link refid="patchlevel_8h_source"/>
+      </node>
+      <node id="2732">
+        <label>modsupport.h</label>
+        <link refid="modsupport_8h_source"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2712">
+        <label>methodobject.h</label>
+        <link refid="methodobject_8h_source"/>
+      </node>
+      <node id="2683">
+        <label>time.h</label>
+      </node>
+      <node id="2708">
+        <label>dictobject.h</label>
+        <link refid="dictobject_8h_source"/>
+      </node>
+      <node id="2682">
+        <label>math.h</label>
+      </node>
+      <node id="2705">
+        <label>memoryobject.h</label>
+        <link refid="memoryobject_8h_source"/>
+      </node>
+      <node id="2684">
+        <label>pymacro.h</label>
+        <link refid="pymacro_8h_source"/>
+      </node>
+      <node id="2674">
+        <label>pymacconfig.h</label>
+        <link refid="pymacconfig_8h_source"/>
+      </node>
+      <node id="2698">
+        <label>ctype.h</label>
+      </node>
+      <node id="2680">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="2673" relation="include">
+        </childnode>
+        <childnode refid="2681" relation="include">
+        </childnode>
+        <childnode refid="2678" relation="include">
+        </childnode>
+        <childnode refid="2682" relation="include">
+        </childnode>
+        <childnode refid="2683" relation="include">
+        </childnode>
+      </node>
+      <node id="2745">
+        <label>pyctype.h</label>
+        <link refid="pyctype_8h_source"/>
+      </node>
+      <node id="2730">
+        <label>pyerrors.h</label>
+        <link refid="pyerrors_8h_source"/>
+        <childnode refid="2695" relation="include">
+        </childnode>
+      </node>
+      <node id="2734">
+        <label>pylifecycle.h</label>
+        <link refid="pylifecycle_8h_source"/>
+      </node>
+      <node id="2713">
+        <label>moduleobject.h</label>
+        <link refid="moduleobject_8h_source"/>
+      </node>
+      <node id="2692">
+        <label>pyhash.h</label>
+        <link refid="pyhash_8h_source"/>
+      </node>
+      <node id="2741">
+        <label>bltinmodule.h</label>
+        <link refid="bltinmodule_8h_source"/>
+      </node>
+      <node id="2735">
+        <label>ceval.h</label>
+        <link refid="ceval_8h_source"/>
+      </node>
+      <node id="2728">
+        <label>namespaceobject.h</label>
+        <link refid="namespaceobject_8h_source"/>
+      </node>
+      <node id="2704">
+        <label>rangeobject.h</label>
+        <link refid="rangeobject_8h_source"/>
+      </node>
+      <node id="2719">
+        <label>pystate.h</label>
+        <link refid="pystate_8h_source"/>
+      </node>
+      <node id="2676">
+        <label>stdio.h</label>
+      </node>
+      <node id="2681">
+        <label>inttypes.h</label>
+      </node>
+      <node id="2738">
+        <label>intrcheck.h</label>
+        <link refid="intrcheck_8h_source"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a2d44f08b156d52e53f81aa1803d0c5aa" prot="public" static="no">
+        <name>deepcopyNodeToDocument</name>
+        <initializer>__pyx_api_f_4lxml_5etree_deepcopyNodeToDocument</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="12" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a61892351dd7627d650e761aa9616ee29" prot="public" static="no">
+        <name>elementTreeFactory</name>
+        <initializer>__pyx_api_f_4lxml_5etree_elementTreeFactory</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="14" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ac7604fc1e68364656d083ce72e2cd9ac" prot="public" static="no">
+        <name>newElementTree</name>
+        <initializer>__pyx_api_f_4lxml_5etree_newElementTree</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="16" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aaca3f72cd3e4e32e3c164f0dc23e1fd6" prot="public" static="no">
+        <name>adoptExternalDocument</name>
+        <initializer>__pyx_api_f_4lxml_5etree_adoptExternalDocument</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="18" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a545d6de43a5942268ad7311ef44fc28f" prot="public" static="no">
+        <name>elementFactory</name>
+        <initializer>__pyx_api_f_4lxml_5etree_elementFactory</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="20" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a5c0ecf7dcd66fb8e5b51958215602f3b" prot="public" static="no">
+        <name>makeElement</name>
+        <initializer>__pyx_api_f_4lxml_5etree_makeElement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="22" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ac4179d3c9eb9578f9a22c4491e7b499b" prot="public" static="no">
+        <name>makeSubElement</name>
+        <initializer>__pyx_api_f_4lxml_5etree_makeSubElement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="24" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aee699ae9542baa969bf820b99bcbd3ce" prot="public" static="no">
+        <name>setElementClassLookupFunction</name>
+        <initializer>__pyx_api_f_4lxml_5etree_setElementClassLookupFunction</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="26" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ac1e4bf69a50242520d359d10d4c4ee7d" prot="public" static="no">
+        <name>lookupDefaultElementClass</name>
+        <initializer>__pyx_api_f_4lxml_5etree_lookupDefaultElementClass</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="28" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aa1ec7a59c196fa6e3ed3193e42845bca" prot="public" static="no">
+        <name>lookupNamespaceElementClass</name>
+        <initializer>__pyx_api_f_4lxml_5etree_lookupNamespaceElementClass</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="30" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a3087c42ea12f7f9caadd94fe7965b7c1" prot="public" static="no">
+        <name>callLookupFallback</name>
+        <initializer>__pyx_api_f_4lxml_5etree_callLookupFallback</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="32" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a23b0537c8b49d14cfe0b75264d29f449" prot="public" static="no">
+        <name>tagMatches</name>
+        <initializer>__pyx_api_f_4lxml_5etree_tagMatches</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="34" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1af7afc658398ba0415e9b0f32d595af5f" prot="public" static="no">
+        <name>documentOrRaise</name>
+        <initializer>__pyx_api_f_4lxml_5etree_documentOrRaise</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="36" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a45562180b26ec38b3506605aceb1f43e" prot="public" static="no">
+        <name>rootNodeOrRaise</name>
+        <initializer>__pyx_api_f_4lxml_5etree_rootNodeOrRaise</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="38" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ae2b9dfea9ed95343f96e44454f397b7b" prot="public" static="no">
+        <name>hasText</name>
+        <initializer>__pyx_api_f_4lxml_5etree_hasText</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="40" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aa697e6bc396e53211d132cb4808665cd" prot="public" static="no">
+        <name>hasTail</name>
+        <initializer>__pyx_api_f_4lxml_5etree_hasTail</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="42" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a5466a2654927098850639f87dd18d9a3" prot="public" static="no">
+        <name>textOf</name>
+        <initializer>__pyx_api_f_4lxml_5etree_textOf</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="44" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aee11aac473a1874d52d1f2baec56c3b0" prot="public" static="no">
+        <name>tailOf</name>
+        <initializer>__pyx_api_f_4lxml_5etree_tailOf</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="46" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a668f3321cecd836199434254bbe952ce" prot="public" static="no">
+        <name>setNodeText</name>
+        <initializer>__pyx_api_f_4lxml_5etree_setNodeText</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="48" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1af63d5aaea44574da0f957473c12ce459" prot="public" static="no">
+        <name>setTailText</name>
+        <initializer>__pyx_api_f_4lxml_5etree_setTailText</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="50" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ac04b46e4a550331b55b0b330380da601" prot="public" static="no">
+        <name>attributeValue</name>
+        <initializer>__pyx_api_f_4lxml_5etree_attributeValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="52" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1af3f034857c69432acede902fe4de63bf" prot="public" static="no">
+        <name>attributeValueFromNsName</name>
+        <initializer>__pyx_api_f_4lxml_5etree_attributeValueFromNsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="54" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aff43b0278a527ecc0c19d3bd3bbac47d" prot="public" static="no">
+        <name>getAttributeValue</name>
+        <initializer>__pyx_api_f_4lxml_5etree_getAttributeValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="56" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a7a0290f00ac95304074f0e4ce85112c0" prot="public" static="no">
+        <name>iterattributes</name>
+        <initializer>__pyx_api_f_4lxml_5etree_iterattributes</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="58" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ab0ccb2fdb97275d660655612bd4622bb" prot="public" static="no">
+        <name>collectAttributes</name>
+        <initializer>__pyx_api_f_4lxml_5etree_collectAttributes</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="60" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a77c8a49e0072245a797ff022a280c03e" prot="public" static="no">
+        <name>setAttributeValue</name>
+        <initializer>__pyx_api_f_4lxml_5etree_setAttributeValue</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="62" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ac80916b4f50e7b83322be9148c93ebc9" prot="public" static="no">
+        <name>delAttribute</name>
+        <initializer>__pyx_api_f_4lxml_5etree_delAttribute</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="64" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a354d72ddae4c5a32c4187c4cf732b167" prot="public" static="no">
+        <name>delAttributeFromNsName</name>
+        <initializer>__pyx_api_f_4lxml_5etree_delAttributeFromNsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="66" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a7604f78c7e0099fc1e9d3299bc2fef1d" prot="public" static="no">
+        <name>hasChild</name>
+        <initializer>__pyx_api_f_4lxml_5etree_hasChild</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="68" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a1823e5d0453961d45659400d913fa3ff" prot="public" static="no">
+        <name>findChild</name>
+        <initializer>__pyx_api_f_4lxml_5etree_findChild</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="70" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a5194a82bdb56ee8f989bc14f7c1df9ab" prot="public" static="no">
+        <name>findChildForwards</name>
+        <initializer>__pyx_api_f_4lxml_5etree_findChildForwards</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="72" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aed0a0a1540cd75a9a58c0c2e3121649a" prot="public" static="no">
+        <name>findChildBackwards</name>
+        <initializer>__pyx_api_f_4lxml_5etree_findChildBackwards</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="74" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a7dadd8042d6968dc24a6ea3bdb05b0ea" prot="public" static="no">
+        <name>nextElement</name>
+        <initializer>__pyx_api_f_4lxml_5etree_nextElement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="76" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a80e1db5214ba0fa91045c4a32a8c7ab1" prot="public" static="no">
+        <name>previousElement</name>
+        <initializer>__pyx_api_f_4lxml_5etree_previousElement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="78" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a91268c10eeb07ff1402049c88658c10a" prot="public" static="no">
+        <name>appendChild</name>
+        <initializer>__pyx_api_f_4lxml_5etree_appendChild</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="80" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a88db0e6013cb32ca9318ae521612339e" prot="public" static="no">
+        <name>appendChildToElement</name>
+        <initializer>__pyx_api_f_4lxml_5etree_appendChildToElement</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="82" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a85dce228292b0d8933034b28bea58b06" prot="public" static="no">
+        <name>pyunicode</name>
+        <initializer>__pyx_api_f_4lxml_5etree_pyunicode</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="84" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a59a1fd682b0c6813f7191647eb3b6514" prot="public" static="no">
+        <name>utf8</name>
+        <initializer>__pyx_api_f_4lxml_5etree_utf8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="86" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a4a61f864313a6b305dcaf40c69dcfb27" prot="public" static="no">
+        <name>getNsTag</name>
+        <initializer>__pyx_api_f_4lxml_5etree_getNsTag</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="88" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ae7c8db7f8f5e76c8fdb3a7fae42cfc11" prot="public" static="no">
+        <name>getNsTagWithEmptyNs</name>
+        <initializer>__pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="90" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1afee3fad75e500419dc925d920709a126" prot="public" static="no">
+        <name>namespacedName</name>
+        <initializer>__pyx_api_f_4lxml_5etree_namespacedName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="92" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1adceb36e4cfe3bc3900620013a5ba3cde" prot="public" static="no">
+        <name>namespacedNameFromNsName</name>
+        <initializer>__pyx_api_f_4lxml_5etree_namespacedNameFromNsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="94" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1aaec5c95440667500acc06f66228ea97c" prot="public" static="no">
+        <name>iteratorStoreNext</name>
+        <initializer>__pyx_api_f_4lxml_5etree_iteratorStoreNext</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="96" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1abbea57dd8a078dad452114ec724a62e2" prot="public" static="no">
+        <name>initTagMatch</name>
+        <initializer>__pyx_api_f_4lxml_5etree_initTagMatch</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="98" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1ab334ec94dc444023095e69d8ccc337c1" prot="public" static="no">
+        <name>findOrBuildNodeNsPrefix</name>
+        <initializer>__pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="100" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a7154e743c1887cb24b4dc57922d1580d" prot="public" static="no">
+        <name>__Pyx_PyIdentifier_FromString</name>
+        <param><defname>s</defname></param>
+        <initializer>PyString_FromString(s)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="103" column="11" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="lxml_8etree__api_8h_1a4585b2c90beeaa1908bb1b304e088bf8" prot="public" static="no">
+        <name>__PYX_HAVE_RT_ImportFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="110" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a67ba9ee5b2149565b8bb2c9c00969a10" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *(*</type>
+        <definition>struct LxmlElement*(* __pyx_api_f_4lxml_5etree_deepcopyNodeToDocument) (struct LxmlDocument *, xmlNode *)=0</definition>
+        <argsstring>)(struct LxmlDocument *, xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_deepcopyNodeToDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a0fb312c0f33aeceb0367eb1bad1cb2f0" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref> *(*</type>
+        <definition>struct LxmlElementTree*(* __pyx_api_f_4lxml_5etree_elementTreeFactory) (struct LxmlElement *)=0</definition>
+        <argsstring>)(struct LxmlElement *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_elementTreeFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ae0fc4145df3da3d9f9081961bf0d0598" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref> *(*</type>
+        <definition>struct LxmlElementTree*(* __pyx_api_f_4lxml_5etree_newElementTree) (struct LxmlElement *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElement *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_newElementTree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a3e1dd5fc68c49390f7f89d3ebc22fa2b" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref> *(*</type>
+        <definition>struct LxmlElementTree*(* __pyx_api_f_4lxml_5etree_adoptExternalDocument) (xmlDoc *, PyObject *, int)=0</definition>
+        <argsstring>)(xmlDoc *, PyObject *, int)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_adoptExternalDocument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a002e36b684c74940294541b4bb84fdb2" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *(*</type>
+        <definition>struct LxmlElement*(* __pyx_api_f_4lxml_5etree_elementFactory) (struct LxmlDocument *, xmlNode *)=0</definition>
+        <argsstring>)(struct LxmlDocument *, xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_elementFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a42408eca4fffe92ba950f0dac0ae1a5a" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *(*</type>
+        <definition>struct LxmlElement*(* __pyx_api_f_4lxml_5etree_makeElement) (PyObject *, struct LxmlDocument *, PyObject *, PyObject *, PyObject *, PyObject *, PyObject *)=0</definition>
+        <argsstring>)(PyObject *, struct LxmlDocument *, PyObject *, PyObject *, PyObject *, PyObject *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_makeElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a2fbea95f2427c754040a6abaa5a719c1" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *(*</type>
+        <definition>struct LxmlElement*(* __pyx_api_f_4lxml_5etree_makeSubElement) (struct LxmlElement *, PyObject *, PyObject *, PyObject *, PyObject *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElement *, PyObject *, PyObject *, PyObject *, PyObject *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_makeSubElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="140" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a662cdfc2a21ff0d438240083108e8acb" prot="public" static="yes" mutable="no">
+        <type>void(*</type>
+        <definition>void(* __pyx_api_f_4lxml_5etree_setElementClassLookupFunction) (_element_class_lookup_function, PyObject *)=0</definition>
+        <argsstring>)(_element_class_lookup_function, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_setElementClassLookupFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="25" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a9b5acc78a0d24f14aa9fb5b343d907c5" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_lookupDefaultElementClass) (PyObject *, PyObject *, xmlNode *)=0</definition>
+        <argsstring>)(PyObject *, PyObject *, xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_lookupDefaultElementClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="27" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a4f5edd4e835188c67860a1636f129b46" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_lookupNamespaceElementClass) (PyObject *, PyObject *, xmlNode *)=0</definition>
+        <argsstring>)(PyObject *, PyObject *, xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_lookupNamespaceElementClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="29" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a24e83aeb8ec98d25da84d2ff09c09e1b" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_callLookupFallback) (struct LxmlFallbackElementClassLookup *, struct LxmlDocument *, xmlNode *)=0</definition>
+        <argsstring>)(struct LxmlFallbackElementClassLookup *, struct LxmlDocument *, xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_callLookupFallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="31" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a154358cdadf5c147b3eb9024c70c1bf1" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_tagMatches) (xmlNode *, const xmlChar *, const xmlChar *)=0</definition>
+        <argsstring>)(xmlNode *, const xmlChar *, const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_tagMatches</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="33" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a6752a01d71b7517aec6bde8bbd6ec9f8" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref> *(*</type>
+        <definition>struct LxmlDocument*(* __pyx_api_f_4lxml_5etree_documentOrRaise) (PyObject *)=0</definition>
+        <argsstring>)(PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_documentOrRaise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="33" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ae56bca817cade6da7fc292e4637f72a1" prot="public" static="yes" mutable="no">
+        <type>struct <ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref> *(*</type>
+        <definition>struct LxmlElement*(* __pyx_api_f_4lxml_5etree_rootNodeOrRaise) (PyObject *)=0</definition>
+        <argsstring>)(PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_rootNodeOrRaise</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="33" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ae2900a07220c6083dfa691e4fe722281" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_hasText) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_hasText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="39" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a317cdb1cff807f54ed693803ae5e5758" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_hasTail) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_hasTail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="41" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a731884a75ef8b001f4ebd81f00b9b4c5" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_textOf) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_textOf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="43" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a582de50f6b77c0a0c6dced4394a45094" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_tailOf) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_tailOf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="45" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a0d41fbb7dcde347bf1852d402d64ee2b" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_setNodeText) (xmlNode *, PyObject *)=0</definition>
+        <argsstring>)(xmlNode *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_setNodeText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="47" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a5b90a23b5e5b6e265e1133a6a73cfd25" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_setTailText) (xmlNode *, PyObject *)=0</definition>
+        <argsstring>)(xmlNode *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_setTailText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="49" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ac935188bac038ff4fa44a4dffdedd937" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_attributeValue) (xmlNode *, xmlAttr *)=0</definition>
+        <argsstring>)(xmlNode *, xmlAttr *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_attributeValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="51" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ac5f9d5399c2c79f47a41075d365e9c55" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_attributeValueFromNsName) (xmlNode *, const xmlChar *, const xmlChar *)=0</definition>
+        <argsstring>)(xmlNode *, const xmlChar *, const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_attributeValueFromNsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="53" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ae914dd340eb7b0b7d9ac3df4cfe9eb21" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_getAttributeValue) (struct LxmlElement *, PyObject *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElement *, PyObject *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_getAttributeValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="55" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1adeaed46fa3c9f5bb1426c185dfcd06d5" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_iterattributes) (struct LxmlElement *, int)=0</definition>
+        <argsstring>)(struct LxmlElement *, int)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_iterattributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="57" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ad50611d5255a74cad5d7b30c25ac7818" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_collectAttributes) (xmlNode *, int)=0</definition>
+        <argsstring>)(xmlNode *, int)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_collectAttributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="59" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1afd623ac956c046e197aaddfca241d851" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_setAttributeValue) (struct LxmlElement *, PyObject *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElement *, PyObject *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_setAttributeValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="61" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a3b35be709e6790070afafd1419434b85" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_delAttribute) (struct LxmlElement *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElement *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_delAttribute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="63" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ab0bcc2153cab51af512a7fff4333b205" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_delAttributeFromNsName) (xmlNode *, const xmlChar *, const xmlChar *)=0</definition>
+        <argsstring>)(xmlNode *, const xmlChar *, const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_delAttributeFromNsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="65" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ab51cf9c83756f3561d501815b832f1f0" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_hasChild) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_hasChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="67" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a0f5c1183aec713d71ada640eaaf8122a" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNode</ref> *(*</type>
+        <definition>xmlNode*(* __pyx_api_f_4lxml_5etree_findChild) (xmlNode *, Py_ssize_t)=0</definition>
+        <argsstring>)(xmlNode *, Py_ssize_t)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_findChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="69" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a29dbd562f9bec35bf7e32c39d7e3de63" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNode</ref> *(*</type>
+        <definition>xmlNode*(* __pyx_api_f_4lxml_5etree_findChildForwards) (xmlNode *, Py_ssize_t)=0</definition>
+        <argsstring>)(xmlNode *, Py_ssize_t)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_findChildForwards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="71" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a516deec60708fca93d2cdf373c557a78" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNode</ref> *(*</type>
+        <definition>xmlNode*(* __pyx_api_f_4lxml_5etree_findChildBackwards) (xmlNode *, Py_ssize_t)=0</definition>
+        <argsstring>)(xmlNode *, Py_ssize_t)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_findChildBackwards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="73" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a51418d49984e0180a0d2d2343fced1d3" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNode</ref> *(*</type>
+        <definition>xmlNode*(* __pyx_api_f_4lxml_5etree_nextElement) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_nextElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="75" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a7e1bf17541cbe737c3884fe184219109" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_node" kindref="compound">xmlNode</ref> *(*</type>
+        <definition>xmlNode*(* __pyx_api_f_4lxml_5etree_previousElement) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_previousElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="77" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a3b19d90cd531a649ecb22901003c227e" prot="public" static="yes" mutable="no">
+        <type>void(*</type>
+        <definition>void(* __pyx_api_f_4lxml_5etree_appendChild) (struct LxmlElement *, struct LxmlElement *)=0</definition>
+        <argsstring>)(struct LxmlElement *, struct LxmlElement *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_appendChild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="79" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1adee65c8303b24c905852f0f7daee019f" prot="public" static="yes" mutable="no">
+        <type>int(*</type>
+        <definition>int(* __pyx_api_f_4lxml_5etree_appendChildToElement) (struct LxmlElement *, struct LxmlElement *)=0</definition>
+        <argsstring>)(struct LxmlElement *, struct LxmlElement *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_appendChildToElement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="81" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a8f2e16e86ac5e8627e41eba385a414b5" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_pyunicode) (const xmlChar *)=0</definition>
+        <argsstring>)(const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_pyunicode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="83" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a765fd5178beeabe15241bdd58f703906" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_utf8) (PyObject *)=0</definition>
+        <argsstring>)(PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_utf8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="85" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a7dc4124a080267699a62eb190c0fc5cd" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_getNsTag) (PyObject *)=0</definition>
+        <argsstring>)(PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_getNsTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="87" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a525bc68046c02cdbd8c3968c8a1e9a2c" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs) (PyObject *)=0</definition>
+        <argsstring>)(PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="89" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1ab34fb1fb29e613f3453868b6ff14f637" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_namespacedName) (xmlNode *)=0</definition>
+        <argsstring>)(xmlNode *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_namespacedName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="91" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1afdb428ca93c1b4ef8de42bc551fd9894" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *(*</type>
+        <definition>PyObject*(* __pyx_api_f_4lxml_5etree_namespacedNameFromNsName) (const xmlChar *, const xmlChar *)=0</definition>
+        <argsstring>)(const xmlChar *, const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_namespacedNameFromNsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="93" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a25bc4157f13c7805f9a6acbeb8f06756" prot="public" static="yes" mutable="no">
+        <type>void(*</type>
+        <definition>void(* __pyx_api_f_4lxml_5etree_iteratorStoreNext) (struct LxmlElementIterator *, struct LxmlElement *)=0</definition>
+        <argsstring>)(struct LxmlElementIterator *, struct LxmlElement *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_iteratorStoreNext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="95" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a8cb1512a8ad6a6a2b6461444161bbde5" prot="public" static="yes" mutable="no">
+        <type>void(*</type>
+        <definition>void(* __pyx_api_f_4lxml_5etree_initTagMatch) (struct LxmlElementTagMatcher *, PyObject *)=0</definition>
+        <argsstring>)(struct LxmlElementTagMatcher *, PyObject *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_initTagMatch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="97" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="lxml_8etree__api_8h_1a753e722782717c090ea8557063176917" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct__xml_ns" kindref="compound">xmlNs</ref> *(*</type>
+        <definition>xmlNs*(* __pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix) (struct LxmlDocument *, xmlNode *, const xmlChar *, const xmlChar *)=0</definition>
+        <argsstring>)(struct LxmlDocument *, xmlNode *, const xmlChar *, const xmlChar *)=0</argsstring>
+        <name>__pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="99" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="lxml_8etree__api_8h_1a8a821a99f62aaa8162b85c0a9933c6c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int __Pyx_ImportFunction</definition>
+        <argsstring>(PyObject *module, const char *funcname, void(**f)(void), const char *sig)</argsstring>
+        <name>__Pyx_ImportFunction</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>module</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>funcname</declname>
+        </param>
+        <param>
+          <type>void(**)(void)</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>sig</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="111" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="111" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="lxml_8etree__api_8h_1a6c90151379e4df3189a68d68b4028fa5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int import_lxml__etree</definition>
+        <argsstring>(void)</argsstring>
+        <name>import_lxml__etree</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" line="163" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h" bodystart="163" bodyend="217"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Generated<sp/>by<sp/>Cython<sp/>0.29.6<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__PYX_HAVE_API__lxml__etree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__PYX_HAVE_API__lxml__etree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__MINGW64__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MS_WIN64</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Python.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;lxml.etree.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*(*__pyx_api_f_4lxml_5etree_deepcopyNodeToDocument)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>deepcopyNodeToDocument<sp/>__pyx_api_f_4lxml_5etree_deepcopyNodeToDocument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref><sp/>*(*__pyx_api_f_4lxml_5etree_elementTreeFactory)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>elementTreeFactory<sp/>__pyx_api_f_4lxml_5etree_elementTreeFactory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref><sp/>*(*__pyx_api_f_4lxml_5etree_newElementTree)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>newElementTree<sp/>__pyx_api_f_4lxml_5etree_newElementTree</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element_tree" kindref="compound">LxmlElementTree</ref><sp/>*(*__pyx_api_f_4lxml_5etree_adoptExternalDocument)(<ref refid="struct__xml_doc" kindref="compound">xmlDoc</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>int)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>adoptExternalDocument<sp/>__pyx_api_f_4lxml_5etree_adoptExternalDocument</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*(*__pyx_api_f_4lxml_5etree_elementFactory)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>elementFactory<sp/>__pyx_api_f_4lxml_5etree_elementFactory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*(*__pyx_api_f_4lxml_5etree_makeElement)(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>makeElement<sp/>__pyx_api_f_4lxml_5etree_makeElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*(*__pyx_api_f_4lxml_5etree_makeSubElement)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>makeSubElement<sp/>__pyx_api_f_4lxml_5etree_makeSubElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>void<sp/>(*__pyx_api_f_4lxml_5etree_setElementClassLookupFunction)(_element_class_lookup_function,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>setElementClassLookupFunction<sp/>__pyx_api_f_4lxml_5etree_setElementClassLookupFunction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_lookupDefaultElementClass)(PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>lookupDefaultElementClass<sp/>__pyx_api_f_4lxml_5etree_lookupDefaultElementClass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_lookupNamespaceElementClass)(PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>lookupNamespaceElementClass<sp/>__pyx_api_f_4lxml_5etree_lookupNamespaceElementClass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_callLookupFallback)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_fallback_element_class_lookup" kindref="compound">LxmlFallbackElementClassLookup</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>callLookupFallback<sp/>__pyx_api_f_4lxml_5etree_callLookupFallback</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_tagMatches)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>tagMatches<sp/>__pyx_api_f_4lxml_5etree_tagMatches</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*(*__pyx_api_f_4lxml_5etree_documentOrRaise)(PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>documentOrRaise<sp/>__pyx_api_f_4lxml_5etree_documentOrRaise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*(*__pyx_api_f_4lxml_5etree_rootNodeOrRaise)(PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>rootNodeOrRaise<sp/>__pyx_api_f_4lxml_5etree_rootNodeOrRaise</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_hasText)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hasText<sp/>__pyx_api_f_4lxml_5etree_hasText</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_hasTail)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hasTail<sp/>__pyx_api_f_4lxml_5etree_hasTail</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_textOf)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>textOf<sp/>__pyx_api_f_4lxml_5etree_textOf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_tailOf)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>tailOf<sp/>__pyx_api_f_4lxml_5etree_tailOf</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_setNodeText)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>setNodeText<sp/>__pyx_api_f_4lxml_5etree_setNodeText</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_setTailText)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>setTailText<sp/>__pyx_api_f_4lxml_5etree_setTailText</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_attributeValue)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/><ref refid="struct__xml_attr" kindref="compound">xmlAttr</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>attributeValue<sp/>__pyx_api_f_4lxml_5etree_attributeValue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_attributeValueFromNsName)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>attributeValueFromNsName<sp/>__pyx_api_f_4lxml_5etree_attributeValueFromNsName</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_getAttributeValue)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>getAttributeValue<sp/>__pyx_api_f_4lxml_5etree_getAttributeValue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_iterattributes)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/>int)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>iterattributes<sp/>__pyx_api_f_4lxml_5etree_iterattributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_collectAttributes)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>int)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>collectAttributes<sp/>__pyx_api_f_4lxml_5etree_collectAttributes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_setAttributeValue)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>setAttributeValue<sp/>__pyx_api_f_4lxml_5etree_setAttributeValue</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_delAttribute)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>delAttribute<sp/>__pyx_api_f_4lxml_5etree_delAttribute</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_delAttributeFromNsName)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>delAttributeFromNsName<sp/>__pyx_api_f_4lxml_5etree_delAttributeFromNsName</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_hasChild)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>hasChild<sp/>__pyx_api_f_4lxml_5etree_hasChild</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*(*__pyx_api_f_4lxml_5etree_findChild)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>Py_ssize_t)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>findChild<sp/>__pyx_api_f_4lxml_5etree_findChild</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*(*__pyx_api_f_4lxml_5etree_findChildForwards)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>Py_ssize_t)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>findChildForwards<sp/>__pyx_api_f_4lxml_5etree_findChildForwards</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*(*__pyx_api_f_4lxml_5etree_findChildBackwards)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/>Py_ssize_t)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>findChildBackwards<sp/>__pyx_api_f_4lxml_5etree_findChildBackwards</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*(*__pyx_api_f_4lxml_5etree_nextElement)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>nextElement<sp/>__pyx_api_f_4lxml_5etree_nextElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*(*__pyx_api_f_4lxml_5etree_previousElement)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>previousElement<sp/>__pyx_api_f_4lxml_5etree_previousElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>void<sp/>(*__pyx_api_f_4lxml_5etree_appendChild)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>appendChild<sp/>__pyx_api_f_4lxml_5etree_appendChild</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>int<sp/>(*__pyx_api_f_4lxml_5etree_appendChildToElement)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>appendChildToElement<sp/>__pyx_api_f_4lxml_5etree_appendChildToElement</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_pyunicode)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>pyunicode<sp/>__pyx_api_f_4lxml_5etree_pyunicode</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_utf8)(PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>utf8<sp/>__pyx_api_f_4lxml_5etree_utf8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_getNsTag)(PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>getNsTag<sp/>__pyx_api_f_4lxml_5etree_getNsTag</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs)(PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>getNsTagWithEmptyNs<sp/>__pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_namespacedName)(<ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>namespacedName<sp/>__pyx_api_f_4lxml_5etree_namespacedName</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>PyObject<sp/>*(*__pyx_api_f_4lxml_5etree_namespacedNameFromNsName)(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>namespacedNameFromNsName<sp/>__pyx_api_f_4lxml_5etree_namespacedNameFromNsName</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>void<sp/>(*__pyx_api_f_4lxml_5etree_iteratorStoreNext)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element_iterator" kindref="compound">LxmlElementIterator</ref><sp/>*,<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element" kindref="compound">LxmlElement</ref><sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>iteratorStoreNext<sp/>__pyx_api_f_4lxml_5etree_iteratorStoreNext</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>void<sp/>(*__pyx_api_f_4lxml_5etree_initTagMatch)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_element_tag_matcher" kindref="compound">LxmlElementTagMatcher</ref><sp/>*,<sp/>PyObject<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>initTagMatch<sp/>__pyx_api_f_4lxml_5etree_initTagMatch</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="struct__xml_ns" kindref="compound">xmlNs</ref><sp/>*(*__pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_lxml_document" kindref="compound">LxmlDocument</ref><sp/>*,<sp/><ref refid="struct__xml_node" kindref="compound">xmlNode</ref><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>findOrBuildNodeNsPrefix<sp/>__pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(__Pyx_PyIdentifier_FromString)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_MAJOR_VERSION<sp/>&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>__Pyx_PyIdentifier_FromString(s)<sp/>PyString_FromString(s)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/>#define<sp/>__Pyx_PyIdentifier_FromString(s)<sp/>PyUnicode_FromString(s)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__PYX_HAVE_RT_ImportFunction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__PYX_HAVE_RT_ImportFunction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>__Pyx_ImportFunction(PyObject<sp/>*module,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*funcname,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**f)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">),<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*sig)<sp/>{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*d<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject<sp/>*cobj<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void<sp/>(*fp)(void);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*p;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>tmp;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>d<sp/>=<sp/>PyObject_GetAttrString(module,<sp/>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)</highlight><highlight class="stringliteral">&quot;__pyx_capi__&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!d)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>cobj<sp/>=<sp/>PyDict_GetItemString(d,<sp/>funcname);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!cobj)<sp/>{</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_Format(PyExc_ImportError,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;%.200s<sp/>does<sp/>not<sp/>export<sp/>expected<sp/>C<sp/>function<sp/>%.200s&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyModule_GetName(module),<sp/>funcname);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_VERSION_HEX<sp/>&gt;=<sp/>0x02070000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!PyCapsule_IsValid(cobj,<sp/>sig))<sp/>{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_Format(PyExc_TypeError,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;C<sp/>function<sp/>%.200s.%.200s<sp/>has<sp/>wrong<sp/>signature<sp/>(expected<sp/>%.500s,<sp/>got<sp/>%.500s)&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyModule_GetName(module),<sp/>funcname,<sp/>sig,<sp/>PyCapsule_GetName(cobj));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>tmp.p<sp/>=<sp/>PyCapsule_GetPointer(cobj,<sp/>sig);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*desc,<sp/>*s1,<sp/>*s2;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>desc<sp/>=<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)PyCObject_GetDesc(cobj);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!desc)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>s1<sp/>=<sp/>desc;<sp/>s2<sp/>=<sp/>sig;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(*s1<sp/>!=<sp/></highlight><highlight class="charliteral">&apos;\0&apos;</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>*s1<sp/>==<sp/>*s2)<sp/>{<sp/>s1++;<sp/>s2++;<sp/>}</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(*s1<sp/>!=<sp/>*s2)<sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyErr_Format(PyExc_TypeError,</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;C<sp/>function<sp/>%.200s.%.200s<sp/>has<sp/>wrong<sp/>signature<sp/>(expected<sp/>%.500s,<sp/>got<sp/>%.500s)&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyModule_GetName(module),<sp/>funcname,<sp/>sig,<sp/>desc);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>tmp.p<sp/>=<sp/>PyCObject_AsVoidPtr(cobj);}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>*f<sp/>=<sp/>tmp.fp;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!(*f))</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_DECREF(d);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">bad:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_XDECREF(d);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>import_lxml__etree(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/>PyObject<sp/>*module<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/>module<sp/>=<sp/>PyImport_ImportModule(</highlight><highlight class="stringliteral">&quot;lxml.etree&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!module)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;deepcopyNodeToDocument&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_deepcopyNodeToDocument,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElement<sp/>*(struct<sp/>LxmlDocument<sp/>*,<sp/>xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;elementTreeFactory&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_elementTreeFactory,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElementTree<sp/>*(struct<sp/>LxmlElement<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;newElementTree&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_newElementTree,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElementTree<sp/>*(struct<sp/>LxmlElement<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;adoptExternalDocument&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_adoptExternalDocument,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElementTree<sp/>*(xmlDoc<sp/>*,<sp/>PyObject<sp/>*,<sp/>int)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;elementFactory&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_elementFactory,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElement<sp/>*(struct<sp/>LxmlDocument<sp/>*,<sp/>xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;makeElement&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_makeElement,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElement<sp/>*(PyObject<sp/>*,<sp/>struct<sp/>LxmlDocument<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;makeSubElement&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_makeSubElement,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElement<sp/>*(struct<sp/>LxmlElement<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;setElementClassLookupFunction&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_setElementClassLookupFunction,<sp/></highlight><highlight class="stringliteral">&quot;void<sp/>(_element_class_lookup_function,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;lookupDefaultElementClass&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_lookupDefaultElementClass,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;lookupNamespaceElementClass&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_lookupNamespaceElementClass,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(PyObject<sp/>*,<sp/>PyObject<sp/>*,<sp/>xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;callLookupFallback&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_callLookupFallback,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(struct<sp/>LxmlFallbackElementClassLookup<sp/>*,<sp/>struct<sp/>LxmlDocument<sp/>*,<sp/>xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;tagMatches&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_tagMatches,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*,<sp/>const<sp/>xmlChar<sp/>*,<sp/>const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;documentOrRaise&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_documentOrRaise,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlDocument<sp/>*(PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;rootNodeOrRaise&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_rootNodeOrRaise,<sp/></highlight><highlight class="stringliteral">&quot;struct<sp/>LxmlElement<sp/>*(PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;hasText&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_hasText,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;hasTail&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_hasTail,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;textOf&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_textOf,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;tailOf&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_tailOf,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;setNodeText&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_setNodeText,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;setTailText&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_setTailText,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;attributeValue&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_attributeValue,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*,<sp/>xmlAttr<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;attributeValueFromNsName&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_attributeValueFromNsName,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*,<sp/>const<sp/>xmlChar<sp/>*,<sp/>const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;getAttributeValue&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_getAttributeValue,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(struct<sp/>LxmlElement<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;iterattributes&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_iterattributes,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(struct<sp/>LxmlElement<sp/>*,<sp/>int)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;collectAttributes&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_collectAttributes,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*,<sp/>int)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;setAttributeValue&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_setAttributeValue,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(struct<sp/>LxmlElement<sp/>*,<sp/>PyObject<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;delAttribute&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_delAttribute,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(struct<sp/>LxmlElement<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;delAttributeFromNsName&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_delAttributeFromNsName,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*,<sp/>const<sp/>xmlChar<sp/>*,<sp/>const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;hasChild&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_hasChild,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;findChild&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_findChild,<sp/></highlight><highlight class="stringliteral">&quot;xmlNode<sp/>*(xmlNode<sp/>*,<sp/>Py_ssize_t)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;findChildForwards&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_findChildForwards,<sp/></highlight><highlight class="stringliteral">&quot;xmlNode<sp/>*(xmlNode<sp/>*,<sp/>Py_ssize_t)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;findChildBackwards&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_findChildBackwards,<sp/></highlight><highlight class="stringliteral">&quot;xmlNode<sp/>*(xmlNode<sp/>*,<sp/>Py_ssize_t)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;nextElement&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_nextElement,<sp/></highlight><highlight class="stringliteral">&quot;xmlNode<sp/>*(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;previousElement&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_previousElement,<sp/></highlight><highlight class="stringliteral">&quot;xmlNode<sp/>*(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;appendChild&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_appendChild,<sp/></highlight><highlight class="stringliteral">&quot;void<sp/>(struct<sp/>LxmlElement<sp/>*,<sp/>struct<sp/>LxmlElement<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;appendChildToElement&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_appendChildToElement,<sp/></highlight><highlight class="stringliteral">&quot;int<sp/>(struct<sp/>LxmlElement<sp/>*,<sp/>struct<sp/>LxmlElement<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;pyunicode&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_pyunicode,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;utf8&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_utf8,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;getNsTag&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_getNsTag,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;getNsTagWithEmptyNs&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_getNsTagWithEmptyNs,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;namespacedName&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_namespacedName,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(xmlNode<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;namespacedNameFromNsName&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_namespacedNameFromNsName,<sp/></highlight><highlight class="stringliteral">&quot;PyObject<sp/>*(const<sp/>xmlChar<sp/>*,<sp/>const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;iteratorStoreNext&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_iteratorStoreNext,<sp/></highlight><highlight class="stringliteral">&quot;void<sp/>(struct<sp/>LxmlElementIterator<sp/>*,<sp/>struct<sp/>LxmlElement<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;initTagMatch&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_initTagMatch,<sp/></highlight><highlight class="stringliteral">&quot;void<sp/>(struct<sp/>LxmlElementTagMatcher<sp/>*,<sp/>PyObject<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(__Pyx_ImportFunction(module,<sp/></highlight><highlight class="stringliteral">&quot;findOrBuildNodeNsPrefix&quot;</highlight><highlight class="normal">,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(**)(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">))&amp;__pyx_api_f_4lxml_5etree_findOrBuildNodeNsPrefix,<sp/></highlight><highlight class="stringliteral">&quot;xmlNs<sp/>*(struct<sp/>LxmlDocument<sp/>*,<sp/>xmlNode<sp/>*,<sp/>const<sp/>xmlChar<sp/>*,<sp/>const<sp/>xmlChar<sp/>*)&quot;</highlight><highlight class="normal">)<sp/>&lt;<sp/>0)<sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>bad;</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/>Py_DECREF(module);<sp/>module<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/>bad:</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/>Py_XDECREF(module);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!__PYX_HAVE_API__lxml__etree<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h"/>
+  </compounddef>
+</doxygen>

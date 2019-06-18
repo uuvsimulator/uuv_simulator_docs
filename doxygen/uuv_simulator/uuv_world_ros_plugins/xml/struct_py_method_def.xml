@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_method_def" kind="struct" language="C++" prot="public">
+    <compoundname>PyMethodDef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_method_def_1a308a3fcf53e3b75685ed2ebf11cf77de" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* PyMethodDef::ml_name</definition>
+        <argsstring></argsstring>
+        <name>ml_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/methodobject.h" line="55" column="1" bodyfile="/usr/include/python3.6m/methodobject.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_method_def_1a2e99fd743a714b893d8735951000449e" prot="public" static="no" mutable="no">
+        <type>PyCFunction</type>
+        <definition>PyCFunction PyMethodDef::ml_meth</definition>
+        <argsstring></argsstring>
+        <name>ml_meth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/methodobject.h" line="56" column="1" bodyfile="/usr/include/python3.6m/methodobject.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_method_def_1a05f3ccbdc28b4ddf5a0a63e6c41b0e8c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyMethodDef::ml_flags</definition>
+        <argsstring></argsstring>
+        <name>ml_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/methodobject.h" line="57" column="1" bodyfile="/usr/include/python3.6m/methodobject.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_method_def_1a1959e75fa6c0ad603b1f54ca97a01212" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* PyMethodDef::ml_doc</definition>
+        <argsstring></argsstring>
+        <name>ml_doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/methodobject.h" line="59" column="1" bodyfile="/usr/include/python3.6m/methodobject.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1255">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1256">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1257" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1261">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1260">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1262">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1257">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1258" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1259" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1255" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1260" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1261" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1262" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1263" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1264" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1257" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1258">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1263">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1264">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1256" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1259">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/methodobject.h" line="54" column="1" bodyfile="/usr/include/python3.6m/methodobject.h" bodystart="54" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct_py_method_def_1a1959e75fa6c0ad603b1f54ca97a01212" prot="public" virt="non-virtual"><scope>PyMethodDef</scope><name>ml_doc</name></member>
+      <member refid="struct_py_method_def_1a05f3ccbdc28b4ddf5a0a63e6c41b0e8c" prot="public" virt="non-virtual"><scope>PyMethodDef</scope><name>ml_flags</name></member>
+      <member refid="struct_py_method_def_1a2e99fd743a714b893d8735951000449e" prot="public" virt="non-virtual"><scope>PyMethodDef</scope><name>ml_meth</name></member>
+      <member refid="struct_py_method_def_1a308a3fcf53e3b75685ed2ebf11cf77de" prot="public" virt="non-virtual"><scope>PyMethodDef</scope><name>ml_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

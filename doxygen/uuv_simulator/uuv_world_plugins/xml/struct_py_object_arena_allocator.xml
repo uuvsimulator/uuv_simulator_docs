@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_object_arena_allocator" kind="struct" language="C++" prot="public">
+    <compoundname>PyObjectArenaAllocator</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_object_arena_allocator_1a852f15a85d328776592c9edc34307e34" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PyObjectArenaAllocator::ctx</definition>
+        <argsstring></argsstring>
+        <name>ctx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="209" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_object_arena_allocator_1a8855f18f4c14de5d5aff581e3711bc55" prot="public" static="no" mutable="no">
+        <type>void *(*</type>
+        <definition>void*(* PyObjectArenaAllocator::alloc) (void *ctx, size_t size)</definition>
+        <argsstring>)(void *ctx, size_t size)</argsstring>
+        <name>alloc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="212" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_object_arena_allocator_1a6de36ca8e9479be1e90a0053894e942d" prot="public" static="no" mutable="no">
+        <type>void(*</type>
+        <definition>void(* PyObjectArenaAllocator::free) (void *ctx, void *ptr, size_t size)</definition>
+        <argsstring>)(void *ctx, void *ptr, size_t size)</argsstring>
+        <name>free</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="215" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/objimpl.h" line="207" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="207" bodyend="216"/>
+    <listofallmembers>
+      <member refid="struct_py_object_arena_allocator_1a8855f18f4c14de5d5aff581e3711bc55" prot="public" virt="non-virtual"><scope>PyObjectArenaAllocator</scope><name>alloc</name></member>
+      <member refid="struct_py_object_arena_allocator_1a852f15a85d328776592c9edc34307e34" prot="public" virt="non-virtual"><scope>PyObjectArenaAllocator</scope><name>ctx</name></member>
+      <member refid="struct_py_object_arena_allocator_1a6de36ca8e9479be1e90a0053894e942d" prot="public" virt="non-virtual"><scope>PyObjectArenaAllocator</scope><name>free</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

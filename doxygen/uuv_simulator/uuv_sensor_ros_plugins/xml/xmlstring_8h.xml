@@ -1,0 +1,1240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="xmlstring_8h" kind="file" language="C++">
+    <compoundname>xmlstring.h</compoundname>
+    <includes local="no">stdarg.h</includes>
+    <includes refid="xmlversion_8h" local="no">libxml/xmlversion.h</includes>
+    <includedby refid="tree_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h</includedby>
+    <includedby refid="catalog_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h</includedby>
+    <includedby refid="chvalid_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h</includedby>
+    <includedby refid="parser_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h</includedby>
+    <includedby refid="relaxng_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h</includedby>
+    <includedby refid="xslt_internals_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</includedby>
+    <includedby refid="xsltlocale_8h" local="no">venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h</includedby>
+    <incdepgraph>
+      <node id="1858">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1859">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="1860" relation="include">
+        </childnode>
+      </node>
+      <node id="1857">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h"/>
+        <childnode refid="1858" relation="include">
+        </childnode>
+        <childnode refid="1859" relation="include">
+        </childnode>
+      </node>
+      <node id="1860">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1906">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/namespaces.h</label>
+        <link refid="namespaces_8h_source"/>
+      </node>
+      <node id="1907">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xslt.h</label>
+        <link refid="xslt_8h_source"/>
+        <childnode refid="1884" relation="include">
+        </childnode>
+      </node>
+      <node id="1866">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/debugXML.h</label>
+        <link refid="debug_x_m_l_8h_source"/>
+      </node>
+      <node id="1902">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xlink.h</label>
+        <link refid="xlink_8h_source"/>
+        <childnode refid="1880" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+      </node>
+      <node id="1894">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/security.h</label>
+        <link refid="security_8h_source"/>
+      </node>
+      <node id="1874">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlreader.h</label>
+        <link refid="xmlreader_8h_source"/>
+      </node>
+      <node id="1888">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/functions.h</label>
+        <link refid="functions_8h_source"/>
+        <childnode refid="1889" relation="include">
+        </childnode>
+      </node>
+      <node id="1877">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLparser.h</label>
+        <link refid="_h_t_m_lparser_8h_source"/>
+        <childnode refid="1878" relation="include">
+        </childnode>
+        <childnode refid="1879" relation="include">
+        </childnode>
+      </node>
+      <node id="1887">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extra.h</label>
+        <link refid="extra_8h_source"/>
+      </node>
+      <node id="1899">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/entities.h</label>
+        <link refid="entities_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+      </node>
+      <node id="1868">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/hash.h</label>
+        <link refid="hash_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+      </node>
+      <node id="1873">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlIO.h</label>
+        <link refid="xml_i_o_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+      </node>
+      <node id="1905">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/numbersInternals.h</label>
+        <link refid="numbers_internals_8h_source"/>
+        <childnode refid="1884" relation="include">
+        </childnode>
+      </node>
+      <node id="1908">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/chvalid.h</label>
+        <link refid="chvalid_8h_source"/>
+        <childnode refid="1879" relation="include">
+        </childnode>
+      </node>
+      <node id="1904">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/attributes.h</label>
+        <link refid="attributes_8h_source"/>
+      </node>
+      <node id="1893">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/preproc.h</label>
+        <link refid="preproc_8h_source"/>
+      </node>
+      <node id="1901">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xinclude.h</label>
+        <link refid="xinclude_8h_source"/>
+      </node>
+      <node id="1876">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/transform.h</label>
+        <link refid="transform_8h_source"/>
+      </node>
+      <node id="1875">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlsave.h</label>
+        <link refid="xmlsave_8h_source"/>
+      </node>
+      <node id="1892">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/pattern.h</label>
+        <link refid="pattern_8h_source"/>
+      </node>
+      <node id="1863">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="1865">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/catalog.h</label>
+        <link refid="catalog_8h_source"/>
+      </node>
+      <node id="1867">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/dict.h</label>
+        <link refid="dict_8h_source"/>
+        <childnode refid="1868" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1896" relation="include">
+        </childnode>
+      </node>
+      <node id="1870">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/globals.h</label>
+        <link refid="globals_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1871" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1872" relation="include">
+        </childnode>
+      </node>
+      <node id="1897">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/relaxng.h</label>
+        <link refid="relaxng_8h_source"/>
+      </node>
+      <node id="1872">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlmemory.h</label>
+        <link refid="xmlmemory_8h_source"/>
+        <childnode refid="1862" relation="include">
+        </childnode>
+        <childnode refid="1870" relation="include">
+        </childnode>
+      </node>
+      <node id="1861">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h</label>
+        <link refid="xmlstring_8h"/>
+        <childnode refid="1862" relation="include">
+        </childnode>
+        <childnode refid="1865" relation="include">
+        </childnode>
+        <childnode refid="1908" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1897" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1909" relation="include">
+        </childnode>
+      </node>
+      <node id="1869">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parser.h</label>
+        <link refid="parser_8h_source"/>
+        <childnode refid="1870" relation="include">
+        </childnode>
+        <childnode refid="1868" relation="include">
+        </childnode>
+        <childnode refid="1877" relation="include">
+        </childnode>
+        <childnode refid="1879" relation="include">
+        </childnode>
+        <childnode refid="1880" relation="include">
+        </childnode>
+        <childnode refid="1881" relation="include">
+        </childnode>
+        <childnode refid="1882" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+      </node>
+      <node id="1878">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/HTMLtree.h</label>
+        <link refid="_h_t_m_ltree_8h_source"/>
+      </node>
+      <node id="1909">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltlocale.h</label>
+        <link refid="xsltlocale_8h_source"/>
+        <childnode refid="1884" relation="include">
+        </childnode>
+      </node>
+      <node id="1895">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/templates.h</label>
+        <link refid="templates_8h_source"/>
+      </node>
+      <node id="1862">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h</label>
+        <link refid="tree_8h_source"/>
+        <childnode refid="1863" relation="include">
+        </childnode>
+        <childnode refid="1864" relation="include">
+        </childnode>
+        <childnode refid="1865" relation="include">
+        </childnode>
+        <childnode refid="1866" relation="include">
+        </childnode>
+        <childnode refid="1867" relation="include">
+        </childnode>
+        <childnode refid="1898" relation="include">
+        </childnode>
+        <childnode refid="1899" relation="include">
+        </childnode>
+        <childnode refid="1878" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1900" relation="include">
+        </childnode>
+        <childnode refid="1883" relation="include">
+        </childnode>
+        <childnode refid="1901" relation="include">
+        </childnode>
+        <childnode refid="1902" relation="include">
+        </childnode>
+        <childnode refid="1903" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1874" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+        <childnode refid="1904" relation="include">
+        </childnode>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1905" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1906" relation="include">
+        </childnode>
+        <childnode refid="1893" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+        <childnode refid="1907" relation="include">
+        </childnode>
+      </node>
+      <node id="1898">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/encoding.h</label>
+        <link refid="encoding_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1873" relation="include">
+        </childnode>
+        <childnode refid="1875" relation="include">
+        </childnode>
+      </node>
+      <node id="1864">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libexslt/exslt.h</label>
+        <link refid="exslt_8h_source"/>
+      </node>
+      <node id="1883">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/valid.h</label>
+        <link refid="valid_8h_source"/>
+        <childnode refid="1869" relation="include">
+        </childnode>
+      </node>
+      <node id="1881">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX2.h</label>
+        <link refid="_s_a_x2_8h_source"/>
+        <childnode refid="1870" relation="include">
+        </childnode>
+      </node>
+      <node id="1879">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/parserInternals.h</label>
+        <link refid="parser_internals_8h_source"/>
+      </node>
+      <node id="1885">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/documents.h</label>
+        <link refid="documents_8h_source"/>
+      </node>
+      <node id="1890">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/imports.h</label>
+        <link refid="imports_8h_source"/>
+      </node>
+      <node id="1884">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltInternals.h</label>
+        <link refid="xslt_internals_8h_source"/>
+        <childnode refid="1885" relation="include">
+        </childnode>
+        <childnode refid="1886" relation="include">
+        </childnode>
+        <childnode refid="1887" relation="include">
+        </childnode>
+        <childnode refid="1888" relation="include">
+        </childnode>
+        <childnode refid="1890" relation="include">
+        </childnode>
+        <childnode refid="1891" relation="include">
+        </childnode>
+        <childnode refid="1892" relation="include">
+        </childnode>
+        <childnode refid="1893" relation="include">
+        </childnode>
+        <childnode refid="1894" relation="include">
+        </childnode>
+        <childnode refid="1895" relation="include">
+        </childnode>
+        <childnode refid="1876" relation="include">
+        </childnode>
+        <childnode refid="1889" relation="include">
+        </childnode>
+        <childnode refid="1896" relation="include">
+        </childnode>
+      </node>
+      <node id="1886">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/extensions.h</label>
+        <link refid="extensions_8h_source"/>
+      </node>
+      <node id="1871">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/threads.h</label>
+        <link refid="threads_8h_source"/>
+        <childnode refid="1870" relation="include">
+        </childnode>
+        <childnode refid="1872" relation="include">
+        </childnode>
+      </node>
+      <node id="1880">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/SAX.h</label>
+        <link refid="_s_a_x_8h_source"/>
+      </node>
+      <node id="1889">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/variables.h</label>
+        <link refid="variables_8h_source"/>
+      </node>
+      <node id="1903">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlautomata.h</label>
+        <link refid="xmlautomata_8h_source"/>
+        <childnode refid="1883" relation="include">
+        </childnode>
+      </node>
+      <node id="1896">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/xsltutils.h</label>
+        <link refid="xsltutils_8h_source"/>
+      </node>
+      <node id="1891">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxslt/keys.h</label>
+        <link refid="keys_8h_source"/>
+      </node>
+      <node id="1900">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/uri.h</label>
+        <link refid="uri_8h_source"/>
+      </node>
+      <node id="1882">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlerror.h</label>
+        <link refid="xmlerror_8h_source"/>
+        <childnode refid="1870" relation="include">
+        </childnode>
+        <childnode refid="1869" relation="include">
+        </childnode>
+        <childnode refid="1883" relation="include">
+        </childnode>
+        <childnode refid="1884" relation="include">
+        </childnode>
+        <childnode refid="1896" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="xmlstring_8h_1ad0a78338bf196a676079310a7b9c7599" prot="public" static="no">
+        <name>BAD_CAST</name>
+        <initializer>(xmlChar *)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>BAD_CAST:</para><para>Macro to cast a string to an xmlChar * when one know its safe. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="35" column="9" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="xmlstring_8h_1afb1489b546f7800463867523ffaee1d3" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char xmlChar</definition>
+        <argsstring></argsstring>
+        <name>xmlChar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>xmlChar:</para><para>This is a basic byte in an UTF-8 encoded string. It&apos;s unsigned allowing to pinpoint case where char * are assigned to xmlChar * (possibly making serialization back impossible). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="28" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="xmlstring_8h_1a25ab0a754472534bc4ad08ae21e2adcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrdup</definition>
+        <argsstring>(const xmlChar *cur)</argsstring>
+        <name>xmlStrdup</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>cur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a06d80f59fc04e4089606fc775b7420cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrndup</definition>
+        <argsstring>(const xmlChar *cur, int len)</argsstring>
+        <name>xmlStrndup</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a4ea26d59edd4a2dee21bbe074cffbe9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlCharStrndup</definition>
+        <argsstring>(const char *cur, int len)</argsstring>
+        <name>xmlCharStrndup</name>
+        <param>
+          <type>const char *</type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a938858b399219d64416ecae52574d4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlCharStrdup</definition>
+        <argsstring>(const char *cur)</argsstring>
+        <name>xmlCharStrdup</name>
+        <param>
+          <type>const char *</type>
+          <declname>cur</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a45e8054bad7ad433589b73428f788541" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrsub</definition>
+        <argsstring>(const xmlChar *str, int start, int len)</argsstring>
+        <name>xmlStrsub</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a29890e94c04321730db814495cd15af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN const xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN const xmlChar* XMLCALL xmlStrchr</definition>
+        <argsstring>(const xmlChar *str, xmlChar val)</argsstring>
+        <name>xmlStrchr</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>xmlChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1aa1184c8e72308abf549b3a9ee936f508" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN const xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN const xmlChar* XMLCALL xmlStrstr</definition>
+        <argsstring>(const xmlChar *str, const xmlChar *val)</argsstring>
+        <name>xmlStrstr</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1aac7bcb3d222a9215c714018657a44465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN const xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN const xmlChar* XMLCALL xmlStrcasestr</definition>
+        <argsstring>(const xmlChar *str, const xmlChar *val)</argsstring>
+        <name>xmlStrcasestr</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="61" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1ad4b1f70f855525173141a791867f1532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrcmp</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2)</argsstring>
+        <name>xmlStrcmp</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a60950d65cb40a52750a3a62d7e5bedb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrncmp</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2, int len)</argsstring>
+        <name>xmlStrncmp</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="67" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a328aebe7aca992c96c4f2976169f6407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrcasecmp</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2)</argsstring>
+        <name>xmlStrcasecmp</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1aed7454ea8be7e9acde1c04a5b48460d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrncasecmp</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2, int len)</argsstring>
+        <name>xmlStrncasecmp</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1ad19f264276bc7b33d88b9d8b99c19811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrEqual</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2)</argsstring>
+        <name>xmlStrEqual</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a90d479a74b7f9d8a0098356453121444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrQEqual</definition>
+        <argsstring>(const xmlChar *pref, const xmlChar *name, const xmlChar *str)</argsstring>
+        <name>xmlStrQEqual</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>pref</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1af437882696cfac062f07556bf56eeeab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrlen</definition>
+        <argsstring>(const xmlChar *str)</argsstring>
+        <name>xmlStrlen</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a7ae716c3a6c14882ebb7b79fd41fabf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrcat</definition>
+        <argsstring>(xmlChar *cur, const xmlChar *add)</argsstring>
+        <name>xmlStrcat</name>
+        <param>
+          <type>xmlChar *</type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>add</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1aef369e2913484b63e4ed938f009ccb4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrncat</definition>
+        <argsstring>(xmlChar *cur, const xmlChar *add, int len)</argsstring>
+        <name>xmlStrncat</name>
+        <param>
+          <type>xmlChar *</type>
+          <declname>cur</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>add</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a7e3db9264417fe7f5817712b1661fc0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlStrncatNew</definition>
+        <argsstring>(const xmlChar *str1, const xmlChar *str2, int len)</argsstring>
+        <name>xmlStrncatNew</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>str2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a7591a1cb832ceb2b37cd44d79d992858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlStrPrintf</definition>
+        <argsstring>(xmlChar *buf, int len, const char *msg,...) LIBXML_ATTR_FORMAT(3</argsstring>
+        <name>xmlStrPrintf</name>
+        <param>
+          <type>xmlChar *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1af6c48467362e52448fea9bf036428340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL xmlStrVPrintf</definition>
+        <argsstring>(xmlChar *buf, int len, const char *msg, va_list ap) LIBXML_ATTR_FORMAT(3</argsstring>
+        <name>xmlStrVPrintf</name>
+        <param>
+          <type>xmlChar *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>va_list</type>
+          <declname>ap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="103" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a60cdded7129799ea39d5d7c34aa84015" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL XMLPUBFUN int XMLCALL xmlGetUTF8Char</definition>
+        <argsstring>(const unsigned char *utf, int *len)</argsstring>
+        <name>xmlGetUTF8Char</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="109" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1aeebbf62eb36cb2ea0490b4821f355ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlCheckUTF8</definition>
+        <argsstring>(const unsigned char *utf)</argsstring>
+        <name>xmlCheckUTF8</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>utf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="112" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a8ca5ced2e4fee407851d8257e2594e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlUTF8Strsize</definition>
+        <argsstring>(const xmlChar *utf, int len)</argsstring>
+        <name>xmlUTF8Strsize</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1adb85f9224e4e5f070a4a3cc6170937aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlUTF8Strndup</definition>
+        <argsstring>(const xmlChar *utf, int len)</argsstring>
+        <name>xmlUTF8Strndup</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a8a3bd3771128569e150585ad5772a930" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN const xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN const xmlChar* XMLCALL xmlUTF8Strpos</definition>
+        <argsstring>(const xmlChar *utf, int pos)</argsstring>
+        <name>xmlUTF8Strpos</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1abf538c2f0f24254ad697632b67545797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlUTF8Strloc</definition>
+        <argsstring>(const xmlChar *utf, const xmlChar *utfchar)</argsstring>
+        <name>xmlUTF8Strloc</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utfchar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a4b4f043eb901c7e1fa8b9fc29f18b23b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN xmlChar *XMLCALL</type>
+        <definition>XMLPUBFUN xmlChar* XMLCALL xmlUTF8Strsub</definition>
+        <argsstring>(const xmlChar *utf, int start, int len)</argsstring>
+        <name>xmlUTF8Strsub</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a05d995e86c5f8823a06f3c34113e0379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlUTF8Strlen</definition>
+        <argsstring>(const xmlChar *utf)</argsstring>
+        <name>xmlUTF8Strlen</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a0153ab43a19c55df5612055fc2296dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlUTF8Size</definition>
+        <argsstring>(const xmlChar *utf)</argsstring>
+        <name>xmlUTF8Size</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="xmlstring_8h_1a77f0a0f535b9b6b6c6ff2c4b5ffb3ca4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>XMLPUBFUN int XMLCALL</type>
+        <definition>XMLPUBFUN int XMLCALL xmlUTF8Charcmp</definition>
+        <argsstring>(const xmlChar *utf1, const xmlChar *utf2)</argsstring>
+        <name>xmlUTF8Charcmp</name>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf1</declname>
+        </param>
+        <param>
+          <type>const xmlChar *</type>
+          <declname>utf2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h" line="134" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>set<sp/>of<sp/>routines<sp/>to<sp/>process<sp/>strings</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>type<sp/>and<sp/>interfaces<sp/>needed<sp/>for<sp/>the<sp/>internal<sp/>string<sp/>handling</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>of<sp/>the<sp/>library,<sp/>especially<sp/>UTF8<sp/>processing.</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_STRING_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_STRING_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>xmlChar;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor">#define<sp/>BAD_CAST<sp/>(xmlChar<sp/>*)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*<sp/>xmlChar<sp/>handling</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrdup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*cur);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrndup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*cur,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharStrndup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cur,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCharStrdup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cur);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrsub<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrchr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlChar<sp/>val);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrstr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*val);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrcasestr<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*val);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrcmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrncmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrcasecmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrncasecmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrEqual<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrQEqual<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*pref,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrlen<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrcat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlChar<sp/>*cur,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*add);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrncat<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlChar<sp/>*cur,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*add,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrncatNew<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str1,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*str2,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrPrintf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlChar<sp/>*buf,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*msg,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...)<sp/>LIBXML_ATTR_FORMAT(3,4);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlStrVPrintf<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlChar<sp/>*buf,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*msg,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>va_list<sp/>ap)<sp/>LIBXML_ATTR_FORMAT(3,0);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlGetUTF8Char<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*utf,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*len);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlCheckUTF8<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*utf);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strsize<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strndup<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">XMLPUBFUN<sp/>const<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strpos<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pos);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strloc<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>xmlChar<sp/>*utfchar);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">XMLPUBFUN<sp/>xmlChar<sp/>*<sp/>XMLCALL</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strsub<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Strlen<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Size<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>XMLCALL</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlUTF8Charcmp<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>xmlChar<sp/>*utf1,</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/>xmlChar<sp/>*utf2);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_STRING_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/xmlstring.h"/>
+  </compounddef>
+</doxygen>

@@ -55,6 +55,8 @@ Tools and utilities to monitor and analyze the simulation
 
 > **Script type:** `python`
 
+## `generate_urdf`
+
 ## `publish_footprints.py`
 
 > **Script type:** `python`

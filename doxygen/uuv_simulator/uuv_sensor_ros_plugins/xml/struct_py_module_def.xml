@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_module_def" kind="struct" language="C++" prot="public">
+    <compoundname>PyModuleDef</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_module_def_1a017d219acf20287393795e7d4b29ab63" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_module_def___base" kindref="compound">PyModuleDef_Base</ref></type>
+        <definition>PyModuleDef_Base PyModuleDef::m_base</definition>
+        <argsstring></argsstring>
+        <name>m_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="75" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1aaa4851e8eff2117539c4dab6fa97506e" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* PyModuleDef::m_name</definition>
+        <argsstring></argsstring>
+        <name>m_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="76" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a99a9a7746b553b7d404623235ab8e59c" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* PyModuleDef::m_doc</definition>
+        <argsstring></argsstring>
+        <name>m_doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="77" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a975ebd7e8c6582bed62d4e0297d6df2d" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyModuleDef::m_size</definition>
+        <argsstring></argsstring>
+        <name>m_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="78" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a85c882ff2a40531cab2319a9f93e9b0d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_method_def" kindref="compound">PyMethodDef</ref> *</type>
+        <definition>PyMethodDef* PyModuleDef::m_methods</definition>
+        <argsstring></argsstring>
+        <name>m_methods</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="79" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1ad1095d072cd3ef6f81a9a06100d804a3" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct_py_module_def___slot" kindref="compound">PyModuleDef_Slot</ref> *</type>
+        <definition>struct PyModuleDef_Slot* PyModuleDef::m_slots</definition>
+        <argsstring></argsstring>
+        <name>m_slots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="80" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a0922503bf8a1e912dffd61ca95607478" prot="public" static="no" mutable="no">
+        <type>traverseproc</type>
+        <definition>traverseproc PyModuleDef::m_traverse</definition>
+        <argsstring></argsstring>
+        <name>m_traverse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="81" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a33c586c65ce380d0aeb1680798465435" prot="public" static="no" mutable="no">
+        <type>inquiry</type>
+        <definition>inquiry PyModuleDef::m_clear</definition>
+        <argsstring></argsstring>
+        <name>m_clear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="82" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_module_def_1a52995b482648e59bdc9bf5ddf543092e" prot="public" static="no" mutable="no">
+        <type>freefunc</type>
+        <definition>freefunc PyModuleDef::m_free</definition>
+        <argsstring></argsstring>
+        <name>m_free</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/moduleobject.h" line="83" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1291">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1302">
+        <label>PyModuleDef_Slot</label>
+        <link refid="struct_py_module_def___slot"/>
+      </node>
+      <node id="1292">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1293" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1297">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1301">
+        <label>PyModuleDef_Base</label>
+        <link refid="struct_py_module_def___base"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>m_init</edgelabel>
+          <edgelabel>m_copy</edgelabel>
+        </childnode>
+      </node>
+      <node id="1296">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1298">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1293">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1294" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1295" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1291" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1296" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1297" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1298" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1299" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1300" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1293" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1290">
+        <label>PyModuleDef</label>
+        <link refid="struct_py_module_def"/>
+        <childnode refid="1291" relation="usage">
+          <edgelabel>m_methods</edgelabel>
+        </childnode>
+        <childnode refid="1301" relation="usage">
+          <edgelabel>m_base</edgelabel>
+        </childnode>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>m_clear</edgelabel>
+          <edgelabel>m_traverse</edgelabel>
+        </childnode>
+        <childnode refid="1302" relation="usage">
+          <edgelabel>m_slots</edgelabel>
+        </childnode>
+      </node>
+      <node id="1294">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1299">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1300">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1292" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1295">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/moduleobject.h" line="74" column="1" bodyfile="/usr/include/python3.6m/moduleobject.h" bodystart="74" bodyend="84"/>
+    <listofallmembers>
+      <member refid="struct_py_module_def_1a017d219acf20287393795e7d4b29ab63" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_base</name></member>
+      <member refid="struct_py_module_def_1a33c586c65ce380d0aeb1680798465435" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_clear</name></member>
+      <member refid="struct_py_module_def_1a99a9a7746b553b7d404623235ab8e59c" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_doc</name></member>
+      <member refid="struct_py_module_def_1a52995b482648e59bdc9bf5ddf543092e" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_free</name></member>
+      <member refid="struct_py_module_def_1a85c882ff2a40531cab2319a9f93e9b0d" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_methods</name></member>
+      <member refid="struct_py_module_def_1aaa4851e8eff2117539c4dab6fa97506e" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_name</name></member>
+      <member refid="struct_py_module_def_1a975ebd7e8c6582bed62d4e0297d6df2d" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_size</name></member>
+      <member refid="struct_py_module_def_1ad1095d072cd3ef6f81a9a06100d804a3" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_slots</name></member>
+      <member refid="struct_py_module_def_1a0922503bf8a1e912dffd61ca95607478" prot="public" virt="non-virtual"><scope>PyModuleDef</scope><name>m_traverse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="listobject_8h" kind="file" language="C++">
+    <compoundname>listobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3185">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3186">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3182">
+        <label>/usr/include/python3.6m/listobject.h</label>
+        <link refid="listobject_8h"/>
+        <childnode refid="3183" relation="include">
+        </childnode>
+      </node>
+      <node id="3188">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3183">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3184" relation="include">
+        </childnode>
+        <childnode refid="3186" relation="include">
+        </childnode>
+        <childnode refid="3187" relation="include">
+        </childnode>
+        <childnode refid="3188" relation="include">
+        </childnode>
+        <childnode refid="3189" relation="include">
+        </childnode>
+      </node>
+      <node id="3189">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3184">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3185" relation="include">
+        </childnode>
+      </node>
+      <node id="3187">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_list_object" prot="public">PyListObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="listobject_8h_1ae21840692cf628d9ce3c8620135651d4" prot="public" static="no">
+        <name>PyList_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyType_FastSubclass(Py_TYPE(op), Py_TPFLAGS_LIST_SUBCLASS)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="48" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listobject_8h_1a145e208e4e170881f6cb181ee4767fa8" prot="public" static="no">
+        <name>PyList_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyList_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="50" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listobject_8h_1a8f9b780e601aa56d312e5143845102e3" prot="public" static="no">
+        <name>PyList_GET_ITEM</name>
+        <param><defname>op</defname></param>
+        <param><defname>i</defname></param>
+        <initializer>(((<ref refid="struct_py_list_object" kindref="compound">PyListObject</ref> *)(op))-&gt;ob_item[i])</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="72" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listobject_8h_1a97102833ce82271c8e631c27adc57084" prot="public" static="no">
+        <name>PyList_SET_ITEM</name>
+        <param><defname>op</defname></param>
+        <param><defname>i</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>(((<ref refid="struct_py_list_object" kindref="compound">PyListObject</ref> *)(op))-&gt;ob_item[i] = (v))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="73" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listobject_8h_1a8431f2ec43e68f1570b1c8c4ad8c699d" prot="public" static="no">
+        <name>PyList_GET_SIZE</name>
+        <param><defname>op</defname></param>
+        <initializer>Py_SIZE(op)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="74" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="listobject_8h_1a225087aeb197405e139de3df85c036d8" prot="public" static="no">
+        <name>_PyList_ITEMS</name>
+        <param><defname>op</defname></param>
+        <initializer>(((<ref refid="struct_py_list_object" kindref="compound">PyListObject</ref> *)(op))-&gt;ob_item)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="75" column="9" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="listobject_8h_1a3655899f66ca98255b47208712b31518" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Py_ssize_t</definition>
+        <argsstring></argsstring>
+        <name>Py_ssize_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="54" column="1" bodyfile="/usr/include/python3.6m/listobject.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="listobject_8h_1afa619e787976a1ed1ff6c89f08e71bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyList_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="listobject_8h_1aec5a8ae01ff86efe90ae4e5c143bb9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyList_New(Py_ssize_t size)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="listobject_8h_1aa473603ced6a28872b70111eb44e1dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_ssize_t) PyList_Size(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_ssize_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="listobject_8h_1a25e323146a063706295f9930e8438509" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyList_SetItem(PyObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="listobject_8h_1a8185d96f9cc0d977353304c53f656c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _PyList_DebugMallocStats(FILE *out)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/listobject.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>List<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">Another<sp/>generally<sp/>useful<sp/>object<sp/>type<sp/>is<sp/>a<sp/>list<sp/>of<sp/>object<sp/>pointers.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">This<sp/>is<sp/>a<sp/>mutable<sp/>type:<sp/>the<sp/>list<sp/>items<sp/>can<sp/>be<sp/>changed,<sp/>and<sp/>items<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">added<sp/>or<sp/>removed.<sp/><sp/>Out-of-range<sp/>indices<sp/>or<sp/>non-list<sp/>objects<sp/>are<sp/>ignored.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment">***<sp/>WARNING<sp/>***<sp/>PyList_SetItem<sp/>does<sp/>not<sp/>increment<sp/>the<sp/>new<sp/>item&apos;s<sp/>reference</highlight></codeline>
+<codeline lineno="10"><highlight class="comment">count,<sp/>but<sp/>does<sp/>decrement<sp/>the<sp/>reference<sp/>count<sp/>of<sp/>the<sp/>item<sp/>it<sp/>replaces,</highlight></codeline>
+<codeline lineno="11"><highlight class="comment">if<sp/>not<sp/>nil.<sp/><sp/>It<sp/>does<sp/>*decrement*<sp/>the<sp/>reference<sp/>count<sp/>if<sp/>it<sp/>is<sp/>*not*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment">inserted<sp/>in<sp/>the<sp/>list.<sp/><sp/>Similarly,<sp/>PyList_GetItem<sp/>does<sp/>not<sp/>increment<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">returned<sp/>item&apos;s<sp/>reference<sp/>count.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LISTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_LISTOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_py_list_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_VAR_HEAD</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Vector<sp/>of<sp/>pointers<sp/>to<sp/>list<sp/>elements.<sp/><sp/>list[0]<sp/>is<sp/>ob_item[0],<sp/>etc.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**ob_item;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>ob_item<sp/>contains<sp/>space<sp/>for<sp/>&apos;allocated&apos;<sp/>elements.<sp/><sp/>The<sp/>number</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>currently<sp/>in<sp/>use<sp/>is<sp/>ob_size.</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Invariants:</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0<sp/>&lt;=<sp/>ob_size<sp/>&lt;=<sp/>allocated</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>len(list)<sp/>==<sp/>ob_size</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>ob_item<sp/>==<sp/>NULL<sp/>implies<sp/>ob_size<sp/>==<sp/>allocated<sp/>==<sp/>0</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>list.sort()<sp/>temporarily<sp/>sets<sp/>allocated<sp/>to<sp/>-1<sp/>to<sp/>detect<sp/>mutations.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>Items<sp/>must<sp/>normally<sp/>not<sp/>be<sp/>NULL,<sp/>except<sp/>during<sp/>construction<sp/>when</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>list<sp/>is<sp/>not<sp/>yet<sp/>visible<sp/>outside<sp/>the<sp/>function<sp/>that<sp/>builds<sp/>it.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>allocated;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}<sp/><ref refid="struct_py_list_object" kindref="compound">PyListObject</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyList_Type;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyListIter_Type;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyListRevIter_Type;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PySortWrapper_Type;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyList_Check(op)<sp/>\</highlight></codeline>
+<codeline lineno="49"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyType_FastSubclass(Py_TYPE(op),<sp/>Py_TPFLAGS_LIST_SUBCLASS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyList_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyList_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyList_New(Py_ssize_t<sp/>size);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>PyList_Size(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyList_GetItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_SetItem(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_ssize_t,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_Insert(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_ssize_t,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_Append(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyList_GetSlice(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_ssize_t,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_SetSlice(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/>Py_ssize_t,<sp/>Py_ssize_t,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_Sort(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_Reverse(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyList_AsTuple(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyList_Extend(<ref refid="struct_py_list_object" kindref="compound">PyListObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyList_ClearFreeList(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyList_DebugMallocStats(FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macro,<sp/>trading<sp/>safety<sp/>for<sp/>speed<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyList_GET_ITEM(op,<sp/>i)<sp/>(((PyListObject<sp/>*)(op))-&gt;ob_item[i])</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyList_SET_ITEM(op,<sp/>i,<sp/>v)<sp/>(((PyListObject<sp/>*)(op))-&gt;ob_item[i]<sp/>=<sp/>(v))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyList_GET_SIZE(op)<sp/><sp/><sp/><sp/>Py_SIZE(op)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyList_ITEMS(op)<sp/><sp/><sp/><sp/><sp/><sp/>(((PyListObject<sp/>*)(op))-&gt;ob_item)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LISTOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/listobject.h"/>
+  </compounddef>
+</doxygen>

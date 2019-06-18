@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="frameobject_8h" kind="file" language="C++">
+    <compoundname>frameobject.h</compoundname>
+    <innerclass refid="struct_py_try_block" prot="public">PyTryBlock</innerclass>
+    <innerclass refid="struct__frame" prot="public">_frame</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="frameobject_8h_1a08f9777ee608b36e0aad194c282cca86" prot="public" static="no">
+        <name>PyFrame_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyFrame_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="60" column="9" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="frameobject_8h_1a45f431f2cbaf64f690de7c3e892d089d" prot="public" static="no">
+        <type>struct <ref refid="struct__frame" kindref="compound">_frame</ref></type>
+        <definition>typedef struct _frame  PyFrameObject</definition>
+        <argsstring></argsstring>
+        <name>PyFrameObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="frameobject_8h_1a61569f2965b7a369eb10b6d75d410d11" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref></type>
+        <definition>int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="70" column="1" bodyfile="/usr/include/python3.6m/frameobject.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="frameobject_8h_1a537b89df1538348e7409e20fbf801276" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyFrame_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="frameobject_8h_1a05cebb1580b787b65b175502a4952f46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyFrameObject *) PyFrame_New(PyThreadState *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__frame" kindref="compound">PyFrameObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="frameobject_8h_1afacaed3098e489ee9f0228353f8ddca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyCodeObject PyObject PyObject* PyAPI_FUNC</definition>
+        <argsstring>(void) PyFrame_BlockSetup(PyFrameObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="70" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="frameobject_8h_1a8d4d03f280a5b12963b0494577619d47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyTryBlock *) PyFrame_BlockPop(PyFrameObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py_try_block" kindref="compound">PyTryBlock</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="frameobject_8h_1aafaea598172d5ca02411662a60abd0c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject **) PyFrame_ExtendStack(PyFrameObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> **</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="frameobject_8h_1a979c1b8e656500cc8b024aaf95180869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyFrame_FastToLocalsWithError(PyFrameObject *f)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/frameobject.h" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Frame<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_FRAMEOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_FRAMEOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="struct_py_try_block" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b_type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>what<sp/>kind<sp/>of<sp/>block<sp/>this<sp/>is<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b_handler;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>where<sp/>to<sp/>jump<sp/>to<sp/>find<sp/>handler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b_level;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>value<sp/>stack<sp/>level<sp/>to<sp/>pop<sp/>to<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}<sp/><ref refid="struct_py_try_block" kindref="compound">PyTryBlock</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="struct__frame" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_VAR_HEAD</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*f_back;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>previous<sp/>frame,<sp/>or<sp/>NULL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref><sp/>*f_code;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>code<sp/>segment<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_builtins;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>builtin<sp/>symbol<sp/>table<sp/>(PyDictObject)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_globals;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>global<sp/>symbol<sp/>table<sp/>(PyDictObject)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_locals;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>local<sp/>symbol<sp/>table<sp/>(any<sp/>mapping)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**f_valuestack;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>points<sp/>after<sp/>the<sp/>last<sp/>local<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Next<sp/>free<sp/>slot<sp/>in<sp/>f_valuestack.<sp/><sp/>Frame<sp/>creation<sp/>sets<sp/>to<sp/>f_valuestack.</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Frame<sp/>evaluation<sp/>usually<sp/>NULLs<sp/>it,<sp/>but<sp/>a<sp/>frame<sp/>that<sp/>yields<sp/>sets<sp/>it</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>to<sp/>the<sp/>current<sp/>stack<sp/>top.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**f_stacktop;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_trace;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Trace<sp/>function<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>In<sp/>a<sp/>generator,<sp/>we<sp/>need<sp/>to<sp/>be<sp/>able<sp/>to<sp/>swap<sp/>between<sp/>the<sp/>exception</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>state<sp/>inside<sp/>the<sp/>generator<sp/>and<sp/>the<sp/>exception<sp/>state<sp/>of<sp/>the<sp/>calling</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>frame<sp/>(which<sp/>shouldn&apos;t<sp/>be<sp/>impacted<sp/>when<sp/>the<sp/>generator<sp/>&quot;yields&quot;</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>from<sp/>an<sp/>except<sp/>handler).</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>These<sp/>three<sp/>fields<sp/>exist<sp/>exactly<sp/>for<sp/>that,<sp/>and<sp/>are<sp/>unused<sp/>for</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>non-generator<sp/>frames.<sp/>See<sp/>the<sp/>save_exc_state<sp/>and<sp/>swap_exc_state</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>functions<sp/>in<sp/>ceval.c<sp/>for<sp/>details<sp/>of<sp/>their<sp/>use.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_exc_type,<sp/>*f_exc_value,<sp/>*f_exc_traceback;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Borrowed<sp/>reference<sp/>to<sp/>a<sp/>generator,<sp/>or<sp/>NULL<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_gen;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_lasti;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Last<sp/>instruction<sp/>if<sp/>called<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Call<sp/>PyFrame_GetLineNumber()<sp/>instead<sp/>of<sp/>reading<sp/>this<sp/>field</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>directly.<sp/><sp/>As<sp/>of<sp/>2.3<sp/>f_lineno<sp/>is<sp/>only<sp/>valid<sp/>when<sp/>tracing<sp/>is</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>active<sp/>(i.e.<sp/>when<sp/>f_trace<sp/>is<sp/>set).<sp/><sp/>At<sp/>other<sp/>times<sp/>we<sp/>use</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyCode_Addr2Line<sp/>to<sp/>calculate<sp/>the<sp/>line<sp/>from<sp/>the<sp/>current</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bytecode<sp/>index.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_lineno;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Current<sp/>line<sp/>number<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f_iblock;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>index<sp/>in<sp/>f_blockstack<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>f_executing;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>whether<sp/>the<sp/>frame<sp/>is<sp/>still<sp/>executing<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_py_try_block" kindref="compound">PyTryBlock</ref><sp/>f_blockstack[CO_MAXBLOCKS];<sp/></highlight><highlight class="comment">/*<sp/>for<sp/>try<sp/>and<sp/>loop<sp/>blocks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*f_localsplus[1];<sp/><sp/></highlight><highlight class="comment">/*<sp/>locals+stack,<sp/>dynamically<sp/>sized<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal">}<sp/><ref refid="struct__frame" kindref="compound">PyFrameObject</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Standard<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyFrame_Type;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyFrame_Check(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyFrame_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*)<sp/>PyFrame_New(<ref refid="struct__ts" kindref="compound">PyThreadState</ref><sp/>*,<sp/><ref refid="struct_py_code_object" kindref="compound">PyCodeObject</ref><sp/>*,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>rest<sp/>of<sp/>the<sp/>interface<sp/>is<sp/>specific<sp/>for<sp/>frame<sp/>objects<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Block<sp/>management<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyFrame_BlockSetup(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_try_block" kindref="compound">PyTryBlock</ref><sp/>*)<sp/>PyFrame_BlockPop(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Extend<sp/>the<sp/>value<sp/>stack<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>**)<sp/>PyFrame_ExtendStack(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Conversions<sp/>between<sp/>&quot;fast<sp/>locals&quot;<sp/>and<sp/>locals<sp/>in<sp/>dictionary<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyFrame_LocalsToFast(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyFrame_FastToLocalsWithError(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*f);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyFrame_FastToLocals(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyFrame_ClearFreeList(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyFrame_DebugMallocStats(FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>the<sp/>line<sp/>of<sp/>code<sp/>the<sp/>frame<sp/>is<sp/>currently<sp/>executing.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyFrame_GetLineNumber(<ref refid="struct__frame" kindref="compound">PyFrameObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_FRAMEOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/frameobject.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c76c79d0632a2343d626dd8cc3ca4849" kind="dir">
+    <compoundname>venv/lib/python3.6/site-packages/lazy_object_proxy</compoundname>
+    <innerfile refid="cext_8c">cext.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lazy_object_proxy/"/>
+  </compounddef>
+</doxygen>

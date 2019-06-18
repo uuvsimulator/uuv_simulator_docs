@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__xml_dtd" kind="struct" language="C++" prot="public">
+    <compoundname>_xmlDtd</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__xml_dtd_1a61a1038a006bf0e6a5419c8c7ba31650" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::_private</definition>
+        <argsstring></argsstring>
+        <name>_private</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="407" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a823418c1633bafc9bb653ddb4228bb1b" prot="public" static="no" mutable="no">
+        <type>xmlElementType</type>
+        <definition>xmlElementType _xmlDtd::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="408" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a956c542a2f8f36eca0d1ca732de4ffa1" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlDtd::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="409" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1ad21db7d7c006d6f5b677cbc186794c92" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_node" kindref="compound">_xmlNode</ref> *</type>
+        <definition>struct _xmlNode* _xmlDtd::children</definition>
+        <argsstring></argsstring>
+        <name>children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="410" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a987026be4bdc222950867088b9a773f3" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_node" kindref="compound">_xmlNode</ref> *</type>
+        <definition>struct _xmlNode* _xmlDtd::last</definition>
+        <argsstring></argsstring>
+        <name>last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="411" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1ae24fc717f1eea8d7de73adddc1ea9d98" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_doc" kindref="compound">_xmlDoc</ref> *</type>
+        <definition>struct _xmlDoc* _xmlDtd::parent</definition>
+        <argsstring></argsstring>
+        <name>parent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="412" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a7a71339012cb16a7808dc669202434f6" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_node" kindref="compound">_xmlNode</ref> *</type>
+        <definition>struct _xmlNode* _xmlDtd::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="413" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a22a38c614122e7ec48b593de6b7e7d03" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_node" kindref="compound">_xmlNode</ref> *</type>
+        <definition>struct _xmlNode* _xmlDtd::prev</definition>
+        <argsstring></argsstring>
+        <name>prev</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="414" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a18f3c011bb87c79ae95bbecef3dd0b8a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__xml_doc" kindref="compound">_xmlDoc</ref> *</type>
+        <definition>struct _xmlDoc* _xmlDtd::doc</definition>
+        <argsstring></argsstring>
+        <name>doc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="415" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1ad534175a81261c5f1ad7ea6392072c21" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::notations</definition>
+        <argsstring></argsstring>
+        <name>notations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="418" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a9a9f0ad6fe0df90737be11e9afedbcdd" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="419" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1af7ff0b9a49fa0bca079e52c48d8cfb4f" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::attributes</definition>
+        <argsstring></argsstring>
+        <name>attributes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="420" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1ad015489c07cded87195e5eeb0f6cb0b7" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::entities</definition>
+        <argsstring></argsstring>
+        <name>entities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="421" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1ae44f8a5ca40e8df30f4901182278b00d" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlDtd::ExternalID</definition>
+        <argsstring></argsstring>
+        <name>ExternalID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="422" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1adf2a9eb2fe7b1129c45a78432a86e390" prot="public" static="no" mutable="no">
+        <type>const xmlChar *</type>
+        <definition>const xmlChar* _xmlDtd::SystemID</definition>
+        <argsstring></argsstring>
+        <name>SystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="423" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="423" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__xml_dtd_1a24703d9ba5942d4cb0cf8b2c19f63243" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _xmlDtd::pentities</definition>
+        <argsstring></argsstring>
+        <name>pentities</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="424" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="424" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="488">
+        <label>_xmlAttr</label>
+        <link refid="struct__xml_attr"/>
+        <childnode refid="487" relation="usage">
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="488" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="489" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>ns</edgelabel>
+        </childnode>
+      </node>
+      <node id="489">
+        <label>_xmlDoc</label>
+        <link refid="struct__xml_doc"/>
+        <childnode refid="487" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="489" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>oldNs</edgelabel>
+        </childnode>
+        <childnode refid="486" relation="usage">
+          <edgelabel>intSubset</edgelabel>
+          <edgelabel>extSubset</edgelabel>
+        </childnode>
+      </node>
+      <node id="486">
+        <label>_xmlDtd</label>
+        <link refid="struct__xml_dtd"/>
+        <childnode refid="487" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="489" relation="usage">
+          <edgelabel>doc</edgelabel>
+          <edgelabel>parent</edgelabel>
+        </childnode>
+      </node>
+      <node id="490">
+        <label>_xmlNs</label>
+        <link refid="struct__xml_ns"/>
+        <childnode refid="489" relation="usage">
+          <edgelabel>context</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="487">
+        <label>_xmlNode</label>
+        <link refid="struct__xml_node"/>
+        <childnode refid="487" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+          <edgelabel>last</edgelabel>
+          <edgelabel>parent</edgelabel>
+          <edgelabel>children</edgelabel>
+        </childnode>
+        <childnode refid="488" relation="usage">
+          <edgelabel>properties</edgelabel>
+        </childnode>
+        <childnode refid="489" relation="usage">
+          <edgelabel>doc</edgelabel>
+        </childnode>
+        <childnode refid="490" relation="usage">
+          <edgelabel>ns</edgelabel>
+          <edgelabel>nsDef</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" line="406" column="1" bodyfile="venv/lib/python3.6/site-packages/lxml/includes/libxml/tree.h" bodystart="406" bodyend="425"/>
+    <listofallmembers>
+      <member refid="struct__xml_dtd_1a61a1038a006bf0e6a5419c8c7ba31650" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>_private</name></member>
+      <member refid="struct__xml_dtd_1af7ff0b9a49fa0bca079e52c48d8cfb4f" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>attributes</name></member>
+      <member refid="struct__xml_dtd_1ad21db7d7c006d6f5b677cbc186794c92" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>children</name></member>
+      <member refid="struct__xml_dtd_1a18f3c011bb87c79ae95bbecef3dd0b8a" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>doc</name></member>
+      <member refid="struct__xml_dtd_1a9a9f0ad6fe0df90737be11e9afedbcdd" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>elements</name></member>
+      <member refid="struct__xml_dtd_1ad015489c07cded87195e5eeb0f6cb0b7" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>entities</name></member>
+      <member refid="struct__xml_dtd_1ae44f8a5ca40e8df30f4901182278b00d" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>ExternalID</name></member>
+      <member refid="struct__xml_dtd_1a987026be4bdc222950867088b9a773f3" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>last</name></member>
+      <member refid="struct__xml_dtd_1a956c542a2f8f36eca0d1ca732de4ffa1" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>name</name></member>
+      <member refid="struct__xml_dtd_1a7a71339012cb16a7808dc669202434f6" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>next</name></member>
+      <member refid="struct__xml_dtd_1ad534175a81261c5f1ad7ea6392072c21" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>notations</name></member>
+      <member refid="struct__xml_dtd_1ae24fc717f1eea8d7de73adddc1ea9d98" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>parent</name></member>
+      <member refid="struct__xml_dtd_1a24703d9ba5942d4cb0cf8b2c19f63243" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>pentities</name></member>
+      <member refid="struct__xml_dtd_1a22a38c614122e7ec48b593de6b7e7d03" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>prev</name></member>
+      <member refid="struct__xml_dtd_1adf2a9eb2fe7b1129c45a78432a86e390" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>SystemID</name></member>
+      <member refid="struct__xml_dtd_1a823418c1633bafc9bb653ddb4228bb1b" prot="public" virt="non-virtual"><scope>_xmlDtd</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="metagrammar_8h" kind="file" language="C++">
+    <compoundname>metagrammar.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="metagrammar_8h_1a62520fa177b138ad76b75745c4a00c51" prot="public" static="no">
+        <name>MSTART</name>
+        <initializer>256</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="8" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="metagrammar_8h_1ac2f06b3729559aefeb2c260309ccdb30" prot="public" static="no">
+        <name>RULE</name>
+        <initializer>257</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="9" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="metagrammar_8h_1afcfa26f7fd6ea292d85613ece7c02ace" prot="public" static="no">
+        <name>RHS</name>
+        <initializer>258</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="10" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="metagrammar_8h_1a9d8a33b1a8b82b9913a0ba70438d45be" prot="public" static="no">
+        <name>ALT</name>
+        <initializer>259</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="11" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="metagrammar_8h_1a66169f544d7ffd5b214840013d105229" prot="public" static="no">
+        <name>ITEM</name>
+        <initializer>260</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="12" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="metagrammar_8h_1a4f7c573e075cedbaf2e6107fa1a7ef21" prot="public" static="no">
+        <name>ATOM</name>
+        <initializer>261</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/metagrammar.h" line="13" column="9" bodyfile="/usr/include/python3.6m/metagrammar.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_METAGRAMMAR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_METAGRAMMAR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MSTART<sp/>256</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RULE<sp/>257</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RHS<sp/>258</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ALT<sp/>259</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ITEM<sp/>260</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ATOM<sp/>261</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_METAGRAMMAR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/metagrammar.h"/>
+  </compounddef>
+</doxygen>

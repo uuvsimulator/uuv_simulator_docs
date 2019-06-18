@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pydtrace_8h" kind="file" language="C++">
+    <compoundname>pydtrace.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pydtrace_8h_1a3e31e7e5ff007e1927561e18b5b283fb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_LINE</definition>
+        <argsstring>(const char *arg0, const char *arg1, int arg2)</argsstring>
+        <name>PyDTrace_LINE</name>
+        <param>
+          <type>const char *</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="28" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a50d10d0be604abc03b69ede6a9e7e4d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_FUNCTION_ENTRY</definition>
+        <argsstring>(const char *arg0, const char *arg1, int arg2)</argsstring>
+        <name>PyDTrace_FUNCTION_ENTRY</name>
+        <param>
+          <type>const char *</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="29" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1ac7b5c975df6424c8991674f5da188251" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_FUNCTION_RETURN</definition>
+        <argsstring>(const char *arg0, const char *arg1, int arg2)</argsstring>
+        <name>PyDTrace_FUNCTION_RETURN</name>
+        <param>
+          <type>const char *</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="30" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a0ef246ceec34a95fa4a51948a77be310" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_GC_START</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_GC_START</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="31" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a0bc8ac8375b8f2f2a6a418aa4ba64f78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_GC_DONE</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_GC_DONE</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="32" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1aa440c101d6b35bc25266f356033cbd3c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_INSTANCE_NEW_START</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_INSTANCE_NEW_START</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="33" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a6118ee669362003ddcd11e80275ebcd6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_INSTANCE_NEW_DONE</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_INSTANCE_NEW_DONE</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="34" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a86816edd1637f88e6275d5decb2534b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_INSTANCE_DELETE_START</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_INSTANCE_DELETE_START</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="35" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1aaf18ccb2771e5c3c648a0221617e8704" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void PyDTrace_INSTANCE_DELETE_DONE</definition>
+        <argsstring>(int arg0)</argsstring>
+        <name>PyDTrace_INSTANCE_DELETE_DONE</name>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="36" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="36" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a9a5612f2b3d06cb19c09a306bb1b982a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_LINE_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_LINE_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="38" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a4592907981ce6f673538af2317f81eee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_FUNCTION_ENTRY_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_FUNCTION_ENTRY_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="39" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a572821f4b33746ab4c18f1387c32fa7a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_FUNCTION_RETURN_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_FUNCTION_RETURN_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="40" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="40" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1aefb0a60d1d9a5bbe80f43c95a4ad62d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_GC_START_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_GC_START_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="41" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1aeedcbe7ce57abcca7a0001036846e988" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_GC_DONE_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_GC_DONE_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="42" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a371d791542f75fd02e4d4fd823e1c0b2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_INSTANCE_NEW_START_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_INSTANCE_NEW_START_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="43" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1abbfbcc3cae5b56b4940f0af972d2d3c6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_INSTANCE_NEW_DONE_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_INSTANCE_NEW_DONE_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="44" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1afd9c1c4e502995fd6a471f62b14c1da9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_INSTANCE_DELETE_START_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_INSTANCE_DELETE_START_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="45" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="pydtrace_8h_1a96d2cb69834c9703f4a43879b2c91783" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int PyDTrace_INSTANCE_DELETE_DONE_ENABLED</definition>
+        <argsstring>(void)</argsstring>
+        <name>PyDTrace_INSTANCE_DELETE_DONE_ENABLED</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pydtrace.h" line="46" column="1" bodyfile="/usr/include/python3.6m/pydtrace.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Static<sp/>DTrace<sp/>probes<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_DTRACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_DTRACE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_DTRACE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pydtrace_probes.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>pydtrace_probes.h,<sp/>on<sp/>systems<sp/>with<sp/>DTrace,<sp/>is<sp/>auto-generated<sp/>to<sp/>include</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>`PyDTrace_{PROBE}`<sp/>and<sp/>`PyDTrace_{PROBE}_ENABLED()`<sp/>macros<sp/>for<sp/>every<sp/>probe</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/>defined<sp/>in<sp/>pydtrace_provider.d.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>Calling<sp/>these<sp/>functions<sp/>must<sp/>be<sp/>guarded<sp/>by<sp/>a<sp/>`PyDTrace_{PROBE}_ENABLED()`</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>check<sp/>to<sp/>minimize<sp/>performance<sp/>impact<sp/>when<sp/>probing<sp/>is<sp/>off.<sp/>For<sp/>example:</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"></highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(PyDTrace_FUNCTION_ENTRY_ENABLED())</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyDTrace_FUNCTION_ENTRY(f);</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Without<sp/>DTrace,<sp/>compile<sp/>to<sp/>nothing.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_LINE(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg2)<sp/>{}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_FUNCTION_ENTRY(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg2)<sp/><sp/>{}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_FUNCTION_RETURN(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*arg1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg2)<sp/>{}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_GC_START(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_GC_DONE(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_NEW_START(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_NEW_DONE(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_DELETE_START(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_DELETE_DONE(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>arg0)<sp/>{}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_LINE_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_FUNCTION_ENTRY_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_FUNCTION_RETURN_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_GC_START_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_GC_DONE_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_NEW_START_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_NEW_DONE_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_DELETE_START_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>PyDTrace_INSTANCE_DELETE_DONE_ENABLED(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!WITH_DTRACE<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_DTRACE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pydtrace.h"/>
+  </compounddef>
+</doxygen>

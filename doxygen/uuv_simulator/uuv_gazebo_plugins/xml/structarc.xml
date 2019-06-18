@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structarc" kind="struct" language="C++" prot="public">
+    <compoundname>arc</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structarc_1a2febdfa7daf772d89eaa0951933dbf74" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short arc::a_lbl</definition>
+        <argsstring></argsstring>
+        <name>a_lbl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="31" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structarc_1afbb7259f5917c22500ffce95ed89f644" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short arc::a_arrow</definition>
+        <argsstring></argsstring>
+        <name>a_arrow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/grammar.h" line="32" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/include/python3.6m/grammar.h" line="30" column="1" bodyfile="/usr/include/python3.6m/grammar.h" bodystart="30" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structarc_1afbb7259f5917c22500ffce95ed89f644" prot="public" virt="non-virtual"><scope>arc</scope><name>a_arrow</name></member>
+      <member refid="structarc_1a2febdfa7daf772d89eaa0951933dbf74" prot="public" virt="non-virtual"><scope>arc</scope><name>a_lbl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

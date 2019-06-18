@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_type___spec" kind="struct" language="C++" prot="public">
+    <compoundname>PyType_Spec</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_type___spec_1a9bf5f5c6c9987affcd79a48adb4833e5" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* PyType_Spec::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="444" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_type___spec_1af1c4fa4b3de90bba4a26b9b0558f8a0d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyType_Spec::basicsize</definition>
+        <argsstring></argsstring>
+        <name>basicsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="445" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="445" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_type___spec_1ae9c6cf4d58317f81fb769a694710ac83" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyType_Spec::itemsize</definition>
+        <argsstring></argsstring>
+        <name>itemsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="446" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_type___spec_1ac2892b03ea6044b1aa937d5e4afcde89" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int PyType_Spec::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="447" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_type___spec_1a24cd4d6599b06ed0a942e1c59fd35772" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_type___slot" kindref="compound">PyType_Slot</ref> *</type>
+        <definition>PyType_Slot* PyType_Spec::slots</definition>
+        <argsstring></argsstring>
+        <name>slots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="448" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="448" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1437">
+        <label>PyType_Slot</label>
+        <link refid="struct_py_type___slot"/>
+      </node>
+      <node id="1436">
+        <label>PyType_Spec</label>
+        <link refid="struct_py_type___spec"/>
+        <childnode refid="1437" relation="usage">
+          <edgelabel>slots</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="443" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="443" bodyend="449"/>
+    <listofallmembers>
+      <member refid="struct_py_type___spec_1af1c4fa4b3de90bba4a26b9b0558f8a0d" prot="public" virt="non-virtual"><scope>PyType_Spec</scope><name>basicsize</name></member>
+      <member refid="struct_py_type___spec_1ac2892b03ea6044b1aa937d5e4afcde89" prot="public" virt="non-virtual"><scope>PyType_Spec</scope><name>flags</name></member>
+      <member refid="struct_py_type___spec_1ae9c6cf4d58317f81fb769a694710ac83" prot="public" virt="non-virtual"><scope>PyType_Spec</scope><name>itemsize</name></member>
+      <member refid="struct_py_type___spec_1a9bf5f5c6c9987affcd79a48adb4833e5" prot="public" virt="non-virtual"><scope>PyType_Spec</scope><name>name</name></member>
+      <member refid="struct_py_type___spec_1a24cd4d6599b06ed0a942e1c59fd35772" prot="public" virt="non-virtual"><scope>PyType_Spec</scope><name>slots</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

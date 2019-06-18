@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct___py_unicode_writer" kind="struct" language="C++" prot="public">
+    <compoundname>_PyUnicodeWriter</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a5bcc85de8f76d8196df8a3c505308c43" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _PyUnicodeWriter::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="886" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a76841c44766ba1dd8edac4090dd49719" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* _PyUnicodeWriter::data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="887" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="887" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1aff601d1b8b3ff02098c054df62519975" prot="public" static="no" mutable="no">
+        <type>enum PyUnicode_Kind</type>
+        <definition>enum PyUnicode_Kind _PyUnicodeWriter::kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="887" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="888" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a87830f0cdce1296dde1c74fd1d023b47" prot="public" static="no" mutable="no">
+        <type>Py_UCS4</type>
+        <definition>Py_UCS4 _PyUnicodeWriter::maxchar</definition>
+        <argsstring></argsstring>
+        <name>maxchar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="889" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a85019c080568bc2e8b2be77bea1a3272" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyUnicodeWriter::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="890" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1ae0784032b2a208e5330cd5cfd462b378" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyUnicodeWriter::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="891" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1aba90b9400b7eac0c23e9bb91afa88d27" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _PyUnicodeWriter::min_length</definition>
+        <argsstring></argsstring>
+        <name>min_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="894" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="894" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1ac337475e706576ffc96d46015570f52c" prot="public" static="no" mutable="no">
+        <type>Py_UCS4</type>
+        <definition>Py_UCS4 _PyUnicodeWriter::min_char</definition>
+        <argsstring></argsstring>
+        <name>min_char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="897" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a8568e42ffbeaa7587bc59d0a47b899ba" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char _PyUnicodeWriter::overallocate</definition>
+        <argsstring></argsstring>
+        <name>overallocate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="900" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="900" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___py_unicode_writer_1a3db581c84815a5c32279e117d958a72e" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char _PyUnicodeWriter::readonly</definition>
+        <argsstring></argsstring>
+        <name>readonly</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="904" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="904" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="319">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="315">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="316" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="321">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="320">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="322">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="316">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="317" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="318" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="319" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="320" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="322" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="324" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="316" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="314">
+        <label>_PyUnicodeWriter</label>
+        <link refid="struct___py_unicode_writer"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>buffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="317">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="323">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="324">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="315" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="318">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/unicodeobject.h" line="885" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="885" bodyend="905"/>
+    <listofallmembers>
+      <member refid="struct___py_unicode_writer_1a5bcc85de8f76d8196df8a3c505308c43" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>buffer</name></member>
+      <member refid="struct___py_unicode_writer_1a76841c44766ba1dd8edac4090dd49719" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>data</name></member>
+      <member refid="struct___py_unicode_writer_1aff601d1b8b3ff02098c054df62519975" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>kind</name></member>
+      <member refid="struct___py_unicode_writer_1a87830f0cdce1296dde1c74fd1d023b47" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>maxchar</name></member>
+      <member refid="struct___py_unicode_writer_1ac337475e706576ffc96d46015570f52c" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>min_char</name></member>
+      <member refid="struct___py_unicode_writer_1aba90b9400b7eac0c23e9bb91afa88d27" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>min_length</name></member>
+      <member refid="struct___py_unicode_writer_1a8568e42ffbeaa7587bc59d0a47b899ba" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>overallocate</name></member>
+      <member refid="struct___py_unicode_writer_1ae0784032b2a208e5330cd5cfd462b378" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>pos</name></member>
+      <member refid="struct___py_unicode_writer_1a3db581c84815a5c32279e117d958a72e" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>readonly</name></member>
+      <member refid="struct___py_unicode_writer_1a85019c080568bc2e8b2be77bea1a3272" prot="public" virt="non-virtual"><scope>_PyUnicodeWriter</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

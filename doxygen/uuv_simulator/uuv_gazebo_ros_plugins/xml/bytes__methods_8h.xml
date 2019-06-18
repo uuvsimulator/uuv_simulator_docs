@@ -1,0 +1,917 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="bytes__methods_8h" kind="file" language="C++">
+    <compoundname>bytes_methods.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="bytes__methods_8h_1ae7a437101dda7eccb13c5f534c215b0b" prot="public" static="no">
+        <name>PyDoc_STRVAR_shared</name>
+        <param><defname>name</defname></param>
+        <param><defname>str</defname></param>
+        <initializer>const char name[] = PyDoc_STR(str)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="64" column="9" bodyfile="/usr/include/python3.6m/bytes_methods.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="bytes__methods_8h_1ae74bfbbfa6a3fcce119ea7d37479bc67" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_isspace__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_isspace__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a7f1cc96ac9ff0e674b0266d081e168b7" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_isalpha__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_isalpha__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1af3bff666812adf8d2fdd7e98ade29df2" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_isalnum__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_isalnum__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a1a2a74321f3e596622732ef6023031a4" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_isdigit__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_isdigit__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a916cbbf608e3afda9463ef54600db144" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_islower__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_islower__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1ac95a680b9fd1524836cb15be651dd8b4" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_isupper__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_isupper__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1aab71db2f36b1e5921b84638b2768907f" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_istitle__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_istitle__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a50f4526c81496be94e52bdbd39d26c38" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_lower__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_lower__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a3f1609d4e2780b3cd8129b7518d36393" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_upper__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_upper__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a36cfe9e4589f1a06ebb28809c6c7827c" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_title__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_title__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a140e92ff84599c3317758f20dbcab5db" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_capitalize__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_capitalize__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a6ea4506dcf206f60f94a0e5e1626ab31" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_swapcase__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_swapcase__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a7bd25ee19dc2f68d1e4a8b1078cce8f7" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_count__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_count__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a36480dc34b29dc36f2531a7569060262" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_find__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_find__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a5f36c08848c0c2fd77ae5a8479776c1f" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_index__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_index__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a0de0e96d2e3f892c7be410e39d41404a" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_rfind__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_rfind__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a6fbbd907ac11f9ed4c8afa239c24be98" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_rindex__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_rindex__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1ad90ca6053981ca032ef9f5d65cc428b3" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_startswith__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_startswith__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1af4e3c0ddf80c41edd1f001fa6f65b2a8" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_endswith__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_endswith__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="55" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a80e50725b776ec7cab69fc81b4efa532" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_maketrans__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_maketrans__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a4beb5d252ae124bff60985c851d35007" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_expandtabs__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_expandtabs__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1a7d0849cc47aac380a07de414181912c2" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_ljust__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_ljust__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1acb4b73b7bcf4424e9e514204421a519b" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_rjust__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_rjust__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1af7f4faabf1c0d53de38645032e33863a" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_center__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_center__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="60" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="bytes__methods_8h_1ab447303f7c05d644b027c095ff098106" prot="public" static="no" mutable="no">
+        <type>const char</type>
+        <definition>const char _Py_zfill__doc__[]</definition>
+        <argsstring>[]</argsstring>
+        <name>_Py_zfill__doc__</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="61" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="bytes__methods_8h_1a73e79e283305f845a53035c15611c86f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_isspace</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_isspace</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a2e673c1e4e22776daa68e079783237b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_isalpha</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_isalpha</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a3c4d8176e5692a9ca3f21c564e86f843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_isalnum</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_isalnum</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1aa8a00e9134522690101aacab84dbab0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_isdigit</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_isdigit</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1abcede1ade6fdf270a023eef94ca2b6b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_islower</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_islower</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a574a6f602eb5204b5c75f2fbf1d187a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_isupper</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_isupper</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a908f6b0eb502ef6255ad309637a58f96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_istitle</definition>
+        <argsstring>(const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_istitle</name>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a0ccff0084358605ea87c4b04d321e820" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _Py_bytes_lower</definition>
+        <argsstring>(char *result, const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_lower</name>
+        <param>
+          <type>char *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a85a45e8b9668ecf66b129c0c9b5f9055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _Py_bytes_upper</definition>
+        <argsstring>(char *result, const char *cptr, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_upper</name>
+        <param>
+          <type>char *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>cptr</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a29b124183484eb5e44dc15794777e094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _Py_bytes_title</definition>
+        <argsstring>(char *result, const char *s, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_title</name>
+        <param>
+          <type>char *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a69460a895e0fb4eb168daebe844de88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _Py_bytes_capitalize</definition>
+        <argsstring>(char *result, const char *s, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_capitalize</name>
+        <param>
+          <type>char *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1aaec030c844b1fe693e3626827ad7f8ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void _Py_bytes_swapcase</definition>
+        <argsstring>(char *result, const char *s, Py_ssize_t len)</argsstring>
+        <name>_Py_bytes_swapcase</name>
+        <param>
+          <type>char *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a5dc777e37632b8927ca362c6e887b432" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_find</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_find</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1af30229ff6aa431281af261955097fdce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_index</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_index</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1add09c021ff54cee1a595de767331a99f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_rfind</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_rfind</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a9df88802d9fc3194cdeb5e5f65bb5bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_rindex</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_rindex</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a8fd2d1ba544551a23f9626f5de6f6f9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_count</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_count</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a73b46ff30f5a16589899ad0e50be1a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int _Py_bytes_contains</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *arg)</argsstring>
+        <name>_Py_bytes_contains</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1ad59391170f52ca5ae6c41ada0ededcaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_startswith</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_startswith</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1a63b7e7c3e1b18de091b03eac461c16f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_endswith</definition>
+        <argsstring>(const char *str, Py_ssize_t len, PyObject *args)</argsstring>
+        <name>_Py_bytes_endswith</name>
+        <param>
+          <type>const char *</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>Py_ssize_t</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bytes__methods_8h_1aa11faedabd1360cde75567e1200d3fe9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _Py_bytes_maketrans</definition>
+        <argsstring>(Py_buffer *frm, Py_buffer *to)</argsstring>
+        <name>_Py_bytes_maketrans</name>
+        <param>
+          <type><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref> *</type>
+          <declname>frm</declname>
+        </param>
+        <param>
+          <type><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref> *</type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/bytes_methods.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_BYTES_CTYPE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_BYTES_CTYPE_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>The<sp/>internal<sp/>implementation<sp/>behind<sp/>PyBytes<sp/>(bytes)<sp/>and<sp/>PyByteArray<sp/>(bytearray)</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>methods<sp/>of<sp/>the<sp/>given<sp/>names,<sp/>they<sp/>operate<sp/>on<sp/>ASCII<sp/>byte<sp/>strings.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_isspace(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_isalpha(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_isalnum(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_isdigit(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_islower(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_isupper(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_istitle(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>store<sp/>their<sp/>len<sp/>sized<sp/>answer<sp/>in<sp/>the<sp/>given<sp/>preallocated<sp/>*result<sp/>arg.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_Py_bytes_lower(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_Py_bytes_upper(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*cptr,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_Py_bytes_title(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_Py_bytes_capitalize(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_Py_bytes_swapcase(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s,<sp/>Py_ssize_t<sp/>len);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_find(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_index(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_rfind(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_rindex(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_count(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_Py_bytes_contains(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*arg);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_startswith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*_Py_bytes_endswith(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/>Py_ssize_t<sp/>len,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*args);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>maketrans()<sp/>static<sp/>method.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="struct__object" kindref="compound">PyObject</ref>*<sp/>_Py_bytes_maketrans(<ref refid="structbufferinfo" kindref="compound">Py_buffer</ref><sp/>*frm,<sp/><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref><sp/>*to);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Shared<sp/>__doc__<sp/>strings.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_isspace__doc__[];</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_isalpha__doc__[];</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_isalnum__doc__[];</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_isdigit__doc__[];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_islower__doc__[];</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_isupper__doc__[];</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_istitle__doc__[];</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_lower__doc__[];</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_upper__doc__[];</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_title__doc__[];</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_capitalize__doc__[];</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_swapcase__doc__[];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_count__doc__[];</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_find__doc__[];</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_index__doc__[];</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_rfind__doc__[];</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_rindex__doc__[];</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_startswith__doc__[];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_endswith__doc__[];</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_maketrans__doc__[];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_expandtabs__doc__[];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_ljust__doc__[];</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_rjust__doc__[];</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_center__doc__[];</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>_Py_zfill__doc__[];</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>this<sp/>is<sp/>needed<sp/>because<sp/>some<sp/>docs<sp/>are<sp/>shared<sp/>from<sp/>the<sp/>.o,<sp/>not<sp/>static<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyDoc_STRVAR_shared(name,str)<sp/>const<sp/>char<sp/>name[]<sp/>=<sp/>PyDoc_STR(str)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_BYTES_CTYPE_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/bytes_methods.h"/>
+  </compounddef>
+</doxygen>

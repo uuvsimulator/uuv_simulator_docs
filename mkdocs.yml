@@ -55,6 +55,7 @@ nav:
   - UUV Simulator: 
     - Introduction: packages/uuv_simulator/intro.md
     - Features:
+      - Actuators: packages/uuv_simulator/docs/features/actuators.md
       - Gazebo worlds: packages/uuv_simulator/docs/features/gazebo_worlds.md 
     - User Guide:
       - Configuring the thruster manager: packages/uuv_simulator/docs/tutorials/config_thruster_manager.md

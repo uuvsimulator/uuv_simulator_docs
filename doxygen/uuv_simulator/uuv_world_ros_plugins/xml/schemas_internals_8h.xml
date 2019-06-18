@@ -1,0 +1,596 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="schemas_internals_8h" kind="file" language="C++">
+    <compoundname>schemasInternals.h</compoundname>
+    <includes refid="xmlversion_8h" local="no">libxml/xmlversion.h</includes>
+    <incdepgraph>
+      <node id="1056">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/libxml/schemasInternals.h</label>
+        <link refid="schemas_internals_8h"/>
+        <childnode refid="1057" relation="include">
+        </childnode>
+      </node>
+      <node id="1057">
+        <label>libxml/xmlversion.h</label>
+        <link refid="xmlversion_8h_source"/>
+        <childnode refid="1058" relation="include">
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>libxml/xmlexports.h</label>
+        <link refid="xmlexports_8h_source"/>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Summary:<sp/>internal<sp/>interfaces<sp/>for<sp/>XML<sp/>Schemas</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Description:<sp/>internal<sp/>interfaces<sp/>for<sp/>the<sp/>XML<sp/>Schemas<sp/>handling</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>and<sp/>schema<sp/>validity<sp/>checking</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>Schemas<sp/>development<sp/>is<sp/>a<sp/>Work<sp/>In<sp/>Progress.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Some<sp/>of<sp/>those<sp/>interfaces<sp/>are<sp/>not<sp/>guaranteed<sp/>to<sp/>be<sp/>API<sp/>or<sp/>ABI<sp/>stable<sp/>!</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*<sp/>Copy:<sp/>See<sp/>Copyright<sp/>for<sp/>the<sp/>status<sp/>of<sp/>this<sp/>software.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Daniel<sp/>Veillard</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__XML_SCHEMA_INTERNALS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__XML_SCHEMA_INTERNALS_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlversion.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>LIBXML_SCHEMAS_ENABLED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/xmlregexp.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/hash.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;libxml/dict.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_UNKNOWN<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_STRING<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NORMSTRING<sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_DECIMAL<sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_TIME<sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_GDAY<sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_GMONTH<sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_GMONTHDAY<sp/>=<sp/>7,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_GYEAR<sp/>=<sp/>8,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_GYEARMONTH<sp/>=<sp/>9,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_DATE<sp/>=<sp/>10,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_DATETIME<sp/>=<sp/>11,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_DURATION<sp/>=<sp/>12,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_FLOAT<sp/>=<sp/>13,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_DOUBLE<sp/>=<sp/>14,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_BOOLEAN<sp/>=<sp/>15,</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_TOKEN<sp/>=<sp/>16,</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_LANGUAGE<sp/>=<sp/>17,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NMTOKEN<sp/>=<sp/>18,</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NMTOKENS<sp/>=<sp/>19,</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NAME<sp/>=<sp/>20,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_QNAME<sp/>=<sp/>21,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NCNAME<sp/>=<sp/>22,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ID<sp/>=<sp/>23,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_IDREF<sp/>=<sp/>24,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_IDREFS<sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ENTITY<sp/>=<sp/>26,</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ENTITIES<sp/>=<sp/>27,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NOTATION<sp/>=<sp/>28,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ANYURI<sp/>=<sp/>29,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_INTEGER<sp/>=<sp/>30,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NPINTEGER<sp/>=<sp/>31,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NINTEGER<sp/>=<sp/>32,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_NNINTEGER<sp/>=<sp/>33,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_PINTEGER<sp/>=<sp/>34,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_INT<sp/>=<sp/>35,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_UINT<sp/>=<sp/>36,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_LONG<sp/>=<sp/>37,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ULONG<sp/>=<sp/>38,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_SHORT<sp/>=<sp/>39,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_USHORT<sp/>=<sp/>40,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_BYTE<sp/>=<sp/>41,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_UBYTE<sp/>=<sp/>42,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_HEXBINARY<sp/>=<sp/>43,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_BASE64BINARY<sp/>=<sp/>44,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ANYTYPE<sp/>=<sp/>45,</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMAS_ANYSIMPLETYPE<sp/>=<sp/>46</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">}<sp/>xmlSchemaValType;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>XML<sp/>Schemas<sp/>defines<sp/>multiple<sp/>type<sp/>of<sp/>types.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_BASIC<sp/>=<sp/>1,<sp/></highlight><highlight class="comment">/*<sp/>A<sp/>built-in<sp/>datatype<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ANY,</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_FACET,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_SIMPLE,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_COMPLEX,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_SEQUENCE<sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_CHOICE,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ALL,</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_SIMPLE_CONTENT,</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_COMPLEX_CONTENT,</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_UR,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_RESTRICTION,</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_EXTENSION,</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ELEMENT,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ATTRIBUTE,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ATTRIBUTEGROUP,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_GROUP,</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_NOTATION,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_LIST,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_UNION,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ANY_ATTRIBUTE,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_IDC_UNIQUE,</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_IDC_KEY,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_IDC_KEYREF,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_PARTICLE<sp/>=<sp/>25,</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_TYPE_ATTRIBUTE_USE,</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MININCLUSIVE<sp/>=<sp/>1000,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MINEXCLUSIVE,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MAXINCLUSIVE,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MAXEXCLUSIVE,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_TOTALDIGITS,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_FRACTIONDIGITS,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_PATTERN,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_ENUMERATION,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_WHITESPACE,</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_LENGTH,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MAXLENGTH,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_FACET_MINLENGTH,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_EXTRA_QNAMEREF<sp/>=<sp/>2000,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_EXTRA_ATTR_USE_PROHIB</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">}<sp/>xmlSchemaTypeType;</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_UNKNOWN<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_EMPTY<sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_ELEMENTS,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_MIXED,</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_SIMPLE,</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_MIXED_OR_ELEMENTS,<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_BASIC,</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>XML_SCHEMA_CONTENT_ANY</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}<sp/>xmlSchemaContentType;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaVal<sp/>xmlSchemaVal;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaVal<sp/>*xmlSchemaValPtr;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaType<sp/>xmlSchemaType;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaType<sp/>*xmlSchemaTypePtr;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacet<sp/>xmlSchemaFacet;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaFacet<sp/>*xmlSchemaFacetPtr;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAnnot<sp/>xmlSchemaAnnot;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaAnnot<sp/>*xmlSchemaAnnotPtr;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAnnot<sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAnnot<sp/>*next;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/>content;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>annotation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANYATTR_SKIP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANYATTR_LAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANYATTR_STRICT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANY_SKIP<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANY_LAX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ANY_STRICT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_USE_PROHIBITED<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_USE_REQUIRED<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_USE_OPTIONAL<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_NSDEFAULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_INTERNAL_RESOLVED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTR_FIXED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttribute<sp/>xmlSchemaAttribute;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaAttribute<sp/>*xmlSchemaAttributePtr;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttribute<sp/>{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttribute<sp/>*next;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>attribute<sp/>(not<sp/>used?)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>name<sp/>of<sp/>the<sp/>declaration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*ref;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refNs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*typeName;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>local<sp/>name<sp/>of<sp/>the<sp/>type<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*typeNs;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>ns<sp/>URI<sp/>of<sp/>the<sp/>type<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>base;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>occurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*defValue;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>initial<sp/>value<sp/>of<sp/>the<sp/>value<sp/>constraint<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>subtypes;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>type<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refPrefix;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaValPtr<sp/>defVal;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>compiled<sp/>value<sp/>constraint<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributePtr<sp/>refDecl;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttributeLink<sp/>xmlSchemaAttributeLink;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaAttributeLink<sp/>*xmlSchemaAttributeLinkPtr;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttributeLink<sp/>{</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttributeLink<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>attribute<sp/>link<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttribute<sp/>*attr;</highlight><highlight class="comment">/*<sp/>the<sp/>linked<sp/>attribute<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_WILDCARD_COMPLETE<sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaWildcardNs<sp/>xmlSchemaWildcardNs;</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaWildcardNs<sp/>*xmlSchemaWildcardNsPtr;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaWildcardNs<sp/>{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaWildcardNs<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>constraint<sp/>link<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value;</highlight><highlight class="comment">/*<sp/>the<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaWildcard<sp/>xmlSchemaWildcard;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaWildcard<sp/>*xmlSchemaWildcardPtr;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaWildcard<sp/>{</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>processContents;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>any;<sp/></highlight><highlight class="comment">/*<sp/>Indicates<sp/>if<sp/>the<sp/>ns<sp/>constraint<sp/>is<sp/>of<sp/>##any<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaWildcardNsPtr<sp/>nsSet;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>list<sp/>of<sp/>allowed<sp/>namespaces<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaWildcardNsPtr<sp/>negNsSet;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>negated<sp/>namespace<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="319"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTRGROUP_WILDCARD_BUILDED<sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327"><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTRGROUP_GLOBAL<sp/>1<sp/>&lt;&lt;<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTRGROUP_MARKED<sp/>1<sp/>&lt;&lt;<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTRGROUP_REDEFINED<sp/>1<sp/>&lt;&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ATTRGROUP_HAS_REFS<sp/>1<sp/>&lt;&lt;<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttributeGroup<sp/>xmlSchemaAttributeGroup;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaAttributeGroup<sp/>*xmlSchemaAttributeGroupPtr;</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttributeGroup<sp/>{</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaAttribute<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>attribute<sp/>if<sp/>in<sp/>a<sp/>group<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*ref;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refNs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributePtr<sp/>attributes;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaWildcardPtr<sp/>attributeWildcard;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refPrefix;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributeGroupPtr<sp/>refItem;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*attrUses;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaTypeLink<sp/>xmlSchemaTypeLink;</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaTypeLink<sp/>*xmlSchemaTypeLinkPtr;</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaTypeLink<sp/>{</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaTypeLink<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>type<sp/>link<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>type;</highlight><highlight class="comment">/*<sp/>the<sp/>linked<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacetLink<sp/>xmlSchemaFacetLink;</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaFacetLink<sp/>*xmlSchemaFacetLinkPtr;</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacetLink<sp/>{</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacetLink<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>facet<sp/>link<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaFacetPtr<sp/>facet;</highlight><highlight class="comment">/*<sp/>the<sp/>linked<sp/>facet<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="408"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_MIXED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal"></highlight></codeline>
+<codeline lineno="414"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_DERIVATION_METHOD_EXTENSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"></highlight></codeline>
+<codeline lineno="420"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_DERIVATION_METHOD_RESTRICTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="426"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"></highlight></codeline>
+<codeline lineno="433"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_OWNED_ATTR_WILDCARD<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>4<sp/></highlight><highlight class="comment">/*<sp/>Obsolete.<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="434"><highlight class="normal"></highlight></codeline>
+<codeline lineno="442"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_VARIETY_ABSENT<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="443"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_VARIETY_LIST<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_VARIETY_UNION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="455"><highlight class="normal"></highlight></codeline>
+<codeline lineno="460"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_VARIETY_ATOMIC<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"></highlight></codeline>
+<codeline lineno="466"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FINAL_EXTENSION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"></highlight></codeline>
+<codeline lineno="472"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FINAL_RESTRICTION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="473"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FINAL_LIST<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight></codeline>
+<codeline lineno="484"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FINAL_UNION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="485"><highlight class="normal"></highlight></codeline>
+<codeline lineno="490"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FINAL_DEFAULT<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="491"><highlight class="normal"></highlight></codeline>
+<codeline lineno="496"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_BUILTIN_PRIMITIVE<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="497"><highlight class="normal"></highlight></codeline>
+<codeline lineno="502"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_MARKED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="503"><highlight class="normal"></highlight></codeline>
+<codeline lineno="509"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_BLOCK_DEFAULT<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="510"><highlight class="normal"></highlight></codeline>
+<codeline lineno="515"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_BLOCK_EXTENSION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>18</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="516"><highlight class="normal"></highlight></codeline>
+<codeline lineno="521"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_BLOCK_RESTRICTION<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>19</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight></codeline>
+<codeline lineno="527"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_ABSTRACT<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>20</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FACETSNEEDVALUE<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>21</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="534"><highlight class="normal"></highlight></codeline>
+<codeline lineno="539"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_INTERNAL_RESOLVED<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>22</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="540"><highlight class="normal"></highlight></codeline>
+<codeline lineno="545"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_INTERNAL_INVALID<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>23</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="546"><highlight class="normal"></highlight></codeline>
+<codeline lineno="551"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_WHITESPACE_PRESERVE<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>24</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="552"><highlight class="normal"></highlight></codeline>
+<codeline lineno="557"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_WHITESPACE_REPLACE<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>25</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="558"><highlight class="normal"></highlight></codeline>
+<codeline lineno="563"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_WHITESPACE_COLLAPSE<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="564"><highlight class="normal"></highlight></codeline>
+<codeline lineno="569"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_HAS_FACETS<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>27</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="570"><highlight class="normal"></highlight></codeline>
+<codeline lineno="575"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_NORMVALUENEEDED<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>28</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="576"><highlight class="normal"></highlight></codeline>
+<codeline lineno="582"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_FIXUP_1<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>29</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="583"><highlight class="normal"></highlight></codeline>
+<codeline lineno="589"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_TYPE_REDEFINED<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="595"><highlight class="comment">/*<sp/>#define<sp/>XML_SCHEMAS_TYPE_REDEFINING<sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>31<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="596"><highlight class="normal"></highlight></codeline>
+<codeline lineno="602"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaType<sp/>{</highlight></codeline>
+<codeline lineno="603"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="604"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaType<sp/>*next;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>type<sp/>if<sp/>in<sp/>a<sp/>sequence<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="605"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;</highlight></codeline>
+<codeline lineno="606"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id<sp/>;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="607"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*ref;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="608"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refNs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="609"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="610"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>subtypes;</highlight></codeline>
+<codeline lineno="611"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributePtr<sp/>attributes;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="612"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="613"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="614"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="615"><highlight class="normal"></highlight></codeline>
+<codeline lineno="616"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="617"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaContentType<sp/>contentType;</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*base;<sp/></highlight><highlight class="comment">/*<sp/>Base<sp/>type&apos;s<sp/>local<sp/>name<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="619"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*baseNs;<sp/></highlight><highlight class="comment">/*<sp/>Base<sp/>type&apos;s<sp/>target<sp/>namespace<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="620"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>baseType;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>base<sp/>type<sp/>component<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="621"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaFacetPtr<sp/>facets;<sp/></highlight><highlight class="comment">/*<sp/>Local<sp/>facets<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="622"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaType<sp/>*redef;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="623"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>recurse;<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="624"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributeLinkPtr<sp/>*attributeUses;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="625"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaWildcardPtr<sp/>attributeWildcard;</highlight></codeline>
+<codeline lineno="626"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>builtInType;<sp/></highlight><highlight class="comment">/*<sp/>Type<sp/>of<sp/>built-in<sp/>types.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="627"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeLinkPtr<sp/>memberTypes;<sp/></highlight><highlight class="comment">/*<sp/>member-types<sp/>if<sp/>a<sp/>union<sp/>type.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="628"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaFacetLinkPtr<sp/>facetSet;<sp/></highlight><highlight class="comment">/*<sp/>All<sp/>facets<sp/>(incl.<sp/>inherited)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="629"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refPrefix;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="630"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>contentTypeDef;<sp/></highlight><highlight class="comment">/*<sp/>Used<sp/>for<sp/>the<sp/>simple<sp/>content<sp/>of<sp/>complex<sp/>types.</highlight></codeline>
+<codeline lineno="631"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Could<sp/>we<sp/>use<sp/>@subtypes<sp/>for<sp/>this?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="632"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegexpPtr<sp/>contModel;<sp/></highlight><highlight class="comment">/*<sp/>Holds<sp/>the<sp/>automaton<sp/>of<sp/>the<sp/>content<sp/>model<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="633"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;</highlight></codeline>
+<codeline lineno="634"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*attrUses;</highlight></codeline>
+<codeline lineno="635"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="636"><highlight class="normal"></highlight></codeline>
+<codeline lineno="637"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="638"><highlight class="comment"><sp/>*<sp/>xmlSchemaElement:</highlight></codeline>
+<codeline lineno="639"><highlight class="comment"><sp/>*<sp/>An<sp/>element<sp/>definition.</highlight></codeline>
+<codeline lineno="640"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="641"><highlight class="comment"><sp/>*<sp/>xmlSchemaType,<sp/>xmlSchemaFacet<sp/>and<sp/>xmlSchemaElement<sp/>start<sp/>of</highlight></codeline>
+<codeline lineno="642"><highlight class="comment"><sp/>*<sp/>structures<sp/>must<sp/>be<sp/>kept<sp/>similar</highlight></codeline>
+<codeline lineno="643"><highlight class="comment"><sp/>*/</highlight></codeline>
+<codeline lineno="649"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_NILLABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="650"><highlight class="normal"></highlight></codeline>
+<codeline lineno="655"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_GLOBAL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="656"><highlight class="normal"></highlight></codeline>
+<codeline lineno="661"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_DEFAULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="662"><highlight class="normal"></highlight></codeline>
+<codeline lineno="667"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_FIXED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="668"><highlight class="normal"></highlight></codeline>
+<codeline lineno="673"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_ABSTRACT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="674"><highlight class="normal"></highlight></codeline>
+<codeline lineno="680"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_TOPLEVEL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="681"><highlight class="normal"></highlight></codeline>
+<codeline lineno="686"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_REF<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="687"><highlight class="normal"></highlight></codeline>
+<codeline lineno="693"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_NSDEFAULT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="694"><highlight class="normal"></highlight></codeline>
+<codeline lineno="700"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_INTERNAL_RESOLVED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="701"><highlight class="normal"></highlight></codeline>
+<codeline lineno="706"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_CIRCULAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="707"><highlight class="normal"></highlight></codeline>
+<codeline lineno="712"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_BLOCK_ABSENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>10</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="713"><highlight class="normal"></highlight></codeline>
+<codeline lineno="718"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_BLOCK_EXTENSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="719"><highlight class="normal"></highlight></codeline>
+<codeline lineno="724"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_BLOCK_RESTRICTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>12</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="725"><highlight class="normal"></highlight></codeline>
+<codeline lineno="730"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_BLOCK_SUBSTITUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="731"><highlight class="normal"></highlight></codeline>
+<codeline lineno="736"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_FINAL_ABSENT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>14</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="737"><highlight class="normal"></highlight></codeline>
+<codeline lineno="742"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_FINAL_EXTENSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="743"><highlight class="normal"></highlight></codeline>
+<codeline lineno="748"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_FINAL_RESTRICTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="749"><highlight class="normal"></highlight></codeline>
+<codeline lineno="754"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_SUBST_GROUP_HEAD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>17</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="755"><highlight class="normal"></highlight></codeline>
+<codeline lineno="761"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_ELEM_INTERNAL_CHECKED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>18</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="762"><highlight class="normal"></highlight></codeline>
+<codeline lineno="763"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaElement<sp/>xmlSchemaElement;</highlight></codeline>
+<codeline lineno="764"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaElement<sp/>*xmlSchemaElementPtr;</highlight></codeline>
+<codeline lineno="765"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaElement<sp/>{</highlight></codeline>
+<codeline lineno="766"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="767"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaType<sp/>*next;<sp/></highlight><highlight class="comment">/*<sp/>Not<sp/>used?<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="768"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;</highlight></codeline>
+<codeline lineno="769"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="770"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*ref;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="771"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refNs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="772"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="773"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypePtr<sp/>subtypes;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>type<sp/>definition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="774"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAttributePtr<sp/>attributes;</highlight></codeline>
+<codeline lineno="775"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="776"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>minOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="777"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxOccurs;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="778"><highlight class="normal"></highlight></codeline>
+<codeline lineno="779"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="780"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;</highlight></codeline>
+<codeline lineno="781"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*namedType;</highlight></codeline>
+<codeline lineno="782"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*namedTypeNs;</highlight></codeline>
+<codeline lineno="783"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*substGroup;</highlight></codeline>
+<codeline lineno="784"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*substGroupNs;</highlight></codeline>
+<codeline lineno="785"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*scope;</highlight></codeline>
+<codeline lineno="786"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>original<sp/>value<sp/>of<sp/>the<sp/>value<sp/>constraint.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="787"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaElement<sp/>*refDecl;<sp/></highlight><highlight class="comment">/*<sp/>This<sp/>will<sp/>now<sp/>be<sp/>used<sp/>for<sp/>the</highlight></codeline>
+<codeline lineno="788"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>substitution<sp/>group<sp/>affiliation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="789"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegexpPtr<sp/>contModel;<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>for<sp/>WXS,<sp/>maybe<sp/>used<sp/>for<sp/>RelaxNG<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="790"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaContentType<sp/>contentType;</highlight></codeline>
+<codeline lineno="791"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*refPrefix;<sp/></highlight><highlight class="comment">/*<sp/>Deprecated;<sp/>not<sp/>used<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="792"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaValPtr<sp/>defVal;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>compiled<sp/>value<sp/>contraint.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="793"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*idcs;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>identity-constraint<sp/>defs<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="794"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="795"><highlight class="normal"></highlight></codeline>
+<codeline lineno="796"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="797"><highlight class="comment"><sp/>*<sp/>XML_SCHEMAS_FACET_UNKNOWN:</highlight></codeline>
+<codeline lineno="798"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="799"><highlight class="comment"><sp/>*<sp/>unknown<sp/>facet<sp/>handling</highlight></codeline>
+<codeline lineno="800"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="801"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FACET_UNKNOWN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="802"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="803"><highlight class="comment"><sp/>*<sp/>XML_SCHEMAS_FACET_PRESERVE:</highlight></codeline>
+<codeline lineno="804"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="805"><highlight class="comment"><sp/>*<sp/>preserve<sp/>the<sp/>type<sp/>of<sp/>the<sp/>facet</highlight></codeline>
+<codeline lineno="806"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="807"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FACET_PRESERVE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="808"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="809"><highlight class="comment"><sp/>*<sp/>XML_SCHEMAS_FACET_REPLACE:</highlight></codeline>
+<codeline lineno="810"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="811"><highlight class="comment"><sp/>*<sp/>replace<sp/>the<sp/>type<sp/>of<sp/>the<sp/>facet</highlight></codeline>
+<codeline lineno="812"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="813"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FACET_REPLACE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="814"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="815"><highlight class="comment"><sp/>*<sp/>XML_SCHEMAS_FACET_COLLAPSE:</highlight></codeline>
+<codeline lineno="816"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="817"><highlight class="comment"><sp/>*<sp/>collapse<sp/>the<sp/>types<sp/>of<sp/>the<sp/>facet</highlight></codeline>
+<codeline lineno="818"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="819"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FACET_COLLAPSE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="820"><highlight class="normal"></highlight></codeline>
+<codeline lineno="823"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacet<sp/>{</highlight></codeline>
+<codeline lineno="824"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="825"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaFacet<sp/>*next;</highlight><highlight class="comment">/*<sp/>the<sp/>next<sp/>type<sp/>if<sp/>in<sp/>a<sp/>sequence<sp/>...<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="826"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*value;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>original<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="827"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="828"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="829"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_node" kindref="compound">xmlNodePtr</ref><sp/><ref refid="struct__node" kindref="compound">node</ref>;</highlight></codeline>
+<codeline lineno="830"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fixed;<sp/></highlight><highlight class="comment">/*<sp/>XML_SCHEMAS_FACET_PRESERVE,<sp/>etc.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="831"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>whitespace;</highlight></codeline>
+<codeline lineno="832"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaValPtr<sp/>val;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>compiled<sp/>value<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="833"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlRegexpPtr<sp/><sp/><sp/><sp/>regexp;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>regex<sp/>for<sp/>patterns<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="834"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="835"><highlight class="normal"></highlight></codeline>
+<codeline lineno="839"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaNotation<sp/>xmlSchemaNotation;</highlight></codeline>
+<codeline lineno="840"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>xmlSchemaNotation<sp/>*xmlSchemaNotationPtr;</highlight></codeline>
+<codeline lineno="841"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchemaNotation<sp/>{</highlight></codeline>
+<codeline lineno="842"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaTypeType<sp/>type;<sp/></highlight><highlight class="comment">/*<sp/>The<sp/>kind<sp/>of<sp/>type<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="843"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;</highlight></codeline>
+<codeline lineno="844"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="845"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*<ref refid="struct__object" kindref="compound">identifier</ref>;</highlight></codeline>
+<codeline lineno="846"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;</highlight></codeline>
+<codeline lineno="847"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="848"><highlight class="normal"></highlight></codeline>
+<codeline lineno="849"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="850"><highlight class="comment">*<sp/>TODO:<sp/>Actually<sp/>all<sp/>those<sp/>flags<sp/>used<sp/>for<sp/>the<sp/>schema<sp/>should<sp/>sit</highlight></codeline>
+<codeline lineno="851"><highlight class="comment">*<sp/>on<sp/>the<sp/>schema<sp/>parser<sp/>context,<sp/>since<sp/>they<sp/>are<sp/>used<sp/>only</highlight></codeline>
+<codeline lineno="852"><highlight class="comment">*<sp/>during<sp/>parsing<sp/>an<sp/>XML<sp/>schema<sp/>document,<sp/>and<sp/>not<sp/>available</highlight></codeline>
+<codeline lineno="853"><highlight class="comment">*<sp/>on<sp/>the<sp/>component<sp/>level<sp/>as<sp/>per<sp/>spec.</highlight></codeline>
+<codeline lineno="854"><highlight class="comment">*/</highlight></codeline>
+<codeline lineno="861"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_QUALIF_ELEM<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="862"><highlight class="normal"></highlight></codeline>
+<codeline lineno="868"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_QUALIF_ATTR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="869"><highlight class="normal"></highlight></codeline>
+<codeline lineno="874"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FINAL_DEFAULT_EXTENSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="875"><highlight class="normal"></highlight></codeline>
+<codeline lineno="880"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FINAL_DEFAULT_RESTRICTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>3</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="881"><highlight class="normal"></highlight></codeline>
+<codeline lineno="886"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FINAL_DEFAULT_LIST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="887"><highlight class="normal"></highlight></codeline>
+<codeline lineno="892"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_FINAL_DEFAULT_UNION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>5</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="893"><highlight class="normal"></highlight></codeline>
+<codeline lineno="898"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_BLOCK_DEFAULT_EXTENSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>6</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="899"><highlight class="normal"></highlight></codeline>
+<codeline lineno="904"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_BLOCK_DEFAULT_RESTRICTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>7</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="905"><highlight class="normal"></highlight></codeline>
+<codeline lineno="910"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_BLOCK_DEFAULT_SUBSTITUTION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="911"><highlight class="normal"></highlight></codeline>
+<codeline lineno="917"><highlight class="preprocessor">#define<sp/>XML_SCHEMAS_INCLUDING_CONVERT_NS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/>&lt;&lt;<sp/>9</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="918"><highlight class="normal"></highlight></codeline>
+<codeline lineno="923"><highlight class="keyword">struct<sp/></highlight><highlight class="normal">_xmlSchema<sp/>{</highlight></codeline>
+<codeline lineno="924"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*name;<sp/></highlight><highlight class="comment">/*<sp/>schema<sp/>name<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="925"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*targetNamespace;<sp/></highlight><highlight class="comment">/*<sp/>the<sp/>target<sp/>namespace<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="926"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*version;</highlight></codeline>
+<codeline lineno="927"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>xmlChar<sp/>*id;<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="928"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__xml_doc" kindref="compound">xmlDocPtr</ref><sp/>doc;</highlight></codeline>
+<codeline lineno="929"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlSchemaAnnotPtr<sp/>annot;</highlight></codeline>
+<codeline lineno="930"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;</highlight></codeline>
+<codeline lineno="931"><highlight class="normal"></highlight></codeline>
+<codeline lineno="932"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>typeDecl;</highlight></codeline>
+<codeline lineno="933"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>attrDecl;</highlight></codeline>
+<codeline lineno="934"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>attrgrpDecl;</highlight></codeline>
+<codeline lineno="935"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>elemDecl;</highlight></codeline>
+<codeline lineno="936"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>notaDecl;</highlight></codeline>
+<codeline lineno="937"><highlight class="normal"></highlight></codeline>
+<codeline lineno="938"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>schemasImports;</highlight></codeline>
+<codeline lineno="939"><highlight class="normal"></highlight></codeline>
+<codeline lineno="940"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*_private;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>unused<sp/>by<sp/>the<sp/>library<sp/>for<sp/>users<sp/>or<sp/>bindings<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="941"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>groupDecl;</highlight></codeline>
+<codeline lineno="942"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlDictPtr<sp/><sp/><sp/><sp/><sp/><sp/>dict;</highlight></codeline>
+<codeline lineno="943"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*includes;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>the<sp/>includes,<sp/>this<sp/>is<sp/>opaque<sp/>for<sp/>now<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="944"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>preserve;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>whether<sp/>to<sp/>free<sp/>the<sp/>document<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="945"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>counter;<sp/></highlight><highlight class="comment">/*<sp/>used<sp/>to<sp/>give<sp/>ononymous<sp/>components<sp/>unique<sp/>names<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="946"><highlight class="normal"><sp/><sp/><sp/><sp/>xmlHashTablePtr<sp/>idcDef;<sp/></highlight><highlight class="comment">/*<sp/>All<sp/>identity-constraint<sp/>defs.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="947"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*volatiles;<sp/></highlight><highlight class="comment">/*<sp/>Obsolete<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="948"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="949"><highlight class="normal"></highlight></codeline>
+<codeline lineno="950"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlSchemaFreeType<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(xmlSchemaTypePtr<sp/>type);</highlight></codeline>
+<codeline lineno="951"><highlight class="normal">XMLPUBFUN<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>XMLCALL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xmlSchemaFreeWildcard(xmlSchemaWildcardPtr<sp/>wildcard);</highlight></codeline>
+<codeline lineno="952"><highlight class="normal"></highlight></codeline>
+<codeline lineno="953"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="954"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="955"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="956"><highlight class="normal"></highlight></codeline>
+<codeline lineno="957"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>LIBXML_SCHEMAS_ENABLED<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="958"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__XML_SCHEMA_INTERNALS_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxml/schemasInternals.h"/>
+  </compounddef>
+</doxygen>

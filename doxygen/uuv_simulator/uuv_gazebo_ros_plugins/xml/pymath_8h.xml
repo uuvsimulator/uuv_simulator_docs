@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="pymath_8h" kind="file" language="C++">
+    <compoundname>pymath.h</compoundname>
+    <includes refid="pyconfig_8h" local="yes">pyconfig.h</includes>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <incdepgraph>
+      <node id="3526">
+        <label>/usr/include/python3.6m/pymath.h</label>
+        <link refid="pymath_8h"/>
+        <childnode refid="3527" relation="include">
+        </childnode>
+      </node>
+      <node id="3527">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3531">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3532">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3528">
+        <label>/usr/include/python3.6m/pymath.h</label>
+        <link refid="pymath_8h"/>
+        <childnode refid="3529" relation="include">
+        </childnode>
+      </node>
+      <node id="3534">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3529">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3530" relation="include">
+        </childnode>
+        <childnode refid="3532" relation="include">
+        </childnode>
+        <childnode refid="3533" relation="include">
+        </childnode>
+        <childnode refid="3534" relation="include">
+        </childnode>
+        <childnode refid="3535" relation="include">
+        </childnode>
+      </node>
+      <node id="3535">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3530">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3531" relation="include">
+        </childnode>
+      </node>
+      <node id="3533">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="pymath_8h_1a13797e3e4cece9b15a532cf1d0833355" prot="public" static="no">
+        <name>Py_MATH_PIl</name>
+        <initializer>3.1415926535897932384626433832795029L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="44" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a8884c43b97ef76f87110ef1042a5ffe0" prot="public" static="no">
+        <name>Py_MATH_PI</name>
+        <initializer>3.14159265358979323846</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="47" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a43bca30fd243eb8494b248e8381f2325" prot="public" static="no">
+        <name>Py_MATH_El</name>
+        <initializer>2.7182818284590452353602874713526625L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="51" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a81ecebc6cc319b5a7c262528cf69cd1a" prot="public" static="no">
+        <name>Py_MATH_E</name>
+        <initializer>2.7182818284590452354</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="55" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1ad94371c252af0f6c48ea00168bcf60d1" prot="public" static="no">
+        <name>Py_MATH_TAU</name>
+        <initializer>6.2831853071795864769252867665590057683943L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="60" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a6925a4f383f6654b4bca7b10f5fffe69" prot="public" static="no">
+        <name>Py_FORCE_DOUBLE</name>
+        <param><defname>X</defname></param>
+        <initializer>(X)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="76" column="16" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a222f85bec2ad1401b0c0765f5c72bd1f" prot="public" static="no">
+        <name>Py_IS_NAN</name>
+        <param><defname>X</defname></param>
+        <initializer>((X) != (X))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="101" column="10" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a7d8a119b35934bc03c17006d193bf8fe" prot="public" static="no">
+        <name>Py_IS_INFINITY</name>
+        <param><defname>X</defname></param>
+        <initializer>((X) &amp;&amp;                                   \
+                               (Py_FORCE_DOUBLE(X)*0.5 == Py_FORCE_DOUBLE(X)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="121" column="16" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a5222cc727bf3d535df859cac6cf65085" prot="public" static="no">
+        <name>Py_IS_FINITE</name>
+        <param><defname>X</defname></param>
+        <initializer>(!Py_IS_INFINITY(X) &amp;&amp; !Py_IS_NAN(X))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="138" column="10" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1aa705c4f692b1d1fabeae839dba44a825" prot="public" static="no">
+        <name>Py_HUGE_VAL</name>
+        <initializer>HUGE_VAL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="150" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1ac55ae4d61f64154e7cc16775ba77d92f" prot="public" static="no">
+        <name>Py_NAN</name>
+        <initializer>(Py_HUGE_VAL * 0.)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="160" column="13" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1aa85544476adf2f60aa3654e3c41ced9c" prot="public" static="no">
+        <name>Py_OVERFLOWED</name>
+        <param><defname>X</defname></param>
+        <initializer>((X) != 0.0 &amp;&amp; (errno == ERANGE ||    \
+                                         (X) == Py_HUGE_VAL || \
+                                         (X) == -Py_HUGE_VAL))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="213" column="10" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1adb4eb3243e9fed531d3368add8a41ad5" prot="public" static="no">
+        <name>_Py_IntegralTypeSigned</name>
+        <param><defname>type</defname></param>
+        <initializer>((type)(-1) &lt; 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="219" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1ac2ffe9ad10c53c96a3c8c3694d0b5c65" prot="public" static="no">
+        <name>_Py_IntegralTypeMax</name>
+        <param><defname>type</defname></param>
+        <initializer>((_Py_IntegralTypeSigned(type)) ? (((((type)1 &lt;&lt; (sizeof(type)*CHAR_BIT - 2)) - 1) &lt;&lt; 1) + 1) : ~(type)0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="221" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a73b75fc4bcd6f12b5723faa635b857af" prot="public" static="no">
+        <name>_Py_IntegralTypeMin</name>
+        <param><defname>type</defname></param>
+        <initializer>((_Py_IntegralTypeSigned(type)) ? -_Py_IntegralTypeMax(type) - 1 : 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="223" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="pymath_8h_1a736209fe552ae6d9c883f26ed0867c17" prot="public" static="no">
+        <name>_Py_InIntegralTypeRange</name>
+        <param><defname>type</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>(_Py_IntegralTypeMin(type) &lt;= v &amp;&amp; v &lt;= _Py_IntegralTypeMax(type))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="228" column="9" bodyfile="/usr/include/python3.6m/pymath.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="pymath_8h_1a8f6b8a9fe1eae8efb583fac459fbfdfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double copysign</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>copysign</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a002ab605b795c95e31c67b037f8c0e30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double round</definition>
+        <argsstring>(double)</argsstring>
+        <name>round</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a0cdb0b447bb2bd586b5a58bc9b61e285" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double hypot</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>hypot</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a7fe5ecb24c61dbd46d8d4cc5f2837082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double fmod</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>fmod</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a3e2b550e22e6a002262c5a8a339498f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double frexp</definition>
+        <argsstring>(double, int *)</argsstring>
+        <name>frexp</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="33" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1aa7cfa95fdd9ef9ede984916be54ed34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double ldexp</definition>
+        <argsstring>(double, int)</argsstring>
+        <name>ldexp</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="34" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a660dd661ca1336737739215f835447f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double modf</definition>
+        <argsstring>(double, double *)</argsstring>
+        <name>modf</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="pymath_8h_1a96ae9abed439401fd6dd28a1e2c2f94e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double pow</definition>
+        <argsstring>(double, double)</argsstring>
+        <name>pow</name>
+        <param>
+          <type>double</type>
+        </param>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pymath.h" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_PYMATH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_PYMATH_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pyconfig.h&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*<sp/>include<sp/>for<sp/>defines<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">/**************************************************************************</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">Symbols<sp/>and<sp/>macros<sp/>to<sp/>supply<sp/>platform-independent<sp/>interfaces<sp/>to<sp/>mathematical</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">functions<sp/>and<sp/>constants</highlight></codeline>
+<codeline lineno="9"><highlight class="comment">**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Python<sp/>provides<sp/>implementations<sp/>for<sp/>copysign,<sp/>round<sp/>and<sp/>hypot<sp/>in</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>Python/pymath.c<sp/>just<sp/>in<sp/>case<sp/>your<sp/>math<sp/>library<sp/>doesn&apos;t<sp/>provide<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/>functions.</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*Note:<sp/>PC/pyconfig.h<sp/>defines<sp/>copysign<sp/>as<sp/>_copysign</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_COPYSIGN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>copysign(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_ROUND</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>round(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_HYPOT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hypot(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>extra<sp/>declarations<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__STDC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fmod<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>frexp<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ldexp<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>modf<sp/>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>pow(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__STDC__<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_MSC_VER<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>High<sp/>precision<sp/>definition<sp/>of<sp/>pi<sp/>and<sp/>e<sp/>(Euler)</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>*<sp/>The<sp/>values<sp/>are<sp/>taken<sp/>from<sp/>libc6&apos;s<sp/>math.h.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MATH_PIl</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MATH_PIl<sp/>3.1415926535897932384626433832795029L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MATH_PI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MATH_PI<sp/>3.14159265358979323846</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MATH_El</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MATH_El<sp/>2.7182818284590452353602874713526625L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MATH_E</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MATH_E<sp/>2.7182818284590452354</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Tau<sp/>(2pi)<sp/>to<sp/>40<sp/>digits,<sp/>taken<sp/>from<sp/>tauday.com/tau-digits.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MATH_TAU</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MATH_TAU<sp/>6.2831853071795864769252867665590057683943L</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>On<sp/>x86,<sp/>Py_FORCE_DOUBLE<sp/>forces<sp/>a<sp/>floating-point<sp/>number<sp/>out<sp/>of<sp/>an<sp/>x87<sp/>FPU</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/><sp/><sp/>register<sp/>and<sp/>into<sp/>a<sp/>64-bit<sp/>memory<sp/>location,<sp/>rounding<sp/>from<sp/>extended</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/>precision<sp/>to<sp/>double<sp/>precision<sp/>in<sp/>the<sp/>process.<sp/><sp/>On<sp/>other<sp/>platforms<sp/>it<sp/>does</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/>nothing.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>we<sp/>take<sp/>double<sp/>rounding<sp/>as<sp/>evidence<sp/>of<sp/>x87<sp/>usage<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_FORCE_DOUBLE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>ifdef<sp/>X87_DOUBLE_ROUNDING</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_force_double(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_FORCE_DOUBLE(X)<sp/>(_Py_force_double(X))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_FORCE_DOUBLE(X)<sp/>(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>HAVE_GCC_ASM_FOR_X87</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">)<sp/>_Py_get_387controlword(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_set_387controlword(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_IS_NAN(X)</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/>Return<sp/>1<sp/>if<sp/>float<sp/>or<sp/>double<sp/>arg<sp/>is<sp/>a<sp/>NaN,<sp/>else<sp/>0.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/>Caution:</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>X<sp/>is<sp/>evaluated<sp/>more<sp/>than<sp/>once.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>This<sp/>may<sp/>not<sp/>work<sp/>on<sp/>all<sp/>platforms.<sp/><sp/>Each<sp/>platform<sp/>has<sp/>*some*</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>way<sp/>to<sp/>spell<sp/>this,<sp/>though<sp/>--<sp/>override<sp/>in<sp/>pyconfig.h<sp/>if<sp/>you<sp/>have</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/>a<sp/>platform<sp/>where<sp/>it<sp/>doesn&apos;t<sp/>work.</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/>*<sp/>Note:<sp/>PC/pyconfig.h<sp/>defines<sp/>Py_IS_NAN<sp/>as<sp/>_isnan</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_IS_NAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>HAVE_DECL_ISNAN<sp/>&amp;&amp;<sp/>HAVE_DECL_ISNAN<sp/>==<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_IS_NAN(X)<sp/>isnan(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_IS_NAN(X)<sp/>((X)<sp/>!=<sp/>(X))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_IS_INFINITY(X)</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>Return<sp/>1<sp/>if<sp/>float<sp/>or<sp/>double<sp/>arg<sp/>is<sp/>an<sp/>infinity,<sp/>else<sp/>0.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*<sp/>Caution:</highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>X<sp/>is<sp/>evaluated<sp/>more<sp/>than<sp/>once.</highlight></codeline>
+<codeline lineno="109"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>This<sp/>implementation<sp/>may<sp/>set<sp/>the<sp/>underflow<sp/>flag<sp/>if<sp/>|X|<sp/>is<sp/>very<sp/>small;</highlight></codeline>
+<codeline lineno="110"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>it<sp/>really<sp/>can&apos;t<sp/>be<sp/>implemented<sp/>correctly<sp/>(&amp;<sp/>easily)<sp/>before<sp/>C99.</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>Override<sp/>in<sp/>pyconfig.h<sp/>if<sp/>you<sp/>have<sp/>a<sp/>better<sp/>spelling<sp/>on<sp/>your<sp/>platform.</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/>*<sp/><sp/>Py_FORCE_DOUBLE<sp/>is<sp/>used<sp/>to<sp/>avoid<sp/>getting<sp/>false<sp/>negatives<sp/>from<sp/>a</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>non-infinite<sp/>value<sp/>v<sp/>sitting<sp/>in<sp/>an<sp/>80-bit<sp/>x87<sp/>register<sp/>such<sp/>that</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>v<sp/>becomes<sp/>infinite<sp/>when<sp/>spilled<sp/>from<sp/>the<sp/>register<sp/>to<sp/>64-bit<sp/>memory.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*<sp/>Note:<sp/>PC/pyconfig.h<sp/>defines<sp/>Py_IS_INFINITY<sp/>as<sp/>_isinf</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_IS_INFINITY</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>if<sp/>defined<sp/>HAVE_DECL_ISINF<sp/>&amp;&amp;<sp/>HAVE_DECL_ISINF<sp/>==<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_IS_INFINITY(X)<sp/>isinf(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/><sp/>define<sp/>Py_IS_INFINITY(X)<sp/>((X)<sp/>&amp;&amp;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="122"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(Py_FORCE_DOUBLE(X)*0.5<sp/>==<sp/>Py_FORCE_DOUBLE(X)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_IS_FINITE(X)</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*<sp/>Return<sp/>1<sp/>if<sp/>float<sp/>or<sp/>double<sp/>arg<sp/>is<sp/>neither<sp/>infinite<sp/>nor<sp/>NAN,<sp/>else<sp/>0.</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/>*<sp/>Some<sp/>compilers<sp/>(e.g.<sp/>VisualStudio)<sp/>have<sp/>intrisics<sp/>for<sp/>this,<sp/>so<sp/>a<sp/>special</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/>*<sp/>macro<sp/>for<sp/>this<sp/>particular<sp/>test<sp/>is<sp/>useful</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/>*<sp/>Note:<sp/>PC/pyconfig.h<sp/>defines<sp/>Py_IS_FINITE<sp/>as<sp/>_finite</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_IS_FINITE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined<sp/>HAVE_DECL_ISFINITE<sp/>&amp;&amp;<sp/>HAVE_DECL_ISFINITE<sp/>==<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_IS_FINITE(X)<sp/>isfinite(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined<sp/>HAVE_FINITE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_IS_FINITE(X)<sp/>finite(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_IS_FINITE(X)<sp/>(!Py_IS_INFINITY(X)<sp/>&amp;&amp;<sp/>!Py_IS_NAN(X))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>HUGE_VAL<sp/>is<sp/>supposed<sp/>to<sp/>expand<sp/>to<sp/>a<sp/>positive<sp/>double<sp/>infinity.<sp/><sp/>Python</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/>*<sp/>uses<sp/>Py_HUGE_VAL<sp/>instead<sp/>because<sp/>some<sp/>platforms<sp/>are<sp/>broken<sp/>in<sp/>this</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/>*<sp/>respect.<sp/><sp/>We<sp/>used<sp/>to<sp/>embed<sp/>code<sp/>in<sp/>pyport.h<sp/>to<sp/>try<sp/>to<sp/>worm<sp/>around<sp/>that,</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/>*<sp/>but<sp/>different<sp/>platforms<sp/>are<sp/>broken<sp/>in<sp/>conflicting<sp/>ways.<sp/><sp/>If<sp/>you&apos;re<sp/>on</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/>*<sp/>a<sp/>platform<sp/>where<sp/>HUGE_VAL<sp/>is<sp/>defined<sp/>incorrectly,<sp/>fiddle<sp/>your<sp/>Python</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/>*<sp/>config<sp/>to<sp/>#define<sp/>Py_HUGE_VAL<sp/>to<sp/>something<sp/>that<sp/>works<sp/>on<sp/>your<sp/>platform.</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_HUGE_VAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_HUGE_VAL<sp/>HUGE_VAL</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_NAN</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/>*<sp/>A<sp/>value<sp/>that<sp/>evaluates<sp/>to<sp/>a<sp/>NaN.<sp/>On<sp/>IEEE<sp/>754<sp/>platforms<sp/>INF*0<sp/>or</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/>*<sp/>INF/INF<sp/>works.<sp/>Define<sp/>Py_NO_NAN<sp/>in<sp/>pyconfig.h<sp/>if<sp/>your<sp/>platform</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/>*<sp/>doesn&apos;t<sp/>support<sp/>NaNs.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_NAN)<sp/>&amp;&amp;<sp/>!defined(Py_NO_NAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(__INTEL_COMPILER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>Py_NAN<sp/>(Py_HUGE_VAL<sp/>*<sp/>0.)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>__INTEL_COMPILER<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#if<sp/>defined(ICC_NAN_STRICT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>float_control(push)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>float_control(precise,<sp/>on)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>float_control(except,<sp/><sp/>on)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#if<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__declspec(noinline)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="comment">/*<sp/>Linux<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>__attribute__((noinline))</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_MSC_VER<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>__icc_nan()</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(-1.0);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#pragma<sp/>float_control<sp/>(pop)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>Py_NAN<sp/>__icc_nan()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#else<sp/></highlight><highlight class="comment">/*<sp/>ICC_NAN_RELAXED<sp/>as<sp/>default<sp/>for<sp/>Intel<sp/>Compiler<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>buf[8];<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>__icc_nan;<sp/>}<sp/>__nan_store<sp/>=<sp/>{0,0,0,0,0,0,0xf8,0x7f};</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>Py_NAN<sp/>(__nan_store.__icc_nan)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#endif<sp/></highlight><highlight class="comment">/*<sp/>ICC_NAN_STRICT<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__INTEL_COMPILER<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Py_OVERFLOWED(X)</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/>*<sp/>Return<sp/>1<sp/>iff<sp/>a<sp/>libm<sp/>function<sp/>overflowed.<sp/><sp/>Set<sp/>errno<sp/>to<sp/>0<sp/>before<sp/>calling</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/>*<sp/>a<sp/>libm<sp/>function,<sp/>and<sp/>invoke<sp/>this<sp/>macro<sp/>after,<sp/>passing<sp/>the<sp/>function</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/>*<sp/>result.</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/>*<sp/>Caution:</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>This<sp/>isn&apos;t<sp/>reliable.<sp/><sp/>C99<sp/>no<sp/>longer<sp/>requires<sp/>libm<sp/>to<sp/>set<sp/>errno<sp/>under</highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>any<sp/>exceptional<sp/>condition,<sp/>but<sp/>does<sp/>require<sp/>+-<sp/>HUGE_VAL<sp/>return</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>values<sp/>on<sp/>overflow.<sp/><sp/>A<sp/>754<sp/>box<sp/>*probably*<sp/>maps<sp/>HUGE_VAL<sp/>to<sp/>a</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>infinity,<sp/>and<sp/>we&apos;re<sp/>cool<sp/>if<sp/>that&apos;s<sp/>so,<sp/>unless<sp/>the<sp/>input</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>was<sp/>an<sp/>infinity<sp/>and<sp/>an<sp/>infinity<sp/>is<sp/>the<sp/>expected<sp/>result.<sp/><sp/>A<sp/>C89</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>system<sp/>sets<sp/>errno<sp/>to<sp/>ERANGE,<sp/>so<sp/>we<sp/>check<sp/>for<sp/>that<sp/>too.<sp/><sp/>We&apos;re</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>out<sp/>of<sp/>luck<sp/>if<sp/>a<sp/>C99<sp/>754<sp/>box<sp/>doesn&apos;t<sp/>map<sp/>HUGE_VAL<sp/>to<sp/>+Inf,<sp/>or</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>the<sp/>returned<sp/>result<sp/>is<sp/>a<sp/>NaN,<sp/>or<sp/>if<sp/>a<sp/>C89<sp/>box<sp/>returns<sp/>HUGE_VAL</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>in<sp/>non-overflow<sp/>cases.</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>X<sp/>is<sp/>evaluated<sp/>more<sp/>than<sp/>once.</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/>*<sp/>Some<sp/>platforms<sp/>have<sp/>better<sp/>way<sp/>to<sp/>spell<sp/>this,<sp/>so<sp/>expect<sp/>some<sp/>#ifdef&apos;ery.</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/>*<sp/>OpenBSD<sp/>uses<sp/>&apos;isinf()&apos;<sp/>because<sp/>a<sp/>compiler<sp/>bug<sp/>on<sp/>that<sp/>platform<sp/>causes</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/>*<sp/>the<sp/>longer<sp/>macro<sp/>version<sp/>to<sp/>be<sp/>mis-compiled.<sp/>This<sp/>isn&apos;t<sp/>optimal,<sp/>and</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*<sp/>should<sp/>be<sp/>removed<sp/>once<sp/>a<sp/>newer<sp/>compiler<sp/>is<sp/>available<sp/>on<sp/>that<sp/>platform.</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/>*<sp/>The<sp/>system<sp/>that<sp/>had<sp/>the<sp/>failure<sp/>was<sp/>running<sp/>OpenBSD<sp/>3.2<sp/>on<sp/>Intel,<sp/>with</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/>*<sp/>gcc<sp/>2.95.3.</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/>*<sp/>According<sp/>to<sp/>Tim&apos;s<sp/>checkin,<sp/>the<sp/>FreeBSD<sp/>systems<sp/>use<sp/>isinf()<sp/>to<sp/>work</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/>*<sp/>around<sp/>a<sp/>FPE<sp/>bug<sp/>on<sp/>that<sp/>platform.</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__FreeBSD__)<sp/>||<sp/>defined(__OpenBSD__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_OVERFLOWED(X)<sp/>isinf(X)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_OVERFLOWED(X)<sp/>((X)<sp/>!=<sp/>0.0<sp/>&amp;&amp;<sp/>(errno<sp/>==<sp/>ERANGE<sp/>||<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="214"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(X)<sp/>==<sp/>Py_HUGE_VAL<sp/>||<sp/>\</highlight></codeline>
+<codeline lineno="215"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(X)<sp/>==<sp/>-Py_HUGE_VAL))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>whether<sp/>integral<sp/>type<sp/>*type*<sp/>is<sp/>signed<sp/>or<sp/>not.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_IntegralTypeSigned(type)<sp/>((type)(-1)<sp/>&lt;<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>the<sp/>maximum<sp/>value<sp/>of<sp/>integral<sp/>type<sp/>*type*.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_IntegralTypeMax(type)<sp/>((_Py_IntegralTypeSigned(type))<sp/>?<sp/>(((((type)1<sp/>&lt;&lt;<sp/>(sizeof(type)*CHAR_BIT<sp/>-<sp/>2))<sp/>-<sp/>1)<sp/>&lt;&lt;<sp/>1)<sp/>+<sp/>1)<sp/>:<sp/>~(type)0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>the<sp/>minimum<sp/>value<sp/>of<sp/>integral<sp/>type<sp/>*type*.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_IntegralTypeMin(type)<sp/>((_Py_IntegralTypeSigned(type))<sp/>?<sp/>-_Py_IntegralTypeMax(type)<sp/>-<sp/>1<sp/>:<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Check<sp/>whether<sp/>*v*<sp/>is<sp/>in<sp/>the<sp/>range<sp/>of<sp/>integral<sp/>type<sp/>*type*.<sp/>This<sp/>is<sp/>most</highlight></codeline>
+<codeline lineno="225"><highlight class="comment"><sp/>*<sp/>useful<sp/>if<sp/>*v*<sp/>is<sp/>floating-point,<sp/>since<sp/>demoting<sp/>a<sp/>floating-point<sp/>*v*<sp/>to<sp/>an</highlight></codeline>
+<codeline lineno="226"><highlight class="comment"><sp/>*<sp/>integral<sp/>type<sp/>that<sp/>cannot<sp/>represent<sp/>*v*&apos;s<sp/>integral<sp/>part<sp/>is<sp/>undefined</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/>behavior.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_InIntegralTypeRange(type,<sp/>v)<sp/>(_Py_IntegralTypeMin(type)<sp/>&lt;=<sp/>v<sp/>&amp;&amp;<sp/>v<sp/>&lt;=<sp/>_Py_IntegralTypeMax(type))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_PYMATH_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/pymath.h"/>
+  </compounddef>
+</doxygen>

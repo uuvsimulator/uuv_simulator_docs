@@ -1,0 +1,1154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="objimpl_8h" kind="file" language="C++">
+    <compoundname>objimpl.h</compoundname>
+    <includes refid="pymem_8h" local="yes">pymem.h</includes>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <incdepgraph>
+      <node id="3275">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3271">
+        <label>pymem.h</label>
+        <link refid="pymem_8h_source"/>
+        <childnode refid="3272" relation="include">
+        </childnode>
+      </node>
+      <node id="3270">
+        <label>/usr/include/python3.6m/objimpl.h</label>
+        <link refid="objimpl_8h"/>
+        <childnode refid="3271" relation="include">
+        </childnode>
+      </node>
+      <node id="3273">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="3277">
+        <label>time.h</label>
+      </node>
+      <node id="3276">
+        <label>math.h</label>
+      </node>
+      <node id="3272">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="3273" relation="include">
+        </childnode>
+        <childnode refid="3274" relation="include">
+        </childnode>
+        <childnode refid="3275" relation="include">
+        </childnode>
+        <childnode refid="3276" relation="include">
+        </childnode>
+        <childnode refid="3277" relation="include">
+        </childnode>
+      </node>
+      <node id="3274">
+        <label>inttypes.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3281">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3282">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3284">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3278">
+        <label>/usr/include/python3.6m/objimpl.h</label>
+        <link refid="objimpl_8h"/>
+        <childnode refid="3279" relation="include">
+        </childnode>
+      </node>
+      <node id="3279">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3280" relation="include">
+        </childnode>
+        <childnode refid="3282" relation="include">
+        </childnode>
+        <childnode refid="3283" relation="include">
+        </childnode>
+        <childnode refid="3284" relation="include">
+        </childnode>
+        <childnode refid="3285" relation="include">
+        </childnode>
+      </node>
+      <node id="3285">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3280">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3281" relation="include">
+        </childnode>
+      </node>
+      <node id="3283">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_object_arena_allocator" prot="public">PyObjectArenaAllocator</innerclass>
+    <innerclass refid="union__gc__head" prot="public">_gc_head</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="objimpl_8h_1accb021140245ca1ff56e76247dd4fb6e" prot="public" static="no">
+        <name>PyObject_MALLOC</name>
+        <initializer>PyObject_Malloc</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="117" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a5a659c84c35d38c127690750a4fe5280" prot="public" static="no">
+        <name>PyObject_REALLOC</name>
+        <initializer>PyObject_Realloc</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="118" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a4e2e81bb9430978b81899cb143d3cfeb" prot="public" static="no">
+        <name>PyObject_FREE</name>
+        <initializer>PyObject_Free</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="119" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a448f62cfb51cec5e018778f9ac3f33cb" prot="public" static="no">
+        <name>PyObject_Del</name>
+        <initializer>PyObject_Free</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="120" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a3e72f1bb4b2af8f115a750f832d421b4" prot="public" static="no">
+        <name>PyObject_DEL</name>
+        <initializer>PyObject_Free</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="121" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a7580821f9a98637454fd94a7457f75ad" prot="public" static="no">
+        <name>PyObject_New</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <initializer>( (type *) _PyObject_New(typeobj) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="136" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1ab83f99632dbd06e1656c99218b7e0a8e" prot="public" static="no">
+        <name>PyObject_NewVar</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (type *) _PyObject_NewVar((typeobj), (n)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="138" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a6ec80bfda31b96941ea909bf2396949d" prot="public" static="no">
+        <name>PyObject_INIT</name>
+        <param><defname>op</defname></param>
+        <param><defname>typeobj</defname></param>
+        <initializer>( Py_TYPE(op) = (typeobj), _Py_NewReference((<ref refid="struct__object" kindref="compound">PyObject</ref> *)(op)), (op) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="143" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a688a2b62b9bdb6e12cdc3c9c19b907f9" prot="public" static="no">
+        <name>PyObject_INIT_VAR</name>
+        <param><defname>op</defname></param>
+        <param><defname>typeobj</defname></param>
+        <param><defname>size</defname></param>
+        <initializer>( Py_SIZE(op) = (size), PyObject_INIT((op), (typeobj)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="145" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a58c00a044cde6152fb736cfe86e48e63" prot="public" static="no">
+        <name>_PyObject_SIZE</name>
+        <param><defname>typeobj</defname></param>
+        <initializer>( (typeobj)-&gt;tp_basicsize )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="148" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a9a3d8a08f7a534d99f8b8e6e9d09d836" prot="public" static="no">
+        <name>_PyObject_VAR_SIZE</name>
+        <param><defname>typeobj</defname></param>
+        <param><defname>nitems</defname></param>
+        <initializer>_Py_SIZE_ROUND_UP((typeobj)-&gt;tp_basicsize + \
+        (nitems)*(typeobj)-&gt;tp_itemsize,        \
+        SIZEOF_VOID_P)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="164" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a81bbf406bf80c170965dfa4d35b8a6d1" prot="public" static="no">
+        <name>PyObject_NEW</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <initializer>( (type *) PyObject_Init( \
+    (<ref refid="struct__object" kindref="compound">PyObject</ref> *) PyObject_MALLOC( _PyObject_SIZE(typeobj) ), (typeobj)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="169" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a7ce6df4c6b518cc859bc976067c13572" prot="public" static="no">
+        <name>PyObject_NEW_VAR</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (type *) PyObject_InitVar( \
+      (<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref> *) PyObject_MALLOC(_PyObject_VAR_SIZE((typeobj),(n)) ),\
+      (typeobj), (n)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="173" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a92cbb87997f9ec4b0cd664dd6df03158" prot="public" static="no">
+        <name>PyType_IS_GC</name>
+        <param><defname>t</defname></param>
+        <initializer>PyType_HasFeature((t), Py_TPFLAGS_HAVE_GC)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="240" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a53c6d8213f880b3a05155307f0cee903" prot="public" static="no">
+        <name>PyObject_IS_GC</name>
+        <param><defname>o</defname></param>
+        <initializer>(PyType_IS_GC(Py_TYPE(o)) &amp;&amp; \
+    (Py_TYPE(o)-&gt;tp_is_gc == NULL || Py_TYPE(o)-&gt;tp_is_gc(o)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="243" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a8583470bf861a01ac0758242f05d3389" prot="public" static="no">
+        <name>PyObject_GC_Resize</name>
+        <param><defname>type</defname></param>
+        <param><defname>op</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (type *) _PyObject_GC_Resize((<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref> *)(op), (n)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="247" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1afa1507d2818005b8576cefb92f87b46c" prot="public" static="no">
+        <name>_Py_AS_GC</name>
+        <param><defname>o</defname></param>
+        <initializer>((<ref refid="union__gc__head" kindref="compound">PyGC_Head</ref> *)(o)-1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="263" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a86259833ce176f4b1876764425a9cac7" prot="public" static="no">
+        <name>_PyGC_REFS_MASK_FINALIZED</name>
+        <initializer>(1 &lt;&lt; 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="266" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1ad86aa86c9899d482b169a6afdac4da3e" prot="public" static="no">
+        <name>_PyGC_REFS_SHIFT</name>
+        <initializer>(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="268" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1aa22def90abaeb8320d7da20b6cd27e62" prot="public" static="no">
+        <name>_PyGC_REFS_MASK</name>
+        <initializer>(((size_t) -1) &lt;&lt; _PyGC_REFS_SHIFT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="269" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a5eeffd3544c5f8e81f7e2577d8093445" prot="public" static="no">
+        <name>_PyGCHead_REFS</name>
+        <param><defname>g</defname></param>
+        <initializer>((g)-&gt;gc.gc_refs &gt;&gt; _PyGC_REFS_SHIFT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="271" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1af6e287a1f55c91de4b8d34d86d96db4c" prot="public" static="no">
+        <name>_PyGCHead_SET_REFS</name>
+        <param><defname>g</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>do { \
+    (g)-&gt;gc.gc_refs = ((g)-&gt;gc.gc_refs &amp; ~_PyGC_REFS_MASK) \
+        | (((size_t)(v)) &lt;&lt; _PyGC_REFS_SHIFT);             \
+    } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="272" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a3c376be6dc8c1f4baef9e833b5d61985" prot="public" static="no">
+        <name>_PyGCHead_DECREF</name>
+        <param><defname>g</defname></param>
+        <initializer>((g)-&gt;gc.gc_refs -= 1 &lt;&lt; _PyGC_REFS_SHIFT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="276" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a81561804b0936c5b604ddb77ab75fcaa" prot="public" static="no">
+        <name>_PyGCHead_FINALIZED</name>
+        <param><defname>g</defname></param>
+        <initializer>(((g)-&gt;gc.gc_refs &amp; _PyGC_REFS_MASK_FINALIZED) != 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="278" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a4afa0b909cbe43ed00ac23a3204d4d08" prot="public" static="no">
+        <name>_PyGCHead_SET_FINALIZED</name>
+        <param><defname>g</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>do {  \
+    (g)-&gt;gc.gc_refs = ((g)-&gt;gc.gc_refs &amp; ~_PyGC_REFS_MASK_FINALIZED) \
+        | (v != 0); \
+    } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="279" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a44745a29a6a9af9f9ea27b0370db0721" prot="public" static="no">
+        <name>_PyGC_FINALIZED</name>
+        <param><defname>o</defname></param>
+        <initializer>_PyGCHead_FINALIZED(_Py_AS_GC(o))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="284" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a5973c371c14a0c3b168d774d42c7b411" prot="public" static="no">
+        <name>_PyGC_SET_FINALIZED</name>
+        <param><defname>o</defname></param>
+        <param><defname>v</defname></param>
+        <initializer>_PyGCHead_SET_FINALIZED(_Py_AS_GC(o), v)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="285" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a6e39d4a600cd6602c01f75eaa1e5f99c" prot="public" static="no">
+        <name>_PyGC_REFS</name>
+        <param><defname>o</defname></param>
+        <initializer>_PyGCHead_REFS(_Py_AS_GC(o))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="287" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1aca8100e538057d28d9f8a2eef6417af5" prot="public" static="no">
+        <name>_PyGC_REFS_UNTRACKED</name>
+        <initializer>(-2)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="289" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a01ebe9ebba0a53fc151650b5824eb5b2" prot="public" static="no">
+        <name>_PyGC_REFS_REACHABLE</name>
+        <initializer>(-3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="290" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1aa51d38aa2793c15982974da20c14c7ab" prot="public" static="no">
+        <name>_PyGC_REFS_TENTATIVELY_UNREACHABLE</name>
+        <initializer>(-4)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="291" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a81c9a1e002e77245c12973258f6e6672" prot="public" static="no">
+        <name>_PyObject_GC_TRACK</name>
+        <param><defname>o</defname></param>
+        <initializer>do { \
+    <ref refid="union__gc__head" kindref="compound">PyGC_Head</ref> *g = _Py_AS_GC(o); \
+    if (_PyGCHead_REFS(g) != _PyGC_REFS_UNTRACKED) \
+        Py_FatalError(&quot;GC <ref refid="struct__object" kindref="compound">object</ref> already tracked&quot;); \
+    _PyGCHead_SET_REFS(g, _PyGC_REFS_REACHABLE); \
+    g-&gt;gc.gc_next = _PyGC_generation0; \
+    g-&gt;gc.gc_prev = _PyGC_generation0-&gt;gc.gc_prev; \
+    g-&gt;gc.gc_prev-&gt;gc.gc_next = g; \
+    _PyGC_generation0-&gt;gc.gc_prev = g; \
+    } while (0);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="295" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1ae42f38f330f0e7cc23981808d3ac460c" prot="public" static="no">
+        <name>_PyObject_GC_UNTRACK</name>
+        <param><defname>o</defname></param>
+        <initializer>do { \
+    <ref refid="union__gc__head" kindref="compound">PyGC_Head</ref> *g = _Py_AS_GC(o); \
+    assert(_PyGCHead_REFS(g) != _PyGC_REFS_UNTRACKED); \
+    _PyGCHead_SET_REFS(g, _PyGC_REFS_UNTRACKED); \
+    g-&gt;gc.gc_prev-&gt;gc.gc_next = g-&gt;gc.gc_next; \
+    g-&gt;gc.gc_next-&gt;gc.gc_prev = g-&gt;gc.gc_prev; \
+    g-&gt;gc.gc_next = NULL; \
+    } while (0);</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="310" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a60b90a417ad2316a8a73f924ae6b2779" prot="public" static="no">
+        <name>_PyObject_GC_IS_TRACKED</name>
+        <param><defname>o</defname></param>
+        <initializer>(_PyGC_REFS(o) != _PyGC_REFS_UNTRACKED)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="320" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a4e7a8851071b3ce71655c6c9afce10ca" prot="public" static="no">
+        <name>_PyObject_GC_MAY_BE_TRACKED</name>
+        <param><defname>obj</defname></param>
+        <initializer>(PyObject_IS_GC(obj) &amp;&amp; \
+        (!PyTuple_CheckExact(obj) || _PyObject_GC_IS_TRACKED(obj)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="325" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a3f1869ed4fb56449fcb798b5097e7679" prot="public" static="no">
+        <name>PyObject_GC_New</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <initializer>( (type *) _PyObject_GC_New(typeobj) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="340" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1af619d5b869187fc9016a863e0b2ddf7d" prot="public" static="no">
+        <name>PyObject_GC_NewVar</name>
+        <param><defname>type</defname></param>
+        <param><defname>typeobj</defname></param>
+        <param><defname>n</defname></param>
+        <initializer>( (type *) _PyObject_GC_NewVar((typeobj), (n)) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="342" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a8a5af783da2cdbcfdc7c354f635df8be" prot="public" static="no">
+        <name>Py_VISIT</name>
+        <param><defname>op</defname></param>
+        <initializer>do {                                                                \
+        if (op) {                                                       \
+            int vret = visit((<ref refid="struct__object" kindref="compound">PyObject</ref> *)(op), arg);                    \
+            if (vret)                                                   \
+                return vret;                                            \
+        }                                                               \
+    } while (0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="351" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a6f7e8ff7e0af8d23474657f7dcd902e6" prot="public" static="no">
+        <name>PyType_SUPPORTS_WEAKREFS</name>
+        <param><defname>t</defname></param>
+        <initializer>((t)-&gt;tp_weaklistoffset &gt; 0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="362" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="objimpl_8h_1a35bdf851d93a1d28868f68fb233e95ab" prot="public" static="no">
+        <name>PyObject_GET_WEAKREFS_LISTPTR</name>
+        <param><defname>o</defname></param>
+        <initializer>((<ref refid="struct__object" kindref="compound">PyObject</ref> **) (((char *) (o)) + Py_TYPE(o)-&gt;tp_weaklistoffset))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="364" column="9" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="objimpl_8h_1ae6e81b6650cd681336a8533562dd482e" prot="public" static="no">
+        <type>union <ref refid="union__gc__head" kindref="compound">_gc_head</ref></type>
+        <definition>typedef union _gc_head  PyGC_Head</definition>
+        <argsstring></argsstring>
+        <name>PyGC_Head</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="259" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="objimpl_8h_1ae8214a3e983e767cced72e5b5dc29d4f" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t elsize</definition>
+        <argsstring></argsstring>
+        <name>elsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="99" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="objimpl_8h_1a869ff6351d8479366128bb1febc90c9a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t new_size</definition>
+        <argsstring></argsstring>
+        <name>new_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="101" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="objimpl_8h_1a3655899f66ca98255b47208712b31518" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref> <ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        <definition>Py_ssize_t</definition>
+        <argsstring></argsstring>
+        <name>Py_ssize_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="132" column="1" bodyfile="/usr/include/python3.6m/objimpl.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="objimpl_8h_1a9337caec8e66707846138c46435512df" prot="public" static="no" mutable="no">
+        <type><ref refid="union__gc__head" kindref="compound">PyGC_Head</ref> *</type>
+        <definition>PyGC_Head* _PyGC_generation0</definition>
+        <argsstring></argsstring>
+        <name>_PyGC_generation0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="261" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="objimpl_8h_1a8fc72a14a71842d00b219144a119e21e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void *) PyObject_Malloc(size_t size)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="objimpl_8h_1af1d10ca9fd23026009be2e7174e37121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) PyObject_Free(void *ptr)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="objimpl_8h_1a551e6e73d16a48c8d2a1e8f7b9053c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(Py_ssize_t) _Py_GetAllocatedBlocks(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_ssize_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="106" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="objimpl_8h_1aaa3f502d11b0a074f39dbd478a16e603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyObject_Init(PyObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="objimpl_8h_1a57298b103b1c199b32fbc5d034a83310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref> *</type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyVarObject *) PyObject_InitVar(PyVarObject *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/objimpl.h" line="131" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>The<sp/>PyObject_<sp/>memory<sp/>family:<sp/><sp/>high-level<sp/>object<sp/>memory<sp/>interfaces.</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/><sp/><sp/>See<sp/>pymem.h<sp/>for<sp/>the<sp/>low-level<sp/>PyMem_<sp/>family.</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_OBJIMPL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_OBJIMPL_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pymem.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>BEWARE:</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/>Each<sp/>interface<sp/>exports<sp/>both<sp/>functions<sp/>and<sp/>macros.<sp/><sp/>Extension<sp/>modules<sp/>should</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>use<sp/>the<sp/>functions,<sp/>to<sp/>ensure<sp/>binary<sp/>compatibility<sp/>across<sp/>Python<sp/>versions.</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>Because<sp/>the<sp/>Python<sp/>implementation<sp/>is<sp/>free<sp/>to<sp/>change<sp/>internal<sp/>details,<sp/>and</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/>the<sp/>macros<sp/>may<sp/>(or<sp/>may<sp/>not)<sp/>expose<sp/>details<sp/>for<sp/>speed,<sp/>if<sp/>you<sp/>do<sp/>use<sp/>the</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/>macros<sp/>you<sp/>must<sp/>recompile<sp/>your<sp/>extensions<sp/>with<sp/>each<sp/>Python<sp/>release.</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"></highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/>Never<sp/>mix<sp/>calls<sp/>to<sp/>PyObject_<sp/>memory<sp/>functions<sp/>with<sp/>calls<sp/>to<sp/>the<sp/>platform</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/><sp/>malloc/realloc/<sp/>calloc/free,<sp/>or<sp/>with<sp/>calls<sp/>to<sp/>PyMem_.</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">Functions<sp/>and<sp/>macros<sp/>for<sp/>modules<sp/>that<sp/>implement<sp/>new<sp/>object<sp/>types.</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"></highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>-<sp/>PyObject_New(type,<sp/>typeobj)<sp/>allocates<sp/>memory<sp/>for<sp/>a<sp/>new<sp/>object<sp/>of<sp/>the<sp/>given</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/>type,<sp/>and<sp/>initializes<sp/>part<sp/>of<sp/>it.<sp/><sp/>&apos;type&apos;<sp/>must<sp/>be<sp/>the<sp/>C<sp/>structure<sp/>type<sp/>used</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/>to<sp/>represent<sp/>the<sp/>object,<sp/>and<sp/>&apos;typeobj&apos;<sp/>the<sp/>address<sp/>of<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>type<sp/>object.<sp/><sp/>Reference<sp/>count<sp/>and<sp/>type<sp/>pointer<sp/>are<sp/>filled<sp/>in;<sp/>the<sp/>rest<sp/>of</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/>the<sp/>bytes<sp/>of<sp/>the<sp/>object<sp/>are<sp/>*undefined*!<sp/><sp/>The<sp/>resulting<sp/>expression<sp/>type<sp/>is</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/>&apos;type<sp/>*&apos;.<sp/><sp/>The<sp/>size<sp/>of<sp/>the<sp/>object<sp/>is<sp/>determined<sp/>by<sp/>the<sp/>tp_basicsize<sp/>field</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>of<sp/>the<sp/>type<sp/>object.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>-<sp/>PyObject_NewVar(type,<sp/>typeobj,<sp/>n)<sp/>is<sp/>similar<sp/>but<sp/>allocates<sp/>a<sp/>variable-size</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/>object<sp/>with<sp/>room<sp/>for<sp/>n<sp/>items.<sp/><sp/>In<sp/>addition<sp/>to<sp/>the<sp/>refcount<sp/>and<sp/>type<sp/>pointer</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/>fields,<sp/>this<sp/>also<sp/>fills<sp/>in<sp/>the<sp/>ob_size<sp/>field.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"></highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>-<sp/>PyObject_Del(op)<sp/>releases<sp/>the<sp/>memory<sp/>allocated<sp/>for<sp/>an<sp/>object.<sp/><sp/>It<sp/>does<sp/>not</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/>run<sp/>a<sp/>destructor<sp/>--<sp/>it<sp/>only<sp/>frees<sp/>the<sp/>memory.<sp/><sp/>PyObject_Free<sp/>is<sp/>identical.</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"></highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/>-<sp/>PyObject_Init(op,<sp/>typeobj)<sp/>and<sp/>PyObject_InitVar(op,<sp/>typeobj,<sp/>n)<sp/>don&apos;t</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/>allocate<sp/>memory.<sp/><sp/>Instead<sp/>of<sp/>a<sp/>&apos;type&apos;<sp/>parameter,<sp/>they<sp/>take<sp/>a<sp/>pointer<sp/>to<sp/>a</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/>new<sp/>object<sp/>(allocated<sp/>by<sp/>an<sp/>arbitrary<sp/>allocator),<sp/>and<sp/>initialize<sp/>its<sp/>object</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/>header<sp/>fields.</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"></highlight></codeline>
+<codeline lineno="49"><highlight class="comment">Note<sp/>that<sp/>objects<sp/>created<sp/>with<sp/>PyObject_{New,<sp/>NewVar}<sp/>are<sp/>allocated<sp/>using<sp/>the</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">specialized<sp/>Python<sp/>allocator<sp/>(implemented<sp/>in<sp/>obmalloc.c),<sp/>if<sp/>WITH_PYMALLOC<sp/>is</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">enabled.<sp/><sp/>In<sp/>addition,<sp/>a<sp/>special<sp/>debugging<sp/>allocator<sp/>is<sp/>used<sp/>if<sp/>PYMALLOC_DEBUG</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">is<sp/>also<sp/>#defined.</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"></highlight></codeline>
+<codeline lineno="54"><highlight class="comment">In<sp/>case<sp/>a<sp/>specific<sp/>form<sp/>of<sp/>memory<sp/>management<sp/>is<sp/>needed<sp/>(for<sp/>example,<sp/>if<sp/>you</highlight></codeline>
+<codeline lineno="55"><highlight class="comment">must<sp/>use<sp/>the<sp/>platform<sp/>malloc<sp/>heap(s),<sp/>or<sp/>shared<sp/>memory,<sp/>or<sp/>C++<sp/>local<sp/>storage<sp/>or</highlight></codeline>
+<codeline lineno="56"><highlight class="comment">operator<sp/>new),<sp/>you<sp/>must<sp/>first<sp/>allocate<sp/>the<sp/>object<sp/>with<sp/>your<sp/>custom<sp/>allocator,</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">then<sp/>pass<sp/>its<sp/>pointer<sp/>to<sp/>PyObject_{Init,<sp/>InitVar}<sp/>for<sp/>filling<sp/>in<sp/>its<sp/>Python-</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">specific<sp/>fields:<sp/><sp/>reference<sp/>count,<sp/>type<sp/>pointer,<sp/>possibly<sp/>others.<sp/><sp/>You<sp/>should</highlight></codeline>
+<codeline lineno="59"><highlight class="comment">be<sp/>aware<sp/>that<sp/>Python<sp/>has<sp/>no<sp/>control<sp/>over<sp/>these<sp/>objects<sp/>because<sp/>they<sp/>don&apos;t</highlight></codeline>
+<codeline lineno="60"><highlight class="comment">cooperate<sp/>with<sp/>the<sp/>Python<sp/>memory<sp/>manager.<sp/><sp/>Such<sp/>objects<sp/>may<sp/>not<sp/>be<sp/>eligible</highlight></codeline>
+<codeline lineno="61"><highlight class="comment">for<sp/>automatic<sp/>garbage<sp/>collection<sp/>and<sp/>you<sp/>have<sp/>to<sp/>make<sp/>sure<sp/>that<sp/>they<sp/>are</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">released<sp/>accordingly<sp/>whenever<sp/>their<sp/>destructor<sp/>gets<sp/>called<sp/>(cf.<sp/>the<sp/>specific</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">form<sp/>of<sp/>memory<sp/>management<sp/>you&apos;re<sp/>using).</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"></highlight></codeline>
+<codeline lineno="65"><highlight class="comment">Unless<sp/>you<sp/>have<sp/>specific<sp/>memory<sp/>management<sp/>requirements,<sp/>use</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">PyObject_{New,<sp/>NewVar,<sp/>Del}.</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*<sp/>Raw<sp/>object<sp/>memory<sp/>interface</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>===========================</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Functions<sp/>to<sp/>call<sp/>the<sp/>same<sp/>malloc/realloc/free<sp/>as<sp/>used<sp/>by<sp/>Python&apos;s</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/>object<sp/>allocator.<sp/><sp/>If<sp/>WITH_PYMALLOC<sp/>is<sp/>enabled,<sp/>these<sp/>may<sp/>differ<sp/>from</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/>the<sp/>platform<sp/>malloc/realloc/free.<sp/><sp/>The<sp/>Python<sp/>object<sp/>allocator<sp/>is</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/>designed<sp/>for<sp/>fast,<sp/>cache-conscious<sp/>allocation<sp/>of<sp/>many<sp/>&quot;small&quot;<sp/>objects,</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/>and<sp/>with<sp/>low<sp/>hidden<sp/>memory<sp/>overhead.</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"></highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/>PyObject_Malloc(0)<sp/>returns<sp/>a<sp/>unique<sp/>non-NULL<sp/>pointer<sp/>if<sp/>possible.</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"></highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/>PyObject_Realloc(NULL,<sp/>n)<sp/>acts<sp/>like<sp/>PyObject_Malloc(n).</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/><sp/><sp/>PyObject_Realloc(p<sp/>!=<sp/>NULL,<sp/>0)<sp/>does<sp/>not<sp/>return<sp/><sp/>NULL,<sp/>or<sp/>free<sp/>the<sp/>memory</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/><sp/><sp/>at<sp/>p.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"></highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/><sp/><sp/>Returned<sp/>pointers<sp/>must<sp/>be<sp/>checked<sp/>for<sp/>NULL<sp/>explicitly;<sp/>no<sp/>action<sp/>is</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/><sp/><sp/>performed<sp/>on<sp/>failure<sp/>other<sp/>than<sp/>to<sp/>return<sp/>NULL<sp/>(no<sp/>warning<sp/>it<sp/>printed,<sp/>no</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/>exception<sp/>is<sp/>set,<sp/>etc).</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/>For<sp/>allocating<sp/>objects,<sp/>use<sp/>PyObject_{New,<sp/>NewVar}<sp/>instead<sp/>whenever</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/>possible.<sp/><sp/>The<sp/>PyObject_{Malloc,<sp/>Realloc,<sp/>Free}<sp/>family<sp/>is<sp/>exposed</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/>so<sp/>that<sp/>you<sp/>can<sp/>exploit<sp/>Python&apos;s<sp/>small-block<sp/>allocator<sp/>for<sp/>non-object</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/>uses.<sp/><sp/>If<sp/>you<sp/>must<sp/>use<sp/>these<sp/>routines<sp/>to<sp/>allocate<sp/>object<sp/>memory,<sp/>make<sp/>sure</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/>the<sp/>object<sp/>gets<sp/>initialized<sp/>via<sp/>PyObject_{Init,<sp/>InitVar}<sp/>after<sp/>obtaining</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/>the<sp/>raw<sp/>memory.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyObject_Malloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03050000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyObject_Calloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>nelem,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>elsize);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyObject_Realloc(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>new_size);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_Free(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>function<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>allocated<sp/>memory<sp/>blocks,<sp/>regardless<sp/>of<sp/>size<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>_Py_GetAllocatedBlocks(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WITH_PYMALLOC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyObject_DebugMallocStats(FILE<sp/>*out);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>#ifndef<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_MALLOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Malloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_REALLOC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Realloc</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_FREE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Free</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_Del<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Free</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_DEL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Free</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/>*<sp/>Generic<sp/>object<sp/>allocator<sp/>interface</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/>*<sp/>==================================</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyObject_Init(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*)<sp/>PyObject_InitVar(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*,</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyObject_New(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*)<sp/>_PyObject_NewVar(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_New(type,<sp/>typeobj)<sp/>\</highlight></codeline>
+<codeline lineno="137"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>_PyObject_New(typeobj)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_NewVar(type,<sp/>typeobj,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="139"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>_PyObject_NewVar((typeobj),<sp/>(n))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Macros<sp/>trading<sp/>binary<sp/>compatibility<sp/>for<sp/>speed.<sp/>See<sp/>also<sp/>pymem.h.</highlight></codeline>
+<codeline lineno="142"><highlight class="comment"><sp/><sp/><sp/>Note<sp/>that<sp/>these<sp/>macros<sp/>expect<sp/>non-NULL<sp/>object<sp/>pointers.*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_INIT(op,<sp/>typeobj)<sp/>\</highlight></codeline>
+<codeline lineno="144"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>Py_TYPE(op)<sp/>=<sp/>(typeobj),<sp/>_Py_NewReference((PyObject<sp/>*)(op)),<sp/>(op)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_INIT_VAR(op,<sp/>typeobj,<sp/>size)<sp/>\</highlight></codeline>
+<codeline lineno="146"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(<sp/>Py_SIZE(op)<sp/>=<sp/>(size),<sp/>PyObject_INIT((op),<sp/>(typeobj))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_SIZE(typeobj)<sp/>(<sp/>(typeobj)-&gt;tp_basicsize<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyObject_VAR_SIZE<sp/>returns<sp/>the<sp/>number<sp/>of<sp/>bytes<sp/>(as<sp/>size_t)<sp/>allocated<sp/>for<sp/>a</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/>vrbl-size<sp/>object<sp/>with<sp/>nitems<sp/>items,<sp/>exclusive<sp/>of<sp/>gc<sp/>overhead<sp/>(if<sp/>any).<sp/><sp/>The</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/>value<sp/>is<sp/>rounded<sp/>up<sp/>to<sp/>the<sp/>closest<sp/>multiple<sp/>of<sp/>sizeof(void<sp/>*),<sp/>in<sp/>order<sp/>to</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/>ensure<sp/>that<sp/>pointer<sp/>fields<sp/>at<sp/>the<sp/>end<sp/>of<sp/>the<sp/>object<sp/>are<sp/>correctly<sp/>aligned</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/>for<sp/>the<sp/>platform<sp/>(this<sp/>is<sp/>of<sp/>special<sp/>importance<sp/>for<sp/>subclasses<sp/>of,<sp/>e.g.,</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/>str<sp/>or<sp/>int,<sp/>so<sp/>that<sp/>pointers<sp/>can<sp/>be<sp/>stored<sp/>after<sp/>the<sp/>embedded<sp/>data).</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"></highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/>Note<sp/>that<sp/>there&apos;s<sp/>no<sp/>memory<sp/>wastage<sp/>in<sp/>doing<sp/>this,<sp/>as<sp/>malloc<sp/>has<sp/>to</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/>return<sp/>(at<sp/>worst)<sp/>pointer-aligned<sp/>memory<sp/>anyway.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>((SIZEOF_VOID_P<sp/>-<sp/>1)<sp/>&amp;<sp/>SIZEOF_VOID_P)<sp/>!=<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>error<sp/>&quot;_PyObject_VAR_SIZE<sp/>requires<sp/>SIZEOF_VOID_P<sp/>be<sp/>a<sp/>power<sp/>of<sp/>2&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_VAR_SIZE(typeobj,<sp/>nitems)<sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="165"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_Py_SIZE_ROUND_UP((typeobj)-&gt;tp_basicsize<sp/>+<sp/>\</highlight></codeline>
+<codeline lineno="166"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(nitems)*(typeobj)-&gt;tp_itemsize,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="167"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SIZEOF_VOID_P)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_NEW(type,<sp/>typeobj)<sp/>\</highlight></codeline>
+<codeline lineno="170"><highlight class="preprocessor">(<sp/>(type<sp/>*)<sp/>PyObject_Init(<sp/>\</highlight></codeline>
+<codeline lineno="171"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(PyObject<sp/>*)<sp/>PyObject_MALLOC(<sp/>_PyObject_SIZE(typeobj)<sp/>),<sp/>(typeobj))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_NEW_VAR(type,<sp/>typeobj,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="174"><highlight class="preprocessor">(<sp/>(type<sp/>*)<sp/>PyObject_InitVar(<sp/>\</highlight></codeline>
+<codeline lineno="175"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>(PyVarObject<sp/>*)<sp/>PyObject_MALLOC(_PyObject_VAR_SIZE((typeobj),(n))<sp/>),\</highlight></codeline>
+<codeline lineno="176"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/>(typeobj),<sp/>(n))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>example<sp/>code<sp/>implements<sp/>an<sp/>object<sp/>constructor<sp/>with<sp/>a<sp/>custom</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/><sp/><sp/>allocator,<sp/>where<sp/>PyObject_New<sp/>is<sp/>inlined,<sp/>and<sp/>shows<sp/>the<sp/>important</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/>distinction<sp/>between<sp/>two<sp/>steps<sp/>(at<sp/>least):</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1)<sp/>the<sp/>actual<sp/>allocation<sp/>of<sp/>the<sp/>object<sp/>storage;</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>2)<sp/>the<sp/>initialization<sp/>of<sp/>the<sp/>Python<sp/>specific<sp/>fields</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/>in<sp/>this<sp/>storage<sp/>with<sp/>PyObject_{Init,<sp/>InitVar}.</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"></highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/>PyObject<sp/>*</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/>YourObject_New(...)</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="188"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject<sp/>*op;</highlight></codeline>
+<codeline lineno="189"><highlight class="comment"></highlight></codeline>
+<codeline lineno="190"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>op<sp/>=<sp/>(PyObject<sp/>*)<sp/>Your_Allocator(_PyObject_SIZE(YourTypeStruct));</highlight></codeline>
+<codeline lineno="191"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(op<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>PyErr_NoMemory();</highlight></codeline>
+<codeline lineno="193"><highlight class="comment"></highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyObject_Init(op,<sp/>&amp;YourTypeStruct);</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"></highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>op-&gt;ob_field<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>op;</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"></highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/>Note<sp/>that<sp/>in<sp/>C++,<sp/>the<sp/>use<sp/>of<sp/>the<sp/>new<sp/>operator<sp/>usually<sp/>implies<sp/>that</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/>the<sp/>1st<sp/>step<sp/>is<sp/>performed<sp/>automatically<sp/>for<sp/>you,<sp/>so<sp/>in<sp/>a<sp/>C++<sp/>class</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/>constructor<sp/>you<sp/>would<sp/>start<sp/>directly<sp/>with<sp/>PyObject_Init/InitVar</highlight></codeline>
+<codeline lineno="204"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="struct_py_object_arena_allocator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>user<sp/>context<sp/>passed<sp/>as<sp/>the<sp/>first<sp/>argument<sp/>to<sp/>the<sp/>2<sp/>functions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>allocate<sp/>an<sp/>arena<sp/>of<sp/>size<sp/>bytes<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>(*alloc)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>free<sp/>an<sp/>arena<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>void<sp/>(*free)<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ctx,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*ptr,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal">}<sp/><ref refid="struct_py_object_arena_allocator" kindref="compound">PyObjectArenaAllocator</ref>;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>the<sp/>arena<sp/>allocator.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_GetArenaAllocator(PyObjectArenaAllocator<sp/>*allocator);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Set<sp/>the<sp/>arena<sp/>allocator.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_SetArenaAllocator(PyObjectArenaAllocator<sp/>*allocator);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="227"><highlight class="comment"><sp/>*<sp/>Garbage<sp/>Collection<sp/>Support</highlight></codeline>
+<codeline lineno="228"><highlight class="comment"><sp/>*<sp/>==========================</highlight></codeline>
+<codeline lineno="229"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>C<sp/>equivalent<sp/>of<sp/>gc.collect()<sp/>which<sp/>ignores<sp/>the<sp/>state<sp/>of<sp/>gc.enabled.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="232"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>PyGC_Collect(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>_PyGC_CollectNoFail(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>_PyGC_CollectIfEnabled(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Test<sp/>if<sp/>a<sp/>type<sp/>has<sp/>a<sp/>GC<sp/>head<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyType_IS_GC(t)<sp/>PyType_HasFeature((t),<sp/>Py_TPFLAGS_HAVE_GC)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Test<sp/>if<sp/>an<sp/>object<sp/>has<sp/>a<sp/>GC<sp/>head<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_IS_GC(o)<sp/>(PyType_IS_GC(Py_TYPE(o))<sp/>&amp;&amp;<sp/>\</highlight></codeline>
+<codeline lineno="244"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(Py_TYPE(o)-&gt;tp_is_gc<sp/>==<sp/>NULL<sp/>||<sp/>Py_TYPE(o)-&gt;tp_is_gc(o)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="246"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*)<sp/>_PyObject_GC_Resize(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_GC_Resize(type,<sp/>op,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="248"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>_PyObject_GC_Resize((PyVarObject<sp/>*)(op),<sp/>(n))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="249"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>GC<sp/>information<sp/>is<sp/>stored<sp/>BEFORE<sp/>the<sp/>object<sp/>structure.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="union__gc__head" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="union__gc__head" kindref="compound">_gc_head</ref><sp/>{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="union__gc__head" kindref="compound">_gc_head</ref><sp/>*gc_next;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">union<sp/></highlight><highlight class="normal"><ref refid="union__gc__head" kindref="compound">_gc_head</ref><sp/>*gc_prev;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>gc_refs;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>gc;</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dummy;<sp/><sp/></highlight><highlight class="comment">/*<sp/>force<sp/>worst-case<sp/>alignment<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}<sp/><ref refid="union__gc__head" kindref="compound">PyGC_Head</ref>;</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/><ref refid="union__gc__head" kindref="compound">PyGC_Head</ref><sp/>*_PyGC_generation0;</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_AS_GC(o)<sp/>((PyGC_Head<sp/>*)(o)-1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Bit<sp/>0<sp/>is<sp/>set<sp/>when<sp/>tp_finalize<sp/>is<sp/>called<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_MASK_FINALIZED<sp/><sp/>(1<sp/>&lt;&lt;<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="267"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>(N-1)<sp/>most<sp/>significant<sp/>bits<sp/>contain<sp/>the<sp/>gc<sp/>state<sp/>/<sp/>refcount<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_SHIFT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_MASK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(((size_t)<sp/>-1)<sp/>&lt;&lt;<sp/>_PyGC_REFS_SHIFT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGCHead_REFS(g)<sp/>((g)-&gt;gc.gc_refs<sp/>&gt;&gt;<sp/>_PyGC_REFS_SHIFT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGCHead_SET_REFS(g,<sp/>v)<sp/>do<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="273"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(g)-&gt;gc.gc_refs<sp/>=<sp/>((g)-&gt;gc.gc_refs<sp/>&amp;<sp/>~_PyGC_REFS_MASK)<sp/>\</highlight></codeline>
+<codeline lineno="274"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>(((size_t)(v))<sp/>&lt;&lt;<sp/>_PyGC_REFS_SHIFT);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="275"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGCHead_DECREF(g)<sp/>((g)-&gt;gc.gc_refs<sp/>-=<sp/>1<sp/>&lt;&lt;<sp/>_PyGC_REFS_SHIFT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGCHead_FINALIZED(g)<sp/>(((g)-&gt;gc.gc_refs<sp/>&amp;<sp/>_PyGC_REFS_MASK_FINALIZED)<sp/>!=<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGCHead_SET_FINALIZED(g,<sp/>v)<sp/>do<sp/>{<sp/><sp/>\</highlight></codeline>
+<codeline lineno="280"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(g)-&gt;gc.gc_refs<sp/>=<sp/>((g)-&gt;gc.gc_refs<sp/>&amp;<sp/>~_PyGC_REFS_MASK_FINALIZED)<sp/>\</highlight></codeline>
+<codeline lineno="281"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>(v<sp/>!=<sp/>0);<sp/>\</highlight></codeline>
+<codeline lineno="282"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_FINALIZED(o)<sp/>_PyGCHead_FINALIZED(_Py_AS_GC(o))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_SET_FINALIZED(o,<sp/>v)<sp/>_PyGCHead_SET_FINALIZED(_Py_AS_GC(o),<sp/>v)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS(o)<sp/>_PyGCHead_REFS(_Py_AS_GC(o))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_UNTRACKED<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(-2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_REACHABLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(-3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyGC_REFS_TENTATIVELY_UNREACHABLE<sp/><sp/><sp/><sp/><sp/><sp/>(-4)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Tell<sp/>the<sp/>GC<sp/>to<sp/>track<sp/>this<sp/>object.<sp/><sp/>NB:<sp/>While<sp/>the<sp/>object<sp/>is<sp/>tracked<sp/>the</highlight></codeline>
+<codeline lineno="294"><highlight class="comment"><sp/>*<sp/>collector<sp/>it<sp/>must<sp/>be<sp/>safe<sp/>to<sp/>call<sp/>the<sp/>ob_traverse<sp/>method.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_GC_TRACK(o)<sp/>do<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="296"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyGC_Head<sp/>*g<sp/>=<sp/>_Py_AS_GC(o);<sp/>\</highlight></codeline>
+<codeline lineno="297"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(_PyGCHead_REFS(g)<sp/>!=<sp/>_PyGC_REFS_UNTRACKED)<sp/>\</highlight></codeline>
+<codeline lineno="298"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Py_FatalError(&quot;GC<sp/>object<sp/>already<sp/>tracked&quot;);<sp/>\</highlight></codeline>
+<codeline lineno="299"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_PyGCHead_SET_REFS(g,<sp/>_PyGC_REFS_REACHABLE);<sp/>\</highlight></codeline>
+<codeline lineno="300"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_next<sp/>=<sp/>_PyGC_generation0;<sp/>\</highlight></codeline>
+<codeline lineno="301"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_prev<sp/>=<sp/>_PyGC_generation0-&gt;gc.gc_prev;<sp/>\</highlight></codeline>
+<codeline lineno="302"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_prev-&gt;gc.gc_next<sp/>=<sp/>g;<sp/>\</highlight></codeline>
+<codeline lineno="303"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_PyGC_generation0-&gt;gc.gc_prev<sp/>=<sp/>g;<sp/>\</highlight></codeline>
+<codeline lineno="304"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Tell<sp/>the<sp/>GC<sp/>to<sp/>stop<sp/>tracking<sp/>this<sp/>object.</highlight></codeline>
+<codeline lineno="307"><highlight class="comment"><sp/>*<sp/>gc_next<sp/>doesn&apos;t<sp/>need<sp/>to<sp/>be<sp/>set<sp/>to<sp/>NULL,<sp/>but<sp/>doing<sp/>so<sp/>is<sp/>a<sp/>good</highlight></codeline>
+<codeline lineno="308"><highlight class="comment"><sp/>*<sp/>way<sp/>to<sp/>provoke<sp/>memory<sp/>errors<sp/>if<sp/>calling<sp/>code<sp/>is<sp/>confused.</highlight></codeline>
+<codeline lineno="309"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_GC_UNTRACK(o)<sp/>do<sp/>{<sp/>\</highlight></codeline>
+<codeline lineno="311"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>PyGC_Head<sp/>*g<sp/>=<sp/>_Py_AS_GC(o);<sp/>\</highlight></codeline>
+<codeline lineno="312"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>assert(_PyGCHead_REFS(g)<sp/>!=<sp/>_PyGC_REFS_UNTRACKED);<sp/>\</highlight></codeline>
+<codeline lineno="313"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>_PyGCHead_SET_REFS(g,<sp/>_PyGC_REFS_UNTRACKED);<sp/>\</highlight></codeline>
+<codeline lineno="314"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_prev-&gt;gc.gc_next<sp/>=<sp/>g-&gt;gc.gc_next;<sp/>\</highlight></codeline>
+<codeline lineno="315"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_next-&gt;gc.gc_prev<sp/>=<sp/>g-&gt;gc.gc_prev;<sp/>\</highlight></codeline>
+<codeline lineno="316"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>g-&gt;gc.gc_next<sp/>=<sp/>NULL;<sp/>\</highlight></codeline>
+<codeline lineno="317"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>True<sp/>if<sp/>the<sp/>object<sp/>is<sp/>currently<sp/>tracked<sp/>by<sp/>the<sp/>GC.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_GC_IS_TRACKED(o)<sp/>\</highlight></codeline>
+<codeline lineno="321"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(_PyGC_REFS(o)<sp/>!=<sp/>_PyGC_REFS_UNTRACKED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>True<sp/>if<sp/>the<sp/>object<sp/>may<sp/>be<sp/>tracked<sp/>by<sp/>the<sp/>GC<sp/>in<sp/>the<sp/>future,<sp/>or<sp/>already<sp/>is.</highlight></codeline>
+<codeline lineno="324"><highlight class="comment"><sp/><sp/><sp/>This<sp/>can<sp/>be<sp/>useful<sp/>to<sp/>implement<sp/>some<sp/>optimizations.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyObject_GC_MAY_BE_TRACKED(obj)<sp/>\</highlight></codeline>
+<codeline lineno="326"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>(PyObject_IS_GC(obj)<sp/>&amp;&amp;<sp/>\</highlight></codeline>
+<codeline lineno="327"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(!PyTuple_CheckExact(obj)<sp/>||<sp/>_PyObject_GC_IS_TRACKED(obj)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyObject_GC_Malloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyObject_GC_Calloc(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>size);</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="334"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyObject_GC_New(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal">PyAPI_FUNC(<ref refid="struct_py_var_object" kindref="compound">PyVarObject</ref><sp/>*)<sp/>_PyObject_GC_NewVar(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref><sp/>*,<sp/>Py_ssize_t);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_GC_Track(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_GC_UnTrack(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>PyObject_GC_Del(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_GC_New(type,<sp/>typeobj)<sp/>\</highlight></codeline>
+<codeline lineno="341"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>_PyObject_GC_New(typeobj)<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_GC_NewVar(type,<sp/>typeobj,<sp/>n)<sp/>\</highlight></codeline>
+<codeline lineno="343"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<sp/>(type<sp/>*)<sp/>_PyObject_GC_NewVar((typeobj),<sp/>(n))<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Utility<sp/>macro<sp/>to<sp/>help<sp/>write<sp/>tp_traverse<sp/>functions.</highlight></codeline>
+<codeline lineno="347"><highlight class="comment"><sp/>*<sp/>To<sp/>use<sp/>this<sp/>macro,<sp/>the<sp/>tp_traverse<sp/>function<sp/>must<sp/>name<sp/>its<sp/>arguments</highlight></codeline>
+<codeline lineno="348"><highlight class="comment"><sp/>*<sp/>&quot;visit&quot;<sp/>and<sp/>&quot;arg&quot;.<sp/><sp/>This<sp/>is<sp/>intended<sp/>to<sp/>keep<sp/>tp_traverse<sp/>functions</highlight></codeline>
+<codeline lineno="349"><highlight class="comment"><sp/>*<sp/>looking<sp/>as<sp/>much<sp/>alike<sp/>as<sp/>possible.</highlight></codeline>
+<codeline lineno="350"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_VISIT(op)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="352"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>do<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="353"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(op)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="354"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>vret<sp/>=<sp/>visit((PyObject<sp/>*)(op),<sp/>arg);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="355"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(vret)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="356"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>vret;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="357"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="358"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while<sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Test<sp/>if<sp/>a<sp/>type<sp/>supports<sp/>weak<sp/>references<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyType_SUPPORTS_WEAKREFS(t)<sp/>((t)-&gt;tp_weaklistoffset<sp/>&gt;<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyObject_GET_WEAKREFS_LISTPTR(o)<sp/>\</highlight></codeline>
+<codeline lineno="365"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>((PyObject<sp/>**)<sp/>(((char<sp/>*)<sp/>(o))<sp/>+<sp/>Py_TYPE(o)-&gt;tp_weaklistoffset))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_OBJIMPL_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/objimpl.h"/>
+  </compounddef>
+</doxygen>

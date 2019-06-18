@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_compact_unicode_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyCompactUnicodeObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_compact_unicode_object_1abf3850ea9052f0b7e05d37110a11e55b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_a_s_c_i_i_object" kindref="compound">PyASCIIObject</ref></type>
+        <definition>PyASCIIObject PyCompactUnicodeObject::_base</definition>
+        <argsstring></argsstring>
+        <name>_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="341" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_compact_unicode_object_1a1c5f0d57f526bacf8be40fe4599ecf90" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyCompactUnicodeObject::utf8_length</definition>
+        <argsstring></argsstring>
+        <name>utf8_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="342" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="342" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_compact_unicode_object_1a11d5a93debf73f11a700a2eebe513457" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* PyCompactUnicodeObject::utf8</definition>
+        <argsstring></argsstring>
+        <name>utf8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="344" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="344" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_compact_unicode_object_1ad86f7e3e8c782e50fa1d5669c6de6280" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t PyCompactUnicodeObject::wstr_length</definition>
+        <argsstring></argsstring>
+        <name>wstr_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/unicodeobject.h" line="345" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="345" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1064">
+        <label>PyCompactUnicodeObject</label>
+        <link refid="struct_py_compact_unicode_object"/>
+        <childnode refid="1065" relation="usage">
+          <edgelabel>_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1065">
+        <label>PyASCIIObject</label>
+        <link refid="struct_py_a_s_c_i_i_object"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/unicodeobject.h" line="340" column="1" bodyfile="/usr/include/python3.6m/unicodeobject.h" bodystart="340" bodyend="347"/>
+    <listofallmembers>
+      <member refid="struct_py_compact_unicode_object_1abf3850ea9052f0b7e05d37110a11e55b" prot="public" virt="non-virtual"><scope>PyCompactUnicodeObject</scope><name>_base</name></member>
+      <member refid="struct_py_compact_unicode_object_1a11d5a93debf73f11a700a2eebe513457" prot="public" virt="non-virtual"><scope>PyCompactUnicodeObject</scope><name>utf8</name></member>
+      <member refid="struct_py_compact_unicode_object_1a1c5f0d57f526bacf8be40fe4599ecf90" prot="public" virt="non-virtual"><scope>PyCompactUnicodeObject</scope><name>utf8_length</name></member>
+      <member refid="struct_py_compact_unicode_object_1ad86f7e3e8c782e50fa1d5669c6de6280" prot="public" virt="non-virtual"><scope>PyCompactUnicodeObject</scope><name>wstr_length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

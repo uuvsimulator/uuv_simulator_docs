@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__heaptypeobject" kind="struct" language="C++" prot="public">
+    <compoundname>_heaptypeobject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__heaptypeobject_1a757f1d6b7f668a05fc6fc641b7a41338" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        <definition>PyTypeObject _heaptypeobject::ht_type</definition>
+        <argsstring></argsstring>
+        <name>ht_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="464" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a88d59ac684ca7fdaaee47a3ab9ec5dbd" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_async_methods" kindref="compound">PyAsyncMethods</ref></type>
+        <definition>PyAsyncMethods _heaptypeobject::as_async</definition>
+        <argsstring></argsstring>
+        <name>as_async</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="465" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="465" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1aaf1b8eff89b976c353ce3c4d949248e2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_number_methods" kindref="compound">PyNumberMethods</ref></type>
+        <definition>PyNumberMethods _heaptypeobject::as_number</definition>
+        <argsstring></argsstring>
+        <name>as_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="466" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1aaac5bd975acb4f8964ff2c999adb7310" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_mapping_methods" kindref="compound">PyMappingMethods</ref></type>
+        <definition>PyMappingMethods _heaptypeobject::as_mapping</definition>
+        <argsstring></argsstring>
+        <name>as_mapping</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="467" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a5ee56648a9f528df46c03946f99fc4bc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_sequence_methods" kindref="compound">PySequenceMethods</ref></type>
+        <definition>PySequenceMethods _heaptypeobject::as_sequence</definition>
+        <argsstring></argsstring>
+        <name>as_sequence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="468" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="468" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1ab1b5548a0e48532173fbd4c3af7fa1a9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_py_buffer_procs" kindref="compound">PyBufferProcs</ref></type>
+        <definition>PyBufferProcs _heaptypeobject::as_buffer</definition>
+        <argsstring></argsstring>
+        <name>as_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="473" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a7eef1575c79c30ca3808cc1564b0bacc" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* _heaptypeobject::ht_name</definition>
+        <argsstring></argsstring>
+        <name>ht_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="474" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a576c6533321ab6cb92b6d114d1a5c641" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject * _heaptypeobject::ht_slots</definition>
+        <argsstring></argsstring>
+        <name>ht_slots</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="474" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a54d0feb235f4a9554be26a5804940553" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject * _heaptypeobject::ht_qualname</definition>
+        <argsstring></argsstring>
+        <name>ht_qualname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="474" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="474" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__heaptypeobject_1a375c2bd2b6ef99213823e0f089160994" prot="public" static="no" mutable="no">
+        <type>struct _dictkeysobject *</type>
+        <definition>struct _dictkeysobject* _heaptypeobject::ht_cached_keys</definition>
+        <argsstring></argsstring>
+        <name>ht_cached_keys</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/object.h" line="475" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="142">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="139">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="140" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="137">
+        <label>_heaptypeobject</label>
+        <link refid="struct__heaptypeobject"/>
+        <childnode refid="138" relation="usage">
+          <edgelabel>as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>as_number</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>as_async</edgelabel>
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>ht_qualname</edgelabel>
+          <edgelabel>ht_slots</edgelabel>
+          <edgelabel>ht_name</edgelabel>
+        </childnode>
+        <childnode refid="140" relation="usage">
+          <edgelabel>ht_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="144">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="143">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="145">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="140">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="138" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="141" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="143" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="144" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="145" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="146" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="147" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="139" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="140" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="138">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="146">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="147">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="139" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/object.h" line="461" column="1" bodyfile="/usr/include/python3.6m/object.h" bodystart="461" bodyend="477"/>
+    <listofallmembers>
+      <member refid="struct__heaptypeobject_1a88d59ac684ca7fdaaee47a3ab9ec5dbd" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>as_async</name></member>
+      <member refid="struct__heaptypeobject_1ab1b5548a0e48532173fbd4c3af7fa1a9" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>as_buffer</name></member>
+      <member refid="struct__heaptypeobject_1aaac5bd975acb4f8964ff2c999adb7310" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>as_mapping</name></member>
+      <member refid="struct__heaptypeobject_1aaf1b8eff89b976c353ce3c4d949248e2" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>as_number</name></member>
+      <member refid="struct__heaptypeobject_1a5ee56648a9f528df46c03946f99fc4bc" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>as_sequence</name></member>
+      <member refid="struct__heaptypeobject_1a375c2bd2b6ef99213823e0f089160994" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>ht_cached_keys</name></member>
+      <member refid="struct__heaptypeobject_1a7eef1575c79c30ca3808cc1564b0bacc" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>ht_name</name></member>
+      <member refid="struct__heaptypeobject_1a54d0feb235f4a9554be26a5804940553" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>ht_qualname</name></member>
+      <member refid="struct__heaptypeobject_1a576c6533321ab6cb92b6d114d1a5c641" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>ht_slots</name></member>
+      <member refid="struct__heaptypeobject_1a757f1d6b7f668a05fc6fc641b7a41338" prot="public" virt="non-virtual"><scope>_heaptypeobject</scope><name>ht_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

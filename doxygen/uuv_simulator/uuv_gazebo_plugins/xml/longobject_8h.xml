@@ -1,0 +1,798 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="longobject_8h" kind="file" language="C++">
+    <compoundname>longobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3203">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3204">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3206">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3201">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3202" relation="include">
+        </childnode>
+        <childnode refid="3204" relation="include">
+        </childnode>
+        <childnode refid="3205" relation="include">
+        </childnode>
+        <childnode refid="3206" relation="include">
+        </childnode>
+        <childnode refid="3207" relation="include">
+        </childnode>
+      </node>
+      <node id="3207">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3202">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3203" relation="include">
+        </childnode>
+      </node>
+      <node id="3200">
+        <label>/usr/include/python3.6m/longobject.h</label>
+        <link refid="longobject_8h"/>
+        <childnode refid="3201" relation="include">
+        </childnode>
+      </node>
+      <node id="3205">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="longobject_8h_1a1c62aea534db077646030898de32ad87" prot="public" static="no">
+        <name>PyLong_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyType_FastSubclass(Py_TYPE(op), Py_TPFLAGS_LONG_SUBCLASS)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="14" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1a509c76462166c82423ef67cb9c7eb926" prot="public" static="no">
+        <name>PyLong_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyLong_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="16" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1af9f34854a929cc0568debbadca102c05" prot="public" static="no">
+        <name>PyLong_AS_LONG</name>
+        <param><defname>op</defname></param>
+        <initializer>PyLong_AsLong(op)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="36" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1ae116870a66548d4e68e70608ae3db8ec" prot="public" static="no">
+        <name>_Py_PARSE_PID</name>
+        <initializer>&quot;i&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="40" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1ab3ab0baa09d67677d46718e95d22b93c" prot="public" static="no">
+        <name>PyLong_FromPid</name>
+        <initializer>PyLong_FromLong</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="41" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1a984d99ca94dbd378991c4e8746079b6e" prot="public" static="no">
+        <name>PyLong_AsPid</name>
+        <initializer>PyLong_AsLong</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="42" column="9" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1a2bfd09530b044657063eec1910b0d1e1" prot="public" static="no">
+        <name>_Py_PARSE_INTPTR</name>
+        <initializer>&quot;i&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="56" column="11" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longobject_8h_1a445cb2e15d18771477c7cc0c3dcf8571" prot="public" static="no">
+        <name>_Py_PARSE_UINTPTR</name>
+        <initializer>&quot;I&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="57" column="11" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="longobject_8h_1a9701b9a8fcff075db9c51cf85f11a244" prot="public" static="no">
+        <type>struct <ref refid="struct__longobject" kindref="compound">_longobject</ref></type>
+        <definition>typedef struct _longobject PyLongObject</definition>
+        <argsstring></argsstring>
+        <name>PyLongObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="87" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="longobject_8h_1a28cf183ea1588229c01af441267bc98c" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t *</type>
+        <definition>Py_ssize_t* e</definition>
+        <argsstring></argsstring>
+        <name>e</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="81" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1ad65b480f8c8270356b45a9890f6499ae" prot="public" static="no" mutable="no">
+        <type>int char</type>
+        <definition>char int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="95" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1a3655899f66ca98255b47208712b31518" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Py_ssize_t</definition>
+        <argsstring></argsstring>
+        <name>Py_ssize_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="97" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1a70bc726157e89299522b508cccf6236b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>char PyObject int base</definition>
+        <argsstring></argsstring>
+        <name>base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="98" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1aa46509c737afa144e74d7e6d91225eb7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> size_t</type>
+        <definition>const Py_UNICODE size_t n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="141" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1ac26da10ba824869d0119ec594d5a73c1" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> size_t int</type>
+        <definition>unsigned char size_t int little_endian</definition>
+        <argsstring></argsstring>
+        <name>little_endian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="142" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1ad9d9c8fff108a941e143d34a86eb36a2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> size_t int int</type>
+        <definition>unsigned char size_t int int is_signed</definition>
+        <argsstring></argsstring>
+        <name>is_signed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="142" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1a4ed0df40a586c13fea61e803e2d60f13" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* bytes</definition>
+        <argsstring></argsstring>
+        <name>bytes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="164" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1aaa12580403a2cc24c96324b4c5715889" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="180" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1a01957d224297a4bf692a620e09befe45" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> int int</type>
+        <definition>char PyObject int int alternate</definition>
+        <argsstring></argsstring>
+        <name>alternate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="182" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1ab50d783982593ef993ea0b68f7ad8b80" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="186" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="186" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1a85929ace2f0054245aa2e25e1712a51e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* format_spec</definition>
+        <argsstring></argsstring>
+        <name>format_spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="196" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1aefe638830dff84c8205e57c5d7e7648d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t</type>
+        <definition>PyObject PyObject Py_ssize_t start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="197" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="longobject_8h_1aa5158139051eb5411f514809012226af" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t Py_ssize_t</type>
+        <definition>PyObject PyObject Py_ssize_t Py_ssize_t end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="198" column="1" bodyfile="/usr/include/python3.6m/longobject.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="longobject_8h_1abc5f847296e93c6ecf72131131a6da08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyLong_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1ad80b1dcbf9b7ca13e82adc71470ab7e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyLong_FromLong(long)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1a4f65c42d79390013737eb9d4fe0e769d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(long) PyLong_AsLong(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1a4ffe182f013509bf37f1d521307a8ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int *</type>
+        <definition>int* PyAPI_FUNC</definition>
+        <argsstring>(Py_ssize_t) PyLong_AsSsize_t(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>Py_ssize_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1aee867fa70676fb2b9c028790c6854605" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(size_t) PyLong_AsSize_t(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>size_t</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1aa98692a007b8362990cdfe6a07c182ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(unsigned long) PyLong_AsUnsignedLong(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1a2818e3bdb1d334d99002048569e70eae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PyLong_AsInt(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1aff2c20b8535c957fa6fa174ca840d236" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(unsigned char) _PyLong_DigitValue[256]</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type>unsigned</type>
+          <declname>char</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1a45961c34ce7f42b63d87f6ed9ba90b43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(double) _PyLong_Frexp(PyLongObject *a</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1a02912e1f4e099a4960999f6ce28b929c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void *) PyLong_AsVoidPtr(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1ae83f096f0e2ce961b1f2c060c3909436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyLongObject *) _PyLong_FromNbInt(PyObject *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__longobject" kindref="compound">PyLongObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="172" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1acc8232238d9125c82362cc8ae3b3e4c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(char *) _PyLong_FormatBytesWriter(_PyBytesWriter *writer</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="184" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1aff16f9b03e490741fcdcbfb3b5b06b5e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(unsigned long) PyOS_strtoul(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="204" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longobject_8h_1aeaa32129e3e0c1f6837e0908f0c4480c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(long) PyOS_strtol(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>long</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longobject.h" line="205" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_LONGOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_LONGOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Long<sp/>(arbitrary<sp/>precision)<sp/>integer<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__longobject" kindref="compound">_longobject</ref><sp/><ref refid="struct__longobject" kindref="compound">PyLongObject</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Revealed<sp/>in<sp/>longintrepr.h<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyLong_Type;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_Check(op)<sp/>\</highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PyType_FastSubclass(Py_TYPE(op),<sp/>Py_TPFLAGS_LONG_SUBCLASS)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyLong_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromLong(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromUnsignedLong(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromSize_t(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromSsize_t(Py_ssize_t);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromDouble(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsLong(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsLongAndOverflow(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PyAPI_FUNC(Py_ssize_t)<sp/>PyLong_AsSsize_t(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>PyLong_AsSize_t(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsUnsignedLong(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsUnsignedLongMask(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyLong_AsInt(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_GetInfo(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>It<sp/>may<sp/>be<sp/>useful<sp/>in<sp/>the<sp/>future.<sp/>I&apos;ve<sp/>added<sp/>it<sp/>in<sp/>the<sp/>PyInt<sp/>-&gt;<sp/>PyLong</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>cleanup<sp/>to<sp/>keep<sp/>the<sp/>extra<sp/>information.<sp/>[CH]<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_AS_LONG(op)<sp/>PyLong_AsLong(op)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Issue<sp/>#1983:<sp/>pid_t<sp/>can<sp/>be<sp/>longer<sp/>than<sp/>a<sp/>C<sp/>long<sp/>on<sp/>some<sp/>systems<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(SIZEOF_PID_T)<sp/>||<sp/>SIZEOF_PID_T<sp/>==<sp/>SIZEOF_INT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_PARSE_PID<sp/>&quot;i&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_FromPid<sp/>PyLong_FromLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_AsPid<sp/>PyLong_AsLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_PID_T<sp/>==<sp/>SIZEOF_LONG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_PARSE_PID<sp/>&quot;l&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_FromPid<sp/>PyLong_FromLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_AsPid<sp/>PyLong_AsLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(SIZEOF_LONG_LONG)<sp/>&amp;&amp;<sp/>SIZEOF_PID_T<sp/>==<sp/>SIZEOF_LONG_LONG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_PARSE_PID<sp/>&quot;L&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_FromPid<sp/>PyLong_FromLongLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_AsPid<sp/>PyLong_AsLongLong</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;sizeof(pid_t)<sp/>is<sp/>neither<sp/>sizeof(int),<sp/>sizeof(long)<sp/>or<sp/>sizeof(long<sp/>long)&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>SIZEOF_PID_T<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>SIZEOF_VOID_P<sp/>==<sp/>SIZEOF_INT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_INTPTR<sp/>&quot;i&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_UINTPTR<sp/>&quot;I&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_VOID_P<sp/>==<sp/>SIZEOF_LONG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_INTPTR<sp/>&quot;l&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_UINTPTR<sp/>&quot;k&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(SIZEOF_LONG_LONG)<sp/>&amp;&amp;<sp/>SIZEOF_VOID_P<sp/>==<sp/>SIZEOF_LONG_LONG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_INTPTR<sp/>&quot;L&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>define<sp/>_Py_PARSE_UINTPTR<sp/>&quot;K&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/>error<sp/>&quot;void*<sp/>different<sp/>in<sp/>size<sp/>from<sp/>int,<sp/>long<sp/>and<sp/>long<sp/>long&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>SIZEOF_VOID_P<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Used<sp/>by<sp/>Python/mystrtoul.c,<sp/>_PyBytes_FromHex(),</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/>_PyBytes_DecodeEscapeRecode(),<sp/>etc.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal">PyAPI_DATA(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">)<sp/>_PyLong_DigitValue[256];</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_Frexp<sp/>returns<sp/>a<sp/>double<sp/>x<sp/>and<sp/>an<sp/>exponent<sp/>e<sp/>such<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/>true<sp/>value<sp/>is<sp/>approximately<sp/>equal<sp/>to<sp/>x<sp/>*<sp/>2**e.<sp/><sp/>e<sp/>is<sp/>&gt;=<sp/>0.<sp/><sp/>x<sp/>is</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/>0.0<sp/>if<sp/>and<sp/>only<sp/>if<sp/>the<sp/>input<sp/>is<sp/>0<sp/>(in<sp/>which<sp/>case,<sp/>e<sp/>and<sp/>x<sp/>are<sp/>both</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/>zeroes);<sp/>otherwise,<sp/>0.5<sp/>&lt;=<sp/>abs(x)<sp/>&lt;<sp/>1.0.<sp/><sp/>On<sp/>overflow,<sp/>which<sp/>is</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/>possible<sp/>if<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>doesn&apos;t<sp/>fit<sp/>into<sp/>a<sp/>Py_ssize_t,<sp/>sets</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/>OverflowError<sp/>and<sp/>returns<sp/>-1.0<sp/>for<sp/>x,<sp/>0<sp/>for<sp/>e.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_PyLong_Frexp(<ref refid="struct__longobject" kindref="compound">PyLongObject</ref><sp/>*a,<sp/>Py_ssize_t<sp/>*e);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyLong_AsDouble(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromVoidPtr(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>PyLong_AsVoidPtr(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromLongLong(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromUnsignedLongLong(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsLongLong(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsUnsignedLongLong(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsUnsignedLongLongMask(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyLong_AsLongLongAndOverflow(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromString(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromUnicode(Py_UNICODE*,<sp/>Py_ssize_t,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyLong_FromUnicodeObject(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*u,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_FromBytes(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/>Py_ssize_t,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_Sign.<sp/><sp/>Return<sp/>0<sp/>if<sp/>v<sp/>is<sp/>0,<sp/>-1<sp/>if<sp/>v<sp/>&lt;<sp/>0,<sp/>+1<sp/>if<sp/>v<sp/>&gt;<sp/>0.</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/>v<sp/>must<sp/>not<sp/>be<sp/>NULL,<sp/>and<sp/>must<sp/>be<sp/>a<sp/>normalized<sp/>long.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/><sp/><sp/>There<sp/>are<sp/>no<sp/>error<sp/>cases.</highlight></codeline>
+<codeline lineno="106"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyLong_Sign(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*v);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_NumBits.<sp/><sp/>Return<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>needed<sp/>to<sp/>represent<sp/>the</highlight></codeline>
+<codeline lineno="111"><highlight class="comment"><sp/><sp/><sp/>absolute<sp/>value<sp/>of<sp/>a<sp/>long.<sp/><sp/>For<sp/>example,<sp/>this<sp/>returns<sp/>1<sp/>for<sp/>1<sp/>and<sp/>-1,<sp/>2</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/>for<sp/>2<sp/>and<sp/>-2,<sp/>and<sp/>2<sp/>for<sp/>3<sp/>and<sp/>-3.<sp/><sp/>It<sp/>returns<sp/>0<sp/>for<sp/>0.</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/>v<sp/>must<sp/>not<sp/>be<sp/>NULL,<sp/>and<sp/>must<sp/>be<sp/>a<sp/>normalized<sp/>long.</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/>(size_t)-1<sp/>is<sp/>returned<sp/>and<sp/>OverflowError<sp/>set<sp/>if<sp/>the<sp/>true<sp/>result<sp/>doesn&apos;t</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/>fit<sp/>in<sp/>a<sp/>size_t.</highlight></codeline>
+<codeline lineno="116"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">)<sp/>_PyLong_NumBits(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*v);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_DivmodNear.<sp/><sp/>Given<sp/>integers<sp/>a<sp/>and<sp/>b,<sp/>compute<sp/>the<sp/>nearest</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/>integer<sp/>q<sp/>to<sp/>the<sp/>exact<sp/>quotient<sp/>a<sp/>/<sp/>b,<sp/>rounding<sp/>to<sp/>the<sp/>nearest<sp/>even<sp/>integer</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/>in<sp/>the<sp/>case<sp/>of<sp/>a<sp/>tie.<sp/><sp/>Return<sp/>(q,<sp/>r),<sp/>where<sp/>r<sp/>=<sp/>a<sp/>-<sp/>q*b.<sp/><sp/>The<sp/>remainder<sp/>r</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/>will<sp/>satisfy<sp/>abs(r)<sp/>&lt;=<sp/>abs(b)/2,<sp/>with<sp/>equality<sp/>possible<sp/>only<sp/>if<sp/>q<sp/>is</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/>even.</highlight></codeline>
+<codeline lineno="124"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_DivmodNear(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_FromByteArray:<sp/><sp/>View<sp/>the<sp/>n<sp/>unsigned<sp/>bytes<sp/>as<sp/>a<sp/>binary<sp/>integer<sp/>in</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/>base<sp/>256,<sp/>and<sp/>return<sp/>a<sp/>Python<sp/>int<sp/>with<sp/>the<sp/>same<sp/>numeric<sp/>value.</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/>If<sp/>n<sp/>is<sp/>0,<sp/>the<sp/>integer<sp/>is<sp/>0.<sp/><sp/>Else:</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/>If<sp/>little_endian<sp/>is<sp/>1/true,<sp/>bytes[n-1]<sp/>is<sp/>the<sp/>MSB<sp/>and<sp/>bytes[0]<sp/>the<sp/>LSB;</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/>else<sp/>(little_endian<sp/>is<sp/>0/false)<sp/>bytes[0]<sp/>is<sp/>the<sp/>MSB<sp/>and<sp/>bytes[n-1]<sp/>the</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/>LSB.</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/>If<sp/>is_signed<sp/>is<sp/>0/false,<sp/>view<sp/>the<sp/>bytes<sp/>as<sp/>a<sp/>non-negative<sp/>integer.</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/>If<sp/>is_signed<sp/>is<sp/>1/true,<sp/>view<sp/>the<sp/>bytes<sp/>as<sp/>a<sp/>2&apos;s-complement<sp/>integer,</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/>non-negative<sp/>if<sp/>bit<sp/>0x80<sp/>of<sp/>the<sp/>MSB<sp/>is<sp/>clear,<sp/>negative<sp/>if<sp/>set.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/>Error<sp/>returns:</highlight></codeline>
+<codeline lineno="137"><highlight class="comment"><sp/><sp/><sp/>+<sp/>Return<sp/>NULL<sp/>with<sp/>the<sp/>appropriate<sp/>exception<sp/>set<sp/>if<sp/>there&apos;s<sp/>not</highlight></codeline>
+<codeline lineno="138"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>enough<sp/>memory<sp/>to<sp/>create<sp/>the<sp/>Python<sp/>int.</highlight></codeline>
+<codeline lineno="139"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_FromByteArray(</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct__object" kindref="compound">bytes</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n,</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>little_endian,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>is_signed);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_AsByteArray:<sp/>Convert<sp/>the<sp/>least-significant<sp/>8*n<sp/>bits<sp/>of<sp/>long</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/>v<sp/>to<sp/>a<sp/>base-256<sp/>integer,<sp/>stored<sp/>in<sp/>array<sp/>bytes.<sp/><sp/>Normally<sp/>return<sp/>0,</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/>return<sp/>-1<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/>If<sp/>little_endian<sp/>is<sp/>1/true,<sp/>store<sp/>the<sp/>MSB<sp/>at<sp/>bytes[n-1]<sp/>and<sp/>the<sp/>LSB<sp/>at</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/>bytes[0];<sp/>else<sp/>(little_endian<sp/>is<sp/>0/false)<sp/>store<sp/>the<sp/>MSB<sp/>at<sp/>bytes[0]<sp/>and</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/>the<sp/>LSB<sp/>at<sp/>bytes[n-1].</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/>If<sp/>is_signed<sp/>is<sp/>0/false,<sp/>it&apos;s<sp/>an<sp/>error<sp/>if<sp/>v<sp/>&lt;<sp/>0;<sp/>else<sp/>(v<sp/>&gt;=<sp/>0)<sp/>n<sp/>bytes</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/>are<sp/>filled<sp/>and<sp/>there&apos;s<sp/>nothing<sp/>special<sp/>about<sp/>bit<sp/>0x80<sp/>of<sp/>the<sp/>MSB.</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/>If<sp/>is_signed<sp/>is<sp/>1/true,<sp/>bytes<sp/>is<sp/>filled<sp/>with<sp/>the<sp/>2&apos;s-complement</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/>representation<sp/>of<sp/>v&apos;s<sp/>value.<sp/><sp/>Bit<sp/>0x80<sp/>of<sp/>the<sp/>MSB<sp/>is<sp/>the<sp/>sign<sp/>bit.</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/>Error<sp/>returns<sp/>(-1):</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/>+<sp/>is_signed<sp/>is<sp/>0<sp/>and<sp/>v<sp/>&lt;<sp/>0.<sp/><sp/>TypeError<sp/>is<sp/>set<sp/>in<sp/>this<sp/>case,<sp/>and<sp/>bytes</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>isn&apos;t<sp/>altered.</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/>+<sp/>n<sp/>isn&apos;t<sp/>big<sp/>enough<sp/>to<sp/>hold<sp/>the<sp/>full<sp/>mathematical<sp/>value<sp/>of<sp/>v.<sp/><sp/>For</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>example,<sp/>if<sp/>is_signed<sp/>is<sp/>0<sp/>and<sp/>there<sp/>are<sp/>more<sp/>digits<sp/>in<sp/>the<sp/>v<sp/>than</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>fit<sp/>in<sp/>n;<sp/>or<sp/>if<sp/>is_signed<sp/>is<sp/>1,<sp/>v<sp/>&lt;<sp/>0,<sp/>and<sp/>n<sp/>is<sp/>just<sp/>1<sp/>bit<sp/>shy<sp/>of</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>being<sp/>large<sp/>enough<sp/>to<sp/>hold<sp/>a<sp/>sign<sp/>bit.<sp/><sp/>OverflowError<sp/>is<sp/>set<sp/>in<sp/>this</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>case,<sp/>but<sp/>bytes<sp/>holds<sp/>the<sp/>least-significant<sp/>n<sp/>bytes<sp/>of<sp/>the<sp/>true<sp/>value.</highlight></codeline>
+<codeline lineno="162"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyLong_AsByteArray(<ref refid="struct__longobject" kindref="compound">PyLongObject</ref>*<sp/>v,</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="struct__object" kindref="compound">bytes</ref>,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>n,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>little_endian,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>is_signed);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_FromNbInt:<sp/>Convert<sp/>the<sp/>given<sp/>object<sp/>to<sp/>a<sp/>PyLongObject</highlight></codeline>
+<codeline lineno="168"><highlight class="comment"><sp/><sp/><sp/>using<sp/>the<sp/>nb_int<sp/>slot,<sp/>if<sp/>available.<sp/><sp/>Raise<sp/>TypeError<sp/>if<sp/>either<sp/>the</highlight></codeline>
+<codeline lineno="169"><highlight class="comment"><sp/><sp/><sp/>nb_int<sp/>slot<sp/>is<sp/>not<sp/>available<sp/>or<sp/>the<sp/>result<sp/>of<sp/>the<sp/>call<sp/>to<sp/>nb_int</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/>returns<sp/>something<sp/>not<sp/>of<sp/>type<sp/>int.</highlight></codeline>
+<codeline lineno="171"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__longobject" kindref="compound">PyLongObject</ref><sp/>*)_PyLong_FromNbInt(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyLong_Format:<sp/>Convert<sp/>the<sp/>long<sp/>to<sp/>a<sp/>string<sp/>object<sp/>with<sp/>given<sp/>base,</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/>appending<sp/>a<sp/>base<sp/>prefix<sp/>of<sp/>0[box]<sp/>if<sp/>base<sp/>is<sp/>2,<sp/>8<sp/>or<sp/>16.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_Format(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyLong_FormatWriter(</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_unicode_writer" kindref="compound">_PyUnicodeWriter</ref><sp/>*writer,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base,</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alternate);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<sp/>_PyLong_FormatBytesWriter(</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_bytes_writer" kindref="compound">_PyBytesWriter</ref><sp/>*writer,</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>base,</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>alternate);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Format<sp/>the<sp/>object<sp/>based<sp/>on<sp/>the<sp/>format_spec,<sp/>as<sp/>defined<sp/>in<sp/>PEP<sp/>3101</highlight></codeline>
+<codeline lineno="192"><highlight class="comment"><sp/><sp/><sp/>(Advanced<sp/>String<sp/>Formatting).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyLong_FormatAdvancedWriter(</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_unicode_writer" kindref="compound">_PyUnicodeWriter</ref><sp/>*writer,</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*format_spec,</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>start,</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>end);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>These<sp/>aren&apos;t<sp/>really<sp/>part<sp/>of<sp/>the<sp/>int<sp/>object,<sp/>but<sp/>they&apos;re<sp/>handy.<sp/>The</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/>functions<sp/>are<sp/>in<sp/>Python/mystrtoul.c.</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyOS_strtoul(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="205"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">long</highlight><highlight class="normal">)<sp/>PyOS_strtol(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>For<sp/>use<sp/>by<sp/>the<sp/>gcd<sp/>function<sp/>in<sp/>mathmodule.c<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="209"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_GCD(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LONGOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/longobject.h"/>
+  </compounddef>
+</doxygen>

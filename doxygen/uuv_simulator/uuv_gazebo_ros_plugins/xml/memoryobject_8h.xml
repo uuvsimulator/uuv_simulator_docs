@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="memoryobject_8h" kind="file" language="C++">
+    <compoundname>memoryobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3214">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3215">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3217">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3212">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3213" relation="include">
+        </childnode>
+        <childnode refid="3215" relation="include">
+        </childnode>
+        <childnode refid="3216" relation="include">
+        </childnode>
+        <childnode refid="3217" relation="include">
+        </childnode>
+        <childnode refid="3218" relation="include">
+        </childnode>
+      </node>
+      <node id="3218">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3213">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3214" relation="include">
+        </childnode>
+      </node>
+      <node id="3211">
+        <label>/usr/include/python3.6m/memoryobject.h</label>
+        <link refid="memoryobject_8h"/>
+        <childnode refid="3212" relation="include">
+        </childnode>
+      </node>
+      <node id="3216">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct___py_managed_buffer_object" prot="public">_PyManagedBufferObject</innerclass>
+    <innerclass refid="struct_py_memory_view_object" prot="public">PyMemoryViewObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="memoryobject_8h_1a814f92273e85147a616731bafb843bf0" prot="public" static="no">
+        <name>PyMemoryView_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyMemoryView_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="14" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a35d739b4ee838043d41bf35306b49f9b" prot="public" static="no">
+        <name>PyMemoryView_GET_BUFFER</name>
+        <param><defname>op</defname></param>
+        <initializer>(&amp;((<ref refid="struct_py_memory_view_object" kindref="compound">PyMemoryViewObject</ref> *)(op))-&gt;view)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="18" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a875665e8bbb49fb4306ec5085b620055" prot="public" static="no">
+        <name>PyMemoryView_GET_BASE</name>
+        <param><defname>op</defname></param>
+        <initializer>(((<ref refid="struct_py_memory_view_object" kindref="compound">PyMemoryViewObject</ref> *)(op))-&gt;view.obj)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="20" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a4bdfa1f5f5822d29e6ea67093b55dd74" prot="public" static="no">
+        <name>_Py_MANAGED_BUFFER_RELEASED</name>
+        <initializer>0x001  /* access to exporter blocked */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="40" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a98437e008b0ca747ad2f36ec9ef24b6c" prot="public" static="no">
+        <name>_Py_MANAGED_BUFFER_FREE_FORMAT</name>
+        <initializer>0x002  /* free format */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="41" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a0836875276b3bec84786cb90229caea4" prot="public" static="no">
+        <name>_Py_MEMORYVIEW_RELEASED</name>
+        <initializer>0x001  /* access to master buffer blocked */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="51" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a53d9ab35647b975f95b0137e2f6afcce" prot="public" static="no">
+        <name>_Py_MEMORYVIEW_C</name>
+        <initializer>0x002  /* C-contiguous layout */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="52" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a734681b791d283c0472510acdc512b81" prot="public" static="no">
+        <name>_Py_MEMORYVIEW_FORTRAN</name>
+        <initializer>0x004  /* Fortran contiguous layout */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="53" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1a45403f82b0e864b3394a980ed5434ba1" prot="public" static="no">
+        <name>_Py_MEMORYVIEW_SCALAR</name>
+        <initializer>0x008  /* scalar: ndim = 0 */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="54" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="memoryobject_8h_1aff64ada5af8820d99f83370a2475a764" prot="public" static="no">
+        <name>_Py_MEMORYVIEW_PIL</name>
+        <initializer>0x010  /* PIL-style layout */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="55" column="9" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="memoryobject_8h_1a612c27dae5681d14a5d92d0b3d8ab6e5" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="25" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="memoryobject_8h_1a89e8648e0789cd2d57078ca54518aeb2" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t int</type>
+        <definition>Py_ssize_t int flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="26" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="memoryobject_8h_1a9e70be5a4c46304c93eb2f413a726b66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int buffertype</definition>
+        <argsstring></argsstring>
+        <name>buffertype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="32" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="memoryobject_8h_1a83c2f09970f48cbcee93fe06f6bd7bfd" prot="public" static="no" mutable="no">
+        <type>int char</type>
+        <definition>int char order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="33" column="1" bodyfile="/usr/include/python3.6m/memoryobject.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="memoryobject_8h_1ab2e404403ccd27680fdb987704fde610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) _PyManagedBuffer_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="10" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="memoryobject_8h_1a64590bfc50b2ff62506c2f15e1d35ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyMemoryView_FromObject(PyObject *base)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/memoryobject.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*<sp/>Memory<sp/>view<sp/>object.<sp/>In<sp/>Python<sp/>this<sp/>is<sp/>available<sp/>as<sp/>&quot;memoryview&quot;.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_MEMORYOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_MEMORYOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>_PyManagedBuffer_Type;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyMemoryView_Type;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMemoryView_Check(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyMemoryView_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>memoryview&apos;s<sp/>private<sp/>copy<sp/>of<sp/>the<sp/>exporter&apos;s<sp/>buffer.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMemoryView_GET_BUFFER(op)<sp/>(&amp;((PyMemoryViewObject<sp/>*)(op))-&gt;view)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Get<sp/>a<sp/>pointer<sp/>to<sp/>the<sp/>exporting<sp/>object<sp/>(this<sp/>may<sp/>be<sp/>NULL!).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyMemoryView_GET_BASE(op)<sp/>(((PyMemoryViewObject<sp/>*)(op))-&gt;view.obj)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyMemoryView_FromObject(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*base);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(Py_LIMITED_API)<sp/>||<sp/>Py_LIMITED_API+0<sp/>&gt;=<sp/>0x03030000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyMemoryView_FromMemory(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mem,<sp/>Py_ssize_t<sp/>size,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyMemoryView_FromBuffer(<ref refid="structbufferinfo" kindref="compound">Py_buffer</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyMemoryView_GetContiguous(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*base,</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buffertype,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>order);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>structs<sp/>are<sp/>declared<sp/>here<sp/>so<sp/>that<sp/>macros<sp/>can<sp/>work,<sp/>but<sp/>they<sp/>shouldn&apos;t</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/>be<sp/>considered<sp/>public.<sp/>Don&apos;t<sp/>access<sp/>their<sp/>fields<sp/>directly,<sp/>use<sp/>the<sp/>macros</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/>and<sp/>functions<sp/>instead!<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MANAGED_BUFFER_RELEASED<sp/><sp/><sp/><sp/>0x001<sp/><sp/></highlight><highlight class="comment">/*<sp/>access<sp/>to<sp/>exporter<sp/>blocked<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MANAGED_BUFFER_FREE_FORMAT<sp/>0x002<sp/><sp/></highlight><highlight class="comment">/*<sp/>free<sp/>format<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="struct___py_managed_buffer_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>state<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>exports;<sp/></highlight><highlight class="comment">/*<sp/>number<sp/>of<sp/>direct<sp/>memoryview<sp/>exports<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref><sp/>master;<sp/></highlight><highlight class="comment">/*<sp/>snapshot<sp/>buffer<sp/>obtained<sp/>from<sp/>the<sp/>original<sp/>exporter<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal">}<sp/><ref refid="struct___py_managed_buffer_object" kindref="compound">_PyManagedBufferObject</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>memoryview<sp/>state<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MEMORYVIEW_RELEASED<sp/><sp/><sp/><sp/>0x001<sp/><sp/></highlight><highlight class="comment">/*<sp/>access<sp/>to<sp/>master<sp/>buffer<sp/>blocked<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MEMORYVIEW_C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x002<sp/><sp/></highlight><highlight class="comment">/*<sp/>C-contiguous<sp/>layout<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MEMORYVIEW_FORTRAN<sp/><sp/><sp/><sp/><sp/>0x004<sp/><sp/></highlight><highlight class="comment">/*<sp/>Fortran<sp/>contiguous<sp/>layout<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MEMORYVIEW_SCALAR<sp/><sp/><sp/><sp/><sp/><sp/>0x008<sp/><sp/></highlight><highlight class="comment">/*<sp/>scalar:<sp/>ndim<sp/>=<sp/>0<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_Py_MEMORYVIEW_PIL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x010<sp/><sp/></highlight><highlight class="comment">/*<sp/>PIL-style<sp/>layout<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="struct_py_memory_view_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_VAR_HEAD</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_managed_buffer_object" kindref="compound">_PyManagedBufferObject</ref><sp/>*mbuf;<sp/></highlight><highlight class="comment">/*<sp/>managed<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_hash_t<sp/>hash;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>hash<sp/>value<sp/>for<sp/>read-only<sp/>views<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flags;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>state<sp/>flags<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>exports;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>number<sp/>of<sp/>buffer<sp/>re-exports<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structbufferinfo" kindref="compound">Py_buffer</ref><sp/>view;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>private<sp/>copy<sp/>of<sp/>the<sp/>exporter&apos;s<sp/>view<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*weakreflist;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>ob_array[1];<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>shape,<sp/>strides,<sp/>suboffsets<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/><ref refid="struct_py_memory_view_object" kindref="compound">PyMemoryViewObject</ref>;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_MEMORYOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/memoryobject.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dtoa_8h" kind="file" language="C++">
+    <compoundname>dtoa.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2903">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2904">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2906">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2901">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2902" relation="include">
+        </childnode>
+        <childnode refid="2904" relation="include">
+        </childnode>
+        <childnode refid="2905" relation="include">
+        </childnode>
+        <childnode refid="2906" relation="include">
+        </childnode>
+        <childnode refid="2907" relation="include">
+        </childnode>
+      </node>
+      <node id="2907">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2902">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2903" relation="include">
+        </childnode>
+      </node>
+      <node id="2900">
+        <label>/usr/include/python3.6m/dtoa.h</label>
+        <link refid="dtoa_8h"/>
+        <childnode refid="2901" relation="include">
+        </childnode>
+      </node>
+      <node id="2905">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="dtoa_8h_1ab9ed1f49a75a5e709fc7453836c271db" prot="public" static="no" mutable="no">
+        <type>char **</type>
+        <definition>uintptr_t ptr</definition>
+        <argsstring></argsstring>
+        <name>ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="7" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dtoa_8h_1abe9902589eaf2ef9015fde2dd10ba6ac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>const char * mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="8" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dtoa_8h_1aac66a229816bff698667997377a28b4e" prot="public" static="no" mutable="no">
+        <type>int int</type>
+        <definition>int int ndigits</definition>
+        <argsstring></argsstring>
+        <name>ndigits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="8" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dtoa_8h_1a04fcabb6956f4834e95b414754cde2ba" prot="public" static="no" mutable="no">
+        <type>int int int *</type>
+        <definition>int int int* decpt</definition>
+        <argsstring></argsstring>
+        <name>decpt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="9" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dtoa_8h_1a36b684ca8c040951f446b4a9acbc929c" prot="public" static="no" mutable="no">
+        <type>int int int int *</type>
+        <definition>int int int int* sign</definition>
+        <argsstring></argsstring>
+        <name>sign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="9" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="dtoa_8h_1a682c1d80bad94954d31f1fa03b008269" prot="public" static="no" mutable="no">
+        <type>int int int int char **</type>
+        <definition>int int int int char** rve</definition>
+        <argsstring></argsstring>
+        <name>rve</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="9" column="1" bodyfile="/usr/include/python3.6m/dtoa.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dtoa_8h_1aa3fe0138a52e63cfb9e3a74d7c1540ff" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(double) _Py_dg_strtod(const char *str</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="7" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dtoa_8h_1aaedfc5af17d3827fbc288c1693e729ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(char *) _Py_dg_dtoa(double d</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="8" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dtoa_8h_1aa8d8985112110399e01480946734d38a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _Py_dg_freedtoa(char *s)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/dtoa.h" line="10" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>PY_NO_SHORT_FLOAT_REPR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_dg_strtod(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**ptr);</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)<sp/>_Py_dg_dtoa(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>d,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mode,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ndigits,</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*decpt,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*sign,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>**rve);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_dg_freedtoa(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*s);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_dg_stdnan(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sign);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_Py_dg_infinity(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>sign);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/dtoa.h"/>
+  </compounddef>
+</doxygen>

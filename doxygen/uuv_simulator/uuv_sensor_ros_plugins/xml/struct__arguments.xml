@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__arguments" kind="struct" language="C++" prot="public">
+    <compoundname>_arguments</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__arguments_1a8c7f1276ee2548bfb5f83e1226a81120" prot="public" static="no" mutable="no">
+        <type><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref> *</type>
+        <definition>asdl_seq* _arguments::args</definition>
+        <argsstring></argsstring>
+        <name>args</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="411" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__arguments_1a7a4c5d2913274994c51dce9db2dfed10" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__arg" kindref="compound">arg_ty</ref></type>
+        <definition>arg_ty _arguments::vararg</definition>
+        <argsstring></argsstring>
+        <name>vararg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="412" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__arguments_1ab9566ca54cd6ce53756a73c474b992af" prot="public" static="no" mutable="no">
+        <type><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref> *</type>
+        <definition>asdl_seq* _arguments::kwonlyargs</definition>
+        <argsstring></argsstring>
+        <name>kwonlyargs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="413" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__arguments_1add609b561677ff6cab47e44065fbc2cc" prot="public" static="no" mutable="no">
+        <type><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref> *</type>
+        <definition>asdl_seq* _arguments::kw_defaults</definition>
+        <argsstring></argsstring>
+        <name>kw_defaults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="414" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__arguments_1a295c30a7bc0592ec44c6e5fa763560b5" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__arg" kindref="compound">arg_ty</ref></type>
+        <definition>arg_ty _arguments::kwarg</definition>
+        <argsstring></argsstring>
+        <name>kwarg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="415" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__arguments_1a23d24a2fa218bdb0a430df6353d19b63" prot="public" static="no" mutable="no">
+        <type><ref refid="structasdl__seq" kindref="compound">asdl_seq</ref> *</type>
+        <definition>asdl_seq* _arguments::defaults</definition>
+        <argsstring></argsstring>
+        <name>defaults</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/Python-ast.h" line="416" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="39">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="41">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="34">
+        <label>_arg</label>
+        <link refid="struct__arg"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>arg</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>annotation</edgelabel>
+        </childnode>
+      </node>
+      <node id="47">
+        <label>asdl_int_seq</label>
+        <link refid="structasdl__int__seq"/>
+      </node>
+      <node id="46">
+        <label>_slice</label>
+        <link refid="struct__slice"/>
+        <childnode refid="33" relation="usage">
+          <edgelabel>dims</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>lower</edgelabel>
+          <edgelabel>value</edgelabel>
+          <edgelabel>upper</edgelabel>
+          <edgelabel>step</edgelabel>
+        </childnode>
+      </node>
+      <node id="40">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="42">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="37" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="38" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="39" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="40" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="41" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="43" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="36" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="37">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="32">
+        <label>_arguments</label>
+        <link refid="struct__arguments"/>
+        <childnode refid="33" relation="usage">
+          <edgelabel>kwonlyargs</edgelabel>
+          <edgelabel>defaults</edgelabel>
+          <edgelabel>kw_defaults</edgelabel>
+          <edgelabel>args</edgelabel>
+        </childnode>
+        <childnode refid="34" relation="usage">
+          <edgelabel>vararg</edgelabel>
+          <edgelabel>kwarg</edgelabel>
+        </childnode>
+      </node>
+      <node id="33">
+        <label>asdl_seq</label>
+        <link refid="structasdl__seq"/>
+      </node>
+      <node id="45">
+        <label>_expr</label>
+        <link refid="struct__expr"/>
+        <childnode refid="46" relation="usage">
+          <edgelabel>slice</edgelabel>
+        </childnode>
+        <childnode refid="47" relation="usage">
+          <edgelabel>ops</edgelabel>
+        </childnode>
+        <childnode refid="32" relation="usage">
+          <edgelabel>args</edgelabel>
+        </childnode>
+        <childnode refid="33" relation="usage">
+          <edgelabel>values</edgelabel>
+          <edgelabel>keys</edgelabel>
+          <edgelabel>elts</edgelabel>
+          <edgelabel>comparators</edgelabel>
+          <edgelabel>generators</edgelabel>
+          <edgelabel>keywords</edgelabel>
+          <edgelabel>args</edgelabel>
+        </childnode>
+        <childnode refid="35" relation="usage">
+          <edgelabel>attr</edgelabel>
+          <edgelabel>n</edgelabel>
+          <edgelabel>value</edgelabel>
+          <edgelabel>id</edgelabel>
+          <edgelabel>s</edgelabel>
+        </childnode>
+        <childnode refid="45" relation="usage">
+          <edgelabel>body</edgelabel>
+          <edgelabel>format_spec</edgelabel>
+          <edgelabel>test</edgelabel>
+          <edgelabel>func</edgelabel>
+          <edgelabel>right</edgelabel>
+          <edgelabel>elt</edgelabel>
+          <edgelabel>left</edgelabel>
+          <edgelabel>key</edgelabel>
+          <edgelabel>value</edgelabel>
+          <edgelabel>orelse</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="43">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="44">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="35" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="38">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/Python-ast.h" line="410" column="1" bodyfile="/usr/include/python3.6m/Python-ast.h" bodystart="410" bodyend="417"/>
+    <listofallmembers>
+      <member refid="struct__arguments_1a8c7f1276ee2548bfb5f83e1226a81120" prot="public" virt="non-virtual"><scope>_arguments</scope><name>args</name></member>
+      <member refid="struct__arguments_1a23d24a2fa218bdb0a430df6353d19b63" prot="public" virt="non-virtual"><scope>_arguments</scope><name>defaults</name></member>
+      <member refid="struct__arguments_1add609b561677ff6cab47e44065fbc2cc" prot="public" virt="non-virtual"><scope>_arguments</scope><name>kw_defaults</name></member>
+      <member refid="struct__arguments_1a295c30a7bc0592ec44c6e5fa763560b5" prot="public" virt="non-virtual"><scope>_arguments</scope><name>kwarg</name></member>
+      <member refid="struct__arguments_1ab9566ca54cd6ce53756a73c474b992af" prot="public" virt="non-virtual"><scope>_arguments</scope><name>kwonlyargs</name></member>
+      <member refid="struct__arguments_1a7a4c5d2913274994c51dce9db2dfed10" prot="public" virt="non-virtual"><scope>_arguments</scope><name>vararg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

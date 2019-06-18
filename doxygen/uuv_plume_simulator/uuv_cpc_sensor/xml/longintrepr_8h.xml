@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="longintrepr_8h" kind="file" language="C++">
+    <compoundname>longintrepr.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="3194">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3191">
+        <label>/usr/include/python3.6m/longintrepr.h</label>
+        <link refid="longintrepr_8h"/>
+        <childnode refid="3192" relation="include">
+        </childnode>
+      </node>
+      <node id="3195">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3197">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3192">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3193" relation="include">
+        </childnode>
+        <childnode refid="3195" relation="include">
+        </childnode>
+        <childnode refid="3196" relation="include">
+        </childnode>
+        <childnode refid="3197" relation="include">
+        </childnode>
+        <childnode refid="3198" relation="include">
+        </childnode>
+      </node>
+      <node id="3198">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3193">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3194" relation="include">
+        </childnode>
+      </node>
+      <node id="3196">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__longobject" prot="public">_longobject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="longintrepr_8h_1aca38e7ac776e1ac538c99fcd971e126e" prot="public" static="no">
+        <name>PyLong_BASE</name>
+        <initializer>((digit)1 &lt;&lt; PyLong_SHIFT)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longintrepr.h" line="63" column="12" bodyfile="/usr/include/python3.6m/longintrepr.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="longintrepr_8h_1a1baac5f818d33579a986be594a482b25" prot="public" static="no">
+        <name>PyLong_MASK</name>
+        <initializer>((digit)(PyLong_BASE - 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longintrepr.h" line="64" column="9" bodyfile="/usr/include/python3.6m/longintrepr.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="longintrepr_8h_1ad76298a0f3e6ccb04bf453c38fb884a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyLongObject *) _PyLong_New(Py_ssize_t)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__longobject" kindref="compound">PyLongObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longintrepr.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="longintrepr_8h_1ae6412d74aa266e953c3369baf0850dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) _PyLong_Copy(PyLongObject *src)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/longintrepr.h" line="93" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LONGINTREPR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_LONGINTREPR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>This<sp/>is<sp/>published<sp/>for<sp/>the<sp/>benefit<sp/>of<sp/>&quot;friends&quot;<sp/>marshal.c<sp/>and<sp/>_decimal.c.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Parameters<sp/>of<sp/>the<sp/>integer<sp/>representation.<sp/><sp/>There<sp/>are<sp/>two<sp/>different</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/>sets<sp/>of<sp/>parameters:<sp/>one<sp/>set<sp/>for<sp/>30-bit<sp/>digits,<sp/>stored<sp/>in<sp/>an<sp/>unsigned<sp/>32-bit</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/>integer<sp/>type,<sp/>and<sp/>one<sp/>set<sp/>for<sp/>15-bit<sp/>digits<sp/>with<sp/>each<sp/>digit<sp/>stored<sp/>in<sp/>an</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/>unsigned<sp/>short.<sp/><sp/>The<sp/>value<sp/>of<sp/>PYLONG_BITS_IN_DIGIT,<sp/>defined<sp/>either<sp/>at</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/>configure<sp/>time<sp/>or<sp/>in<sp/>pyport.h,<sp/>is<sp/>used<sp/>to<sp/>decide<sp/>which<sp/>digit<sp/>size<sp/>to<sp/>use.</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"></highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/>Type<sp/>&apos;digit&apos;<sp/>should<sp/>be<sp/>able<sp/>to<sp/>hold<sp/>2*PyLong_BASE-1,<sp/>and<sp/>type<sp/>&apos;twodigits&apos;</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/>should<sp/>be<sp/>an<sp/>unsigned<sp/>integer<sp/>type<sp/>able<sp/>to<sp/>hold<sp/>all<sp/>integers<sp/>up<sp/>to</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/>PyLong_BASE*PyLong_BASE-1.<sp/><sp/>x_sub<sp/>assumes<sp/>that<sp/>&apos;digit&apos;<sp/>is<sp/>an<sp/>unsigned<sp/>type,</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/>and<sp/>that<sp/>overflow<sp/>is<sp/>handled<sp/>by<sp/>taking<sp/>the<sp/>result<sp/>modulo<sp/>2**N<sp/>for<sp/>some<sp/>N<sp/>&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/><sp/>PyLong_SHIFT.<sp/><sp/>The<sp/>majority<sp/>of<sp/>the<sp/>code<sp/>doesn&apos;t<sp/>care<sp/>about<sp/>the<sp/>precise</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/><sp/><sp/>value<sp/>of<sp/>PyLong_SHIFT,<sp/>but<sp/>there<sp/>are<sp/>some<sp/>notable<sp/>exceptions:</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"></highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/><sp/>-<sp/>long_pow()<sp/>requires<sp/>that<sp/>PyLong_SHIFT<sp/>be<sp/>divisible<sp/>by<sp/>5</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"></highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/><sp/>-<sp/>PyLong_{As,From}ByteArray<sp/>require<sp/>that<sp/>PyLong_SHIFT<sp/>be<sp/>at<sp/>least<sp/>8</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"></highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/>-<sp/>long_hash()<sp/>requires<sp/>that<sp/>PyLong_SHIFT<sp/>is<sp/>*strictly*<sp/>less<sp/>than<sp/>the<sp/>number</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>of<sp/>bits<sp/>in<sp/>an<sp/>unsigned<sp/>long,<sp/>as<sp/>do<sp/>the<sp/>PyLong<sp/>&lt;-&gt;<sp/>long<sp/>(or<sp/>unsigned<sp/>long)</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>conversion<sp/>functions</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/>-<sp/>the<sp/>Python<sp/>int<sp/>&lt;-&gt;<sp/>size_t/Py_ssize_t<sp/>conversion<sp/>functions<sp/>expect<sp/>that</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>PyLong_SHIFT<sp/>is<sp/>strictly<sp/>less<sp/>than<sp/>the<sp/>number<sp/>of<sp/>bits<sp/>in<sp/>a<sp/>size_t</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"></highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/>-<sp/>the<sp/>marshal<sp/>code<sp/>currently<sp/>expects<sp/>that<sp/>PyLong_SHIFT<sp/>is<sp/>a<sp/>multiple<sp/>of<sp/>15</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/>-<sp/>NSMALLNEGINTS<sp/>and<sp/>NSMALLPOSINTS<sp/>should<sp/>be<sp/>small<sp/>enough<sp/>to<sp/>fit<sp/>in<sp/>a<sp/>single</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/>digit;<sp/>with<sp/>the<sp/>current<sp/>values<sp/>this<sp/>forces<sp/>PyLong_SHIFT<sp/>&gt;=<sp/>9</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/>The<sp/>values<sp/>15<sp/>and<sp/>30<sp/>should<sp/>fit<sp/>all<sp/>of<sp/>the<sp/>above<sp/>requirements,<sp/>on<sp/>any</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/>platform.</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PYLONG_BITS_IN_DIGIT<sp/>==<sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint32_t<sp/>digit;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int32_t<sp/>sdigit;<sp/></highlight><highlight class="comment">/*<sp/>signed<sp/>variant<sp/>of<sp/>digit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>uint64_t<sp/>twodigits;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int64_t<sp/>stwodigits;<sp/></highlight><highlight class="comment">/*<sp/>signed<sp/>variant<sp/>of<sp/>twodigits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_SHIFT<sp/><sp/><sp/><sp/>30</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyLong_DECIMAL_SHIFT<sp/><sp/><sp/>9<sp/></highlight><highlight class="comment">/*<sp/>max(e<sp/>such<sp/>that<sp/>10**e<sp/>fits<sp/>in<sp/>a<sp/>digit)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyLong_DECIMAL_BASE<sp/><sp/><sp/><sp/>((digit)1000000000)<sp/></highlight><highlight class="comment">/*<sp/>10<sp/>**<sp/>DECIMAL_SHIFT<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>PYLONG_BITS_IN_DIGIT<sp/>==<sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>digit;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">short</highlight><highlight class="normal"><sp/>sdigit;<sp/></highlight><highlight class="comment">/*<sp/>signed<sp/>variant<sp/>of<sp/>digit<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>twodigits;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>stwodigits;<sp/></highlight><highlight class="comment">/*<sp/>signed<sp/>variant<sp/>of<sp/>twodigits<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_SHIFT<sp/><sp/><sp/><sp/>15</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyLong_DECIMAL_SHIFT<sp/><sp/><sp/>4<sp/></highlight><highlight class="comment">/*<sp/>max(e<sp/>such<sp/>that<sp/>10**e<sp/>fits<sp/>in<sp/>a<sp/>digit)<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_PyLong_DECIMAL_BASE<sp/><sp/><sp/><sp/>((digit)10000)<sp/></highlight><highlight class="comment">/*<sp/>10<sp/>**<sp/>DECIMAL_SHIFT<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;PYLONG_BITS_IN_DIGIT<sp/>should<sp/>be<sp/>15<sp/>or<sp/>30&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_BASE<sp/>((digit)1<sp/>&lt;&lt;<sp/>PyLong_SHIFT)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyLong_MASK<sp/>((digit)(PyLong_BASE<sp/>-<sp/>1))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PyLong_SHIFT<sp/>%<sp/>5<sp/>!=<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>&quot;longobject.c<sp/>requires<sp/>that<sp/>PyLong_SHIFT<sp/>be<sp/>divisible<sp/>by<sp/>5&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Long<sp/>integer<sp/>representation.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/>The<sp/>absolute<sp/>value<sp/>of<sp/>a<sp/>number<sp/>is<sp/>equal<sp/>to</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/>SUM(for<sp/>i=0<sp/>through<sp/>abs(ob_size)-1)<sp/>ob_digit[i]<sp/>*<sp/>2**(SHIFT*i)</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/>Negative<sp/>numbers<sp/>are<sp/>represented<sp/>with<sp/>ob_size<sp/>&lt;<sp/>0;</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/>zero<sp/>is<sp/>represented<sp/>by<sp/>ob_size<sp/>==<sp/>0.</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/>In<sp/>a<sp/>normalized<sp/>number,<sp/>ob_digit[abs(ob_size)-1]<sp/>(the<sp/>most<sp/>significant</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/>digit)<sp/>is<sp/>never<sp/>zero.<sp/><sp/>Also,<sp/>in<sp/>all<sp/>cases,<sp/>for<sp/>all<sp/>valid<sp/>i,</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/>0<sp/>&lt;=<sp/>ob_digit[i]<sp/>&lt;=<sp/>MASK.</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/>The<sp/>allocation<sp/>function<sp/>takes<sp/>care<sp/>of<sp/>allocating<sp/>extra<sp/>memory</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/>so<sp/>that<sp/>ob_digit[0]<sp/>...<sp/>ob_digit[abs(ob_size)-1]<sp/>are<sp/>actually<sp/>available.</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/>CAUTION:<sp/><sp/>Generic<sp/>code<sp/>manipulating<sp/>subtypes<sp/>of<sp/>PyVarObject<sp/>has<sp/>to</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/><sp/><sp/>aware<sp/>that<sp/>ints<sp/>abuse<sp/><sp/>ob_size&apos;s<sp/>sign<sp/>bit.</highlight></codeline>
+<codeline lineno="83"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="struct__longobject" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__longobject" kindref="compound">_longobject</ref><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_VAR_HEAD</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>digit<sp/>ob_digit[1];</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__longobject" kindref="compound">PyLongObject</ref><sp/>*)<sp/>_PyLong_New(Py_ssize_t);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>a<sp/>copy<sp/>of<sp/>src.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>_PyLong_Copy(<ref refid="struct__longobject" kindref="compound">PyLongObject</ref><sp/>*src);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LONGINTREPR_H<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/longintrepr.h"/>
+  </compounddef>
+</doxygen>

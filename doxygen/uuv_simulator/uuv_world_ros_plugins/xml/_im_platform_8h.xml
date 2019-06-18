@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_im_platform_8h" kind="file" language="C++">
+    <compoundname>ImPlatform.h</compoundname>
+    <includes refid="_python_8h" local="yes">Python.h</includes>
+    <includedby refid="_imaging_8h" local="yes">/usr/include/python3.6m/Imaging.h</includedby>
+    <incdepgraph>
+      <node id="3119">
+        <label>traceback.h</label>
+        <link refid="traceback_8h_source"/>
+        <childnode refid="3120" relation="include">
+        </childnode>
+      </node>
+      <node id="3092">
+        <label>typeslots.h</label>
+        <link refid="typeslots_8h_source"/>
+      </node>
+      <node id="3141">
+        <label>abstract.h</label>
+        <link refid="abstract_8h_source"/>
+      </node>
+      <node id="3096">
+        <label>stdarg.h</label>
+      </node>
+      <node id="3151">
+        <label>pyfpe.h</label>
+        <link refid="pyfpe_8h_source"/>
+      </node>
+      <node id="3132">
+        <label>pyarena.h</label>
+        <link refid="pyarena_8h_source"/>
+      </node>
+      <node id="3123">
+        <label>iterobject.h</label>
+        <link refid="iterobject_8h_source"/>
+      </node>
+      <node id="3134">
+        <label>pythonrun.h</label>
+        <link refid="pythonrun_8h_source"/>
+      </node>
+      <node id="3107">
+        <label>tupleobject.h</label>
+        <link refid="tupleobject_8h_source"/>
+      </node>
+      <node id="3089">
+        <label>object.h</label>
+        <link refid="object_8h_source"/>
+      </node>
+      <node id="3124">
+        <label>genobject.h</label>
+        <link refid="genobject_8h_source"/>
+      </node>
+      <node id="3080">
+        <label>assert.h</label>
+      </node>
+      <node id="3121">
+        <label>sliceobject.h</label>
+        <link refid="sliceobject_8h_source"/>
+      </node>
+      <node id="3101">
+        <label>longintrepr.h</label>
+        <link refid="longintrepr_8h_source"/>
+      </node>
+      <node id="3125">
+        <label>descrobject.h</label>
+        <link refid="descrobject_8h_source"/>
+      </node>
+      <node id="3130">
+        <label>codecs.h</label>
+        <link refid="codecs_8h_source"/>
+      </node>
+      <node id="3137">
+        <label>sysmodule.h</label>
+        <link refid="sysmodule_8h_source"/>
+      </node>
+      <node id="3112">
+        <label>setobject.h</label>
+        <link refid="setobject_8h_source"/>
+      </node>
+      <node id="3108">
+        <label>listobject.h</label>
+        <link refid="listobject_8h_source"/>
+      </node>
+      <node id="3138">
+        <label>osmodule.h</label>
+        <link refid="osmodule_8h_source"/>
+      </node>
+      <node id="3079">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3128">
+        <label>structseq.h</label>
+        <link refid="structseq_8h_source"/>
+      </node>
+      <node id="3098">
+        <label>unicodeobject.h</label>
+        <link refid="unicodeobject_8h_source"/>
+        <childnode refid="3096" relation="include">
+        </childnode>
+        <childnode refid="3099" relation="include">
+        </childnode>
+      </node>
+      <node id="3143">
+        <label>compile.h</label>
+        <link refid="compile_8h_source"/>
+        <childnode refid="3144" relation="include">
+        </childnode>
+      </node>
+      <node id="3090">
+        <label>pymem.h</label>
+        <link refid="pymem_8h_source"/>
+        <childnode refid="3081" relation="include">
+        </childnode>
+      </node>
+      <node id="3127">
+        <label>weakrefobject.h</label>
+        <link refid="weakrefobject_8h_source"/>
+      </node>
+      <node id="3144">
+        <label>code.h</label>
+        <link refid="code_8h_source"/>
+      </node>
+      <node id="3088">
+        <label>pytime.h</label>
+        <link refid="pytime_8h_source"/>
+        <childnode refid="3074" relation="include">
+        </childnode>
+        <childnode refid="3089" relation="include">
+        </childnode>
+      </node>
+      <node id="3148">
+        <label>pystrcmp.h</label>
+        <link refid="pystrcmp_8h_source"/>
+      </node>
+      <node id="3145">
+        <label>eval.h</label>
+        <link refid="eval_8h_source"/>
+      </node>
+      <node id="3147">
+        <label>pystrtod.h</label>
+        <link refid="pystrtod_8h_source"/>
+      </node>
+      <node id="3087">
+        <label>pymath.h</label>
+        <link refid="pymath_8h_source"/>
+        <childnode refid="3074" relation="include">
+        </childnode>
+      </node>
+      <node id="3095">
+        <label>bytearrayobject.h</label>
+        <link refid="bytearrayobject_8h_source"/>
+        <childnode refid="3096" relation="include">
+        </childnode>
+      </node>
+      <node id="3076">
+        <label>limits.h</label>
+      </node>
+      <node id="3118">
+        <label>pycapsule.h</label>
+        <link refid="pycapsule_8h_source"/>
+      </node>
+      <node id="3140">
+        <label>import.h</label>
+        <link refid="import_8h_source"/>
+      </node>
+      <node id="3086">
+        <label>pyatomic.h</label>
+        <link refid="pyatomic_8h_source"/>
+      </node>
+      <node id="3091">
+        <label>objimpl.h</label>
+        <link refid="objimpl_8h_source"/>
+        <childnode refid="3090" relation="include">
+        </childnode>
+      </node>
+      <node id="3122">
+        <label>cellobject.h</label>
+        <link refid="cellobject_8h_source"/>
+      </node>
+      <node id="3150">
+        <label>fileutils.h</label>
+        <link refid="fileutils_8h_source"/>
+      </node>
+      <node id="3072">
+        <label>Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3073" relation="include">
+        </childnode>
+        <childnode refid="3074" relation="include">
+        </childnode>
+        <childnode refid="3075" relation="include">
+        </childnode>
+        <childnode refid="3076" relation="include">
+        </childnode>
+        <childnode refid="3077" relation="include">
+        </childnode>
+        <childnode refid="3078" relation="include">
+        </childnode>
+        <childnode refid="3079" relation="include">
+        </childnode>
+        <childnode refid="3080" relation="include">
+        </childnode>
+        <childnode refid="3081" relation="include">
+        </childnode>
+        <childnode refid="3085" relation="include">
+        </childnode>
+        <childnode refid="3086" relation="include">
+        </childnode>
+        <childnode refid="3087" relation="include">
+        </childnode>
+        <childnode refid="3088" relation="include">
+        </childnode>
+        <childnode refid="3090" relation="include">
+        </childnode>
+        <childnode refid="3089" relation="include">
+        </childnode>
+        <childnode refid="3091" relation="include">
+        </childnode>
+        <childnode refid="3092" relation="include">
+        </childnode>
+        <childnode refid="3093" relation="include">
+        </childnode>
+        <childnode refid="3094" relation="include">
+        </childnode>
+        <childnode refid="3095" relation="include">
+        </childnode>
+        <childnode refid="3097" relation="include">
+        </childnode>
+        <childnode refid="3098" relation="include">
+        </childnode>
+        <childnode refid="3100" relation="include">
+        </childnode>
+        <childnode refid="3101" relation="include">
+        </childnode>
+        <childnode refid="3102" relation="include">
+        </childnode>
+        <childnode refid="3103" relation="include">
+        </childnode>
+        <childnode refid="3104" relation="include">
+        </childnode>
+        <childnode refid="3105" relation="include">
+        </childnode>
+        <childnode refid="3106" relation="include">
+        </childnode>
+        <childnode refid="3107" relation="include">
+        </childnode>
+        <childnode refid="3108" relation="include">
+        </childnode>
+        <childnode refid="3109" relation="include">
+        </childnode>
+        <childnode refid="3110" relation="include">
+        </childnode>
+        <childnode refid="3111" relation="include">
+        </childnode>
+        <childnode refid="3112" relation="include">
+        </childnode>
+        <childnode refid="3113" relation="include">
+        </childnode>
+        <childnode refid="3114" relation="include">
+        </childnode>
+        <childnode refid="3115" relation="include">
+        </childnode>
+        <childnode refid="3116" relation="include">
+        </childnode>
+        <childnode refid="3117" relation="include">
+        </childnode>
+        <childnode refid="3118" relation="include">
+        </childnode>
+        <childnode refid="3119" relation="include">
+        </childnode>
+        <childnode refid="3121" relation="include">
+        </childnode>
+        <childnode refid="3122" relation="include">
+        </childnode>
+        <childnode refid="3123" relation="include">
+        </childnode>
+        <childnode refid="3124" relation="include">
+        </childnode>
+        <childnode refid="3125" relation="include">
+        </childnode>
+        <childnode refid="3126" relation="include">
+        </childnode>
+        <childnode refid="3127" relation="include">
+        </childnode>
+        <childnode refid="3128" relation="include">
+        </childnode>
+        <childnode refid="3129" relation="include">
+        </childnode>
+        <childnode refid="3130" relation="include">
+        </childnode>
+        <childnode refid="3131" relation="include">
+        </childnode>
+        <childnode refid="3120" relation="include">
+        </childnode>
+        <childnode refid="3132" relation="include">
+        </childnode>
+        <childnode refid="3133" relation="include">
+        </childnode>
+        <childnode refid="3134" relation="include">
+        </childnode>
+        <childnode refid="3135" relation="include">
+        </childnode>
+        <childnode refid="3136" relation="include">
+        </childnode>
+        <childnode refid="3137" relation="include">
+        </childnode>
+        <childnode refid="3138" relation="include">
+        </childnode>
+        <childnode refid="3139" relation="include">
+        </childnode>
+        <childnode refid="3140" relation="include">
+        </childnode>
+        <childnode refid="3141" relation="include">
+        </childnode>
+        <childnode refid="3142" relation="include">
+        </childnode>
+        <childnode refid="3143" relation="include">
+        </childnode>
+        <childnode refid="3145" relation="include">
+        </childnode>
+        <childnode refid="3146" relation="include">
+        </childnode>
+        <childnode refid="3147" relation="include">
+        </childnode>
+        <childnode refid="3148" relation="include">
+        </childnode>
+        <childnode refid="3149" relation="include">
+        </childnode>
+        <childnode refid="3150" relation="include">
+        </childnode>
+        <childnode refid="3151" relation="include">
+        </childnode>
+      </node>
+      <node id="3078">
+        <label>string.h</label>
+      </node>
+      <node id="3104">
+        <label>complexobject.h</label>
+        <link refid="complexobject_8h_source"/>
+      </node>
+      <node id="3116">
+        <label>classobject.h</label>
+        <link refid="classobject_8h_source"/>
+      </node>
+      <node id="3117">
+        <label>fileobject.h</label>
+        <link refid="fileobject_8h_source"/>
+      </node>
+      <node id="3097">
+        <label>bytesobject.h</label>
+        <link refid="bytesobject_8h_source"/>
+        <childnode refid="3096" relation="include">
+        </childnode>
+      </node>
+      <node id="3071">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h"/>
+        <childnode refid="3072" relation="include">
+        </childnode>
+      </node>
+      <node id="3126">
+        <label>warnings.h</label>
+        <link refid="warnings_8h_source"/>
+      </node>
+      <node id="3102">
+        <label>boolobject.h</label>
+        <link refid="boolobject_8h_source"/>
+      </node>
+      <node id="3074">
+        <label>pyconfig.h</label>
+        <link refid="pyconfig_8h_source"/>
+      </node>
+      <node id="3111">
+        <label>enumobject.h</label>
+        <link refid="enumobject_8h_source"/>
+      </node>
+      <node id="3115">
+        <label>funcobject.h</label>
+        <link refid="funcobject_8h_source"/>
+      </node>
+      <node id="3110">
+        <label>odictobject.h</label>
+        <link refid="odictobject_8h_source"/>
+      </node>
+      <node id="3149">
+        <label>dtoa.h</label>
+        <link refid="dtoa_8h_source"/>
+      </node>
+      <node id="3103">
+        <label>floatobject.h</label>
+        <link refid="floatobject_8h_source"/>
+      </node>
+      <node id="3100">
+        <label>longobject.h</label>
+        <link refid="longobject_8h_source"/>
+      </node>
+      <node id="3094">
+        <label>pydebug.h</label>
+        <link refid="pydebug_8h_source"/>
+      </node>
+      <node id="3073">
+        <label>patchlevel.h</label>
+        <link refid="patchlevel_8h_source"/>
+      </node>
+      <node id="3133">
+        <label>modsupport.h</label>
+        <link refid="modsupport_8h_source"/>
+        <childnode refid="3096" relation="include">
+        </childnode>
+      </node>
+      <node id="3113">
+        <label>methodobject.h</label>
+        <link refid="methodobject_8h_source"/>
+      </node>
+      <node id="3084">
+        <label>time.h</label>
+      </node>
+      <node id="3109">
+        <label>dictobject.h</label>
+        <link refid="dictobject_8h_source"/>
+      </node>
+      <node id="3083">
+        <label>math.h</label>
+      </node>
+      <node id="3106">
+        <label>memoryobject.h</label>
+        <link refid="memoryobject_8h_source"/>
+      </node>
+      <node id="3085">
+        <label>pymacro.h</label>
+        <link refid="pymacro_8h_source"/>
+      </node>
+      <node id="3075">
+        <label>pymacconfig.h</label>
+        <link refid="pymacconfig_8h_source"/>
+      </node>
+      <node id="3099">
+        <label>ctype.h</label>
+      </node>
+      <node id="3081">
+        <label>pyport.h</label>
+        <link refid="pyport_8h_source"/>
+        <childnode refid="3074" relation="include">
+        </childnode>
+        <childnode refid="3082" relation="include">
+        </childnode>
+        <childnode refid="3079" relation="include">
+        </childnode>
+        <childnode refid="3083" relation="include">
+        </childnode>
+        <childnode refid="3084" relation="include">
+        </childnode>
+      </node>
+      <node id="3146">
+        <label>pyctype.h</label>
+        <link refid="pyctype_8h_source"/>
+      </node>
+      <node id="3131">
+        <label>pyerrors.h</label>
+        <link refid="pyerrors_8h_source"/>
+        <childnode refid="3096" relation="include">
+        </childnode>
+      </node>
+      <node id="3135">
+        <label>pylifecycle.h</label>
+        <link refid="pylifecycle_8h_source"/>
+      </node>
+      <node id="3114">
+        <label>moduleobject.h</label>
+        <link refid="moduleobject_8h_source"/>
+      </node>
+      <node id="3093">
+        <label>pyhash.h</label>
+        <link refid="pyhash_8h_source"/>
+      </node>
+      <node id="3142">
+        <label>bltinmodule.h</label>
+        <link refid="bltinmodule_8h_source"/>
+      </node>
+      <node id="3136">
+        <label>ceval.h</label>
+        <link refid="ceval_8h_source"/>
+      </node>
+      <node id="3129">
+        <label>namespaceobject.h</label>
+        <link refid="namespaceobject_8h_source"/>
+      </node>
+      <node id="3105">
+        <label>rangeobject.h</label>
+        <link refid="rangeobject_8h_source"/>
+      </node>
+      <node id="3120">
+        <label>pystate.h</label>
+        <link refid="pystate_8h_source"/>
+      </node>
+      <node id="3077">
+        <label>stdio.h</label>
+      </node>
+      <node id="3082">
+        <label>inttypes.h</label>
+      </node>
+      <node id="3139">
+        <label>intrcheck.h</label>
+        <link refid="intrcheck_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3153">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3152">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h"/>
+        <childnode refid="3153" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_im_platform_8h_1abc743ce126c3ada10501baffb3ca2295" prot="public" static="no">
+        <name>INT16</name>
+        <initializer>short /* most things works just fine anyway... */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="46" column="10" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1a7e125472d65b57f10905accbed140b99" prot="public" static="no">
+        <name>INT8</name>
+        <initializer>signed char</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="65" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1ad8ce12d83f204245685f98caf9d03944" prot="public" static="no">
+        <name>UINT8</name>
+        <initializer>unsigned char</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="66" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1ab1922c2d8643eb7da964d427604e992e" prot="public" static="no">
+        <name>UINT16</name>
+        <initializer>unsigned INT16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="68" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1a69afa2e50b905f4eab1f2df8a3fd9f23" prot="public" static="no">
+        <name>UINT32</name>
+        <initializer>unsigned INT32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="69" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1a9986d66f29078f384212483386d8df81" prot="public" static="no">
+        <name>FLOAT32</name>
+        <initializer>float</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="74" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_im_platform_8h_1a84dc0351876a879ccf9a5211945f99c0" prot="public" static="no">
+        <name>FLOAT64</name>
+        <initializer>double</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/ImPlatform.h" line="75" column="9" bodyfile="/usr/include/python3.6m/ImPlatform.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>The<sp/>Python<sp/>Imaging<sp/>Library</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>$Id$</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>platform<sp/>declarations<sp/>for<sp/>the<sp/>imaging<sp/>core<sp/>library</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>Fredrik<sp/>Lundh<sp/>1995-2003.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;Python.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Workaround<sp/>issue<sp/>#2479<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>PY_VERSION_HEX<sp/>&lt;<sp/>0x03070000<sp/>&amp;&amp;<sp/>defined(PySlice_GetIndicesEx)<sp/>&amp;&amp;<sp/>!defined(PYPY_VERSION)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#undef<sp/>PySlice_GetIndicesEx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Check<sp/>that<sp/>we<sp/>have<sp/>an<sp/>ANSI<sp/>compliant<sp/>compiler<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>HAVE_PROTOTYPES</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Sorry,<sp/>this<sp/>library<sp/>requires<sp/>support<sp/>for<sp/>ANSI<sp/>prototypes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>STDC_HEADERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Sorry,<sp/>this<sp/>library<sp/>requires<sp/>ANSI<sp/>header<sp/>files.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(PIL_NO_INLINE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)<sp/>&amp;&amp;<sp/>!defined(__GNUC__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>inline<sp/>__inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_WIN32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>WIN32_LEAN_AND_MEAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>For<sp/>System<sp/>that<sp/>are<sp/>not<sp/>Windows,<sp/>we&apos;ll<sp/>need<sp/>to<sp/>define<sp/>these.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>SIZEOF_SHORT<sp/>==<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT16<sp/>short</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_INT<sp/>==<sp/>2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT16<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT16<sp/>short<sp/></highlight><highlight class="comment">/*<sp/>most<sp/>things<sp/>works<sp/>just<sp/>fine<sp/>anyway...<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>SIZEOF_SHORT<sp/>==<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT32<sp/>short</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_INT<sp/>==<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT32<sp/>int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_LONG<sp/>==<sp/>4</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT32<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#error<sp/>Cannot<sp/>find<sp/>required<sp/>32-bit<sp/>integer<sp/>type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>SIZEOF_LONG<sp/>==<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT64<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>SIZEOF_LONG_LONG<sp/>==<sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT64<sp/>long</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INT8<sp/><sp/>signed<sp/>char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UINT8<sp/>unsigned<sp/>char</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UINT16<sp/>unsigned<sp/>INT16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UINT32<sp/>unsigned<sp/>INT32</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>assume<sp/>IEEE;<sp/>tweak<sp/>if<sp/>necessary<sp/>(patches<sp/>are<sp/>welcome)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLOAT32<sp/>float</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FLOAT64<sp/>double</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>_MSC_VER</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/>__int64<sp/><sp/><sp/><sp/><sp/><sp/><sp/>int64_t;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__GNUC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>GCC_VERSION<sp/>(__GNUC__<sp/>*<sp/>10000<sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>__GNUC_MINOR__<sp/>*<sp/>100<sp/>\</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>__GNUC_PATCHLEVEL__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/ImPlatform.h"/>
+  </compounddef>
+</doxygen>

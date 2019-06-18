@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="floatobject_8h" kind="file" language="C++">
+    <compoundname>floatobject.h</compoundname>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <invincdepgraph>
+      <node id="2952">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="2953">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="2955">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="2950">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="2951" relation="include">
+        </childnode>
+        <childnode refid="2953" relation="include">
+        </childnode>
+        <childnode refid="2954" relation="include">
+        </childnode>
+        <childnode refid="2955" relation="include">
+        </childnode>
+        <childnode refid="2956" relation="include">
+        </childnode>
+      </node>
+      <node id="2956">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="2951">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="2952" relation="include">
+        </childnode>
+      </node>
+      <node id="2949">
+        <label>/usr/include/python3.6m/floatobject.h</label>
+        <link refid="floatobject_8h"/>
+        <childnode refid="2950" relation="include">
+        </childnode>
+      </node>
+      <node id="2954">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_py_float_object" prot="public">PyFloatObject</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="floatobject_8h_1a2283f07375da5426b17e8235c6f91cad" prot="public" static="no">
+        <name>PyFloat_Check</name>
+        <param><defname>op</defname></param>
+        <initializer>PyObject_TypeCheck(op, &amp;PyFloat_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="23" column="9" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="floatobject_8h_1abfa5c0f1643068228e1d9f8452da9c5d" prot="public" static="no">
+        <name>PyFloat_CheckExact</name>
+        <param><defname>op</defname></param>
+        <initializer>(Py_TYPE(op) == &amp;PyFloat_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="24" column="9" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="floatobject_8h_1ab206bc55aaf6de4588f1e1569f8e9611" prot="public" static="no">
+        <name>Py_RETURN_INF</name>
+        <param><defname>sign</defname></param>
+        <initializer>do                     \
+    if (copysign(1., sign) == 1.) {                \
+        return PyFloat_FromDouble(Py_HUGE_VAL);    \
+    } else {                        \
+        return PyFloat_FromDouble(-Py_HUGE_VAL);   \
+    } while(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="30" column="9" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="floatobject_8h_1aaf67bd1d7a5a1042370b4bfa0af17287" prot="public" static="no">
+        <name>PyFloat_AS_DOUBLE</name>
+        <param><defname>op</defname></param>
+        <initializer>(((<ref refid="struct_py_float_object" kindref="compound">PyFloatObject</ref> *)(op))-&gt;ob_fval)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="51" column="9" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="floatobject_8h_1acfe8cdbb42cc70964a29548c83e1adb2" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>char * p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="87" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1aaf1ab6d375ab5bde60adebbacb84be11" prot="public" static="no" mutable="no">
+        <type>unsigned char int</type>
+        <definition>int le</definition>
+        <argsstring></argsstring>
+        <name>le</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="87" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1a015e45425930f05215408965e9d7c50b" prot="public" static="no" mutable="no">
+        <type>char size_t</type>
+        <definition>char size_t len</definition>
+        <argsstring></argsstring>
+        <name>len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="94" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1a3b90d5a73541ab9402511d87bed076ef" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="97" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1afbaf08088d4180de362997d14b0a43df" prot="public" static="no" mutable="no">
+        <type>double int *</type>
+        <definition>double int* signum</definition>
+        <argsstring></argsstring>
+        <name>signum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="97" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1aaa12580403a2cc24c96324b4c5715889" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* obj</definition>
+        <argsstring></argsstring>
+        <name>obj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="121" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1a85929ace2f0054245aa2e25e1712a51e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject PyObject* format_spec</definition>
+        <argsstring></argsstring>
+        <name>format_spec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="122" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1aefe638830dff84c8205e57c5d7e7648d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t</type>
+        <definition>PyObject PyObject Py_ssize_t start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="123" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="floatobject_8h_1aa5158139051eb5411f514809012226af" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref> Py_ssize_t Py_ssize_t</type>
+        <definition>PyObject PyObject Py_ssize_t Py_ssize_t end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="124" column="1" bodyfile="/usr/include/python3.6m/floatobject.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="floatobject_8h_1af1667a24f64f5e3bf929b0d7c45ee7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyFloat_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="floatobject_8h_1acfee89bc2f6d415778b1bd3841c5047c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(double) PyFloat_GetMax(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="floatobject_8h_1a19e5f17b8d33f7180ad400183b5b5381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(PyObject *) PyFloat_GetInfo(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="floatobject_8h_1a5a4c54afc0375cf7975fa0693573d6db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) _PyFloat_Pack2(double x</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="floatobject_8h_1adc41ac2b001eb4973f95d4dd6f386119" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _PyFloat_DigitsInit(void)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/floatobject.h" line="98" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Float<sp/>object<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">PyFloatObject<sp/>represents<sp/>a<sp/>(double<sp/>precision)<sp/>floating<sp/>point<sp/>number.</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_FLOATOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_FLOATOBJECT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="struct_py_float_object" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>ob_fval;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}<sp/><ref refid="struct_py_float_object" kindref="compound">PyFloatObject</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyFloat_Type;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyFloat_Check(op)<sp/>PyObject_TypeCheck(op,<sp/>&amp;PyFloat_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyFloat_CheckExact(op)<sp/>(Py_TYPE(op)<sp/>==<sp/>&amp;PyFloat_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>Py_NAN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_RETURN_NAN<sp/>return<sp/>PyFloat_FromDouble(Py_NAN)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_RETURN_INF(sign)<sp/>do<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>if<sp/>(copysign(1.,<sp/>sign)<sp/>==<sp/>1.)<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="32"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>PyFloat_FromDouble(Py_HUGE_VAL);<sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="33"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>else<sp/>{<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="34"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>PyFloat_FromDouble(-Py_HUGE_VAL);<sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="35"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>}<sp/>while(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyFloat_GetMax(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyFloat_GetMin(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyFloat_GetInfo(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>Python<sp/>float<sp/>from<sp/>string<sp/>PyObject.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyFloat_FromString(<ref refid="struct__object" kindref="compound">PyObject</ref>*);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Return<sp/>Python<sp/>float<sp/>from<sp/>C<sp/>double.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">PyAPI_FUNC(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*)<sp/>PyFloat_FromDouble(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Extract<sp/>C<sp/>double<sp/>from<sp/>Python<sp/>float.<sp/><sp/>The<sp/>macro<sp/>version<sp/>trades<sp/>safety<sp/>for</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/>speed.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>PyFloat_AsDouble(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyFloat_AS_DOUBLE(op)<sp/>(((PyFloatObject<sp/>*)(op))-&gt;ob_fval)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>_PyFloat_{Pack,Unpack}{4,8}</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/>The<sp/>struct<sp/>and<sp/>pickle<sp/>(at<sp/>least)<sp/>modules<sp/>need<sp/>an<sp/>efficient<sp/>platform-</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/>independent<sp/>way<sp/>to<sp/>store<sp/>floating-point<sp/>values<sp/>as<sp/>byte<sp/>strings.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/>The<sp/>Pack<sp/>routines<sp/>produce<sp/>a<sp/>string<sp/>from<sp/>a<sp/>C<sp/>double,<sp/>and<sp/>the<sp/>Unpack</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/>routines<sp/>produce<sp/>a<sp/>C<sp/>double<sp/>from<sp/>such<sp/>a<sp/>string.<sp/><sp/>The<sp/>suffix<sp/>(4<sp/>or<sp/>8)</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*<sp/>specifies<sp/>the<sp/>number<sp/>of<sp/>bytes<sp/>in<sp/>the<sp/>string.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/>*<sp/>On<sp/>platforms<sp/>that<sp/>appear<sp/>to<sp/>use<sp/>(see<sp/>_PyFloat_Init())<sp/>IEEE-754<sp/>formats</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/>*<sp/>these<sp/>functions<sp/>work<sp/>by<sp/>copying<sp/>bits.<sp/><sp/>On<sp/>other<sp/>platforms,<sp/>the<sp/>formats<sp/>the</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"><sp/>*<sp/>4-<sp/>byte<sp/>format<sp/>is<sp/>identical<sp/>to<sp/>the<sp/>IEEE-754<sp/>single<sp/>precision<sp/>format,<sp/>and</highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/>*<sp/>the<sp/>8-byte<sp/>format<sp/>to<sp/>the<sp/>IEEE-754<sp/>double<sp/>precision<sp/>format,<sp/>although<sp/>the</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/>*<sp/>packing<sp/>of<sp/>INFs<sp/>and<sp/>NaNs<sp/>(if<sp/>such<sp/>things<sp/>exist<sp/>on<sp/>the<sp/>platform)<sp/>isn&apos;t</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/>*<sp/>handled<sp/>correctly,<sp/>and<sp/>attempting<sp/>to<sp/>unpack<sp/>a<sp/>string<sp/>containing<sp/>an<sp/>IEEE</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/>*<sp/>INF<sp/>or<sp/>NaN<sp/>will<sp/>raise<sp/>an<sp/>exception.</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/>*<sp/>On<sp/>non-IEEE<sp/>platforms<sp/>with<sp/>more<sp/>precision,<sp/>or<sp/>larger<sp/>dynamic<sp/>range,<sp/>than</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/>*<sp/>754<sp/>supports,<sp/>not<sp/>all<sp/>values<sp/>can<sp/>be<sp/>packed;<sp/>on<sp/>non-IEEE<sp/>platforms<sp/>with<sp/>less</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/>*<sp/>precision,<sp/>or<sp/>smaller<sp/>dynamic<sp/>range,<sp/>not<sp/>all<sp/>values<sp/>can<sp/>be<sp/>unpacked.<sp/><sp/>What</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/>*<sp/>happens<sp/>in<sp/>such<sp/>cases<sp/>is<sp/>partly<sp/>accidental<sp/>(alas).</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>pack<sp/>routines<sp/>write<sp/>2,<sp/>4<sp/>or<sp/>8<sp/>bytes,<sp/>starting<sp/>at<sp/>p.<sp/><sp/>le<sp/>is<sp/>a<sp/>bool</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/>*<sp/>argument,<sp/>true<sp/>if<sp/>you<sp/>want<sp/>the<sp/>string<sp/>in<sp/>little-endian<sp/>format<sp/>(exponent</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/>*<sp/>last,<sp/>at<sp/>p+1,<sp/>p+3<sp/>or<sp/>p+7),<sp/>false<sp/>if<sp/>you<sp/>want<sp/>big-endian<sp/>format<sp/>(exponent</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/>*<sp/>first,<sp/>at<sp/>p).</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/>*<sp/>Return<sp/>value:<sp/><sp/>0<sp/>if<sp/>all<sp/>is<sp/>OK,<sp/>-1<sp/>if<sp/>error<sp/>(and<sp/>an<sp/>exception<sp/>is</highlight></codeline>
+<codeline lineno="82"><highlight class="comment"><sp/>*<sp/>set,<sp/>most<sp/>likely<sp/>OverflowError).</highlight></codeline>
+<codeline lineno="83"><highlight class="comment"><sp/>*<sp/>There<sp/>are<sp/>two<sp/>problems<sp/>on<sp/>non-IEEE<sp/>platforms:</highlight></codeline>
+<codeline lineno="84"><highlight class="comment"><sp/>*<sp/>1):<sp/><sp/>What<sp/>this<sp/>does<sp/>is<sp/>undefined<sp/>if<sp/>x<sp/>is<sp/>a<sp/>NaN<sp/>or<sp/>infinity.</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/>2):<sp/><sp/>-0.0<sp/>and<sp/>+0.0<sp/>produce<sp/>the<sp/>same<sp/>string.</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_Pack2(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_Pack4(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_Pack8(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Needed<sp/>for<sp/>the<sp/>old<sp/>way<sp/>for<sp/>marshal<sp/>to<sp/>store<sp/>a<sp/>floating<sp/>point<sp/>number.</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/>Returns<sp/>the<sp/>string<sp/>length<sp/>copied<sp/>into<sp/>p,<sp/>-1<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_Repr(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>x,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>len);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Used<sp/>to<sp/>get<sp/>the<sp/>important<sp/>decimal<sp/>digits<sp/>of<sp/>a<sp/>double<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_Digits(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buf,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>v,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*signum);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyFloat_DigitsInit(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>unpack<sp/>routines<sp/>read<sp/>2,<sp/>4<sp/>or<sp/>8<sp/>bytes,<sp/>starting<sp/>at<sp/>p.<sp/><sp/>le<sp/>is<sp/>a<sp/>bool</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/>*<sp/>argument,<sp/>true<sp/>if<sp/>the<sp/>string<sp/>is<sp/>in<sp/>little-endian<sp/>format<sp/>(exponent</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/>*<sp/>last,<sp/>at<sp/>p+1,<sp/>p+3<sp/>or<sp/>p+7),<sp/>false<sp/>if<sp/>big-endian<sp/>(exponent<sp/>first,<sp/>at<sp/>p).</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/>*<sp/>Return<sp/>value:<sp/><sp/>The<sp/>unpacked<sp/>double.<sp/><sp/>On<sp/>error,<sp/>this<sp/>is<sp/>-1.0<sp/>and</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/>*<sp/>PyErr_Occurred()<sp/>is<sp/>true<sp/>(and<sp/>an<sp/>exception<sp/>is<sp/>set,<sp/>most<sp/>likely</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"><sp/>*<sp/>OverflowError).<sp/><sp/>Note<sp/>that<sp/>on<sp/>a<sp/>non-IEEE<sp/>platform<sp/>this<sp/>will<sp/>refuse</highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/>*<sp/>to<sp/>unpack<sp/>a<sp/>string<sp/>that<sp/>represents<sp/>a<sp/>NaN<sp/>or<sp/>infinity.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_PyFloat_Unpack2(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_PyFloat_Unpack4(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">)<sp/>_PyFloat_Unpack8(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>le);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>free<sp/>list<sp/>api<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyFloat_ClearFreeList(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyFloat_DebugMallocStats(FILE*<sp/>out);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Format<sp/>the<sp/>object<sp/>based<sp/>on<sp/>the<sp/>format_spec,<sp/>as<sp/>defined<sp/>in<sp/>PEP<sp/>3101</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/>(Advanced<sp/>String<sp/>Formatting).<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_PyFloat_FormatAdvancedWriter(</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct___py_unicode_writer" kindref="compound">_PyUnicodeWriter</ref><sp/>*writer,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*obj,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*format_spec,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>start,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>end);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_FLOATOBJECT_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/floatobject.h"/>
+  </compounddef>
+</doxygen>

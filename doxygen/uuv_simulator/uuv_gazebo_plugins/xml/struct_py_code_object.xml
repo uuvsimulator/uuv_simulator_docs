@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct_py_code_object" kind="struct" language="C++" prot="public">
+    <compoundname>PyCodeObject</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_py_code_object_1adc0dadab6a4224c47cfccb332b2bd0b3" prot="public" static="no" mutable="no">
+        <type>PyObject_HEAD int</type>
+        <definition>PyObject_HEAD int PyCodeObject::co_argcount</definition>
+        <argsstring></argsstring>
+        <name>co_argcount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="23" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a98955a4296f5c023291d467f81d50a1f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyCodeObject::co_kwonlyargcount</definition>
+        <argsstring></argsstring>
+        <name>co_kwonlyargcount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="24" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a9365db6f0ac59f02a907b6bc41924f4c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyCodeObject::co_nlocals</definition>
+        <argsstring></argsstring>
+        <name>co_nlocals</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="25" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1ab171343772772be7a4911c28f96e415f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyCodeObject::co_stacksize</definition>
+        <argsstring></argsstring>
+        <name>co_stacksize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="26" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a678b33effc331fb223622fd7aea8fac3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyCodeObject::co_flags</definition>
+        <argsstring></argsstring>
+        <name>co_flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="27" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a068116d5abe3d1803aec12f31a638234" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int PyCodeObject::co_firstlineno</definition>
+        <argsstring></argsstring>
+        <name>co_firstlineno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="28" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a6f3c6ad3ccefda60ce7033c7375c17b0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_code</definition>
+        <argsstring></argsstring>
+        <name>co_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="29" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a4a19803042153ef763c58ab0980eb775" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_consts</definition>
+        <argsstring></argsstring>
+        <name>co_consts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="30" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a830824fae12a5ef716896fa78a84adf2" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_names</definition>
+        <argsstring></argsstring>
+        <name>co_names</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="31" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1aff29dff0e2f511c562f3bc9a322321d0" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_varnames</definition>
+        <argsstring></argsstring>
+        <name>co_varnames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="32" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a89e2b8f2d3e34ce6b6a866da47c5ddbb" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_freevars</definition>
+        <argsstring></argsstring>
+        <name>co_freevars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="33" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1ab08cf541a92d6fc56af2cc1419816e23" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_cellvars</definition>
+        <argsstring></argsstring>
+        <name>co_cellvars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="34" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a6a86b742cd6fc52c6b8f3e1bf7584261" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* PyCodeObject::co_cell2arg</definition>
+        <argsstring></argsstring>
+        <name>co_cell2arg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="40" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a15d8ea3dbc511eccdafc0cc0743632aa" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_filename</definition>
+        <argsstring></argsstring>
+        <name>co_filename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="41" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a10bd7a8a3f23047cdb6eb10e032176bf" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_name</definition>
+        <argsstring></argsstring>
+        <name>co_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="42" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1ac99c01e278a9cabed14aac6713f18bf6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_lnotab</definition>
+        <argsstring></argsstring>
+        <name>co_lnotab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="43" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1ac08ff386d0019fdf3a6b455ca1e53ff9" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PyCodeObject::co_zombieframe</definition>
+        <argsstring></argsstring>
+        <name>co_zombieframe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="45" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a0240509a49ab73c5e157dc75c2ae88d7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* PyCodeObject::co_weakreflist</definition>
+        <argsstring></argsstring>
+        <name>co_weakreflist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="46" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_py_code_object_1a591f7a349f6de6df019aea28c3edddf2" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* PyCodeObject::co_extra</definition>
+        <argsstring></argsstring>
+        <name>co_extra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/code.h" line="50" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1057">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="1053">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="1054" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="1059">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="1058">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="1054">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="1055" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="1056" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="1057" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="1058" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="1059" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="1061" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="1062" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="1054" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="1055">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="1052">
+        <label>PyCodeObject</label>
+        <link refid="struct_py_code_object"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>co_freevars</edgelabel>
+          <edgelabel>co_consts</edgelabel>
+          <edgelabel>co_cellvars</edgelabel>
+          <edgelabel>co_lnotab</edgelabel>
+          <edgelabel>co_filename</edgelabel>
+          <edgelabel>co_varnames</edgelabel>
+          <edgelabel>co_weakreflist</edgelabel>
+          <edgelabel>co_names</edgelabel>
+          <edgelabel>co_name</edgelabel>
+          <edgelabel>co_code</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1061">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1062">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="1053" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="1056">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/code.h" line="21" column="1" bodyfile="/usr/include/python3.6m/code.h" bodystart="21" bodyend="51"/>
+    <listofallmembers>
+      <member refid="struct_py_code_object_1adc0dadab6a4224c47cfccb332b2bd0b3" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_argcount</name></member>
+      <member refid="struct_py_code_object_1a6a86b742cd6fc52c6b8f3e1bf7584261" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_cell2arg</name></member>
+      <member refid="struct_py_code_object_1ab08cf541a92d6fc56af2cc1419816e23" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_cellvars</name></member>
+      <member refid="struct_py_code_object_1a6f3c6ad3ccefda60ce7033c7375c17b0" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_code</name></member>
+      <member refid="struct_py_code_object_1a4a19803042153ef763c58ab0980eb775" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_consts</name></member>
+      <member refid="struct_py_code_object_1a591f7a349f6de6df019aea28c3edddf2" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_extra</name></member>
+      <member refid="struct_py_code_object_1a15d8ea3dbc511eccdafc0cc0743632aa" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_filename</name></member>
+      <member refid="struct_py_code_object_1a068116d5abe3d1803aec12f31a638234" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_firstlineno</name></member>
+      <member refid="struct_py_code_object_1a678b33effc331fb223622fd7aea8fac3" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_flags</name></member>
+      <member refid="struct_py_code_object_1a89e2b8f2d3e34ce6b6a866da47c5ddbb" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_freevars</name></member>
+      <member refid="struct_py_code_object_1a98955a4296f5c023291d467f81d50a1f" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_kwonlyargcount</name></member>
+      <member refid="struct_py_code_object_1ac99c01e278a9cabed14aac6713f18bf6" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_lnotab</name></member>
+      <member refid="struct_py_code_object_1a10bd7a8a3f23047cdb6eb10e032176bf" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_name</name></member>
+      <member refid="struct_py_code_object_1a830824fae12a5ef716896fa78a84adf2" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_names</name></member>
+      <member refid="struct_py_code_object_1a9365db6f0ac59f02a907b6bc41924f4c" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_nlocals</name></member>
+      <member refid="struct_py_code_object_1ab171343772772be7a4911c28f96e415f" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_stacksize</name></member>
+      <member refid="struct_py_code_object_1aff29dff0e2f511c562f3bc9a322321d0" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_varnames</name></member>
+      <member refid="struct_py_code_object_1a0240509a49ab73c5e157dc75c2ae88d7" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_weakreflist</name></member>
+      <member refid="struct_py_code_object_1ac08ff386d0019fdf3a6b455ca1e53ff9" prot="public" virt="non-virtual"><scope>PyCodeObject</scope><name>co_zombieframe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

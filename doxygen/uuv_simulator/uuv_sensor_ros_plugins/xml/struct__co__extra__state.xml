@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="struct__co__extra__state" kind="struct" language="C++" prot="public">
+    <compoundname>_co_extra_state</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__co__extra__state_1a4d96eb27a88df91c744339cc2f1d4bdf" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="struct__co__extra__state" kindref="compound">_co_extra_state</ref> *</type>
+        <definition>struct _co_extra_state* _co_extra_state::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="55" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__co__extra__state_1a8fe58668ac9f2a3bb3033ad8602459d9" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__is" kindref="compound">PyInterpreterState</ref> *</type>
+        <definition>PyInterpreterState* _co_extra_state::interp</definition>
+        <argsstring></argsstring>
+        <name>interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="56" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__co__extra__state_1a17eae7e11a2d158457a504270e83ca32" prot="public" static="no" mutable="no">
+        <type>Py_ssize_t</type>
+        <definition>Py_ssize_t _co_extra_state::co_extra_user_count</definition>
+        <argsstring></argsstring>
+        <name>co_extra_user_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="58" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__co__extra__state_1a6e4b821ac4f9b3a05a493fbf56f7fb92" prot="public" static="no" mutable="no">
+        <type>freefunc</type>
+        <definition>freefunc _co_extra_state::co_extra_freefuncs[MAX_CO_EXTRA_USERS]</definition>
+        <argsstring>[MAX_CO_EXTRA_USERS]</argsstring>
+        <name>co_extra_freefuncs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/pystate.h" line="59" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="56">
+        <label>PyMethodDef</label>
+        <link refid="struct_py_method_def"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>ml_meth</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>_ts</label>
+        <link refid="struct__ts"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>interp</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>trash_delete_later</edgelabel>
+          <edgelabel>exc_type</edgelabel>
+          <edgelabel>curexc_value</edgelabel>
+          <edgelabel>c_profileobj</edgelabel>
+          <edgelabel>async_exc</edgelabel>
+          <edgelabel>async_gen_finalizer</edgelabel>
+          <edgelabel>dict</edgelabel>
+          <edgelabel>curexc_traceback</edgelabel>
+          <edgelabel>curexc_type</edgelabel>
+          <edgelabel>c_traceobj</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>frame</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>_object</label>
+        <link refid="struct__object"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>ob_type</edgelabel>
+        </childnode>
+      </node>
+      <node id="58">
+        <label>PySequenceMethods</label>
+        <link refid="struct_py_sequence_methods"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>sq_contains</edgelabel>
+          <edgelabel>sq_item</edgelabel>
+          <edgelabel>sq_inplace_concat</edgelabel>
+          <edgelabel>sq_concat</edgelabel>
+          <edgelabel>sq_ass_item</edgelabel>
+          <edgelabel>sq_length</edgelabel>
+          <edgelabel>sq_inplace_repeat</edgelabel>
+          <edgelabel>sq_repeat</edgelabel>
+        </childnode>
+      </node>
+      <node id="57">
+        <label>PyBufferProcs</label>
+        <link refid="struct_py_buffer_procs"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>bf_releasebuffer</edgelabel>
+          <edgelabel>bf_getbuffer</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
+        <label>PyGetSetDef</label>
+        <link refid="struct_py_get_set_def"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>set</edgelabel>
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+      <node id="62">
+        <label>_frame</label>
+        <link refid="struct__frame"/>
+        <childnode refid="63" relation="usage">
+          <edgelabel>f_blockstack</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>f_code</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>f_gen</edgelabel>
+          <edgelabel>f_valuestack</edgelabel>
+          <edgelabel>f_exc_value</edgelabel>
+          <edgelabel>f_exc_traceback</edgelabel>
+          <edgelabel>f_trace</edgelabel>
+          <edgelabel>f_stacktop</edgelabel>
+          <edgelabel>f_locals</edgelabel>
+          <edgelabel>f_globals</edgelabel>
+          <edgelabel>f_builtins</edgelabel>
+          <edgelabel>f_localsplus</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>f_back</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>_typeobject</label>
+        <link refid="struct__typeobject"/>
+        <childnode refid="54" relation="usage">
+          <edgelabel>tp_as_mapping</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>tp_members</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>tp_methods</edgelabel>
+        </childnode>
+        <childnode refid="57" relation="usage">
+          <edgelabel>tp_as_buffer</edgelabel>
+        </childnode>
+        <childnode refid="58" relation="usage">
+          <edgelabel>tp_as_sequence</edgelabel>
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>tp_getset</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>tp_as_number</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>tp_as_async</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>tp_cache</edgelabel>
+          <edgelabel>tp_iternext</edgelabel>
+          <edgelabel>tp_repr</edgelabel>
+          <edgelabel>tp_alloc</edgelabel>
+          <edgelabel>tp_weaklist</edgelabel>
+          <edgelabel>tp_descr_set</edgelabel>
+          <edgelabel>tp_finalize</edgelabel>
+          <edgelabel>tp_clear</edgelabel>
+          <edgelabel>tp_dict</edgelabel>
+          <edgelabel>tp_mro</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>tp_base</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>_co_extra_state</label>
+        <link refid="struct__co__extra__state"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>interp</edgelabel>
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>PyTryBlock</label>
+        <link refid="struct_py_try_block"/>
+      </node>
+      <node id="54">
+        <label>PyMappingMethods</label>
+        <link refid="struct_py_mapping_methods"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>mp_subscript</edgelabel>
+          <edgelabel>mp_length</edgelabel>
+          <edgelabel>mp_ass_subscript</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>PyCodeObject</label>
+        <link refid="struct_py_code_object"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>co_freevars</edgelabel>
+          <edgelabel>co_consts</edgelabel>
+          <edgelabel>co_cellvars</edgelabel>
+          <edgelabel>co_lnotab</edgelabel>
+          <edgelabel>co_filename</edgelabel>
+          <edgelabel>co_varnames</edgelabel>
+          <edgelabel>co_weakreflist</edgelabel>
+          <edgelabel>co_names</edgelabel>
+          <edgelabel>co_name</edgelabel>
+          <edgelabel>co_code</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>PyNumberMethods</label>
+        <link refid="struct_py_number_methods"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>nb_inplace_matrix_multiply</edgelabel>
+          <edgelabel>nb_subtract</edgelabel>
+          <edgelabel>nb_inplace_floor_divide</edgelabel>
+          <edgelabel>nb_multiply</edgelabel>
+          <edgelabel>nb_inplace_and</edgelabel>
+          <edgelabel>nb_inplace_remainder</edgelabel>
+          <edgelabel>nb_absolute</edgelabel>
+          <edgelabel>nb_floor_divide</edgelabel>
+          <edgelabel>nb_inplace_rshift</edgelabel>
+          <edgelabel>nb_int</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>PyAsyncMethods</label>
+        <link refid="struct_py_async_methods"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>am_await</edgelabel>
+          <edgelabel>am_anext</edgelabel>
+          <edgelabel>am_aiter</edgelabel>
+        </childnode>
+      </node>
+      <node id="50">
+        <label>_is</label>
+        <link refid="struct__is"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+        <childnode refid="51" relation="usage">
+          <edgelabel>tstate_head</edgelabel>
+        </childnode>
+        <childnode refid="52" relation="usage">
+          <edgelabel>import_func</edgelabel>
+          <edgelabel>importlib</edgelabel>
+          <edgelabel>builtins</edgelabel>
+          <edgelabel>builtins_copy</edgelabel>
+          <edgelabel>codec_search_path</edgelabel>
+          <edgelabel>modules</edgelabel>
+          <edgelabel>eval_frame</edgelabel>
+          <edgelabel>codec_search_cache</edgelabel>
+          <edgelabel>modules_by_index</edgelabel>
+          <edgelabel>codec_error_registry</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="55">
+        <label>PyMemberDef</label>
+        <link refid="struct_py_member_def"/>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/include/python3.6m/pystate.h" line="54" column="1" bodyfile="/usr/include/python3.6m/pystate.h" bodystart="54" bodyend="60"/>
+    <listofallmembers>
+      <member refid="struct__co__extra__state_1a6e4b821ac4f9b3a05a493fbf56f7fb92" prot="public" virt="non-virtual"><scope>_co_extra_state</scope><name>co_extra_freefuncs</name></member>
+      <member refid="struct__co__extra__state_1a17eae7e11a2d158457a504270e83ca32" prot="public" virt="non-virtual"><scope>_co_extra_state</scope><name>co_extra_user_count</name></member>
+      <member refid="struct__co__extra__state_1a8fe58668ac9f2a3bb3033ad8602459d9" prot="public" virt="non-virtual"><scope>_co_extra_state</scope><name>interp</name></member>
+      <member refid="struct__co__extra__state_1a4d96eb27a88df91c744339cc2f1d4bdf" prot="public" virt="non-virtual"><scope>_co_extra_state</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

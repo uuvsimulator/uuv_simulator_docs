@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_13d9aaa2ab7ab6595f6ae54fe08690fd" kind="dir">
+    <compoundname>venv/lib/python3.6/site-packages/lxml/includes/libxslt</compoundname>
+    <innerfile refid="attributes_8h">attributes.h</innerfile>
+    <innerfile refid="documents_8h">documents.h</innerfile>
+    <innerfile refid="extensions_8h">extensions.h</innerfile>
+    <innerfile refid="extra_8h">extra.h</innerfile>
+    <innerfile refid="functions_8h">functions.h</innerfile>
+    <innerfile refid="imports_8h">imports.h</innerfile>
+    <innerfile refid="keys_8h">keys.h</innerfile>
+    <innerfile refid="namespaces_8h">namespaces.h</innerfile>
+    <innerfile refid="numbers_internals_8h">numbersInternals.h</innerfile>
+    <innerfile refid="pattern_8h">pattern.h</innerfile>
+    <innerfile refid="preproc_8h">preproc.h</innerfile>
+    <innerfile refid="security_8h">security.h</innerfile>
+    <innerfile refid="templates_8h">templates.h</innerfile>
+    <innerfile refid="transform_8h">transform.h</innerfile>
+    <innerfile refid="variables_8h">variables.h</innerfile>
+    <innerfile refid="xslt_8h">xslt.h</innerfile>
+    <innerfile refid="xsltconfig_8h">xsltconfig.h</innerfile>
+    <innerfile refid="xsltexports_8h">xsltexports.h</innerfile>
+    <innerfile refid="xslt_internals_8h">xsltInternals.h</innerfile>
+    <innerfile refid="xsltlocale_8h">xsltlocale.h</innerfile>
+    <innerfile refid="xsltutils_8h">xsltutils.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="venv/lib/python3.6/site-packages/lxml/includes/libxslt/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="traceback_8h" kind="file" language="C++">
+    <compoundname>traceback.h</compoundname>
+    <includes refid="pystate_8h" local="yes">pystate.h</includes>
+    <includedby refid="_python_8h" local="yes">/usr/include/python3.6m/Python.h</includedby>
+    <incdepgraph>
+      <node id="3762">
+        <label>/usr/include/python3.6m/traceback.h</label>
+        <link refid="traceback_8h"/>
+        <childnode refid="3763" relation="include">
+        </childnode>
+      </node>
+      <node id="3763">
+        <label>pystate.h</label>
+        <link refid="pystate_8h_source"/>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3764">
+        <label>/usr/include/python3.6m/traceback.h</label>
+        <link refid="traceback_8h"/>
+        <childnode refid="3765" relation="include">
+        </childnode>
+      </node>
+      <node id="3767">
+        <label>/usr/include/python3.6m/Imaging.h</label>
+        <link refid="_imaging_8h_source"/>
+      </node>
+      <node id="3768">
+        <label>/usr/include/python3.6m/pgenheaders.h</label>
+        <link refid="pgenheaders_8h_source"/>
+      </node>
+      <node id="3770">
+        <label>venv/lib/python3.6/site-packages/lxml/includes/etree_defs.h</label>
+        <link refid="etree__defs_8h_source"/>
+      </node>
+      <node id="3765">
+        <label>/usr/include/python3.6m/Python.h</label>
+        <link refid="_python_8h_source"/>
+        <childnode refid="3766" relation="include">
+        </childnode>
+        <childnode refid="3768" relation="include">
+        </childnode>
+        <childnode refid="3769" relation="include">
+        </childnode>
+        <childnode refid="3770" relation="include">
+        </childnode>
+        <childnode refid="3771" relation="include">
+        </childnode>
+      </node>
+      <node id="3771">
+        <label>venv/lib/python3.6/site-packages/lxml/lxml.etree_api.h</label>
+        <link refid="lxml_8etree__api_8h_source"/>
+      </node>
+      <node id="3766">
+        <label>/usr/include/python3.6m/ImPlatform.h</label>
+        <link refid="_im_platform_8h_source"/>
+        <childnode refid="3767" relation="include">
+        </childnode>
+      </node>
+      <node id="3769">
+        <label>venv/lib/python3.6/site-packages/lxml/etree_api.h</label>
+        <link refid="etree__api_8h_source"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__traceback" prot="public">_traceback</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="traceback_8h_1ad8859cb5564ecfd4514a7786f80250f5" prot="public" static="no">
+        <name>PyTraceBack_Check</name>
+        <param><defname>v</defname></param>
+        <initializer>(Py_TYPE(v) == &amp;PyTraceBack_Type)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="32" column="9" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="traceback_8h_1a4a348172eb6fe21ea33a8df70bcc6086" prot="public" static="no">
+        <type>struct <ref refid="struct__traceback" kindref="compound">_traceback</ref></type>
+        <definition>typedef struct _traceback  PyTracebackObject</definition>
+        <argsstring></argsstring>
+        <name>PyTracebackObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="20" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="traceback_8h_1a2f81796204b7bbe80bac6d6599203024" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> <ref refid="struct__object" kindref="compound">PyObject</ref></type>
+        <definition>const char int</definition>
+        <argsstring></argsstring>
+        <name>int</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="26" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1a4a34ef2aa90808d31a01c39c0b8bdfe8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__ts" kindref="compound">PyThreadState</ref> *</type>
+        <definition>PyThreadState* tstate</definition>
+        <argsstring></argsstring>
+        <name>tstate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="54" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1a8fe6536c7be2993f017988ffa803c256" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__is" kindref="compound">PyInterpreterState</ref> *</type>
+        <definition>PyInterpreterState* interp</definition>
+        <argsstring></argsstring>
+        <name>interp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="81" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1a42b3a04fcbbd737eebe0654f308058a6" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__is" kindref="compound">PyInterpreterState</ref> <ref refid="struct__ts" kindref="compound">PyThreadState</ref> *</type>
+        <definition>PyInterpreterState PyThreadState* current_tstate</definition>
+        <argsstring></argsstring>
+        <name>current_tstate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="82" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1aad4f51a52c1e501cd0ae044b2dab79c8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct__object" kindref="compound">PyObject</ref> *</type>
+        <definition>PyObject* text</definition>
+        <argsstring></argsstring>
+        <name>text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="94" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1a960ce105570c5c1bdca764f2d8d32a2d" prot="public" static="no" mutable="no">
+        <type>unsigned long</type>
+        <definition>unsigned long value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="101" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="traceback_8h_1acf6b1f7253c9dca9b3e183ee55103930" prot="public" static="no" mutable="no">
+        <type>unsigned long Py_ssize_t</type>
+        <definition>unsigned long Py_ssize_t width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="112" column="1" bodyfile="/usr/include/python3.6m/traceback.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="traceback_8h_1abc45bf3a02ae0db82ccd1f0f0a127522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(int) PyTraceBack_Here(struct _frame *)</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="traceback_8h_1a032bc12e25416e32262c9826b8010f88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(void) _PyTraceback_Add(const char *</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="traceback_8h_1a5705d0f7d8d2418e1ad0484fd6558641" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_DATA</definition>
+        <argsstring>(PyTypeObject) PyTraceBack_Type</argsstring>
+        <name>PyAPI_DATA</name>
+        <param>
+          <type><ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="traceback_8h_1ae77d0edcfeec4f2a21252899101cc50d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>PyAPI_FUNC</definition>
+        <argsstring>(const char *) _Py_DumpTracebackThreads(int fd</argsstring>
+        <name>PyAPI_FUNC</name>
+        <param>
+          <type>const char *</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/include/python3.6m/traceback.h" line="79" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_TRACEBACK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>Py_TRACEBACK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;pystate.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Traceback<sp/>interface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct__traceback" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__traceback" kindref="compound">_traceback</ref><sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>PyObject_HEAD</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__traceback" kindref="compound">_traceback</ref><sp/>*tb_next;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*tb_frame;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tb_lasti;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tb_lineno;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}<sp/><ref refid="struct__traceback" kindref="compound">PyTracebackObject</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyTraceBack_Here(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__frame" kindref="compound">_frame</ref><sp/>*);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>PyTraceBack_Print(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)<sp/>_Py_DisplaySourceLine(<ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_PyTraceback_Add(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Reveal<sp/>traceback<sp/>type<sp/>so<sp/>we<sp/>can<sp/>typecheck<sp/>traceback<sp/>objects<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">PyAPI_DATA(<ref refid="struct__typeobject" kindref="compound">PyTypeObject</ref>)<sp/>PyTraceBack_Type;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PyTraceBack_Check(v)<sp/>(Py_TYPE(v)<sp/>==<sp/>&amp;PyTraceBack_Type)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Write<sp/>the<sp/>Python<sp/>traceback<sp/>into<sp/>the<sp/>file<sp/>&apos;fd&apos;.<sp/>For<sp/>example:</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"></highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Traceback<sp/>(most<sp/>recent<sp/>call<sp/>first):</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File<sp/>&quot;xxx&quot;,<sp/>line<sp/>xxx<sp/>in<sp/>&lt;xxx&gt;</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File<sp/>&quot;xxx&quot;,<sp/>line<sp/>xxx<sp/>in<sp/>&lt;xxx&gt;</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>File<sp/>&quot;xxx&quot;,<sp/>line<sp/>xxx<sp/>in<sp/>&lt;xxx&gt;</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>written<sp/>for<sp/>debug<sp/>purpose<sp/>only,<sp/>to<sp/>dump<sp/>the<sp/>traceback<sp/>in</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/>the<sp/>worst<sp/>case:<sp/>after<sp/>a<sp/>segmentation<sp/>fault,<sp/>at<sp/>fatal<sp/>error,<sp/>etc.<sp/>That&apos;s<sp/>why,</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/>it<sp/>is<sp/>very<sp/>limited.<sp/>Strings<sp/>are<sp/>truncated<sp/>to<sp/>100<sp/>characters<sp/>and<sp/>encoded<sp/>to</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/>ASCII<sp/>with<sp/>backslashreplace.<sp/>It<sp/>doesn&apos;t<sp/>write<sp/>the<sp/>source<sp/>code,<sp/>only<sp/>the</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/>function<sp/>name,<sp/>filename<sp/>and<sp/>line<sp/>number<sp/>of<sp/>each<sp/>frame.<sp/>Write<sp/>only<sp/>the<sp/>first</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/>100<sp/>frames:<sp/>if<sp/>the<sp/>traceback<sp/>is<sp/>truncated,<sp/>write<sp/>the<sp/>line<sp/>&quot;<sp/>...&quot;.</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"></highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>signal<sp/>safe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_DumpTraceback(</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ts" kindref="compound">PyThreadState</ref><sp/>*tstate);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Write<sp/>the<sp/>traceback<sp/>of<sp/>all<sp/>threads<sp/>into<sp/>the<sp/>file<sp/>&apos;fd&apos;.<sp/>current_thread<sp/>can<sp/>be</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/>NULL.</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"></highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/>Return<sp/>NULL<sp/>on<sp/>success,<sp/>or<sp/>an<sp/>error<sp/>message<sp/>on<sp/>error.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"></highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>written<sp/>for<sp/>debug<sp/>purpose<sp/>only.<sp/>It<sp/>calls</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/>_Py_DumpTraceback()<sp/>for<sp/>each<sp/>thread,<sp/>and<sp/>so<sp/>has<sp/>the<sp/>same<sp/>limitations.<sp/>It</highlight></codeline>
+<codeline lineno="63"><highlight class="comment"><sp/><sp/><sp/>only<sp/>write<sp/>the<sp/>traceback<sp/>of<sp/>the<sp/>first<sp/>100<sp/>threads:<sp/>write<sp/>&quot;...&quot;<sp/>if<sp/>there<sp/>are</highlight></codeline>
+<codeline lineno="64"><highlight class="comment"><sp/><sp/><sp/>more<sp/>threads.</highlight></codeline>
+<codeline lineno="65"><highlight class="comment"></highlight></codeline>
+<codeline lineno="66"><highlight class="comment"><sp/><sp/><sp/>If<sp/>current_tstate<sp/>is<sp/>NULL,<sp/>the<sp/>function<sp/>tries<sp/>to<sp/>get<sp/>the<sp/>Python<sp/>thread<sp/>state</highlight></codeline>
+<codeline lineno="67"><highlight class="comment"><sp/><sp/><sp/>of<sp/>the<sp/>current<sp/>thread.<sp/>It<sp/>is<sp/>not<sp/>an<sp/>error<sp/>if<sp/>the<sp/>function<sp/>is<sp/>unable<sp/>to<sp/>get</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/>the<sp/>current<sp/>Python<sp/>thread<sp/>state.</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"></highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/>If<sp/>interp<sp/>is<sp/>NULL,<sp/>the<sp/>function<sp/>tries<sp/>to<sp/>get<sp/>the<sp/>interpreter<sp/>state<sp/>from</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/>the<sp/>current<sp/>Python<sp/>thread<sp/>state,<sp/>or<sp/>from</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/>_PyGILState_GetInterpreterStateUnsafe()<sp/>in<sp/>last<sp/>resort.</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"></highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/>It<sp/>is<sp/>better<sp/>to<sp/>pass<sp/>NULL<sp/>to<sp/>interp<sp/>and<sp/>current_tstate,<sp/>the<sp/>function<sp/>tries</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/>different<sp/>options<sp/>to<sp/>retrieve<sp/>these<sp/>informations.</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"></highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>signal<sp/>safe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*)<sp/>_Py_DumpTracebackThreads(</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__is" kindref="compound">PyInterpreterState</ref><sp/>*interp,</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__ts" kindref="compound">PyThreadState</ref><sp/>*current_tstate);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>Py_LIMITED_API</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Write<sp/>a<sp/>Unicode<sp/>object<sp/>into<sp/>the<sp/>file<sp/>descriptor<sp/>fd.<sp/>Encode<sp/>the<sp/>string<sp/>to</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/><sp/><sp/>ASCII<sp/>using<sp/>the<sp/>backslashreplace<sp/>error<sp/>handler.</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"></highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/>Do<sp/>nothing<sp/>if<sp/>text<sp/>is<sp/>not<sp/>a<sp/>Unicode<sp/>object.<sp/>The<sp/>function<sp/>accepts<sp/>Unicode</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/>string<sp/>which<sp/>is<sp/>not<sp/>ready<sp/>(PyUnicode_WCHAR_KIND).</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"></highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>signal<sp/>safe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_DumpASCII(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/><ref refid="struct__object" kindref="compound">PyObject</ref><sp/>*text);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Format<sp/>an<sp/>integer<sp/>as<sp/>decimal<sp/>into<sp/>the<sp/>file<sp/>descriptor<sp/>fd.</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"></highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>signal<sp/>safe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_DumpDecimal(</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Format<sp/>an<sp/>integer<sp/>as<sp/>hexadecimal<sp/>into<sp/>the<sp/>file<sp/>descriptor<sp/>fd<sp/>with<sp/>at<sp/>least</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/>width<sp/>digits.</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"></highlight></codeline>
+<codeline lineno="106"><highlight class="comment"><sp/><sp/><sp/>The<sp/>maximum<sp/>width<sp/>is<sp/>sizeof(unsigned<sp/>long)*2<sp/>digits.</highlight></codeline>
+<codeline lineno="107"><highlight class="comment"></highlight></codeline>
+<codeline lineno="108"><highlight class="comment"><sp/><sp/><sp/>This<sp/>function<sp/>is<sp/>signal<sp/>safe.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">PyAPI_FUNC(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)<sp/>_Py_DumpHexadecimal(</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>value,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>Py_ssize_t<sp/>width);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>!Py_LIMITED_API<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>!Py_TRACEBACK_H<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="/usr/include/python3.6m/traceback.h"/>
+  </compounddef>
+</doxygen>
