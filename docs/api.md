@@ -88,7 +88,6 @@ List of all classes categorized by package and file.
 
 > [`uuv_waypoints`](packages/uuv_simulator/docs/python_api/uuv_waypoints.md)
 
-
 ## `uuv_plume_simulator`
 
 ### `uuv_plume_simulator`
