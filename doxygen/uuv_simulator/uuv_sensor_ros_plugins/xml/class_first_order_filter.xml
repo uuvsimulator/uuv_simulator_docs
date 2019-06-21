@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_first_order_filter" kind="class" language="C++" prot="public">
+    <compoundname>FirstOrderFilter</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_first_order_filter_1abf96f40acfd447b1f6eedbfa8bd9ad00" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FirstOrderFilter&lt; T &gt;::timeConstantUp_</definition>
+        <argsstring></argsstring>
+        <name>timeConstantUp_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="113" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_first_order_filter_1a8b6fdd458ba76b911e527945eb10e394" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FirstOrderFilter&lt; T &gt;::timeConstantDown_</definition>
+        <argsstring></argsstring>
+        <name>timeConstantDown_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="114" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_first_order_filter_1aeac705e33da04871e0f222d24ef8ece6" prot="protected" static="no" mutable="no">
+        <type>T</type>
+        <definition>T FirstOrderFilter&lt; T &gt;::previousState_</definition>
+        <argsstring></argsstring>
+        <name>previousState_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="115" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_first_order_filter_1a69ca7302a06941315d5e315a6ed726b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FirstOrderFilter&lt; T &gt;::FirstOrderFilter</definition>
+        <argsstring>(double timeConstantUp, double timeConstantDown, T initialState)</argsstring>
+        <name>FirstOrderFilter</name>
+        <param>
+          <type>double</type>
+          <declname>timeConstantUp</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>timeConstantDown</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>initialState</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="82" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_first_order_filter_1a2f2fa033f6d23d6fe789c0455ebc49c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T FirstOrderFilter&lt; T &gt;::updateFilter</definition>
+        <argsstring>(T inputState, double samplingTime)</argsstring>
+        <name>updateFilter</name>
+        <param>
+          <type>T</type>
+          <declname>inputState</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>samplingTime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="88" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="88" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="class_first_order_filter_1a8e8a8a7fc06a34578f5c18d44af7300b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>FirstOrderFilter&lt; T &gt;::~FirstOrderFilter</definition>
+        <argsstring>()</argsstring>
+        <name>~FirstOrderFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="110" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="110" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" line="67" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/Common.hh" bodystart="67" bodyend="116"/>
+    <listofallmembers>
+      <member refid="class_first_order_filter_1a69ca7302a06941315d5e315a6ed726b7" prot="public" virt="non-virtual"><scope>FirstOrderFilter</scope><name>FirstOrderFilter</name></member>
+      <member refid="class_first_order_filter_1aeac705e33da04871e0f222d24ef8ece6" prot="protected" virt="non-virtual"><scope>FirstOrderFilter</scope><name>previousState_</name></member>
+      <member refid="class_first_order_filter_1a8b6fdd458ba76b911e527945eb10e394" prot="protected" virt="non-virtual"><scope>FirstOrderFilter</scope><name>timeConstantDown_</name></member>
+      <member refid="class_first_order_filter_1abf96f40acfd447b1f6eedbfa8bd9ad00" prot="protected" virt="non-virtual"><scope>FirstOrderFilter</scope><name>timeConstantUp_</name></member>
+      <member refid="class_first_order_filter_1a2f2fa033f6d23d6fe789c0455ebc49c4" prot="public" virt="non-virtual"><scope>FirstOrderFilter</scope><name>updateFilter</name></member>
+      <member refid="class_first_order_filter_1a8e8a8a7fc06a34578f5c18d44af7300b" prot="public" virt="non-virtual"><scope>FirstOrderFilter</scope><name>~FirstOrderFilter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

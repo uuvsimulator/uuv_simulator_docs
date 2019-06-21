@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespaceuuv__simulator__ros" kind="namespace" language="C++">
+    <compoundname>uuv_simulator_ros</compoundname>
+    <innerclass refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin" prot="public">uuv_simulator_ros::FinROSPlugin</innerclass>
+    <innerclass refid="classuuv__simulator__ros_1_1_joint_state_publisher" prot="public">uuv_simulator_ros::JointStatePublisher</innerclass>
+    <innerclass refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin" prot="public">uuv_simulator_ros::ThrusterROSPlugin</innerclass>
+    <innerclass refid="classuuv__simulator__ros_1_1_underwater_object_r_o_s_plugin" prot="public">uuv_simulator_ros::UnderwaterObjectROSPlugin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="30" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacegazebo" kind="namespace" language="C++">
+    <compoundname>gazebo</compoundname>
+    <innerclass refid="classgazebo_1_1_gauss_markov_process" prot="public">gazebo::GaussMarkovProcess</innerclass>
+    <innerclass refid="classgazebo_1_1_underwater_current_plugin" prot="public">gazebo::UnderwaterCurrentPlugin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_plugins/include/uuv_world_plugins/GaussMarkovProcess.hh" line="28" column="1"/>
+  </compounddef>
+</doxygen>

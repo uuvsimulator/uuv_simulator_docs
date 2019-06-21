@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin" kind="class" language="C++" prot="public">
+    <compoundname>uuv_simulator_ros::ThrusterROSPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ThrusterPlugin</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a7aa85e4dbfa4dc1d6f88e68f9e6ca524" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, ros::ServiceServer &gt;</type>
+        <definition>std::map&lt;std::string, ros::ServiceServer&gt; uuv_simulator_ros::ThrusterROSPlugin::services</definition>
+        <argsstring></argsstring>
+        <name>services</name>
+        <briefdescription>
+<para>Map of thruster services. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="107" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ae42cd5917e98b723384e12da25be88b2" prot="private" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; uuv_simulator_ros::ThrusterROSPlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+<para>Pointer to this ROS node&apos;s handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="110" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a723ce90c4bb833c7951eceaedb622af4" prot="private" static="no" mutable="no">
+        <type>ros::Subscriber</type>
+        <definition>ros::Subscriber uuv_simulator_ros::ThrusterROSPlugin::subThrustReference</definition>
+        <argsstring></argsstring>
+        <name>subThrustReference</name>
+        <briefdescription>
+<para>Subscriber reacting to new reference thrust set points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="113" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a7ab4a1a6d988bd53e2130f2ce1254057" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::ThrusterROSPlugin::pubThrust</definition>
+        <argsstring></argsstring>
+        <name>pubThrust</name>
+        <briefdescription>
+<para>Publisher for current actual thrust. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="116" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1af5ad0d71190e33b1dfcf5ea333acac33" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::ThrusterROSPlugin::pubThrustWrench</definition>
+        <argsstring></argsstring>
+        <name>pubThrustWrench</name>
+        <briefdescription>
+<para>Publisher for current actual thrust as wrench. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="119" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9ab8101063f39867da58a3bbbe5c0a52" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::ThrusterROSPlugin::pubThrusterState</definition>
+        <argsstring></argsstring>
+        <name>pubThrusterState</name>
+        <briefdescription>
+<para>Publisher for the thruster state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="122" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9c8ab96192f72180e99a1f503b20cfdd" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::ThrusterROSPlugin::pubThrustForceEff</definition>
+        <argsstring></argsstring>
+        <name>pubThrustForceEff</name>
+        <briefdescription>
+<para>Publisher for the thrust force efficiency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="125" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a99cd5a0654868c5479802af2ea202827" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::ThrusterROSPlugin::pubDynamicStateEff</definition>
+        <argsstring></argsstring>
+        <name>pubDynamicStateEff</name>
+        <briefdescription>
+<para>Publisher for the dynamic state efficiency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="128" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4610fce7622a5c12ae9c9891308c6428" prot="private" static="no" mutable="no">
+        <type>gazebo::event::ConnectionPtr</type>
+        <definition>gazebo::event::ConnectionPtr uuv_simulator_ros::ThrusterROSPlugin::rosPublishConnection</definition>
+        <argsstring></argsstring>
+        <name>rosPublishConnection</name>
+        <briefdescription>
+<para>Connection for callbacks on update world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="131" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4e10c2e88e554f2d5d320071a5c043a4" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::ThrusterROSPlugin::rosPublishPeriod</definition>
+        <argsstring></argsstring>
+        <name>rosPublishPeriod</name>
+        <briefdescription>
+<para>Period after which we should publish a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="134" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a2a4326e8bf21585483404f9ca6d18766" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::ThrusterROSPlugin::lastRosPublishTime</definition>
+        <argsstring></argsstring>
+        <name>lastRosPublishTime</name>
+        <briefdescription>
+<para>Last time we published a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="137" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a96d5b46e81d42adc6f1bedc129b56a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::ThrusterROSPlugin::ThrusterROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>ThrusterROSPlugin</name>
+        <briefdescription>
+<para>Constrcutor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="44" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="30" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a25fab91375decd55eec8a8ee3bd4079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::ThrusterROSPlugin::~ThrusterROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~ThrusterROSPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="47" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="37" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab1b70d05c87212176d1237817bf9ddf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::Load</definition>
+        <argsstring>(gazebo::physics::ModelPtr _parent, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>gazebo::physics::ModelPtr</type>
+          <declname>_parent</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load module and read parameters from SDF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="50" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="90" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab3d7f21cabcbb88d9551860182e50096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::RosPublishStates</definition>
+        <argsstring>()</argsstring>
+        <name>RosPublishStates</name>
+        <briefdescription>
+<para>Publish thruster state via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="53" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="183" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ac3f8c621ead1c6fe22809c3abf284a68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::SetThrustReference</definition>
+        <argsstring>(const uuv_gazebo_ros_plugins_msgs::FloatStamped::ConstPtr &amp;_msg)</argsstring>
+        <name>SetThrustReference</name>
+        <param>
+          <type>const uuv_gazebo_ros_plugins_msgs::FloatStamped::ConstPtr &amp;</type>
+          <declname>_msg</declname>
+        </param>
+        <briefdescription>
+<para>Set new set point (desired thrust [N]) for thruster. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="56" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="50" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a61b52a4fbc5871061f3b8f4639596e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::ThrusterROSPlugin::GetRosPublishPeriod</definition>
+        <argsstring>()</argsstring>
+        <name>GetRosPublishPeriod</name>
+        <briefdescription>
+<para>Return the ROS publish period. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1adb8206d74cba2e15a209db4284198db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::SetRosPublishRate</definition>
+        <argsstring>(double _hz)</argsstring>
+        <name>SetRosPublishRate</name>
+        <param>
+          <type>double</type>
+          <declname>_hz</declname>
+        </param>
+        <briefdescription>
+<para>Set the ROS publish frequency (Hz). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a670f0befa3efac82bcff5d187fe6cbb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Initialize Module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a525a9a8ea9be37c4542137640c4a2fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::ThrusterROSPlugin::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Reset Module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9d65e6dda76939e59df4b18226f893b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::SetThrustForceEfficiency</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response &amp;_res)</argsstring>
+        <name>SetThrustForceEfficiency</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Set the thrust efficiency factor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="226" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4a73039a9b93090462da51189a83b85b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::GetThrustForceEfficiency</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response &amp;_res)</argsstring>
+        <name>GetThrustForceEfficiency</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Get the thrust efficiency factor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="77" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="246" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a10f86f23ba017986e816a83dbd217a5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::SetDynamicStateEfficiency</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response &amp;_res)</argsstring>
+        <name>SetDynamicStateEfficiency</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Set the dynamic state efficiency factor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="255" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a585e5327b2d1fd93d8bacce6e95e623c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::GetDynamicStateEfficiency</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response &amp;_res)</argsstring>
+        <name>GetDynamicStateEfficiency</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Get the dynamic state efficiency factor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="87" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="275" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ad8b0158748c2ae0950851e257d811988" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::SetThrusterState</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::SetThrusterState::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::SetThrusterState::Response &amp;_res)</argsstring>
+        <name>SetThrusterState</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterState::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::SetThrusterState::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Turn thruster on/off. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="92" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="284" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a03f9489a29bf669efb23ecc9df28f95b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::GetThrusterState</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::GetThrusterState::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::GetThrusterState::Response &amp;_res)</argsstring>
+        <name>GetThrusterState</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterState::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterState::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Get thruster state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="97" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="296" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1af012be49e3598405ceb764190838789c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::ThrusterROSPlugin::GetThrusterConversionFcn</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Response &amp;_res)</argsstring>
+        <name>GetThrusterConversionFcn</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Get thruster conversion function parameters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="102" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc" bodystart="305" bodyend="353"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>gazebo::ThrusterPlugin</label>
+      </node>
+      <node id="20">
+        <label>uuv_simulator_ros::ThrusterROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="23">
+        <label>gazebo::ThrusterPlugin</label>
+      </node>
+      <node id="22">
+        <label>uuv_simulator_ros::ThrusterROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" line="42" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh" bodystart="41" bodyend="138"/>
+    <listofallmembers>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a585e5327b2d1fd93d8bacce6e95e623c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>GetDynamicStateEfficiency</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a61b52a4fbc5871061f3b8f4639596e32" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>GetRosPublishPeriod</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1af012be49e3598405ceb764190838789c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>GetThrusterConversionFcn</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a03f9489a29bf669efb23ecc9df28f95b" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>GetThrusterState</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4a73039a9b93090462da51189a83b85b" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>GetThrustForceEfficiency</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a670f0befa3efac82bcff5d187fe6cbb3" prot="public" virt="virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>Init</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a2a4326e8bf21585483404f9ca6d18766" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>lastRosPublishTime</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab1b70d05c87212176d1237817bf9ddf5" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>Load</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a99cd5a0654868c5479802af2ea202827" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>pubDynamicStateEff</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a7ab4a1a6d988bd53e2130f2ce1254057" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>pubThrust</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9ab8101063f39867da58a3bbbe5c0a52" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>pubThrusterState</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9c8ab96192f72180e99a1f503b20cfdd" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>pubThrustForceEff</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1af5ad0d71190e33b1dfcf5ea333acac33" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>pubThrustWrench</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a525a9a8ea9be37c4542137640c4a2fbc" prot="public" virt="virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>Reset</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ae42cd5917e98b723384e12da25be88b2" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>rosNode</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4610fce7622a5c12ae9c9891308c6428" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>rosPublishConnection</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4e10c2e88e554f2d5d320071a5c043a4" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>rosPublishPeriod</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab3d7f21cabcbb88d9551860182e50096" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>RosPublishStates</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a7aa85e4dbfa4dc1d6f88e68f9e6ca524" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>services</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a10f86f23ba017986e816a83dbd217a5a" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>SetDynamicStateEfficiency</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1adb8206d74cba2e15a209db4284198db8" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>SetRosPublishRate</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ad8b0158748c2ae0950851e257d811988" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>SetThrusterState</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9d65e6dda76939e59df4b18226f893b0" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>SetThrustForceEfficiency</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ac3f8c621ead1c6fe22809c3abf284a68" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>SetThrustReference</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a723ce90c4bb833c7951eceaedb622af4" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>subThrustReference</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a96d5b46e81d42adc6f1bedc129b56a92" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>ThrusterROSPlugin</name></member>
+      <member refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a25fab91375decd55eec8a8ee3bd4079e" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::ThrusterROSPlugin</scope><name>~ThrusterROSPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

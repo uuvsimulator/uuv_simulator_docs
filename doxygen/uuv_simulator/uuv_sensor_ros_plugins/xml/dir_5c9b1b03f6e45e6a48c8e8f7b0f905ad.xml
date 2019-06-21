@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_5c9b1b03f6e45e6a48c8e8f7b0f905ad" kind="dir">
+    <compoundname>/home/musamorena/catkin_ws</compoundname>
+    <innerdir refid="dir_7c859f3878cb32062c29919224ce2290">/home/musamorena/catkin_ws/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/"/>
+  </compounddef>
+</doxygen>

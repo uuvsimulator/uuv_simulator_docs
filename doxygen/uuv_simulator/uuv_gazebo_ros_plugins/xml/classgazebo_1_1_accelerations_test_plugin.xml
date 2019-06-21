@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_accelerations_test_plugin" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::AccelerationsTestPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelPlugin</basecompoundref>
+    <includes refid="_accelerations_test_plugin_8hh" local="no">AccelerationsTestPlugin.hh</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a0ca115f72985faf7538a4af8761ace97" prot="protected" static="no" mutable="no">
+        <type>gazebo::event::ConnectionPtr</type>
+        <definition>gazebo::event::ConnectionPtr gazebo::AccelerationsTestPlugin::updateConnection</definition>
+        <argsstring></argsstring>
+        <name>updateConnection</name>
+        <briefdescription>
+<para>Update event. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="54" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1ae3fb62216782f354834b5000ffb290fc" prot="protected" static="no" mutable="no">
+        <type>gazebo::physics::WorldPtr</type>
+        <definition>gazebo::physics::WorldPtr gazebo::AccelerationsTestPlugin::world</definition>
+        <argsstring></argsstring>
+        <name>world</name>
+        <briefdescription>
+<para>Pointer to the world plugin. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="57" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1affe319c6bc7669cadac84a248a0113ad" prot="protected" static="no" mutable="no">
+        <type>gazebo::physics::ModelPtr</type>
+        <definition>gazebo::physics::ModelPtr gazebo::AccelerationsTestPlugin::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+<para>Pointer to the model structure. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="60" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a78096f01be7e0804b178f565862315bf" prot="protected" static="no" mutable="no">
+        <type>gazebo::transport::NodePtr</type>
+        <definition>gazebo::transport::NodePtr gazebo::AccelerationsTestPlugin::node</definition>
+        <argsstring></argsstring>
+        <name>node</name>
+        <briefdescription>
+<para>Gazebo node. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1af0c72cd442cedea70084db09fef483ad" prot="protected" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::AccelerationsTestPlugin::link</definition>
+        <argsstring></argsstring>
+        <name>link</name>
+        <briefdescription>
+<para>Link of test object. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a491b199de59266f1e559ab0667cdc602" prot="protected" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher gazebo::AccelerationsTestPlugin::pub_accel_b_gazebo</definition>
+        <argsstring></argsstring>
+        <name>pub_accel_b_gazebo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="71" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1af15a43ec01edd5d0d0d5c00ecc93bbfe" prot="protected" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher gazebo::AccelerationsTestPlugin::pub_accel_b_numeric</definition>
+        <argsstring></argsstring>
+        <name>pub_accel_b_numeric</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="72" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a51d748b8442b3856eeff4de3d8fbc83a" prot="protected" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher gazebo::AccelerationsTestPlugin::pub_accel_w_gazebo</definition>
+        <argsstring></argsstring>
+        <name>pub_accel_w_gazebo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="74" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1aa2bf1016615f64d5cb4d29592af494f7" prot="protected" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher gazebo::AccelerationsTestPlugin::pub_accel_w_numeric</definition>
+        <argsstring></argsstring>
+        <name>pub_accel_w_numeric</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="75" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a0829056785ddad0daad41f40b61b1421" prot="protected" static="no" mutable="no">
+        <type>Eigen::Vector6d</type>
+        <definition>Eigen::Vector6d gazebo::AccelerationsTestPlugin::last_w_v_w_b</definition>
+        <argsstring></argsstring>
+        <name>last_w_v_w_b</name>
+        <briefdescription>
+<para>Velocity of link with respect to world frame in previous time step. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="78" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1afedb74b4ade15db6baf2cc9fdcef5e7c" prot="protected" static="no" mutable="no">
+        <type>common::Time</type>
+        <definition>common::Time gazebo::AccelerationsTestPlugin::lastTime</definition>
+        <argsstring></argsstring>
+        <name>lastTime</name>
+        <briefdescription>
+<para>Time stamp of previous time step. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="81" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_accelerations_test_plugin_1a64e0f2c7bd3e1d1a05746ddd42c00b26" prot="private" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; gazebo::AccelerationsTestPlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1a55aab0da39c4400e84646b11caa72507" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::AccelerationsTestPlugin::AccelerationsTestPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>AccelerationsTestPlugin</name>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="34" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="37" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1a6e91ba8c0d0817eea3f16480f5b5137b" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>gazebo::AccelerationsTestPlugin::~AccelerationsTestPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~AccelerationsTestPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="37" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="42" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1a8122bf6caafdee89d84f6a17059f1864" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::AccelerationsTestPlugin::Load</definition>
+        <argsstring>(gazebo::physics::ModelPtr _model, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>gazebo::physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="40" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="52" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1a44dd56d9db03bd76aae7dee71d186a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::AccelerationsTestPlugin::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="44" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1affd8910814c560e28e926827fa70e70c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::AccelerationsTestPlugin::Update</definition>
+        <argsstring>(const gazebo::common::UpdateInfo &amp;_info)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>const gazebo::common::UpdateInfo &amp;</type>
+          <declname>_info</declname>
+        </param>
+        <briefdescription>
+<para>Update the simulation state. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Information used in the update event. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="48" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="132" bodyend="210"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_accelerations_test_plugin_1afbfdb6e1ed425f0f4194f32fd69e36d0" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::AccelerationsTestPlugin::Connect</definition>
+        <argsstring>()</argsstring>
+        <name>Connect</name>
+        <briefdescription>
+<para>Connects the update event callback. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="51" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/AccelerationsTestPlugin.cc" bodystart="213" bodyend="219"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Gazebo model plugin class for underwater objects. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gazebo::ModelPlugin</label>
+      </node>
+      <node id="0">
+        <label>gazebo::AccelerationsTestPlugin</label>
+        <link refid="classgazebo_1_1_accelerations_test_plugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gazebo::ModelPlugin</label>
+      </node>
+      <node id="2">
+        <label>gazebo::AccelerationsTestPlugin</label>
+        <link refid="classgazebo_1_1_accelerations_test_plugin"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" line="32" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/AccelerationsTestPlugin.hh" bodystart="31" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a55aab0da39c4400e84646b11caa72507" prot="public" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>AccelerationsTestPlugin</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1afbfdb6e1ed425f0f4194f32fd69e36d0" prot="protected" virt="virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>Connect</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a44dd56d9db03bd76aae7dee71d186a56" prot="public" virt="virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>Init</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a0829056785ddad0daad41f40b61b1421" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>last_w_v_w_b</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1afedb74b4ade15db6baf2cc9fdcef5e7c" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>lastTime</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1af0c72cd442cedea70084db09fef483ad" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>link</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a8122bf6caafdee89d84f6a17059f1864" prot="public" virt="virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1affe319c6bc7669cadac84a248a0113ad" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>model</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a78096f01be7e0804b178f565862315bf" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>node</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a491b199de59266f1e559ab0667cdc602" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>pub_accel_b_gazebo</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1af15a43ec01edd5d0d0d5c00ecc93bbfe" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>pub_accel_b_numeric</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a51d748b8442b3856eeff4de3d8fbc83a" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>pub_accel_w_gazebo</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1aa2bf1016615f64d5cb4d29592af494f7" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>pub_accel_w_numeric</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a64e0f2c7bd3e1d1a05746ddd42c00b26" prot="private" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>rosNode</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1affd8910814c560e28e926827fa70e70c" prot="public" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>Update</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a0ca115f72985faf7538a4af8761ace97" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>updateConnection</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1ae3fb62216782f354834b5000ffb290fc" prot="protected" virt="non-virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>world</name></member>
+      <member refid="classgazebo_1_1_accelerations_test_plugin_1a6e91ba8c0d0817eea3f16480f5b5137b" prot="public" virt="virtual"><scope>gazebo::AccelerationsTestPlugin</scope><name>~AccelerationsTestPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

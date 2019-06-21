@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_umbilical_model_berg" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::UmbilicalModelBerg</compoundname>
+    <basecompoundref refid="classgazebo_1_1_umbilical_model" prot="public" virt="non-virtual">gazebo::UmbilicalModel</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_berg_1a9b96823f93c9f8d4f0d3e39697c97f83" prot="private" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gazebo::UmbilicalModelBerg::IDENTIFIER</definition>
+        <argsstring></argsstring>
+        <name>IDENTIFIER</name>
+        <initializer>= &quot;Berg&quot;</initializer>
+        <briefdescription>
+<para>The unique identifier of this <ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="107" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_berg_1ad8930052ba2cd86285c9067d01b1a161" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::UmbilicalModelBerg::diameter</definition>
+        <argsstring></argsstring>
+        <name>diameter</name>
+        <briefdescription>
+<para>Umbilical diameter. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="110" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_berg_1a4aac5df312f235472062adcc1fc5c6fd" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::UmbilicalModelBerg::rho</definition>
+        <argsstring></argsstring>
+        <name>rho</name>
+        <briefdescription>
+<para>Water density. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="113" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_berg_1a3f1ce2888fe8ef1fa0da035c97926b48" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::UmbilicalModelBerg::UmbilicalModelBerg</definition>
+        <argsstring>(sdf::ElementPtr _sdf, physics::ModelPtr _model)</argsstring>
+        <name>UmbilicalModelBerg</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <briefdescription>
+<para>Protected constructor: Use the factory instead. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="92" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="78" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_berg_1a4263ddcd8f8712ebf473ef5e88e623d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> *</type>
+        <definition>UmbilicalModel * gazebo::UmbilicalModelBerg::create</definition>
+        <argsstring>(sdf::ElementPtr _sdf, physics::ModelPtr _model)</argsstring>
+        <name>create</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <briefdescription>
+<para>Create <ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> according to its description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="96" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="95" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_berg_1a192a711adeb0f052eb0b07d67b4629f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::UmbilicalModelBerg::OnUpdate</definition>
+        <argsstring>(const common::UpdateInfo &amp;_info, const ignition::math::Vector3d &amp;_flow)</argsstring>
+        <name>OnUpdate</name>
+        <reimplements refid="classgazebo_1_1_umbilical_model_1ae2c720369c5eea2d3562a73d9031571b">OnUpdate</reimplements>
+        <param>
+          <type>const common::UpdateInfo &amp;</type>
+          <declname>_info</declname>
+        </param>
+        <param>
+          <type>const ignition::math::Vector3d &amp;</type>
+          <declname>_flow</declname>
+        </param>
+        <briefdescription>
+<para>Update Umbilical (and apply forces) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="100" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="103" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_berg_1a328cf4cbae97bb4543f39c8854881010" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::UmbilicalModelBerg::REGISTER_UMBILICALMODEL</definition>
+        <argsstring>(UmbilicalModelBerg)</argsstring>
+        <name>REGISTER_UMBILICALMODEL</name>
+        <param>
+          <type><ref refid="classgazebo_1_1_umbilical_model_berg" kindref="compound">UmbilicalModelBerg</ref></type>
+        </param>
+        <briefdescription>
+<para>Register this <ref refid="classgazebo_1_1_umbilical_model" kindref="compound">UmbilicalModel</ref> function with the factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="104" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="130">
+        <label>gazebo::UmbilicalModel</label>
+        <link refid="classgazebo_1_1_umbilical_model"/>
+      </node>
+      <node id="129">
+        <label>gazebo::UmbilicalModelBerg</label>
+        <link refid="classgazebo_1_1_umbilical_model_berg"/>
+        <childnode refid="130" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="132">
+        <label>gazebo::UmbilicalModel</label>
+        <link refid="classgazebo_1_1_umbilical_model"/>
+      </node>
+      <node id="131">
+        <label>gazebo::UmbilicalModelBerg</label>
+        <link refid="classgazebo_1_1_umbilical_model_berg"/>
+        <childnode refid="132" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="90" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="89" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_umbilical_model_1a83ea6576e2b766d962be574e576413bd" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>connector</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a4263ddcd8f8712ebf473ef5e88e623d4" prot="public" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>create</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1ad8930052ba2cd86285c9067d01b1a161" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>diameter</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a9b96823f93c9f8d4f0d3e39697c97f83" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>IDENTIFIER</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1adbc3a2261e2f18bf139ebcd4bdad9a2e" prot="public" virt="virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>Init</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a48ea9fa0b8db157b948b1a6f21e94be1" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>model</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a192a711adeb0f052eb0b07d67b4629f4" prot="public" virt="virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a328cf4cbae97bb4543f39c8854881010" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>REGISTER_UMBILICALMODEL</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a4aac5df312f235472062adcc1fc5c6fd" prot="private" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>rho</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a71941e80b15a64440d87138956e93774" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>UmbilicalModel</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_berg_1a3f1ce2888fe8ef1fa0da035c97926b48" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>UmbilicalModelBerg</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a6219268fde521f1873477227342e22f8" prot="public" virt="virtual"><scope>gazebo::UmbilicalModelBerg</scope><name>~UmbilicalModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

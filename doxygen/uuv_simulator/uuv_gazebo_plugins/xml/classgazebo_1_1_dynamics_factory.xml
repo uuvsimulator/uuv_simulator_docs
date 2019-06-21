@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_dynamics_factory" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::DynamicsFactory</compoundname>
+    <includes refid="_dynamics_8hh" local="no">Dynamics.hh</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_dynamics_factory_1a74faeb9a3eb416dbeb4e06a702a5af45" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, DynamicsCreator &gt;</type>
+        <definition>std::map&lt;std::string, DynamicsCreator&gt; gazebo::DynamicsFactory::creators_</definition>
+        <argsstring></argsstring>
+        <name>creators_</name>
+        <briefdescription>
+<para>Map of each registered identifier to its corresponding creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="76" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_dynamics_factory_1a7c041d73164da84de4a4677e7df83c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_dynamics" kindref="compound">Dynamics</ref> *</type>
+        <definition>Dynamics * gazebo::DynamicsFactory::CreateDynamics</definition>
+        <argsstring>(sdf::ElementPtr _sdf)</argsstring>
+        <name>CreateDynamics</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Create ThrusterDynamics object according to its sdf Description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/Dynamics.cc" bodystart="30" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_dynamics_factory_1a46196328ff7188a0bc741da2ab3c4441" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gazebo::DynamicsFactory::RegisterCreator</definition>
+        <argsstring>(const std::string &amp;_identifier, DynamicsCreator _creator)</argsstring>
+        <name>RegisterCreator</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>_identifier</declname>
+        </param>
+        <param>
+          <type>DynamicsCreator</type>
+          <declname>_creator</declname>
+        </param>
+        <briefdescription>
+<para>Register a ThrusterDynamic class with its creator. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/Dynamics.cc" bodystart="59" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_dynamics_factory_1a6396cc1d091dc0907c825ec37c2ef4e3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_dynamics_factory" kindref="compound">DynamicsFactory</ref> &amp;</type>
+        <definition>DynamicsFactory &amp; gazebo::DynamicsFactory::GetInstance</definition>
+        <argsstring>()</argsstring>
+        <name>GetInstance</name>
+        <briefdescription>
+<para>Returns the singleton instance of this factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="66" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/Dynamics.cc" bodystart="52" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_dynamics_factory_1a9d8e39ad7ebeb9c349fd4aba00d5551a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::DynamicsFactory::DynamicsFactory</definition>
+        <argsstring>()</argsstring>
+        <name>DynamicsFactory</name>
+        <briefdescription>
+<para>Constructor is private since this is a singleton. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="73" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" bodystart="73" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Factory singleton class that creates a ThrusterDynamics from sdf. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" line="61" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/Dynamics.hh" bodystart="60" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_dynamics_factory_1a7c041d73164da84de4a4677e7df83c88" prot="public" virt="non-virtual"><scope>gazebo::DynamicsFactory</scope><name>CreateDynamics</name></member>
+      <member refid="classgazebo_1_1_dynamics_factory_1a74faeb9a3eb416dbeb4e06a702a5af45" prot="private" virt="non-virtual"><scope>gazebo::DynamicsFactory</scope><name>creators_</name></member>
+      <member refid="classgazebo_1_1_dynamics_factory_1a9d8e39ad7ebeb9c349fd4aba00d5551a" prot="private" virt="non-virtual"><scope>gazebo::DynamicsFactory</scope><name>DynamicsFactory</name></member>
+      <member refid="classgazebo_1_1_dynamics_factory_1a6396cc1d091dc0907c825ec37c2ef4e3" prot="public" virt="non-virtual"><scope>gazebo::DynamicsFactory</scope><name>GetInstance</name></member>
+      <member refid="classgazebo_1_1_dynamics_factory_1a46196328ff7188a0bc741da2ab3c4441" prot="public" virt="non-virtual"><scope>gazebo::DynamicsFactory</scope><name>RegisterCreator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_umbilical_model" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gazebo::UmbilicalModel</compoundname>
+    <derivedcompoundref refid="classgazebo_1_1_umbilical_model_berg" prot="public" virt="non-virtual">gazebo::UmbilicalModelBerg</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_1a48ea9fa0b8db157b948b1a6f21e94be1" prot="protected" static="no" mutable="no">
+        <type>physics::ModelPtr</type>
+        <definition>physics::ModelPtr gazebo::UmbilicalModel::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+<para>Gazebo model to which this umbilical belongs. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="48" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_umbilical_model_1a83ea6576e2b766d962be574e576413bd" prot="protected" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::UmbilicalModel::connector</definition>
+        <argsstring></argsstring>
+        <name>connector</name>
+        <briefdescription>
+<para>Moving connector link of this umbilical. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="51" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_1a71941e80b15a64440d87138956e93774" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::UmbilicalModel::UmbilicalModel</definition>
+        <argsstring>()</argsstring>
+        <name>UmbilicalModel</name>
+        <briefdescription>
+<para>Protected constructor: Use the factory instead. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="35" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_1a6219268fde521f1873477227342e22f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type></type>
+        <definition>virtual gazebo::UmbilicalModel::~UmbilicalModel</definition>
+        <argsstring>()</argsstring>
+        <name>~UmbilicalModel</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="38" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_1adbc3a2261e2f18bf139ebcd4bdad9a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::UmbilicalModel::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Initialize model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="41" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/UmbilicalModel.cc" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_umbilical_model_1ae2c720369c5eea2d3562a73d9031571b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gazebo::UmbilicalModel::OnUpdate</definition>
+        <argsstring>(const common::UpdateInfo &amp;_info, const ignition::math::Vector3d &amp;_flow)=0</argsstring>
+        <name>OnUpdate</name>
+        <reimplementedby refid="classgazebo_1_1_umbilical_model_berg_1a192a711adeb0f052eb0b07d67b4629f4">OnUpdate</reimplementedby>
+        <param>
+          <type>const common::UpdateInfo &amp;</type>
+          <declname>_info</declname>
+        </param>
+        <param>
+          <type>const ignition::math::Vector3d &amp;</type>
+          <declname>_flow</declname>
+        </param>
+        <briefdescription>
+<para>Update Umbilical (and apply forces) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="126">
+        <label>gazebo::UmbilicalModel</label>
+        <link refid="classgazebo_1_1_umbilical_model"/>
+      </node>
+      <node id="127">
+        <label>gazebo::UmbilicalModelBerg</label>
+        <link refid="classgazebo_1_1_umbilical_model_berg"/>
+        <childnode refid="126" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" line="33" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/UmbilicalModel.hh" bodystart="32" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_umbilical_model_1a83ea6576e2b766d962be574e576413bd" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModel</scope><name>connector</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1adbc3a2261e2f18bf139ebcd4bdad9a2e" prot="public" virt="virtual"><scope>gazebo::UmbilicalModel</scope><name>Init</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a48ea9fa0b8db157b948b1a6f21e94be1" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModel</scope><name>model</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1ae2c720369c5eea2d3562a73d9031571b" prot="public" virt="pure-virtual"><scope>gazebo::UmbilicalModel</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a71941e80b15a64440d87138956e93774" prot="protected" virt="non-virtual"><scope>gazebo::UmbilicalModel</scope><name>UmbilicalModel</name></member>
+      <member refid="classgazebo_1_1_umbilical_model_1a6219268fde521f1873477227342e22f8" prot="public" virt="virtual"><scope>gazebo::UmbilicalModel</scope><name>~UmbilicalModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

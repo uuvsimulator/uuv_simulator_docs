@@ -1,0 +1,465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_c_p_c_sensor_8cc" kind="file" language="C++">
+    <compoundname>CPCSensor.cc</compoundname>
+    <includes refid="_c_p_c_sensor_8hh" local="no">uuv_cpc_sensor/CPCSensor.hh</includes>
+    <incdepgraph>
+      <node id="29">
+        <label>geographic_msgs/GeoPoint.h</label>
+      </node>
+      <node id="33">
+        <label>nav_msgs/Odometry.h</label>
+      </node>
+      <node id="31">
+        <label>sensor_msgs/PointCloud.h</label>
+      </node>
+      <node id="25">
+        <label>GeographicLib/LocalCartesian.hpp</label>
+      </node>
+      <node id="37">
+        <label>string</label>
+      </node>
+      <node id="21">
+        <label>uuv_cpc_sensor/CPCSensor.hh</label>
+        <link refid="_c_p_c_sensor_8hh_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>geometry_msgs/Vector3.h</label>
+      </node>
+      <node id="30">
+        <label>std_msgs/Float64.h</label>
+      </node>
+      <node id="35">
+        <label>uuv_plume_msgs/Salinity.h</label>
+      </node>
+      <node id="39">
+        <label>random</label>
+      </node>
+      <node id="27">
+        <label>geometry_msgs/TransformStamped.h</label>
+      </node>
+      <node id="32">
+        <label>sensor_msgs/NavSatFix.h</label>
+      </node>
+      <node id="24">
+        <label>GeographicLib/Geocentric.hpp</label>
+      </node>
+      <node id="22">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="20">
+        <label>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/src/CPCSensor.cc</label>
+        <link refid="_c_p_c_sensor_8cc"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>boost/bind.hpp</label>
+      </node>
+      <node id="26">
+        <label>tf2_ros/transform_listener.h</label>
+      </node>
+      <node id="38">
+        <label>chrono</label>
+      </node>
+      <node id="34">
+        <label>uuv_plume_msgs/ParticleConcentration.h</label>
+      </node>
+      <node id="36">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_cpc_sensor/CPCSensor.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceuuv__plume__simulator" kindref="compound">uuv_plume_simulator</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1472cc5596ca8af358a4a2a887c94935" kindref="member">CPCSensor::CPCSensor</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO(</highlight><highlight class="stringliteral">&quot;Particle<sp/>concentration<sp/>sensor<sp/>is<sp/>starting&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>ros::NodeHandle(</highlight><highlight class="stringliteral">&quot;~&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>ROS<sp/>node</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!ros::isInitialized())</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_ERROR(</highlight><highlight class="stringliteral">&quot;Not<sp/>loading<sp/>sensor<sp/>plugin<sp/>since<sp/>ROS<sp/>has<sp/>not<sp/>been<sp/>properly<sp/>initialized&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Set<sp/>seed<sp/>for<sp/>the<sp/>noise<sp/>generator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/>seed<sp/>=<sp/>std::chrono::system_clock::now().time_since_epoch().count();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a32296108956e0909056e72ea5c3fe873" kindref="member">rndGen</ref><sp/>=<sp/>std::default_random_engine(seed);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~gamma&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a853b8d456c24b321b952359c9a61489b" kindref="member">gamma</ref>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a853b8d456c24b321b952359c9a61489b" kindref="member">gamma</ref><sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO_NAMED(</highlight><highlight class="stringliteral">&quot;CPCSensor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Gamma:<sp/>%3f&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a853b8d456c24b321b952359c9a61489b" kindref="member">gamma</ref>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~gain&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ad676c2b912f8b148b57070cda5b1c384" kindref="member">gain</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ad676c2b912f8b148b57070cda5b1c384" kindref="member">gain</ref><sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO_NAMED(</highlight><highlight class="stringliteral">&quot;CPCSensor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Gain:<sp/>%3f&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ad676c2b912f8b148b57070cda5b1c384" kindref="member">gain</ref>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~radius&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a285eb79145cfd715291f808eaac32afb" kindref="member">smoothingLength</ref>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a285eb79145cfd715291f808eaac32afb" kindref="member">smoothingLength</ref><sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO_NAMED(</highlight><highlight class="stringliteral">&quot;CPCSensor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Radius<sp/>[m]:<sp/>%3f&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a285eb79145cfd715291f808eaac32afb" kindref="member">smoothingLength</ref>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~update_rate&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a5091b83afd0468f9f9926e19329c33ee" kindref="member">updateRate</ref>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a5091b83afd0468f9f9926e19329c33ee" kindref="member">updateRate</ref><sp/>&gt;<sp/>0);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO_NAMED(</highlight><highlight class="stringliteral">&quot;CPCSensor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Update<sp/>rate<sp/>[Hz]:<sp/>%3f&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a5091b83afd0468f9f9926e19329c33ee" kindref="member">updateRate</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a4925a0273447a20a2a45749c2b739bf3" kindref="member">saturation</ref><sp/>=<sp/>1.0;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~saturation&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~saturation&quot;</highlight><highlight class="normal">,<sp/>this-&gt;saturation);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a4925a0273447a20a2a45749c2b739bf3" kindref="member">saturation</ref><sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aff1cf4cad2ccf96800db7f6a16f271cc" kindref="member">noiseAmp</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~noise_amplitude&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~noise_amplitude&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseAmp);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aff1cf4cad2ccf96800db7f6a16f271cc" kindref="member">noiseAmp</ref><sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a051b51ad3230fe9ee57f94aa80605cb1" kindref="member">noiseSigma</ref><sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~noise_sigma&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~noise_sigma&quot;</highlight><highlight class="normal">,<sp/>this-&gt;noiseSigma);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a051b51ad3230fe9ee57f94aa80605cb1" kindref="member">noiseSigma</ref><sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>noise<sp/>model</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a43cfa91f2d9b5285545e7986b5a15962" kindref="member">noiseModel</ref><sp/>=<sp/>std::normal_distribution&lt;double&gt;(0.0,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a051b51ad3230fe9ee57f94aa80605cb1" kindref="member">noiseSigma</ref>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>geodetic<sp/>reference<sp/>as<sp/>WGS84</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a9f12bbbc0bb4734e3e319fc940b0b0e6" kindref="member">useGeoCoordinates</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~use_geo_coordinates&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;~use_geo_coordinates&quot;</highlight><highlight class="normal">,<sp/>this-&gt;useGeoCoordinates);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Create<sp/>the<sp/>coordinate<sp/>converter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;useGeoCoordinates)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GeographicLib::Geocentric<sp/>earth(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GeographicLib::Constants::WGS84_a(),</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GeographicLib::Constants::WGS84_f());</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>latitude<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>longitude<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~latitude&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~longitude&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~latitude&quot;</highlight><highlight class="normal">,<sp/>latitude);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~longitude&quot;</highlight><highlight class="normal">,<sp/>longitude);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9c6808ab2ad5b13a72fb511eac3ab94" kindref="member">projection</ref><sp/>=<sp/>GeographicLib::LocalCartesian(</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>latitude,<sp/>longitude,<sp/>0,<sp/>earth);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loading<sp/>the<sp/>salinity<sp/>unit<sp/>for<sp/>the<sp/>salinity<sp/>output</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref><sp/>=<sp/>CONCENTRATION_UNIT_PPT;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~salinity_unit&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~salinity_unit&quot;</highlight><highlight class="normal">,<sp/>this-&gt;salinityUnit);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(!this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref>.compare(CONCENTRATION_UNIT_PPT)<sp/>||</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref>.compare(CONCENTRATION_UNIT_PPM)<sp/>||</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref>.compare(CONCENTRATION_UNIT_PSU));</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Loading<sp/>the<sp/>reference<sp/>salinity<sp/>value<sp/>to<sp/>be<sp/>computed<sp/>from<sp/>the<sp/>particle</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>concentration<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~reference_salinity_value&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~reference_salinity_value&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;referenceSalinityValue);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>If<sp/>no<sp/>reference<sp/>is<sp/>given,<sp/>the<sp/>sea<sp/>water<sp/>reference<sp/>is<sp/>provided</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref>.compare(CONCENTRATION_UNIT_PPT)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a91278f224f4dc69aaa839eb517dd5a46" kindref="member">referenceSalinityValue</ref><sp/>=<sp/>35.0;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1a2bed3e78efa3c7d002d266c775029f" kindref="member">salinityUnit</ref>.compare(CONCENTRATION_UNIT_PPM)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a91278f224f4dc69aaa839eb517dd5a46" kindref="member">referenceSalinityValue</ref><sp/>=<sp/>35000.0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a91278f224f4dc69aaa839eb517dd5a46" kindref="member">referenceSalinityValue</ref><sp/>=<sp/>35.0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a32ace61c89476eb6309a4507936b5257" kindref="member">updatingCloud</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Subscribing<sp/>to<sp/>the<sp/>particles<sp/>topic<sp/>(remap<sp/>the<sp/>topic<sp/>name<sp/>as<sp/>desired)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a10ca6338f7e6ed74c814aecd89908df9" kindref="member">particlesSub</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;subscribe&lt;sensor_msgs::PointCloud&gt;(</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;particles&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>&amp;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae4cac538822b672d2045a11f4d406336" kindref="member">CPCSensor::OnPlumeParticlesUpdate</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Publish<sp/>the<sp/>particle<sp/>concentration<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aeacfcb3e55ddf1da3df33dfd7132dad1" kindref="member">concentrationPub</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;advertise&lt;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uuv_plume_msgs::ParticleConcentration&gt;(</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;concentration&quot;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ab9602b92be015516bb35879f6b1539fe" kindref="member">useOdom</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a42362a4faafe57c53e52930f32d5b757" kindref="member">useGPS</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6e5f2a338e6158a8e65288489d2f43d0" kindref="member">useTFUpdate</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~use_odom&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~use_odom&quot;</highlight><highlight class="normal">,<sp/>this-&gt;useOdom);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~use_gps&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~use_gps&quot;</highlight><highlight class="normal">,<sp/>this-&gt;useGPS);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;useOdom)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Subscribe<sp/>to<sp/>the<sp/>odometry<sp/>topic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a1113a6a302688220ec6e900897847e08" kindref="member">odometrySub</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;subscribe&lt;nav_msgs::Odometry&gt;(</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;odom&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>&amp;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6348d873f88079a8af2303d76eede010" kindref="member">CPCSensor::OnOdometryUpdate</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_INFO(</highlight><highlight class="stringliteral">&quot;Using<sp/>the<sp/>odometry<sp/>&lt;nav_msgs::Odometry&gt;<sp/>as<sp/>input<sp/>for<sp/>sensor<sp/>position&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a42362a4faafe57c53e52930f32d5b757" kindref="member">useGPS</ref><sp/>&amp;&amp;<sp/>this-&gt;useGeoCoordinates)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Subscribe<sp/>to<sp/>the<sp/>GPS<sp/>topic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a22257bbc83b40e7b502e3c423fa25572" kindref="member">gpsSub</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;subscribe&lt;sensor_msgs::NavSatFix&gt;(</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;gps&quot;</highlight><highlight class="normal">,<sp/>1,<sp/>&amp;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a428cc881985682f78876aa44866a6c7e" kindref="member">CPCSensor::OnGPSUpdate</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_INFO(</highlight><highlight class="stringliteral">&quot;Using<sp/>the<sp/>GPS<sp/>&lt;sensor_msgs::NatSatFix&gt;<sp/>as<sp/>input<sp/>for<sp/>sensor<sp/>position&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6e5f2a338e6158a8e65288489d2f43d0" kindref="member">useTFUpdate</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~sensor_frame_id&quot;</highlight><highlight class="normal">,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aee44faae4c264c656d8ebd248d2292a4" kindref="member">sensorFrameID</ref>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_INFO(</highlight><highlight class="stringliteral">&quot;Using<sp/>the<sp/>a<sp/>frame<sp/>ID<sp/>as<sp/>input<sp/>for<sp/>sensor<sp/>position&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1af7b8775cc7edf1f37b10d2324f002146" kindref="member">areParticlesInit</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initializing<sp/>the<sp/>particle<sp/>concentration<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.header.frame_id<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;world&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.header.stamp<sp/>=<sp/>ros::Time::now();</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ab6950f90194ecfd62ab0bbd54fd81f7c" kindref="member">tfListener</ref>.reset(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>tf2_ros::TransformListener(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2b75335de225523e6ddadaab786c6376" kindref="member">tfBuffer</ref>));</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>the<sp/>salinity<sp/>topic</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9007729f28c92ac5d8a11190cdeb8bd" kindref="member">publishSalinity</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;hasParam(</highlight><highlight class="stringliteral">&quot;~publish_salinity&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;getParam(</highlight><highlight class="stringliteral">&quot;~publish_salinity&quot;</highlight><highlight class="normal">,<sp/>this-&gt;publishSalinity);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9007729f28c92ac5d8a11190cdeb8bd" kindref="member">publishSalinity</ref>)</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a606721a0bb469e7c369d166ec7298027" kindref="member">salinityPub</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;advertise&lt;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uuv_plume_msgs::Salinity&gt;(</highlight><highlight class="stringliteral">&quot;salinity&quot;</highlight><highlight class="normal">,<sp/>1);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a9c173307f263aa9b9b7c7f2342d5ce94" kindref="member">updateTimer</ref><sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1acc3ddc9eda68743989953933a8bdb6dd" kindref="member">nodeHandle</ref>-&gt;createTimer(</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ros::Duration(1.0<sp/>/<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a5091b83afd0468f9f9926e19329c33ee" kindref="member">updateRate</ref>),</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>boost::bind(&amp;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aa0112facdab526f2e99a62772a7613cb" kindref="member">CPCSensor::OnSensorUpdate</ref>,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>_1));</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_INFO(</highlight><highlight class="stringliteral">&quot;Particle<sp/>concentration<sp/>sensor<sp/>running&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6c28c6d5b2f1788372ce74be9ac48d31" kindref="member">CPCSensor::~CPCSensor</ref>()</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae4cac538822b672d2045a11f4d406336" kindref="member">CPCSensor::OnPlumeParticlesUpdate</ref>(</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sensor_msgs::PointCloud::ConstPtr<sp/>&amp;_msg)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;concentrationPub.getNumSubscribers()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2de0395b9721e726347601543cfcd03d" kindref="member">updateMeasurement</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1af7b8775cc7edf1f37b10d2324f002146" kindref="member">areParticlesInit</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6e5f2a338e6158a8e65288489d2f43d0" kindref="member">useTFUpdate</ref>)</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Read<sp/>the<sp/>current<sp/>position<sp/>of<sp/>the<sp/>sensor<sp/>frame</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>geometry_msgs::TransformStamped<sp/>childTransform;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>targetFrame<sp/>=<sp/>_msg-&gt;header.frame_id;</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::string<sp/>sourceFrame<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aee44faae4c264c656d8ebd248d2292a4" kindref="member">sensorFrameID</ref>;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>childTransform<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2b75335de225523e6ddadaab786c6376" kindref="member">tfBuffer</ref>.lookupTransform(</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetFrame,<sp/>sourceFrame,<sp/>ros::Time(0));</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal">(tf2::TransformException<sp/>&amp;ex)</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROS_ERROR_NAMED(</highlight><highlight class="stringliteral">&quot;CPCSensor&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Transform<sp/>between<sp/>%s<sp/>and<sp/>%s&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>targetFrame.c_str(),<sp/>sourceFrame.c_str());</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.x<sp/>=<sp/>childTransform.transform.translation.x;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.y<sp/>=<sp/>childTransform.transform.translation.y;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.z<sp/>=<sp/>childTransform.transform.translation.z;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.header.frame_id<sp/>=<sp/>_msg-&gt;header.frame_id;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.header.stamp<sp/>=<sp/>ros::Time::now();</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.position.x<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.x;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.position.y<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.y;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.position.z<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.z;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;useGeoCoordinates)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a42362a4faafe57c53e52930f32d5b757" kindref="member">useGPS</ref>)</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2eaeb701f45906596c91eb81b0799423" kindref="member">geoPos</ref>;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>latitude,<sp/>longitude,<sp/>altitude;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9c6808ab2ad5b13a72fb511eac3ab94" kindref="member">projection</ref>.Reverse(</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.x,<sp/>this-&gt;cartPos.y,<sp/>this-&gt;cartPos.z,</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>latitude,<sp/>longitude,<sp/>altitude);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.latitude<sp/>=<sp/>latitude;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.longitude<sp/>=<sp/>longitude;</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.altitude<sp/>=<sp/>altitude;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.latitude<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.longitude<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point.altitude<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>totalParticleConc<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>smoothingParam;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>particleConc;</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distToParticle;</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>currentTime<sp/>=<sp/>ros::Time::now().toSec();</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>initSmoothingLength<sp/>=<sp/>std::pow(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a285eb79145cfd715291f808eaac32afb" kindref="member">smoothingLength</ref>,<sp/>2.0<sp/>/<sp/>3);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>_msg-&gt;points.size();<sp/>i++)</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>the<sp/>distance<sp/>to<sp/>the<sp/>sensor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distToParticle<sp/>=<sp/>std::sqrt(</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pow(_msg-&gt;points[i].x<sp/>-<sp/>this-&gt;cartPos.x,<sp/>2)<sp/>+</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pow(_msg-&gt;points[i].y<sp/>-<sp/>this-&gt;cartPos.y,<sp/>2)<sp/>+</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pow(_msg-&gt;points[i].z<sp/>-<sp/>this-&gt;cartPos.z,<sp/>2));</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>smoothingParam<sp/>=<sp/>std::pow(initSmoothingLength<sp/>+</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a853b8d456c24b321b952359c9a61489b" kindref="member">gamma</ref><sp/>*<sp/>(currentTime<sp/>-<sp/>_msg-&gt;channels[0].values[i]),<sp/>1.5);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Compute<sp/>particle<sp/>concentration</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(distToParticle<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>distToParticle<sp/>&lt;<sp/>smoothingParam)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>4.0<sp/>-</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>6.0<sp/>*<sp/>std::pow(distToParticle<sp/>/<sp/>smoothingParam,<sp/>2)<sp/>+</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>3.0<sp/>*<sp/>std::pow(distToParticle<sp/>/<sp/>smoothingParam,<sp/>3);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(distToParticle<sp/>&gt;=<sp/>smoothingParam<sp/>&amp;&amp;<sp/>distToParticle<sp/>&lt;<sp/>2<sp/>*<sp/>smoothingParam)</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>std::pow(2<sp/>-<sp/>distToParticle<sp/>/<sp/>smoothingParam,<sp/>3);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>particleConc<sp/>*=<sp/>1<sp/>/<sp/>(4<sp/>*<sp/>M_PI<sp/>*<sp/>std::pow(smoothingParam,<sp/>3));</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>totalParticleConc<sp/>+=<sp/>particleConc;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Applying<sp/>saturation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.concentration<sp/>=<sp/>std::min(</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ad676c2b912f8b148b57070cda5b1c384" kindref="member">gain</ref><sp/>*<sp/>totalParticleConc,<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a4925a0273447a20a2a45749c2b739bf3" kindref="member">saturation</ref>);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9007729f28c92ac5d8a11190cdeb8bd" kindref="member">publishSalinity</ref>)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>.header.frame_id<sp/>=<sp/>_msg-&gt;header.frame_id;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>.header.stamp<sp/>=<sp/>ros::Time::now();</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>.position<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.position;</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>.geo_point<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.geo_point;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calculating<sp/>salinity</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>.salinity<sp/>=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a91278f224f4dc69aaa839eb517dd5a46" kindref="member">referenceSalinityValue</ref><sp/>*<sp/>\</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a4925a0273447a20a2a45749c2b739bf3" kindref="member">saturation</ref><sp/>-<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.concentration)<sp/>+<sp/>\</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.concentration<sp/>*<sp/>this-&gt;plumeSalinityValue;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Adding<sp/>noise<sp/>to<sp/>the<sp/>salinity<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;salinityMsg.salinity<sp/>+=<sp/>this-&gt;noiseAmp<sp/>\</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>this-&gt;noiseModel(this-&gt;rndGen);</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Adding<sp/>noise<sp/>to<sp/>concentration<sp/>value</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>.concentration<sp/>+=<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aff1cf4cad2ccf96800db7f6a16f271cc" kindref="member">noiseAmp</ref><sp/>\</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a43cfa91f2d9b5285545e7986b5a15962" kindref="member">noiseModel</ref>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a32296108956e0909056e72ea5c3fe873" kindref="member">rndGen</ref>);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2de0395b9721e726347601543cfcd03d" kindref="member">updateMeasurement</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a6348d873f88079a8af2303d76eede010" kindref="member">CPCSensor::OnOdometryUpdate</ref>(</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>nav_msgs::Odometry::ConstPtr<sp/>&amp;_msg)</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;concentrationPub.getNumSubscribers()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2de0395b9721e726347601543cfcd03d" kindref="member">updateMeasurement</ref>)</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.x<sp/>=<sp/>_msg-&gt;pose.pose.position.x;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.y<sp/>=<sp/>_msg-&gt;pose.pose.position.y;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a624487ac7c4af59a54344608be0e9002" kindref="member">cartPos</ref>.z<sp/>=<sp/>_msg-&gt;pose.pose.position.z;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="327"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a428cc881985682f78876aa44866a6c7e" kindref="member">CPCSensor::OnGPSUpdate</ref>(</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sensor_msgs::NavSatFix::ConstPtr<sp/>&amp;_msg)</highlight></codeline>
+<codeline lineno="332"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>ROS_ASSERT(this-&gt;useGeoCoordinates);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;concentrationPub.getNumSubscribers()<sp/>&gt;<sp/>0)</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2de0395b9721e726347601543cfcd03d" kindref="member">updateMeasurement</ref>)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2eaeb701f45906596c91eb81b0799423" kindref="member">geoPos</ref>.latitude<sp/>=<sp/>_msg-&gt;latitude;</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2eaeb701f45906596c91eb81b0799423" kindref="member">geoPos</ref>.longitude<sp/>=<sp/>_msg-&gt;longitude;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2eaeb701f45906596c91eb81b0799423" kindref="member">geoPos</ref>.altitude<sp/>=<sp/>_msg-&gt;altitude;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9c6808ab2ad5b13a72fb511eac3ab94" kindref="member">projection</ref>.Forward(</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_msg-&gt;latitude,<sp/>_msg-&gt;longitude,<sp/>_msg-&gt;altitude,</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;cartPos.x,<sp/>this-&gt;cartPos.y,<sp/>this-&gt;cartPos.z);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="345"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1aa0112facdab526f2e99a62772a7613cb" kindref="member">CPCSensor::OnSensorUpdate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ros::TimerEvent&amp;)</highlight></codeline>
+<codeline lineno="349"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(!this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1af7b8775cc7edf1f37b10d2324f002146" kindref="member">areParticlesInit</ref>)</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;concentrationPub.publish(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a8cfe5eff941369e1e33e26064764abbb" kindref="member">concentrationMsg</ref>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1ae9007729f28c92ac5d8a11190cdeb8bd" kindref="member">publishSalinity</ref>)</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a606721a0bb469e7c369d166ec7298027" kindref="member">salinityPub</ref>.publish(this-&gt;<ref refid="classuuv__plume__simulator_1_1_c_p_c_sensor_1a2e35ed0c7c463da2602b5ac9f1da282e" kindref="member">salinityMsg</ref>);</highlight></codeline>
+<codeline lineno="355"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/src/CPCSensor.cc"/>
+  </compounddef>
+</doxygen>

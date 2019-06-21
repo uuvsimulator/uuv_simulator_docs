@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_thruster_conversion_fcn_8hh" kind="file" language="C++">
+    <compoundname>ThrusterConversionFcn.hh</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">sdf/sdf.hh</includes>
+    <includedby refid="_thruster_plugin_8hh" local="no">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.hh</includedby>
+    <includedby refid="_thruster_conversion_fcn_8cc" local="no">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn.cc</includedby>
+    <includedby refid="_thruster_conversion_fcn___t_e_s_t_8cc" local="no">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn_TEST.cc</includedby>
+    <incdepgraph>
+      <node id="62">
+        <label>string</label>
+      </node>
+      <node id="61">
+        <label>map</label>
+      </node>
+      <node id="60">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
+        <link refid="_thruster_conversion_fcn_8hh"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>sdf/sdf.hh</label>
+      </node>
+      <node id="63">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="65">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh</label>
+        <link refid="_thruster_conversion_fcn_8hh"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterPlugin.hh</label>
+        <link refid="_thruster_plugin_8hh"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgazebo_1_1_conversion_function" prot="public">gazebo::ConversionFunction</innerclass>
+    <innerclass refid="classgazebo_1_1_conversion_function_factory" prot="public">gazebo::ConversionFunctionFactory</innerclass>
+    <innerclass refid="classgazebo_1_1_conversion_function_basic" prot="public">gazebo::ConversionFunctionBasic</innerclass>
+    <innerclass refid="classgazebo_1_1_conversion_function_bessa" prot="public">gazebo::ConversionFunctionBessa</innerclass>
+    <innerclass refid="classgazebo_1_1_conversion_function_linear_interp" prot="public">gazebo::ConversionFunctionLinearInterp</innerclass>
+    <innernamespace refid="namespacegazebo">gazebo</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" prot="public" static="no">
+        <name>REGISTER_CONVERSIONFUNCTION</name>
+        <param><defname>type</defname></param>
+        <initializer>static const bool registeredWithFactory</initializer>
+        <briefdescription>
+<para>Use the following macro within a ThrusterDynamics declaration: </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="78" column="9" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_thruster_conversion_fcn_8hh_1aacdbe129a8efc2b64eb25a8b13a80d96" prot="public" static="no">
+        <name>REGISTER_CONVERSIONFUNCTION_CREATOR</name>
+        <param><defname>type</defname></param>
+        <param><defname>creator</defname></param>
+        <initializer>const bool type::registeredWithFactory = \
+  ConversionFunctionFactory::GetInstance().RegisterCreator( \
+  type::IDENTIFIER, creator);</initializer>
+        <briefdescription>
+<para>Use the following macro before a ThrusterDynamics&apos;s definition: </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="82" column="9" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Description of the conversion function fo a thruster. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__UUV_GAZEBO_PLUGINS_CONVERSION_FUNCTION_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__UUV_GAZEBO_PLUGINS_CONVERSION_FUNCTION_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;sdf/sdf.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacegazebo" kindref="compound">gazebo</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31" refid="classgazebo_1_1_conversion_function" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34" refid="classgazebo_1_1_conversion_function_1a70689912f6f1f316a84f2dea2e10050d" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function_1a70689912f6f1f316a84f2dea2e10050d" kindref="member">ConversionFunction</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="classgazebo_1_1_conversion_function_1afc13b3997ac95f70425ec5fc830d927c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1afc13b3997ac95f70425ec5fc830d927c" kindref="member">~ConversionFunction</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="classgazebo_1_1_conversion_function_1ac0d2640de379ea86c087491c70bc6189" kindref="member">GetType</ref>()<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4" kindref="member">GetParam</ref>(std::string<sp/>_tag,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>_output)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classgazebo_1_1_conversion_function_1a9e0c3b99751eeaf95f96dd49ed0351a2" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::map&lt;double,<sp/>double&gt;<sp/><ref refid="classgazebo_1_1_conversion_function_1a9e0c3b99751eeaf95f96dd49ed0351a2" kindref="member">GetTable</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>std::map&lt;double,<sp/>double&gt;();<sp/>};</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950" kindref="member">convert</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_cmd)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="_thruster_conversion_fcn_8hh_1a8dbde708b15603a355a927eb4fa22060" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref>*<sp/>(*ConversionFunctionCreator)(sdf::ElementPtr);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="classgazebo_1_1_conversion_function_factory" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_conversion_function_factory" kindref="compound">ConversionFunctionFactory</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref>*<sp/>CreateConversionFunction(sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_factory" kindref="compound">ConversionFunctionFactory</ref>&amp;<sp/>GetInstance();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>RegisterCreator(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/>_identifier,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_thruster_conversion_fcn_8hh_1a8dbde708b15603a355a927eb4fa22060" kindref="member">ConversionFunctionCreator</ref><sp/>_creator);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function_factory" kindref="compound">ConversionFunctionFactory</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>std::map&lt;std::string,<sp/>ConversionFunctionCreator&gt;<sp/>creators_;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" refkind="member"><highlight class="preprocessor">#define<sp/>REGISTER_CONVERSIONFUNCTION(type)<sp/>\</highlight></codeline>
+<codeline lineno="79"><highlight class="preprocessor"><sp/><sp/>static<sp/>const<sp/>bool<sp/>registeredWithFactory</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="_thruster_conversion_fcn_8hh_1aacdbe129a8efc2b64eb25a8b13a80d96" refkind="member"><highlight class="preprocessor">#define<sp/>REGISTER_CONVERSIONFUNCTION_CREATOR(type,<sp/>creator)<sp/>\</highlight></codeline>
+<codeline lineno="83"><highlight class="preprocessor"><sp/><sp/>const<sp/>bool<sp/>type::registeredWithFactory<sp/>=<sp/>\</highlight></codeline>
+<codeline lineno="84"><highlight class="preprocessor"><sp/><sp/>ConversionFunctionFactory::GetInstance().RegisterCreator(<sp/>\</highlight></codeline>
+<codeline lineno="85"><highlight class="preprocessor"><sp/><sp/>type::IDENTIFIER,<sp/>creator);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="classgazebo_1_1_conversion_function_basic" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_conversion_function_basic" kindref="compound">ConversionFunctionBasic</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref>*<sp/>create(sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="classgazebo_1_1_conversion_function_basic_1a2ce48db471c7706abede19a724ef08fe" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="classgazebo_1_1_conversion_function_basic_1a2ce48db471c7706abede19a724ef08fe" kindref="member">GetType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>IDENTIFIER;<sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4" kindref="member">GetParam</ref>(std::string<sp/>_tag,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>_output);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950" kindref="member">convert</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_cmd);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" kindref="member">REGISTER_CONVERSIONFUNCTION</ref>(<ref refid="classgazebo_1_1_conversion_function_basic" kindref="compound">ConversionFunctionBasic</ref>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>IDENTIFIER;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function_basic" kindref="compound">ConversionFunctionBasic</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_rotorConstant);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rotorConstant;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="classgazebo_1_1_conversion_function_bessa" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_conversion_function_bessa" kindref="compound">ConversionFunctionBessa</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref></highlight></codeline>
+<codeline lineno="122"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref>*<sp/>create(sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="classgazebo_1_1_conversion_function_bessa_1a31637f978fdc895689920238998b7926" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="classgazebo_1_1_conversion_function_bessa_1a31637f978fdc895689920238998b7926" kindref="member">GetType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>IDENTIFIER;<sp/>}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4" kindref="member">GetParam</ref>(std::string<sp/>_tag,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>_output);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950" kindref="member">convert</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_cmd);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" kindref="member">REGISTER_CONVERSIONFUNCTION</ref>(<ref refid="classgazebo_1_1_conversion_function_bessa" kindref="compound">ConversionFunctionBessa</ref>);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>IDENTIFIER;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function_bessa" kindref="compound">ConversionFunctionBessa</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_rotorConstantL,</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_rotorConstantR,</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_deltaL,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_deltaR);</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rotorConstantL;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rotorConstantR;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaL;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deltaR;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="classgazebo_1_1_conversion_function_linear_interp" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classgazebo_1_1_conversion_function_linear_interp" kindref="compound">ConversionFunctionLinearInterp</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref></highlight></codeline>
+<codeline lineno="161"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref>*<sp/>create(sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="classgazebo_1_1_conversion_function_linear_interp_1a949ed2e6176730ef0322a25a1a86c92c" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="classgazebo_1_1_conversion_function_linear_interp_1a949ed2e6176730ef0322a25a1a86c92c" kindref="member">GetType</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>IDENTIFIER;<sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4" kindref="member">GetParam</ref>(std::string<sp/>_tag,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&amp;<sp/>_output);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::map&lt;double,<sp/>double&gt;<sp/><ref refid="classgazebo_1_1_conversion_function_1a9e0c3b99751eeaf95f96dd49ed0351a2" kindref="member">GetTable</ref>();</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950" kindref="member">convert</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_cmd);</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="_thruster_conversion_fcn_8hh_1af492e3eec2a0e82c9e94e767cf614930" kindref="member">REGISTER_CONVERSIONFUNCTION</ref>(<ref refid="classgazebo_1_1_conversion_function_linear_interp" kindref="compound">ConversionFunctionLinearInterp</ref>);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>IDENTIFIER;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/><ref refid="classgazebo_1_1_conversion_function_linear_interp" kindref="compound">ConversionFunctionLinearInterp</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/>&amp;_input,</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;double&gt;<sp/>&amp;_output);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>std::map&lt;double,<sp/>double&gt;<sp/>lookupTable;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="190"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh"/>
+  </compounddef>
+</doxygen>

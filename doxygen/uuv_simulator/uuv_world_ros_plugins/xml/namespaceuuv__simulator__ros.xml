@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespaceuuv__simulator__ros" kind="namespace" language="C++">
+    <compoundname>uuv_simulator_ros</compoundname>
+    <innerclass refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin" prot="public">uuv_simulator_ros::UnderwaterCurrentROSPlugin</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="42" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_r_o_s_base_model_plugin" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::ROSBaseModelPlugin</compoundname>
+    <basecompoundref refid="classgazebo_1_1_r_o_s_base_plugin" prot="public" virt="non-virtual">gazebo::ROSBasePlugin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">ModelPlugin</basecompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_c_p_c_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::CPCROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_d_v_l_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::DVLROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_i_m_u_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::IMUROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_magnetometer_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::MagnetometerROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_pose_g_t_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::PoseGTROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_r_p_t_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::RPTROSPlugin</derivedcompoundref>
+    <derivedcompoundref refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin" prot="public" virt="non-virtual">gazebo::SubseaPressureROSPlugin</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1af03370cfa624905d6098556d815828b3" prot="protected" static="no" mutable="no">
+        <type>physics::ModelPtr</type>
+        <definition>physics::ModelPtr gazebo::ROSBaseModelPlugin::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+<para>Pointer to the model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="50" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1ac405387fd2fcf90b48b368104031367d" prot="protected" static="no" mutable="no">
+        <type>physics::LinkPtr</type>
+        <definition>physics::LinkPtr gazebo::ROSBaseModelPlugin::link</definition>
+        <argsstring></argsstring>
+        <name>link</name>
+        <briefdescription>
+<para>Pointer to the link. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="53" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1a3ebccbacd16defded57b77d970bcb95c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gazebo::ROSBaseModelPlugin::enableLocalNEDFrame</definition>
+        <argsstring></argsstring>
+        <name>enableLocalNEDFrame</name>
+        <briefdescription>
+<para>True if a the local NED frame needs to be broadcasted. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="56" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1ab2ee1727cd20681c8a5f3a33462cc694" prot="protected" static="no" mutable="no">
+        <type>tf::TransformBroadcaster *</type>
+        <definition>tf::TransformBroadcaster* gazebo::ROSBaseModelPlugin::tfBroadcaster</definition>
+        <argsstring></argsstring>
+        <name>tfBroadcaster</name>
+        <briefdescription>
+<para>TF broadcaster for the local NED frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="59" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1abc302dfd65e4b45c3e11721afedb21d7" prot="protected" static="no" mutable="no">
+        <type>ignition::math::Pose3d</type>
+        <definition>ignition::math::Pose3d gazebo::ROSBaseModelPlugin::localNEDFrame</definition>
+        <argsstring></argsstring>
+        <name>localNEDFrame</name>
+        <briefdescription>
+<para>Pose of the local NED frame wrt link frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="62" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgazebo_1_1_r_o_s_base_model_plugin_1a3648c84096f1fff1390c53557a782fd1" prot="protected" static="no" mutable="no">
+        <type>tf::StampedTransform</type>
+        <definition>tf::StampedTransform gazebo::ROSBaseModelPlugin::tfLocalNEDFrame</definition>
+        <argsstring></argsstring>
+        <name>tfLocalNEDFrame</name>
+        <briefdescription>
+<para>Local NED TF frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="65" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_r_o_s_base_model_plugin_1ab63bd687291a8642150cb00a94900014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::ROSBaseModelPlugin::ROSBaseModelPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>ROSBaseModelPlugin</name>
+        <briefdescription>
+<para>Class constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="37" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc" bodystart="22" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_r_o_s_base_model_plugin_1a3e34768f99ceff93e43a6befc5ca1c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>gazebo::ROSBaseModelPlugin::~ROSBaseModelPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~ROSBaseModelPlugin</name>
+        <briefdescription>
+<para>Class destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="40" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc" bodystart="37" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgazebo_1_1_r_o_s_base_model_plugin_1a9201b96ddee1a64ce43e59f3cf1ff2e9" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gazebo::ROSBaseModelPlugin::Load</definition>
+        <argsstring>(physics::ModelPtr _model, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <reimplementedby refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a217c4fafaaba64b533dacbe906a01cf1">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a69902969c25c0cc413899848e9b77296">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a03283b375faba8649fa76a1a91b3540c">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1ad64840822bab803a6f89d589fe6c0a9f">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a4c7e55e320c5619ea3d0b09d9760e2e1">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1aa8d9083af5fae036731f513b94a029a1">Load</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1a91f9dd3cb212d8b2207e4b51bd06bc79">Load</reimplementedby>
+        <param>
+          <type>physics::ModelPtr</type>
+          <declname>_model</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load plugin and its configuration from sdf,. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="43" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc" bodystart="44" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_r_o_s_base_model_plugin_1a51b6e630508d410ddfe1a76573ef75fb" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gazebo::ROSBaseModelPlugin::OnUpdate</definition>
+        <argsstring>(const common::UpdateInfo &amp;)</argsstring>
+        <name>OnUpdate</name>
+        <reimplements refid="classgazebo_1_1_r_o_s_base_plugin_1a02aa79b255cb8f0847998f774cb03b32">OnUpdate</reimplements>
+        <reimplementedby refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin_1a17a9977c098924d6f7511ff6dd2d3cc4">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_r_p_t_r_o_s_plugin_1a1a354ec7d3a72bf8313d84bb044f8fce">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_c_p_c_r_o_s_plugin_1a40020feac24af0035cc376c00fb9d755">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_d_v_l_r_o_s_plugin_1a2ce9099e6bd976d4d845bc9c16741125">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_pose_g_t_r_o_s_plugin_1a9b34da677b1f4b34d07fd02c4c44a8d2">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_magnetometer_r_o_s_plugin_1a1834c8718fa80c4e1b26c62a2e9a407f">OnUpdate</reimplementedby>
+        <reimplementedby refid="classgazebo_1_1_i_m_u_r_o_s_plugin_1aa15397b1f75e506ddb42841966306392">OnUpdate</reimplementedby>
+        <param>
+          <type>const common::UpdateInfo &amp;</type>
+        </param>
+        <briefdescription>
+<para>Update callback from simulation. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="47" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_r_o_s_base_model_plugin_1a11c3832798f58c446a5d0d69343ad181" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gazebo::ROSBaseModelPlugin::SendLocalNEDTransform</definition>
+        <argsstring>()</argsstring>
+        <name>SendLocalNEDTransform</name>
+        <briefdescription>
+<para>Returns true if the base_link_ned frame exists. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="68" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/src/ROSBaseModelPlugin.cc" bodystart="95" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>gazebo::MagnetometerROSPlugin</label>
+        <link refid="classgazebo_1_1_magnetometer_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="70">
+        <label>gazebo::RPTROSPlugin</label>
+        <link refid="classgazebo_1_1_r_p_t_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>gazebo::IMUROSPlugin</label>
+        <link refid="classgazebo_1_1_i_m_u_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>gazebo::ROSBaseModelPlugin</label>
+        <link refid="classgazebo_1_1_r_o_s_base_model_plugin"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>gazebo::SubseaPressureROSPlugin</label>
+        <link refid="classgazebo_1_1_subsea_pressure_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="65">
+        <label>gazebo::CPCROSPlugin</label>
+        <link refid="classgazebo_1_1_c_p_c_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>gazebo::PoseGTROSPlugin</label>
+        <link refid="classgazebo_1_1_pose_g_t_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>gazebo::ROSBasePlugin</label>
+        <link refid="classgazebo_1_1_r_o_s_base_plugin"/>
+      </node>
+      <node id="64">
+        <label>ModelPlugin</label>
+      </node>
+      <node id="66">
+        <label>gazebo::DVLROSPlugin</label>
+        <link refid="classgazebo_1_1_d_v_l_r_o_s_plugin"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>gazebo::ROSBaseModelPlugin</label>
+        <link refid="classgazebo_1_1_r_o_s_base_model_plugin"/>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="73">
+        <label>gazebo::ROSBasePlugin</label>
+        <link refid="classgazebo_1_1_r_o_s_base_plugin"/>
+      </node>
+      <node id="74">
+        <label>ModelPlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" line="35" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_sensor_plugins/uuv_sensor_ros_plugins/include/uuv_sensor_ros_plugins/ROSBaseModelPlugin.hh" bodystart="34" bodyend="69"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1abd97192b9712ae6a05d41d158c05f57a" prot="public" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>AddNoiseModel</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a4a9b8a250d6c0c4e8148fa96c8dcc395" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>changeSensorSrv</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a47e246ab8e3e9fe1b7f032ee7bd8af16" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>ChangeSensorState</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3ebccbacd16defded57b77d970bcb95c" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>enableLocalNEDFrame</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1af12a92a0ddf7c3c07163d32d6d95c655" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>EnableMeasurement</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a03fadaa69a0c77dc81153d5059c2cfb4" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>gazeboMsgEnabled</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6444bffce26cd7c1d31ab1b3abd990c7" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>gazeboNode</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a00461d61554c0a38b03892488a43eefb" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>gazeboSensorOutputPub</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1ae1fd5e5059943e83865efa837e52e3a7" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>GetGaussianNoise</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a69d2da0f2848ba0153756afbb331e447" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>GetGaussianNoise</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a465f66f7ecad8aa9e0f9e7d5fd0159d9" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>GetTFMessage</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a74ff905293eb8caa7becbc5404a97fc6" prot="public" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>InitBasePlugin</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a8c02e25afa29c264aa3a262b277a3723" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>IsOn</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a217d66ec1fe4002468300e0c409bfb32" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>isOn</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a9004a71899294df66fe56bd6adcc187c" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>isReferenceInit</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1ac3798d56f9ea70175d99ab80106b4319" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>lastMeasurementTime</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ac405387fd2fcf90b48b368104031367d" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>link</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a9201b96ddee1a64ce43e59f3cf1ff2e9" prot="protected" virt="virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>Load</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1abc302dfd65e4b45c3e11721afedb21d7" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>localNEDFrame</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1af03370cfa624905d6098556d815828b3" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>model</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6a7695e4dc91f9504a3ee88d5da94102" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>noiseAmp</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1aec1fe60d8e12867115754d7f89689da2" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>noiseModels</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1aef76766a171b7b9c0c236ff5987800f9" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>noiseSigma</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a51b6e630508d410ddfe1a76573ef75fb" prot="protected" virt="virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>OnUpdate</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0a405302b38096d97a25c18879de03ee" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>pluginStatePub</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0185c958f2ce8b30a1c5dc078bbd7b0e" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>PublishState</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1aa788862de11b763facdf51ac105c535d" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>referenceFrame</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a02ca6231d0a2961fe6a63002de9a5ad4" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>referenceFrameID</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a34ff72f4617839866a593d0c1a00f375" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>referenceLink</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1ac9f7d735298e4c0017e34ff652295fd3" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>rndGen</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a9a9e059aec0a41dd012223d3ea3c9fe9" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>robotNamespace</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ab63bd687291a8642150cb00a94900014" prot="public" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>ROSBaseModelPlugin</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0435db27811265bd28476844b1aebb7d" prot="public" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>ROSBasePlugin</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a6b907bcd7669d3907f3c78e654fcca88" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>rosNode</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1aff7eafda5f899aa2304a870d1418a300" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>rosSensorOutputPub</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a11c3832798f58c446a5d0d69343ad181" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>SendLocalNEDTransform</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a818f107bc9e165a3cc8016fd6859f86a" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>sensorOutputTopic</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1ab2ee1727cd20681c8a5f3a33462cc694" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>tfBroadcaster</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3648c84096f1fff1390c53557a782fd1" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>tfLocalNEDFrame</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a0d5b3d85ee84ddd0e722a4e1dbd83d83" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>tfStaticSub</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a1d7b676bec7c29b2bd021b47ecd32bb5" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>updateConnection</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1adbcb691eba2efdd0156d5422bd1cf03f" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>updateRate</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a768035af5fb258d9c07c4d7fd5049700" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>UpdateReferenceFramePose</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a24f910550057c819c246f5c3f74dae5a" prot="protected" virt="non-virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>world</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_model_plugin_1a3e34768f99ceff93e43a6befc5ca1c03" prot="public" virt="virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>~ROSBaseModelPlugin</name></member>
+      <member refid="classgazebo_1_1_r_o_s_base_plugin_1a085d18e1e808fae36b6bf3dce476c7e5" prot="public" virt="virtual"><scope>gazebo::ROSBaseModelPlugin</scope><name>~ROSBasePlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

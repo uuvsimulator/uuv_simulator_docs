@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_fc47454dc6547ec11ba773db3e9cf691" kind="dir">
+    <compoundname>/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/src</compoundname>
+    <innerfile refid="_c_p_c_sensor_8cc">CPCSensor.cc</innerfile>
+    <innerfile refid="_c_p_c_sensor_node_8cc">CPCSensorNode.cc</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/musamorena/catkin_ws/src/uuv_plume_simulator/uuv_cpc_sensor/src/"/>
+  </compounddef>
+</doxygen>

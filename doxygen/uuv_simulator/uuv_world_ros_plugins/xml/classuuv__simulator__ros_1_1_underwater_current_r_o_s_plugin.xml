@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin" kind="class" language="C++" prot="public">
+    <compoundname>uuv_simulator_ros::UnderwaterCurrentROSPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UnderwaterCurrentPlugin</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a2d4dd2eed1b5e2c0938cbd3f3f285a2f" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, ros::ServiceServer &gt;</type>
+        <definition>std::map&lt;std::string, ros::ServiceServer&gt; uuv_simulator_ros::UnderwaterCurrentROSPlugin::worldServices</definition>
+        <argsstring></argsstring>
+        <name>worldServices</name>
+        <briefdescription>
+<para>All underwater world services. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="110" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a1349abdfb8b97ca86bdee32bbc6fddd1" prot="private" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; uuv_simulator_ros::UnderwaterCurrentROSPlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+<para>Pointer to this ROS node&apos;s handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="113" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a9ec4022645eac9fd1ca1f9d63b035e12" prot="private" static="no" mutable="no">
+        <type>gazebo::event::ConnectionPtr</type>
+        <definition>gazebo::event::ConnectionPtr uuv_simulator_ros::UnderwaterCurrentROSPlugin::rosPublishConnection</definition>
+        <argsstring></argsstring>
+        <name>rosPublishConnection</name>
+        <briefdescription>
+<para>Connection for callbacks on update world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="116" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a7abf2a654b3b136c6fcc348af052e30b" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::UnderwaterCurrentROSPlugin::flowVelocityPub</definition>
+        <argsstring></argsstring>
+        <name>flowVelocityPub</name>
+        <briefdescription>
+<para>Publisher for the flow velocity in the world frame. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="119" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1aee023908d506f1a9f4f8a7b6b735cc9d" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::UnderwaterCurrentROSPlugin::rosPublishPeriod</definition>
+        <argsstring></argsstring>
+        <name>rosPublishPeriod</name>
+        <briefdescription>
+<para>Period after which we should publish a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="122" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a56af5484be854614581de36a6796b619" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::UnderwaterCurrentROSPlugin::lastRosPublishTime</definition>
+        <argsstring></argsstring>
+        <name>lastRosPublishTime</name>
+        <briefdescription>
+<para>Last time we published a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="125" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a495903eb436982545dffaaf2ef685877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::UnderwaterCurrentROSPlugin::UnderwaterCurrentROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>UnderwaterCurrentROSPlugin</name>
+        <briefdescription>
+<para>Class constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="46" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a144781a36c5f5df6f71ffc43fc0a8eb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::UnderwaterCurrentROSPlugin::~UnderwaterCurrentROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~UnderwaterCurrentROSPlugin</name>
+        <briefdescription>
+<para>Class destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="49" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a1a5b927b9afa3ad9e0ec3f37e47e4f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::UnderwaterCurrentROSPlugin::Load</definition>
+        <argsstring>(gazebo::physics::WorldPtr _world, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>gazebo::physics::WorldPtr</type>
+          <declname>_world</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load module and read parameters from SDF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="52" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="40" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a703a1f33b7ba4a12bc337d01c923050c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateCurrentVelocityModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;_res)</argsstring>
+        <name>UpdateCurrentVelocityModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the parameters for the velocity Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="57" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="236" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1aa023f81b677c1599224b5cb61d2a998c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateCurrentHorzAngleModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;_res)</argsstring>
+        <name>UpdateCurrentHorzAngleModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the parameters for the horizontal angle Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="63" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="254" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a027e73b225b807cb2dc75baf1de9ec8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateCurrentVertAngleModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;_res)</argsstring>
+        <name>UpdateCurrentVertAngleModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the parameters for the vertical angle Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="69" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="268" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a0063203dbdd0ff00cc0b9dd36cb6c203" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::GetCurrentVelocityModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;_res)</argsstring>
+        <name>GetCurrentVelocityModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to read the parameters for the velocity Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="75" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="196" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac122dcc0b978614443ae85a7cf3e071c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::GetCurrentHorzAngleModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;_res)</argsstring>
+        <name>GetCurrentHorzAngleModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to read the parameters for the horizontal angle Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="81" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="209" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a6ca3823687f0c1bf3cf7b32cc9e7f438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::GetCurrentVertAngleModel</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;_req, uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;_res)</argsstring>
+        <name>GetCurrentVertAngleModel</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::GetCurrentModel::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to read the parameters for the vertical angle Gauss-Markov process model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="87" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="222" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a77152a67d11a9185b0caf2455afd5ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateCurrentVelocity</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentVelocity::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentVelocity::Response &amp;_res)</argsstring>
+        <name>UpdateCurrentVelocity</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentVelocity::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentVelocity::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the mean value of the flow velocity. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="92" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="170" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac0970ebff612f9682e833ad289698845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateHorzAngle</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentDirection::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentDirection::Response &amp;_res)</argsstring>
+        <name>UpdateHorzAngle</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentDirection::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentDirection::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the mean value of the horizontal angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="97" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="151" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac1eabcb153dd2252519826766ac68252" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::UnderwaterCurrentROSPlugin::UpdateVertAngle</definition>
+        <argsstring>(uuv_world_ros_plugins_msgs::SetCurrentDirection::Request &amp;_req, uuv_world_ros_plugins_msgs::SetCurrentDirection::Response &amp;_res)</argsstring>
+        <name>UpdateVertAngle</name>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentDirection::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_world_ros_plugins_msgs::SetCurrentDirection::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Service call to update the mean value of the vertical angle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="102" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="161" bodyend="167"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a9793daad3e5a3bbdff32f31faf4c714d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::UnderwaterCurrentROSPlugin::OnUpdateCurrentVel</definition>
+        <argsstring>()</argsstring>
+        <name>OnUpdateCurrentVel</name>
+        <briefdescription>
+<para>Publishes ROS topics. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="107" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/src/UnderwaterCurrentROSPlugin.cc" bodystart="133" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>uuv_simulator_ros::UnderwaterCurrentROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gazebo::UnderwaterCurrentPlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>uuv_simulator_ros::UnderwaterCurrentROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gazebo::UnderwaterCurrentPlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" line="44" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_world_plugins/uuv_world_ros_plugins/include/uuv_world_ros_plugins/UnderwaterCurrentROSPlugin.hh" bodystart="43" bodyend="126"/>
+    <listofallmembers>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a7abf2a654b3b136c6fcc348af052e30b" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>flowVelocityPub</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac122dcc0b978614443ae85a7cf3e071c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>GetCurrentHorzAngleModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a0063203dbdd0ff00cc0b9dd36cb6c203" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>GetCurrentVelocityModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a6ca3823687f0c1bf3cf7b32cc9e7f438" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>GetCurrentVertAngleModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a56af5484be854614581de36a6796b619" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>lastRosPublishTime</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a1a5b927b9afa3ad9e0ec3f37e47e4f67" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>Load</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a9793daad3e5a3bbdff32f31faf4c714d" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>OnUpdateCurrentVel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a1349abdfb8b97ca86bdee32bbc6fddd1" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>rosNode</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a9ec4022645eac9fd1ca1f9d63b035e12" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>rosPublishConnection</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1aee023908d506f1a9f4f8a7b6b735cc9d" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>rosPublishPeriod</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a495903eb436982545dffaaf2ef685877" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UnderwaterCurrentROSPlugin</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1aa023f81b677c1599224b5cb61d2a998c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateCurrentHorzAngleModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a77152a67d11a9185b0caf2455afd5ce0" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateCurrentVelocity</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a703a1f33b7ba4a12bc337d01c923050c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateCurrentVelocityModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a027e73b225b807cb2dc75baf1de9ec8c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateCurrentVertAngleModel</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac0970ebff612f9682e833ad289698845" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateHorzAngle</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1ac1eabcb153dd2252519826766ac68252" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>UpdateVertAngle</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a2d4dd2eed1b5e2c0938cbd3f3f285a2f" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>worldServices</name></member>
+      <member refid="classuuv__simulator__ros_1_1_underwater_current_r_o_s_plugin_1a144781a36c5f5df6f71ffc43fc0a8eb1" prot="public" virt="virtual"><scope>uuv_simulator_ros::UnderwaterCurrentROSPlugin</scope><name>~UnderwaterCurrentROSPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

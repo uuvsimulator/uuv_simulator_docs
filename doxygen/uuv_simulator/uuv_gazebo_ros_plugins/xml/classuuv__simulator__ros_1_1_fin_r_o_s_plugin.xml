@@ -1,0 +1,316 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin" kind="class" language="C++" prot="public">
+    <compoundname>uuv_simulator_ros::FinROSPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">FinPlugin</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a8f3391ddeebd99253df82d716de930dc" prot="private" static="no" mutable="no">
+        <type>boost::scoped_ptr&lt; ros::NodeHandle &gt;</type>
+        <definition>boost::scoped_ptr&lt;ros::NodeHandle&gt; uuv_simulator_ros::FinROSPlugin::rosNode</definition>
+        <argsstring></argsstring>
+        <name>rosNode</name>
+        <briefdescription>
+<para>Pointer to this ROS node&apos;s handle. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="67" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a34ce97e912a8d8bc15a4b57f232aa085" prot="private" static="no" mutable="no">
+        <type>ros::Subscriber</type>
+        <definition>ros::Subscriber uuv_simulator_ros::FinROSPlugin::subReference</definition>
+        <argsstring></argsstring>
+        <name>subReference</name>
+        <briefdescription>
+<para>Subscriber reacting to new reference set points. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="70" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a86f9bac3d63f124b891859761c796bb9" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::FinROSPlugin::pubState</definition>
+        <argsstring></argsstring>
+        <name>pubState</name>
+        <briefdescription>
+<para>Publisher for current state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="73" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a23c8b6cdc707a36863c13c03696ecd10" prot="private" static="no" mutable="no">
+        <type>ros::Publisher</type>
+        <definition>ros::Publisher uuv_simulator_ros::FinROSPlugin::pubFinForce</definition>
+        <argsstring></argsstring>
+        <name>pubFinForce</name>
+        <briefdescription>
+<para>Publisher for current actual thrust. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="76" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a58070e5454b0c3a781c42271fb906329" prot="private" static="no" mutable="no">
+        <type>gazebo::event::ConnectionPtr</type>
+        <definition>gazebo::event::ConnectionPtr uuv_simulator_ros::FinROSPlugin::rosPublishConnection</definition>
+        <argsstring></argsstring>
+        <name>rosPublishConnection</name>
+        <briefdescription>
+<para>Connection for callbacks on update world. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="79" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ae9ee787b7a9d9df4559aa096e0edb56d" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::FinROSPlugin::rosPublishPeriod</definition>
+        <argsstring></argsstring>
+        <name>rosPublishPeriod</name>
+        <briefdescription>
+<para>Period after which we should publish a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="82" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a5e4416ecba8d6577533679c4e18bad83" prot="private" static="no" mutable="no">
+        <type>std::map&lt; std::string, ros::ServiceServer &gt;</type>
+        <definition>std::map&lt;std::string, ros::ServiceServer&gt; uuv_simulator_ros::FinROSPlugin::services</definition>
+        <argsstring></argsstring>
+        <name>services</name>
+        <briefdescription>
+<para>Map of services. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="85" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a8f4cfe11c85edd46c4f99ba4634350f8" prot="private" static="no" mutable="no">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::FinROSPlugin::lastRosPublishTime</definition>
+        <argsstring></argsstring>
+        <name>lastRosPublishTime</name>
+        <briefdescription>
+<para>Last time we published a message via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="88" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ab36ec9a6e6cf420763695f9e91cc155b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::FinROSPlugin::FinROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>FinROSPlugin</name>
+        <briefdescription>
+<para>Constrcutor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="34" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a424574c4b915a5af56a5c8daec47e626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>uuv_simulator_ros::FinROSPlugin::~FinROSPlugin</definition>
+        <argsstring>()</argsstring>
+        <name>~FinROSPlugin</name>
+        <briefdescription>
+<para>Destructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="37" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="35" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a0f70780cf0a115dc47cd4a21f6a62f60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::Load</definition>
+        <argsstring>(gazebo::physics::ModelPtr _parent, sdf::ElementPtr _sdf)</argsstring>
+        <name>Load</name>
+        <param>
+          <type>gazebo::physics::ModelPtr</type>
+          <declname>_parent</declname>
+        </param>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Load module and read parameters from SDF. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="40" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="87" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a2aa520188b885575965a7675f62d78c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::RosPublishStates</definition>
+        <argsstring>()</argsstring>
+        <name>RosPublishStates</name>
+        <briefdescription>
+<para>Publish state via ROS. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="43" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="146" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a09703d436ca89cd2c7c75d110cdc5b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::SetReference</definition>
+        <argsstring>(const uuv_gazebo_ros_plugins_msgs::FloatStamped::ConstPtr &amp;_msg)</argsstring>
+        <name>SetReference</name>
+        <param>
+          <type>const uuv_gazebo_ros_plugins_msgs::FloatStamped::ConstPtr &amp;</type>
+          <declname>_msg</declname>
+        </param>
+        <briefdescription>
+<para>Set new set point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="46" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="47" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ac5c561a272971295a1a0a2a79928732c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool uuv_simulator_ros::FinROSPlugin::GetLiftDragParams</definition>
+        <argsstring>(uuv_gazebo_ros_plugins_msgs::GetListParam::Request &amp;_req, uuv_gazebo_ros_plugins_msgs::GetListParam::Response &amp;_res)</argsstring>
+        <name>GetLiftDragParams</name>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetListParam::Request &amp;</type>
+          <declname>_req</declname>
+        </param>
+        <param>
+          <type>uuv_gazebo_ros_plugins_msgs::GetListParam::Response &amp;</type>
+          <declname>_res</declname>
+        </param>
+        <briefdescription>
+<para>Return the list of paramaters of the lift and drag model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="50" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="174" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1aba957637565587cf7fc8114e951024a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>gazebo::common::Time</type>
+        <definition>gazebo::common::Time uuv_simulator_ros::FinROSPlugin::GetRosPublishPeriod</definition>
+        <argsstring>()</argsstring>
+        <name>GetRosPublishPeriod</name>
+        <briefdescription>
+<para>Return the ROS publish period. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="55" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a2ad58a55300e951a3a3f4b2d7dd61133" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::SetRosPublishRate</definition>
+        <argsstring>(double _hz)</argsstring>
+        <name>SetRosPublishRate</name>
+        <param>
+          <type>double</type>
+          <declname>_hz</declname>
+        </param>
+        <briefdescription>
+<para>Set the ROS publish frequency (Hz). </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="58" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a3984861d97812ec447b20fd6edb90d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::Init</definition>
+        <argsstring>()</argsstring>
+        <name>Init</name>
+        <briefdescription>
+<para>Initialize Module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="61" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a423e0b46d5d38b327c6122ecd99665b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void uuv_simulator_ros::FinROSPlugin::Reset</definition>
+        <argsstring>()</argsstring>
+        <name>Reset</name>
+        <briefdescription>
+<para>Reset Module. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="64" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/FinROSPlugin.cc" bodystart="81" bodyend="84"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>gazebo::FinPlugin</label>
+      </node>
+      <node id="8">
+        <label>uuv_simulator_ros::FinROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>gazebo::FinPlugin</label>
+      </node>
+      <node id="10">
+        <label>uuv_simulator_ros::FinROSPlugin</label>
+        <link refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" line="32" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/FinROSPlugin.hh" bodystart="31" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ab36ec9a6e6cf420763695f9e91cc155b" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>FinROSPlugin</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ac5c561a272971295a1a0a2a79928732c" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>GetLiftDragParams</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1aba957637565587cf7fc8114e951024a8" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>GetRosPublishPeriod</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a3984861d97812ec447b20fd6edb90d26" prot="public" virt="virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>Init</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a8f4cfe11c85edd46c4f99ba4634350f8" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>lastRosPublishTime</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a0f70780cf0a115dc47cd4a21f6a62f60" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>Load</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a23c8b6cdc707a36863c13c03696ecd10" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>pubFinForce</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a86f9bac3d63f124b891859761c796bb9" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>pubState</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a423e0b46d5d38b327c6122ecd99665b4" prot="public" virt="virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>Reset</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a8f3391ddeebd99253df82d716de930dc" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>rosNode</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a58070e5454b0c3a781c42271fb906329" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>rosPublishConnection</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1ae9ee787b7a9d9df4559aa096e0edb56d" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>rosPublishPeriod</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a2aa520188b885575965a7675f62d78c8" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>RosPublishStates</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a5e4416ecba8d6577533679c4e18bad83" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>services</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a09703d436ca89cd2c7c75d110cdc5b7a" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>SetReference</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a2ad58a55300e951a3a3f4b2d7dd61133" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>SetRosPublishRate</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a34ce97e912a8d8bc15a4b57f232aa085" prot="private" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>subReference</name></member>
+      <member refid="classuuv__simulator__ros_1_1_fin_r_o_s_plugin_1a424574c4b915a5af56a5c8daec47e626" prot="public" virt="non-virtual"><scope>uuv_simulator_ros::FinROSPlugin</scope><name>~FinROSPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

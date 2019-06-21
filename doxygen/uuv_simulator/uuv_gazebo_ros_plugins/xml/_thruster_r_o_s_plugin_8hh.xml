@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_thruster_r_o_s_plugin_8hh" kind="file" language="C++">
+    <compoundname>ThrusterROSPlugin.hh</compoundname>
+    <includes local="no">map</includes>
+    <includes local="no">string</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">uuv_gazebo_plugins/ThrusterPlugin.hh</includes>
+    <includes local="no">boost/scoped_ptr.hpp</includes>
+    <includes local="no">gazebo/common/Plugin.hh</includes>
+    <includes local="no">ros/ros.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/FloatStamped.h</includes>
+    <includes local="no">geometry_msgs/WrenchStamped.h</includes>
+    <includes local="no">std_msgs/Bool.h</includes>
+    <includes local="no">std_msgs/Float64.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/SetThrusterState.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/GetThrusterState.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h</includes>
+    <includes local="no">uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h</includes>
+    <includedby refid="_thruster_r_o_s_plugin_8cc" local="no">/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/src/ThrusterROSPlugin.cc</includedby>
+    <incdepgraph>
+      <node id="61">
+        <label>geometry_msgs/WrenchStamped.h</label>
+      </node>
+      <node id="58">
+        <label>gazebo/common/Plugin.hh</label>
+      </node>
+      <node id="65">
+        <label>uuv_gazebo_ros_plugins_msgs/GetThrusterState.h</label>
+      </node>
+      <node id="60">
+        <label>uuv_gazebo_ros_plugins_msgs/FloatStamped.h</label>
+      </node>
+      <node id="62">
+        <label>std_msgs/Bool.h</label>
+      </node>
+      <node id="54">
+        <label>string</label>
+      </node>
+      <node id="56">
+        <label>uuv_gazebo_plugins/ThrusterPlugin.hh</label>
+      </node>
+      <node id="53">
+        <label>map</label>
+      </node>
+      <node id="64">
+        <label>uuv_gazebo_ros_plugins_msgs/SetThrusterState.h</label>
+      </node>
+      <node id="63">
+        <label>std_msgs/Float64.h</label>
+      </node>
+      <node id="52">
+        <label>/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh</label>
+        <link refid="_thruster_r_o_s_plugin_8hh"/>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>vector</label>
+      </node>
+      <node id="59">
+        <label>ros/ros.h</label>
+      </node>
+      <node id="68">
+        <label>uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h</label>
+      </node>
+      <node id="57">
+        <label>boost/scoped_ptr.hpp</label>
+      </node>
+      <node id="66">
+        <label>uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h</label>
+      </node>
+      <node id="67">
+        <label>uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin" prot="public">uuv_simulator_ros::ThrusterROSPlugin</innerclass>
+    <innernamespace refid="namespaceuuv__simulator__ros">uuv_simulator_ros</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2016<sp/>The<sp/>UUV<sp/>Simulator<sp/>Authors.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>All<sp/>rights<sp/>reserved.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Licensed<sp/>under<sp/>the<sp/>Apache<sp/>License,<sp/>Version<sp/>2.0<sp/>(the<sp/>&quot;License&quot;);</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>you<sp/>may<sp/>not<sp/>use<sp/>this<sp/>file<sp/>except<sp/>in<sp/>compliance<sp/>with<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>You<sp/>may<sp/>obtain<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>License<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>http://www.apache.org/licenses/LICENSE-2.0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Unless<sp/>required<sp/>by<sp/>applicable<sp/>law<sp/>or<sp/>agreed<sp/>to<sp/>in<sp/>writing,<sp/>software</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distributed<sp/>under<sp/>the<sp/>License<sp/>is<sp/>distributed<sp/>on<sp/>an<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>WITHOUT<sp/>WARRANTIES<sp/>OR<sp/>CONDITIONS<sp/>OF<sp/>ANY<sp/>KIND,<sp/>either<sp/>express<sp/>or<sp/>implied.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>See<sp/>the<sp/>License<sp/>for<sp/>the<sp/>specific<sp/>language<sp/>governing<sp/>permissions<sp/>and</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limitations<sp/>under<sp/>the<sp/>License.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__THRUSTER_ROS_PLUGIN_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__THRUSTER_ROS_PLUGIN_HH__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;map&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_plugins/ThrusterPlugin.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/scoped_ptr.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;gazebo/common/Plugin.hh&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ros/ros.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/FloatStamped.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;geometry_msgs/WrenchStamped.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;std_msgs/Bool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;std_msgs/Float64.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/SetThrusterState.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/GetThrusterState.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceuuv__simulator__ros" kindref="compound">uuv_simulator_ros</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41" refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin" refkind="compound"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin" kindref="compound">ThrusterROSPlugin</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>gazebo::ThrusterPlugin</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a96d5b46e81d42adc6f1bedc129b56a92" kindref="member">ThrusterROSPlugin</ref>();</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a25fab91375decd55eec8a8ee3bd4079e" kindref="member">~ThrusterROSPlugin</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab1b70d05c87212176d1237817bf9ddf5" kindref="member">Load</ref>(gazebo::physics::ModelPtr<sp/>_parent,<sp/>sdf::ElementPtr<sp/>_sdf);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ab3d7f21cabcbb88d9551860182e50096" kindref="member">RosPublishStates</ref>();</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ac3f8c621ead1c6fe22809c3abf284a68" kindref="member">SetThrustReference</ref>(</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uuv_gazebo_ros_plugins_msgs::FloatStamped::ConstPtr<sp/>&amp;_msg);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/>gazebo::common::Time<sp/><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a61b52a4fbc5871061f3b8f4639596e32" kindref="member">GetRosPublishPeriod</ref>();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1adb8206d74cba2e15a209db4284198db8" kindref="member">SetRosPublishRate</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>_hz);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a670f0befa3efac82bcff5d187fe6cbb3" kindref="member">Init</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a525a9a8ea9be37c4542137640c4a2fbc" kindref="member">Reset</ref>();</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a9d65e6dda76939e59df4b18226f893b0" kindref="member">SetThrustForceEfficiency</ref>(</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a4a73039a9b93090462da51189a83b85b" kindref="member">GetThrustForceEfficiency</ref>(</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a10f86f23ba017986e816a83dbd217a5a" kindref="member">SetDynamicStateEfficiency</ref>(</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterEfficiency::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a585e5327b2d1fd93d8bacce6e95e623c" kindref="member">GetDynamicStateEfficiency</ref>(</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterEfficiency::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1ad8b0158748c2ae0950851e257d811988" kindref="member">SetThrusterState</ref>(</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterState::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::SetThrusterState::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1a03f9489a29bf669efb23ecc9df28f95b" kindref="member">GetThrusterState</ref>(</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterState::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterState::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classuuv__simulator__ros_1_1_thruster_r_o_s_plugin_1af012be49e3598405ceb764190838789c" kindref="member">GetThrusterConversionFcn</ref>(</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Request&amp;<sp/>_req,</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>uuv_gazebo_ros_plugins_msgs::GetThrusterConversionFcn::Response&amp;<sp/>_res);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>std::map&lt;std::string,<sp/>ros::ServiceServer&gt;<sp/>services;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>boost::scoped_ptr&lt;ros::NodeHandle&gt;<sp/>rosNode;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Subscriber<sp/>subThrustReference;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Publisher<sp/>pubThrust;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Publisher<sp/>pubThrustWrench;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Publisher<sp/>pubThrusterState;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Publisher<sp/>pubThrustForceEff;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>ros::Publisher<sp/>pubDynamicStateEff;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>gazebo::event::ConnectionPtr<sp/>rosPublishConnection;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>gazebo::common::Time<sp/>rosPublishPeriod;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal">:<sp/>gazebo::common::Time<sp/>lastRosPublishTime;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/>//<sp/>__THRUSTER_ROS_PLUGIN_HH__</highlight></codeline>
+    </programlisting>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_ros_plugins/include/uuv_gazebo_ros_plugins/ThrusterROSPlugin.hh"/>
+  </compounddef>
+</doxygen>

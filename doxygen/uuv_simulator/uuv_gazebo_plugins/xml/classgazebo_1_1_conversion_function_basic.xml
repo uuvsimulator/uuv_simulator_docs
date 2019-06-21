@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgazebo_1_1_conversion_function_basic" kind="class" language="C++" prot="public">
+    <compoundname>gazebo::ConversionFunctionBasic</compoundname>
+    <basecompoundref refid="classgazebo_1_1_conversion_function" prot="public" virt="non-virtual">gazebo::ConversionFunction</basecompoundref>
+    <includes refid="_thruster_conversion_fcn_8hh" local="no">ThrusterConversionFcn.hh</includes>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_conversion_function_basic_1aeb1f1c7f7c8f27d8abd47224fcda456b" prot="private" static="yes" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string gazebo::ConversionFunctionBasic::IDENTIFIER</definition>
+        <argsstring></argsstring>
+        <name>IDENTIFIER</name>
+        <initializer>= &quot;Basic&quot;</initializer>
+        <briefdescription>
+<para>The unique identifier of this conversion function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="110" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgazebo_1_1_conversion_function_basic_1abdf5701a85c00966ae5c44a6415672ac" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gazebo::ConversionFunctionBasic::rotorConstant</definition>
+        <argsstring></argsstring>
+        <name>rotorConstant</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="114" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a9f93dad90325e745d6fa34bedd9cfb21" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref> *</type>
+        <definition>static ConversionFunction* gazebo::ConversionFunctionBasic::create</definition>
+        <argsstring>(sdf::ElementPtr _sdf)</argsstring>
+        <name>create</name>
+        <param>
+          <type>sdf::ElementPtr</type>
+          <declname>_sdf</declname>
+        </param>
+        <briefdescription>
+<para>Create a <ref refid="classgazebo_1_1_conversion_function" kindref="compound">ConversionFunction</ref> object according to its sdf Description. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a2ce48db471c7706abede19a724ef08fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string gazebo::ConversionFunctionBasic::GetType</definition>
+        <argsstring>()</argsstring>
+        <name>GetType</name>
+        <reimplements refid="classgazebo_1_1_conversion_function_1ac0d2640de379ea86c087491c70bc6189">GetType</reimplements>
+        <briefdescription>
+<para>Return (derived) type of conversion function. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="98" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="98" bodyend="98"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a943dbcaa6720093a775ebb7f3a1e3bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool gazebo::ConversionFunctionBasic::GetParam</definition>
+        <argsstring>(std::string _tag, double &amp;_output)</argsstring>
+        <name>GetParam</name>
+        <reimplements refid="classgazebo_1_1_conversion_function_1a18c78fd782a8603afa893adc2a26f1a4">GetParam</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>_tag</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>_output</declname>
+        </param>
+        <briefdescription>
+<para>Return paramater in scalar form for the given tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="101" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn.cc" bodystart="93" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a8f10f33118aeda7560214d915cee892e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double gazebo::ConversionFunctionBasic::convert</definition>
+        <argsstring>(double _cmd)</argsstring>
+        <name>convert</name>
+        <reimplements refid="classgazebo_1_1_conversion_function_1ac71ae91ae6e91ae177b8255477a2b950">convert</reimplements>
+        <param>
+          <type>double</type>
+          <declname>_cmd</declname>
+        </param>
+        <briefdescription>
+<para>Convert thruster state (e.g. angular velocity) to thrust force. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="104" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn.cc" bodystart="87" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a901c1ae9f3da58e006bf03ee97061a0f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::ConversionFunctionBasic::REGISTER_CONVERSIONFUNCTION</definition>
+        <argsstring>(ConversionFunctionBasic)</argsstring>
+        <name>REGISTER_CONVERSIONFUNCTION</name>
+        <param>
+          <type><ref refid="classgazebo_1_1_conversion_function_basic" kindref="compound">ConversionFunctionBasic</ref></type>
+        </param>
+        <briefdescription>
+<para>Register this conversion function with the factory. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="107" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgazebo_1_1_conversion_function_basic_1a88ec34aeb29fb684979e71e83dfa593d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gazebo::ConversionFunctionBasic::ConversionFunctionBasic</definition>
+        <argsstring>(double _rotorConstant)</argsstring>
+        <name>ConversionFunctionBasic</name>
+        <param>
+          <type>double</type>
+          <declname>_rotorConstant</declname>
+        </param>
+        <briefdescription>
+<para>Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="113" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/src/ThrusterConversionFcn.cc" bodystart="107" bodyend="113"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The most basic conversion function: Thrust = const.*w*abs(w) This corresponds to what is attrributed to Yoerger et al. and called Model 1 in Bessa et al.: Dynamic Positioning of Underwater Robotic Vehicles with Thruster <ref refid="classgazebo_1_1_dynamics" kindref="compound">Dynamics</ref> Compensation. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="14">
+        <label>gazebo::ConversionFunction</label>
+        <link refid="classgazebo_1_1_conversion_function"/>
+      </node>
+      <node id="13">
+        <label>gazebo::ConversionFunctionBasic</label>
+        <link refid="classgazebo_1_1_conversion_function_basic"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gazebo::ConversionFunction</label>
+        <link refid="classgazebo_1_1_conversion_function"/>
+      </node>
+      <node id="15">
+        <label>gazebo::ConversionFunctionBasic</label>
+        <link refid="classgazebo_1_1_conversion_function_basic"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" line="93" column="1" bodyfile="/home/musamorena/catkin_ws/src/uuv_simulator/uuv_gazebo_plugins/uuv_gazebo_plugins/include/uuv_gazebo_plugins/ThrusterConversionFcn.hh" bodystart="92" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classgazebo_1_1_conversion_function_1a70689912f6f1f316a84f2dea2e10050d" prot="protected" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>ConversionFunction</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a88ec34aeb29fb684979e71e83dfa593d" prot="private" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>ConversionFunctionBasic</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a8f10f33118aeda7560214d915cee892e" prot="public" virt="virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>convert</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a9f93dad90325e745d6fa34bedd9cfb21" prot="public" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>create</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a943dbcaa6720093a775ebb7f3a1e3bea" prot="public" virt="virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>GetParam</name></member>
+      <member refid="classgazebo_1_1_conversion_function_1a9e0c3b99751eeaf95f96dd49ed0351a2" prot="public" virt="virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>GetTable</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a2ce48db471c7706abede19a724ef08fe" prot="public" virt="virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>GetType</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1aeb1f1c7f7c8f27d8abd47224fcda456b" prot="private" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>IDENTIFIER</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1a901c1ae9f3da58e006bf03ee97061a0f" prot="private" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>REGISTER_CONVERSIONFUNCTION</name></member>
+      <member refid="classgazebo_1_1_conversion_function_basic_1abdf5701a85c00966ae5c44a6415672ac" prot="private" virt="non-virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>rotorConstant</name></member>
+      <member refid="classgazebo_1_1_conversion_function_1afc13b3997ac95f70425ec5fc830d927c" prot="public" virt="virtual"><scope>gazebo::ConversionFunctionBasic</scope><name>~ConversionFunction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
